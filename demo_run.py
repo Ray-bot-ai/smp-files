@@ -254,12 +254,67 @@ def run_ocr(workers=8):
               f"{time.time()-t0:.0f}s，in={tin} out={tout}{flag}", flush=True)
 
 
+MAX_ZH_TRIES = 2
+
+
+def _missing_zh(doc):
+    """已转录、且不是中文原件、却没有译文的页 —— 翻译阶段的静默缺口。
+
+    成因：整块译时模型偶尔吞掉 ⟦p数字⟧ 页码标记，拆块回填时那一页就对不上，
+    于是 zh 被写成空字符串。原代码**发现了**（会打印「⚠ 缺 N 页」）却不补，
+    而续传判据看的是 `zh_pages` 有没有值——有值就整件跳过，缺口于是永久留下。
+    这是「按有记录跳过、而非按成功跳过」这个坑在本项目第三次复发。
+    """
+    out = []
+    for q in doc.get("page_data", []):
+        en = (q.get("en") or "").strip()
+        if not en or is_chinese(en):
+            continue
+        if not (q.get("zh") or "").strip():
+            out.append(q["n"])
+    return out
+
+
+def _fill_missing_zh(path, doc, missing):
+    """只补缺口，逐页单译，不整件重译（重译要花同样的钱换同一批译文）。"""
+    by = {q["n"]: q for q in doc["page_data"]}
+    filled = zin = zout = 0
+    for n in missing:
+        q = by.get(n)
+        if q is None or q.get("zh_tries", 0) >= MAX_ZH_TRIES:
+            continue
+        q["zh_tries"] = q.get("zh_tries", 0) + 1
+        d, err = call([{"role": "user", "content":
+                        TRANS_PROMPT + "\n\n---\n\n⟦p%d⟧\n%s" % (n, q["en"])}],
+                      max_tokens=16000)
+        if err:
+            continue
+        z = d["choices"][0]["message"]["content"]
+        zin += d["usage"]["prompt_tokens"]; zout += d["usage"]["completion_tokens"]
+        z = re.sub(r"⟦p\d+⟧", "", z).strip()
+        if not z or degenerate(z, len(q["en"])):
+            continue
+        q["zh"] = z; filled += 1
+    if filled:
+        doc["zh_pages"] = sum(1 for q in doc["page_data"] if (q.get("zh") or "").strip())
+        doc.setdefault("meta", {})
+        doc["meta"]["zh_in_tokens"] = doc["meta"].get("zh_in_tokens", 0) + zin
+        doc["meta"]["zh_out_tokens"] = doc["meta"].get("zh_out_tokens", 0) + zout
+        json.dump(doc, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"{doc['ia_id']}: 补译缺口 {filled}/{len(missing)} 页", flush=True)
+    return filled
+
+
 def _translate_one(iid):
     p = os.path.join(DATA, f"{iid}.json")
     if not os.path.exists(p):
         return
     doc = json.load(open(p, encoding="utf-8"))
     if doc.get("zh_pages") or doc.get("native_zh_pages"):
+        # 译过了：只看还有没有缺口，有就补，没有才真跳过。
+        miss = _missing_zh(doc)
+        if miss:
+            _fill_missing_zh(p, doc, miss)
         return
     # 分块译：整件一次译会超 max_tokens 被静默截断（本项目最大一件英文就有
     # 2.2 万 output token，中文只多不少）。按累计字符切块，块内保持上下文连续。
@@ -350,6 +405,11 @@ def _translate_one(iid):
           f"{f'（另 {len(native_zh)} 页原文即中文）' if native_zh else ''}"
           f"（{len(chunks)} 块）{'' if not miss else f' ⚠ 缺 {miss} 页'}"
           f"{'' if not err else ' ' + err}，{time.time()-t0:.0f}s", flush=True)
+    # 缺口当场补掉。原先只打印「⚠ 缺 N 页」就收工，而下次运行会因为
+    # zh_pages 已有值整件跳过——那 N 页于是永远没有译文，且没有任何报错。
+    gap = _missing_zh(doc)
+    if gap:
+        _fill_missing_zh(p, doc, gap)
 
 
 
