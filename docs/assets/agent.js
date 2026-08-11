@@ -69,7 +69,7 @@ const TOOL_DEF = [{
       type: "object",
       properties: {
         query: { type: "string", description: "检索词。一次只给一个词或短语；给多个词是 AND 取交集，会大幅缩小结果。" },
-        limit: { type: "integer", description: "返回多少条片段，默认 8，最大 20" }
+        limit: { type: "integer", description: "返回多少条片段，默认 12，最大 30" }
       },
       required: ["query"]
     }
@@ -79,7 +79,7 @@ const TOOL_DEF = [{
 /* 工具实现：调用本站已有的检索索引 */
 async function toolSearch(args) {
   const q = (args.query || "").trim();
-  const limit = Math.min(args.limit || 8, 20);
+  const limit = Math.min(args.limit || 12, 30);
   if (!q) return { error: "query 为空" };
   const { toks, hits } = await search(q);
   const nPages = hits.reduce((a, h) => a + h.pages.length, 0);

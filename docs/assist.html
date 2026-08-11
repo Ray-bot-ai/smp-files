@@ -61,15 +61,11 @@
 
 <div class="wrap" style="max-width:60rem">
   <h1 class="pt">AI research agent<span class="zh">AI 联想检索 · 多轮推导</span></h1>
-  <p class="sub">These files spell Chinese names as the constables heard them — 蒋介石 appears as
-    <i>Chiang Kai-shek</i>, <i>Kai shek</i>, <i>Chiang Kaishek</i>; 闸北 as <i>Chapei</i>.
-    A plain search misses most of them. This page runs a language model as a research agent:
-    it translates your question into the constabulary's own vocabulary, searches, <b>reads what
-    comes back, finds new terms in it and searches again</b> — several rounds — then judges
-    which results are actually relevant and summarises them. Its reasoning is shown as it works.
-    <span class="zh">这批档案按巡捕听到的读音拼写中文名——蒋介石写作 Chiang Kai-shek、
-      Kai shek、Chiang Kaishek，闸北写作 Chapei。直接检索会漏掉大半。
-      本页把大模型当作检索助手运行：它先把你的问题翻译成巡捕房自己的用语，检索，
+  <p class="sub">Ask a research question in plain language. A language model translates it into
+    the constabulary's own vocabulary, searches, <b>reads what comes back, finds new terms in it
+    and searches again</b> — several rounds — then judges which results are actually relevant and
+    summarises them. Its reasoning is shown as it works.
+    <span class="zh">用一句话描述你的研究需求。模型会把它翻译成巡捕房自己的用语，检索，
       <b>读回命中的内容、从中发现新词、再检索</b>——迭代数轮——最后判断哪些真正相关并汇总。
       过程中的思考实时展示。</span></p>
 
@@ -89,34 +85,12 @@
     </div>
     <div class="row">
       <select id="think" style="min-width:26rem">
-        <option value="off">思考：关闭 — 查具体人名地名时用 · Off — for a specific name or place</option>
+        <option value="off">思考：关闭 · Thinking off</option>
         <option value="short">思考：简短 · Brief thinking</option>
-        <option value="deep">思考：深入 — 提开放性问题时用 · Deep — for open-ended questions</option>
+        <option value="deep">思考：深入 · Deep thinking</option>
       </select>
     </div>
-    <p class="priv" style="margin-top:.5rem">
-      <b>It depends on what you are asking, and we measured both cases.</b><br>
-      <b>Naming a person, place or organisation → keep thinking off.</b> This is recall, not
-      reasoning; when the model reasons it tends to derive Wade-Giles systematically and lose
-      the spelling actually used. Asked about 小沙渡, thinking-off returned
-      <i>Shawell Road</i> — the name the SMP itself used — while both thinking modes returned
-      only <i>Hsiao-sha-tu</i> variants and missed it.<br>
-      <b>Asking an open-ended question → turn thinking on.</b> Here reasoning earns its keep:
-      asked how the Council handled strikes, or what daily friction there was between foreign
-      and Chinese residents, thinking surfaced the constabulary's own vocabulary —
-      <i>affray</i>, <i>ratepayers</i>, <i>suppression</i>, 斗殴 — which the fast mode missed.
-      In the pages transcribed so far <i>affray</i> alone appears on 25.<br>
-      Thinking costs roughly 10× more and takes 6–8× longer.
-      <span class="zh" style="display:block;margin-top:.5rem">
-        <b>取决于你问的是什么，两种情形我们都实测过。</b><br>
-        <b>问具体人名、地名、机构 → 关闭思考。</b>这考的是回忆而非推理；模型一思考就去
-        系统推导威妥玛拼音，反而丢掉档案真正用过的写法。实测查「小沙渡」，关闭思考给出
-        <i>Shawell Road</i>（SMP 自己的称呼），两档思考模式都只给 <i>Hsiao-sha-tu</i> 系列而漏掉。<br>
-        <b>提开放性问题 → 开启思考。</b>此时推理确有价值：问「工部局如何应对罢工」
-        「华洋居民之间有哪些日常摩擦」，思考模式给出了巡捕房自己的行话——
-        <i>affray</i>（斗殴）、<i>ratepayers</i>（纳税人会）、<i>suppression</i>、斗殴——
-        这些是快速模式想不到的。已转录页面中仅 <i>affray</i> 就命中 25 页。<br>
-        思考约多花 10 倍费用、6–8 倍时间。</span></p>
+
     <p class="priv">
       <b>The key is stored only in your own browser (localStorage) and is sent only to the
       endpoint you choose above.</b> This site is a set of static files on GitHub Pages — it
@@ -296,14 +270,16 @@ async function run(){
         nTool++;
         const r = ev.result || {};
         (r.samples||[]).forEach(s0 => (s0.pages_matched||0) && allPages.add(s0.doc_id+'#'+s0.first_page));
-        const li = (r.samples||[]).slice(0,4).map(s0 =>
+        const li = (r.samples||[]).slice(0,12).map(s0 =>
           `<li><a href="file.html?id=${s0.doc_id}&p=${s0.first_page-1}&q=${encodeURIComponent(ev.query)}">${s0.file}</a>
            <span class="n">p${s0.first_page} · 命中 ${s0.pages_matched} 页</span></li>`).join('');
         tools.insertAdjacentHTML('beforeend',
           `<div class="tool">🔎 <b>${ev.query}</b>
              <span class="n">${r.total_pages||0} 页 / ${r.total_files||0} 件${
                r.tokenised_as? ' · 切分 '+r.tokenised_as.join(' '):''}</span>
-             ${li?`<ul>${li}</ul>`:'<ul><li class="n">无命中</li></ul>'}</div>`);
+             ${li?`<ul>${li}</ul>`:'<ul><li class="n">无命中 no match</li></ul>'}
+             ${(r.total_files||0) > (r.samples||[]).length
+               ? `<div class="n" style="margin-top:.3rem">…另有 ${r.total_files-(r.samples||[]).length} 件未列出（模型看到的是同一批样本）</div>` : ''}</div>`);
       }
       else if (ev.type === 'error') { st.innerHTML = '✗ ' + ev.text; }
       else if (ev.type === 'done') {
