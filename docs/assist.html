@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI-assisted search AI 联想检索 · Shanghai Municipal Police Files</title>
+<meta name="description" content="Expand a query into the period romanisations and related terms actually used in these files, then search them all. Bring your own API key — it stays in your browser.">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Archivo:wght@600&family=Noto+Serif+SC:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/app.css">
+<style>
+.kbox{background:var(--card);border:1px solid var(--rule);padding:1.1rem 1.3rem;margin:0 0 1.6rem}
+.kbox summary{cursor:pointer;font-family:var(--label);font-size:.68rem;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--stamp)}
+.kbox .row{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.9rem}
+.kbox input,.kbox select{border:1px solid var(--rule);background:#fff;padding:.55rem .7rem;
+  font:400 .92rem var(--serif);color:var(--body);border-radius:2px}
+.kbox input[type=password]{flex:1;min-width:16rem}
+.kbox label{font-size:.8rem;color:var(--muted);display:block;margin-top:.8rem}
+.priv{font-size:.84rem;color:var(--muted);line-height:1.7;margin-top:.9rem}
+.priv b{color:var(--ink)}
+.terms{display:flex;flex-wrap:wrap;gap:.4rem;margin:1rem 0 1.4rem}
+.terms span{border:1px solid var(--rule);background:var(--card);padding:.25rem .6rem;
+  font-size:.86rem;border-radius:2px}
+.terms span.hit{border-color:var(--stamp);color:var(--stamp)}
+.terms span.miss{opacity:.45;text-decoration:line-through}
+.why{font-size:.86rem;color:var(--muted);line-height:1.7;background:var(--card);
+  border-left:3px solid var(--brass);padding:.8rem 1rem;margin:0 0 1.4rem}
+</style>
+</head>
+<body>
+<header class="bar"><div class="in">
+  <a class="brand" href="index.html"><b>Shanghai Municipal Police Files</b><span>1894–1949</span></a>
+  <nav>
+    <a href="search.html">检索 Search</a>
+    <a href="assist.html" aria-current="page">联想 AI search</a>
+    <a href="browse.html">目录 Catalogue</a>
+    <a href="quality.html">质量 Quality</a>
+  </nav>
+</div></header>
+
+<div class="wrap" style="max-width:60rem">
+  <h1 class="pt">AI-assisted search<span class="zh">AI 联想检索</span></h1>
+  <p class="sub">These files spell Chinese names as the constables heard them — 蒋介石 appears as
+    <i>Chiang Kai-shek</i>, <i>Kai shek</i>, <i>Chiang Kaishek</i>; 闸北 as <i>Chapei</i>.
+    A plain search misses most of them. This page asks a language model to expand your query
+    into the spellings actually used, then searches every one.
+    <span class="zh">这批档案按巡捕听到的读音拼写中文名——蒋介石写作 Chiang Kai-shek、
+      Kai shek、Chiang Kaishek，闸北写作 Chapei。直接检索会漏掉大半。
+      本页让大模型把你的提问扩展成档案里真实使用的拼法，再逐一检索。</span></p>
+
+  <details class="kbox" id="cfg" open>
+    <summary>Your API key 你的 API 密钥</summary>
+    <div class="row">
+      <select id="prov">
+        <option value="dashscope">阿里云百炼 DashScope</option>
+        <option value="openai">OpenAI</option>
+        <option value="custom">自定义 OpenAI 兼容端点 Custom</option>
+      </select>
+      <input id="model" placeholder="model" style="width:12rem">
+      <input id="key" type="password" placeholder="sk-…">
+    </div>
+    <div class="row" id="baserow" style="display:none">
+      <input id="base" placeholder="https://…/v1" style="flex:1;min-width:20rem">
+    </div>
+    <p class="priv">
+      <b>The key is stored only in your own browser (localStorage) and is sent only to the
+      endpoint you choose above.</b> This site is a set of static files on GitHub Pages — it
+      has no server and cannot receive your key. Nothing you type here reaches the site's
+      author. You can clear it at any time with the button below.
+      <span class="zh" style="display:block;margin-top:.5rem">
+        <b>密钥只存在你自己的浏览器里（localStorage），只会发往你上面选定的端点。</b>
+        本站是 GitHub Pages 上的一组静态文件，没有服务器，收不到你的密钥；
+        你在这里输入的任何内容都不会到达本站作者。可随时用下面的按钮清除。</span>
+    </p>
+    <div class="row">
+      <button id="save" style="border:0;background:var(--ink);color:var(--paper);
+        padding:.55rem 1.2rem;font:600 .7rem var(--label);letter-spacing:.14em;cursor:pointer">
+        保存 Save</button>
+      <button id="clear" style="border:1px solid var(--rule);background:transparent;
+        color:var(--muted);padding:.55rem 1.2rem;font:600 .7rem var(--label);
+        letter-spacing:.14em;cursor:pointer">清除密钥 Clear key</button>
+    </div>
+  </details>
+
+  <div class="searchbox">
+    <input id="q" placeholder="蒋介石 / 五卅惨案 / Chinese Communist Party in Chapei / 复旦大学学生运动">
+    <button id="go">Expand &amp; search</button>
+  </div>
+  <p class="hint">
+    试试 try
+    <code data-q="蒋介石">蒋介石</code>
+    <code data-q="瞿秋白">瞿秋白</code>
+    <code data-q="五卅运动">五卅运动</code>
+    <code data-q="闸北的共产党活动">闸北的共产党活动</code>
+    <code data-q="复旦大学学生">复旦大学学生</code>
+  </p>
+
+  <div id="out"></div>
+</div>
+
+<footer class="ft"><div class="in">
+  <span>Machine-generated transcription — verify against the scan before citing</span>
+  <span class="zh">转录由大模型生成，引用前请核对原件影像</span>
+</div></footer>
+
+<script src="assets/search.js"></script>
+<script>
+const $ = s => document.querySelector(s);
+const CFG = 'smp-assist-cfg';
+const DEF = {
+  dashscope: {base:'https://dashscope.aliyuncs.com/compatible-mode/v1', model:'qwen3.7-plus'},
+  openai:    {base:'https://api.openai.com/v1', model:'gpt-4o-mini'},
+  custom:    {base:'', model:''}
+};
+
+function loadCfg(){
+  const c = JSON.parse(localStorage.getItem(CFG) || '{}');
+  $('#prov').value = c.prov || 'dashscope';
+  onProv();
+  if (c.model) $('#model').value = c.model;
+  if (c.base) $('#base').value = c.base;
+  if (c.key) { $('#key').value = c.key; $('#cfg').open = false; }
+}
+function onProv(){
+  const p = $('#prov').value;
+  $('#baserow').style.display = p === 'custom' ? 'flex' : 'none';
+  $('#model').value = DEF[p].model;
+  if (p !== 'custom') $('#base').value = DEF[p].base;
+}
+$('#prov').onchange = onProv;
+$('#save').onclick = () => {
+  localStorage.setItem(CFG, JSON.stringify({prov:$('#prov').value, model:$('#model').value,
+    base:$('#base').value, key:$('#key').value}));
+  $('#cfg').open = false;
+  $('#out').innerHTML = '<p class="spin">已保存到本浏览器 Saved in this browser.</p>';
+};
+$('#clear').onclick = () => { localStorage.removeItem(CFG); $('#key').value=''; $('#cfg').open=true;
+  $('#out').innerHTML = '<p class="spin">已清除 Key cleared.</p>'; };
+
+const SYS = `You expand search queries for the Shanghai Municipal Police Files (1894–1949),
+English-language police reports from the Shanghai International Settlement.
+
+Chinese names in these files are romanised ad hoc, by ear, in Shanghainese or other dialects,
+decades before pinyin. Wade-Giles, postal romanisation and idiosyncratic spellings all occur,
+often several within one file.
+
+Given a query, return the search terms most likely to appear VERBATIM in these documents.
+Rules:
+- Give period romanisations, not pinyin. Postal/Shanghainese forms often insert an -h-
+  or drop syllables. Attested spellings from these very files:
+  蒋介石 → "Chiang Kai-shek", "Kai shek"; 闸北 → "Chapei"; 南市 → "Nantao";
+  虹口 → "Hongkew"; 浦东 → "Pootung"; 吴淞 → "Woosung"; 江苏 → "Kiangsu";
+  浙江 → "Chekiang"; 苏州 → "Soochow"; 复旦 → "Fuhtan"; 交通大学 → "Chiaotung";
+  瞿秋白 → "Chu Chiu-pai", "Jui Tsiu Bah"; 于右任 → "Yu Yue Jen"; 邵力子 → "Zao Lih tsz".
+  Prefer this style of spelling over modern pinyin — pinyin will not appear in the documents.
+- Include the English institutional vocabulary the police themselves used
+  ("Special Branch", "agitator", "seditious", "Kuomintang", "Third International").
+- Include the Chinese characters too — some enclosures in these files are in Chinese.
+- 8 to 14 terms. Single words or short phrases only. No explanation.
+Return ONLY a JSON array of strings.`;
+
+async function expand(q){
+  const c = JSON.parse(localStorage.getItem(CFG) || '{}');
+  if (!c.key) throw new Error('尚未填写 API 密钥 · no API key set');
+  const r = await fetch((c.base || DEF[c.prov||'dashscope'].base) + '/chat/completions', {
+    method:'POST',
+    headers:{'Content-Type':'application/json', 'Authorization':'Bearer ' + c.key},
+    body: JSON.stringify({
+      model: c.model || DEF[c.prov||'dashscope'].model,
+      temperature: 0.3, max_tokens: 600, enable_thinking: false,
+      messages:[{role:'system',content:SYS},{role:'user',content:q}]
+    })
+  });
+  const d = await r.json();
+  if (d.error) throw new Error(d.error.message || JSON.stringify(d.error));
+  const txt = d.choices[0].message.content;
+  const m = txt.match(/\[[\s\S]*\]/);
+  if (!m) throw new Error('模型未返回 JSON 数组：' + txt.slice(0, 120));
+  return JSON.parse(m[0]).filter(x => typeof x === 'string' && x.trim()).slice(0, 16);
+}
+
+async function run(){
+  const q = $('#q').value.trim();
+  if (!q) return;
+  $('#out').innerHTML = '<p class="spin">正在扩展检索词… Expanding query…</p>';
+  let terms;
+  try { terms = await expand(q); }
+  catch (e) { $('#out').innerHTML = `<p class="spin">✗ ${e.message}</p>`; $('#cfg').open = true; return; }
+
+  await loadNorm();
+  const cat = await loadCatalog();
+  const per = [];
+  for (const t of terms) {
+    const { hits } = await search(t);
+    per.push({t, hits, n: hits.reduce((a,h)=>a+h.pages.length,0)});
+  }
+  per.sort((a,b)=>b.n-a.n);
+
+  // 合并：一页被多少个词命中 → 排序依据（命中词越多越可能真相关）
+  const page2terms = {};
+  for (const {t, hits} of per)
+    for (const h of hits)
+      for (const p of h.pages) (page2terms[h.doc+'#'+p] ||= []).push(t);
+  const byDoc = {};
+  for (const [k, ts] of Object.entries(page2terms)) {
+    const [doc, p] = k.split('#');
+    (byDoc[doc] ||= []).push({p:+p, ts});
+  }
+  const docs = Object.entries(byDoc).map(([doc, ps]) => ({
+    doc, ps: ps.sort((a,b)=>b.ts.length-a.ts.length),
+    score: ps.reduce((a,x)=>a+x.ts.length,0)
+  })).sort((a,b)=>b.score-a.score);
+
+  const tot = Object.keys(page2terms).length;
+  let html = `<div class="why">
+    模型把你的提问扩展成下列检索词，逐一在已转录的 ${fmt(cat.done_pages)} 页中检索并合并结果。
+    <b>命中词数越多的页越靠前</b>——单个拼法可能碰巧撞上，多个同时命中才说明真相关。
+    <span class="zh" style="display:block;margin-top:.4rem">The model expanded your query into
+    the terms below, searched each across ${fmt(cat.done_pages)} transcribed pages and merged
+    the results. Pages matching more terms rank higher.</span></div>
+    <div class="terms">${per.map(x =>
+      `<span class="${x.n?'hit':'miss'}" title="${x.n} 页">${x.t}${x.n?` · ${x.n}`:''}</span>`).join('')}</div>`;
+
+  if (!tot) { $('#out').innerHTML = html + '<p class="spin">全部检索词均未命中。目前只有部分卷宗已转录。</p>'; return; }
+  html += `<p class="hint">合并后命中 <b>${fmt(tot)}</b> 页，分布在 <b>${docs.length}</b> 件卷宗</p><div class="res">`;
+  $('#out').innerHTML = html + '</div>';
+
+  const parts = [html];
+  for (const d of docs.slice(0, 30)) {
+    const doc = await getDoc(d.doc);
+    const byN = Object.fromEntries(doc.pages.map(p=>[p.n,p]));
+    parts.push(`<div class="it">
+      <div class="ti"><a href="file.html?id=${d.doc}&q=${encodeURIComponent(d.ps[0].ts[0])}">${doc.t}</a></div>
+      <div class="mt">${doc.s ? doc.s+' 系列 series · ':''}${doc.p} 页 pages · 命中 ${d.ps.length} 页 matched</div>
+      ${d.ps.slice(0,2).map(x => {
+        const pg = byN[x.p] || {};
+        const key = x.ts[0];
+        const body = hasMatch(pg.en, key) ? snippet(pg.en, key) : snippet(pg.zh || pg.en, key);
+        return `<div class="sn"><a class="pg" href="file.html?id=${d.doc}&p=${x.p}&q=${encodeURIComponent(key)}">p${x.p+1}</a>
+          <span class="muted" style="font-size:.8rem">[${x.ts.slice(0,3).join(' · ')}]</span> ${body}</div>`;
+      }).join('')}
+    </div>`);
+  }
+  $('#out').innerHTML = parts.join('') + '</div>';
+}
+
+$('#go').onclick = run;
+$('#q').addEventListener('keydown', e => { if (e.key === 'Enter') run(); });
+document.querySelectorAll('.hint code').forEach(c =>
+  c.onclick = () => { $('#q').value = c.dataset.q; run(); });
+loadCfg();
+</script>
+</body>
+</html>

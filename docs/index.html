@@ -356,12 +356,13 @@ footer .zh{color:#575e6a}
   </div>
 
   <figure>
-    <img src="assets/faded.jpg" alt="Detail of a faded typewritten police report page">
+    <img src="assets/typical.jpg" alt="A typical page: clear English typescript with a handwritten Chinese name">
     <figcaption>
-      Detail at full scanning resolution. The right-hand half of each line has faded from
-      the film itself — no transcription method can recover what is not there.
-      <span class="zh">原生扫描分辨率下的局部。每行右半的字迹在胶片上就已消失——
-        任何转录方法都无法恢复本就不存在的东西。</span>
+      A typical page. The English typescript is clear and transcribes well; the difficulty is
+      concentrated in the handwritten Chinese name in brackets — and in numerals, dates and
+      street numbers. That is where a reader must check the scan.
+      <span class="zh">一页典型的档案。英文打字稿清晰、转录良好；难点集中在括号里的手写中文人名，
+        以及数字、日期、门牌号——这些地方读者必须核对原件。</span>
     </figcaption>
   </figure>
 </section>
@@ -413,20 +414,26 @@ footer .zh{color:#575e6a}
       <p class="zh">传统 OCR 出错会变成一眼可见的乱码；而大模型面对残缺页面时，
         会生成通顺、像样、<strong>但错误</strong>的内容——而且读起来毫无破绽。</p>
 
-      <p>An actual case from testing: a victim's <span class="ok">Chrom and Nickel Plating
-        Factory</span> was transcribed as a <span class="err">Opium and Illegal Lottery
-        Factory</span>. A street number <span class="ok">1143/106</span> became
-        <span class="err">1148/100</span>. The names of two people were silently dropped.</p>
-      <p class="zh">测试中实际发生过：受害人经营的<span class="ok">电镀厂</span>被转录成
-        <span class="err">鸦片与地下彩票厂</span>；门牌号
-        <span class="ok">1143/106</span> 变成 <span class="err">1148/100</span>；
-        两个人的姓名被整句略去。</p>
+      <p>In practice this is uncommon. Across the pages transcribed so far,
+        <strong>errors concentrate almost entirely in Chinese personal and place names</strong>;
+        connected English prose — the bulk of these reports — comes through well.
+        The failure mode above is what happens at the edges: illegible handwriting,
+        faded characters, isolated numerals.</p>
+      <p class="zh">实际情况没有那么糟。就已转录的页面而言，
+        <strong>错误几乎集中在汉字人名与地名上</strong>；
+        而这批档案的主体——成句的英文叙述——转录得相当好。
+        上面说的失败模式出现在边缘处：难辨的手写、褪色的字迹、孤立的数字。</p>
 
-      <p>Transcribing at full scanning resolution reduced these failures dramatically,
-        but <strong>cannot eliminate them</strong>. Numbers, dates, personal names,
-        addresses and street numbers remain the least reliable fields.</p>
-      <p class="zh">改用原生扫描分辨率后此类错误大幅减少，但<strong>无法根除</strong>。
-        数字、日期、人名、地址、门牌号，始终是最不可靠的字段。</p>
+      <p>Full scanning resolution is what makes the difference: at reduced resolution the
+        model invents freely, and this edition therefore transcribes at native resolution
+        throughout. <strong>The residual risk cannot be eliminated.</strong>
+        Numbers, dates, personal names and street numbers remain the least reliable fields.
+        <a href="quality.html">A full quality report, with measured examples, is published here.</a></p>
+      <p class="zh">关键在于分辨率：降低分辨率会让模型放手编造，
+        因此本站一律以原生扫描分辨率转录。<strong>残余风险无法根除</strong>——
+        数字、日期、人名、门牌号始终是最不可靠的字段。
+        <a href="quality.html">完整的质量报告与实测案例见此。</a></p>
+
     </div>
 
     <div class="rule-note">
