@@ -113,7 +113,7 @@ GitHub 发布用 `gh auth login`（凭据进系统钥匙串），不要在仓库
 ```
 common.py        配置 + API 封装 + 取图
 batch_pilot.py   Batch 试点全流程
-site/index.html  GitHub Pages 预告页（未发布）
+docs/index.html  GitHub Pages 预告页（未发布）
 images/          页面影像（.gitignore）
 batches/         JSONL 与结果（.gitignore）
 ```
