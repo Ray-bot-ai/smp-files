@@ -1,174 +1,485 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>上海公共租界工部局警务处档案 · 全文检索库（筹备中）</title>
+<title>Shanghai Municipal Police Files, 1894–1949 · 上海公共租界工部局警务处档案</title>
+<meta name="description" content="A re-transcribed, bilingual, full-text searchable edition of NARA microfilm publication M1750. 美国国家档案馆 M1750 缩微档案的重制转录本与中英对照全文检索库。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Archivo:wght@400;500;600&family=Noto+Serif+SC:wght@300;400;600&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --bg: #fbfaf7; --fg: #23201c; --muted: #6b6459; --rule: #ddd6c9;
-    --card: #fff; --accent: #8c3a2b; --accent-soft: #f3e7e3; --warn-bg: #fdf6e7;
-    --warn-rule: #d9b465;
+:root{
+  --ink:#0b0e13;          /* 深墨：缩微胶片的黑 */
+  --ink-2:#141922;
+  --silver:#8d949f;       /* 银盐灰 */
+  --paper:#f2ede3;        /* 卷宗纸 */
+  --paper-2:#e6dfd1;
+  --rule:#c9bfab;
+  --rule-dim:#2a303b;
+  --body:#2a2721;
+  --muted:#6d6659;
+  --stamp:#8f2f22;        /* 档案红戳 */
+  --stamp-lit:#c9614c;
+  --brass:#9a7b46;
+  --serif:"EB Garamond",'Iowan Old Style',Georgia,"Times New Roman",serif;
+  --cjk:"Noto Serif SC","Source Han Serif SC","Songti SC",serif;
+  --label:"Archivo",ui-sans-serif,system-ui,sans-serif;
+  --measure:34rem;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--paper);color:var(--body);
+  font:400 18px/1.72 var(--serif);
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+}
+/* 只用 .zh 类，绝不用 :lang() —— html[lang=zh-Hans] 会匹配到每个元素，
+   font-size 会沿 DOM 层层相乘，把所有标题字号压扁 */
+.zh{font-family:var(--cjk);font-weight:400;line-height:1.9}
+p.zh,dd .zh,figcaption .zh,.rule-note .zh{font-size:.93em}
+img{max-width:100%;display:block}
+a{color:var(--stamp);text-decoration:none;border-bottom:1px solid rgba(143,47,34,.32);
+  transition:border-color .25s,color .25s}
+a:hover{color:var(--ink);border-bottom-color:var(--ink)}
+
+/* ── 颗粒（缩微胶片质感） ── */
+body::after{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:60;opacity:.32;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E");
+  mix-blend-mode:multiply;
+}
+
+.label{
+  font-family:var(--label);font-size:.7rem;font-weight:600;
+  letter-spacing:.22em;text-transform:uppercase;
+}
+
+/* ══ 主视觉 ══ */
+.hero{
+  position:relative;min-height:min(94vh,52rem);display:flex;align-items:flex-end;
+  background:var(--ink);overflow:hidden;isolation:isolate;
+}
+.hero__img{
+  position:absolute;inset:0;background:url(assets/hero.jpg) 62% 22% / cover no-repeat;
+  filter:grayscale(1) contrast(1.3) brightness(.72);
+  opacity:.42;z-index:-2;
+  animation:drift 44s ease-in-out infinite alternate;
+}
+@keyframes drift{from{transform:scale(1.05)}to{transform:scale(1.13) translateY(-1.4%)}}
+.hero::before{
+  content:"";position:absolute;inset:0;z-index:-1;
+  background:
+    linear-gradient(105deg, var(--ink) 22%, rgba(11,14,19,.90) 46%, rgba(11,14,19,.55) 78%),
+    linear-gradient(to top, var(--ink) 2%, rgba(11,14,19,.35) 40%, rgba(11,14,19,.60));
+}
+.hero__inner{
+  width:100%;max-width:74rem;margin:0 auto;padding:7rem 1.6rem 3.4rem;
+  color:var(--paper);
+}
+.hero .label{color:var(--stamp-lit);display:flex;align-items:center;gap:.85rem}
+.hero .label::after{content:"";flex:1;max-width:7rem;height:1px;background:rgba(201,97,76,.45)}
+h1{
+  margin:1.5rem 0 0;font-weight:400;font-size:clamp(2.1rem,6.2vw,4.35rem);
+  line-height:1.06;letter-spacing:-.018em;
+}
+h1 em{font-style:italic;color:#cfd4dc}
+.hero h2{
+  margin:.85rem 0 0;font-family:var(--cjk);font-weight:300;
+  font-size:clamp(1.05rem,2.7vw,1.72rem);letter-spacing:.09em;color:#b9bfc9;line-height:1.5;
+}
+.hero__dek{
+  margin:2.1rem 0 0;max-width:40rem;color:#a8aeb8;font-size:1.02rem;line-height:1.68;
+}
+.hero__dek .zh{display:block;margin-top:.5rem;color:#949aa4;font-size:.92rem}
+
+/* ══ 登记条（档案著录） ══ */
+.registry{
+  background:var(--ink-2);color:var(--silver);border-top:1px solid var(--rule-dim);
+  position:relative;z-index:2;
+}
+.registry ul{
+  max-width:74rem;margin:0 auto;padding:0 1.6rem;list-style:none;
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(9.5rem,1fr));
+}
+.registry li{
+  padding:1.5rem .6rem 1.6rem 0;border-left:1px solid var(--rule-dim);
+  padding-left:1.2rem;
+}
+.registry li:first-child{border-left:0;padding-left:0}
+.registry b{
+  display:block;font-family:var(--serif);font-size:1.62rem;font-weight:500;
+  color:var(--paper);line-height:1.15;letter-spacing:-.01em;
+}
+.registry .label{display:block;margin-top:.45rem;color:#727a86;font-size:.63rem}
+
+/* ══ 版心 ══ */
+.sheet{max-width:74rem;margin:0 auto;padding:0 1.6rem}
+section{padding:5.5rem 0;border-bottom:1px solid var(--rule)}
+section:last-of-type{border-bottom:0}
+.sec-head{margin-bottom:3rem}
+.sec-head .label{color:var(--stamp)}
+.sec-head h3{
+  margin:.9rem 0 0;font-weight:400;font-size:clamp(1.55rem,3.6vw,2.3rem);
+  line-height:1.2;letter-spacing:-.012em;color:var(--ink);
+}
+.sec-head h3 .zh{display:block;font-size:.72em;color:var(--muted);margin-top:.3rem;font-weight:400}
+
+/* 平行双语 */
+.par{display:grid;grid-template-columns:1fr 1fr;gap:0 3.2rem;position:relative}
+.par::before{
+  content:"";position:absolute;top:0;bottom:0;left:50%;width:1px;
+  background:linear-gradient(to bottom,transparent,var(--rule) 12%,var(--rule) 88%,transparent);
+}
+.par > *{max-width:var(--measure)}
+.par .col-label{
+  grid-column:span 1;font-family:var(--label);font-size:.6rem;font-weight:600;
+  letter-spacing:.24em;text-transform:uppercase;color:var(--muted);
+  padding-bottom:.7rem;margin-bottom:1.6rem;border-bottom:1px solid var(--rule);
+  max-width:none;
+}
+.par p{margin:0 0 1.35rem}
+.par p:last-child{margin-bottom:0}
+.lead{font-size:1.14em;line-height:1.62}
+.lead.zh{font-size:1.02em}
+
+/* 转录对照 */
+.compare{margin-top:1rem;display:grid;gap:1.6rem}
+.spec{
+  background:var(--paper-2);border:1px solid var(--rule);border-left:3px solid var(--rule);
+  padding:1.5rem 1.7rem;
+}
+.spec.after{border-left-color:var(--stamp);background:#fbf8f2}
+.spec .label{color:var(--muted);display:block;margin-bottom:.9rem}
+.spec.after .label{color:var(--stamp)}
+.spec q{
+  quotes:none;display:block;font-size:1.03rem;line-height:1.62;
+}
+.spec.before q{
+  font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:.82rem;line-height:1.85;
+  color:#8b8478;word-break:break-word;
+}
+figure{margin:2.6rem 0 0}
+figure img{
+  border:1px solid var(--rule);filter:grayscale(1) contrast(1.08);
+  background:#fff;
+}
+figcaption{margin-top:.8rem;font-size:.82rem;color:var(--muted);line-height:1.6}
+figcaption .zh{display:block}
+
+/* 警示 */
+.caution{
+  background:var(--ink);color:#c8ccd3;margin:0;padding:5rem 0;
+  border-bottom:0;
+}
+.caution .sheet{max-width:74rem}
+.caution .label{color:var(--stamp-lit)}
+.caution h3{color:var(--paper)}
+.caution h3 .zh{color:var(--silver)}
+.caution .par::before{background:linear-gradient(to bottom,transparent,var(--rule-dim) 12%,var(--rule-dim) 88%,transparent)}
+.caution .par .col-label{color:#6b7381;border-bottom-color:var(--rule-dim)}
+.caution strong{color:var(--paper);font-weight:600}
+.caution .err{
+  font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:.86em;
+  color:var(--stamp-lit);border-bottom:1px dotted rgba(201,97,76,.5);
+}
+.caution .ok{
+  font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:.86em;color:#8fae8a;
+}
+.rule-note{
+  margin-top:3.2rem;padding-top:2rem;border-top:1px solid var(--rule-dim);
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:2.2rem;
+}
+.rule-note div .label{display:block;color:var(--brass);margin-bottom:.6rem}
+.rule-note p{margin:0;font-size:.95rem;line-height:1.65}
+.rule-note .zh{display:block;margin-top:.4rem;color:var(--silver);font-size:.85rem}
+
+/* 进度 */
+.status{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:0;
+  border:1px solid var(--rule);background:#fbf8f2}
+.status div{padding:1.5rem 1.4rem;border-left:1px solid var(--rule)}
+.status div:first-child{border-left:0}
+.status .label{color:var(--muted);display:block;margin-bottom:.7rem}
+.status b{font-size:1.05rem;font-weight:500;color:var(--ink)}
+.status .dot{
+  display:inline-block;width:.5rem;height:.5rem;border-radius:50%;
+  background:var(--stamp);margin-right:.5rem;vertical-align:middle;
+  animation:pulse 2.4s ease-in-out infinite;
+}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+
+/* 出处 */
+.colophon{padding:4.5rem 0 5.5rem;background:var(--paper-2);border-top:1px solid var(--rule)}
+.colophon dl{margin:0;display:grid;grid-template-columns:minmax(9rem,14rem) 1fr;
+  gap:0;border-top:1px solid var(--rule)}
+.colophon dt{
+  padding:1.15rem 1.2rem 1.15rem 0;border-bottom:1px solid var(--rule);
+  font-family:var(--label);font-size:.62rem;font-weight:600;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--muted);
+}
+.colophon dd{margin:0;padding:1.15rem 0;border-bottom:1px solid var(--rule);font-size:.95rem}
+.colophon dd .zh{display:block;color:var(--muted);font-size:.86rem;margin-top:.2rem}
+footer{background:var(--ink);color:#6b7381;padding:2.6rem 0;font-size:.82rem}
+footer .sheet{display:flex;flex-wrap:wrap;gap:1rem 2rem;justify-content:space-between}
+footer .zh{color:#575e6a}
+
+/* 载入动画 */
+.rise{opacity:0;transform:translateY(14px);animation:rise .9s cubic-bezier(.16,.84,.44,1) forwards}
+@keyframes rise{to{opacity:1;transform:none}}
+.d1{animation-delay:.12s}.d2{animation-delay:.26s}.d3{animation-delay:.4s}
+.d4{animation-delay:.54s}.d5{animation-delay:.68s}
+@media (prefers-reduced-motion:reduce){
+  .rise{animation:none;opacity:1;transform:none}
+  .hero__img{animation:none}
+  .status .dot{animation:none}
+}
+
+@media (max-width:860px){
+  body{font-size:17px}
+  /* 单栏时栏标没有意义，反而把「ENGLISH / 中文」两个标题挤在一起。
+     改为隐藏栏标，用左侧细线把译文段标出来，形成「原文→译文」的成对阅读。 */
+  .par{grid-template-columns:1fr;gap:0}
+  .par::before{display:none}
+  .par > *{max-width:none}
+  .par .col-label{display:none}
+  .par p{margin-bottom:1.15rem}
+  .par p.zh{
+    margin-bottom:2.2rem;padding-left:1rem;
+    border-left:2px solid var(--rule);color:var(--muted);
   }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #16150f; --fg: #e8e3d8; --muted: #9a9282; --rule: #35322a;
-      --card: #1e1c16; --accent: #d98570; --accent-soft: #2c211d; --warn-bg: #262013;
-      --warn-rule: #7a6231;
-    }
-  }
-  :root[data-theme="dark"] {
-    --bg: #16150f; --fg: #e8e3d8; --muted: #9a9282; --rule: #35322a;
-    --card: #1e1c16; --accent: #d98570; --accent-soft: #2c211d; --warn-bg: #262013;
-    --warn-rule: #7a6231;
-  }
-  :root[data-theme="light"] {
-    --bg: #fbfaf7; --fg: #23201c; --muted: #6b6459; --rule: #ddd6c9;
-    --card: #fff; --accent: #8c3a2b; --accent-soft: #f3e7e3; --warn-bg: #fdf6e7;
-    --warn-rule: #d9b465;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0; background: var(--bg); color: var(--fg);
-    font: 16px/1.75 "Songti SC", "Source Han Serif SC", "Noto Serif CJK SC", Georgia, serif;
-    -webkit-font-smoothing: antialiased;
-  }
-  .wrap { max-width: 46rem; margin: 0 auto; padding: 4rem 1.5rem 6rem; }
-  .kicker {
-    font-size: .72rem; letter-spacing: .22em; text-transform: uppercase;
-    color: var(--accent); font-family: ui-sans-serif, system-ui, sans-serif;
-    font-weight: 600; margin-bottom: 1.1rem;
-  }
-  h1 { font-size: clamp(1.7rem, 5vw, 2.5rem); line-height: 1.3; margin: 0 0 .6rem; font-weight: 700; }
-  .sub { color: var(--muted); font-size: 1.02rem; margin: 0 0 2.5rem; }
-  h2 {
-    font-size: 1.12rem; margin: 3rem 0 .9rem; padding-bottom: .45rem;
-    border-bottom: 1px solid var(--rule); font-weight: 700;
-  }
-  p { margin: 0 0 1.1rem; }
-  .lead { font-size: 1.06rem; }
-  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(8.5rem, 1fr)); gap: .75rem; margin: 2rem 0; }
-  .stat { background: var(--card); border: 1px solid var(--rule); border-radius: 6px; padding: 1rem .9rem; }
-  .stat b {
-    display: block; font-size: 1.55rem; line-height: 1.1; color: var(--accent);
-    font-family: ui-sans-serif, system-ui, sans-serif; font-weight: 700;
-  }
-  .stat span { font-size: .78rem; color: var(--muted); font-family: ui-sans-serif, system-ui, sans-serif; }
-  .warn {
-    background: var(--warn-bg); border: 1px solid var(--warn-rule);
-    border-left-width: 4px; border-radius: 5px; padding: 1.1rem 1.25rem; margin: 1.6rem 0;
-  }
-  .warn h3 { margin: 0 0 .6rem; font-size: 1rem; }
-  .warn p:last-child { margin-bottom: 0; }
-  .cmp { overflow-x: auto; margin: 1.4rem 0; }
-  table { border-collapse: collapse; width: 100%; font-size: .87rem; min-width: 30rem; }
-  th, td { text-align: left; padding: .55rem .7rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
-  th { font-family: ui-sans-serif, system-ui, sans-serif; font-size: .76rem; color: var(--muted); font-weight: 600; }
-  code {
-    font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .86em;
-    background: var(--accent-soft); padding: .1em .35em; border-radius: 3px;
-  }
-  .bad { color: var(--accent); }
-  ul { margin: 0 0 1.1rem; padding-left: 1.3rem; }
-  li { margin-bottom: .45rem; }
-  .progress { background: var(--card); border: 1px solid var(--rule); border-radius: 6px; padding: 1.2rem 1.3rem; margin: 1.5rem 0; }
-  .bar { height: 7px; background: var(--rule); border-radius: 4px; overflow: hidden; margin: .8rem 0 .5rem; }
-  .bar i { display: block; height: 100%; width: 4%; background: var(--accent); border-radius: 4px; }
-  footer {
-    margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule);
-    font-size: .84rem; color: var(--muted);
-  }
-  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  .caution .par p.zh{border-left-color:var(--rule-dim);color:#9aa1ac}
+  .registry li{border-left:0;padding-left:0;border-top:1px solid var(--rule-dim)}
+  .registry li:first-child{border-top:0}
+  .colophon dl{grid-template-columns:1fr}
+  .colophon dt{padding-bottom:.2rem;border-bottom:0}
+  .status div{border-left:0;border-top:1px solid var(--rule)}
+  .status div:first-child{border-top:0}
+  section{padding:3.8rem 0}
+}
 </style>
+</head>
+<body>
 
-<div class="wrap">
-  <div class="kicker">筹备中 · Coming soon</div>
-  <h1>上海公共租界工部局警务处档案<br>全文检索库</h1>
-  <p class="sub">Shanghai Municipal Police Files, 1894–1949 — 重制转录本与中文对照，附原件影像链接</p>
-
-  <p class="lead">
-    美国国家档案馆缩微出版物 <b>M1750</b>《Records of the Shanghai Municipal Police, 1894–1949》
-    收录了公共租界巡捕房近半个世纪的调查与政治监视记录。这批档案早已数字化公开，
-    但机器生成的英文转录质量很差，实际难以检索；其中夹带的中文原件更是完全没有被识别。
-  </p>
-  <p>
-    本站正在做的事：用视觉大模型对全部页面重新转录，并生成中文对照译文，
-    使这批史料第一次真正可以按关键词检索。每一页都会链接回 Internet Archive 上的原件影像。
-  </p>
-
-  <div class="stats">
-    <div class="stat"><b>3,878</b><span>卷宗</span></div>
-    <div class="stat"><b>≈9 万</b><span>页</span></div>
-    <div class="stat"><b>1894–1949</b><span>年代跨度</span></div>
-    <div class="stat"><b>中英</b><span>双语对照</span></div>
-  </div>
-
-  <h2>为什么要重做转录</h2>
-  <p>
-    原件是打字机复写纸经缩微胶卷翻拍，字迹半数已经褪得看不清。
-    Internet Archive 的自动 OCR 在这种材料上基本失效。下面是同一段文字的实际对照：
-  </p>
-  <div class="cmp">
-  <table>
-    <tr><th>来源</th><th>转录结果</th></tr>
-    <tr><td>原有 OCR</td><td><code>Sar6aer enguirics revesleu ise PS -2 rh we / Toe ucene of the :surd © is 2 Gudr.. st aby le di:e_.ai. Lage</code></td></tr>
-    <tr><td>本站重制</td><td>Further enquiries revealed the following. The scene of the murder is a Chinese style dwelling house situated at 1143/106 Yuhang Rd.</td></tr>
-  </table>
-  </div>
-
-  <h2 id="caveat">使用前必读：这不是原件，也不是权威文本</h2>
-
-  <div class="warn">
-    <h3>转录由 AI 生成，可能包含看不出来的错误</h3>
-    <p>
-      与传统 OCR 产生的乱码不同，大模型在字迹残缺处会<b>生成通顺但错误的内容</b>，
-      而且读起来毫无破绽。项目测试中实际出现过：原文
-      <code>Chrom and Nickel Plating Factory</code>（电镀厂）被转录成
-      <code class="bad">Opium and Illegal Lottery Factory</code>（鸦片与地下彩票厂）；
-      门牌号 <code>1143/106</code> 变成 <code class="bad">1148/100</code>；
-      受害人姓名被整句略去。
-    </p>
-    <p>
-      这类错误已通过提高影像分辨率大幅减少，但<b>无法根除</b>。
-      <b>数字、日期、人名、地址、门牌号是最不可靠的字段。</b>
+<header class="hero">
+  <div class="hero__img" role="img" aria-label="Shanghai Municipal Police report form, Special Branch, 1934"></div>
+  <div class="hero__inner">
+    <p class="label rise d1">In preparation · 筹备中</p>
+    <h1 class="rise d2">Shanghai Municipal Police Files<br><em>1894–1949</em></h1>
+    <h2 class="rise d3">上海公共租界工部局警务处档案 · 全文检索库</h2>
+    <p class="hero__dek rise d4">
+      A re-transcribed, bilingual, full-text searchable edition of NARA microfilm
+      publication M1750 — with every page linked to its original scan.
+      <span class="zh">美国国家档案馆缩微出版物 M1750 的重制转录本，中英对照，逐页链接原件影像。</span>
     </p>
   </div>
+</header>
 
-  <p><b>因此，本站的正确用法是两步：</b></p>
+<div class="registry">
   <ul>
-    <li>用它<b>检索定位</b>——找到哪一卷、哪一页讲了你要找的事；</li>
-    <li>点开原件影像<b>核对原文</b>，再据以引用。</li>
+    <li><b>3,878</b><span class="label">Files · 卷宗</span></li>
+    <li><b>c. 90,000</b><span class="label">Pages · 页</span></li>
+    <li><b>1894–1949</b><span class="label">Coverage · 年代</span></li>
+    <li><b>RG 263</b><span class="label">Record group · 全宗</span></li>
+    <li><b>M1750</b><span class="label">Microfilm · 缩微号</span></li>
   </ul>
-  <p>
-    中文译文仅供快速浏览，不作为引用依据。原有的机器 OCR 也会一并保留，
-    两份转录不一致的地方，往往正是需要人工核对的地方。
-  </p>
+</div>
 
-  <div class="warn">
-    <h3>史料本身的边界</h3>
-    <p>
-      M1750 是<b>选摄本</b>——NARA 的说明册明言其选择标准不为人知，缩微胶卷与纸本收藏并不完全重合。
-      档案的中文正本主体存于上海市档案馆 U1 全宗系列，尚未公开数字化。
-      此外这是<b>殖民警察的政治监视记录</b>，其中对人物、团体、事件的描述带有明确的立场与偏见，
-      应作为史料对待，而非事实陈述。
-    </p>
+<main>
+
+<section class="sheet">
+  <div class="sec-head">
+    <p class="label">The problem</p>
+    <h3>Digitised, but not legible<span class="zh">已经数字化，却读不了</span></h3>
+  </div>
+  <div class="par">
+    <p class="col-label">English</p>
+    <p class="col-label">中文</p>
+
+    <p class="lead">The records of the International Settlement's police force — half a
+      century of investigation and political-surveillance files — have been publicly
+      available in scanned form for years. In practice they remain very hard to use.</p>
+    <p class="lead zh">公共租界巡捕房近半个世纪的调查与政治监视记录，扫描件早已公开多年。
+      但实际用起来，仍然极难检索。</p>
+
+    <p>The originals are carbon copies struck on a typewriter, then photographed onto
+      microfilm. On a great many pages the ink has simply gone. Conventional OCR fails
+      on this material — not marginally, but almost completely. Chinese-language
+      enclosures, which appear throughout the files, were never recognised at all.</p>
+    <p class="zh">原件是打字机复写纸经缩微胶卷翻拍，很多页的字迹已经褪得几乎不存在。
+      传统 OCR 在这种材料上不是略有误差，而是近乎完全失效。档案中夹带的大量中文原件，
+      更是从未被识别过。</p>
   </div>
 
-  <h2>进度</h2>
-  <div class="progress">
-    <div>转录与翻译处理中</div>
-    <div class="bar"><i></i></div>
-    <div style="font-size:.84rem;color:var(--muted)">
-      站点将在全部处理并抽样校验完成后发布。
+  <div class="compare">
+    <div class="spec before">
+      <span class="label">Existing machine OCR · 现有机器 OCR</span>
+      <q>Sar6aer enguirics revesleu ise PS -2 rh we / Toe ucene of the :surd © is 2 Gudr.. st aby le di:e_.ai. Lage / es wuaeed ob L2AS/UC6 Se FY UMass</q>
+    </div>
+    <div class="spec after">
+      <span class="label">This edition · 本站重制</span>
+      <q>Further enquiries revealed the following. The scene of the murder is a Chinese
+        style dwelling house situated at 1143/106 Yuhang Rd.</q>
     </div>
   </div>
 
-  <h2>出处与版权</h2>
-  <ul>
-    <li><b>档案原件</b>：美国国家档案馆 RG 263，缩微出版物 M1750。美国政府文件，公有领域。</li>
-    <li><b>数字化影像</b>：由 Christian Henriot 主持的 Virtual Shanghai / bnAsie 项目扫描，
-      经 <a href="https://archive.org/details/ShanghaiMunicipalPoliceRecords">Internet Archive</a> 公开发布。</li>
-    <li><b>本站转录与译文</b>：个人研究项目，AI 生成，非官方产物，与上述任何机构均无隶属关系。</li>
-  </ul>
+  <figure>
+    <img src="assets/faded.jpg" alt="Detail of a faded typewritten police report page">
+    <figcaption>
+      Detail at full scanning resolution. The right-hand half of each line has faded from
+      the film itself — no transcription method can recover what is not there.
+      <span class="zh">原生扫描分辨率下的局部。每行右半的字迹在胶片上就已消失——
+        任何转录方法都无法恢复本就不存在的东西。</span>
+    </figcaption>
+  </figure>
+</section>
 
-  <footer>
-    个人研究项目 · 转录文本由大模型生成，引用前请务必核对原件影像。
-  </footer>
-</div>
+<section class="sheet">
+  <div class="sec-head">
+    <p class="label">The edition</p>
+    <h3>What this project produces<span class="zh">这个项目做出来的东西</span></h3>
+  </div>
+  <div class="par">
+    <p class="col-label">English</p>
+    <p class="col-label">中文</p>
+
+    <p>Every page is re-transcribed from the original scan at full resolution using a
+      vision language model, producing an English text that can actually be searched.
+      A parallel Chinese translation is generated alongside it, for readers who need
+      to survey the collection quickly rather than read it closely.</p>
+    <p class="zh">每一页都以原生分辨率、用视觉大模型重新转录，产出真正可检索的英文文本；
+      并生成中文对照译文，供需要快速浏览而非精读的读者使用。</p>
+
+    <p>The existing machine transcription is retained beside the new one. Where the two
+      disagree is precisely where a human should look — a free quality signal, kept
+      rather than discarded.</p>
+    <p class="zh">原有的机器转录一并保留。两份不一致的地方，正是需要人工核对的地方——
+      这是一个免费的质检信号，所以不丢掉。</p>
+
+    <p>Every page carries a direct link to its scan on Internet Archive. Nothing here
+      replaces the document; it only helps you find it.</p>
+    <p class="zh">每一页都附有 Internet Archive 上原件影像的直链。本站不替代原件，
+      只帮你找到它。</p>
+  </div>
+</section>
+
+</main>
+
+<section class="caution">
+  <div class="sheet">
+    <div class="sec-head">
+      <p class="label">Read this first · 使用前必读</p>
+      <h3>These transcriptions are machine-generated<span class="zh">本站转录由机器生成，不是权威文本</span></h3>
+    </div>
+    <div class="par">
+      <p class="col-label">English</p>
+      <p class="col-label">中文</p>
+
+      <p>Unlike conventional OCR, which fails <em>visibly</em> as garbled characters, a
+        language model confronted with a damaged page will produce fluent, plausible,
+        <strong>wrong</strong> text — and it reads perfectly.</p>
+      <p class="zh">传统 OCR 出错会变成一眼可见的乱码；而大模型面对残缺页面时，
+        会生成通顺、像样、<strong>但错误</strong>的内容——而且读起来毫无破绽。</p>
+
+      <p>An actual case from testing: a victim's <span class="ok">Chrom and Nickel Plating
+        Factory</span> was transcribed as a <span class="err">Opium and Illegal Lottery
+        Factory</span>. A street number <span class="ok">1143/106</span> became
+        <span class="err">1148/100</span>. The names of two people were silently dropped.</p>
+      <p class="zh">测试中实际发生过：受害人经营的<span class="ok">电镀厂</span>被转录成
+        <span class="err">鸦片与地下彩票厂</span>；门牌号
+        <span class="ok">1143/106</span> 变成 <span class="err">1148/100</span>；
+        两个人的姓名被整句略去。</p>
+
+      <p>Transcribing at full scanning resolution reduced these failures dramatically,
+        but <strong>cannot eliminate them</strong>. Numbers, dates, personal names,
+        addresses and street numbers remain the least reliable fields.</p>
+      <p class="zh">改用原生扫描分辨率后此类错误大幅减少，但<strong>无法根除</strong>。
+        数字、日期、人名、地址、门牌号，始终是最不可靠的字段。</p>
+    </div>
+
+    <div class="rule-note">
+      <div>
+        <span class="label">How to use it · 正确用法</span>
+        <p>Search here to locate the file and page. Then open the scan and read the
+          document itself before citing anything.
+          <span class="zh">在此检索以定位卷宗与页码，然后打开原件影像核对原文，再据以引用。</span></p>
+      </div>
+      <div>
+        <span class="label">The translation · 关于译文</span>
+        <p>The Chinese translation is for rapid survey only. It is never a citable text.
+          <span class="zh">中文译文仅供快速浏览，任何情况下都不作为引用依据。</span></p>
+      </div>
+      <div>
+        <span class="label">The source itself · 史料本身的边界</span>
+        <p>M1750 is a <em>selective</em> filming; NARA states its selection criteria are
+          unknown, and film and paper holdings do not fully overlap. The main body of
+          Chinese-language originals is held at the Shanghai Municipal Archives (fonds U1)
+          and is not publicly digitised.
+          <span class="zh">M1750 是选摄本，NARA 明言其选择标准不为人知，胶卷与纸本收藏并不完全重合。
+            中文正本主体存于上海市档案馆 U1 全宗，未公开数字化。</span></p>
+      </div>
+      <div>
+        <span class="label">Read as evidence, not fact · 这是史料，不是事实陈述</span>
+        <p>These are the surveillance records of a colonial police force. Their
+          characterisations of people, organisations and events carry the assumptions of
+          the men who wrote them.
+          <span class="zh">这是殖民地警察机构的监视记录，其中对人物、团体、事件的描述，
+            带着书写者本身的立场与成见。</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sheet">
+  <div class="sec-head">
+    <p class="label">Status</p>
+    <h3>Current state of work<span class="zh">当前进度</span></h3>
+  </div>
+  <div class="status">
+    <div><span class="label">Stage · 阶段</span><b><span class="dot"></span>Transcription in progress</b></div>
+    <div><span class="label">Pages done · 已完成</span><b>— / ~90,000</b></div>
+    <div><span class="label">Translation · 译文</span><b>Pending · 待启动</b></div>
+    <div><span class="label">Publication · 发布</span><b>After sample verification</b></div>
+  </div>
+  <p style="margin-top:1.6rem;font-size:.92rem;color:var(--muted);max-width:var(--measure)">
+    The site will be published once transcription, translation and sample verification
+    are complete.
+    <span class="zh" style="display:block">站点将在转录、翻译与抽样校验全部完成后发布。</span>
+  </p>
+</section>
+
+<section class="colophon">
+  <div class="sheet">
+    <div class="sec-head">
+      <p class="label">Provenance</p>
+      <h3>Sources &amp; rights<span class="zh">出处与版权</span></h3>
+    </div>
+    <dl>
+      <dt>Records</dt>
+      <dd>Records of the Shanghai Municipal Police, 1894–1949. U.S. National Archives,
+        Record Group 263, microfilm publication M1750. United States government records;
+        public domain.
+        <span class="zh">美国国家档案馆 RG 263，缩微出版物 M1750。美国政府文件，公有领域。</span></dd>
+      <dt>Digitisation</dt>
+      <dd>Scanned by the Virtual Shanghai / bnAsie project directed by Christian Henriot;
+        published via <a href="https://archive.org/details/ShanghaiMunicipalPoliceRecords">Internet Archive</a>.
+        <span class="zh">由 Christian Henriot 主持的 Virtual Shanghai / bnAsie 项目扫描，
+          经 Internet Archive 公开发布。</span></dd>
+      <dt>This edition</dt>
+      <dd>Transcription and translation generated by a vision language model for an
+        independent research project. Not an official product of, and not affiliated
+        with, any of the institutions above.
+        <span class="zh">转录与译文由视觉大模型生成，属独立研究项目，
+          非上述任何机构的官方产物，亦与之无隶属关系。</span></dd>
+    </dl>
+  </div>
+</section>
+
+<footer>
+  <div class="sheet">
+    <span>Independent research project · 个人研究项目</span>
+    <span class="zh">转录由机器生成，引用前请务必核对原件影像</span>
+  </div>
+</footer>
+
+</body>
+</html>
