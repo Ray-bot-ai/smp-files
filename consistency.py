@@ -17,20 +17,7 @@ from collections import Counter, defaultdict
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
 
-# 简繁/异体等价表：直接复用用户自建的 Obsidian 插件「简繁异体通搜」的字形数据
-# （6,963 字头，由 cjkvi-tables 的简繁对照/简化字总表/异体字整理表/日本新旧字体四表并查集合并）。
-# 第一版我手敲了 40 组简繁对，漏了「顧/顾」，于是把「顾阿新 vs 顧阿新」误报成人名不一致。
-# 手敲字表这种事就不该自己来——库里已经有现成的权威数据。
-_V = json.load(open(os.path.join(HERE, "variants.json"), encoding="utf-8"))
-# 补：新旧字形差异（大陆新字形 vs 台港旧字形）。cjkvi 那四张表按「简化字/异体字」
-# 分类，恰好不覆盖这一类，实测 28 组常见姓氏里缺了 吴/吳、吕/呂。
-_EXTRA = ["吴吳", "吕呂", "强強", "么麽", "户戶", "为爲為", "别別", "沉沈",
-          "画畫", "冰氷", "污汙汚", "床牀", "秘祕", "杯盃", "群羣", "峰峯"]
-ST = {}
-for _grp in list(_V.values()) + _EXTRA:
-    _canon = _grp[0]
-    for _c in _grp:
-        ST[_c] = _canon
+from glyphnorm import NORM as ST, normalize   # 见该模块：两源并查集合并
 
 CJK = re.compile(r"[一-鿿]{3,4}")               # 3–4 字才算人名，2 字误报太多
 # 真门牌号：第一段 3–4 位数（上海租界门牌如 1143/106），排除 21/11 这种日期
@@ -39,7 +26,7 @@ DATE_NUM = re.compile(r"\b(\d{1,2})\.(\d{1,2})\.(\d{2,4})\b")
 
 
 def norm(s):
-    return "".join(ST.get(c, c) for c in s)
+    return normalize(s)
 
 
 def one_char_apart(a, b):
@@ -62,10 +49,14 @@ def check(doc):
             where[m].add(q["n"])
     # 按「归一化后的骨架」聚类，把 A/B/C 三种写法归成一组而不是报三对
     # 先按归一化形式合并：顧阿新 与 顾阿新 是同一个名字的两种字形，
-    # 不先合并的话会被拆成两个簇，反而虚增标记数（第一版就是这么错的）
+    # 不先合并的话会被拆成两个簇，反而虚增标记数（第一版就是这么错的）。
+    # surface: 归一形 → 正文中真实出现的写法。**报告必须用真实写法**——
+    # 报归一形的话，正文是繁体而标记是简体，人在页面上根本找不到，
+    # 高亮也会失效，抽样校验工具就废了。踩过。
     bynorm = defaultdict(set)
     for n in where:
         bynorm[norm(n)].add(n)
+    surface = {k: v for k, v in bynorm.items()}
     for k, forms in bynorm.items():
         for f in forms:
             where[k] |= where[f]
@@ -85,7 +76,8 @@ def check(doc):
             merged.append(set(grp))
     for grp in merged:
         ps = sorted(set().union(*(where[n] for n in grp)))
-        issues.append(("汉字名不一致", " / ".join(sorted(grp)), ps))
+        real = sorted(set().union(*(surface.get(n, {n}) for n in grp)))
+        issues.append(("汉字名不一致", " / ".join(real), ps))
 
     # ② 门牌号：只报第一段相同、第二段接近的（同一地址的不同转录）
     addr = defaultdict(set)

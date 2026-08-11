@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>抽样校验 · 上海工部局警务处档案</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Archivo:wght@600&family=Noto+Serif+SC:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/app.css">
+<style>
+.vwrap{max-width:none;padding:1.2rem 1.4rem 8rem}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;align-items:start}
+.scan{position:sticky;top:4.2rem}
+.scan img{border:1px solid var(--rule);background:#fff;width:100%;cursor:zoom-in}
+.scan img.zoom{cursor:zoom-out;max-width:none;width:auto}
+.scanbox{max-height:82vh;overflow:auto;border:1px solid var(--rule);background:#fff}
+.tx{white-space:pre-wrap;font-size:.94rem;line-height:1.75;overflow-wrap:anywhere;
+  background:var(--card);border:1px solid var(--rule);padding:1rem 1.2rem;max-height:40vh;overflow:auto}
+.tx.zh{font-family:var(--cjk);font-size:.9rem}
+.flag{background:#fdf6e7;border:1px solid var(--warn,#d9b465);border-left:3px solid #b8892b;
+  padding:.7rem .9rem;margin:.7rem 0;font-size:.9rem}
+.flag b{color:var(--stamp)}
+.bar2{position:fixed;left:0;right:0;bottom:0;background:var(--ink);color:var(--paper);
+  padding:.8rem 1.4rem;display:flex;gap:.6rem;align-items:center;flex-wrap:wrap;z-index:50;
+  border-top:1px solid var(--rule-dim)}
+.bar2 button{border:1px solid rgba(242,237,227,.3);background:transparent;color:var(--paper);
+  padding:.55rem .9rem;font:600 .72rem var(--label);letter-spacing:.1em;cursor:pointer;
+  border-radius:3px;white-space:nowrap}
+.bar2 button:hover{background:var(--paper);color:var(--ink)}
+.bar2 button kbd{display:inline-block;background:rgba(242,237,227,.18);border-radius:2px;
+  padding:0 .3rem;margin-right:.4rem;font-family:ui-monospace,monospace}
+.bar2 .ok{border-color:#6f9c68}.bar2 .e1{border-color:var(--stamp-lit)}
+.bar2 .e2{border-color:var(--brass)}.bar2 .e3{border-color:#7b838f}
+.bar2 .prog{margin-left:auto;font-size:.82rem;color:#9aa1ac;font-family:var(--label);
+  letter-spacing:.08em}
+.bar2 input{background:rgba(242,237,227,.1);border:1px solid rgba(242,237,227,.25);
+  color:var(--paper);padding:.5rem .7rem;border-radius:3px;font:400 .88rem var(--serif);
+  min-width:14rem;flex:1}
+.done-panel{background:var(--card);border:1px solid var(--rule);padding:1.6rem;margin-top:1rem}
+.done-panel table{width:100%;border-collapse:collapse;font-size:.92rem;margin:1rem 0}
+.done-panel td,.done-panel th{padding:.45rem .6rem;border-bottom:1px solid var(--rule);text-align:left}
+@media(max-width:1000px){.split{grid-template-columns:1fr}.scan{position:static}}
+</style>
+</head>
+<body>
+<header class="bar"><div class="in">
+  <a class="brand" href="index.html"><b>Shanghai Municipal Police Files</b><span>抽样校验</span></a>
+  <nav>
+    <a href="search.html">检索</a><a href="browse.html">目录</a>
+    <a href="quality.html">质量</a><a href="verify.html" aria-current="page">校验</a>
+  </nav>
+</div></header>
+
+<div class="wrap vwrap">
+  <div id="app"><p class="spin">载入任务单…</p></div>
+</div>
+
+<div class="bar2" id="ctl" style="display:none">
+  <button class="ok"  data-v="ok"><kbd>1</kbd>转录正确</button>
+  <button class="e1"  data-v="model"><kbd>2</kbd>模型转错</button>
+  <button class="e2"  data-v="source"><kbd>3</kbd>原件本身不一致</button>
+  <button class="e3"  data-v="illegible"><kbd>4</kbd>原件残缺无法判定</button>
+  <input id="note" placeholder="可选备注：错在哪个字/词（回车提交）">
+  <button data-v="skip"><kbd>S</kbd>跳过</button>
+  <span class="prog" id="prog"></span>
+</div>
+
+<script src="assets/search.js"></script>
+<script>
+const $ = s => document.querySelector(s);
+const KEY = 'smp-verify-v1';
+let T = [], i = 0, res = JSON.parse(localStorage.getItem(KEY) || '{}');
+
+function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+
+// 把标记里提到的字词在正文中高亮，省去人肉找位置的时间
+function markFlags(text, flags){
+  let out = esc(text);
+  const terms = new Set();
+  for (const f of flags) {
+    const d = f.split('：')[1] || '';
+    for (const t of d.split(/\s*\/\s*|\s+vs\s+/)) {
+      const s = t.trim();
+      if (s.length >= 2) terms.add(s);
+    }
+  }
+  for (const t of [...terms].sort((a,b)=>b.length-a.length)) {
+    out = out.split(esc(t)).join('<mark>' + esc(t) + '</mark>');
+  }
+  return out;
+}
+
+function render(){
+  if (i >= T.length) return finish();
+  const t = T[i];
+  const iid = 'smpa-files-' + t.doc;
+  $('#app').innerHTML = `
+    <p class="sub" style="margin-bottom:.8rem">
+      <b>${esc(t.title)}</b> · 第 ${t.n + 1} 页 ·
+      <a href="https://archive.org/details/${iid}" target="_blank" rel="noopener">IA 原件 ↗</a>
+      · <span class="muted">点图可放大</span></p>
+    <div class="split">
+      <div class="scan"><div class="scanbox">
+        <img id="im" src="https://archive.org/download/${iid}/page/n${t.n}_w2400.jpg" alt="scan">
+      </div></div>
+      <div>
+        ${t.flags.length ? `<div class="flag"><b>自动检测标记了这几处，请重点看：</b><br>${
+          t.flags.map(f => esc(f)).join('<br>')}</div>` : ''}
+        <h4 class="label" style="color:var(--muted);margin:.6rem 0 .4rem">本站转录</h4>
+        <div class="tx">${t.flags.length ? markFlags(t.en, t.flags) : esc(t.en)}</div>
+        ${t.zh ? `<h4 class="label" style="color:var(--muted);margin:.9rem 0 .4rem">中文译文</h4>
+          <div class="tx zh">${esc(t.zh)}</div>` : ''}
+      </div>
+    </div>`;
+  $('#im').onclick = e => e.target.classList.toggle('zoom');
+  $('#note').value = '';
+  $('#prog').textContent = `${i + 1} / ${T.length}　已判 ${Object.keys(res).length}`;
+}
+
+function judge(v){
+  const t = T[i];
+  if (v !== 'skip') {
+    res[`${t.doc}#${t.n}`] = {v, group: t.group, note: $('#note').value.trim() || undefined,
+                              flags: t.flags.length};
+    localStorage.setItem(KEY, JSON.stringify(res));
+  }
+  i++; render(); scrollTo(0, 0);
+}
+
+function finish(){
+  const rows = Object.values(res);
+  const cnt = g => k => rows.filter(r => r.group === g && r.v === k).length;
+  const tot = g => rows.filter(r => r.group === g).length;
+  const pct = (a, b) => b ? (a / b * 100).toFixed(0) + '%' : '—';
+  const line = (label, g) => `<tr><td>${label}</td><td>${tot(g)}</td>
+    <td>${cnt(g)('ok')} (${pct(cnt(g)('ok'), tot(g))})</td>
+    <td>${cnt(g)('model')}</td><td>${cnt(g)('source')}</td><td>${cnt(g)('illegible')}</td></tr>`;
+  $('#ctl').style.display = 'none';
+  $('#app').innerHTML = `
+    <h1 class="pt">校验完成<span class="zh">Sampling complete</span></h1>
+    <div class="done-panel">
+      <table>
+        <tr><th>样本</th><th>页数</th><th>转录正确</th><th>模型转错</th><th>原件本身不一致</th><th>无法判定</th></tr>
+        ${line('随机页（无偏基线）', 'random')}
+        ${line('被标记页（检测命中率）', 'flagged')}
+      </table>
+      <p class="muted" style="font-size:.9rem">
+        <b>随机页</b>那一行给出整体错误率；<b>被标记页</b>那一行说明自洽性检测的准不准
+        ——若其中「模型转错 + 原件本身不一致」占比很高，说明检测确实指向了问题位置。</p>
+      <p><button onclick="dl()" style="border:1px solid var(--rule);background:var(--ink);
+        color:var(--paper);padding:.7rem 1.4rem;font:600 .72rem var(--label);
+        letter-spacing:.12em;cursor:pointer">下载结果 JSON</button>
+      <button onclick="if(confirm('清空所有已判结果？')){localStorage.removeItem('${KEY}');location.reload()}"
+        style="border:1px solid var(--rule);background:transparent;color:var(--muted);
+        padding:.7rem 1.4rem;font:600 .72rem var(--label);letter-spacing:.12em;cursor:pointer;
+        margin-left:.6rem">重新开始</button></p>
+    </div>`;
+}
+
+function dl(){
+  const b = new Blob([JSON.stringify(res, null, 1)], {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(b); a.download = 'verify_results.json'; a.click();
+}
+
+addEventListener('keydown', e => {
+  if (e.target.id === 'note' && e.key !== 'Enter') return;
+  const m = {'1':'ok','2':'model','3':'source','4':'illegible','s':'skip','S':'skip'};
+  if (m[e.key]) { e.preventDefault(); judge(m[e.key]); }
+  if (e.key === 'Enter' && e.target.id === 'note') { e.preventDefault(); judge('ok'); }
+});
+document.querySelectorAll('.bar2 button[data-v]').forEach(b =>
+  b.onclick = () => judge(b.dataset.v));
+
+fetch('data/verify.json').then(r => r.json()).then(d => {
+  T = d.tasks.filter(t => !(`${t.doc}#${t.n}` in res));   // 已判过的跳过，可分次做完
+  if (!T.length) { T = d.tasks; i = T.length; }
+  $('#ctl').style.display = 'flex';
+  render();
+}).catch(e => $('#app').innerHTML = '<p class="spin">任务单未生成，请先跑 gen_verify.py</p>');
+</script>
+</body>
+</html>

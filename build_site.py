@@ -21,21 +21,10 @@ DATA = os.path.join(HERE, "data")
 OUT = os.path.join(HERE, "docs", "data")
 SHARDS = 64
 
-# ── 字形归一化 ────────────────────────────────────────────────
-_V = json.load(open(os.path.join(HERE, "variants.json"), encoding="utf-8"))
-_EXTRA = ["吴吳", "吕呂", "强強", "么麽", "户戶", "为爲為", "别別", "沉沈",
-          "画畫", "冰氷", "污汙汚", "床牀", "秘祕", "杯盃", "群羣", "峰峯"]
-NORM = {}
-for _g in list(_V.values()) + _EXTRA:
-    for _c in _g:
-        NORM[_c] = _g[0]
+from glyphnorm import NORM, GROUPS, normalize   # 见该模块：两源并查集合并
 
 CJK = re.compile(r"[㐀-鿿]")
 WORD = re.compile(r"[a-z][a-z'\-]{1,}")
-
-
-def normalize(s):
-    return "".join(NORM.get(c, c) for c in s)
 
 
 def tokens(text):
@@ -135,7 +124,7 @@ def build_docs_and_index():
 
 def build_variants_min():
     """给前端的紧凑字形表：每组一个字符串，首字为归一形。约 3,100 组。"""
-    groups = sorted({g for g in list(_V.values())} | set(_EXTRA))
+    groups = sorted(GROUPS)
     p = os.path.join(OUT, "variants.min.json")
     json.dump(groups, open(p, "w", encoding="utf-8"),
               ensure_ascii=False, separators=(",", ":"))
