@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>全文检索 · 上海工部局警务处档案</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Archivo:wght@600&family=Noto+Serif+SC:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<header class="bar"><div class="in">
+  <a class="brand" href="index.html"><b>Shanghai Municipal Police Files</b><span>1894–1949</span></a>
+  <nav>
+    <a href="search.html" aria-current="page">检索 Search</a>
+    <a href="browse.html">目录 Catalogue</a>
+    <a href="quality.html">质量 Quality</a>
+    <a href="index.html">关于 About</a>
+  </nav>
+</div></header>
+
+<div class="wrap">
+  <h1 class="pt">Full-text search<span class="zh">全文检索</span></h1>
+  <p class="sub">Search the re-transcribed English text and its Chinese translation together.
+    <span class="zh">英文转录与中文译文一并检索。</span></p>
+
+  <div class="searchbox">
+    <input id="q" placeholder="communist / 罢工 / Chapei / 國民黨 …" autofocus>
+    <button id="go">Search</button>
+  </div>
+  <p class="hint">
+    简繁异体通搜：输入 <code data-q="国民党">国民党</code> 可命中原件里的「國民黨」。
+    试试 <code data-q="communist">communist</code>
+    <code data-q="strike">strike</code>
+    <code data-q="Fuhtan">Fuhtan</code>
+    <code data-q="共产党">共产党</code>
+    <code data-q="罢工">罢工</code>
+    <code data-q="chapei">Chapei</code>
+  </p>
+
+  <div id="meta" class="spin">正在载入索引…</div>
+  <div id="res" class="res"></div>
+</div>
+
+<footer class="ft"><div class="in">
+  <span>转录由大模型生成 · 引用前请核对原件影像</span>
+  <span class="zh">Machine-generated transcription — verify against the original scan before citing.</span>
+</div></footer>
+
+<script src="assets/search.js"></script>
+<script>
+const $ = s => document.querySelector(s);
+let CAT = null;
+
+async function boot() {
+  await loadNorm();
+  CAT = await loadCatalog();
+  $('#meta').innerHTML = `目录 ${fmt(CAT.total_files)} 件 / ${fmt(CAT.total_pages)} 页；
+    已完成双语转录 <b>${fmt(CAT.done_files)}</b> 件 / <b>${fmt(CAT.done_pages)}</b> 页
+    <span class="muted">（检索仅覆盖已转录部分）</span>`;
+  const u = new URLSearchParams(location.search).get('q');
+  if (u) { $('#q').value = u; run(); }
+}
+
+async function run() {
+  const q = $('#q').value.trim();
+  if (!q) return;
+  history.replaceState(null, '', '?q=' + encodeURIComponent(q));
+  $('#res').innerHTML = '<p class="spin">检索中…</p>';
+  const t0 = performance.now();
+  const { toks, hits } = await search(q);
+  const ms = Math.round(performance.now() - t0);
+  if (!hits.length) {
+    $('#res').innerHTML = `<p class="spin">未命中。已切分为：${toks.map(t=>'<code>'+t+'</code>').join(' ')}
+      <br>目前仅 ${fmt(CAT.done_pages)} 页已转录，全库 ${fmt(CAT.total_pages)} 页仍在处理中。</p>`;
+    return;
+  }
+  const npages = hits.reduce((a, h) => a + h.pages.length, 0);
+  let html = `<p class="hint">命中 <b>${fmt(npages)}</b> 页，分布在 <b>${hits.length}</b> 件卷宗（${ms} ms）</p>`;
+  $('#res').innerHTML = html + '<p class="spin">载入摘要…</p>';
+  const parts = [html];
+  for (const h of hits.slice(0, 40)) {
+    const d = await getDoc(h.doc);
+    const byN = Object.fromEntries(d.pages.map(p => [p.n, p]));
+    parts.push(`<div class="it">
+      <div class="ti"><a href="file.html?id=${h.doc}&q=${encodeURIComponent(q)}">${d.t}</a></div>
+      <div class="mt">${d.s ? d.s + ' 系列 · ' : ''}${d.p} 页 · 命中 ${h.pages.length} 页</div>
+      ${h.pages.slice(0, 3).map(n => {
+        const p = byN[n] || {};
+        const inEn = hasMatch(p.en, q), inZh = hasMatch(p.zh, q);
+        const tag = `<a class="pg" href="file.html?id=${h.doc}&p=${n}&q=${encodeURIComponent(q)}">p${n + 1}</a>`;
+        // 命中在哪一侧就先显示哪一侧；两侧都命中则英文在前、译文补充
+        if (inZh && !inEn)
+          return `<div class="sn zh">${tag}${snippet(p.zh, q)}</div>`;
+        return `<div class="sn">${tag}${snippet(p.en, q)}</div>` +
+          (inZh ? `<div class="sn zh" style="margin-left:2.6rem">${snippet(p.zh, q, 150)}</div>` : '');
+      }).join('')}
+    </div>`);
+  }
+  $('#res').innerHTML = parts.join('');
+}
+
+$('#go').onclick = run;
+$('#q').addEventListener('keydown', e => { if (e.key === 'Enter') run(); });
+document.querySelectorAll('.hint code').forEach(c =>
+  c.onclick = () => { $('#q').value = c.dataset.q; run(); });
+boot();
+</script>
+</body>
+</html>

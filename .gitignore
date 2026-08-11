@@ -6,3 +6,5 @@ batches/
 results/
 *.jsonl
 .DS_Store
+variants.json
+corpus_v1.json

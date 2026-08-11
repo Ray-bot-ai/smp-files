@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>质量报告 · 上海工部局警务处档案</title>
+<meta name="description" content="本项目转录质量的公开评估：失败模式、实测案例、自动检测方法与已知局限。">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Archivo:wght@600&family=Noto+Serif+SC:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/app.css">
+<style>
+.q-wrap{max-width:52rem}
+.q-wrap h2{font-size:1.2rem;font-weight:500;margin:3rem 0 .8rem;padding-bottom:.4rem;
+  border-bottom:1px solid var(--rule);color:var(--ink)}
+.q-wrap h2 .zh{display:block;font-size:.72em;color:var(--muted);margin-top:.15rem}
+.q-wrap p{margin:0 0 1rem}
+.cmp{width:100%;border-collapse:collapse;font-size:.9rem;margin:1.2rem 0}
+.cmp th,.cmp td{text-align:left;padding:.5rem .7rem;border-bottom:1px solid var(--rule);
+  vertical-align:top}
+.cmp th{font-family:var(--label);font-size:.62rem;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--muted)}
+.bad{color:var(--stamp);font-weight:500}
+.good{color:#4a7a44}
+.mono{font-family:ui-monospace,Menlo,monospace;font-size:.84em}
+figure{margin:1.6rem 0}
+figure img{border:1px solid var(--rule);filter:grayscale(1) contrast(1.1);background:#fff}
+figcaption{font-size:.84rem;color:var(--muted);margin-top:.5rem;line-height:1.6}
+.big{display:grid;grid-template-columns:repeat(auto-fit,minmax(9rem,1fr));
+  border:1px solid var(--rule);background:var(--card);margin:1.4rem 0}
+.big div{padding:1rem;border-left:1px solid var(--rule)}
+.big div:first-child{border-left:0}
+.big b{display:block;font-size:1.5rem;color:var(--stamp);font-weight:500}
+.big span{font-size:.66rem;color:var(--muted);font-family:var(--label);
+  letter-spacing:.12em;text-transform:uppercase}
+</style>
+</head>
+<body>
+<header class="bar"><div class="in">
+  <a class="brand" href="index.html"><b>Shanghai Municipal Police Files</b><span>1894–1949</span></a>
+  <nav>
+    <a href="search.html">检索 Search</a>
+    <a href="browse.html">目录 Catalogue</a>
+    <a href="quality.html" aria-current="page">质量 Quality</a>
+    <a href="index.html">关于 About</a>
+  </nav>
+</div></header>
+
+<div class="wrap q-wrap">
+  <h1 class="pt">Transcription quality<span class="zh">转录质量报告</span></h1>
+  <p class="sub">What this edition gets wrong, how we know, and how we detect it.
+    <span class="zh">本站转录会错在哪里、我们怎么知道、以及如何自动定位。</span></p>
+
+  <p>本页公开本项目的失败模式与实测数据。<b>公开错误不是免责，而是让这批材料可被负责任地使用的前提</b>——
+    使用者需要知道哪些字段可信、哪些必须回原件核对。</p>
+
+  <h2>一、根本的失败模式<span class="zh">The core failure mode</span></h2>
+  <p>传统 OCR 出错会变成一眼可见的乱码；<b>大模型面对残缺页面时，会生成通顺、像样、但错误的内容</b>，
+    读起来毫无破绽。这一现象在数字人文领域已被系统评测并命名为
+    <b>over-historicization</b>（过度历史化）——模型朝着它认为「符合那个时代」的方向编造
+    （Levchenko, <i>Evaluating LLMs for Historical Document OCR</i>, LM4DH 2025, arXiv:2510.06743）。
+    该研究同时发现：<b>事后用大模型做「OCR 纠错」会让结果变差</b>，因此本项目只做一次转录，不做二次润色。</p>
+
+  <h2>二、分辨率决定编不编造<span class="zh">Resolution decides invention</span></h2>
+  <p>同一页、同一模型、同一提示词，只改变输入影像的分辨率：</p>
+  <table class="cmp">
+    <tr><th>字段</th><th>1000px</th><th>2004px（原生，本站采用）</th><th>原件实际</th></tr>
+    <tr><td>工厂性质</td><td class="bad">Opium and Illegal Lottery Factory</td>
+      <td>Cron and Nickel Plating Factory</td><td class="good">Chrom and Nickel Plating Factory</td></tr>
+    <tr><td>门牌号</td><td class="bad">1148/100 Yuhong Rd</td>
+      <td>1143/106 Yuhang Rd</td><td class="good">1143/106 Yuhang Rd</td></tr>
+    <tr><td>父母姓名</td><td class="bad">整句被删去</td>
+      <td>named Herman and Anna</td><td class="good">named Hermann and Anna</td></tr>
+    <tr><td>日期</td><td class="bad">13.1.44</td><td>13.12.44</td><td class="good">13.12.44</td></tr>
+  </table>
+  <p>低分辨率下，一名经营<b>电镀厂</b>的德籍犹太难民被转录成经营<b class="bad">鸦片与地下彩票厂</b>——
+    错得完全符合对旧上海的想象，因而看不出来。<b>本站一律使用原生扫描分辨率转录</b>，
+    代价是输入 token 增加约 87%。</p>
+
+  <h2>三、一个完整案例<span class="zh">A worked example</span></h2>
+  <p>卷宗 <span class="mono">Report Re Wang Cheng-Hsiang</span>（22 页）中，
+    同一个人的姓名在三页上出现了三个版本：</p>
+  <table class="cmp">
+    <tr><th>页</th><th>本站转录</th><th>原件实际</th><th>判定</th></tr>
+    <tr><td>p1</td><td class="bad">Wang Tsung Ming（汪宗明）</td>
+      <td>Waung Tsung Hsiang（汪正祥）</td><td>罗马字捏造 + 汉字三错二</td></tr>
+    <tr><td>p2</td><td class="good">汪正祥</td><td>汪正祥</td><td>正确</td></tr>
+    <tr><td>p3</td><td class="bad">汪玉祥</td><td>汪正祥</td><td>手写「正」误读为「玉」</td></tr>
+  </table>
+  <figure>
+    <img src="assets/case-p1.jpg" alt="原件局部：Waung Tsung Hsiang（汪正祥）" loading="lazy">
+    <figcaption>原件 p1 局部。打字机文本为 <span class="mono">Waung Tsung Hsiang</span>，
+      手写批注为「汪正祥」。模型输出的 <span class="mono bad">Ming</span> 在原件上并不存在。</figcaption>
+  </figure>
+  <p>正确写法为<b>汪正祥</b>，由三处独立佐证：p2 的中文正文、卷宗标题
+    <span class="mono">Wang Cheng-Hsiang</span>（正祥＝Cheng-Hsiang）、以及手写批注本身。
+    <b>模型三次只对了一次。</b></p>
+
+  <h2>四、自相矛盾即检测信号<span class="zh">Internal contradiction as a detector</span></h2>
+  <p>上述案例指向一个可规模化的质检方法：<b>同一卷宗内部的自相矛盾，不需要任何外部参照就能自动查出</b>。
+    一份档案里同一个人名出现三种写法，必有两种是错的。</p>
+  <p>本项目为此写了检测程序，比对时先用简繁异体等价表归一字形
+    （数据源：<span class="mono">cjkvi-tables</span>，约 6,900 字头），以免把
+    「顧／顾」这类字形差异误报为错误。</p>
+  <div class="big">
+    <div><b id="s-pages">261</b><span>已检页数</span></div>
+    <div><b id="s-flags">34</b><span>标记处数</span></div>
+    <div><b id="s-rate">1 / 8</b><span>约每 N 页一处</span></div>
+  </div>
+  <p class="muted" style="font-size:.9rem">标记集中在<b>汉字人名与地名</b>——正是本项目最不可靠的字段。
+    这些位置应优先比对原件影像。</p>
+
+  <h2>五、可信度分级<span class="zh">What to trust</span></h2>
+  <table class="cmp">
+    <tr><th>内容类型</th><th>可信度</th><th>建议用法</th></tr>
+    <tr><td>英文叙述正文</td><td class="good">较高</td><td>可用于理解与检索定位；引用前仍建议核对</td></tr>
+    <tr><td>中文原件转录</td><td>中等</td><td>可读，但字形与人名须核对</td></tr>
+    <tr><td class="bad">数字、日期</td><td class="bad">低</td><td>一律回原件核对</td></tr>
+    <tr><td class="bad">人名、地名、门牌号</td><td class="bad">低</td><td>一律回原件核对</td></tr>
+    <tr><td class="bad">手写批注与签名</td><td class="bad">最低</td><td>模型每次读法可能不同，不可引用</td></tr>
+  </table>
+  <p><b>温度参数设为 0，但不保证可复现。</b>实测同一页草书签名两次转录得到不同结果
+    （「陳希平」／「陳希曾」）——字迹本身即无法辨认时，模型每次的猜测不同。</p>
+
+  <h2>六、我们刻意没有做的事<span class="zh">What we deliberately did not do</span></h2>
+  <p>本站不提供基于这批转录的<b>地图、人物网络、词频统计</b>等衍生分析。
+    理由是上文已经证明：人名与地名恰恰是最不可靠的字段，
+    在其上构建计量分析会把不确定性隐藏在看似精确的图表之后。
+    待抽样校验完成、错误率有据可依后，再评估哪些分析站得住。</p>
+
+  <h2>七、史料本身的边界<span class="zh">Limits of the source</span></h2>
+  <p>M1750 是<b>选摄本</b>——NARA 说明册明言其选择标准不为人知，缩微胶卷与纸本收藏并不完全重合。
+    中文正本主体存于<b>上海市档案馆 U1 全宗</b>，未公开数字化。
+    此外，这是<b>殖民地警察机构的政治监视记录</b>，其中对人物、团体、事件的描述带有书写者的立场与成见，
+    应作为史料对待，而非事实陈述。</p>
+</div>
+
+<footer class="ft"><div class="in">
+  <span>NARA RG 263 · M1750 · 公有领域</span>
+  <span>转录由大模型生成 · 引用前请核对原件影像</span>
+</div></footer>
+
+<script>
+fetch('data/quality.json').then(r => r.ok ? r.json() : null).then(d => {
+  if (!d) return;
+  document.getElementById('s-pages').textContent = d.pages.toLocaleString();
+  document.getElementById('s-flags').textContent = d.flags.toLocaleString();
+  document.getElementById('s-rate').textContent = '1 / ' + Math.round(d.pages / Math.max(d.flags, 1));
+}).catch(() => {});
+</script>
+</body>
+</html>

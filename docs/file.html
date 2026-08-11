@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>卷宗 · 上海工部局警务处档案</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Archivo:wght@600&family=Noto+Serif+SC:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<header class="bar"><div class="in">
+  <a class="brand" href="index.html"><b>Shanghai Municipal Police Files</b><span>1894–1949</span></a>
+  <nav>
+    <a href="search.html">检索 Search</a>
+    <a href="browse.html">目录 Catalogue</a>
+    <a href="quality.html">质量 Quality</a>
+    <a href="index.html">关于 About</a>
+  </nav>
+</div></header>
+
+<div class="wrap">
+  <div id="head"><p class="spin">载入中…</p></div>
+  <div class="note">
+    每页并列：<b>原件影像</b>（点击可在 Internet Archive 看全图）、<b>本站转录</b>、<b>中文译文</b>。
+    转录由大模型生成，<b>数字、日期、人名、地址最不可靠</b>——引用前请核对左侧原件。
+    <span class="zh" style="display:block;margin-top:.4rem;color:var(--muted)">
+      Each page shows the original scan, this edition's transcription, and a Chinese translation.
+      Machine-generated; verify against the scan before citing.</span>
+  </div>
+  <div id="pages"></div>
+</div>
+
+<footer class="ft"><div class="in">
+  <span>NARA RG 263 · M1750 · 公有领域</span>
+  <span>扫描：Virtual Shanghai / bnAsie via Internet Archive</span>
+</div></footer>
+
+<script src="assets/search.js"></script>
+<script>
+const $ = s => document.querySelector(s);
+const P = new URLSearchParams(location.search);
+const ID = P.get('id'), Q = P.get('q') || '', JUMP = P.get('p');
+
+function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+function hl(s){
+  if (!Q) return esc(s);
+  const out = esc(s), n = normalize(out.toLowerCase()), marks = [];
+  for (const t of tokenize(Q)) { let p = n.indexOf(t); while (p >= 0) { marks.push([p, p + t.length]); p = n.indexOf(t, p + 1); } }
+  marks.sort((a,b)=>a[0]-b[0]);
+  let r = '', last = 0;
+  for (const [a,b] of marks) { if (a < last) continue; r += out.slice(last,a) + '<mark>' + out.slice(a,b) + '</mark>'; last = b; }
+  return r + out.slice(last);
+}
+
+(async () => {
+  if (!ID) { $('#head').innerHTML = '<p class="spin">缺少 id 参数</p>'; return; }
+  await loadNorm();
+  const d = await getDoc(ID);
+  $('#head').innerHTML = `
+    <h1 class="pt">${esc(d.t)}</h1>
+    <p class="sub">${d.s ? d.s + ' 系列 · ' : ''}${d.p} 页 ·
+      <a href="${d.ia}" target="_blank" rel="noopener">在 Internet Archive 查看原件 ↗</a>
+      ${Q ? ` · 检索词「${esc(Q)}」已高亮` : ''}</p>`;
+  const iid = 'smpa-files-' + ID;
+  $('#pages').innerHTML = d.pages.map(p => `
+    <section class="pane" id="p${p.n}">
+      <div>
+        <h4>原件影像 · Scan &nbsp;p${p.n + 1}</h4>
+        <a href="${d.ia}" target="_blank" rel="noopener">
+          <img loading="lazy" src="https://archive.org/download/${iid}/page/n${p.n}_w800.jpg" alt="page ${p.n + 1}"></a>
+      </div>
+      <div>
+        <h4>本站转录 · Transcription</h4>
+        <div class="txt">${p.en ? hl(p.en) : '<span class="muted">（本页无文字或未转录）</span>'}</div>
+      </div>
+      <div>
+        <h4>中文译文 · Translation</h4>
+        <div class="txt zh">${p.zh ? hl(p.zh) : '<span class="muted">（未译）</span>'}</div>
+      </div>
+    </section>`).join('');
+  if (d.ia_ocr) {
+    $('#pages').insertAdjacentHTML('beforeend', `
+      <section class="pane" style="grid-template-columns:1fr">
+        <div><h4>对照：Internet Archive 原有 OCR · Existing machine OCR</h4>
+        <div class="oldocr">${esc(d.ia_ocr.slice(0, 6000))}</div>
+        <p class="muted" style="font-size:.84rem;margin-top:.6rem">
+          这是重做之前的状态。保留它是为了交叉比对——两份不一致处，正是需要人工核对原件的地方。</p>
+        </div></section>`);
+  }
+  if (JUMP !== null) document.getElementById('p' + JUMP)?.scrollIntoView({behavior:'smooth'});
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>全库目录 · 上海工部局警务处档案</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Archivo:wght@600&family=Noto+Serif+SC:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<header class="bar"><div class="in">
+  <a class="brand" href="index.html"><b>Shanghai Municipal Police Files</b><span>1894–1949</span></a>
+  <nav>
+    <a href="search.html">检索 Search</a>
+    <a href="browse.html" aria-current="page">目录 Catalogue</a>
+    <a href="quality.html">质量 Quality</a>
+    <a href="index.html">关于 About</a>
+  </nav>
+</div></header>
+
+<div class="wrap">
+  <h1 class="pt">Catalogue of the whole collection<span class="zh">全库目录</span></h1>
+  <p class="sub">Every file in NARA microfilm publication M1750, with page counts.
+    Transcription is in progress; completed files are marked.
+    <span class="zh">M1750 全部卷宗及页数。转录仍在进行，已完成者带标记。</span></p>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="searchbox">
+    <input id="q" placeholder="按标题筛选 filter by title… (communist, strike, Fuhtan, Japanese …)">
+  </div>
+  <p class="hint">
+    <label style="font-family:var(--label);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;cursor:pointer">
+      <input type="checkbox" id="onlydone"> 只看已转录 · transcribed only</label>
+    &nbsp;&nbsp;<span id="count" class="muted"></span>
+  </p>
+
+  <table class="tbl">
+    <thead><tr><th style="width:2rem"></th><th>标题 Title</th>
+      <th style="width:5rem">系列</th><th style="width:5rem" class="num">页数</th></tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <p id="more" class="spin"></p>
+</div>
+
+<footer class="ft"><div class="in">
+  <span>NARA RG 263 · M1750 · 公有领域</span>
+  <span>扫描：Virtual Shanghai / bnAsie via Internet Archive</span>
+</div></footer>
+
+<script src="assets/search.js"></script>
+<script>
+const $ = s => document.querySelector(s);
+let ITEMS = [], shown = 0, cur = [];
+const PAGE = 200;
+
+function render(reset) {
+  if (reset) { shown = 0; $('#rows').innerHTML = ''; }
+  const slice = cur.slice(shown, shown + PAGE);
+  $('#rows').insertAdjacentHTML('beforeend', slice.map(x => `
+    <tr><td>${x.d ? '<span class="done" title="已转录"></span>' : '<span class="todo" title="未转录"></span>'}</td>
+      <td>${x.d ? `<a href="file.html?id=${x.i}">${x.t}</a>` : x.t}</td>
+      <td class="muted">${x.s || '—'}</td>
+      <td class="num">${x.p}</td></tr>`).join(''));
+  shown += slice.length;
+  $('#more').textContent = shown < cur.length ? `显示 ${shown} / ${cur.length}，向下滚动继续…` : `共 ${cur.length} 件`;
+}
+
+function apply() {
+  const q = $('#q').value.trim().toLowerCase();
+  const only = $('#onlydone').checked;
+  cur = ITEMS.filter(x => (!only || x.d) && (!q || x.t.toLowerCase().includes(q)));
+  $('#count').textContent = `${cur.length.toLocaleString()} 件 / ${cur.reduce((a,b)=>a+b.p,0).toLocaleString()} 页`;
+  render(true);
+}
+
+(async () => {
+  const c = await loadCatalog();
+  ITEMS = c.items;
+  $('#stats').innerHTML = `
+    <div><b>${fmt(c.total_files)}</b><span>卷宗 Files</span></div>
+    <div><b>${fmt(c.total_pages)}</b><span>页 Pages</span></div>
+    <div><b>${fmt(c.done_files)}</b><span>已转录 Done</span></div>
+    <div><b>${(c.done_pages / c.total_pages * 100).toFixed(1)}%</b><span>完成度 Progress</span></div>`;
+  apply();
+  addEventListener('scroll', () => {
+    if (shown < cur.length && innerHeight + scrollY > document.body.offsetHeight - 600) render(false);
+  });
+  $('#q').addEventListener('input', apply);
+  $('#onlydone').addEventListener('change', apply);
+})();
+</script>
+</body>
+</html>

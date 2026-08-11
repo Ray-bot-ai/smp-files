@@ -1,0 +1,117 @@
+/* 与首页同一套语言：深墨 + 卷宗纸 + 档案红戳；EB Garamond / 思源宋体 / Archivo */
+:root{
+  --ink:#0b0e13; --ink-2:#141922; --silver:#8d949f;
+  --paper:#f2ede3; --paper-2:#e6dfd1; --card:#fbf8f2;
+  --rule:#c9bfab; --rule-dim:#2a303b;
+  --body:#2a2721; --muted:#6d6659;
+  --stamp:#8f2f22; --stamp-lit:#c9614c; --brass:#9a7b46;
+  --serif:"EB Garamond",'Iowan Old Style',Georgia,serif;
+  --cjk:"Noto Serif SC","Source Han Serif SC","Songti SC",serif;
+  --label:"Archivo",ui-sans-serif,system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--body);
+  font:400 17px/1.7 var(--serif);-webkit-font-smoothing:antialiased}
+.zh{font-family:var(--cjk);line-height:1.9}
+a{color:var(--stamp);text-decoration:none;border-bottom:1px solid rgba(143,47,34,.28)}
+a:hover{color:var(--ink);border-bottom-color:var(--ink)}
+img{max-width:100%;display:block}
+.label{font-family:var(--label);font-size:.68rem;font-weight:600;
+  letter-spacing:.2em;text-transform:uppercase}
+
+/* 顶栏 */
+header.bar{background:var(--ink);color:var(--paper);position:sticky;top:0;z-index:30;
+  border-bottom:1px solid var(--rule-dim)}
+.bar .in{max-width:78rem;margin:0 auto;padding:.85rem 1.4rem;
+  display:flex;align-items:center;gap:1.6rem;flex-wrap:wrap}
+.bar .brand{font-size:1.02rem;letter-spacing:.01em;color:var(--paper);border:0}
+.bar .brand b{font-weight:500}
+.bar .brand span{color:#7b838f;font-size:.82rem;margin-left:.5rem}
+.bar nav{margin-left:auto;display:flex;gap:1.3rem}
+.bar nav a{color:#9aa1ac;border:0;font-family:var(--label);font-size:.7rem;
+  letter-spacing:.16em;text-transform:uppercase;padding-bottom:2px}
+.bar nav a:hover,.bar nav a[aria-current]{color:var(--stamp-lit);
+  border-bottom:1px solid var(--stamp-lit)}
+
+.wrap{max-width:78rem;margin:0 auto;padding:2.4rem 1.4rem 5rem}
+h1.pt{font-weight:400;font-size:clamp(1.6rem,4vw,2.4rem);margin:.2rem 0 .3rem;color:var(--ink)}
+h1.pt .zh{display:block;font-size:.62em;color:var(--muted);margin-top:.25rem}
+.sub{color:var(--muted);font-size:.95rem;margin:0 0 2rem}
+
+/* 统计条 */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(8rem,1fr));
+  gap:0;border:1px solid var(--rule);background:var(--card);margin:0 0 2rem}
+.stats div{padding:1rem 1.1rem;border-left:1px solid var(--rule)}
+.stats div:first-child{border-left:0}
+.stats b{display:block;font-size:1.5rem;color:var(--stamp);line-height:1.15;font-weight:500}
+.stats span{font-size:.66rem;color:var(--muted);font-family:var(--label);
+  letter-spacing:.14em;text-transform:uppercase}
+
+/* 搜索框 */
+.searchbox{display:flex;gap:0;border:1px solid var(--rule);background:#fff;margin-bottom:1rem}
+.searchbox input{flex:1;border:0;padding:.95rem 1.1rem;font:400 1.05rem var(--serif);
+  background:transparent;color:var(--body);outline:none}
+.searchbox input::placeholder{color:#b3aa98}
+.searchbox button{border:0;background:var(--ink);color:var(--paper);
+  padding:0 1.6rem;font-family:var(--label);font-size:.72rem;letter-spacing:.16em;
+  text-transform:uppercase;cursor:pointer}
+.searchbox button:hover{background:var(--stamp)}
+.hint{font-size:.84rem;color:var(--muted);margin:0 0 1.8rem}
+.hint code{background:var(--paper-2);padding:.08em .4em;border-radius:2px;
+  font-family:ui-monospace,Menlo,monospace;font-size:.9em;cursor:pointer}
+.hint code:hover{background:var(--stamp);color:#fff}
+
+/* 结果 */
+.res{border-top:1px solid var(--rule)}
+.res .it{padding:1.1rem 0;border-bottom:1px solid var(--rule)}
+.res .ti{font-size:1.02rem;color:var(--ink)}
+.res .mt{font-family:var(--label);font-size:.64rem;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--muted);margin:.25rem 0 .5rem}
+.res .sn{font-size:.92rem;color:#4a453c;line-height:1.7}
+.res .sn mark{background:#f6e2a8;color:inherit;padding:0 .1em}
+.res .sn.zh{font-size:.88rem}
+.pg{display:inline-block;font-family:var(--label);font-size:.62rem;letter-spacing:.1em;
+  color:var(--stamp);border:1px solid rgba(143,47,34,.3);padding:.05rem .4rem;
+  margin-right:.45rem;border-radius:2px}
+
+/* 目录表 */
+.tbl{width:100%;border-collapse:collapse;font-size:.92rem}
+.tbl th{text-align:left;font-family:var(--label);font-size:.64rem;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--muted);font-weight:600;
+  padding:.55rem .7rem;border-bottom:1px solid var(--rule);position:sticky;top:3.2rem;
+  background:var(--paper)}
+.tbl td{padding:.5rem .7rem;border-bottom:1px solid var(--rule);vertical-align:top}
+.tbl tr:hover td{background:var(--card)}
+.tbl .num{text-align:right;color:var(--muted);font-variant-numeric:tabular-nums}
+.done{display:inline-block;width:.5rem;height:.5rem;border-radius:50%;background:var(--stamp)}
+.todo{display:inline-block;width:.5rem;height:.5rem;border-radius:50%;
+  border:1px solid var(--rule);background:transparent}
+
+/* 阅读页三栏 */
+.pane{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.4rem;
+  border-top:1px solid var(--rule);padding:1.6rem 0}
+.pane h4{margin:0 0 .7rem;font-family:var(--label);font-size:.64rem;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--muted);font-weight:600;
+  border-bottom:1px solid var(--rule);padding-bottom:.4rem}
+.pane .txt{white-space:pre-wrap;font-size:.9rem;line-height:1.72}
+.pane .txt.zh{font-size:.86rem}
+.pane img{border:1px solid var(--rule);background:#fff;filter:grayscale(1) contrast(1.05)}
+.pane .oldocr{font-family:ui-monospace,Menlo,monospace;font-size:.72rem;line-height:1.75;
+  color:#8b8478;white-space:pre-wrap;max-height:30rem;overflow:auto}
+
+.note{background:var(--card);border:1px solid var(--rule);border-left:3px solid var(--stamp);
+  padding:1rem 1.2rem;margin:1.4rem 0;font-size:.92rem}
+.note b{color:var(--ink)}
+.muted{color:var(--muted)}
+.spin{color:var(--muted);font-size:.9rem;padding:2rem 0}
+
+footer.ft{background:var(--ink);color:#6b7381;padding:2.2rem 0;font-size:.82rem;margin-top:4rem}
+footer.ft .in{max-width:78rem;margin:0 auto;padding:0 1.4rem;
+  display:flex;flex-wrap:wrap;gap:.8rem 2rem;justify-content:space-between}
+
+@media(max-width:900px){
+  .pane{grid-template-columns:1fr}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .stats div{border-left:0;border-top:1px solid var(--rule)}
+  .stats div:nth-child(-n+2){border-top:0}
+}
