@@ -7,7 +7,7 @@ custom_id/status_code。所以现在用实时定下来的数据结构，将来 B
 用法：.venv/bin/python demo_run.py [ocr|translate|all|stat]
 """
 import concurrent.futures as cf
-import base64, glob, json, os, re, sys, time, urllib.request
+import base64, glob, hashlib, json, os, re, sys, time, urllib.request
 from collections import Counter
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -222,17 +222,25 @@ def run_ocr(workers=8):
         todo = [(iid, n) for n in range(m["pages"]) if _needs_ocr(got.get(n))]
         if not todo:
             continue          # 没活干就别重写文件——空转一遍会把整份 JSON 无谓地改一次
-        tin = tout = trea = 0
+        tin = tout = trea = stale = 0
         with cf.ThreadPoolExecutor(workers) as ex:
             for n, txt, err, u in ex.map(ocr_page, todo):
                 # 合并而不是整条替换：这一页可能已经有译文(zh)了，
                 # 整条替换会把译文一起抹掉，而且同样不报错。
                 rec = dict(got.get(n) or {})
+                old_en = (rec.get("en") or "").strip()
                 rec.update({"n": n, "en": txt, "error": err,
                             "tries": rec.get("tries", 0) + 1,
                             "image_url": f"https://archive.org/download/{iid}/page/n{n}_w2400.jpg"})
                 if u.get("via"):
                     rec["via"] = u["via"]          # 记下这页是哪个端点转出来的
+                # 这一页的英文变了 → 旧译文是照旧英文译的，必然也不对，作废重译。
+                # 译文是转录的下游，转录错了译文不可能对。
+                if (txt or "").strip() != old_en and (rec.get("zh") or "").strip():
+                    rec["zh"] = ""
+                    rec.pop("zh_src", None)
+                    rec.pop("zh_tries", None)      # 允许重新翻译
+                    stale += 1
                 got[n] = rec
                 tin += u.get("in", 0); tout += u.get("out", 0); trea += u.get("reasoning", 0)
         doc.update({
@@ -251,19 +259,32 @@ def run_ocr(workers=8):
         bad = sum(1 for v in got.values() if v.get("error"))
         flag = "" if trea == 0 else f"  ⚠ reasoning={trea} 思考没关掉！"
         print(f"{iid}: {doc['pages_done']}/{m['pages']} 页，失败 {bad}，"
-              f"{time.time()-t0:.0f}s，in={tin} out={tout}{flag}", flush=True)
+              f"{time.time()-t0:.0f}s，in={tin} out={tout}"
+              f"{f'，作废旧译文 {stale} 页（英文已变）' if stale else ''}{flag}", flush=True)
 
 
 MAX_ZH_TRIES = 2
 
 
-def _missing_zh(doc):
-    """已转录、且不是中文原件、却没有译文的页 —— 翻译阶段的静默缺口。
+def _fp(text):
+    """英文转录的指纹。译文是照着某一版英文译出来的，
+    存下当时那一版的指纹，日后就能判断译文有没有过期。"""
+    return hashlib.sha256((text or "").strip().encode()).hexdigest()[:16]
 
-    成因：整块译时模型偶尔吞掉 ⟦p数字⟧ 页码标记，拆块回填时那一页就对不上，
-    于是 zh 被写成空字符串。原代码**发现了**（会打印「⚠ 缺 N 页」）却不补，
-    而续传判据看的是 `zh_pages` 有没有值——有值就整件跳过，缺口于是永久留下。
-    这是「按有记录跳过、而非按成功跳过」这个坑在本项目第三次复发。
+
+def _missing_zh(doc):
+    """需要（重新）翻译的页。两种：
+
+    ① **缺口**：已转录、非中文原件、却没有译文。
+       成因：整块译时模型偶尔吞掉 ⟦p数字⟧ 页码标记，拆块回填时那一页就对不上，
+       于是 zh 被写成空字符串。原代码**发现了**（会打印「⚠ 缺 N 页」）却不补，
+       而续传判据看的是 `zh_pages` 有没有值——有值就整件跳过，缺口于是永久留下。
+       这是「按有记录跳过、而非按成功跳过」这个坑在本项目第三次复发。
+
+    ② **过期**：这一页的英文转录后来变了（补跑 OCR 救回来的页就是这种），
+       旧译文是照**错的/空的**英文译的，必然也是错的，必须作废重译。
+       用 zh_src 指纹判断。没有 zh_src 的是改造之前留下的老数据，
+       视为「与当前英文一致」，不重译——否则会把全库白译一遍。
     """
     out = []
     for q in doc.get("page_data", []):
@@ -271,6 +292,8 @@ def _missing_zh(doc):
         if not en or is_chinese(en):
             continue
         if not (q.get("zh") or "").strip():
+            out.append(q["n"])
+        elif q.get("zh_src") and q["zh_src"] != _fp(en):
             out.append(q["n"])
     return out
 
@@ -294,7 +317,9 @@ def _fill_missing_zh(path, doc, missing):
         z = re.sub(r"⟦p\d+⟧", "", z).strip()
         if not z or degenerate(z, len(q["en"])):
             continue
-        q["zh"] = z; filled += 1
+        q["zh"] = z
+        q["zh_src"] = _fp(q["en"])      # 记下这份译文是照哪一版英文译的
+        filled += 1
     if filled:
         doc["zh_pages"] = sum(1 for q in doc["page_data"] if (q.get("zh") or "").strip())
         doc.setdefault("meta", {})
@@ -390,6 +415,8 @@ def _translate_one(iid):
         print(f"{iid}: 翻译全失败"); return
     for q in doc["page_data"]:
         q["zh"] = zh_pages.get(q["n"], "")
+        if q["zh"]:
+            q["zh_src"] = _fp(q.get("en"))    # 译文对应的英文版本指纹
     for q in doc["page_data"]:
         if q["n"] in native_zh:
             q["zh"] = ""
