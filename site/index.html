@@ -1,0 +1,174 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>上海公共租界工部局警务处档案 · 全文检索库（筹备中）</title>
+<style>
+  :root {
+    --bg: #fbfaf7; --fg: #23201c; --muted: #6b6459; --rule: #ddd6c9;
+    --card: #fff; --accent: #8c3a2b; --accent-soft: #f3e7e3; --warn-bg: #fdf6e7;
+    --warn-rule: #d9b465;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16150f; --fg: #e8e3d8; --muted: #9a9282; --rule: #35322a;
+      --card: #1e1c16; --accent: #d98570; --accent-soft: #2c211d; --warn-bg: #262013;
+      --warn-rule: #7a6231;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #16150f; --fg: #e8e3d8; --muted: #9a9282; --rule: #35322a;
+    --card: #1e1c16; --accent: #d98570; --accent-soft: #2c211d; --warn-bg: #262013;
+    --warn-rule: #7a6231;
+  }
+  :root[data-theme="light"] {
+    --bg: #fbfaf7; --fg: #23201c; --muted: #6b6459; --rule: #ddd6c9;
+    --card: #fff; --accent: #8c3a2b; --accent-soft: #f3e7e3; --warn-bg: #fdf6e7;
+    --warn-rule: #d9b465;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.75 "Songti SC", "Source Han Serif SC", "Noto Serif CJK SC", Georgia, serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 46rem; margin: 0 auto; padding: 4rem 1.5rem 6rem; }
+  .kicker {
+    font-size: .72rem; letter-spacing: .22em; text-transform: uppercase;
+    color: var(--accent); font-family: ui-sans-serif, system-ui, sans-serif;
+    font-weight: 600; margin-bottom: 1.1rem;
+  }
+  h1 { font-size: clamp(1.7rem, 5vw, 2.5rem); line-height: 1.3; margin: 0 0 .6rem; font-weight: 700; }
+  .sub { color: var(--muted); font-size: 1.02rem; margin: 0 0 2.5rem; }
+  h2 {
+    font-size: 1.12rem; margin: 3rem 0 .9rem; padding-bottom: .45rem;
+    border-bottom: 1px solid var(--rule); font-weight: 700;
+  }
+  p { margin: 0 0 1.1rem; }
+  .lead { font-size: 1.06rem; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(8.5rem, 1fr)); gap: .75rem; margin: 2rem 0; }
+  .stat { background: var(--card); border: 1px solid var(--rule); border-radius: 6px; padding: 1rem .9rem; }
+  .stat b {
+    display: block; font-size: 1.55rem; line-height: 1.1; color: var(--accent);
+    font-family: ui-sans-serif, system-ui, sans-serif; font-weight: 700;
+  }
+  .stat span { font-size: .78rem; color: var(--muted); font-family: ui-sans-serif, system-ui, sans-serif; }
+  .warn {
+    background: var(--warn-bg); border: 1px solid var(--warn-rule);
+    border-left-width: 4px; border-radius: 5px; padding: 1.1rem 1.25rem; margin: 1.6rem 0;
+  }
+  .warn h3 { margin: 0 0 .6rem; font-size: 1rem; }
+  .warn p:last-child { margin-bottom: 0; }
+  .cmp { overflow-x: auto; margin: 1.4rem 0; }
+  table { border-collapse: collapse; width: 100%; font-size: .87rem; min-width: 30rem; }
+  th, td { text-align: left; padding: .55rem .7rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { font-family: ui-sans-serif, system-ui, sans-serif; font-size: .76rem; color: var(--muted); font-weight: 600; }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .86em;
+    background: var(--accent-soft); padding: .1em .35em; border-radius: 3px;
+  }
+  .bad { color: var(--accent); }
+  ul { margin: 0 0 1.1rem; padding-left: 1.3rem; }
+  li { margin-bottom: .45rem; }
+  .progress { background: var(--card); border: 1px solid var(--rule); border-radius: 6px; padding: 1.2rem 1.3rem; margin: 1.5rem 0; }
+  .bar { height: 7px; background: var(--rule); border-radius: 4px; overflow: hidden; margin: .8rem 0 .5rem; }
+  .bar i { display: block; height: 100%; width: 4%; background: var(--accent); border-radius: 4px; }
+  footer {
+    margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule);
+    font-size: .84rem; color: var(--muted);
+  }
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+</style>
+
+<div class="wrap">
+  <div class="kicker">筹备中 · Coming soon</div>
+  <h1>上海公共租界工部局警务处档案<br>全文检索库</h1>
+  <p class="sub">Shanghai Municipal Police Files, 1894–1949 — 重制转录本与中文对照，附原件影像链接</p>
+
+  <p class="lead">
+    美国国家档案馆缩微出版物 <b>M1750</b>《Records of the Shanghai Municipal Police, 1894–1949》
+    收录了公共租界巡捕房近半个世纪的调查与政治监视记录。这批档案早已数字化公开，
+    但机器生成的英文转录质量很差，实际难以检索；其中夹带的中文原件更是完全没有被识别。
+  </p>
+  <p>
+    本站正在做的事：用视觉大模型对全部页面重新转录，并生成中文对照译文，
+    使这批史料第一次真正可以按关键词检索。每一页都会链接回 Internet Archive 上的原件影像。
+  </p>
+
+  <div class="stats">
+    <div class="stat"><b>3,878</b><span>卷宗</span></div>
+    <div class="stat"><b>≈9 万</b><span>页</span></div>
+    <div class="stat"><b>1894–1949</b><span>年代跨度</span></div>
+    <div class="stat"><b>中英</b><span>双语对照</span></div>
+  </div>
+
+  <h2>为什么要重做转录</h2>
+  <p>
+    原件是打字机复写纸经缩微胶卷翻拍，字迹半数已经褪得看不清。
+    Internet Archive 的自动 OCR 在这种材料上基本失效。下面是同一段文字的实际对照：
+  </p>
+  <div class="cmp">
+  <table>
+    <tr><th>来源</th><th>转录结果</th></tr>
+    <tr><td>原有 OCR</td><td><code>Sar6aer enguirics revesleu ise PS -2 rh we / Toe ucene of the :surd © is 2 Gudr.. st aby le di:e_.ai. Lage</code></td></tr>
+    <tr><td>本站重制</td><td>Further enquiries revealed the following. The scene of the murder is a Chinese style dwelling house situated at 1143/106 Yuhang Rd.</td></tr>
+  </table>
+  </div>
+
+  <h2 id="caveat">使用前必读：这不是原件，也不是权威文本</h2>
+
+  <div class="warn">
+    <h3>转录由 AI 生成，可能包含看不出来的错误</h3>
+    <p>
+      与传统 OCR 产生的乱码不同，大模型在字迹残缺处会<b>生成通顺但错误的内容</b>，
+      而且读起来毫无破绽。项目测试中实际出现过：原文
+      <code>Chrom and Nickel Plating Factory</code>（电镀厂）被转录成
+      <code class="bad">Opium and Illegal Lottery Factory</code>（鸦片与地下彩票厂）；
+      门牌号 <code>1143/106</code> 变成 <code class="bad">1148/100</code>；
+      受害人姓名被整句略去。
+    </p>
+    <p>
+      这类错误已通过提高影像分辨率大幅减少，但<b>无法根除</b>。
+      <b>数字、日期、人名、地址、门牌号是最不可靠的字段。</b>
+    </p>
+  </div>
+
+  <p><b>因此，本站的正确用法是两步：</b></p>
+  <ul>
+    <li>用它<b>检索定位</b>——找到哪一卷、哪一页讲了你要找的事；</li>
+    <li>点开原件影像<b>核对原文</b>，再据以引用。</li>
+  </ul>
+  <p>
+    中文译文仅供快速浏览，不作为引用依据。原有的机器 OCR 也会一并保留，
+    两份转录不一致的地方，往往正是需要人工核对的地方。
+  </p>
+
+  <div class="warn">
+    <h3>史料本身的边界</h3>
+    <p>
+      M1750 是<b>选摄本</b>——NARA 的说明册明言其选择标准不为人知，缩微胶卷与纸本收藏并不完全重合。
+      档案的中文正本主体存于上海市档案馆 U1 全宗系列，尚未公开数字化。
+      此外这是<b>殖民警察的政治监视记录</b>，其中对人物、团体、事件的描述带有明确的立场与偏见，
+      应作为史料对待，而非事实陈述。
+    </p>
+  </div>
+
+  <h2>进度</h2>
+  <div class="progress">
+    <div>转录与翻译处理中</div>
+    <div class="bar"><i></i></div>
+    <div style="font-size:.84rem;color:var(--muted)">
+      站点将在全部处理并抽样校验完成后发布。
+    </div>
+  </div>
+
+  <h2>出处与版权</h2>
+  <ul>
+    <li><b>档案原件</b>：美国国家档案馆 RG 263，缩微出版物 M1750。美国政府文件，公有领域。</li>
+    <li><b>数字化影像</b>：由 Christian Henriot 主持的 Virtual Shanghai / bnAsie 项目扫描，
+      经 <a href="https://archive.org/details/ShanghaiMunicipalPoliceRecords">Internet Archive</a> 公开发布。</li>
+    <li><b>本站转录与译文</b>：个人研究项目，AI 生成，非官方产物，与上述任何机构均无隶属关系。</li>
+  </ul>
+
+  <footer>
+    个人研究项目 · 转录文本由大模型生成，引用前请务必核对原件影像。
+  </footer>
+</div>
