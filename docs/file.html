@@ -76,7 +76,9 @@ function hl(s){
       </div>
       <div>
         <h4>中文译文 · Translation</h4>
-        <div class="txt zh">${p.zh ? hl(p.zh) : '<span class="muted">（未译）</span>'}</div>
+        <div class="txt zh">${p.zh ? hl(p.zh) :
+          (p.note ? `<span class="muted">（${p.note}——见左栏转录）</span>`
+                  : '<span class="muted">（未译）</span>')}</div>
       </div>
     </section>`).join('');
   if (d.ia_ocr) {

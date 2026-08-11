@@ -8,6 +8,7 @@ custom_id/status_code。所以现在用实时定下来的数据结构，将来 B
 """
 import concurrent.futures as cf
 import base64, glob, json, os, re, sys, time, urllib.request
+from collections import Counter
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import KEY, BASE, MODEL, PROMPT, CTX, HERE, IMG_DIR
@@ -32,6 +33,37 @@ TRANS_PROMPT = """你是历史档案的专业译者。下面是 1920–1940 年�
    Nantao=南市、Kiangsu=江苏、Fuhtan=复旦），不确定的保留原文并加括号注明「(音译)」。
 4. 原文中残缺、拼写错误或明显是 OCR 遗留的乱码，照实译出或标「（原文不清）」，不要脑补。
 5. 只输出译文本身，不要加说明、前言或代码围栏。"""
+
+
+def is_chinese(text):
+    """这一页本身就是中文原件吗？SMP 档案里夹带大量中文公函、传单、笔录，
+    把中文「翻译」成中文既无意义又要花钱，而且实测会触发退化循环
+    （源文满是 OCR 阶段标的 □，模型就跟着 □ 循环，一页吐出 1,349 次）。"""
+    t = re.sub(r"\s", "", text or "")
+    if len(t) < 30:
+        return False
+    return sum(1 for c in t if "\u4e00" <= c <= "\u9fff") / len(t) > 0.5
+
+
+def degenerate(text, src_len):
+    """检测模型退化输出。实测踩过：翻译一页中共传单时模型吐了 1,349 次重复的「□」，
+    把 2,327 字的源文变成 14,726 字，撞 max_tokens 截断，导致后一页的页码标记丢失、
+    整页译文消失。**这类失败不报错**，只表现为「某页特别长、某页没有」。
+
+    两道判据：①同一字符连续重复 ≥30 次；②产出长度超过源文 3.5 倍。
+    """
+    if not text:
+        return None
+    if re.search(r"(.)\1{29,}", text):
+        return "字符重复循环"
+    # 任意 30 字窗口重复出现过多
+    if len(text) > 500:
+        c = Counter(text[i:i + 30] for i in range(0, len(text) - 30, 10))
+        if c and c.most_common(1)[0][1] > 20:
+            return "片段重复循环"
+    if src_len and len(text) > src_len * 3.5:
+        return f"长度异常（{len(text)} vs 源 {src_len}）"
+    return None
 
 
 def manifest_map():
@@ -142,8 +174,12 @@ def run_translate():
         # 2.2 万 output token，中文只多不少）。按累计字符切块，块内保持上下文连续。
         CHUNK_CHARS = 12000                     # 约 3000 英文 token → 中文约 4500 token
         chunks, cur, cur_len = [], [], 0
+        native_zh = set()
         for q in doc["page_data"]:
             if not q.get("en"):
+                continue
+            if is_chinese(q["en"]):
+                native_zh.add(q["n"])           # 原文即中文，不进翻译流程
                 continue
             seg = f"⟦p{q['n']}⟧\n{q['en']}"
             if cur and cur_len + len(seg) > CHUNK_CHARS:
@@ -162,23 +198,65 @@ def run_translate():
                 print(f"{iid}: 第 {ci+1}/{len(chunks)} 块失败 {err}"); bad += 1; continue
             zh = d["choices"][0]["message"]["content"]
             zin += d["usage"]["prompt_tokens"]; zout += d["usage"]["completion_tokens"]
-            if d["choices"][0].get("finish_reason") == "length":
-                print(f"{iid}: ⚠ 第 {ci+1} 块仍被 max_tokens 截断，需减小 CHUNK_CHARS")
+            trunc = d["choices"][0].get("finish_reason") == "length"
+            why = degenerate(zh, len(ch))
+            if trunc or why:
+                print(f"{iid}: ⚠ 第 {ci+1} 块{'截断' if trunc else ''}{why or ''}，拆半重试")
+                half = len(ch) // 2
+                cut = ch.rfind("\n\n⟦", 0, half)
+                subs = [ch[:cut], ch[cut:]] if cut > 0 else [ch]
+                zh = ""
+                for sub in subs:
+                    d2, e2 = call([{"role": "user",
+                                    "content": TRANS_PROMPT + "\n\n---\n\n" + sub}],
+                                  max_tokens=16000)
+                    if e2:
+                        bad += 1; continue
+                    z2 = d2["choices"][0]["message"]["content"]
+                    zin += d2["usage"]["prompt_tokens"]; zout += d2["usage"]["completion_tokens"]
+                    if degenerate(z2, len(sub)):
+                        # 拆半仍退化 → 逐页单独译，避免一页的问题牵连同块的邻页。
+                        # 实测踩过：一页中文传单退化，把同块的 p5、p7 两页英文译文一起葬送。
+                        print(f"{iid}: ⚠ 拆半后仍退化，改为逐页单译")
+                        for m in re.finditer(r"⟦p(\d+)⟧\n(.*?)(?=\n\n⟦p|\Z)", sub, re.S):
+                            pn, body = int(m.group(1)), m.group(2)
+                            d3, e3 = call([{"role": "user", "content":
+                                            TRANS_PROMPT + "\n\n---\n\n⟦p%d⟧\n%s" % (pn, body)}],
+                                          max_tokens=16000)
+                            if e3:
+                                bad += 1; continue
+                            z3 = d3["choices"][0]["message"]["content"]
+                            zin += d3["usage"]["prompt_tokens"]
+                            zout += d3["usage"]["completion_tokens"]
+                            if degenerate(z3, len(body)):
+                                print(f"{iid}:   p{pn} 单页仍退化，留空"); bad += 1; continue
+                            zh += ("\n\n" if zh else "") + z3
+                        continue
+                    zh += ("\n\n" if zh else "") + z2
             parts = re.split(r"⟦p(\d+)⟧", zh)
             for i in range(1, len(parts) - 1, 2):
-                zh_pages[int(parts[i])] = parts[i + 1].strip()
+                seg = parts[i + 1].strip()
+                if degenerate(seg, None):     # 单页级再兜一道
+                    seg = re.sub(r"(.)\1{29,}", r"\1\1\1…", seg)
+                zh_pages[int(parts[i])] = seg
         err = f"{bad} 块失败" if bad else None
         if bad and not zh_pages:
             print(f"{iid}: 翻译全失败"); continue
         for q in doc["page_data"]:
             q["zh"] = zh_pages.get(q["n"], "")
+        for q in doc["page_data"]:
+            if q["n"] in native_zh:
+                q["zh"] = ""
+                q["zh_note"] = "原文即中文，无需翻译"
+        doc["native_zh_pages"] = len(native_zh)
         doc["zh_pages"] = len(zh_pages)
         doc["meta"]["zh_in_tokens"] = zin
         doc["meta"]["zh_out_tokens"] = zout
         doc["meta"]["zh_chunks"] = len(chunks)
         json.dump(doc, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-        miss = doc["pages_done"] - len(zh_pages)
-        print(f"{iid}: 译文 {len(zh_pages)}/{doc['pages_done']} 页对齐"
+        miss = doc["pages_done"] - len(zh_pages) - len(native_zh)
+        print(f"{iid}: 译文 {len(zh_pages)}/{doc['pages_done'] - len(native_zh)} 页对齐"
+              f"{f'（另 {len(native_zh)} 页原文即中文）' if native_zh else ''}"
               f"（{len(chunks)} 块）{'' if not miss else f' ⚠ 缺 {miss} 页'}"
               f"{'' if not err else ' ' + err}，{time.time()-t0:.0f}s", flush=True)
 

@@ -82,18 +82,29 @@ figcaption{font-size:.84rem;color:var(--muted);margin-top:.5rem;line-height:1.6}
   <table class="cmp">
     <tr><th>页</th><th>本站转录</th><th>原件实际</th><th>判定</th></tr>
     <tr><td>p1</td><td class="bad">Wang Tsung Ming（汪宗明）</td>
-      <td>Waung Tsung Hsiang（汪正祥）</td><td>罗马字捏造 + 汉字三错二</td></tr>
+      <td>Waung Tsung Hiang（汪正祥）</td><td>词尾捏造为 Ming + 汉字三错二</td></tr>
     <tr><td>p2</td><td class="good">汪正祥</td><td>汪正祥</td><td>正确</td></tr>
     <tr><td>p3</td><td class="bad">汪玉祥</td><td>汪正祥</td><td>手写「正」误读为「玉」</td></tr>
   </table>
   <figure>
     <img src="assets/case-p1.jpg" alt="原件局部：Waung Tsung Hsiang（汪正祥）" loading="lazy">
-    <figcaption>原件 p1 局部。打字机文本为 <span class="mono">Waung Tsung Hsiang</span>，
+    <figcaption>原件 p1 局部（4× 放大）。打字机文本为 <span class="mono">Waung Tsung Hiang</span>
+      —— 首字母 H 的横笔未印全，但词尾 <span class="mono">iang</span> 清晰可辨；
       手写批注为「汪正祥」。模型输出的 <span class="mono bad">Ming</span> 在原件上并不存在。</figcaption>
   </figure>
   <p>正确写法为<b>汪正祥</b>，由三处独立佐证：p2 的中文正文、卷宗标题
     <span class="mono">Wang Cheng-Hsiang</span>（正祥＝Cheng-Hsiang）、以及手写批注本身。
     <b>模型三次只对了一次。</b></p>
+
+  <div class="note" style="border-left-color:var(--brass)">
+    <b>但请注意：不是所有不一致都是模型造成的。</b>
+    这一件里，打字员写 <span class="mono">Waung Tsung Hiang</span>、卷宗标题写
+    <span class="mono">Wang Cheng-Hsiang</span>、手写批注写「汪正祥」——
+    <b>档案原件本身的罗马字转写就前后不统一</b>，这是这批材料的常态
+    （同一批巡捕房文书由不同人以不同方言拼法书写）。
+    因此下一节的自动检测<b>无法区分「模型转错」与「原件本就如此」</b>，
+    它只能告诉你「这里值得看一眼」。判断哪一种，必须由人打开原件影像。
+  </div>
 
   <h2>四、自相矛盾即检测信号<span class="zh">Internal contradiction as a detector</span></h2>
   <p>上述案例指向一个可规模化的质检方法：<b>同一卷宗内部的自相矛盾，不需要任何外部参照就能自动查出</b>。

@@ -103,7 +103,8 @@ def build_docs_and_index():
         for q in d.get("page_data", []):
             en = (q.get("en") or "").strip()
             zh = (q.get("zh") or "").strip()
-            pages.append({"n": q["n"], "en": en, "zh": zh})
+            pages.append({"n": q["n"], "en": en, "zh": zh,
+                          **({"note": q["zh_note"]} if q.get("zh_note") else {})})
             if not en and not zh:
                 continue
             npage += 1

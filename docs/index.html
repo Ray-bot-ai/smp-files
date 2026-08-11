@@ -256,10 +256,38 @@ footer .zh{color:#575e6a}
   .status div:first-child{border-top:0}
   section{padding:3.8rem 0}
 }
+
+.topnav{background:var(--ink);border-bottom:1px solid var(--rule-dim);position:sticky;top:0;z-index:40}
+.tn-in{max-width:74rem;margin:0 auto;padding:.8rem 1.6rem;display:flex;align-items:center;
+  gap:1.6rem;flex-wrap:wrap}
+.tn-brand{color:var(--paper);border:0;font-family:var(--serif);font-size:1rem}
+.tn-brand b{font-weight:500}
+.tn-brand span{color:#7b838f;font-size:.8rem;margin-left:.5rem}
+.topnav nav{margin-left:auto;display:flex;gap:1.3rem}
+.topnav nav a{color:#9aa1ac;border:0;font-family:var(--label);font-size:.7rem;
+  letter-spacing:.16em;text-transform:uppercase;padding-bottom:2px}
+.topnav nav a:hover{color:var(--stamp-lit);border-bottom:1px solid var(--stamp-lit)}
+.hero{min-height:min(80vh,44rem)}
+.cta{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:2.4rem}
+.cta a{border:1px solid rgba(242,237,227,.35);color:var(--paper);padding:.7rem 1.5rem;
+  font-family:var(--label);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase}
+.cta a:hover{background:var(--paper);color:var(--ink);border-color:var(--paper)}
+.cta a.primary{background:var(--stamp);border-color:var(--stamp)}
+.cta a.primary:hover{background:var(--paper);color:var(--ink)}
 </style>
 </head>
 <body>
 
+<header class="topnav">
+  <div class="tn-in">
+    <a class="tn-brand" href="index.html"><b>Shanghai Municipal Police Files</b><span>1894–1949</span></a>
+    <nav>
+      <a href="search.html">检索 Search</a>
+      <a href="browse.html">目录 Catalogue</a>
+      <a href="quality.html">质量 Quality</a>
+    </nav>
+  </div>
+</header>
 <header class="hero">
   <div class="hero__img" role="img" aria-label="Shanghai Municipal Police report form, Special Branch, 1934"></div>
   <div class="hero__inner">
@@ -271,6 +299,11 @@ footer .zh{color:#575e6a}
       publication M1750 — with every page linked to its original scan.
       <span class="zh">美国国家档案馆缩微出版物 M1750 的重制转录本，中英对照，逐页链接原件影像。</span>
     </p>
+    <div class="cta">
+      <a class="primary" href="search.html">开始检索 · Search the archive</a>
+      <a href="browse.html">全库目录 · Catalogue</a>
+      <a href="quality.html">质量报告 · Quality</a>
+    </div>
   </div>
 </header>
 

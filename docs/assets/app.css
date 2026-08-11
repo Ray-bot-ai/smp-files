@@ -67,7 +67,7 @@ h1.pt .zh{display:block;font-size:.62em;color:var(--muted);margin-top:.25rem}
 .res .ti{font-size:1.02rem;color:var(--ink)}
 .res .mt{font-family:var(--label);font-size:.64rem;letter-spacing:.14em;
   text-transform:uppercase;color:var(--muted);margin:.25rem 0 .5rem}
-.res .sn{font-size:.92rem;color:#4a453c;line-height:1.7}
+.res .sn{font-size:.92rem;color:#4a453c;line-height:1.7;overflow-wrap:anywhere}
 .res .sn mark{background:#f6e2a8;color:inherit;padding:0 .1em}
 .res .sn.zh{font-size:.88rem}
 .pg{display:inline-block;font-family:var(--label);font-size:.62rem;letter-spacing:.1em;
@@ -93,7 +93,10 @@ h1.pt .zh{display:block;font-size:.62em;color:var(--muted);margin-top:.25rem}
 .pane h4{margin:0 0 .7rem;font-family:var(--label);font-size:.64rem;letter-spacing:.18em;
   text-transform:uppercase;color:var(--muted);font-weight:600;
   border-bottom:1px solid var(--rule);padding-bottom:.4rem}
-.pane .txt{white-space:pre-wrap;font-size:.9rem;line-height:1.72}
+.pane .txt{white-space:pre-wrap;font-size:.9rem;line-height:1.72;
+  overflow-wrap:anywhere;word-break:break-word;min-width:0}
+/* 中文没有空格，一行 782 字不会自动折行——必须强制断。踩过：中共传单原件那页把整栏撑破。 */
+.pane>div{min-width:0}
 .pane .txt.zh{font-size:.86rem}
 .pane img{border:1px solid var(--rule);background:#fff;filter:grayscale(1) contrast(1.05)}
 .pane .oldocr{font-family:ui-monospace,Menlo,monospace;font-size:.72rem;line-height:1.75;
