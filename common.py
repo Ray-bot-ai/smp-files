@@ -1,10 +1,31 @@
 """公共配置：从 Obsidian llm-ocr 插件的 data.json 读百炼 API key，不在本仓库存任何密钥。"""
 import json, os, ssl, subprocess, urllib.request
 
+HERE = os.path.dirname(os.path.abspath(__file__))
+
+
+def _load_dotenv():
+    """读同目录 .env（已 gitignore）。没有它的话每条命令都要手动 export，
+    而且会静默打断后台长任务——本项目踩过：重构成必须 export 之后，
+    正在跑的轮询循环读不到 key，空跑一小时才发现。"""
+    p = os.path.join(HERE, ".env")
+    if not os.path.exists(p):
+        return
+    for line in open(p, encoding="utf-8"):
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        line = line[7:] if line.startswith("export ") else line
+        k, _, v = line.partition("=")
+        os.environ.setdefault(k.strip(), v.strip().strip('"\''))
+
+
+_load_dotenv()
+
 # API key 来源，按优先级：
-#   1. 环境变量 DASHSCOPE_API_KEY
+#   1. 环境变量 DASHSCOPE_API_KEY（或本目录 .env 里的同名项）
 #   2. 环境变量 LLM_OCR_VAULT 指向的 Obsidian 库里 llm-ocr 插件的 data.json
-# 本仓库不存任何密钥。
+# 本仓库不存任何密钥；.env 在 .gitignore 里。
 KEY = os.environ.get("DASHSCOPE_API_KEY")
 if not KEY:
     vault = os.environ.get("LLM_OCR_VAULT")
@@ -32,7 +53,6 @@ try:
 except ImportError:
     CTX = ssl.create_default_context()
 
-HERE = os.path.dirname(os.path.abspath(__file__))
 IMG_DIR = os.path.join(HERE, "images")
 BATCH_DIR = os.path.join(HERE, "batches")
 

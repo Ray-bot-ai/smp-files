@@ -51,6 +51,9 @@ export LLM_OCR_VAULT="$HOME/Library/Mobile Documents/iCloud~md~obsidian/Document
 | 百炼免费临时存储**不能**用于 Batch | 它要求 HTTP header，而 JSONL 没有放 header 的地方 |
 | Batch 排队与提交量无关 | 10 条排 75 分钟仍 0 完成 |
 | 内容审查不拦这批档案 | 4 件最敏感的政治监视卷宗 4/4 通过 |
+| Batch 全链路代码正确 | 免费测试模型 53 秒跑完，20/20 回收，custom_id 往返一致 |
+| 下载+上传流水线 3.6 页/秒 | 500 页实测零失败，全库约 7.5 小时 |
+| 单页均 423 KB、中位宽 2047px | 500 页实测，全库约 40 GB |
 
 ---
 
@@ -86,6 +89,15 @@ batches/          JSONL 与结果（.gitignore）
 
 ### ⬜ 下一步（按顺序）
 
+**⓪ 改动流水线后，先用免费测试模型验链路**
+```bash
+.venv/bin/python batch_chain_test.py     # 53 秒，零费用
+```
+> `batch-test-model` 跳过推理直接返回固定成功响应，专验「代码写对没」。
+> endpoint 用 `/v1/chat/ds-test`（**必须与 JSONL 里的 url 一致**），限 ≤1MB / ≤100 行 / 2 并行。
+> **本项目踩过**：一上来就提交真实批次，排队 95 分钟才知道链路对不对。
+> 正确顺序是「先免费验链路，再花钱验质量」。
+
 **① 补齐清单失败件**（清单跑完后立刻做）
 ```bash
 python3 manifest.py retry     # 重试网络抖动导致的 JSONDecodeError
@@ -104,6 +116,11 @@ python3 fetch_images.py run 24        # 下载；单独跑约 7 小时
 
 **③ 全量 Batch**（等 ① ② 完成 + 试点验证通过）
 - 用签名 URL（7 天有效）而非 base64 → 每行约 180 字节 → **9.85 万页只需 2 个批次**
+- JSONL 约 50 MB，**可以直接放 OSS 引用，不必走 files.create 上传**
+  （`input_file_id` 可填 OSS 文件路径）
+- 并行上限是 **1000 个任务**（「最多 2 个」只针对测试模型），2 个批次绰绰有余
+- 轮询多批次要用 `retrieve(batch_id)`（1000 次/分钟），**别用 list 接口**（只有 100 次/分钟）
+- `file_id` 可复用：批次要重提时不必重新上传，`client.files.list(purpose="batch")` 可查
 - `completion_window` 设 **7 天**（不是 24h），防止赶上平台繁忙期任务 expired
 - **所有批次一次性并行提交**，别串行——排队与提交量无关，串行纯浪费
 - 回收后**必须核对 `reasoning_tokens == 0`**
@@ -145,7 +162,9 @@ python3 fetch_images.py run 24        # 下载；单独跑约 7 小时
    那是测试写错了不是 OSS 有问题。要测就用 GET。
 7. **百炼内容审查返回 HTTP 200，错误藏在 body 的 `error` 字段里** —— 脚本必须按这个判失败，
    不能只看状态码。
-8. **页数别按 3,941 算** —— 其中 60 件 `smpa-N` 是缩微整卷，与散件内容重复。唯一件是 **3,878**。
+8. **改了公共配置会静默打断正在跑的后台任务** —— 本项目把 `common.py` 改成必须读环境变量后，
+   正在跑的轮询循环读不到 key，空跑一小时才发现。现在 `common.py` 会读同目录 `.env`（已 gitignore）。
+9. **页数别按 3,941 算** —— 其中 60 件 `smpa-N` 是缩微整卷，与散件内容重复。唯一件是 **3,878**。
 
 ---
 
