@@ -1,0 +1,32 @@
+{
+ "ia_id": "smpa-files-1498",
+ "title": "Report Re M.J. Sladkovsky, Soviet Employee",
+ "series": "D Files",
+ "nara_file_no": "1301",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-1498",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D-6416\nD-6418\nD-6422",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1498/page/n0_w2400.jpg"
+  },
+  {
+   "n": 1,
+   "en": "Form No. 1\nG. 25,000-1-34\n\nSHANGHAI MUNICIPAL POLICE.\nS. B, Special Branch.\nREPORT\nDate January 15, 1935.\nFile No.\nS. B. REGISTER.\nNo. 6006\n\nSubject in full: M.J. Slackovsky, Soviet employee.\n\nMade by D.S. Tcheremshansky. Forwarded by (Signature) D.C.\n\nMihail Josiphovitch Slackovsky, Soviet citizen,\nemployee of the Centrosojus (England) Ltd., arrived in Shanghai\nfrom Moscow via Dairen on January 12, 1935 by the s.s. Tsingtao\nMaru. He is a Russian who was born in 1906. He holds\nSoviet passport No. 22035 issued on 20.9.34 which bears a\nChinese visa issued at Moscow.\nHis address has not yet been located.\n\n(Signature) g. tcheremshansky\nD. S.\n\nD. C. (Special Branch).\n\nFile\nMS",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1498/page/n1_w2400.jpg"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1498/Report%20Re%20M.J.%20Sladkovsky%2C%20Soviet%20Employee%201301.pdf>\n\n---\nD-~¢ Yb \nL) wa Ol Ff \nLeh Fa, \n\n\nos \n\n\nEpap No 3 \nWes (oer \n\n\nAe \n\n\n Sabjeci Re heck \n\n\nMade iy \n\n\nNene \nCatt \nhee \n\n\n_DeS- Tceheremshansky. \n\n\nSHANGHAI \n\n\nears \n\n\ntihail \n\n\nJOS: \neur Loyee oL \nProm lioscow \nliaru. He \nNOe \n\n\nSoviet passport \n\n\nChinese visa issued \n\n\nDe by Specizi Bivsich. care, \nBera he Say \nHis \n\n\nle-Te slaukovsxy, Soviet employee. \n\n\nFareae \n\n\nFile igs, gy \nMUNICIPAL POLICE. ced thes Teall Pi \nSB. REGI~ i \n\n\npled ty \n\n\nphovitch Sliackovsky, Soviet citizen, \n\n\nthe Centrosojus (Engl \nvia Dairen om January 12, \n\n\nis a Russiz \n\n\n22035 issuec \n\n\nand) Ltd.-, arrived \n\n\n1935 by the ses \n\n\nwho was born in 1906. He holds \n\n\non 20.0.3: which bears a \n\n\nat Moscow. \n\n\nHis address has not yet been located. \n\n\n(Special Branch \n\n\nQ thou \n\n\n). \n\n\nSele \n\n\nin Shan.shai \n\n\nTsing;tao",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5430,
+  "ocr_out_tokens": 278,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-12 03:27:38"
+ }
+}

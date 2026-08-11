@@ -1,0 +1,38 @@
+{
+ "ia_id": "smpa-files-3179",
+ "title": "S.A. Salunin Alias Zabounin, Soviet Employee",
+ "series": "D Files",
+ "nara_file_no": "2417",
+ "pages": 3,
+ "ia_url": "https://archive.org/details/smpa-files-3179",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D 5768",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-3179/page/n0_w2400.jpg"
+  },
+  {
+   "n": 1,
+   "en": "Form No. 3\nC. 25,000-1-34\n\nSHANGHAI MUNICIPAL POLICE.\nS.2, Special Branch Registry.\nREPORT\nFile No.\nSHANGHAI MUNICIPAL POLICE\nC. & E. B. REGISTRY.\nNo. D 5768\nDate March 29, 1934.\nDate 29 / 3 / 34\n\nSubject (in full) S.A. Salunin alias Zabounin, Soviet Employee.\n\nMade by D.S. Tcheremshansky Forwarded by [Signature]\n\nSergey Alex Salunin alias Zabounin, a new employee of\nCentrosojus, arrived at Shanghai from Moscow via Kobe, Japan,\non March 9, 1934 accompanied by his wife and two daughters.\nSalunin is a Russian, 36 years of age. He holds U.S.S.R.\npassport No.119443/23531 issued in December, 1933 at Moscow.\nHis wife, Matilda Salunin, is 34 years of age and holds U.S.S.R.\npassport No.119444/23532 issued in December, 1933 at Moscow.\nThey have two daughters: Lidia 7 years of age and Valentina\n5 years of age. It is reported that Salunin will be appointed\nChief Bookkeeper of the local office of Centrosojus to replace\nN.I. Krassovsky who was recently discharged. Salunin travelled\nto Shanghai in company with one E.S. Ginsbourg, also an employee\nof Centrosojus.\n\nSalunin at first stayed in the New Asia Hotel, North\nSzechuen Road and Tienlong Road corner but on March 15, 1934\nhe removed to the boarding house of Mrs. M. Pasche, Nos.133-135\nLane 591 Bubbling Well Road.\n\n[Signature]\nD. S.\nDeputy Commissioner,\nSpecial Branch.\n\n（左侧批注：* See D 5767）\n（左下角手写批注：file / m）",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-3179/page/n1_w2400.jpg"
+  },
+  {
+   "n": 2,
+   "en": "SALUNIN, Sergey Alex - Soviet\n@ ZABOUNIN\nAppointed Chief Bookkeeper of local office of\nCentrosojus\n\nKRASSOVSKY, N. I.\nFormerly Chief Bookkeeper of Centrosojus.\n\nGINSBOURG, E. S.\nEmployee of Centrosojus.\n\nSMP\nSMP: No. D 5768",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-3179/page/n2_w2400.jpg"
+  }
+ ],
+ "pages_done": 3,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-3179/S.A.%20Salunin%20Alias%20Zabounin%2C%20Soviet%20Employee%202417.pdf>\n\n---\n' “er \n10 . \nors \nee 8 ‘ \n. 1 \noa e.4 \n; ‘ \ntas \nPare “ \n. \nF ’ ht \n; i. : oa \n\n\nForm. \nod SHANGHAI MUNICIPAL POLICE. _ j) #6 \nfy {| C & & ® REGESTRY. \n¢ : 8.2, Srecial. amc, 76 protien \nREPORT \nDate...... \nSubject (in full)................ Sake Salunin_alias.Zabounins Seviet Emp \ngit irae SOLES \nMade by.......DaSs..Peheremshansky Forwarded by...........- a ee ‘ \ni \nj \n\n\n____ ss Salunin sat first stayed in the New Asia Hotel, North \n___ Szecmmen Road and Tiendong Road corner but on March 15, 1954 \nhe_remo boarding house of Mrs. M. Pasche, No#el355-155 __ \n\n\nSpecial Branch. \n\n\n~y \n\\ \n\n\nSMP: No. D 5768 \n\n\nu \n\n\n: KRASSOVSKY, N. Ie \n; Formerly Chief Bookkeeper of Centrosojus. \n\n\n} \n: \n\n\nGINSBOURG, E. Se. \nEmployee of Centrosojus. \n\n\n” re \n* a \n. Lad Pe 3 : \nS 8 ie sg \noar 31.3 \n¥ - \n~ 2¢ ws. \n3 2a",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 8124,
+  "ocr_out_tokens": 579,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-12 03:08:18"
+ }
+}

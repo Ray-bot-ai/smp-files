@@ -1,0 +1,26 @@
+{
+ "ia_id": "smpa-files-772",
+ "title": "Earl Browder, Secretary Of USA Communist Party -D 4157, IO 783",
+ "series": "D Files",
+ "nara_file_no": "353",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-772",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "10.7834\nD 4424\nD 4157\nNo. 200 All.\nMay 22, 1935.\n\n（印：C O P Y）\n\nEarl Browder\n\nThe current number of the Readers' Digest contains\nan article on the American Communist Party wherein the\nfollowing reference is made to Earl Browder :-\n\n\"The Secretary of the Party - the sub-Stalin of America -\nis a man named Earl Browder, who was born 43 Years ago in\nWichitta, Kansas. He is a small, thin-faced, sandy man\nwith a quiet voice and a quizzical eye - a distinctly\nAmerican type. He is a good executive and he knows how\nto handle the racial mixture he daily encounters. During\nthe war he spent two years in Leavenworth for his anti-\nWar activities. For 18 years he was a certified public\naccountant. His second in command is Clarence Hathaway,\nbig, blue-eyed, ex-machinist from Minnesota, who edits\nthe official Party organ, the Daily Worker.\n\nSERVICE POLITIQUE\nEnregistré le 23 MAY 1935\nSous No. 5558\nTransmis à\nPour",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-772/page/n0_w2400.jpg"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-772/Earl%20Browder%2C%20Secretary%20Of%20USA%20Communist%20Party%20-D%204157%2C%20IO%20783%20353.pdf>\n\n---\n* n May 22 1935. \n\n\nThe cu rent number of the Readers’ Digest contains \nan article on the American Communist Party wherein the \nfollowing reference is made to Earl Browder :~- \n\n\"The Secretary of the Party - the sub-Stalin of America - \nis a man named Earl Browder, who was born 43 Years ago in \nWichitta, Kansas. He is a small, thin-faced, sandy man \nwith a quiet voice and a quizssical aye - a distinctly \nAmerican type. He is a good executive and he knows how \nto handle the racial mixture he daily encounters. During \nthe war he spent two years in Leavenworth for his anti- 5 \nWar activities. For 18 years he was a certified public \naccountant. j His second in command is Olarence Hathaway, \nbig, blue-eyed, ex-machinist from Minnesota, who edits \nthe official Party organ, the Daily Worker,",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2766,
+  "ocr_out_tokens": 276,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-12 03:34:25"
+ }
+}

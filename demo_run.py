@@ -54,14 +54,18 @@ def degenerate(text, src_len):
     """
     if not text:
         return None
-    if re.search(r"(.)\1{29,}", text):
+    # 先抹掉表格填空用的点线/下划线/破折号——SMP 报告表满纸都是
+    # 「File No............」「Date....................19」这类。
+    # 踩过：原本 (.)\1{29,} 把它们当成退化循环，误杀了正常表格页的译文。
+    probe = re.sub(r"[.\u00b7\u2026\-_—–\s]{6,}", " ", text)
+    if re.search(r"([^\s])\1{25,}", probe):
         return "字符重复循环"
     # 任意 30 字窗口重复出现过多
-    if len(text) > 500:
-        c = Counter(text[i:i + 30] for i in range(0, len(text) - 30, 10))
+    if len(probe) > 500:
+        c = Counter(probe[i:i + 30] for i in range(0, len(probe) - 30, 10))
         if c and c.most_common(1)[0][1] > 20:
             return "片段重复循环"
-    if src_len and len(text) > src_len * 3.5:
+    if src_len and len(probe) > src_len * 3.5:
         return f"长度异常（{len(text)} vs 源 {src_len}）"
     return None
 
@@ -78,19 +82,34 @@ def manifest_map():
     return by
 
 
-def call(messages, max_tokens=8000):
+def call(messages, max_tokens=8000, deadline=240):
+    """deadline：整体墙钟上限（秒）。
+
+    踩过：只设 urlopen(timeout=600) 是 **socket 超时**——只要服务端每 600 秒内
+    还吐出一个字节就永不触发。实测翻译卡在一次请求上 2.5 小时，连接开着、
+    CPU 只用了 3 秒，整条流水线静默停摆。必须另加整体墙钟上限。
+    """
     body = {"model": MODEL, "enable_thinking": False, "temperature": 0,
             "max_tokens": max_tokens, "messages": messages}
     req = urllib.request.Request(f"{BASE}/chat/completions", data=json.dumps(body).encode(),
                                  headers={"Authorization": f"Bearer {KEY}",
                                           "Content-Type": "application/json"})
-    for attempt in range(3):
+    def _once():
         try:
-            d = json.loads(urllib.request.urlopen(req, timeout=600, context=CTX).read())
+            return json.loads(urllib.request.urlopen(req, timeout=deadline, context=CTX).read())
         except urllib.error.HTTPError as e:
-            d = json.loads(e.read() or b'{"error":{"message":"empty"}}')
+            return json.loads(e.read() or b'{"error":{"message":"empty"}}')
         except Exception as e:
-            d = {"error": {"message": f"{type(e).__name__}: {e}"}}
+            return {"error": {"message": f"{type(e).__name__}: {e}"}}
+
+    for attempt in range(3):
+        with cf.ThreadPoolExecutor(1) as ex:
+            fut = ex.submit(_once)
+            try:
+                d = fut.result(timeout=deadline)
+            except cf.TimeoutError:
+                d = {"error": {"message": f"wall-clock timeout {deadline}s"}}
+                ex.shutdown(wait=False, cancel_futures=True)
         # 百炼内容审查返回 HTTP 200，错误藏在 body 的 error 字段里，必须按这个判
         if not d.get("error"):
             return d, None
@@ -162,104 +181,122 @@ def run_ocr(workers=8):
               f"{time.time()-t0:.0f}s，in={tin} out={tout}{flag}", flush=True)
 
 
-def run_translate():
-    for iid in DEMO:
-        p = os.path.join(DATA, f"{iid}.json")
-        if not os.path.exists(p):
+def _translate_one(iid):
+    p = os.path.join(DATA, f"{iid}.json")
+    if not os.path.exists(p):
+        return
+    doc = json.load(open(p, encoding="utf-8"))
+    if doc.get("zh_pages") or doc.get("native_zh_pages"):
+        return
+    # 分块译：整件一次译会超 max_tokens 被静默截断（本项目最大一件英文就有
+    # 2.2 万 output token，中文只多不少）。按累计字符切块，块内保持上下文连续。
+    CHUNK_CHARS = 12000                     # 约 3000 英文 token → 中文约 4500 token
+    chunks, cur, cur_len = [], [], 0
+    native_zh = set()
+    for q in doc["page_data"]:
+        if not q.get("en"):
             continue
-        doc = json.load(open(p, encoding="utf-8"))
-        if doc.get("zh_pages"):
-            print(f"{iid}: 译文已存在，跳过"); continue
-        # 分块译：整件一次译会超 max_tokens 被静默截断（本项目最大一件英文就有
-        # 2.2 万 output token，中文只多不少）。按累计字符切块，块内保持上下文连续。
-        CHUNK_CHARS = 12000                     # 约 3000 英文 token → 中文约 4500 token
-        chunks, cur, cur_len = [], [], 0
-        native_zh = set()
-        for q in doc["page_data"]:
-            if not q.get("en"):
-                continue
-            if is_chinese(q["en"]):
-                native_zh.add(q["n"])           # 原文即中文，不进翻译流程
-                continue
-            seg = f"⟦p{q['n']}⟧\n{q['en']}"
-            if cur and cur_len + len(seg) > CHUNK_CHARS:
-                chunks.append("\n\n".join(cur)); cur, cur_len = [], 0
-            cur.append(seg); cur_len += len(seg)
-        if cur:
-            chunks.append("\n\n".join(cur))
-        if not chunks:
+        if is_chinese(q["en"]):
+            native_zh.add(q["n"])           # 原文即中文，不进翻译流程
             continue
-        t0 = time.time()
-        zh_pages, zin, zout, bad = {}, 0, 0, 0
-        for ci, ch in enumerate(chunks):
-            d, err = call([{"role": "user", "content": TRANS_PROMPT + "\n\n---\n\n" + ch}],
-                          max_tokens=16000)
-            if err:
-                print(f"{iid}: 第 {ci+1}/{len(chunks)} 块失败 {err}"); bad += 1; continue
-            zh = d["choices"][0]["message"]["content"]
-            zin += d["usage"]["prompt_tokens"]; zout += d["usage"]["completion_tokens"]
-            trunc = d["choices"][0].get("finish_reason") == "length"
-            why = degenerate(zh, len(ch))
-            if trunc or why:
-                print(f"{iid}: ⚠ 第 {ci+1} 块{'截断' if trunc else ''}{why or ''}，拆半重试")
-                half = len(ch) // 2
-                cut = ch.rfind("\n\n⟦", 0, half)
-                subs = [ch[:cut], ch[cut:]] if cut > 0 else [ch]
-                zh = ""
-                for sub in subs:
-                    d2, e2 = call([{"role": "user",
-                                    "content": TRANS_PROMPT + "\n\n---\n\n" + sub}],
-                                  max_tokens=16000)
-                    if e2:
-                        bad += 1; continue
-                    z2 = d2["choices"][0]["message"]["content"]
-                    zin += d2["usage"]["prompt_tokens"]; zout += d2["usage"]["completion_tokens"]
-                    if degenerate(z2, len(sub)):
-                        # 拆半仍退化 → 逐页单独译，避免一页的问题牵连同块的邻页。
-                        # 实测踩过：一页中文传单退化，把同块的 p5、p7 两页英文译文一起葬送。
-                        print(f"{iid}: ⚠ 拆半后仍退化，改为逐页单译")
-                        for m in re.finditer(r"⟦p(\d+)⟧\n(.*?)(?=\n\n⟦p|\Z)", sub, re.S):
-                            pn, body = int(m.group(1)), m.group(2)
-                            d3, e3 = call([{"role": "user", "content":
-                                            TRANS_PROMPT + "\n\n---\n\n⟦p%d⟧\n%s" % (pn, body)}],
-                                          max_tokens=16000)
-                            if e3:
-                                bad += 1; continue
-                            z3 = d3["choices"][0]["message"]["content"]
-                            zin += d3["usage"]["prompt_tokens"]
-                            zout += d3["usage"]["completion_tokens"]
-                            if degenerate(z3, len(body)):
-                                print(f"{iid}:   p{pn} 单页仍退化，留空"); bad += 1; continue
-                            zh += ("\n\n" if zh else "") + z3
-                        continue
-                    zh += ("\n\n" if zh else "") + z2
-            parts = re.split(r"⟦p(\d+)⟧", zh)
-            for i in range(1, len(parts) - 1, 2):
-                seg = parts[i + 1].strip()
-                if degenerate(seg, None):     # 单页级再兜一道
-                    seg = re.sub(r"(.)\1{29,}", r"\1\1\1…", seg)
-                zh_pages[int(parts[i])] = seg
-        err = f"{bad} 块失败" if bad else None
-        if bad and not zh_pages:
-            print(f"{iid}: 翻译全失败"); continue
-        for q in doc["page_data"]:
-            q["zh"] = zh_pages.get(q["n"], "")
-        for q in doc["page_data"]:
-            if q["n"] in native_zh:
-                q["zh"] = ""
-                q["zh_note"] = "原文即中文，无需翻译"
-        doc["native_zh_pages"] = len(native_zh)
-        doc["zh_pages"] = len(zh_pages)
-        doc["meta"]["zh_in_tokens"] = zin
-        doc["meta"]["zh_out_tokens"] = zout
-        doc["meta"]["zh_chunks"] = len(chunks)
-        json.dump(doc, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-        miss = doc["pages_done"] - len(zh_pages) - len(native_zh)
-        print(f"{iid}: 译文 {len(zh_pages)}/{doc['pages_done'] - len(native_zh)} 页对齐"
-              f"{f'（另 {len(native_zh)} 页原文即中文）' if native_zh else ''}"
-              f"（{len(chunks)} 块）{'' if not miss else f' ⚠ 缺 {miss} 页'}"
-              f"{'' if not err else ' ' + err}，{time.time()-t0:.0f}s", flush=True)
+        seg = f"⟦p{q['n']}⟧\n{q['en']}"
+        if cur and cur_len + len(seg) > CHUNK_CHARS:
+            chunks.append("\n\n".join(cur)); cur, cur_len = [], 0
+        cur.append(seg); cur_len += len(seg)
+    if cur:
+        chunks.append("\n\n".join(cur))
+    if not chunks:
+        return
+    t0 = time.time()
+    zh_pages, zin, zout, bad = {}, 0, 0, 0
+    for ci, ch in enumerate(chunks):
+        d, err = call([{"role": "user", "content": TRANS_PROMPT + "\n\n---\n\n" + ch}],
+                      max_tokens=16000)
+        if err:
+            print(f"{iid}: 第 {ci+1}/{len(chunks)} 块失败 {err}"); bad += 1; continue
+        zh = d["choices"][0]["message"]["content"]
+        zin += d["usage"]["prompt_tokens"]; zout += d["usage"]["completion_tokens"]
+        trunc = d["choices"][0].get("finish_reason") == "length"
+        why = degenerate(zh, len(ch))
+        if trunc or why:
+            print(f"{iid}: ⚠ 第 {ci+1} 块{'截断' if trunc else ''}{why or ''}，拆半重试")
+            half = len(ch) // 2
+            cut = ch.rfind("\n\n⟦", 0, half)
+            subs = [ch[:cut], ch[cut:]] if cut > 0 else [ch]
+            zh = ""
+            for sub in subs:
+                d2, e2 = call([{"role": "user",
+                                "content": TRANS_PROMPT + "\n\n---\n\n" + sub}],
+                              max_tokens=16000)
+                if e2:
+                    bad += 1; continue
+                z2 = d2["choices"][0]["message"]["content"]
+                zin += d2["usage"]["prompt_tokens"]; zout += d2["usage"]["completion_tokens"]
+                if degenerate(z2, len(sub)):
+                    # 拆半仍退化 → 逐页单独译，避免一页的问题牵连同块的邻页。
+                    # 实测踩过：一页中文传单退化，把同块的 p5、p7 两页英文译文一起葬送。
+                    print(f"{iid}: ⚠ 拆半后仍退化，改为逐页单译")
+                    for m in re.finditer(r"⟦p(\d+)⟧\n(.*?)(?=\n\n⟦p|\Z)", sub, re.S):
+                        pn, body = int(m.group(1)), m.group(2)
+                        d3, e3 = call([{"role": "user", "content":
+                                        TRANS_PROMPT + "\n\n---\n\n⟦p%d⟧\n%s" % (pn, body)}],
+                                      max_tokens=16000)
+                        if e3:
+                            bad += 1; continue
+                        z3 = d3["choices"][0]["message"]["content"]
+                        zin += d3["usage"]["prompt_tokens"]
+                        zout += d3["usage"]["completion_tokens"]
+                        if degenerate(z3, len(body)):
+                            print(f"{iid}:   p{pn} 单页仍退化，留空"); bad += 1; continue
+                        zh += ("\n\n" if zh else "") + z3
+                    continue
+                zh += ("\n\n" if zh else "") + z2
+        parts = re.split(r"⟦p(\d+)⟧", zh)
+        for i in range(1, len(parts) - 1, 2):
+            seg = parts[i + 1].strip()
+            if degenerate(seg, None):     # 单页级再兜一道
+                seg = re.sub(r"(.)\1{29,}", r"\1\1\1…", seg)
+            zh_pages[int(parts[i])] = seg
+    err = f"{bad} 块失败" if bad else None
+    if bad and not zh_pages:
+        print(f"{iid}: 翻译全失败"); return
+    for q in doc["page_data"]:
+        q["zh"] = zh_pages.get(q["n"], "")
+    for q in doc["page_data"]:
+        if q["n"] in native_zh:
+            q["zh"] = ""
+            q["zh_note"] = "原文即中文，无需翻译"
+    doc["native_zh_pages"] = len(native_zh)
+    doc["zh_pages"] = len(zh_pages)
+    doc["meta"]["zh_in_tokens"] = zin
+    doc["meta"]["zh_out_tokens"] = zout
+    doc["meta"]["zh_chunks"] = len(chunks)
+    json.dump(doc, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    miss = doc["pages_done"] - len(zh_pages) - len(native_zh)
+    print(f"{iid}: 译文 {len(zh_pages)}/{doc['pages_done'] - len(native_zh)} 页对齐"
+          f"{f'（另 {len(native_zh)} 页原文即中文）' if native_zh else ''}"
+          f"（{len(chunks)} 块）{'' if not miss else f' ⚠ 缺 {miss} 页'}"
+          f"{'' if not err else ' ' + err}，{time.time()-t0:.0f}s", flush=True)
 
+
+
+
+def run_translate(workers=6):
+    """并发翻译。单线程跑 451 件要一整天，且一次卡死就全线停摆。
+    件与件之间独立，可以并发；件内分块保持顺序以维持上下文。"""
+    todo = [i for i in DEMO if os.path.exists(os.path.join(DATA, f"{i}.json"))]
+    print(f"待翻译 {len(todo)} 件，并发 {workers}")
+    done = [0]
+    def wrap(iid):
+        try:
+            _translate_one(iid)
+        except Exception as e:
+            print(f"{iid}: 异常 {type(e).__name__}: {e}"[:160], flush=True)
+        done[0] += 1
+        if done[0] % 25 == 0:
+            print(f"  …{done[0]}/{len(todo)}", flush=True)
+    with cf.ThreadPoolExecutor(workers) as ex:
+        list(ex.map(wrap, todo))
 
 def stat():
     fs = sorted(glob.glob(os.path.join(DATA, "*.json")))

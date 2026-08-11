@@ -1,0 +1,32 @@
+{
+ "ia_id": "smpa-files-1306",
+ "title": "P.G. Lust, Soviet Official",
+ "series": "D Files",
+ "nara_file_no": "316",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-1306",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "SHANGHAI MUNICIPAL POLICE.\nREPORT\n（印：C.I.B. 4412 / NIEDRICH - SMITH / Date May 1st 1933 10 am）\nSubject (in full) P.G.Lust , Soviet Official.\nMade by D.S.Prokofiev Forwarded by （签名）\nWith reference to the attached translation from French\nPolice Daily Intelligence report dated Jamary 10,1933,enquiries\nhave failed to verify the information regarding the presence in\nShanghai of one P.G.Lust who is believed to be an agent of the\nPeople's Commissariat of Foreign Affairs.\nSo far, no information has been received regarding\nthe arrival in Shanghai of members of the Soviet diplomatic\nor consular staff who are married to Chinese.\n（批：拟）\nG. Prokofiev\nD. S.\nOfficer i/c Special Branch.\n（签名）\n（签名）\nMAY 22 1933",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1306/page/n0_w2400.jpg"
+  },
+  {
+   "n": 1,
+   "en": "SHANGHAI MUNICIPAL\nS. REGIST\nD 4412\n18/1 p3\n\nTranslation of extract from French Police Daily Intelligence\nReport dated January 10, 1933\n\nParag. I. Information regarding P.G. Lust\n\nWe learn that a certain P.G.Lust arrived in Shanghai\nfrom the U.S.S.R. recently. He is believed to be an agent of\nthe People's Commissariat of Foreign Affairs. He arrived in\ncompany with his wife, a Chinese, who is believed to have attended\npropaganda training course at Moskow. P.G.Lust speaks Chinese\nfluently. On January 8, together with his wife, he proceeded to\nNanking by rail. While in Shanghai he resided with I.Babitch,\nsub-manager of the local branch of the Centrosojus, in Apartment\nNo 308, Majestic Apartments.\n\nWe are informed from another source that several other\nSoviet agents employed by the People's Commissariat of Foreign\nAffairs or by INO ( Foreign Service of the G.P.U.) and who are\nmarried to Chinese, will arrive in China shortly. It is believed\nthat they will be sent in the interior of the country where\nthey will be attached to the future Consulates of the U.S.S.R.\n\nSI,\nPlease see and pass\nback to S2 (watch and\nreport in case of\ndevelopments.\n\nJR\n18/1/33",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1306/page/n1_w2400.jpg"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1306/P.G.%20Lust%2C%20Soviet%20Official%20316.pdf>\n\n---\n6 \n\n\n- SHANGHAI! MUNICIPAL \n\n\nREPORT . \nSubject (in full)..maBg gist 2 SOvict Of \nMade by.....025.Prokofiev == Forwarded by... J <a \n\n\ne \n‘With reference to the attached translation from French \n\n\nPolice Daily Intelligence report dated January 10,1938, enquiries \n\n\nhave failed to verify the information regarding the presence in \n“ Shanghai of one P,.G.Iust who is believed to be an agent of the \n\n\nPeople's Commissariat of Foreign Affair \n\n\nSo far, no information has been received regarding \nthe arrival in Shanghai of membres: ef the Soviet diplomatic \n\n\nor consular staff who are married to Chinese, - \n\n\nower \n\n\ne ote <F \n\n\nParag. \n\n\nI. \n\n\n_ they will he attached to the future Consulates of the v. S256 _Re \n\n\nTransla;ion of extrart from Freneh Tolirce Daily Intelligence \n\n\nReport dated January IO, 1933 \n\n\nInformation regarding P.G,. Iust \n\n\nve learn that a certain P.G.Lust arrived in Shanghai \nfrom the U,S.5S.R. recently.He is believed to be an agent of \nthe CPeaple's Commissariat of Foreign Affairs. He ar in \ncompany with his wife,a Chinese, who is believed to have a .tend- | \ned propaganda training course at Moskow. P.G.4mct speaks Chinese \nfluently, On January 8,hegether with his wife, he proceeded to | \nNanking by reil.iwhile in Shanghai he resided with I.Pabitch., ) \nsub-manazer of the local branch of the Centrosojus, 4h Avartnert | \nNo 308,ilajestiec Apartments, \n\n¥e are,.informed from another souree that several other | \nSoviet digenis : «mployéa by the People's Commissariat of Foreign \nAffairs or by INO ( Foreign Service of the G.P.U.) and who are | \n\n\nren nr TREE NA Ces TIA \nmarried, to Chinese »will artive. in. China shortly. it is Rettig \n| \n\n\n“hat they wig be sent> in, the. interior of the country where",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5485,
+  "ocr_out_tokens": 534,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-12 03:21:08"
+ }
+}

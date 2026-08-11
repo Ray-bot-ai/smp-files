@@ -1,0 +1,26 @@
+{
+ "ia_id": "smpa-files-135",
+ "title": "Communist Propaganda Found In Western Chapai",
+ "series": "",
+ "nara_file_no": "2332",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-135",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "SHANGHAI MUNICIPAL POLICE.\nS.2, Special Branch.\nREPORT\nDate April 3 / 1934\n（印：SHANGHAI MUNICIPAL POLICE C. & S. S. REGISTRY. File No. 5779 Date 3/4/34）\nSubject (in full) Communist propaganda found in Western Chapel.\nMade by D.I. Kuh Pao-hwa Forwarded by J.Blu A.I.\n\nHereunder are brief particulars of 3 communist handbills which were obtained by Agents A-2354 and A-4172 in Western Chapel on April 2, 1934 :-\n(1) \"Manifesto supporting the Mayar Strike by raising subscriptions\", issued by the Shanghai Western District Committee of the Kiangsu Provincial Committee of the Chinese Communist Party dated March 25, calling upon workers of the various factories to organize groups to raise subscriptions for the support of the strikers of the Mayar Silk Factory.\n(2) \"Letter to unemployed workers\", issued by the Unemployed Section of the Shanghai Western District Committee of the Chinese Communist Party, dated March 29. This handbill urges unemployed workers to form themselves into unions, to besiege the offices of the City Government and Social Bureau and demand work and relief, to organize Japanese Goods Picketing Groups and to confiscate Japanese goods for their relief.\n(3) \"Factory Mosquito Paper in Western Shanghai\", Issue No.1, dated March 31, emanating from the Shanghai Western District Mosquito Paper Committee, containing news relating to labour matters in the Western District.\n\nKuh Pao-hwa\nD. I.\nDeputy Commissioner,\nSpecial Branch.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-135/page/n0_w2400.jpg"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-135/Communist%20Propaganda%20Found%20In%20Western%20Chapai%202332.pdf>\n\n---\nSHANGHAI MUNICIPAL POLICE. Wee \n\n\n4 8. 1 REcestry. \n\n\nREPORT \n\n\n©. Supporting the Strike raising subs S Ar \n\n... by the Shanchat Western District ;_ Gommittee or \n\nWear the Chinese Commmist _ \n\n8 da: March 25 ealii on workers of the Wiens \n. calling upon | SSSES of the various \n\n\nSection \n\n\n| \n5 \n| \nt",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2758,
+  "ocr_out_tokens": 364,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-12 03:33:57"
+ }
+}

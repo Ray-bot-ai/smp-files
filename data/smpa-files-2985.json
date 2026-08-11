@@ -1,0 +1,26 @@
+{
+ "ia_id": "smpa-files-2985",
+ "title": "Newspaper Article - Oriental Travel School To Leave Seattle June 15",
+ "series": "D Files",
+ "nara_file_no": "3339",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2985",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "SHANGHAI MUNICIPAL POLICE\nC. I. D. REGISTER\nNo. I. O. D. 1202.\nDate...26...4 - 30.\n\nThe Shanghai Evening Post, Monday, April 21, 1930\n\n（剪报内容无法辨认）\n\n85\n\nReg.\nPlease file JAS\n\nb. c.\n(Case 13)\nInformation\nWk 23 4/30",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2985/page/n0_w2400.jpg"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2985/Reports%20Of%20Special%20Branch%20Made%20Between%201929-1949%20-%20Newspaper%20Article%20-%20Oriental%20Travel%20School%20To%20Leave%20Seattle%20June%2015%203339.pdf>\n\n---\n; CUANGHAD MUNICIPAL PR: 7 \nISTP \n\n\nSe \n\n\n5 ei a i) : yeaa ¢ ; J \nBe cea ogee annonioas Merri Seatne na. Rremenernere,",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2715,
+  "ocr_out_tokens": 105,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-12 03:39:49"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "ia_id": "smpa-files-1184",
+ "title": "Movements Of L.I. Boreiko, Soviet Diplomatic Official",
+ "series": "D Files",
+ "nara_file_no": "3443",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1184",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "S. B. A\nD 6738\n22 / 5 / 35\n\nSection 2, Special Branch,\nMay 22, 1935.\n\nMovements of L.I. Boreiko, Soviet\nDiplomatic Official\n\nLeonid I. Boreiko, Chancellor of the\nShanghai Office of the Soviet Embassy, who arrived\nin China on April 20, 1933, together with the\nSoviet Ambassador, left Shanghai for Kobe on\nMay 11, 1935 in the s.s. \"President Cleveland.\"\n\nG. Prokofieff\nD. S. I.\n\nD. C. (Special Branch).\nInformation.\n\nFile\nJfg\n23 MAY 1935.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1184/page/n0_w2400.jpg"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1184/Movements%20Of%20L.I.%20Boreiko%2C%20Soviet%20Diplomatic%20Official%203443.pdf>\n\n---\nSection 2, Special Branch, \n\n\nMay 22, 1935. \n\n\nljovements of Lele Boreiko, Soviet \nDiplomatic Ofticial \n\n\nLeonid I- Boreiko, Chancellor of the \nShanghai Office of the Soviet Bmbassy, who arrived \nin China on April 20, 1933, towether with the \nSoviet Ambassador, left Shanghai for Kobe on \nMay 11, 1935 in the ses. \"President Cleveland.\" ' \n\n\nD. C. (Special Branch). \nInformation o",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2708,
+  "ocr_out_tokens": 173,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-12 03:40:24"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "ia_id": "smpa-files-3126",
+ "title": "S.B. Oak Process To Exchange Information With Police On Communists",
+ "series": "D Files",
+ "nara_file_no": "3482",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-3126",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Confidential Drawer\nC. I. D. REGISTRY\nFILE No. D. 1181.\nSUBJECT:\nS. B. Oak proposes to\nexchange information with\nPolice & Communists.\n\nSENT TO\nNAME | DATE\n-----|------\n     | 17 - 4 - 30.\n     |\n     |\n     |\n     |\n     |\n     |\n     |\n     |\n     |\n     |",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-3126/page/n0_w2400.jpg"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-3126/Reports%20Of%20Special%20Branch%20Made%20Between%201929-1949%20-%20S.B.%20Oak%20Process%20To%20Exchange%20Information%20With%20Police%20On%20Communists%203482.pdf>\n\n---\nC. L D. REGISTRY \nFILE No. 22 “S/",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2734,
+  "ocr_out_tokens": 102,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-12 03:40:58"
+ }
+}

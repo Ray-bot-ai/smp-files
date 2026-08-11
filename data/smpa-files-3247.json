@@ -1,0 +1,38 @@
+{
+ "ia_id": "smpa-files-3247",
+ "title": "Visit Of Suspected Soviet Agent To Shanghai",
+ "series": "D Files",
+ "nara_file_no": "2772",
+ "pages": 3,
+ "ia_url": "https://archive.org/details/smpa-files-3247",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D45\nD45 M. N. EKSHOFF, SUSPECTED SOV-\n1929 -IET AGENT.\n18. 2. 27.\nD-45",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-3247/page/n0_w2400.jpg"
+  },
+  {
+   "n": 1,
+   "en": "Form No. 3\nG. 20009-1-28\n\nSHANGHAI MUNICIPAL POLICE\nSHANGHAI MUNICIPAL C. POLICE REGISTRY\nNo. I. O. D... 45... Central I. B. Station\nREPORT Date...... 18. 2. 29.\nDate February 18, 19 29\nFile No.\n\nSubject (in full) Visit of Suspected Soviet Agent to Shanghai.\n\nMade by T. P. J. Medvedeff Forwarded by H. Gweno A. C. Pol.\n\nSir,\nThe undermentioned suspected Soviet Agent arrived in Shanghai\nfrom Harbin on February 12, 1929 and left again for the latter\nport in the S.S. \"Dairen Maru\" on February 17, 1929.\n\nMichael Nikitich Ershoff. Employed in the Traffic Department\nof the Chinese Eastern Railway at\nHarbin. Supposed to have come to\nShanghai in search of his wife who\nleft him sometime ago. During his\nstay here, he resided at 163 East\nSeward Road.\n\nT. Medvedeff\nT. P. J.\n\nA.R. 18费 A/D.C.I.\n\nAcm",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-3247/page/n1_w2400.jpg"
+  },
+  {
+   "n": 2,
+   "en": "ERSHOFF, Michael Nikitish - Soviet\nEmployed in Traffic Dept. of Chinese Eastern Railway\nat Harbin.\nArrived in Shanghai from Harbin on 12 Feb. 1929 and\nleft again for the latter port in the S.S. \"Dairen Maru\"\non 17 Feb. 1929. Resided at 163 East Seward Rd.\n\nSMP\nSMP: I.O. D 45\n18 Feb. 1929",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-3247/page/n2_w2400.jpg"
+  }
+ ],
+ "pages_done": 3,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-3247/Visit%20Of%20Suspected%20Soviet%20Agent%20To%20Shanghai%202772.pdf>\n\n---\npus Mot. ERSHOFF, Suspecten Sov- \n\n\nacd i \n\n\n| ' SHANGHAI MUNICI \n\n\nforuary 13, 19 29 \nSubject (in full). ____._. Visit of Suspeoted Soviet Acent to Shanghai. ..___....__. \n\n\n| Made by......12 Pests, edvedeff === Forwarded by he Ml WA, \n\n\nowe 22 \n\n\nSir, \n\n\nfrom Harbin on on Feeney 3 “ 1929 and left asain for the latter =! \nport ia the S.S. “Dairen Maru” on february 17, 1929. \n\n\nric : _ .. Employed in the Traffic Department. | \nSs ution asec of the Saingae dastern abdnedes t \nee _. Ha@pbine Supposed to have come ta 4 \nShanghai in search of ais wife wna _ \nleft hin sometime ugo. During nis _ \n\n\nStay'here, ne resided at 163 dust _ \n\n\nSeward Road. _ ; \n\n\nfe specail seine reat eenmnasincincmtctecntagis \n\n> . Foes s | \n\n} \n\n_— a0 aero —_ — — a = —_——- 3 \n\ni \n\nSn Ra ne OTT su = ag a a ee ees datetime, Gerke vet pn cenenaosheidal 4 \net \n\n= caeicnesiasiaiasiinaaiaimman seimenedaiee \n\nSS as Rar oh Sine ee ae mth fe | \n| ee \n\n\n=_————-— amar: \n\n\ni ERSHOFF, ee Nikitich - Soviet \n\n\n\\ Employed in fic Dept. of Chinese Eastern —— : \n| at Harbin. \nArrived_in Shanghai from Harbin on 12 Feb. 1929 and ' \n\n\naco eee SES \n\n\nfor, the latter port in the S.S. \"Dairen Maru \na a SUP: 1.0. D 45 \n‘eb. sai Resided at 163 East Seward Rd. ; 18 Feb. 1929 \n‘ ’ \n— ‘ \n| \n{ \ni \n. \\ \n5 \nFd \n‘ io { \n\\ \n» \n4 ae . \n. \" a an \nae 4 a",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 8142,
+  "ocr_out_tokens": 452,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-12 03:09:06"
+ }
+}

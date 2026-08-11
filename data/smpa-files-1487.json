@@ -1,0 +1,26 @@
+{
+ "ia_id": "smpa-files-1487",
+ "title": "Report Re A.M. Zaslavsky, Soviet Merchant",
+ "series": "D Files",
+ "nara_file_no": "1302",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1487",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "SHANGHAI MUNICIPAL POLICE.\nSection 2, Special Branch.\nREPORT\nDate January 15, 1935.\nSubject A. M. Zaslavsky, Soviet merchant.\nMade by D.S. Tcheremshansky Forwarded by.\n\nInformation has been received that Abram Kemelevitch\nZaslavsky, residing at No. 857 Avenue Joffre, is a Soviet\ninformer. He is a Soviet citizen of Jewish origin, who\nwas born on 17.8.1899, in Tavrida Province, South Russia.\nHe holds Soviet passport No. 104452 issued on 21.12.1925,\nat Chita, Transbaikal Province. Zaslavsky arrived at\nShanghai from Manchuria a few years ago. Upon his arrival\nin this city, he was employed as a shop assistant with K. F.\nMiller Haberdashery Store, No. 21A Szechuen Road, until\n1931 when he opened his own Haberdashery Store at No. 859\nAvenue Joffre. On January 6, 1935 Zaslavsky opened a\nbranch of his enterprise at No. 1159 Bubbling Well Road.\nIt is rumoured that he is financed by the Moscow Narodny\nBank. It is reported that Zaslavsky frequently visits\nthe local U.S.S.R. Consulate-General, and that he is on\nfriendly terms with many local Soviet agents.\n\nD. S. Tcheremshansky\nD. S.\n\nDeputy Commissioner (Special Branch)",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1487/page/n0_w2400.jpg"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1487/Report%20Re%20A.M.%20Zaslavsky%2C%20Soviet%20Merchant%201302.pdf>\n\n---\n@etuine! \nMile Bib. REG \nUNICIPAL POLICE. \n\n\nSecthion 2, special eceeer | SEAT ORK \n\n\nREPORT i ome \nDare Sanuary. 25, i Ire : \n\n\nSubjeck. A. hi. Haslavsky, Soviet merchant. \n\n\nMade hy DeaS-.., Pohergushanssy Porccarded by. OB Kins Ss \n\n\nInformacion has bien received that Abpaua lc. eleviteh \n\n\nwaSlavsxy, resisuing at tio. 857 Avenue Jorfre, is a Soviet | \n\n\nBU Oo 4 Erm! ban He is a scevint citizen of Jewish ovi,;in, who \nwas Worn on 17.8.1899, in Tavrica Province, south Russia. \nHe bolus soevict ypassvort No. 104452 issues on Yiseli.1925, \n\n\nat Chita, fransbaixal sravince. “Jaslavsky arrived at 7 \n\n\n2 —) \n\n\nhai_ from Manchuria a rev years a ‘o. Woon his arrival \nip. brs sity, He sis usc loyed as a shot assistant with Ke os \njp duilles liabercashnery Store, Noe Bla Szechuen Roaa, until \n\n1931 whes he openew his own Habsruasiury store at Ho. 859 \n\n\n| avenue Jolire. On Jaiuury 6, 19385 saslavsxy \n\n\n_ branch of his enterprise at No. 1159 Bubbiin, Weil Rouce \nIt is pusourec that he ls financed by the lLoscow Narodny \n| Bank. It is reported tnat Yaslavsky frequently visits \n\n\nthe local U-S.SeR. Consulate-General, and that he is on \n\n\nfricndly_terms with wany local Sovict agents. \n\n\n| \n\n\n= = e Bi ae inl nteny aoa",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2692,
+  "ocr_out_tokens": 366,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-12 03:37:29"
+ }
+}

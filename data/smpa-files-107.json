@@ -1,0 +1,26 @@
+{
+ "ia_id": "smpa-files-107",
+ "title": "Cho Ken. Sho. %C9 Communist",
+ "series": "",
+ "nara_file_no": "3639",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-107",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "7.72\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSpecial Branch Reg. OFFICE\nFILE NO. S. 7872\nSUBJECT:\nCho Ken Ho, Korean Communist.\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Transferred to | | So. 8632 |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-107/page/n0_w2400.jpg"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-107/Cho%20Ken.%20Sho.%20%25C9%20Communist%203639.pdf>\n\n---\nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \n\n\nFILE no... RS a \n\n\nSUBJECT: \n\n\nGi te ee, Sis Cee \n\n\nPARTICULARS | OFFICE FILE NO.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2734,
+  "ocr_out_tokens": 93,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-12 03:34:02"
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "ia_id": "smpa-files-2793",
+ "title": "Arrival Of Suspected Communist",
+ "series": "D Files",
+ "nara_file_no": "3733",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-2793",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D-648",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2793/page/n0_w2400.jpg"
+  },
+  {
+   "n": 1,
+   "en": "Form No.\nG. 290-1-29\n\nSHANGHAI MUNICIPAL POLICE.\nREPORT\n\nFile No.\nSHANGHAI MUNICIPAL POLICE\nForeign Section Station,\nNo. I. O. D. 646.\nDate November 12, 1929\n\nSubject (in full) Arrival of Suspected Communist.\n\nMade by P.C.P.S. Medvedeff. Forwarded by Tho Rubentein A.D.I.\n\nMr. Tasaret Gavisoff, an American citizen of Russian\norigin, arrived in Shanghai from Seattle in the s.s.\n\"Empress of France\" on November 1, 1929 and resides at\nthe Crystal Hotel, 39-41 Seward Road. Gavisoff is reported\nto have lived in America for 19 years and is en route to\nthe Caucasus to visit his brother.\n\nApparantly on the arrival of the s.s. \"Empress of\nFrance\" at Yokohama and Kobe, Gavisoff was refused\npermission to land owing to the Japanese Authorities\nfinding a book on Communism among his luggage.\n\nN. Medvedeff\nP.C.P.S.\n\nA/D. C. I.\nSca\n13/11\n\nAR\n12 ½ 9\nMG\n12:11:29",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2793/page/n1_w2400.jpg"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2793/Reports%20Of%20Special%20Branch%20Made%20Between%201929-1949%20-%20Arrival%20Of%20Suspected%20Communist%203733.pdf>\n\n---\nane CREW matter rice ttle eR EERE OR TTI Ye\" Ae tk Ata, tate wet he aA lll BN hence ee. sere + \n\n\nSubject (in full) \n\n\nSHANGHAI! MUNICIPAL POLICE. \n\n\nREPORT \n\n\nArrival of Suspected Communist. \n\n\nPeCePeSe Medvedeffe _.__.. Forwarded by _.T VA JNO \n\n\nkr. Tasaret Gavisoff, an American citizen of Russian _ \nEr. \n\n\naa: 3 \n\n\norigin, arrived in Shanghai from Seattle in the s.s. \n\n\n_ “Empress of France\" on November 1, 1929 and resides at_ \n\n\n__the Crystal Hotel, 39-41 Seward Road. Gavisoff is reported \n\n\nto have lived in America for 19 years and is en route to \n\n\nthe Caucasus to visit his brother. \n\n\nApparantly on the arrival of he s.s. \"Empress of \n\n\n| France®™ at Yokohama and Kobe, Gavisoff was refused soe oa \n\n\npermission to land owing to the Japanese Authorities \n\n\nfinding & book on Communism, amo among g hig, luggage. \nes Eo ae \n\n\na Me \n\n\nPeCeoPeSe \n\n\nTe toe",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5502,
+  "ocr_out_tokens": 303,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-12 03:31:37"
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "ia_id": "smpa-files-2792",
+ "title": "Arrival Of American Communist Photos",
+ "series": "D Files",
+ "nara_file_no": "3665",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-2792",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D-620",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2792/page/n0_w2400.jpg"
+  },
+  {
+   "n": 1,
+   "en": "Form No. 2\nG. 2000-8-29\n\nSHANGHAI MUNICIPAL POLICE.\nREPORT\n\n（印：SHANGHAI MUNICIPAL POLICE\nC. I. D. REGISTRY\nForeign Section Station,\nNo. P. O. B... 642.\nDated November 1. 1929）\n\nSubject (in full) Arrival of American Communist.\n\nMade by D. I. Robertson. Forwarded by （手写签名：J. Givens A. C. I.）\n\nAttached is a photograph of Comrade George Beseloff,\nwho arrived here from America in the s.s. \"Mishima Maru\"\non 30/9/29.\nBeseloff is an American citizen of Russian origin\nand is known to have lived at No. 716 1st Avenue, Seattle,\nWashington. His intentions were to proceed to Soviet\nRussia, via Japan, but he was not allowed to do so by the\nJapanese Authorities as during the search of his luggage\nhe was found in possession of certificates, confirming\nhis membership in Russian and American Communistic Parties.\nHe was also found in possession of receipts showing, that\nhe paid membership fee to the American Section of the\nCommunistic Party. He now resides at 127 Range Road.\n\n（手写签名：A. Robertson）\nD. I.\n\nA/D. C. I.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2792/page/n1_w2400.jpg"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2792/Reports%20Of%20Special%20Branch%20Made%20Between%201929-1949%20-%20Arrival%20Of%20American%20Communist%20Photos%203665.pdf>\n\n---\n9° \n\n\nSHANGHAI MUNICIPAL POLICE. MUNICIPAL PAL! ? \n\n\nse \n\n\nREPORT \n\n\nSubject (in full)____Avvivel of American Commmiste 00... 7 \n\n\nMade by.__De_I. Robertson... _..__.. Forwarded by \n\n\nAttached is a photograph of Comrade Ceore $a a \nwho arrived here from America in the s.s. \"Mishima Maru*® _ \n\n_on 30/9/29. ci \n_ Beseloff is an Americen citizen of Russian origin _ \n_end is known to have lived at Ne. 716 lst Avenue, Seattle, \n\n\nWeshingtong. His intentions were to preceed to Soviet \nRussia, vie Japan, but he was not allewed to do se by the \n\n\nJapanese Authorities as during the sezrch ef his luggage \n\n\nhe was found in possession of certificates, confirming \nhis membership in Russian and Smerican Cemmmistic Parties. \nHe was alse found in possession of receipts showing, that \nhe ia membership fee to the American Section of the \n\n\nCommunistic Party. He now resides at 127 Range Road. a \nMW ipolettion \n— De Te \nee = \nae 2 — gale ——-} \nshea “ eee \nnae — PO a —— as = —",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5468,
+  "ocr_out_tokens": 319,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-12 03:31:28"
+ }
+}

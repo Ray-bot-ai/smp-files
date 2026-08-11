@@ -1,0 +1,32 @@
+{
+ "ia_id": "smpa-files-3652",
+ "title": "Memorandum of V. I. Holin, suspected Soviet agent",
+ "series": "D Files",
+ "nara_file_no": "1719",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-3652",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "SHANGHAI MUNICIPAL POLICE\nC. & S. E. REGISTRY\nNo. S. B. D. 3115.\nDate 15. 3. 32.\n\nMarch 14, 1932\n\nMemorandum on the movements of V.I.Holin, suspected Soviet Agent.\n\nThis individual left for Harbin via Dairen on March 11,\n1932 by the s.s. \" Dairen Maru\".\n\nHe arrived in Shanghai from Moscow on January 18, 1932 in\ncompany with V.A.Morison, who has come here on a certain mission on\nbehalf of the People's Commissariat for Foreign Trade.\n\nWhile in Shanghai he resided at No 10 Hankow Road.\n\nA. Pokofiev\nD. S.\n\nOfficer i/c Special Branch.\nInformation\nSBR\nJelephs\n14.3.32.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-3652/page/n0_w2400.jpg"
+  },
+  {
+   "n": 1,
+   "en": "SHANGHAI MUNICIPAL POLICE\n& S. D. REGISTRY\nS. B. D. 3115\n19. 1. 32.\nJanuary 19, 1932\n\nM E M O R A N D U M\n\non movements of V.I.Holin, suspected Soviet agent.\n\nArrived from Moscow via Dairen on January 18, 1932 by\nthe s.s. Dairen Maru:-\n\nVassily Ivanovitch\nHOLIN\n\nSoviet citizen, 29 years of age, merchant.\nHolds Soviet passport No 201830 issued at\nMoscow on July 2, 1931.\nTravelled in company with V.A.Morison, who\nhas come here on a certain mission on be-\nhalf of the People's Commissariat for Fo-\nreign Trade.\nEfforts are being made to locate his ad-\ndress.\n\nG. Prokofiev\nD.S.\n\nOfficer i/c Special Branch .\nInformation\nSB. 19/1",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-3652/page/n1_w2400.jpg"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-3652/D3115%20Memorandum%20of%20V.%20I.%20Holin%2C%20suspected%20Soviet%20agent%201719%20-%20Shanghai%20Municipal%20Police%20File.pdf>\n\n---\nfb \n\n\nrENGHAL EURICIPAL POLE) \n\n\n: \n C, & S. B. REGISTRY \n\n\nea DPS. \n\n\n‘Se \n\n\nMarch 14,1932 \nMemorandum on the movements of V.1.Holin,suspected Soviet Agent. \n————— \n\n\nThis individual left for Harbin via Dairen on arch 11, \n\n\n1932 by the s.s. \" Dairen Maru\". \nHe arrived in Shanghai from Moscow on January 18,1932 in \n\n\ncompany with V.A.MNgpiaem, who has come here on a certain mission on \nbehalf of the People's Commissariat for Foreigh Trade. \n\n\nWhile in Shanghai he resided at No 106 Hankow Road. \n\n\nD. S. \n\n\nOfficer i/c Special Branch. \n\n\n“PAR \n; 2 \n\n\nSHAY ESTRISIPAL POLICE \n& S. B. REGISTRY \n\n\nsc. B.D. \n\n\nJanka ee cA \n\n\nBREMORANOTDUM,M \non movements of V.I.Hoiin,suspectéd Soviet agent, \n\n\nArrived from Moscow vie Dairen on Jenusry 18,1932 by \n\n\nthe s.s. Dairen Marus- \n\n\nVassily Ivanovitch Soviet citizen,2¢ years of egse,merchent. \nHOLIN Holds Soviet passtort No 20%83¢C issued at \neae \n\n\nMoscow on duly 2,1931,. \nTravelled in company with V,A.Morison, ho \nhes come here on a certain mission on be- \nhalf cf the Feople's Commissariat for Foe \nreign Trade. \nEfforts ere being made to locate his ad- \nGress. \n\na. Prt0 Ke ar \n\nD.S. \n\n\nOfficer i/c Special Branch ° \n\n\nInformetion",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5502,
+  "ocr_out_tokens": 455,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-12 03:28:35"
+ }
+}

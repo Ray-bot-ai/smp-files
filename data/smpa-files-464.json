@@ -1,0 +1,26 @@
+{
+ "ia_id": "smpa-files-464",
+ "title": "Arrival Of R. Tim, Soviet Diplomatic Official",
+ "series": "D Files",
+ "nara_file_no": "2035",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-464",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Fm. 2\nG. 35m-11-32\n\nSHANGHAI MUNICIPAL POLICE.\nREPORT\n（印：SHANGHAI MUNICIPAL C. & S. B. REGI File No. No. D Special Branch S.2. M/444 /）\nDate November 22, 1933.\n\nSubject (in full) Arrival of R. Tim, Soviet Diplomatic Official.\n\nMade by D.S.I. Prokofiev Forwarded by [签名]\n\nRudolf Tim, 35, Soviet citizen, reported to be a member\nof the staff of the U.S.S.R. Embassy in China, arrived in\nShanghai from the U.S.S.R. via Japan on November 20, 1933,\nin the s.s. President Coolidge. He holds diplomatic passport\nNo. 10390 issued on August 26, 1933, at Moscow, which bears a\nvisa issued by the Chinese Legation in that city on August 29,\n1933.\n\nTim was accompanied by his wife, Mrs A. Tim, and two\ndaughters aged 8 and 6 respectively.\n\nUpon landing at the Customs Jetty they proceeded to\nthe Soviet Consulate-General, No. 1 Whangpoo Road.\n\n（批：4/R）\n\nG. Prokofiev\nD. S. I.\n\nOfficer i/c Special Branch.\n\n（批：File [签名]）",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-464/page/n0_w2400.jpg"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-464/Arrival%20Of%20R.%20Tim%2C%20Soviet%20Diplomatic%20Official%202035.pdf>\n\n---\nas \"AGHAL MUNISIPOL \" \n\n\n. _ | a. \n\n\nFm. 2 a S. B. REGI - tS \n“G. 3$m-11-32 | \n\n\n| rie. ~~ \nSHANGHAI MUNICIPAL POLICE. Mo. JD \n\n\n\\|__—_- = \nDate. Noqanbes as 229. a \n\n\nSpecial. Brand \nREPORT \n\n\nSubject (in full) | Arrival of He Tim, Soviet Diplomatic Officiale \n\n\nlorwarded by Ab lage 8. \n\n\nbs __. Rudolf Tim, 35, Soviet citizen, reported to be_a member \n\n\nMade by = \n\n\nD.S.I. Prokofiev \n\n\n_ of the staff of the U.S.S.R. Embassy in China, arrived in __ \n\n\n...Shanshei from the U.S.S.R. via Japan on November 20, 1933, \n—_in_the 8.8. President Coolidge, He holds diplomatic passport. _ \n\n\n--. NQe 10590 issued_on August 26, 1933,. at. Moscow, which bears a \n\n\nvisa _ issued by the Chinese Legation in_that city on August 29, \n\n\nTin wes accompanied by his wife, Mrs A. Tim, and two _ \n\n\ndaughters aged & end 6 respectively, \n\n\nUpon landing at tne Customs Jetty _they proceeded to _ \n_.the Soviet Consulate-General, No. 1 Whangpoo Roads __ \n\n\n: ra \nras \na Se ne ee ee \na _— = — =",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2734,
+  "ocr_out_tokens": 328,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-12 03:38:25"
+ }
+}

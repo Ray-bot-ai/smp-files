@@ -1,0 +1,38 @@
+{
+ "ia_id": "smpa-files-3263",
+ "title": "168 Attempt to arrest Zung Kong Poh, notorious Communist",
+ "series": "IO Files",
+ "nara_file_no": "",
+ "pages": 3,
+ "ia_url": "https://archive.org/details/smpa-files-3263",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "I.O.-7871",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-3263/page/n0_w2400.jpg"
+  },
+  {
+   "n": 1,
+   "en": "Form No. 2\nG.36000-9-26\n7271\nShanghai Municipal Police.\nIntelligence Office Station.\nMay 6, 1927.\nREPORT ON Attempt to arrest Zung Kong Poh, (陳公博),\nnotorious communist.\nMade by D. S. I. Robertson Forwarded by J. Givens C. O. I.\n（印：整）\nSir,\nIn accordance with instruction received at noon\nto-day I accompanied the Chinese representatives from General\nYang Hu's Headquarters to the China Cotton Association, 32\nAvenue Edward VII in an endeavour to arrest Zung Kong Poh\n(陳公博), the notorious communist who is wanted by the said\nAuthorities. Our efforts were unsuccessful as the man had left\nthe premises prior to our arrival.\nI am, Sir,\nYour obedient servant,\nRobertson\nD. S. I.\nD. C. I.\nFile\nPoh.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-3263/page/n1_w2400.jpg"
+  },
+  {
+   "n": 2,
+   "en": "Translation of a letter from the Special\nAdministration Department attached to\nthe Headquarters of the Citizens\nRevolutionary Army:\n\n\"We beg to state that according to a\ndetective report 陳公博 徐玉書 Chen Kong Poh and Zee Ngoh\nSze, leaders of the Communist Party, have\nalready arrived in Shanghai. Yesterday certain\npersons communicated with these two men by\ntelephone No. C. 7785 which is attached to the\noffice of the Auditors' Association located\nat No. 32 Avenue Edward VII.\n\n\"We have now detailed our adjutant to\nthe address to effect their arrest and would\nrequest you for assistance.\"\n\nOK.\n\nChop of Yang Fu\nand\nChen Chuan",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-3263/page/n2_w2400.jpg"
+  }
+ ],
+ "pages_done": 3,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-3263/IO7871%20168%20Attempt%20to%20arrest%20Zung%20Kong%20Poh%2C%20notorious%20Communist.pdf>\n\n---\nae \n\n\nx Shanghai Municipal Police. \n\n\nIntelligence Cffice. \n\n\n2 May cesaniasinn' Ss \n\n\nREPORT ON... Attempt to arrest..Zung Kong Pon, (Fa. 1B ),....... \n\n\nIE OEE A AE SN a te ag \nnotorious communist. \n\n\nMade by_..D» S.. I. Robertson ae Forwarded by. \n\n\n_ Sir, \nIn accordance with instruction received at noon \nto-day I accompunied the Chinese representitives from General \n\n\n_Yang Huts Headquarters to the China Cotton Association, 32 \n\n\nAvenue Edward VII in an endeavour to arrest Zung Kong Poh \n(nf. 2; 7H +), the notorious communist who is we:ted by the said \nthe man hed left \n\n\nAuthorities. Cur efforts were unsucesesful as \n\n\nthe premises prior to our arrival. \n\n\nIam, Sir, \nYour obedient servents \n\n\nTranslation or a letter rrom the Speciel \nAdministration Department attached to \nthe Headauarters of the Citizens \nRevolutionery Army: \n\"Wo berm to state that. accordtine to ea \nRR OA ee: \noS aac report Ghen Kong Poh end Zee Nroh \nSZe, leedsrs ot ths Commmist Party, hava \nalready arrived in shanghai. Yesterdeyv corteain \npersons comnmuniceted with these two men by \ntelephones No. CG. 7785 which is attached to the \nortice ot the Auditors’ Associ#tion loceted \nat No. 32 Avenue Edward VII. \n\"We have now deteiled our adjutant to \nthe eddress to efrect their arrest end would \n\n\nreausst vou for assistance.\" \n\n\nChop of Yenr Fu \n\n\nand \nok . Chen Chuen",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 8131,
+  "ocr_out_tokens": 381,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-12 03:16:57"
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "ia_id": "smpa-files-181",
+ "title": "Departure Of Soviet Agents",
+ "series": "",
+ "nara_file_no": "1670",
+ "pages": 3,
+ "ia_url": "https://archive.org/details/smpa-files-181",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D-191",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-181/page/n0_w2400.jpg"
+  },
+  {
+   "n": 1,
+   "en": "Form No. 2\nG. 20000-1-28\n\nSHANGHAI MUNICIPAL POLICE.\nREPORT\n\n（印：SHANGHAI MUNICIPAL POLICE.\nC.I.D. REGISTRY\nCENTRAL\nNo. I. C. D. 191\n30 4 29\nDate. April. 27, 1929）\n\nSubject (in full) Departure of Soviet Agents.\n\nMade by T.P.P.C.S. Medvedeff Forwarded by Thos Robertson C.D.I.\n\nThe undermentioned Soviet agents left\nShanghai in the \"Dairen Maru\" on April 27 for Harbin via\nDairen :-\nMr. E. M. Bergh President of the Dalbank at Harbin.\nMr. V.I. Lerien Members of the Board of Directors\nalias Lernin of Dalbank at Harbin and Chairman\nof the Siberian Bank.\n\nN. Medvedeff\nT.P.P.C.S.\n\nA/D.J.I.\n\nReal\n\nH.R. 2/5/29\nM.G.\n\nCopies to H.B.M.Consul, Col.Halland,Capt.Shelley, Lt. Carlson.\nSent 30.4.\nC.Y. Lu",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-181/page/n1_w2400.jpg"
+  },
+  {
+   "n": 2,
+   "en": "BERGH, E. M. - Soviet\nPresident of the Dalbank at Harbin.\nLeft Shanghai in the \"Dairen Maru\" on April 27\nfor Harbin via Dairen.\n\nSMP: # D 191\n30 April 1929\n\nMERIEN, V.I. - Soviet\n(alias MERNIN)\nMember of the Board of Directors of Dalbank\nat Harbin and Chairman of the Siberian Bank.\nLeft Shanghai in the \"Dairen Maru\" on\nApril 27 for Harbin via Dairen.\n\nSMP\nSMP: # D 191\n30 April 1929",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-181/page/n2_w2400.jpg"
+  }
+ ],
+ "pages_done": 3,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-181/Departure%20Of%20Soviet%20Agents%201670.pdf>\n\n---\nOhare \n\n\nMABOMAL WUKICIPAL PCL. \nR GIST Y sa Y \nNELEED. e 7, anni ee \n\n\neS. se ahs / i714 \n\n\nSHANGHAI MUNICIPAL POLICE. \n\n\n[ i REPORT \n\n\nSubject (in full)__. Departure of soviet ngeaese tas, (oe ee \n\n\nMade by... +P ek +Ce3- --edvedeff = Forwarded by. wy oP Rebactian é DI I \n\n\nundermenationed Soviet agents left \n\n\nPresident of the Dalbdenk at Hardin. \nSection “a —_— seat hace \nweuberg of tie Bourd of Directors \n\n\nof Daloank at Harbin and Chairman \n\n\nof tne siderian Bank. \n\n\nairen ..aru\" on april 27 for Harbin via. \n\n\n4 an - —\" — < pats \n\nW ; \na ” =— Se seas = = ee ee — \nto H.B.ii.Consul, Col.Halland,Capt- Shelley, Lt. Carlson. ayer \n\n\nMert 30% \nAff lox \n\n\npa \n\n\neles bees \n\n\nBERGH, Bi M. - Soviet \nPreside the Dalbank at Harbin. \nLeft Shanelet in the \"Dairen Maru\" on April 27 \nfor Harbin, via Beiren. \nEe Bie \n\n\n-- —_— \n\n\n\"sup: # D 191 \n30 April 1929 \n\n\nMZRIEN, V.Ie - Soviet \n(alias MERNIN) , \n\n\nMember of the Board of Directors of Dalbank \n\nat Harbin and Chairman of the Siberian Bank. \n\nLeft Shanghai in the \"Dairen Maru” on y \nApril 27 for Harbin via Dairen. \n\n\nsup: FD 191 \n30 April 1929",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 8146,
+  "ocr_out_tokens": 437,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-12 03:01:08"
+ }
+}

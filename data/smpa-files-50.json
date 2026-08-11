@@ -1,0 +1,38 @@
+{
+ "ia_id": "smpa-files-50",
+ "title": "Arrival Of Soviet Agent",
+ "series": "",
+ "nara_file_no": "1672",
+ "pages": 3,
+ "ia_url": "https://archive.org/details/smpa-files-50",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D-189",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-50/page/n0_w2400.jpg"
+  },
+  {
+   "n": 1,
+   "en": "Form No. 2\nG. 20000-11-23\n\nSHANGHAI MUNICIPAL POLICE.\n\nREPORT\n\nFile No.\nSHANGHAI MUNICIPAL P\nCENTRAL REGIST...\nNo. I. O. D. ...\nDate: 26.4.29.\n\nSubject (in full) Arrival of Soviet agent.\n\nMade by F. J. S. Makaroff Forwarded by Thos Rubenstein\n\nInformation has been received to the effect\nthat Mr. F.J.S. Makaroff, who recently arrived from Harbin, is a\nSoviet agent and an employee of the Chinese Eastern Railway.\nFormerly considered to be a White Russian he was in charge of\nthe Harbin Branch of Red Cross Society from 1921 to 1923, and\nafter its liquidation is reported to have sold to the Soviet\nConsulate in Harbin all information and application forms of\nthe Officers of the White Army regarding length of service,\nregiment, rank, etc. After that he obtained Soviet papers\nand was employed by the C.E.R. as supervisor of summer resorts.\nMr. Makaroff resides at 15 Tsongchow Road.\n\nN. Makaroff=\nF. C. S.\n\nA/D.C.I.\n\nHR.\n26/4\n94:4:29\n\nCopies to H.B.M.Consul-General,Col.Halland,Capt.Shelley,Lt.Carlson\n\nSent 29.4.\nC. Y. Ivy",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-50/page/n1_w2400.jpg"
+  },
+  {
+   "n": 2,
+   "en": "ACSAKOFF, S.S. - Soviet\nEmployee of Chinese Eastern Railway. Formerly\nconsidered to be White Russian. Was in charge\nof Harbin Branch of Red Cross Society from\n1921 to 1923.\nResides at 15 Tsongchow Road.\n\nSMP\nSMP: I.U. D 189\n29 April 1929",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-50/page/n2_w2400.jpg"
+  }
+ ],
+ "pages_done": 3,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-50/Arrival%20Of%20Soviet%20Agent%201672.pdf>\n\n---\nSHANGHAI MUNICIPAL POLICE. \n\n\nREPORT \na \n\n\nSubject (in full). Arrival of Soviet «gent. \n\n\nMade by..... esede -axurofft Forwarded by th’ Rebaa teem \n\n\n_ __._ information has oeen_ received to tne effect _ \n\n\nthat ae 3eSe .csaxoif, who recently arrived fre: Harbin, is a \n\n\nom wes — , ‘ \n_sovies agent and ad emoloyee of tne v.inese sastern Rail.ay. \n\n\n_sormerly considered to be a “White Russian he was in chagze of | \n\n\n_the Nurvin 3ranch of Red Cross Society from I92I to 1923, and \n\n\n| after its liquidation is rz orted to hav sold to the soviet \n_Sonsulate ia Purvoia ail information and application forms 6f ~ \nthe Ofvicers 3. tie White army c-elarding lenvth of service, \n\n\n|) resi.ent, rank, etc. After that ne obtuined sovist papers \n\n\n| and was e@uployed vy tne C..1.R- as superviser of su.mer resorts. __ \n\n\n- 7 os Pe Ge Se a _ a \n_#fD.C.T- _ : ss dnuninliies tttsiiiinnca \n' \n\n\nCopies to H.2.ii-Cousul-venerai »Col.Halland ,Cupt.shelley,Lt.Carlson \n\n\nACSAKOFF, S,S.\\ -— Soviet \nEmployee Be se astern Railway. Formerly \nconsidered to\\be' iwhit: Russian. was in charge \n\n\nof Harbin Branch of Red Cross Society from \n\n\n1921 to 1923. \nResides at 15 Tsongchow Road. \n\n\nial \n\n\nSMP: I.U. D 189° \n29 April 1929",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 8166,
+  "ocr_out_tokens": 434,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-12 03:01:18"
+ }
+}

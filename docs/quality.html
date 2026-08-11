@@ -35,6 +35,7 @@
 .bad{color:var(--stamp);font-weight:500}
 .good{color:#4a7a44}
 .mono{font-family:ui-monospace,Menlo,monospace;font-size:.86em}
+.ia{font-family:var(--label);font-size:.82em;letter-spacing:.06em;color:var(--muted)}
 figure{margin:1.8rem 0;max-width:52rem}
 figure img{border:1px solid var(--rule);filter:grayscale(1) contrast(1.1);background:#fff}
 figcaption{font-size:.83rem;color:var(--muted);margin-top:.55rem;line-height:1.65}
@@ -87,11 +88,55 @@ figcaption .zh{display:block;font-family:var(--cjk);margin-top:.35rem}
       哪些必须回原件核对。</p></div>
   </div>
 
-  <h2>Ⅰ. What the existing OCR actually does<small>一、原有 OCR 究竟是什么水平</small></h2>
+  <h2>Ⅰ. Two different machines, two different failures<small>一、两套机器，两种错法</small></h2>
+  <div class="par">
+    <p class="collabel">English</p><p class="collabel">中文</p>
+    <div><p>Two quite different systems have read these pages, and they fail in opposite ways.
+      Keeping them apart is the single most important thing to understand about this site.</p></div>
+    <div><p class="zh">这批档案先后被两套完全不同的系统读过，而它们的出错方式恰好相反。
+      分清这两者，是理解本站最重要的一件事。</p></div>
+  </div>
+  <table class="cmp full">
+    <tr><th></th>
+      <th>IA-OCR<small>Internet Archive 上原有的 OCR</small></th>
+      <th>This edition<small>本站的大模型转录</small></th></tr>
+    <tr><td>What it is<span class="zh">是什么</span></td>
+      <td>A conventional character recogniser, run in 2024 for English only.
+        <span class="zh">传统逐字识别，2024 年只按英文跑过一遍。</span></td>
+      <td>A vision language model reading each page at native scanning resolution.
+        <span class="zh">视觉大模型，以原生扫描分辨率逐页阅读。</span></td></tr>
+    <tr><td>How it fails<span class="zh">怎么出错</span></td>
+      <td class="good">Visibly. It produces garbled near-misses you can see —
+        <span class="mono">enguirics</span> for <i>enquiries</i>.
+        <span class="zh">看得见地错。产出的是肉眼可辨的近似乱码。</span></td>
+      <td class="bad">Invisibly. It produces fluent, plausible, wrong text.
+        <span class="zh">看不见地错。产出的是通顺、像样、但错误的文本。</span></td></tr>
+    <tr><td>Measured quality<span class="zh">实测水平</span></td>
+      <td>69.2% of its words are recognisable English (3,863 files, 33M tokens).
+        <span class="zh">产出的词 69.2% 是可识别英文（3,863 件、3,310 万词形）。</span></td>
+      <td>Connected English prose comes through well; errors concentrate in Chinese
+        personal and place names, numerals and handwriting.
+        <span class="zh">成句英文叙述良好；错误集中在汉字人名地名、数字与手写。</span></td></tr>
+    <tr><td>Chinese enclosures<span class="zh">中文夹页</span></td>
+      <td class="bad">Not recognised at all.<span class="zh">完全未识别。</span></td>
+      <td>Transcribed, in traditional characters.<span class="zh">已转录，保留繁体。</span></td></tr>
+    <tr><td>On this site<span class="zh">在本站</span></td>
+      <td>Kept alongside, for cross-checking.<span class="zh">并列保留，用于交叉比对。</span></td>
+      <td>What the search index is built from.<span class="zh">检索索引即建于其上。</span></td></tr>
+  </table>
+  <div class="cav">
+    <b>Why keep the worse one?</b> Because the two fail differently, and where they disagree
+    is where a human should look. A garbled string next to a fluent sentence is a signal that
+    the page was hard — and that the fluent sentence may be invention rather than reading.
+    <span class="zh"><b>为什么把差的那个也留着？</b>因为两者出错方式不同，
+      它们不一致的地方，正是需要人去看的地方。一段乱码旁边配着一句通顺的话，
+      本身就是信号：这一页很难认，而那句通顺的话可能是编的，不是读出来的。</span>
+  </div>
+
   <div class="par">
     <p class="collabel">English</p><p class="collabel">中文</p>
     <div><p>It is worth being precise rather than dramatic. Measured across all 3,863 files
-      (33 million word-tokens), <b>69.2% of the words the existing machine OCR produces are
+      (33 million word-tokens), <b>69.2% of the words <span class="ia">IA-OCR</span> produces are
       recognisable English</b>; the median file scores the same, and only 3% of files fall
       below 50%. It is <i>poor</i>, not <i>useless</i> — it usually captures most letters of
       a word and misses one or two.</p>

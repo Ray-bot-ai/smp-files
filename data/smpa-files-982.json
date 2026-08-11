@@ -1,0 +1,26 @@
+{
+ "ia_id": "smpa-files-982",
+ "title": "K. Pidrikson And J. Umblia, Soviet Diplomatic Couriers",
+ "series": "D Files",
+ "nara_file_no": "2008",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-982",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Form No. 3\nG. 10000-9-33\n\nSHANGHAI MUNICIPAL POLICE.\nREPORT\n\n（印：SHANGHAI MUNICIPAL POLICE\nC. & F.B.N REGISTRY.\nNo D_e 5639\nSECTION 18 Jan 34\nDate 22. 1. 34）\n\nSubject (in full) K. Pidrikson and J. Umblia, Soviet diplomatic couriers.\n\nMade by D.S.I. Prokofiev. Forwarded by A. G. Townsend.\n\nThe undermentioned Soviet citizens, who are reported\nto be Soviet diplomatic couriers, arrived in Shanghai from the\nU.S.S.R. via Japan on January 18, 1934, in the s.s. \"Shanghai Maru\": -\n1. Karl Pidrikson, 45. Holds passport No 2510 issued\non on December 27, 1933, at Moscow.\n2. Johann Umblia, 58. Holds passport No 2164 issued on\nDecember 27, 1933, at Moscow.\nAccording to our information they left for Nanking .\nshortly after their arrival.\n\nG. Prokofiev\nD.S.I.\n\nOfficer i/c Special Branch\n\n（批：FILE\nJR）",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-982/page/n0_w2400.jpg"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-982/K.%20Pidrikson%20And%20J.%20Umblia%2C%20Soviet%20Diplomatic%20Couriers%202008.pdf>\n\n---\nCG. & Se W REGISTRY. \n\n\nsased SHANGHAI MUNICIPAL POLICE.} \n\n\nThe undermentioned Soviet citizens.who are reported \n\n\nto be Soviet diplomatic couriers. arrived in Shanghai from the \n\n\nU.S.S.R. via Japan on January 18,1934, in the 8.s.\"Shanghai Haru™;— \nste ts VER Sapan on vanuary 18,1954, in the s.s \n\n\n1. Karl Pidrikson,45. Holds Passport No 2510 issued \n\n\ncles ec : _.___om on December 27,1933, at Moscow. | \n\n\n__2- Johann Umbilia,58. Holds passport No 2164 issued on \n\n\n____._December 27,1933, at Moscow. \n\n\n. According to our information they left for Nanking ._ \nshortly after their arrival. . \n\n\nAT ERELT WIPRO: Srey em IESUN iResecere \n\n\nCe: Lf? we tte gfh'gay \nD.SeIs \n\n\nOfficer i/c Special Branch \n\n\n| \naii a neciacigencee , ; . | \n\n\n| \n|",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2705,
+  "ocr_out_tokens": 298,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-12 03:38:06"
+ }
+}

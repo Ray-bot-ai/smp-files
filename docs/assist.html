@@ -26,6 +26,26 @@
 .terms span.miss{opacity:.45;text-decoration:line-through}
 .why{font-size:.86rem;color:var(--muted);line-height:1.7;background:var(--card);
   border-left:3px solid var(--brass);padding:.8rem 1rem;margin:0 0 1.4rem}
+
+.stream{margin-top:1.4rem}
+.think{background:#f7f4ec;border:1px solid var(--rule);border-left:3px solid var(--brass);
+  padding:.8rem 1rem;margin:.8rem 0;font-size:.86rem;line-height:1.75;color:var(--muted);
+  white-space:pre-wrap;max-height:22rem;overflow:auto;font-family:var(--cjk)}
+.think summary{cursor:pointer;font-family:var(--label);font-size:.64rem;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--brass);margin-bottom:.5rem}
+.tool{border:1px solid var(--rule);background:var(--card);padding:.6rem .9rem;margin:.6rem 0;
+  font-size:.86rem}
+.tool b{color:var(--stamp);font-family:ui-monospace,Menlo,monospace}
+.tool .n{color:var(--muted);font-size:.82rem;margin-left:.5rem}
+.tool ul{margin:.5rem 0 0;padding-left:1.1rem;color:var(--muted);font-size:.82rem}
+.ans{margin-top:1.4rem;line-height:1.8}
+.ans h2{font-size:1.05rem;font-weight:500;margin:1.6rem 0 .6rem;padding-bottom:.3rem;
+  border-bottom:1px solid var(--rule);color:var(--ink)}
+.ans ul{padding-left:1.2rem}
+.ans li{margin-bottom:.5rem}
+.ans code{background:var(--paper-2);padding:.05em .35em;border-radius:2px;font-size:.9em}
+.statusline{font-family:var(--label);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--muted);margin:.8rem 0}
 </style>
 </head>
 <body>
@@ -40,14 +60,18 @@
 </div></header>
 
 <div class="wrap" style="max-width:60rem">
-  <h1 class="pt">AI-assisted search<span class="zh">AI 联想检索</span></h1>
+  <h1 class="pt">AI research agent<span class="zh">AI 联想检索 · 多轮推导</span></h1>
   <p class="sub">These files spell Chinese names as the constables heard them — 蒋介石 appears as
     <i>Chiang Kai-shek</i>, <i>Kai shek</i>, <i>Chiang Kaishek</i>; 闸北 as <i>Chapei</i>.
-    A plain search misses most of them. This page asks a language model to expand your query
-    into the spellings actually used, then searches every one.
+    A plain search misses most of them. This page runs a language model as a research agent:
+    it translates your question into the constabulary's own vocabulary, searches, <b>reads what
+    comes back, finds new terms in it and searches again</b> — several rounds — then judges
+    which results are actually relevant and summarises them. Its reasoning is shown as it works.
     <span class="zh">这批档案按巡捕听到的读音拼写中文名——蒋介石写作 Chiang Kai-shek、
       Kai shek、Chiang Kaishek，闸北写作 Chapei。直接检索会漏掉大半。
-      本页让大模型把你的提问扩展成档案里真实使用的拼法，再逐一检索。</span></p>
+      本页把大模型当作检索助手运行：它先把你的问题翻译成巡捕房自己的用语，检索，
+      <b>读回命中的内容、从中发现新词、再检索</b>——迭代数轮——最后判断哪些真正相关并汇总。
+      过程中的思考实时展示。</span></p>
 
   <details class="kbox" id="cfg" open>
     <summary>Your API key 你的 API 密钥</summary>
@@ -136,6 +160,7 @@
 </div></footer>
 
 <script src="assets/search.js"></script>
+<script src="assets/agent.js"></script>
 <script>
 const $ = s => document.querySelector(s);
 const CFG = 'smp-assist-cfg';
@@ -232,69 +257,60 @@ async function expand(q){
   return out.slice(0, 16);
 }
 
+function md(t){
+  // 极简 Markdown：## 标题、- 列表、**粗体**、`码`
+  const esc = x => x.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+  return esc(t)
+    .replace(/^## (.+)$/gm,'<h2>$1</h2>')
+    .replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')
+    .replace(/`([^`]+)`/g,'<code>$1</code>')
+    .replace(/^- (.+)$/gm,'<li>$1</li>')
+    .replace(/(<li>[\s\S]*?<\/li>)(?!\s*<li>)/g,'<ul>$1</ul>')
+    .replace(/\n{2,}/g,'<br><br>');
+}
+
 async function run(){
   const q = $('#q').value.trim();
   if (!q) return;
-  $('#out').innerHTML = '<p class="spin">正在扩展检索词… Expanding query…</p>';
-  let terms;
-  try { terms = await expand(q); }
-  catch (e) { $('#out').innerHTML = `<p class="spin">✗ ${e.message}</p>`; $('#cfg').open = true; return; }
+  const c = JSON.parse(localStorage.getItem(CFG) || '{}');
+  if (!c.key) { $('#cfg').open = true; $('#out').innerHTML = '<p class="spin">请先填写 API 密钥 · set your API key first</p>'; return; }
+  c.base = c.base || DEF[c.prov||'dashscope'].base;
+  c.model = c.model || DEF[c.prov||'dashscope'].model;
 
-  await loadNorm();
-  const cat = await loadCatalog();
-  const per = [];
-  for (const t of terms) {
-    const { hits } = await search(t);
-    per.push({t, hits, n: hits.reduce((a,h)=>a+h.pages.length,0)});
-  }
-  per.sort((a,b)=>b.n-a.n);
+  await loadNorm(); const cat = await loadCatalog();
+  $('#out').innerHTML = `
+    <p class="statusline" id="st">启动检索 · starting…</p>
+    <details class="think" id="thinkbox" open style="display:none">
+      <summary>模型的思考过程 · the model's reasoning</summary><span id="thinktext"></span></details>
+    <div id="tools"></div>
+    <div class="ans" id="ans"></div>`;
+  const st=$('#st'), tb=$('#thinkbox'), tt=$('#thinktext'), tools=$('#tools'), ans=$('#ans');
+  let answerRaw = '', nTool = 0, allPages = new Set();
 
-  // 合并：一页被多少个词命中 → 排序依据（命中词越多越可能真相关）
-  const page2terms = {};
-  for (const {t, hits} of per)
-    for (const h of hits)
-      for (const p of h.pages) (page2terms[h.doc+'#'+p] ||= []).push(t);
-  const byDoc = {};
-  for (const [k, ts] of Object.entries(page2terms)) {
-    const [doc, p] = k.split('#');
-    (byDoc[doc] ||= []).push({p:+p, ts});
-  }
-  const docs = Object.entries(byDoc).map(([doc, ps]) => ({
-    doc, ps: ps.sort((a,b)=>b.ts.length-a.ts.length),
-    score: ps.reduce((a,x)=>a+x.ts.length,0)
-  })).sort((a,b)=>b.score-a.score);
-
-  const tot = Object.keys(page2terms).length;
-  let html = `<div class="why">
-    模型把你的提问扩展成下列检索词，逐一在已转录的 ${fmt(cat.done_pages)} 页中检索并合并结果。
-    <b>命中词数越多的页越靠前</b>——单个拼法可能碰巧撞上，多个同时命中才说明真相关。
-    <span class="zh" style="display:block;margin-top:.4rem">The model expanded your query into
-    the terms below, searched each across ${fmt(cat.done_pages)} transcribed pages and merged
-    the results. Pages matching more terms rank higher.</span></div>
-    <div class="terms" data-think="${(JSON.parse(localStorage.getItem(CFG)||'{}').think)||'off'}">${per.map(x =>
-      `<span class="${x.n?'hit':'miss'}" title="${x.n} 页">${x.t}${x.n?` · ${x.n}`:''}</span>`).join('')}</div>`;
-
-  if (!tot) { $('#out').innerHTML = html + '<p class="spin">全部检索词均未命中。目前只有部分卷宗已转录。</p>'; return; }
-  html += `<p class="hint">合并后命中 <b>${fmt(tot)}</b> 页，分布在 <b>${docs.length}</b> 件卷宗</p><div class="res">`;
-  $('#out').innerHTML = html + '</div>';
-
-  const parts = [html];
-  for (const d of docs.slice(0, 30)) {
-    const doc = await getDoc(d.doc);
-    const byN = Object.fromEntries(doc.pages.map(p=>[p.n,p]));
-    parts.push(`<div class="it">
-      <div class="ti"><a href="file.html?id=${d.doc}&q=${encodeURIComponent(d.ps[0].ts[0])}">${doc.t}</a></div>
-      <div class="mt">${doc.s ? doc.s+' 系列 series · ':''}${doc.p} 页 pages · 命中 ${d.ps.length} 页 matched</div>
-      ${d.ps.slice(0,2).map(x => {
-        const pg = byN[x.p] || {};
-        const key = x.ts[0];
-        const body = hasMatch(pg.en, key) ? snippet(pg.en, key) : snippet(pg.zh || pg.en, key);
-        return `<div class="sn"><a class="pg" href="file.html?id=${d.doc}&p=${x.p}&q=${encodeURIComponent(key)}">p${x.p+1}</a>
-          <span class="muted" style="font-size:.8rem">[${x.ts.slice(0,3).join(' · ')}]</span> ${body}</div>`;
-      }).join('')}
-    </div>`);
-  }
-  $('#out').innerHTML = parts.join('') + '</div>';
+  try {
+    await runAgent(q, c, ev => {
+      if (ev.type === 'status') st.textContent = ev.text + ` · 已检索 ${nTool} 次`;
+      else if (ev.type === 'think') { tb.style.display=''; tt.textContent += ev.text; tt.parentElement.scrollTop = 1e9; }
+      else if (ev.type === 'answer') { answerRaw += ev.text; ans.innerHTML = md(answerRaw); }
+      else if (ev.type === 'tool') {
+        nTool++;
+        const r = ev.result || {};
+        (r.samples||[]).forEach(s0 => (s0.pages_matched||0) && allPages.add(s0.doc_id+'#'+s0.first_page));
+        const li = (r.samples||[]).slice(0,4).map(s0 =>
+          `<li><a href="file.html?id=${s0.doc_id}&p=${s0.first_page-1}&q=${encodeURIComponent(ev.query)}">${s0.file}</a>
+           <span class="n">p${s0.first_page} · 命中 ${s0.pages_matched} 页</span></li>`).join('');
+        tools.insertAdjacentHTML('beforeend',
+          `<div class="tool">🔎 <b>${ev.query}</b>
+             <span class="n">${r.total_pages||0} 页 / ${r.total_files||0} 件${
+               r.tokenised_as? ' · 切分 '+r.tokenised_as.join(' '):''}</span>
+             ${li?`<ul>${li}</ul>`:'<ul><li class="n">无命中</li></ul>'}</div>`);
+      }
+      else if (ev.type === 'error') { st.innerHTML = '✗ ' + ev.text; }
+      else if (ev.type === 'done') {
+        st.textContent = `完成 · ${ev.rounds} 轮，检索 ${nTool} 次` + (ev.capped?'（已达上限）':'');
+      }
+    });
+  } catch (e) { st.textContent = '✗ ' + e.message; }
 }
 
 $('#go').onclick = run;

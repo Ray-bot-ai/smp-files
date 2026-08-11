@@ -1,0 +1,32 @@
+{
+ "ia_id": "smpa-files-272",
+ "title": "N. Sokoloff, Soviet Employee",
+ "series": "D Files",
+ "nara_file_no": "3144",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-272",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D-5851\n+\nD-5852",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-272/page/n0_w2400.jpg"
+  },
+  {
+   "n": 1,
+   "en": "Form No. 3\nG. 25,000-1-34\n\nSHANGHAI MUNICIPAL POLICE.\nSection 2, Special Branch.\nREPORT\n（印：SHANGHAI MUNICIPAL POLICE File No. REGISTRY. 5852 Date 1 / 19 34）\nDate... May 1, 1934.\n\nSubject (in full) N. Sokoloff-Andreeff, Soviet Employee.\n\nMade by D.S. Tcheremshansky. Forwarded by [签名]\n\nN. Sokoloff-Andreeff, 46, employee of the local office\nof centrosojus, left Shanghai for Vladivostok by the s.s.\n\"Komiles\" on April 13, 1934, accompanied by his wife, daughter\nand one A. A. Golubeff, an employee of the local office of the\nU.S.S.R. Sokoloff was formerly employed with The Shanghai\nOil Distributors. Mrs. Sokoloff is a Russian, 35 years of age,\nand their daughter Tamara is 12 years of age.\nSokoloff resided from November 1, 1934 until March 7, 1934\nat Flat 406 Embankment Building, No. 410 North Soochow Road.\nLater, he removed to No. 37 Hwa Kee Avenue, No. 1025 Bubbling\nWell Road.\n\n[签名: g tcheremshansky]\nD. S.\n\nOfficer i/c Special Branch.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-272/page/n1_w2400.jpg"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-272/N.%20Sokoloff%2C%20Soviet%20Employee%203144.pdf>\n\n---\nForm No: 3_ \n\n\n“G-25,000-1-34 \nSHANGHAI MUNICIPAL POLICE. \n\n\nSection 2, Special BE \nREPORT \n\n\nSubject (in fuil)..Ne Sokoloff-Andreeff, Soviet Employee. \n\n\nee ra ae \n\n\ndbK \nMade by..R8. Teheremshansky es _...  Morwarded by ccc MA MT™ \nAe ao SL Ne A AN se \n\n\nco \n\n\n___ WN. ~Sokoloff-Andreeff, 46, employee of the local office _._. \n_of tentrosojus, left Shanehai for Viadivostok by the sS.Se \n\n\n+e fue “Fs | “\"Komiles\" on April 15, lyod, uccompunied by his wife, daughter _ \n\n\nTe wera _anad_one’A. A. Golubeff, an cmployee of the local office of the \n\n\nAA Grodenr bo bf * \n\n\nce SA Le _ Re ie ie on, Sokoloff wis formerly employed with The Shanghai \n\n\nO11 Distributors. . mrs. Sokoloff is .a Russian, 55 years of age, \n\n\nand_their daushter Tamara is 12 yeurs of ages... .. - se age \n\n\na __ Sokoloff resided from November 1, 1¥54 until march 7, 1954 _ \nat Flat 406 Embankm nt Building, Noa 410 North Soochow Roade \nLater, he removed to No. 5/ Hwa_nee Avenue, Noe 1025 Bubbling... \n\n\nWell Roade ‘ : se Tisai ha tie aibeeare \n\n\nofficer ife Special Branch. _— 7 ee ee ae",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5384,
+  "ocr_out_tokens": 374,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-12 03:30:44"
+ }
+}

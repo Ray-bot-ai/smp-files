@@ -1,0 +1,32 @@
+{
+ "ia_id": "smpa-files-1862",
+ "title": "Miss A.V. Leonova, Soviet Employee",
+ "series": "",
+ "nara_file_no": "2410",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-1862",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Form No.3\nC. 25,000-1-34\n\nSHANGHAI MUNICIPAL POLICE.\nS.2, Special Branch\nREPORT\n\n（印：SHANGHAI MUNICIPAL POLICE C. & S. REGISTRY. No. D. 5770 Date 29 / 3 / 34）\n\nSubject (in full)........................................Miss A.V. Leonova, Soviet Employee.\n\nMade by....D.S. Tcheremshansky....................Forwarded by....[签名]\n\n* See also\nFile D. 5767\n\nAlexandra Vassilievna Leonova, an employee of the\nU.S.S.R. Consulate-General, arrived at Shanghai accompanied\nby one L.A. Granat, employee of the Far Eastern Bank (Dalbank),\non March 25, 1934 by the s.s. \"Empress of Russia\". She is a\nRussian, 33 years of age and holds U.S.S.R. passport No.10752\nissued on 10.2.34 at Moscow.\n\nIt is reported that Miss Leonova and Granat were\noriginally passengers on board the Soviet s.s. \"Kuznetsky Less\"\nwhich went aground on March 11, 1934 near the Pratas light\nhouse on its way to Vladivostok. They were taken to Hongkong\nby the British warship Keswick.\n\nHer present address is unknown.\n\ng Tcheremshansky\nD. S.\n\n[签名]\nDeputy Commissioner.\nSpecial Branch.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1862/page/n0_w2400.jpg"
+  },
+  {
+   "n": 1,
+   "en": "GRANAT, Leonid Alexseevitch - Soviet\nEmployee of the Far Eastern Bank (Dalbank)\nArrived on 25 March 1934 by the S.S. \"Empress of Russia\".\nHolds USSR passport No. 121348.\n\nLEONOFF, Miss A. V. - Soviet\n● LEONOVA, Alexandra Vassilievna\nEmployee of the USSR Consulate-General\nHolds Soviet passport No. 10752.\nArrived on 25 March 1934 by the S.S. \"Empress of Russia\".\n\nSMP\nSMP: D 5767\n29 March 1934\nAlso:\nNo. 359\n29 March 1934\nAlso:\nNo. D 5770\n29 March 1934",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1862/page/n1_w2400.jpg"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1862/Miss%20A.V.%20Leonova%2C%20Soviet%20Employee%202410.pdf>\n\n---\n——s te ge --=- \n\n\ni GRANAT, Teonia Alexs =~ Soviet” \n! \n\n\nRepioyee of the Far Eas Bank (Delbank) \njon 25 March 1934 by the S.S. “Empress of Russia\", \nmelas ss a passport No. . \n\n\n: 4 SMP: D 5767 \nbi 29 March 1934 \nLEONOFF, Miss A. Ve - Soviet ‘Mlacs \ne EONOVA, Alexandra Vassilievna No. 359 \nEmployee of the USSR Consulate-—General 29 March 1934 \nHolds Soviet’ passport No. 10752. Also: \nArrived on 25 March 1934 by the S.S. \"Empress of Russia\". \n\n\nre ee \n\n\nNo. D 5770 \n29 March 1934 \n\n\nSOTERA A AP re tee wt em ow \n\n\n& \ne i \ni i \n| \n: { \n= 7 \" Te \nDy : \n‘ ~, =e a . \n. * \" : 4 \n. ae \" ; \nmt ? p - \na 5 \né 2 ae \n« 72 e z",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5472,
+  "ocr_out_tokens": 548,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-12 03:19:32"
+ }
+}
