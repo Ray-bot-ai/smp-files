@@ -10,7 +10,7 @@
 
 3,878 件、约 **9.85 万页**上海工部局警务处档案，要用 `qwen3.7-plus` 逐页重做 OCR
 并生成中文对照，最后发成可检索的 GitHub Pages 站点。
-**当前处于「准备阶段」：清单在建、Batch 试点在排队、图还没下。**
+**当前处于「准备阶段」：清单在建、Batch 试点在排队、流水线已验证待全量启动。**
 
 ---
 
@@ -28,10 +28,12 @@ uv venv && uv pip install oss2        # 已建好，直接用 .venv/bin/python
 | 百炼 API | `DASHSCOPE_API_KEY` 环境变量；没有则从 `LLM_OCR_VAULT` 指向的 Obsidian 库读 llm-ocr 插件配置 | `common.py` 自动处理 |
 | 阿里云 OSS | `~/.oss_env`（权限 600） | `oss_check.py` 的 `load_env()` 自动读 |
 
-跑任何脚本前：
+仓库根目录的 `.env`（已 gitignore）会被 `common.py` 自动读取，**不用每次 export**。
+若没有该文件，新建：
 
 ```bash
-export LLM_OCR_VAULT="$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/史料及已有研究"
+echo 'LLM_OCR_VAULT=/path/to/your/obsidian/vault' > .env   # 或直接写 DASHSCOPE_API_KEY=sk-xxx
+chmod 600 .env
 ```
 
 **绝对不要**把 key 写进仓库、聊天或提交信息。GitHub 推送用 `gh auth login` 的 keyring 凭据。
@@ -65,10 +67,14 @@ manifest.py       建全量页面清单 → manifest.jsonl
 fetch_images.py   按清单下载单页图 → images/<ia_id>/n<N>.jpg
 oss_check.py      OSS 端到端验证（连通/地域/权限/签名URL/百炼可读）
 oss_bench.py      OSS 上传吞吐测速
-batch_pilot.py    10 页 Batch 试点（验证流程用）
+pipeline.py       ★ 下载+上传流水线（正式取图用这个，不是 fetch_images.py）
+batch_chain_test.py ★ 免费链路验证（改流水线后先跑这个）
+batch_pilot.py    10 页真实 Batch 试点（验质量与计费）
 docs/index.html   GitHub Pages 预告页（已上线）
 manifest.jsonl    ← 核心产物，一行一件：ia_id/title/series/pages/pdf/error
-images/           页面影像（.gitignore，约 34 GB）
+state.jsonl       ← 流水线进度，一行一页：iid/n/dl/up/error
+.env              本地配置（gitignore，不含密钥也别提交）
+images/           页面影像（.gitignore，约 40 GB）
 batches/          JSONL 与结果（.gitignore）
 ```
 
@@ -105,14 +111,17 @@ python3 manifest.py stat      # 确认「有问题」的件降到接近 0
 ```
 > 剩下的 `no _page_numbers.json` 是真没有单页图接口，要单独走 PDF 拆页，件数很少。
 
-**② 下载 + 上传流水线**（关键路径，约 10 小时，挂夜里跑）
+**② 下载 + 上传流水线**（关键路径，**约 7.5 小时**，挂夜里跑）
 ```bash
-python3 fetch_images.py run 24        # 下载；单独跑约 7 小时
-# 上传脚本待写：下完即传，两边状态都记账，可断点续传
+.venv/bin/python pipeline.py run --limit 500   # 先试跑 500 页看速率
+.venv/bin/python pipeline.py run               # 全量，可随时中断续传
+.venv/bin/python pipeline.py stat              # 查进度
+.venv/bin/python pipeline.py retry             # 只重试失败页
 ```
-> 下载走下行、上传走上行，**必须做成流水线重叠执行**，串行要 16.5 小时。
-> OSS 上传并发实测：1→0.23 MB/s，32→1.01 MB/s，**到 32 仍在涨没见顶**。
-> 但那次只测了 10 张图 3.1 MB，**统计上不可靠**，正式跑前几分钟看实际速率再调。
+> 500 页实测 **3.6 页/秒、1.35 MB/s、零失败** → 98,500 页约 7.5 小时。
+> 下行上行重叠执行；串行要 16.5 小时。默认 `--dl 24 --up 32`，可调。
+> 进度记在 `state.jsonl` 而非靠文件是否存在——0 字节空壳会骗过后者。
+> `fetch_images.py` 是只下载不上传的旧版，保留备用。
 
 **③ 全量 Batch**（等 ① ② 完成 + 试点验证通过）
 - 用签名 URL（7 天有效）而非 base64 → 每行约 180 字节 → **9.85 万页只需 2 个批次**
