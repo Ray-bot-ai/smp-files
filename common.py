@@ -1,14 +1,30 @@
 """公共配置：从 Obsidian llm-ocr 插件的 data.json 读百炼 API key，不在本仓库存任何密钥。"""
 import json, os, ssl, subprocess, urllib.request
 
-VAULT = ("/Users/yangrui/Library/Mobile Documents/iCloud~md~obsidian/"
-         "Documents/史料及已有研究")
-_cfg = json.load(open(f"{VAULT}/.obsidian/plugins/llm-ocr/data.json"))
-
-KEY = _cfg["keys"]["Custom"]          # 只在内存里，不落盘
+# API key 来源，按优先级：
+#   1. 环境变量 DASHSCOPE_API_KEY
+#   2. 环境变量 LLM_OCR_VAULT 指向的 Obsidian 库里 llm-ocr 插件的 data.json
+# 本仓库不存任何密钥。
+KEY = os.environ.get("DASHSCOPE_API_KEY")
+if not KEY:
+    vault = os.environ.get("LLM_OCR_VAULT")
+    if not vault:
+        raise SystemExit(
+            "需要 API key：设 DASHSCOPE_API_KEY，或设 LLM_OCR_VAULT 指向 Obsidian 库根目录")
+    _cfg = json.load(open(f"{vault}/.obsidian/plugins/llm-ocr/data.json"))
+    KEY = _cfg["keys"]["Custom"]
 BASE = "https://dashscope.aliyuncs.com/compatible-mode/v1"
 MODEL = "qwen3.7-plus"
-PROMPT = next(t["body"] for t in _cfg["templates"] if "档案" in t["name"])
+# 转录提示词：与 Obsidian llm-ocr 插件「默认（古籍/档案·一字不差）」模板一致
+PROMPT = """你是精准的古籍/档案 OCR 引擎。请把图片中的文字【一字不差】地转录出来。
+
+要求：
+1. 完整转录，不得概括、省略、跳过或改写；不要翻译、不要解释、不要评论，只输出文字本身。
+2. 保持原有的段落与换行；竖排文本按【从右到左、从上到下】的阅读顺序转为横排输出。
+3. 难以辨认的字用「□」占位，一个字一个□；切勿臆造，也不要用意思相近的字替代。
+4. 繁体字、异体字、俗字保持原样，不要转成简体，也不要"规范化"。
+5. 表格尽量用 Markdown 表格还原；印章、批注、页边小字可用「（印：…）」「（批：…）」标注。
+6. 不要输出"以下是识别结果"之类的话，也不要加代码围栏(```)。"""
 
 try:
     import certifi

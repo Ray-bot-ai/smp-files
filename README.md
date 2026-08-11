@@ -104,7 +104,8 @@ python3 batch_pilot.py fetch           # 下结果，核对思考是否真关闭
 
 ## 密钥
 
-**本仓库不存任何密钥。** 百炼 key 从 Obsidian llm-ocr 插件的 `data.json` 读（见 `common.py`）。
+**本仓库不存任何密钥。** 百炼 key 按优先级从 `DASHSCOPE_API_KEY` 环境变量、
+或 `LLM_OCR_VAULT` 指向的 Obsidian 库中 llm-ocr 插件的 `data.json` 读取（见 `common.py`）。
 GitHub 发布用 `gh auth login`（凭据进系统钥匙串），不要在仓库里写 token——
 这个仓库将来是公开的。
 
