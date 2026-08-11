@@ -3,35 +3,60 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>质量报告 · 上海工部局警务处档案</title>
-<meta name="description" content="本项目转录质量的公开评估：失败模式、实测案例、自动检测方法与已知局限。">
+<title>Transcription quality 质量报告 · Shanghai Municipal Police Files</title>
+<meta name="description" content="An open assessment of this edition's transcription quality: failure modes, worked examples, automatic detection, and known limits. 本项目转录质量的公开评估。">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Archivo:wght@600&family=Noto+Serif+SC:wght@400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/app.css">
 <style>
-.q-wrap{max-width:52rem}
-.q-wrap h2{font-size:1.2rem;font-weight:500;margin:3rem 0 .8rem;padding-bottom:.4rem;
+.q{max-width:72rem}
+.q h2{font-size:1.22rem;font-weight:500;margin:3.4rem 0 1.2rem;padding-bottom:.45rem;
   border-bottom:1px solid var(--rule);color:var(--ink)}
-.q-wrap h2 .zh{display:block;font-size:.72em;color:var(--muted);margin-top:.15rem}
-.q-wrap p{margin:0 0 1rem}
-.cmp{width:100%;border-collapse:collapse;font-size:.9rem;margin:1.2rem 0}
+.q h2 small{display:block;font-size:.68em;color:var(--muted);margin-top:.15rem;font-weight:400}
+/* 中英平行两栏——与本项目「原件 + 译文」的结构一致 */
+.par{display:grid;grid-template-columns:1fr 1fr;gap:0 3rem;position:relative}
+.par::before{content:"";position:absolute;top:.4rem;bottom:.4rem;left:50%;width:1px;
+  background:linear-gradient(to bottom,transparent,var(--rule) 8%,var(--rule) 92%,transparent)}
+.par>div{min-width:0}
+.par p{margin:0 0 1rem}
+.par .zh{font-family:var(--cjk);font-size:.95em;line-height:1.9}
+.collabel{font-family:var(--label);font-size:.6rem;font-weight:600;letter-spacing:.24em;
+  text-transform:uppercase;color:var(--muted);padding-bottom:.5rem;margin-bottom:1.1rem;
+  border-bottom:1px solid var(--rule)}
+.full{max-width:52rem}
+.cmp{width:100%;border-collapse:collapse;font-size:.88rem;margin:1.3rem 0}
 .cmp th,.cmp td{text-align:left;padding:.5rem .7rem;border-bottom:1px solid var(--rule);
   vertical-align:top}
-.cmp th{font-family:var(--label);font-size:.62rem;letter-spacing:.14em;
-  text-transform:uppercase;color:var(--muted)}
+.cmp th{font-family:var(--label);font-size:.6rem;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--muted);font-weight:600}
+.cmp th small,.cmp td .zh{display:block;font-family:var(--cjk);text-transform:none;
+  letter-spacing:0;font-size:.92em;color:var(--muted)}
+.cmp th small{font-size:1em}
 .bad{color:var(--stamp);font-weight:500}
 .good{color:#4a7a44}
-.mono{font-family:ui-monospace,Menlo,monospace;font-size:.84em}
-figure{margin:1.6rem 0}
+.mono{font-family:ui-monospace,Menlo,monospace;font-size:.86em}
+figure{margin:1.8rem 0;max-width:52rem}
 figure img{border:1px solid var(--rule);filter:grayscale(1) contrast(1.1);background:#fff}
-figcaption{font-size:.84rem;color:var(--muted);margin-top:.5rem;line-height:1.6}
-.big{display:grid;grid-template-columns:repeat(auto-fit,minmax(9rem,1fr));
-  border:1px solid var(--rule);background:var(--card);margin:1.4rem 0}
+figcaption{font-size:.83rem;color:var(--muted);margin-top:.55rem;line-height:1.65}
+figcaption .zh{display:block;font-family:var(--cjk);margin-top:.35rem}
+.big{display:grid;grid-template-columns:repeat(auto-fit,minmax(10rem,1fr));
+  border:1px solid var(--rule);background:var(--card);margin:1.5rem 0;max-width:52rem}
 .big div{padding:1rem;border-left:1px solid var(--rule)}
 .big div:first-child{border-left:0}
 .big b{display:block;font-size:1.5rem;color:var(--stamp);font-weight:500}
-.big span{font-size:.66rem;color:var(--muted);font-family:var(--label);
-  letter-spacing:.12em;text-transform:uppercase}
+.big span{font-size:.6rem;color:var(--muted);font-family:var(--label);
+  letter-spacing:.1em;text-transform:uppercase;display:block;line-height:1.5}
+.cav{background:var(--card);border:1px solid var(--rule);border-left:3px solid var(--brass);
+  padding:1.1rem 1.3rem;margin:1.6rem 0;max-width:52rem;font-size:.94rem}
+.cav .zh{font-family:var(--cjk);display:block;margin-top:.7rem;font-size:.94em;
+  color:var(--muted);line-height:1.88}
+@media(max-width:900px){
+  .par{grid-template-columns:1fr;gap:0}
+  .par::before{display:none}
+  .par .collabel{display:none}
+  .par .zh{padding-left:1rem;border-left:2px solid var(--rule);color:var(--muted);
+    margin-bottom:2rem}
+}
 </style>
 </head>
 <body>
@@ -45,112 +70,238 @@ figcaption{font-size:.84rem;color:var(--muted);margin-top:.5rem;line-height:1.6}
   </nav>
 </div></header>
 
-<div class="wrap q-wrap">
+<div class="wrap q">
   <h1 class="pt">Transcription quality<span class="zh">转录质量报告</span></h1>
   <p class="sub">What this edition gets wrong, how we know, and how we detect it.
     <span class="zh">本站转录会错在哪里、我们怎么知道、以及如何自动定位。</span></p>
 
-  <p>本页公开本项目的失败模式与实测数据。<b>公开错误不是免责，而是让这批材料可被负责任地使用的前提</b>——
-    使用者需要知道哪些字段可信、哪些必须回原件核对。</p>
+  <div class="par">
+    <p class="collabel">English</p><p class="collabel">中文</p>
+    <div><p>This page documents the failure modes of this edition, with measured data.
+      <b>Publishing our errors is not a disclaimer but a precondition for using this material
+      responsibly</b> — a reader needs to know which fields can be trusted and which must be
+      checked against the original scan.</p></div>
+    <div><p class="zh">本页公开本项目的失败模式与实测数据。<b>公开错误不是免责，
+      而是让这批材料可被负责任地使用的前提</b>——使用者需要知道哪些字段可信、
+      哪些必须回原件核对。</p></div>
+  </div>
 
-  <h2>一、根本的失败模式<span class="zh">The core failure mode</span></h2>
-  <p>传统 OCR 出错会变成一眼可见的乱码；<b>大模型面对残缺页面时，会生成通顺、像样、但错误的内容</b>，
-    读起来毫无破绽。这一现象在数字人文领域已被系统评测并命名为
-    <b>over-historicization</b>（过度历史化）——模型朝着它认为「符合那个时代」的方向编造
-    （Levchenko, <i>Evaluating LLMs for Historical Document OCR</i>, LM4DH 2025, arXiv:2510.06743）。
-    该研究同时发现：<b>事后用大模型做「OCR 纠错」会让结果变差</b>，因此本项目只做一次转录，不做二次润色。</p>
+  <h2>Ⅰ. The core failure mode<small>一、根本的失败模式</small></h2>
+  <div class="par">
+    <p class="collabel">English</p><p class="collabel">中文</p>
+    <div><p>Conventional OCR fails <i>visibly</i>, as garbled characters. A language model
+      confronted with a damaged page instead produces fluent, plausible, <b>wrong</b> text
+      that reads perfectly. This has been systematically evaluated in the digital humanities
+      and named <b>over-historicization</b> — the model invents in the direction of what it
+      takes to "fit the period" (Levchenko, <i>Evaluating LLMs for Historical Document OCR</i>,
+      LM4DH 2025, arXiv:2510.06743).</p>
+      <p>That study also found that <b>post-hoc "OCR correction" by an LLM degrades rather
+      than improves results</b>. This project therefore transcribes once and applies no
+      second polishing pass.</p></div>
+    <div><p class="zh">传统 OCR 出错会变成一眼可见的乱码；<b>大模型面对残缺页面时，
+      会生成通顺、像样、但错误的内容</b>，读起来毫无破绽。这一现象在数字人文领域已被
+      系统评测并命名为 <b>over-historicization</b>（过度历史化）——模型朝着它认为
+      「符合那个时代」的方向编造（Levchenko, LM4DH 2025, arXiv:2510.06743）。</p>
+      <p class="zh">该研究同时发现：<b>事后用大模型做「OCR 纠错」会让结果变差</b>。
+      因此本项目只做一次转录，不做二次润色。</p></div>
+  </div>
 
-  <h2>二、分辨率决定编不编造<span class="zh">Resolution decides invention</span></h2>
-  <p>同一页、同一模型、同一提示词，只改变输入影像的分辨率：</p>
-  <table class="cmp">
-    <tr><th>字段</th><th>1000px</th><th>2004px（原生，本站采用）</th><th>原件实际</th></tr>
-    <tr><td>工厂性质</td><td class="bad">Opium and Illegal Lottery Factory</td>
-      <td>Cron and Nickel Plating Factory</td><td class="good">Chrom and Nickel Plating Factory</td></tr>
-    <tr><td>门牌号</td><td class="bad">1148/100 Yuhong Rd</td>
-      <td>1143/106 Yuhang Rd</td><td class="good">1143/106 Yuhang Rd</td></tr>
-    <tr><td>父母姓名</td><td class="bad">整句被删去</td>
+  <h2>Ⅱ. Resolution decides invention<small>二、分辨率决定编不编造</small></h2>
+  <div class="par">
+    <p class="collabel">English</p><p class="collabel">中文</p>
+    <div><p>Same page, same model, same prompt — only the resolution of the input image
+      differs:</p></div>
+    <div><p class="zh">同一页、同一模型、同一提示词，只改变输入影像的分辨率：</p></div>
+  </div>
+  <table class="cmp full">
+    <tr><th>Field<small>字段</small></th><th>1000 px</th>
+      <th>2004 px<small>原生分辨率，本站采用</small></th>
+      <th>The original<small>原件实际</small></th></tr>
+    <tr><td>Factory type<span class="zh">工厂性质</span></td>
+      <td class="bad">Opium and Illegal Lottery Factory</td>
+      <td>Cron and Nickel Plating Factory</td>
+      <td class="good">Chrom and Nickel Plating Factory</td></tr>
+    <tr><td>Street number<span class="zh">门牌号</span></td>
+      <td class="bad">1148/100 Yuhong Rd</td><td>1143/106 Yuhang Rd</td>
+      <td class="good">1143/106 Yuhang Rd</td></tr>
+    <tr><td>Parents' names<span class="zh">父母姓名</span></td>
+      <td class="bad">whole clause deleted<span class="zh">整句被删去</span></td>
       <td>named Herman and Anna</td><td class="good">named Hermann and Anna</td></tr>
-    <tr><td>日期</td><td class="bad">13.1.44</td><td>13.12.44</td><td class="good">13.12.44</td></tr>
+    <tr><td>Date<span class="zh">日期</span></td>
+      <td class="bad">13.1.44</td><td>13.12.44</td><td class="good">13.12.44</td></tr>
   </table>
-  <p>低分辨率下，一名经营<b>电镀厂</b>的德籍犹太难民被转录成经营<b class="bad">鸦片与地下彩票厂</b>——
-    错得完全符合对旧上海的想象，因而看不出来。<b>本站一律使用原生扫描分辨率转录</b>，
-    代价是输入 token 增加约 87%。</p>
+  <div class="par">
+    <p class="collabel">English</p><p class="collabel">中文</p>
+    <div><p>At the lower resolution, a German Jewish refugee who ran an <b>electroplating
+      works</b> was transcribed as running an <b class="bad">opium and illegal lottery
+      factory</b> — wrong in a way that fits every cliché about old Shanghai, and therefore
+      invisible. <b>This edition transcribes at native scanning resolution throughout</b>,
+      at the cost of roughly 87% more input tokens.</p></div>
+    <div><p class="zh">低分辨率下，一名经营<b>电镀厂</b>的德籍犹太难民被转录成经营
+      <b class="bad">鸦片与地下彩票厂</b>——错得完全符合对旧上海的想象，因而看不出来。
+      <b>本站一律使用原生扫描分辨率转录</b>，代价是输入 token 增加约 87%。</p></div>
+  </div>
 
-  <h2>三、一个完整案例<span class="zh">A worked example</span></h2>
-  <p>卷宗 <span class="mono">Report Re Wang Cheng-Hsiang</span>（22 页）中，
-    同一个人的姓名在三页上出现了三个版本：</p>
-  <table class="cmp">
-    <tr><th>页</th><th>本站转录</th><th>原件实际</th><th>判定</th></tr>
+  <h2>Ⅲ. A worked example<small>三、一个完整案例</small></h2>
+  <div class="par">
+    <p class="collabel">English</p><p class="collabel">中文</p>
+    <div><p>In the 22-page file <span class="mono">Report Re Wang Cheng-Hsiang</span>, the
+      same person's name appears in three different forms on three pages:</p></div>
+    <div><p class="zh">卷宗《Report Re Wang Cheng-Hsiang》（22 页）中，
+      同一个人的姓名在三页上出现了三个版本：</p></div>
+  </div>
+  <table class="cmp full">
+    <tr><th>Page<small>页</small></th><th>This edition<small>本站转录</small></th>
+      <th>The original<small>原件实际</small></th><th>Verdict<small>判定</small></th></tr>
     <tr><td>p1</td><td class="bad">Wang Tsung Ming（汪宗明）</td>
-      <td>Waung Tsung Hiang（汪正祥）</td><td>词尾捏造为 Ming + 汉字三错二</td></tr>
-    <tr><td>p2</td><td class="good">汪正祥</td><td>汪正祥</td><td>正确</td></tr>
-    <tr><td>p3</td><td class="bad">汪玉祥</td><td>汪正祥</td><td>手写「正」误读为「玉」</td></tr>
+      <td>Waung Tsung Hiang（汪正祥）</td>
+      <td>invented word-ending; 2 of 3 characters wrong
+        <span class="zh">词尾捏造，汉字三错二</span></td></tr>
+    <tr><td>p2</td><td class="good">汪正祥</td><td>汪正祥</td>
+      <td>correct<span class="zh">正确</span></td></tr>
+    <tr><td>p3</td><td class="bad">汪玉祥</td><td>汪正祥</td>
+      <td>handwritten 正 misread as 玉<span class="zh">手写「正」误读为「玉」</span></td></tr>
   </table>
   <figure>
-    <img src="assets/case-p1.jpg" alt="原件局部：Waung Tsung Hsiang（汪正祥）" loading="lazy">
-    <figcaption>原件 p1 局部（4× 放大）。打字机文本为 <span class="mono">Waung Tsung Hiang</span>
-      —— 首字母 H 的横笔未印全，但词尾 <span class="mono">iang</span> 清晰可辨；
-      手写批注为「汪正祥」。模型输出的 <span class="mono bad">Ming</span> 在原件上并不存在。</figcaption>
+    <img src="assets/case-p1.jpg" alt="Detail of p1: Waung Tsung Hiang（汪正祥）" loading="lazy">
+    <figcaption>Detail of p1 at 4× magnification. The typescript reads
+      <span class="mono">Waung Tsung Hiang</span> — the crossbar of the initial H did not
+      print, but the ending <span class="mono">iang</span> is legible; the handwritten
+      annotation reads 汪正祥. The model's <span class="mono bad">Ming</span> is not on the page.
+      <span class="zh">原件 p1 局部（4× 放大）。打字机文本为 Waung Tsung Hiang——
+        首字母 H 的横笔未印全，但词尾 iang 清晰可辨；手写批注为「汪正祥」。
+        模型输出的 Ming 在原件上并不存在。</span></figcaption>
   </figure>
-  <p>正确写法为<b>汪正祥</b>，由三处独立佐证：p2 的中文正文、卷宗标题
-    <span class="mono">Wang Cheng-Hsiang</span>（正祥＝Cheng-Hsiang）、以及手写批注本身。
-    <b>模型三次只对了一次。</b></p>
-
-  <div class="note" style="border-left-color:var(--brass)">
-    <b>但请注意：不是所有不一致都是模型造成的。</b>
-    这一件里，打字员写 <span class="mono">Waung Tsung Hiang</span>、卷宗标题写
-    <span class="mono">Wang Cheng-Hsiang</span>、手写批注写「汪正祥」——
-    <b>档案原件本身的罗马字转写就前后不统一</b>，这是这批材料的常态
-    （同一批巡捕房文书由不同人以不同方言拼法书写）。
-    因此下一节的自动检测<b>无法区分「模型转错」与「原件本就如此」</b>，
-    它只能告诉你「这里值得看一眼」。判断哪一种，必须由人打开原件影像。
+  <div class="par">
+    <p class="collabel">English</p><p class="collabel">中文</p>
+    <div><p>The correct form is <b>汪正祥</b>, attested three times independently: the Chinese
+      letter on p2, the file title <span class="mono">Wang Cheng-Hsiang</span>
+      (正祥 = Cheng-Hsiang), and the handwritten annotations themselves.
+      <b>The model got it right once out of three.</b></p></div>
+    <div><p class="zh">正确写法为<b>汪正祥</b>，由三处独立佐证：p2 的中文正文、
+      卷宗标题 Wang Cheng-Hsiang（正祥＝Cheng-Hsiang）、以及手写批注本身。
+      <b>模型三次只对了一次。</b></p></div>
   </div>
 
-  <h2>四、自相矛盾即检测信号<span class="zh">Internal contradiction as a detector</span></h2>
-  <p>上述案例指向一个可规模化的质检方法：<b>同一卷宗内部的自相矛盾，不需要任何外部参照就能自动查出</b>。
-    一份档案里同一个人名出现三种写法，必有两种是错的。</p>
-  <p>本项目为此写了检测程序，比对时先用简繁异体等价表归一字形
-    （数据源：<span class="mono">cjkvi-tables</span>，约 6,900 字头），以免把
-    「顧／顾」这类字形差异误报为错误。</p>
+  <div class="cav">
+    <b>But not every inconsistency is the model's doing.</b>
+    In this same file the typist wrote <span class="mono">Waung Tsung Hiang</span>, the file
+    title reads <span class="mono">Wang Cheng-Hsiang</span>, and the handwritten note says
+    汪正祥. <b>The archive's own romanisation is inconsistent</b> — normal for this material,
+    whose reports were written by many hands using different dialect spellings. The automatic
+    detection below therefore <b>cannot distinguish "the model got it wrong" from "the
+    original is like that"</b>. It only tells you where to look; deciding which it is
+    requires a human opening the scan.
+    <span class="zh"><b>但请注意：不是所有不一致都是模型造成的。</b>
+      这一件里，打字员写 Waung Tsung Hiang、卷宗标题写 Wang Cheng-Hsiang、
+      手写批注写「汪正祥」——<b>档案原件本身的罗马字转写就前后不统一</b>，
+      这是这批材料的常态（同一批巡捕房文书由不同人以不同方言拼法书写）。
+      因此下一节的自动检测<b>无法区分「模型转错」与「原件本就如此」</b>，
+      它只能告诉你「这里值得看一眼」。判断哪一种，必须由人打开原件影像。</span>
+  </div>
+
+  <h2>Ⅳ. Internal contradiction as a detector<small>四、自相矛盾即检测信号</small></h2>
+  <div class="par">
+    <p class="collabel">English</p><p class="collabel">中文</p>
+    <div><p>The case above points to a method that scales: <b>a file that contradicts itself
+      can be detected with no external reference at all</b>. If one person's name appears in
+      three forms within a single file, at least two of them are wrong.</p>
+      <p>Before comparing, the checker normalises glyph forms using an equivalence table for
+      simplified / traditional / variant / cross-strait character standards (about 7,100
+      characters, merged from <span class="mono">cjkvi-tables</span> and a mainland–Hong Kong–Taiwan
+      glyph comparison), so that differences such as 顧／顾 are not reported as errors.</p></div>
+    <div><p class="zh">上述案例指向一个可规模化的质检方法：<b>同一卷宗内部的自相矛盾，
+      不需要任何外部参照就能自动查出</b>。一份档案里同一个人名出现三种写法，
+      必有两种是错的。</p>
+      <p class="zh">比对前先用简繁／异体／两岸字形等价表归一字形（约 7,100 字，
+      由 cjkvi-tables 与两岸三地字形对照表合并），
+      以免把「顧／顾」这类字形差异误报为错误。</p></div>
+  </div>
   <div class="big">
-    <div><b id="s-pages">261</b><span>已检页数</span></div>
-    <div><b id="s-flags">34</b><span>标记处数</span></div>
-    <div><b id="s-rate">1 / 8</b><span>约每 N 页一处</span></div>
+    <div><b id="s-pages">261</b><span>Pages checked<br>已检页数</span></div>
+    <div><b id="s-flags">34</b><span>Flags raised<br>标记处数</span></div>
+    <div><b id="s-rate">1 / 8</b><span>Roughly 1 per N pages<br>约每 N 页一处</span></div>
   </div>
-  <p class="muted" style="font-size:.9rem">标记集中在<b>汉字人名与地名</b>——正是本项目最不可靠的字段。
-    这些位置应优先比对原件影像。</p>
-  <p><a href="verify.html">→ 打开抽样校验工具</a>　
-    <span class="muted" style="font-size:.9rem">原件影像与转录并排，键盘 1–4 记录判断；
-    被标记页与随机页混合且顺序打乱，前者测检测准确率、后者给无偏错误率。</span></p>
+  <p class="muted" style="font-size:.9rem;max-width:52rem">
+    Flags cluster in <b>Chinese personal and place names</b> — precisely this edition's least
+    reliable fields.
+    <span class="zh" style="display:block">标记集中在<b>汉字人名与地名</b>——正是本项目最不可靠的字段。</span></p>
+  <p style="max-width:52rem"><a href="verify.html">→ Open the sampling-verification tool · 打开抽样校验工具</a><br>
+    <span class="muted" style="font-size:.9rem">Scan and transcription side by side; record a
+    judgement with keys 1–4. Flagged and random pages are mixed and shuffled — the former
+    measures how accurate the detector is, the latter gives an unbiased error rate.
+    <span class="zh" style="display:block">原件影像与转录并排，键盘 1–4 记录判断；
+      被标记页与随机页混合且顺序打乱，前者测检测准确率、后者给无偏错误率。</span></span></p>
 
-  <h2 id="grades">五、可信度分级<span class="zh">What to trust</span></h2>
-  <table class="cmp">
-    <tr><th>内容类型</th><th>可信度</th><th>建议用法</th></tr>
-    <tr><td>英文叙述正文</td><td class="good">较高</td><td>可用于理解与检索定位；引用前仍建议核对</td></tr>
-    <tr><td>中文原件转录</td><td>中等</td><td>可读，但字形与人名须核对</td></tr>
-    <tr><td class="bad">数字、日期</td><td class="bad">低</td><td>一律回原件核对</td></tr>
-    <tr><td class="bad">人名、地名、门牌号</td><td class="bad">低</td><td>一律回原件核对</td></tr>
-    <tr><td class="bad">手写批注与签名</td><td class="bad">最低</td><td>模型每次读法可能不同，不可引用</td></tr>
+  <h2>Ⅴ. What to trust<small>五、可信度分级</small></h2>
+  <table class="cmp full">
+    <tr><th>Content<small>内容类型</small></th><th>Reliability<small>可信度</small></th>
+      <th>How to use it<small>建议用法</small></th></tr>
+    <tr><td>English narrative prose<span class="zh">英文叙述正文</span></td>
+      <td class="good">higher<span class="zh">较高</span></td>
+      <td>Usable for reading and for locating documents; still check before quoting.
+        <span class="zh">可用于理解与检索定位；引用前仍建议核对</span></td></tr>
+    <tr><td>Chinese enclosures<span class="zh">中文原件转录</span></td>
+      <td>medium<span class="zh">中等</span></td>
+      <td>Readable, but glyphs and names need checking.
+        <span class="zh">可读，但字形与人名须核对</span></td></tr>
+    <tr><td class="bad">Numbers, dates<span class="zh">数字、日期</span></td>
+      <td class="bad">low<span class="zh">低</span></td>
+      <td>Always verify against the scan.<span class="zh">一律回原件核对</span></td></tr>
+    <tr><td class="bad">Personal names, place names, street numbers<span class="zh">人名、地名、门牌号</span></td>
+      <td class="bad">low<span class="zh">低</span></td>
+      <td>Always verify against the scan.<span class="zh">一律回原件核对</span></td></tr>
+    <tr><td class="bad">Handwritten notes and signatures<span class="zh">手写批注与签名</span></td>
+      <td class="bad">lowest<span class="zh">最低</span></td>
+      <td>The model reads these differently each time. Do not quote.
+        <span class="zh">模型每次读法可能不同，不可引用</span></td></tr>
   </table>
-  <p><b>温度参数设为 0，但不保证可复现。</b>实测同一页草书签名两次转录得到不同结果
-    （「陳希平」／「陳希曾」）——字迹本身即无法辨认时，模型每次的猜测不同。</p>
+  <div class="par">
+    <p class="collabel">English</p><p class="collabel">中文</p>
+    <div><p><b>Temperature is set to 0, but the output is not reproducible.</b> The same
+      cursive signature transcribed twice yielded two different readings (陳希平 / 陳希曾):
+      where the handwriting is genuinely illegible, the model guesses differently each time.</p></div>
+    <div><p class="zh"><b>温度参数设为 0，但不保证可复现。</b>实测同一页草书签名两次转录
+      得到不同结果（「陳希平」／「陳希曾」）——字迹本身即无法辨认时，模型每次的猜测不同。</p></div>
+  </div>
 
-  <h2>六、我们刻意没有做的事<span class="zh">What we deliberately did not do</span></h2>
-  <p>本站不提供基于这批转录的<b>地图、人物网络、词频统计</b>等衍生分析。
-    理由是上文已经证明：人名与地名恰恰是最不可靠的字段，
-    在其上构建计量分析会把不确定性隐藏在看似精确的图表之后。
-    待抽样校验完成、错误率有据可依后，再评估哪些分析站得住。</p>
+  <h2>Ⅵ. What we deliberately did not do<small>六、我们刻意没有做的事</small></h2>
+  <div class="par">
+    <p class="collabel">English</p><p class="collabel">中文</p>
+    <div><p>This site offers no maps, no social-network graphs and no word-frequency analysis
+      built on these transcriptions. The reason is established above: personal and place names
+      are exactly the least reliable fields, and quantitative analysis built on them would
+      hide that uncertainty behind apparently precise charts.</p>
+      <p>Once sampling verification is complete and the error rate is known, we will reassess
+      which analyses can be supported.</p></div>
+    <div><p class="zh">本站不提供基于这批转录的<b>地图、人物网络、词频统计</b>等衍生分析。
+      理由是上文已经证明：人名与地名恰恰是最不可靠的字段，
+      在其上构建计量分析会把不确定性隐藏在看似精确的图表之后。</p>
+      <p class="zh">待抽样校验完成、错误率有据可依后，再评估哪些分析站得住。</p></div>
+  </div>
 
-  <h2>七、史料本身的边界<span class="zh">Limits of the source</span></h2>
-  <p>M1750 是<b>选摄本</b>——NARA 说明册明言其选择标准不为人知，缩微胶卷与纸本收藏并不完全重合。
-    中文正本主体存于<b>上海市档案馆 U1 全宗</b>，未公开数字化。
-    此外，这是<b>殖民地警察机构的政治监视记录</b>，其中对人物、团体、事件的描述带有书写者的立场与成见，
-    应作为史料对待，而非事实陈述。</p>
+  <h2>Ⅶ. Limits of the source itself<small>七、史料本身的边界</small></h2>
+  <div class="par">
+    <p class="collabel">English</p><p class="collabel">中文</p>
+    <div><p>M1750 is a <b>selective</b> filming: the NARA descriptive pamphlet states that the
+      selection criteria are unknown, and the microfilm and the paper holdings do not fully
+      overlap. The main body of Chinese-language originals is held at the
+      <b>Shanghai Municipal Archives (fonds U1)</b> and has not been publicly digitised.</p>
+      <p>These are moreover the surveillance records of a <b>colonial police force</b>. Their
+      characterisations of people, organisations and events carry the assumptions of the men
+      who wrote them, and should be read as evidence rather than as statements of fact.</p></div>
+    <div><p class="zh">M1750 是<b>选摄本</b>——NARA 说明册明言其选择标准不为人知，
+      缩微胶卷与纸本收藏并不完全重合。中文正本主体存于<b>上海市档案馆 U1 全宗</b>，
+      未公开数字化。</p>
+      <p class="zh">此外，这是<b>殖民地警察机构的政治监视记录</b>，其中对人物、团体、
+      事件的描述带有书写者的立场与成见，应作为史料对待，而非事实陈述。</p></div>
+  </div>
 </div>
 
 <footer class="ft"><div class="in">
-  <span>NARA RG 263 · M1750 · 公有领域</span>
-  <span>转录由大模型生成 · 引用前请核对原件影像</span>
+  <span>NARA RG 263 · M1750 · public domain 公有领域</span>
+  <span>Machine-generated transcription — verify against the scan before citing
+    <span class="zh">转录由大模型生成，引用前请核对原件影像</span></span>
 </div></footer>
 
 <script>

@@ -59,19 +59,19 @@ function render(reset) {
   if (reset) { shown = 0; $('#rows').innerHTML = ''; }
   const slice = cur.slice(shown, shown + PAGE);
   $('#rows').insertAdjacentHTML('beforeend', slice.map(x => `
-    <tr><td>${x.d ? '<span class="done" title="已转录"></span>' : '<span class="todo" title="未转录"></span>'}</td>
+    <tr><td>${x.d ? '<span class="done" title="已转录 transcribed"></span>' : '<span class="todo" title="未转录 not yet"></span>'}</td>
       <td>${x.d ? `<a href="file.html?id=${x.i}">${x.t}</a>` : x.t}</td>
       <td class="muted">${x.s || '—'}</td>
       <td class="num">${x.p}</td></tr>`).join(''));
   shown += slice.length;
-  $('#more').textContent = shown < cur.length ? `显示 ${shown} / ${cur.length}，向下滚动继续…` : `共 ${cur.length} 件`;
+  $('#more').textContent = shown < cur.length ? `显示 showing ${shown} / ${cur.length}，向下滚动继续 scroll for more…` : `共 ${cur.length} 件 files`;
 }
 
 function apply() {
   const q = $('#q').value.trim().toLowerCase();
   const only = $('#onlydone').checked;
   cur = ITEMS.filter(x => (!only || x.d) && (!q || x.t.toLowerCase().includes(q)));
-  $('#count').textContent = `${cur.length.toLocaleString()} 件 / ${cur.reduce((a,b)=>a+b.p,0).toLocaleString()} 页`;
+  $('#count').textContent = `${cur.length.toLocaleString()} 件 files / ${cur.reduce((a,b)=>a+b.p,0).toLocaleString()} 页 pages`;
   render(true);
 }
 
@@ -81,8 +81,8 @@ function apply() {
   $('#stats').innerHTML = `
     <div><b>${fmt(c.total_files)}</b><span>卷宗 Files</span></div>
     <div><b>${fmt(c.total_pages)}</b><span>页 Pages</span></div>
-    <div><b>${fmt(c.done_files)}</b><span>已转录 Done</span></div>
-    <div><b>${(c.done_pages / c.total_pages * 100).toFixed(1)}%</b><span>完成度 Progress</span></div>`;
+    <div><b>${fmt(c.done_files)}</b><span>已转录卷宗 Files done</span></div>
+    <div><b>${fmt(c.done_pages)}</b><span>已转录页数 Pages done</span></div>`;
   apply();
   addEventListener('scroll', () => {
     if (shown < cur.length && innerHeight + scrollY > document.body.offsetHeight - 600) render(false);

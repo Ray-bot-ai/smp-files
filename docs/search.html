@@ -55,9 +55,10 @@ let CAT = null;
 async function boot() {
   await loadNorm();
   CAT = await loadCatalog();
-  $('#meta').innerHTML = `目录 ${fmt(CAT.total_files)} 件 / ${fmt(CAT.total_pages)} 页；
-    已完成双语转录 <b>${fmt(CAT.done_files)}</b> 件 / <b>${fmt(CAT.done_pages)}</b> 页
-    <span class="muted">（检索仅覆盖已转录部分）</span>`;
+  $('#meta').innerHTML = `目录 Catalogue: ${fmt(CAT.total_files)} 卷宗 files / ${fmt(CAT.total_pages)} 页 pages ·
+    已完成双语转录 transcribed: <b>${fmt(CAT.done_files)}</b> 卷宗 files /
+    <b>${fmt(CAT.done_pages)}</b> 页 pages
+    <span class="muted">（检索仅覆盖已转录部分 · search covers transcribed pages only）</span>`;
   const u = new URLSearchParams(location.search).get('q');
   if (u) { $('#q').value = u; run(); }
 }
@@ -71,12 +72,13 @@ async function run() {
   const { toks, hits } = await search(q);
   const ms = Math.round(performance.now() - t0);
   if (!hits.length) {
-    $('#res').innerHTML = `<p class="spin">未命中。已切分为：${toks.map(t=>'<code>'+t+'</code>').join(' ')}
-      <br>目前仅 ${fmt(CAT.done_pages)} 页已转录，全库 ${fmt(CAT.total_pages)} 页仍在处理中。</p>`;
+    $('#res').innerHTML = `<p class="spin">未命中 No matches. 查询已切分为 tokenised as：${toks.map(t=>'<code>'+t+'</code>').join(' ')}
+      <br>目前仅 ${fmt(CAT.done_pages)} 页已转录，全库 ${fmt(CAT.total_pages)} 页仍在处理中。
+      <br>Only ${fmt(CAT.done_pages)} of ${fmt(CAT.total_pages)} pages have been transcribed so far.</p>`;
     return;
   }
   const npages = hits.reduce((a, h) => a + h.pages.length, 0);
-  let html = `<p class="hint">命中 <b>${fmt(npages)}</b> 页，分布在 <b>${hits.length}</b> 件卷宗（${ms} ms）</p>`;
+  let html = `<p class="hint">命中 <b>${fmt(npages)}</b> 页 pages，分布在 <b>${hits.length}</b> 件卷宗 files（${ms} ms）</p>`;
   $('#res').innerHTML = html + '<p class="spin">载入摘要…</p>';
   const parts = [html];
   for (const h of hits.slice(0, 40)) {
@@ -84,7 +86,7 @@ async function run() {
     const byN = Object.fromEntries(d.pages.map(p => [p.n, p]));
     parts.push(`<div class="it">
       <div class="ti"><a href="file.html?id=${h.doc}&q=${encodeURIComponent(q)}">${d.t}</a></div>
-      <div class="mt">${d.s ? d.s + ' 系列 · ' : ''}${d.p} 页 · 命中 ${h.pages.length} 页</div>
+      <div class="mt">${d.s ? d.s + ' 系列 series · ' : ''}${d.p} 页 pages · 命中 ${h.pages.length} 页 matched</div>
       ${h.pages.slice(0, 3).map(n => {
         const p = byN[n] || {};
         const inEn = hasMatch(p.en, q), inZh = hasMatch(p.zh, q);

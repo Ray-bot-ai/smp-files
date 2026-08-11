@@ -59,9 +59,9 @@ function hl(s){
   const d = await getDoc(ID);
   $('#head').innerHTML = `
     <h1 class="pt">${esc(d.t)}</h1>
-    <p class="sub">${d.s ? d.s + ' 系列 · ' : ''}${d.p} 页 ·
-      <a href="${d.ia}" target="_blank" rel="noopener">在 Internet Archive 查看原件 ↗</a>
-      ${Q ? ` · 检索词「${esc(Q)}」已高亮` : ''}</p>`;
+    <p class="sub">${d.s ? d.s + ' 系列 series · ' : ''}${d.p} 页 pages ·
+      <a href="${d.ia}" target="_blank" rel="noopener">在 Internet Archive 查看原件 · View original on IA ↗</a>
+      ${Q ? ` · 检索词 query「${esc(Q)}」已高亮 highlighted` : ''}</p>`;
   const iid = 'smpa-files-' + ID;
   $('#pages').innerHTML = d.pages.map(p => `
     <section class="pane" id="p${p.n}">
@@ -72,13 +72,13 @@ function hl(s){
       </div>
       <div>
         <h4>本站转录 · Transcription</h4>
-        <div class="txt">${p.en ? hl(p.en) : '<span class="muted">（本页无文字或未转录）</span>'}</div>
+        <div class="txt">${p.en ? hl(p.en) : '<span class="muted">（本页无文字或未转录 · no text / not transcribed）</span>'}</div>
       </div>
       <div>
         <h4>中文译文 · Translation</h4>
         <div class="txt zh">${p.zh ? hl(p.zh) :
-          (p.note ? `<span class="muted">（${p.note}——见左栏转录）</span>`
-                  : '<span class="muted">（未译）</span>')}</div>
+          (p.note ? `<span class="muted">（${p.note} · original is already in Chinese, see transcription）</span>`
+                  : '<span class="muted">（未译 · not translated）</span>')}</div>
       </div>
     </section>`).join('');
   if (d.ia_ocr) {
@@ -87,7 +87,7 @@ function hl(s){
         <div><h4>对照：Internet Archive 原有 OCR · Existing machine OCR</h4>
         <div class="oldocr">${esc(d.ia_ocr.slice(0, 6000))}</div>
         <p class="muted" style="font-size:.84rem;margin-top:.6rem">
-          这是重做之前的状态。保留它是为了交叉比对——两份不一致处，正是需要人工核对原件的地方。</p>
+          这是重做之前的状态。保留它是为了交叉比对——两份不一致处，正是需要人工核对原件的地方。<br>The pre-existing machine OCR, kept for cross-checking: where the two disagree is where a human should look.</p>
         </div></section>`);
   }
   if (JUMP !== null) document.getElementById('p' + JUMP)?.scrollIntoView({behavior:'smooth'});

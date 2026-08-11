@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>抽样校验 · 上海工部局警务处档案</title>
+<title>Sampling verification 抽样校验 · Shanghai Municipal Police Files</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Archivo:wght@600&family=Noto+Serif+SC:wght@400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/app.css">
@@ -44,24 +44,24 @@
 </head>
 <body>
 <header class="bar"><div class="in">
-  <a class="brand" href="index.html"><b>Shanghai Municipal Police Files</b><span>抽样校验</span></a>
+  <a class="brand" href="index.html"><b>Shanghai Municipal Police Files</b><span>Sampling verification 抽样校验</span></a>
   <nav>
-    <a href="search.html">检索</a><a href="browse.html">目录</a>
-    <a href="quality.html">质量</a><a href="verify.html" aria-current="page">校验</a>
+    <a href="search.html">检索 Search</a><a href="browse.html">目录 Catalogue</a>
+    <a href="quality.html">质量 Quality</a><a href="verify.html" aria-current="page">校验 Verify</a>
   </nav>
 </div></header>
 
 <div class="wrap vwrap">
-  <div id="app"><p class="spin">载入任务单…</p></div>
+  <div id="app"><p class="spin">Loading task list… 载入任务单…</p></div>
 </div>
 
 <div class="bar2" id="ctl" style="display:none">
-  <button class="ok"  data-v="ok"><kbd>1</kbd>转录正确</button>
-  <button class="e1"  data-v="model"><kbd>2</kbd>模型转错</button>
-  <button class="e2"  data-v="source"><kbd>3</kbd>原件本身不一致</button>
-  <button class="e3"  data-v="illegible"><kbd>4</kbd>原件残缺无法判定</button>
-  <input id="note" placeholder="可选备注：错在哪个字/词（回车提交）">
-  <button data-v="skip"><kbd>S</kbd>跳过</button>
+  <button class="ok"  data-v="ok"><kbd>1</kbd>Correct 转录正确</button>
+  <button class="e1"  data-v="model"><kbd>2</kbd>Model error 模型转错</button>
+  <button class="e2"  data-v="source"><kbd>3</kbd>Original inconsistent 原件本身不一致</button>
+  <button class="e3"  data-v="illegible"><kbd>4</kbd>Illegible 原件残缺无法判定</button>
+  <input id="note" placeholder="Optional note — which word is wrong? 可选备注：错在哪个字/词（回车提交）">
+  <button data-v="skip"><kbd>S</kbd>Skip 跳过</button>
   <span class="prog" id="prog"></span>
 </div>
 
@@ -96,25 +96,25 @@ function render(){
   const iid = 'smpa-files-' + t.doc;
   $('#app').innerHTML = `
     <p class="sub" style="margin-bottom:.8rem">
-      <b>${esc(t.title)}</b> · 第 ${t.n + 1} 页 ·
-      <a href="https://archive.org/details/${iid}" target="_blank" rel="noopener">IA 原件 ↗</a>
-      · <span class="muted">点图可放大</span></p>
+      <b>${esc(t.title)}</b> · p${t.n + 1} ·
+      <a href="https://archive.org/details/${iid}" target="_blank" rel="noopener">Original on IA 原件 ↗</a>
+      · <span class="muted">click image to zoom 点图可放大</span></p>
     <div class="split">
       <div class="scan"><div class="scanbox">
         <img id="im" src="https://archive.org/download/${iid}/page/n${t.n}_w2400.jpg" alt="scan">
       </div></div>
       <div>
-        ${t.flags.length ? `<div class="flag"><b>自动检测标记了这几处，请重点看：</b><br>${
+        ${t.flags.length ? `<div class="flag"><b>Flagged by the automatic checker — look here first 自动检测标记了这几处，请重点看：</b><br>${
           t.flags.map(f => esc(f)).join('<br>')}</div>` : ''}
-        <h4 class="label" style="color:var(--muted);margin:.6rem 0 .4rem">本站转录</h4>
+        <h4 class="label" style="color:var(--muted);margin:.6rem 0 .4rem">Transcription 本站转录</h4>
         <div class="tx">${t.flags.length ? markFlags(t.en, t.flags) : esc(t.en)}</div>
-        ${t.zh ? `<h4 class="label" style="color:var(--muted);margin:.9rem 0 .4rem">中文译文</h4>
+        ${t.zh ? `<h4 class="label" style="color:var(--muted);margin:.9rem 0 .4rem">Chinese translation 中文译文</h4>
           <div class="tx zh">${esc(t.zh)}</div>` : ''}
       </div>
     </div>`;
   $('#im').onclick = e => e.target.classList.toggle('zoom');
   $('#note').value = '';
-  $('#prog').textContent = `${i + 1} / ${T.length}　已判 ${Object.keys(res).length}`;
+  $('#prog').textContent = `${i + 1} / ${T.length}　judged 已判 ${Object.keys(res).length}`;
 }
 
 function judge(v){
@@ -137,23 +137,22 @@ function finish(){
     <td>${cnt(g)('model')}</td><td>${cnt(g)('source')}</td><td>${cnt(g)('illegible')}</td></tr>`;
   $('#ctl').style.display = 'none';
   $('#app').innerHTML = `
-    <h1 class="pt">校验完成<span class="zh">Sampling complete</span></h1>
+    <h1 class="pt">Sampling complete<span class="zh">校验完成</span></h1>
     <div class="done-panel">
       <table>
-        <tr><th>样本</th><th>页数</th><th>转录正确</th><th>模型转错</th><th>原件本身不一致</th><th>无法判定</th></tr>
-        ${line('随机页（无偏基线）', 'random')}
-        ${line('被标记页（检测命中率）', 'flagged')}
+        <tr><th>Sample 样本</th><th>Pages 页数</th><th>Correct 正确</th><th>Model error 模型转错</th><th>Original inconsistent 原件不一致</th><th>Illegible 无法判定</th></tr>
+        ${line('Random pages 随机页（无偏基线）', 'random')}
+        ${line('Flagged pages 被标记页（检测准确率）', 'flagged')}
       </table>
       <p class="muted" style="font-size:.9rem">
-        <b>随机页</b>那一行给出整体错误率；<b>被标记页</b>那一行说明自洽性检测的准不准
-        ——若其中「模型转错 + 原件本身不一致」占比很高，说明检测确实指向了问题位置。</p>
+        The <b>random</b> row gives the overall error rate; the <b>flagged</b> row shows how accurate the consistency checker is — a high share of "model error + original inconsistent" there means it really is pointing at problems.<br><span class="zh"><b>随机页</b>那一行给出整体错误率；<b>被标记页</b>那一行说明自洽性检测准不准——若其中「模型转错 + 原件本身不一致」占比很高，说明检测确实指向了问题位置。</span></p>
       <p><button onclick="dl()" style="border:1px solid var(--rule);background:var(--ink);
         color:var(--paper);padding:.7rem 1.4rem;font:600 .72rem var(--label);
-        letter-spacing:.12em;cursor:pointer">下载结果 JSON</button>
-      <button onclick="if(confirm('清空所有已判结果？')){localStorage.removeItem('${KEY}');location.reload()}"
+        letter-spacing:.12em;cursor:pointer">Download results JSON 下载结果</button>
+      <button onclick="if(confirm('Clear all judgements? 清空所有已判结果？')){localStorage.removeItem('${KEY}');location.reload()}"
         style="border:1px solid var(--rule);background:transparent;color:var(--muted);
         padding:.7rem 1.4rem;font:600 .72rem var(--label);letter-spacing:.12em;cursor:pointer;
-        margin-left:.6rem">重新开始</button></p>
+        margin-left:.6rem">Reset 重新开始</button></p>
     </div>`;
 }
 
@@ -177,7 +176,7 @@ fetch('data/verify.json').then(r => r.json()).then(d => {
   if (!T.length) { T = d.tasks; i = T.length; }
   $('#ctl').style.display = 'flex';
   render();
-}).catch(e => $('#app').innerHTML = '<p class="spin">任务单未生成，请先跑 gen_verify.py</p>');
+}).catch(e => $('#app').innerHTML = '<p class="spin">Task list not generated — run gen_verify.py first. 任务单未生成，请先跑 gen_verify.py</p>');
 </script>
 </body>
 </html>
