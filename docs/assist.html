@@ -231,6 +231,8 @@ async function expand(q){
   return out.slice(0, 16);
 }
 
+const escH = x => String(x==null?'':x).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+
 function md(t){
   // 极简 Markdown：## 标题、- 列表、**粗体**、`码`
   const esc = x => x.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
@@ -269,17 +271,23 @@ async function run(){
       else if (ev.type === 'tool') {
         nTool++;
         const r = ev.result || {};
-        (r.samples||[]).forEach(s0 => (s0.pages_matched||0) && allPages.add(s0.doc_id+'#'+s0.first_page));
-        const li = (r.samples||[]).slice(0,12).map(s0 =>
-          `<li><a href="file.html?id=${s0.doc_id}&p=${s0.first_page-1}&q=${encodeURIComponent(ev.query)}">${s0.file}</a>
-           <span class="n">p${s0.first_page} · 命中 ${s0.pages_matched} 页</span></li>`).join('');
+        // 命中卷宗一件不漏地列出。以前只列模型看到的那 12 条样本，
+        // 剩下的写成「另有 N 件未列出」——读者无从知道那 N 件是什么，等于白丢线索。
+        const all = ev.all || r.samples || [];
+        all.forEach(s0 => (s0.pages_matched||0) && allPages.add(s0.doc_id+'#'+s0.first_page));
+        const row = s0 =>
+          `<li><a href="file.html?id=${s0.doc_id}&p=${s0.first_page-1}&q=${encodeURIComponent(ev.query)}">${escH(s0.file)}</a>
+           <span class="n">p${s0.first_page} · 命中 ${s0.pages_matched} 页</span></li>`;
+        const HEAD = 30;                       // 前 30 件直接铺开，其余折叠但仍在页面里
+        const head = all.slice(0, HEAD).map(row).join('');
+        const tail = all.slice(HEAD).map(row).join('');
         tools.insertAdjacentHTML('beforeend',
-          `<div class="tool">🔎 <b>${ev.query}</b>
+          `<div class="tool">🔎 <b>${escH(ev.query)}</b>
              <span class="n">${r.total_pages||0} 页 / ${r.total_files||0} 件${
                r.tokenised_as? ' · 切分 '+r.tokenised_as.join(' '):''}</span>
-             ${li?`<ul>${li}</ul>`:'<ul><li class="n">无命中 no match</li></ul>'}
-             ${(r.total_files||0) > (r.samples||[]).length
-               ? `<div class="n" style="margin-top:.3rem">…另有 ${r.total_files-(r.samples||[]).length} 件未列出（模型看到的是同一批样本）</div>` : ''}</div>`);
+             ${head?`<ul>${head}</ul>`:'<ul><li class="n">无命中 no match</li></ul>'}
+             ${tail?`<details><summary class="n">其余 ${all.length-HEAD} 件（点击展开）</summary>
+               <ul>${tail}</ul></details>`:''}</div>`);
       }
       else if (ev.type === 'error') { st.innerHTML = '✗ ' + ev.text; }
       else if (ev.type === 'done') {

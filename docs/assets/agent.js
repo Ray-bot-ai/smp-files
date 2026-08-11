@@ -17,6 +17,10 @@ const SYS_PROMPT = `你是上海公共租界工部局警务处档案（Shanghai 
 - **多词 = 并且(AND)**：一次 search 里给多个词会取交集，命中会很少。
   **想扩大召回请一次只给一个词/短语，分多次调用。**
 - 检索范围仅限**已转录**部分，未转录的卷宗搜不到。
+- 返回值里 \`samples\` 是**带原文摘录**的少数几件（判断相关性靠它），
+  \`files\` 是**命中的全部卷宗题名**（只有题名与命中页数，条数多得多）。
+  最终列结果时**以 \`files\` 为准**，不要只列 \`samples\` 那几件；
+  没有摘录的那些，若题名本身足以判断相关，照样列出并说明依据是题名。
 
 ## 检索流程（务必遵循）
 
@@ -64,7 +68,8 @@ const TOOL_DEF = [{
   type: "function",
   function: {
     name: "search_archive",
-    description: "在已转录的工部局警务处档案全文中检索。返回命中页数、涉及卷宗，以及若干条带上下文的片段。",
+    description: "在已转录的工部局警务处档案全文中检索。返回：total_pages/total_files 命中总量；" +
+      "files 全部命中卷宗的题名与命中页数；samples 其中若干件的原文摘录。",
     parameters: {
       type: "object",
       properties: {
@@ -76,29 +81,67 @@ const TOOL_DEF = [{
   }
 }];
 
-/* 工具实现：调用本站已有的检索索引 */
+/* 给模型看的卷宗名单上限。题名平均约 55 字，全库将来有 3,866 件，
+   全塞进去会撑爆上下文——所以「模型看到的」封顶，「界面显示的」不封顶。 */
+const MODEL_FILE_CAP = 80;
+
+let catIndex = null;
+async function catMeta(id) {
+  if (!catIndex) {
+    const c = await loadCatalog();
+    catIndex = {};
+    for (const it of (c.items || [])) catIndex[it.i] = it;
+  }
+  return catIndex[id] || {};
+}
+
+/* 工具实现：调用本站已有的检索索引。
+   返回 {res, all}：res 给模型（摘录限量），all 给界面（命中卷宗一件不漏）。
+   题名取自 catalog.json，所以列全部不需要逐件 fetch 详情。 */
 async function toolSearch(args) {
   const q = (args.query || "").trim();
   const limit = Math.min(args.limit || 12, 30);
-  if (!q) return { error: "query 为空" };
+  if (!q) return { res: { error: "query 为空" }, all: [] };
   const { toks, hits } = await search(q);
   const nPages = hits.reduce((a, h) => a + h.pages.length, 0);
-  const out = { query: q, tokenised_as: toks, total_pages: nPages, total_files: hits.length, samples: [] };
+
+  // 全部命中卷宗：只有题名与命中页数，不含摘录
+  const all = [];
+  for (const h of hits) {
+    const m = await catMeta(h.doc);
+    all.push({
+      file: m.t || h.doc, doc_id: h.doc, series: m.s || "",
+      pages_matched: h.pages.length, first_page: h.pages[0] + 1
+    });
+  }
+
+  // 带摘录的样本：要逐件取全文，成本高，限量
+  const samples = [];
   for (const h of hits.slice(0, limit)) {
     const d = await getDoc(h.doc);
     const byN = Object.fromEntries(d.pages.map(p => [p.n, p]));
     const n = h.pages[0];
     const pg = byN[n] || {};
     const src = hasMatch(pg.en, q) ? pg.en : (pg.zh || pg.en);
-    out.samples.push({
+    samples.push({
       file: d.t, doc_id: h.doc, series: d.s,
       pages_matched: h.pages.length,
       first_page: n + 1,
       excerpt: (snippet(src, q, 260) || "").replace(/<\/?mark>/g, "")
     });
-    if (out.samples.length >= limit) break;
   }
-  return out;
+
+  const res = {
+    query: q, tokenised_as: toks, total_pages: nPages, total_files: hits.length,
+    samples,
+    // 名单比摘录便宜得多，所以模型能看到的卷宗数远多于摘录数
+    files: all.slice(0, MODEL_FILE_CAP).map(f => ({ file: f.file, pages_matched: f.pages_matched }))
+  };
+  if (all.length > MODEL_FILE_CAP) {
+    res.files_note = `命中 ${all.length} 件，此处只列前 ${MODEL_FILE_CAP} 件（按命中页数降序）；` +
+      `如需收窄请换更具体的检索词。`;
+  }
+  return { res, all };
 }
 
 /* 主循环。onEvent 收到 {type, ...}：status / think / answer / tool / done / error */
@@ -170,8 +213,8 @@ async function runAgent(question, cfg, onEvent) {
     messages.push({ role: "assistant", content: content || null, tool_calls: toolCalls });
     for (const tc of toolCalls) {
       let args = {}; try { args = JSON.parse(tc.function.arguments || '{}'); } catch {}
-      const res = await toolSearch(args);
-      onEvent({ type: "tool", query: args.query || '', result: res });
+      const { res, all } = await toolSearch(args);
+      onEvent({ type: "tool", query: args.query || '', result: res, all });
       messages.push({ role: "tool", tool_call_id: tc.id, content: JSON.stringify(res) });
     }
   }

@@ -11,7 +11,8 @@ import base64, glob, json, os, re, sys, time, urllib.request
 from collections import Counter
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import KEY, BASE, MODEL, PROMPT, CTX, HERE, IMG_DIR
+from common import (KEY, BASE, MODEL, PROMPT, CTX, HERE, IMG_DIR,
+                    FB_KEY, FB_BASE, FB_MODEL, HAS_FALLBACK)
 
 DATA = os.path.join(HERE, "data")
 MANIFEST = os.path.join(HERE, "manifest.jsonl")
@@ -82,17 +83,20 @@ def manifest_map():
     return by
 
 
-def call(messages, max_tokens=8000, deadline=240):
+def call(messages, max_tokens=8000, deadline=240, base=None, key=None, model=None):
     """deadline：整体墙钟上限（秒）。
 
     踩过：只设 urlopen(timeout=600) 是 **socket 超时**——只要服务端每 600 秒内
     还吐出一个字节就永不触发。实测翻译卡在一次请求上 2.5 小时，连接开着、
     CPU 只用了 3 秒，整条流水线静默停摆。必须另加整体墙钟上限。
+
+    base/key/model：留给备用端点用（内容审查拒稿时换一家重试），不传就走百炼。
     """
-    body = {"model": MODEL, "enable_thinking": False, "temperature": 0,
+    body = {"model": model or MODEL, "enable_thinking": False, "temperature": 0,
             "max_tokens": max_tokens, "messages": messages}
-    req = urllib.request.Request(f"{BASE}/chat/completions", data=json.dumps(body).encode(),
-                                 headers={"Authorization": f"Bearer {KEY}",
+    req = urllib.request.Request(f"{base or BASE}/chat/completions",
+                                 data=json.dumps(body).encode(),
+                                 headers={"Authorization": f"Bearer {key or KEY}",
                                           "Content-Type": "application/json"})
     def _once():
         try:
@@ -117,21 +121,64 @@ def call(messages, max_tokens=8000, deadline=240):
     return None, json.dumps(d.get("error"), ensure_ascii=False)[:200]
 
 
+def _blocked(err):
+    """百炼内容审查拒稿。注意它是 HTTP 200 + body 里带 error，不是 4xx。"""
+    return bool(err) and ("DataInspection" in err or "data_inspection" in err.lower())
+
+
+def _text_of(d):
+    return ((d or {}).get("choices", [{}])[0].get("message", {}).get("content") or "").strip()
+
+
+def _usage_of(d, via):
+    u = (d or {}).get("usage") or {}
+    return {"in": u.get("prompt_tokens", 0), "out": u.get("completion_tokens", 0),
+            "reasoning": (u.get("completion_tokens_details") or {}).get("reasoning_tokens", 0) or 0,
+            "via": via}
+
+
 def ocr_page(args):
+    """转录一页。
+
+    两种「静默失败」必须在这里挡住，否则这一页会永久缺失且没人知道：
+    ① 模型返回 200 但正文是空字符串。原先直接把 "" 当结果存下，而续传判据只看
+       error 字段，于是这页再也不会被重试。实看影像确认过：这些**不是空白页**
+       （674/n6 是满页中文传单，2061/n25 是清晰打字稿），是真丢内容。
+    ② 内容审查拒稿。这批政治监视档案里最该保留的那些页最容易被拒。
+    两种情况都先在主端点重试一次，再换备用端点；仍不行就**记成 error**，
+    绝不返回空字符串冒充成功。
+    """
     iid, n = args
     p = os.path.join(IMG_DIR, iid, f"n{n}.jpg")
     if not os.path.exists(p):
         return n, None, "本地无图", {}
     b64 = base64.b64encode(open(p, "rb").read()).decode()
-    d, err = call([{"role": "user", "content": [
+    msgs = [{"role": "user", "content": [
         {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{b64}"}},
-        {"type": "text", "text": PROMPT}]}])
-    if err:
-        return n, None, err, {}
-    u = d["usage"]
-    rt = (u.get("completion_tokens_details") or {}).get("reasoning_tokens", 0) or 0
-    return n, d["choices"][0]["message"]["content"], None, {
-        "in": u["prompt_tokens"], "out": u["completion_tokens"], "reasoning": rt}
+        {"type": "text", "text": PROMPT}]}]
+
+    d, err = call(msgs)
+    txt = _text_of(d) if not err else ""
+    if txt:
+        return n, txt, None, _usage_of(d, "dashscope")
+
+    # 主端点再试一次（空转录有时是偶发的）。被审查拒的就别浪费这一次了。
+    if not _blocked(err):
+        d, err2 = call(msgs)
+        txt = _text_of(d) if not err2 else ""
+        if txt:
+            return n, txt, None, _usage_of(d, "dashscope")
+        err = err2 or err
+
+    # 换备用端点（llm-ocr 插件的「自定义端点2」），主要为绕开内容审查
+    if HAS_FALLBACK:
+        d, err3 = call(msgs, base=FB_BASE, key=FB_KEY, model=FB_MODEL)
+        txt = _text_of(d) if not err3 else ""
+        if txt:
+            return n, txt, None, _usage_of(d, "fallback")
+        err = err or err3 or "空转录"
+
+    return n, None, (err or "空转录（主端点两次 + 备用端点均无输出）"), {}
 
 
 def ia_ocr_text(iid):
@@ -140,6 +187,23 @@ def ia_ocr_text(iid):
         s = open(f, encoding="utf-8", errors="replace").read()
         return s.split("---", 2)[-1].strip()
     return ""
+
+
+MAX_TRIES = 3
+
+
+def _needs_ocr(rec):
+    """这一页要不要（重）跑转录。
+
+    原判据是「没记录 或 有 error」，漏掉了第三种：**有记录、无 error、但正文是空的**。
+    实测有 10 页正好落在这个缝里，于是永远不会被重试，静默缺失。
+    现在按「有没有正文」判，并用 tries 计次兜底，免得真正救不回来的页每次都重烧一遍钱。
+    """
+    if rec is None:
+        return True
+    if (rec.get("en") or "").strip():
+        return False
+    return rec.get("tries", 0) < MAX_TRIES
 
 
 def run_ocr(workers=8):
@@ -155,12 +219,21 @@ def run_ocr(workers=8):
             print(f"{iid}: 已完成 {m['pages']} 页，跳过"); continue
         t0 = time.time()
         got = {p["n"]: p for p in doc.get("page_data", [])}
-        todo = [(iid, n) for n in range(m["pages"]) if n not in got or got[n].get("error")]
+        todo = [(iid, n) for n in range(m["pages"]) if _needs_ocr(got.get(n))]
+        if not todo:
+            continue          # 没活干就别重写文件——空转一遍会把整份 JSON 无谓地改一次
         tin = tout = trea = 0
         with cf.ThreadPoolExecutor(workers) as ex:
             for n, txt, err, u in ex.map(ocr_page, todo):
-                got[n] = {"n": n, "en": txt, "error": err,
-                          "image_url": f"https://archive.org/download/{iid}/page/n{n}_w2400.jpg"}
+                # 合并而不是整条替换：这一页可能已经有译文(zh)了，
+                # 整条替换会把译文一起抹掉，而且同样不报错。
+                rec = dict(got.get(n) or {})
+                rec.update({"n": n, "en": txt, "error": err,
+                            "tries": rec.get("tries", 0) + 1,
+                            "image_url": f"https://archive.org/download/{iid}/page/n{n}_w2400.jpg"})
+                if u.get("via"):
+                    rec["via"] = u["via"]          # 记下这页是哪个端点转出来的
+                got[n] = rec
                 tin += u.get("in", 0); tout += u.get("out", 0); trea += u.get("reasoning", 0)
         doc.update({
             "ia_id": iid, "title": m.get("title", ""), "series": m.get("series", ""),

@@ -47,6 +47,16 @@ figcaption .zh{display:block;font-family:var(--cjk);margin-top:.35rem}
 .big b{display:block;font-size:1.5rem;color:var(--stamp);font-weight:500}
 .big span{font-size:.6rem;color:var(--muted);font-family:var(--label);
   letter-spacing:.1em;text-transform:uppercase;display:block;line-height:1.5}
+/* 分界提示：第Ⅰ节讲的是 IA 旧 OCR，第Ⅱ节起讲的是本站自己的转录。
+   不加这条，读者会把后面所有的失败案例误记到 IA 头上（或反过来）。 */
+.scope{background:rgba(143,47,34,.07);border:1px solid rgba(143,47,34,.3);
+  border-left:3px solid var(--stamp);padding:1rem 1.25rem;margin:3rem 0 0;
+  max-width:52rem;font-size:.93rem;line-height:1.72}
+.scope+h2{margin-top:1.5rem}
+.scope .lbl{font-family:var(--label);font-size:.58rem;font-weight:600;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--stamp);display:block;margin-bottom:.45rem}
+.scope .zh{font-family:var(--cjk);display:block;margin-top:.55rem;color:var(--muted);
+  font-size:.94em;line-height:1.85}
 .cav{background:var(--card);border:1px solid var(--rule);border-left:3px solid var(--brass);
   padding:1.1rem 1.3rem;margin:1.6rem 0;max-width:52rem;font-size:.94rem}
 .cav .zh{font-family:var(--cjk);display:block;margin-top:.7rem;font-size:.94em;
@@ -173,6 +183,17 @@ figcaption .zh{display:block;font-family:var(--cjk);margin-top:.35rem}
       <span class="bad">revesleu</span> 之于 <i>revealed</i>——人能猜出来，检索引擎不能。
       误差在词组上还会叠加：若每三个词错一个，两词词组完整存活约一半，
       三字人名只剩三分之一。至于夹带的中文件，因为那次 OCR 只按英文跑，从未被识别过。</p></div>
+  </div>
+
+  <div class="scope">
+    <span class="lbl">Scope · 适用范围</span>
+    <b>§§ Ⅱ–Ⅷ concern this edition's own transcription</b> — the text produced here by a
+    language model. § Ⅰ above described a different machine: the Internet Archive's
+    conventional OCR. The failures below are <i>ours</i>, and they look nothing like
+    the failures above.
+    <span class="zh"><b>第 Ⅱ–Ⅷ 节讲的全部是本站大模型转录自身的问题</b>，
+    也就是这里生成的那份文本。上面第Ⅰ节说的是另一套机器——Internet Archive 的传统 OCR。
+    下面列出的错法是<i>本站的</i>，与上面那种错法完全不同。</span>
   </div>
 
   <h2>Ⅱ. The core failure mode of this edition<small>二、根本的失败模式</small></h2>

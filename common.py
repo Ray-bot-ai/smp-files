@@ -22,20 +22,43 @@ def _load_dotenv():
 
 _load_dotenv()
 
+def _plugin_cfg():
+    """读 Obsidian llm-ocr 插件的 data.json。读不到就返回空 dict，由调用方决定报不报错。"""
+    vault = os.environ.get("LLM_OCR_VAULT")
+    if not vault:
+        return {}
+    try:
+        return json.load(open(f"{vault}/.obsidian/plugins/llm-ocr/data.json"))
+    except Exception:
+        return {}
+
+
+_CFG = _plugin_cfg()
+
 # API key 来源，按优先级：
 #   1. 环境变量 DASHSCOPE_API_KEY（或本目录 .env 里的同名项）
 #   2. 环境变量 LLM_OCR_VAULT 指向的 Obsidian 库里 llm-ocr 插件的 data.json
 # 本仓库不存任何密钥；.env 在 .gitignore 里。
-KEY = os.environ.get("DASHSCOPE_API_KEY")
+KEY = os.environ.get("DASHSCOPE_API_KEY") or _CFG.get("keys", {}).get("Custom")
 if not KEY:
-    vault = os.environ.get("LLM_OCR_VAULT")
-    if not vault:
-        raise SystemExit(
-            "需要 API key：设 DASHSCOPE_API_KEY，或设 LLM_OCR_VAULT 指向 Obsidian 库根目录")
-    _cfg = json.load(open(f"{vault}/.obsidian/plugins/llm-ocr/data.json"))
-    KEY = _cfg["keys"]["Custom"]
+    raise SystemExit(
+        "需要 API key：设 DASHSCOPE_API_KEY，或设 LLM_OCR_VAULT 指向 Obsidian 库根目录")
 BASE = "https://dashscope.aliyuncs.com/compatible-mode/v1"
 MODEL = "qwen3.7-plus"
+
+# ── 备用端点（= llm-ocr 插件里的「自定义端点2」）────────────────────────────
+# 为什么需要它：百炼的内容审查会拒掉一部分政治敏感页面（中共传单、暗杀案卷等），
+# 返回 HTTP 200 但 body 里带 error。而这些恰恰是这批政治监视档案里最该留下的内容。
+# 换一家不走百炼审查的端点重试，能把这些页救回来。
+# 同样不在仓库里存密钥：环境变量优先，否则从插件配置的 Custom2 读。
+FB_KEY = os.environ.get("FALLBACK_API_KEY") or _CFG.get("keys", {}).get("Custom2")
+FB_BASE = os.environ.get("FALLBACK_BASE_URL") or _CFG.get("customBaseUrls", {}).get("Custom2")
+FB_MODEL = os.environ.get("FALLBACK_MODEL") or _CFG.get("models", {}).get("Custom2")
+# 插件的 customBaseUrls 里 Custom 那一项存的其实是密钥（插件自己的配置写串了），
+# 所以这里必须校验一下是不是真的 URL，否则会拿密钥当地址去请求。
+if not (FB_BASE or "").startswith("http"):
+    FB_KEY = FB_BASE = FB_MODEL = None
+HAS_FALLBACK = bool(FB_KEY and FB_BASE and FB_MODEL)
 # 转录提示词：与 Obsidian llm-ocr 插件「默认（古籍/档案·一字不差）」模板一致
 PROMPT = """你是精准的古籍/档案 OCR 引擎。请把图片中的文字【一字不差】地转录出来。
 
