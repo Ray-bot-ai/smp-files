@@ -87,7 +87,33 @@ figcaption .zh{display:block;font-family:var(--cjk);margin-top:.35rem}
       哪些必须回原件核对。</p></div>
   </div>
 
-  <h2>Ⅰ. The core failure mode<small>一、根本的失败模式</small></h2>
+  <h2>Ⅰ. What the existing OCR actually does<small>一、原有 OCR 究竟是什么水平</small></h2>
+  <div class="par">
+    <p class="collabel">English</p><p class="collabel">中文</p>
+    <div><p>It is worth being precise rather than dramatic. Measured across all 3,863 files
+      (33 million word-tokens), <b>69.2% of the words the existing machine OCR produces are
+      recognisable English</b>; the median file scores the same, and only 3% of files fall
+      below 50%. It is <i>poor</i>, not <i>useless</i> — it usually captures most letters of
+      a word and misses one or two.</p>
+      <p>The consequence is specific: enough to half-read a page, nowhere near enough to
+      search one. <span class="bad">enguirics</span> for <i>enquiries</i>,
+      <span class="bad">revesleu</span> for <i>revealed</i> — a human guesses, a search index
+      cannot. Errors also compound across a phrase: if roughly one word in three is mangled,
+      a two-word phrase survives intact about half the time and a three-word name about a
+      third. Chinese-language enclosures were never recognised at all, since that OCR was run
+      for English only.</p></div>
+    <div><p class="zh">这里应当精确而不是渲染。全库 3,863 件、3,310 万个词形的实测结果：
+      <b>现有机器 OCR 产出的词有 69.2% 是可识别的英文</b>，中位数同样是 69.2%，
+      低于 50% 的卷宗只占 3%。它是<i>不好</i>，而不是<i>不能用</i>——
+      通常能认出一个词的大部分字母，错一两个。</p>
+      <p class="zh">但后果很具体：够勉强读懂一页，远远不够检索。
+      <span class="bad">enguirics</span> 之于 <i>enquiries</i>、
+      <span class="bad">revesleu</span> 之于 <i>revealed</i>——人能猜出来，检索引擎不能。
+      误差在词组上还会叠加：若每三个词错一个，两词词组完整存活约一半，
+      三字人名只剩三分之一。至于夹带的中文件，因为那次 OCR 只按英文跑，从未被识别过。</p></div>
+  </div>
+
+  <h2>Ⅱ. The core failure mode of this edition<small>二、根本的失败模式</small></h2>
   <div class="par">
     <p class="collabel">English</p><p class="collabel">中文</p>
     <div><p>Conventional OCR fails <i>visibly</i>, as garbled characters. A language model
@@ -107,7 +133,7 @@ figcaption .zh{display:block;font-family:var(--cjk);margin-top:.35rem}
       因此本项目只做一次转录，不做二次润色。</p></div>
   </div>
 
-  <h2>Ⅱ. Resolution decides invention<small>二、分辨率决定编不编造</small></h2>
+  <h2>Ⅲ. Resolution decides invention<small>三、分辨率决定编不编造</small></h2>
   <div class="par">
     <p class="collabel">English</p><p class="collabel">中文</p>
     <div><p>Same page, same model, same prompt — only the resolution of the input image
@@ -152,7 +178,7 @@ figcaption .zh{display:block;font-family:var(--cjk);margin-top:.35rem}
       这张对照表的作用是论证一个方法选择，<b>不应被当作你实际会读到的转录样本</b>。</span>
   </div>
 
-  <h2>Ⅲ. A worked example<small>三、一个完整案例</small></h2>
+  <h2>Ⅳ. A worked example<small>四、一个完整案例</small></h2>
   <div class="par">
     <p class="collabel">English</p><p class="collabel">中文</p>
     <div><p>In the 22-page file <span class="mono">Report Re Wang Cheng-Hsiang</span>, the
@@ -210,7 +236,7 @@ figcaption .zh{display:block;font-family:var(--cjk);margin-top:.35rem}
       它只能告诉你「这里值得看一眼」。判断哪一种，必须由人打开原件影像。</span>
   </div>
 
-  <h2>Ⅳ. Internal contradiction as a detector<small>四、自相矛盾即检测信号</small></h2>
+  <h2>Ⅴ. Internal contradiction as a detector<small>五、自相矛盾即检测信号</small></h2>
   <div class="par">
     <p class="collabel">English</p><p class="collabel">中文</p>
     <div><p>The case above points to a method that scales: <b>a file that contradicts itself
@@ -243,7 +269,7 @@ figcaption .zh{display:block;font-family:var(--cjk);margin-top:.35rem}
     <span class="zh" style="display:block">原件影像与转录并排，键盘 1–4 记录判断；
       被标记页与随机页混合且顺序打乱，前者测检测准确率、后者给无偏错误率。</span></span></p>
 
-  <h2>Ⅴ. What to trust<small>五、可信度分级</small></h2>
+  <h2>Ⅵ. What to trust<small>六、可信度分级</small></h2>
   <div class="par">
     <p class="collabel">English</p><p class="collabel">中文</p>
     <div><p>Across the pages transcribed so far, the picture is lopsided in a useful way:
@@ -288,7 +314,7 @@ figcaption .zh{display:block;font-family:var(--cjk);margin-top:.35rem}
       得到不同结果（「陳希平」／「陳希曾」）——字迹本身即无法辨认时，模型每次的猜测不同。</p></div>
   </div>
 
-  <h2>Ⅵ. What we deliberately did not do<small>六、我们刻意没有做的事</small></h2>
+  <h2>Ⅶ. What we deliberately did not do<small>七、我们刻意没有做的事</small></h2>
   <div class="par">
     <p class="collabel">English</p><p class="collabel">中文</p>
     <div><p>This site offers no maps, no social-network graphs and no word-frequency analysis
@@ -303,7 +329,7 @@ figcaption .zh{display:block;font-family:var(--cjk);margin-top:.35rem}
       <p class="zh">待抽样校验完成、错误率有据可依后，再评估哪些分析站得住。</p></div>
   </div>
 
-  <h2>Ⅶ. Limits of the source itself<small>七、史料本身的边界</small></h2>
+  <h2>Ⅷ. Limits of the source itself<small>八、史料本身的边界</small></h2>
   <div class="par">
     <p class="collabel">English</p><p class="collabel">中文</p>
     <div><p>M1750 is a <b>selective</b> filming: the NARA descriptive pamphlet states that the

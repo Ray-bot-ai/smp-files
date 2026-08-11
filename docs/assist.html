@@ -63,6 +63,27 @@
     <div class="row" id="baserow" style="display:none">
       <input id="base" placeholder="https://…/v1" style="flex:1;min-width:20rem">
     </div>
+    <div class="row">
+      <select id="think" style="min-width:24rem">
+        <option value="off">思考：关闭（推荐）· Thinking off — recommended</option>
+        <option value="short">思考：简短 · Brief thinking</option>
+        <option value="deep">思考：深入 · Deep thinking</option>
+      </select>
+    </div>
+    <p class="priv" style="margin-top:.5rem">
+      <b>We measured this, and thinking did not help.</b> The task is recalling spellings the
+      police actually used, which is memory rather than reasoning — and when the model reasons
+      it tends to derive Wade-Giles systematically and lose the real one. Asked about 小沙渡,
+      thinking-off returned <i>Shawell Road</i> (the name the SMP actually used); both thinking
+      modes returned only <i>Hsiao-sha-tu</i> variants and missed it. Thinking also costs about
+      10× more and takes 6–8× longer. The option is here because you may find cases where it
+      helps; the default is off.
+      <span class="zh" style="display:block;margin-top:.35rem">
+        <b>我们实测过，开思考并没有帮助。</b>这个任务考的是回忆巡捕实际用过的拼法，
+        属于记忆而非推理——模型一思考反而去系统推导威妥玛拼音，丢掉真正用过的那个。
+        实测查「小沙渡」，关闭思考给出 <i>Shawell Road</i>（SMP 的实际称呼），
+        两档思考模式都只给 <i>Hsiao-sha-tu</i> 系列而漏掉它。思考还要多花约 10 倍费用、
+        6–8 倍时间。保留这个选项是因为你可能遇到有用的情形；默认关闭。</span></p>
     <p class="priv">
       <b>The key is stored only in your own browser (localStorage) and is sent only to the
       endpoint you choose above.</b> This site is a set of static files on GitHub Pages — it
@@ -120,6 +141,7 @@ function loadCfg(){
   onProv();
   if (c.model) $('#model').value = c.model;
   if (c.base) $('#base').value = c.base;
+  if (c.think) $('#think').value = c.think;
   if (c.key) { $('#key').value = c.key; $('#cfg').open = false; }
 }
 function onProv(){
@@ -129,9 +151,14 @@ function onProv(){
   if (p !== 'custom') $('#base').value = DEF[p].base;
 }
 $('#prov').onchange = onProv;
+$('#think').onchange = () => {
+  const c = JSON.parse(localStorage.getItem(CFG) || '{}');
+  c.think = $('#think').value;
+  localStorage.setItem(CFG, JSON.stringify(c));
+};
 $('#save').onclick = () => {
   localStorage.setItem(CFG, JSON.stringify({prov:$('#prov').value, model:$('#model').value,
-    base:$('#base').value, key:$('#key').value}));
+    base:$('#base').value, key:$('#key').value, think:$('#think').value}));
   $('#cfg').open = false;
   $('#out').innerHTML = '<p class="spin">已保存到本浏览器 Saved in this browser.</p>';
 };
@@ -168,7 +195,15 @@ async function expand(q){
     headers:{'Content-Type':'application/json', 'Authorization':'Bearer ' + c.key},
     body: JSON.stringify({
       model: c.model || DEF[c.prov||'dashscope'].model,
-      temperature: 0.3, max_tokens: 600, enable_thinking: false,
+      temperature: 0.3,
+      // max_tokens 把思考 token 也算在内。踩过：max_tokens=600 配 thinking_budget=400，
+      // 思考吃光预算，答案没地方写，返回空数组——而且不报错。
+      max_tokens: c.think === 'deep' ? 3200 : c.think === 'short' ? 1400 : 600,
+      // 思考参数各家不同：百炼/千问用 enable_thinking + thinking_budget，
+      // OpenAI o 系列用 reasoning_effort。传了对方不认识的字段一般会被忽略。
+      ...(c.think === 'deep'  ? {enable_thinking: true,  thinking_budget: 2000, reasoning_effort: 'high'}
+        : c.think === 'short' ? {enable_thinking: true,  thinking_budget: 600,  reasoning_effort: 'low'}
+        :                       {enable_thinking: false}),
       messages:[{role:'system',content:SYS},{role:'user',content:q}]
     })
   });
@@ -177,7 +212,14 @@ async function expand(q){
   const txt = d.choices[0].message.content;
   const m = txt.match(/\[[\s\S]*\]/);
   if (!m) throw new Error('模型未返回 JSON 数组：' + txt.slice(0, 120));
-  return JSON.parse(m[0]).filter(x => typeof x === 'string' && x.trim()).slice(0, 16);
+  // 去重（大小写不敏感）——思考模式实测会把同一个拼法重复吐五六遍
+  const raw = JSON.parse(m[0]).filter(x => typeof x === 'string' && x.trim());
+  const seen = new Set(), out = [];
+  for (const t of raw) {
+    const k = t.trim().toLowerCase();
+    if (!seen.has(k)) { seen.add(k); out.push(t.trim()); }
+  }
+  return out.slice(0, 16);
 }
 
 async function run(){
@@ -219,7 +261,7 @@ async function run(){
     <span class="zh" style="display:block;margin-top:.4rem">The model expanded your query into
     the terms below, searched each across ${fmt(cat.done_pages)} transcribed pages and merged
     the results. Pages matching more terms rank higher.</span></div>
-    <div class="terms">${per.map(x =>
+    <div class="terms" data-think="${(JSON.parse(localStorage.getItem(CFG)||'{}').think)||'off'}">${per.map(x =>
       `<span class="${x.n?'hit':'miss'}" title="${x.n} 页">${x.t}${x.n?` · ${x.n}`:''}</span>`).join('')}</div>`;
 
   if (!tot) { $('#out').innerHTML = html + '<p class="spin">全部检索词均未命中。目前只有部分卷宗已转录。</p>'; return; }
