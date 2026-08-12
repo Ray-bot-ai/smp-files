@@ -8,3 +8,4 @@ results/
 .DS_Store
 variants.json
 corpus_v1.json
+*.docx
