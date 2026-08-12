@@ -711,9 +711,11 @@
    "en": "- 15 -\n\nOrganization dealing with soldiers\n\nThe armed organization of the labouring and\nfarming masses should be started. It should be\nsystematic and in addition, political and military\neducation should be given them.\n\nBeing necessary to struggles in farming villages,\nour armed organization is absolutely important (Hai 7).\n\nThe method of organization is not limited to\n\"Small\" Groups, \"Middle\" Groups and \"Big\" Groups and\nit is not necessary to adopt the name of \"Labourers'\nand Peasants' Revolutionary Army\". Our party should\ncarry out the organization according to the circumstances\nand the struggles (Hai 7).\n\nIn a number of \"fundamental\" masses (such as\nVillage Peasants' Union or a trade branch union),\nselect brave elements and organize them into various\ncorps, the name of which can be fixed according to\nthe custom and condition in various places (Hai 7).\n\nThe groups in a village peasants' union are taken\nas the units of peasants' organization, and then the\nvillage peasants' unions, district peasants' unions\nand Hsien peasants' unions to form a system. The\ntrade branch labour unions are taken as the units of\nlabour unions, and then the trade labour unions and\nHsien Labour Unions to form a system. The armed\norganization in the Hsien labour unions and Hsien\npeasants' unions is under the control of the Military\nAffairs Department of the Hsien Committee (Hai 7).\n\nTraining in certain military arts should be carried\nout only under certain secret conditions and training\nin lots should be undertaken among \"organized\" armed\ngroups in various places. The Hsien Military Affairs\nDepartment is required to assign members to train\nvarious \"fundamental\" armed groups one by one (Hai 7).\n\nParty members should be included in various \"funda-\nmental\" armed groups to receive the same organization\nand training (Hai 7).\n\nMilitary Committees should be organized to execute\nmilitary works. (1) The Provincial Committee, Special\nCommittee and the \"uprising\" Hsien and District Committees\nshould all organize military committees, while \"military\naffairs specially assigned officers\" should be sent to\nother important Hsiens and districts. The Military\nCommittee may consist of from 3 to 5 persons; and the\nGroup should assign representatives to take part in it.\n(2) In military centres where there is no military sub-\ncommittee, under the Military Committee and the\nMilitary Affairs Specially Assigned Officers,\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nwith the Group, should form Soldiers' Committees with\na view to inducing C.Y. to participate in the work of\nthe soldiers. (3) Military committees of various grades\nshould have direct relation as well as the Special\nCommittees, Hsien Committees and District Committees\nof the same grade.",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-3357/page/n100_w2400.jpg",
-   "zh": "",
-   "zh_tries": 2,
-   "zh_status": "字符重复循环"
+   "zh": "- 15 -\n\n处理士兵事务的组织\n\n应当启动劳工和农民群众的武装组织。该组织应具有系统性，此外，还应向他们提供政治和军事教育。\n\n鉴于农村斗争的需要，我们的武装组织绝对重要（海 7）。\n\n组织方法不限于“小”组、“中”组和“大”组，也不必采用“工农革命军”的名称。我们党应根据情况和斗争开展组织工作（海 7）。\n\n在若干“基本”群众组织（如村农民协会或行业分会工会）中，挑选勇敢分子并将其编入各类队伍，其名称可根据各地风俗和情况确定（海 7）。\n\n以村农民协会中的小组为农民组织的单位，进而由村农民协会、区农民协会和县农民协会构成一个体系。以行业分会工会为工会的单位，进而由行业工会和县工会构成一个体系。县工会和县农民协会中的武装组织受县委员会军事部的控制（海 7）。\n\n某些军事技能的训练只能在特定的秘密条件下进行，而集体训练则应在各地的“有组织”武装团体中进行。县军事部需指派成员逐一训练各个“基本”武装团体（海 7）。\n\n党员应加入各个“基本”武装团体，接受同样的组织和训练（海 7）。\n\n应组建军事委员会以执行军事工作。（1）省委、特委以及“起义”的县委和区委均应组织军事委员会，同时应向其他重要的县和区派遣“军事特派员”。军事委员会可由3至5人组成；团应指派代表参加。（2）在没有军事分委员会的军事中心，在军事委员会和军事特派员的领导下，xxx…\nxxx…\n与团一起，应组建士兵委员会，旨在引导共青团参与士兵工作。（3）各级军事委员会应与同级的特委、县委和区委保持直接联系。",
+   "zh_tries": 1,
+   "zh_status": "字符重复循环",
+   "zh_src": "70e72baa73490c4d",
+   "zh_partial": true
   },
   {
    "n": 101,
@@ -1173,10 +1175,10 @@
   "ocr_out_tokens": 79440,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-11 23:17:31",
-  "zh_in_tokens": 95122,
-  "zh_out_tokens": 58212,
+  "zh_in_tokens": 96846,
+  "zh_out_tokens": 58997,
   "zh_chunks": 33
  },
  "native_zh_pages": 0,
- "zh_pages": 164
+ "zh_pages": 165
 }

@@ -58,6 +58,22 @@ def damage_flag(iid, n, en, manual):
     if box / len(en) >= BOX_RATIO:
         return (f"本页约 {round(box / len(en) * 100)}% 的字模型无法辨认（转录中标为 □）。"
                 f"残余文字仅供定位，不可引用，请直接看左侧原件影像。")
+    # 转录本身退化成重复循环。翻译那边一直有退化检测，**转录这边一直没有**，
+    # 于是这种垃圾直接进了库（实见 3560/p496：「15/6/6/6/6/6/6/…」一路重复到底）。
+    #
+    # 判据必须挑剔，否则误伤一大片——这批档案里本来就有大量「合法的重复」：
+    #   □□□□□  转录时标不可辨认的占位符（这是我们自己要求模型打的）
+    #   xxxxx  打字机划掉的字，原件上就长这样
+    #   ......  表格填空线
+    # 所以：先剥掉分隔线，再要求**重复单元里含真正的内容字符**
+    #（数字/字母/汉字，且把 x、X 排除掉）才算退化。
+    probe = re.sub(r"[.·…\-_—–=*~#+　\s]{6,}", " ", en)
+    real = re.compile(r"[0-9a-wyzA-WYZ一-鿿]")
+    for pat in (r"([^\s])\1{25,}", r"(.{1,6}?)\1{15,}"):
+        m = re.search(pat, probe)
+        if m and real.search(m.group(1)):
+            return ("本页转录退化成了重复循环（模型卡住反复吐同一串字符），"
+                    "内容不可信。保留原样只为存证，请直接看左侧原件影像。")
     return None
 
 
@@ -132,8 +148,11 @@ def build_docs_and_index():
                 nbad += 1
             pages.append({"n": q["n"], "en": en, "zh": zh,
                           **({"bad": bad} if bad else {}),
-                          # 译不出来的终态：站点上照实说明，不要留个空白让人以为漏了
-                          **({"zhbad": q["zh_status"]} if q.get("zh_status") and not zh else {}),
+                          # 译文出过问题就照实说明，不管最后有没有留下内容：
+                          # 有内容 = 部分可读（已清理重复段），没内容 = 整页译不出来。
+                          # 留个空白让人以为是漏了，比说清楚更糟。
+                          **({"zhbad": q["zh_status"]} if q.get("zh_status") else {}),
+                          **({"zhpart": True} if q.get("zh_partial") and zh else {}),
                           **({"note": q["zh_note"]} if q.get("zh_note") else {})})
             if not en and not zh:
                 continue

@@ -46,7 +46,37 @@ def is_chinese(text):
     return sum(1 for c in t if "\u4e00" <= c <= "\u9fff") / len(t) > 0.5
 
 
-def degenerate(text, src_len):
+def _rep_score(probe):
+    """30 字窗口的最高重复次数。用来比较译文与源文的重复程度。"""
+    if len(probe) <= 500:
+        return 0
+    c = Counter(probe[i:i + 30] for i in range(0, len(probe) - 30, 10))
+    return c.most_common(1)[0][1] if c else 0
+
+
+def salvage(text):
+    """退化输出通常不是整页坏掉：前面一段是好的，到某处才开始无限重复。
+    整页丢掉等于把可读的部分一起扔了——同一页往往部分可读、部分不可读。
+    所以这里把重复段折叠掉、保留可读内容，再由站点标明「已清理，仅存可读片段」。
+    """
+    if not text:
+        return ""
+    # 用 lambda 而不是替换模板：模板里写 \u2026 会被 re 当成非法转义。
+    s = re.sub(r"(.)\1{9,}", lambda m: m.group(1) * 3 + "…", text)
+    out, prev, run = [], None, 0
+    for ln in s.split("\n"):
+        k = ln.strip()
+        if k and k == prev:                              # 整行连续重复，最多留两遍
+            run += 1
+            if run >= 2:
+                continue
+        else:
+            prev, run = k, 0
+        out.append(ln)
+    return "\n".join(out).strip()
+
+
+def degenerate(text, src_len, src=None):
     """检测模型退化输出。实测踩过：翻译一页中共传单时模型吐了 1,349 次重复的「□」，
     把 2,327 字的源文变成 14,726 字，撞 max_tokens 截断，导致后一页的页码标记丢失、
     整页译文消失。**这类失败不报错**，只表现为「某页特别长、某页没有」。
@@ -64,10 +94,15 @@ def degenerate(text, src_len):
     probe = re.sub(r"[.\u00b7\u2026\-_—–=*~#+　\s]{6,}", " ", text)
     if re.search(r"([^\s])\1{25,}", probe):
         return "字符重复循环"
-    # 任意 30 字窗口重复出现过多
+    # 任意 30 字窗口重复出现过多。
+    # 但**表单页本身就是重复的**——CRIME DIARY 满页是「姓名：____ 住址：____」这种
+    # 成排空栏，忠实译出来自然也重复，并不是模型退化。踩过：4 页表单的正确译文
+    # 被这条判据丢掉，还被永久标成「译不出来」，等于往站点上写假信息。
+    # 所以这里改成**比较**：只有当译文比源文明显更重复时才算退化。
     if len(probe) > 500:
-        c = Counter(probe[i:i + 30] for i in range(0, len(probe) - 30, 10))
-        if c and c.most_common(1)[0][1] > 20:
+        rep = _rep_score(probe)
+        base = _rep_score(re.sub(r"[.\u00b7\u2026\-_—–=*~#+　\s]{6,}", " ", src)) if src else 0
+        if rep > 20 and rep > base * 2:
             return "片段重复循环"
     if src_len and len(probe) > src_len * 3.5:
         return f"长度异常（{len(text)} vs 源 {src_len}）"
@@ -357,12 +392,20 @@ def _fill_missing_zh(path, doc, missing):
         z = d["choices"][0]["message"]["content"]
         zin += d["usage"]["prompt_tokens"]; zout += d["usage"]["completion_tokens"]
         z = re.sub(r"⟦p\d+⟧", "", z).strip()
-        why = degenerate(z, len(q["en"])) if z else "模型无输出"
+        why = degenerate(z, len(q["en"]), q["en"]) if z else "模型无输出"
         if why:
-            # 退化是**终态**，不是缺口。同一页再译一遍还是同样的垃圾——
-            # 把它当「未翻译」丢回缺口池反复重试，纯属白烧钱，而且掩盖了真实情况。
-            # 记下原因，页面上照实说明「这一页译不出来、为什么」。
+            # 退化是**终态**，不是缺口：同一页再译一遍还是同样的结果，
+            # 丢回缺口池反复重试纯属白烧钱，而且掩盖了真实情况。
+            # 但**不要整页丢掉**——同一页往往部分可读、部分不可读，
+            # 退化多半是译到一半才开始重复。折叠掉重复段、保留可读部分，
+            # 再由站点标明这页出过什么问题，读者自己对着影像判断。
+            keep = salvage(z)
             q["zh_status"] = why
+            if len(keep) >= 40:
+                q["zh"] = keep
+                q["zh_src"] = _fp(q["en"])
+                q["zh_partial"] = True      # 站点据此显示「已清理，仅存可读片段」
+                filled += 1
             continue
         q["zh"] = z
         q["zh_src"] = _fp(q["en"])      # 记下这份译文是照哪一版英文译的
@@ -419,7 +462,7 @@ def _translate_one(iid):
         zh = d["choices"][0]["message"]["content"]
         zin += d["usage"]["prompt_tokens"]; zout += d["usage"]["completion_tokens"]
         trunc = d["choices"][0].get("finish_reason") == "length"
-        why = degenerate(zh, len(ch))
+        why = degenerate(zh, len(ch), ch)
         if trunc or why:
             print(f"{iid}: ⚠ 第 {ci+1} 块{'截断' if trunc else ''}{why or ''}，拆半重试")
             half = len(ch) // 2
@@ -434,7 +477,7 @@ def _translate_one(iid):
                     bad += 1; continue
                 z2 = d2["choices"][0]["message"]["content"]
                 zin += d2["usage"]["prompt_tokens"]; zout += d2["usage"]["completion_tokens"]
-                if degenerate(z2, len(sub)):
+                if degenerate(z2, len(sub), sub):
                     # 拆半仍退化 → 逐页单独译，避免一页的问题牵连同块的邻页。
                     # 实测踩过：一页中文传单退化，把同块的 p5、p7 两页英文译文一起葬送。
                     print(f"{iid}: ⚠ 拆半后仍退化，改为逐页单译")
@@ -448,7 +491,7 @@ def _translate_one(iid):
                         z3 = d3["choices"][0]["message"]["content"]
                         zin += d3["usage"]["prompt_tokens"]
                         zout += d3["usage"]["completion_tokens"]
-                        if degenerate(z3, len(body)):
+                        if degenerate(z3, len(body), body):
                             print(f"{iid}:   p{pn} 单页仍退化，留空"); bad += 1; continue
                         zh += ("\n\n" if zh else "") + z3
                     continue

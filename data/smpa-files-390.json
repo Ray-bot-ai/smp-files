@@ -209,9 +209,9 @@
    "en": "F. 22F\nG. 120m-10-33\n\nSHANGHAI MUNICIPAL POLICE.\n\nCRIME DIARY.\n\nPolitical 6/35.                                Division.\nCRIME REGISTER No:—                            Police Station.\n                                               19\nDiary Number:— 1-2-                            Nature of Offence:—\n\n| Time at which investigation begun and concluded each day | | Places visited in course of investigation each day | |\n| :--- | :--- | :--- | :--- |\n| | RECORD OF INVESTIGATION. | | |\n| | The above slogans were immediately washed off by a station coolie. | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | || |\n| | | D.S.I. | |\n| | for | | |\n| | Copy sent to Special Branch. | | |\n\n（左侧批注：R.D.B 27/5/35）\n\nS2, Please endeavour to arrange with stations to have these slogans photographed. You can arrange with a few stations privately at first, and if the scheme shows signs of proving useful I will arrange to have a special order issued.\nJ.M.S 27 MAY 1935",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-390/page/n28_w2400.jpg",
-   "zh": "",
-   "zh_tries": 2,
-   "zh_status": "片段重复循环"
+   "zh": "F. 22F\nG. 120m-10-33\n\n上海公共租界工部局警务处。\n\n罪案日志。\n\n政治类 6/35。                                分区。\n罪案登记号：—                                警察局。\n                                               19\n日志编号：— 1-2-                            罪行性质：—\n\n| 每日开始及结束调查的时间 | | 每日调查过程中走访的地点 | |\n| :--- | :--- | :--- | :--- |\n| | 调查记录。 | | |\n| | 上述标语随即由一名警局苦力清洗掉。 | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | || |\n| | | 副督察长 | |\n| | 代 | | |\n| | 副本已送交特别科。 | | |\n\n（左侧批注：R.D.B 1935年5月27日）\n\nS2，请设法与各警局安排，将这些标语拍照留存。起初你可私下与少数几个警局进行安排，若该方案显现出成效，我将安排发布一项特别命令。\nJ.M.S 1935年5月27日",
+   "zh_tries": 1,
+   "zh_src": "851c351ba29754fc"
   },
   {
    "n": 29,
@@ -237,10 +237,10 @@
   "ocr_out_tokens": 8579,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-12 01:08:19",
-  "zh_in_tokens": 14741,
-  "zh_out_tokens": 11334,
+  "zh_in_tokens": 15395,
+  "zh_out_tokens": 11735,
   "zh_chunks": 3
  },
  "native_zh_pages": 0,
- "zh_pages": 30
+ "zh_pages": 31
 }

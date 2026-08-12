@@ -83,11 +83,17 @@ function hl(s){
         ${p.bad && p.zh ? `<div class="badnote">译文是照上面那份不可用的转录译出来的，
           因此同样不可用。<span class="en">Translated from the unusable transcription,
           therefore equally unusable.</span></div>` : ''}
+        ${p.zhpart ? `<div class="badnote"><b>⚠ 这一页的译文不完整。</b>
+          模型译到中途开始无意义地重复（${esc(p.zhbad)}）。下面保留的是<b>重复开始之前可读的部分</b>，
+          重复段已折叠。缺的内容请看左侧原件与转录。
+          <span class="en">Partial translation: the model began repeating itself. Only the
+          readable portion before that point is kept; the repetition is collapsed.</span></div>` : ''}
         <div class="txt zh${p.bad ? ' faded' : ''}">${p.zh ? hl(p.zh) :
           (p.note ? `<span class="muted">（${p.note} · original is already in Chinese, see transcription）</span>`
-           : p.zhbad ? `<span class="muted">（本页译不出来：${esc(p.zhbad)}。模型的输出反复退化成无意义的重复，
-               与其写入垃圾不如留空。已重试并确认，非遗漏。<br>Could not be translated: the model's
-               output degenerates into meaningless repetition. Left blank deliberately, not an omission.）</span>`
+           : p.zhbad ? `<span class="muted">（本页译不出来：${esc(p.zhbad)}。模型输出反复退化成无意义的重复，
+               可读内容不足以保留。已重试并确认，非遗漏——请看左侧原件与转录。<br>Could not be translated:
+               the model's output degenerates into meaningless repetition, with too little readable
+               text to keep. Confirmed by retry, not an omission.）</span>`
                   : '<span class="muted">（未译 · not translated）</span>')}</div>
       </div>
     </section>`).join('');
