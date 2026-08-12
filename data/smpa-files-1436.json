@@ -10,7 +10,8 @@
    "n": 0,
    "en": "Fm. 2\nG. 10,000-6-32\n\nSHANGHAI MUNICIPAL POLICE.\nCONFIDENTIAL\nREPORT\n\nSHANGHAI MUNICIPAL POLICE\nFile No. REGISTRY\nN. D 2554/2\nSection. 2. S. B. Station.\n1. 21. 9. 32\nDate. Sept. 20, 1932.\n\nSubject (in full) Meeting of unemployed workers in Western District re.\nproposed demonstration on September 25, 1932.\n\nMade by and Forwarded by D. I. Ross.\n\nInformation from a reliable source indicates that\nsome 30 representatives of unemployed mill workers in the\nWestern District held a secret meeting in a straw hut behind\nthe Sun Woo Loong(生和隆) Oil Factory, Jessfield, C.O.L.,\nbetween 7 p.m. and 9 p.m. September 20. The gathering,\nwhich was presided over by one Hui Ts Ling(嚴孝林), passed\nthe following resolutions:-\n\n1) That unemployed workers besiege the offices of the\nMunicipality of Greater Shanghai on September 25 to enforce\na demand for relief.\n\n2) That unemployed workers demand the return of their pledged\nproperty from pawnshops without payment of pawn money.\n\n3) That unemployed workers seize rice from rice shops.\n\n4) That unemployed workers partake of food in foodshops\nand refuse payment.\n\n5) That details of the campaign to be carried out on September\n25 be discussed at a further meeting.\n\nyr\n\nD. I. Ross\nD. I.\n\nOfficer i/c Special Branch.\n\n（印：S.B. 21.9.32）",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1436/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1436/page/n0_w2400.jpg",
+   "zh": "发自 2\nG. 10,000-6-32\n\n上海公共租界工部局警务处。\n机密\n报告\n\n上海公共租界工部局警务处\n档案号 登记处\nN. D 2554/2\n部门：2. 特别巡捕房。\n日期：1932年9月21日。\n日期：1932年9月20日。\n\n主题（全称）：西区失业工人会议，关于拟于1932年9月25日举行的示威游行。\n\n撰写及呈报人：D. I. Ross。\n\n来自可靠渠道的情报显示，\n约30名西区失业纱厂工人代表于9月20日晚7时至9时，\n在极司菲尔路（Jessfield），中央捕房辖区（C.O.L.），\n生和隆（Sun Woo Loong）油厂后方的一间草棚内举行秘密会议。\n该集会由严孝林（Hui Ts Ling）主持，通过了以下决议：-\n\n1) 失业工人将于9月25日包围大上海市政府办公室，以强制要求救济。\n\n2) 失业工人要求从当铺取回典当物品，且无需支付当金。\n\n3) 失业工人将抢夺米店的粮食。\n\n4) 失业工人将在食品店进食并拒绝付款。\n\n5) 关于9月25日行动的具体细节将在另一次会议上讨论。\n\n此致\n\nD. I. Ross\n督察\n\n特别巡捕房主管。\n\n（印：S.B. 1932年9月21日）"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2694,
   "ocr_out_tokens": 388,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:35:37"
- }
+  "ocr_at": "2026-08-12 03:35:37",
+  "zh_in_tokens": 620,
+  "zh_out_tokens": 365,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

@@ -10,13 +10,15 @@
    "n": 0,
    "en": "8-4501\n8-4507\n8-4511",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1224/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1224/page/n0_w2400.jpg",
+   "zh": "8-4501\n8-4507\n8-4511"
   },
   {
    "n": 1,
    "en": "SHANGHAI MUNICIPAL POLICE.\nREPORT\n（印：SHANGHAI MUNICIPAL POLICE C. & S. Special Branch No. D 4501 S. 2. Date 16 / 2 / 33 FEBRUARY 1933）\nSubject (in full) N. M. Sytin, Soviet Merchant.\nMade by D.S. Tcheremshansky. Forwarded by [签名]\nNikolay Maximovitch Sytin, Russian, aged 38 years,\narrived in Shanghai from Tientsin on February 4, 1933. He is\nemployed by Hsin Ki or Hsing Kee Lumber Company, a Chinese concer\ndealing in Soviet lumber and connected with \"Dalles\" (Far\nEastern Lumber Trust). He resides at the Imperial Hotel, 941\nBubbling Well Road where he registered as a Russian emigrant\nresiding at 4 Woochang Road, Tientsin. It is reported that he\nwas an officer in the Russian Imperial Army, but for many years\nhe had been connected with Soviet Circles.\n[签名]\nD. S.\nOfficer i/c Special Branch.\n[签名]\n16:2:33",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1224/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1224/page/n1_w2400.jpg",
+   "zh": "上海公共租界工部局警务处。\n报告\n（印：上海公共租界工部局警务处 刑事与特别股 特别分部 编号 D 4501 S. 2. 日期 1933年2月16日）\n主题（全称） N. M. Sytin，苏联商人。\n制作人：D.S. Tcheremshansky。呈报人：[签名]\n尼古拉·马克西莫维奇·瑟京（Nikolay Maximovitch Sytin），俄国人，现年38岁，\n于1933年2月4日从天津抵达上海。他受雇于“新记”或“兴记”木材公司（Hsin Ki or Hsing Kee Lumber Company），这是一家经营苏联木材并与“Dalles”（远东木材托拉斯）有联系的中国商号。他居住在静安寺路941号帝国饭店，登记身份为居住在天津武昌路4号的俄国流亡者。据报，他曾是俄罗斯帝国军队的军官，但多年来一直与苏联圈子有联系。\n[签名]\nD. S.\n特别分部主管警官。\n[签名]\n1933年2月16日"
   }
  ],
  "pages_done": 2,
@@ -27,6 +29,11 @@
   "ocr_in_tokens": 5486,
   "ocr_out_tokens": 294,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:26:19"
- }
+  "ocr_at": "2026-08-12 03:26:19",
+  "zh_in_tokens": 533,
+  "zh_out_tokens": 301,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

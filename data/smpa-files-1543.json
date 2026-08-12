@@ -10,7 +10,8 @@
    "n": 0,
    "en": "SHANGHAI MUNICIPAL POLICE.\nSection 2, Special Branch\nREPORT\n（印：SHANGHAI MUNICIPAL POLICE File No.s. B. REGISTRY. No. D 5934 Date 12 / 6 / 34）\nDate June 12, 1934.\nSubject (in full) Robert H. Jofe alias Ruvim Vulf Jofe, ex-Soviet Employee.\nMade by D.S. Tcheremshansky Forwarded by S.B.Ru. D.I.\n\nRobert H. Jofe alias Ruvim Vulf Jofe, the proprietor of\nthe Franco-Asiatic Trading Co., No. 29 Victory Terrace,\nPassage 129, Avenue Haig, which deals in Soviet products, was\nformerly employed with certain Soviet establishments in Moscow.\nJofe, who is a Latvian of Russian Jewish origin, was born on\nAugust 8, 1909 at Polotck, Russia. He arrived in Shanghai\nfrom Moscow sometime during 1932. It is reported that he\nescaped from Latvia to the U.S.S.R. and later to China in order\nto escape being conscripted into the Latvian Army. He holds\nLatvian passport No. 002541 issued at Riga which was renewed\non October 22, 1931 and on January 22, 1932 at Moscow, and on\nApril 22, 1932 at Shanghai. Jofe is registered with the\nlocal Bureau of Public Safety under No. 9308 and when he\nvisited Tsingtao in August 1933 his passport bore visa No. 4105.\n\n（批：yrs / gk）\nG. Tcheremshansky.\nD. S.\nCompiled for purposes of information.\nSBR 12/6\nOfficer i/c Special Branch.",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1543/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1543/page/n0_w2400.jpg",
+   "zh": "上海公共租界工部局警务处。\n第二科，特别支部\n报告\n（印：上海公共租界工部局警务处 档案号 B. 登记处 编号 D 5934 日期 1934年6月12日）\n日期：1934年6月12日。\n主题（全称）：罗伯特·H·约费（Robert H. Jofe），又名鲁维姆·伍尔夫·约费（Ruvim Vulf Jofe），前苏联雇员。\n制作人：D.S. 切列姆尚斯基（Tcheremshansky） 转呈人：S.B.Ru. D.I.\n\n罗伯特·H·约费，又名鲁维姆·伍尔夫·约费，系海格路（Avenue Haig）129弄胜利里（Victory Terrace）29号法亚贸易公司（Franco-Asiatic Trading Co.）业主，该公司经营苏联产品，此前曾受雇于莫斯科的若干苏联机构。\n约费系俄裔犹太人的拉脱维亚人，1909年8月8日出生于俄罗斯波洛茨克（Polotck）。他于1932年间某时从莫斯科抵达上海。据报，他为逃避被征入拉脱维亚军队，先从拉脱维亚逃往苏联，后又逃往中国。他持有在里加签发的拉脱维亚护照，号码为002541，该护照曾于1931年10月22日、1932年1月22日在莫斯科以及1932年4月22日在上海续期。约费已在本地公安局注册，编号为9308，1933年8月他访问青岛时，其护照上贴有第4105号签证。\n\n（批注：yrs / gk）\nG. 切列姆尚斯基（Tcheremshansky）。\nD. S.\n编撰以供参考。\n特别支部书记 12/6\n特别支部主管警官"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2734,
   "ocr_out_tokens": 437,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:34:36"
- }
+  "ocr_at": "2026-08-12 03:34:36",
+  "zh_in_tokens": 669,
+  "zh_out_tokens": 463,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

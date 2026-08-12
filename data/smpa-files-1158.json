@@ -10,19 +10,22 @@
    "n": 0,
    "en": "D5476\nD5477\nD5478",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1158/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1158/page/n0_w2400.jpg",
+   "zh": "D5476\nD5477\nD5478"
   },
   {
    "n": 1,
    "en": "Form No. 31\nG. 10000-9-331\n\nSHANGHAI MUNICIPAL POLICE.\n（印：SHANGHAI MUNICIPAL POLICE / File No. ... / C. & S. B. REGI...）\nSpecial Branch No. D\nREPORT\nDate. November 20, 1933.\n\nSubject (in full) Miss F.R. Kaffel, Ex-Soviet Employee.\n\nMade by. D.S. Tcheremshansky Forwarded by [Signature]\n\nInformation has been received that Feodosia Rafai-\nlovna Kaffel was employed for several years with the Soviet\nCommercial Establishments in Japan. She is a Russian Jewess,\nborn on February 11, 1902 at Irkutsk, Siberia. She arrived\nat Shanghai from Dairen on August 19, 1933 by the s.s. Hoten\nMaru. Miss Kaffel is a sister of the first wife of one J.R.\nKoroth alias Korott, suspected Soviet agent (File D.4414 & 4749).\nShe registered with the Bureau of Public Safety as a Soviet\nCitizen on July 1, 1933 under No.10811.\n\nUpon her arrival at Shanghai, she resided at 64 Route\nDelastre and later at No.359 Avenue du Roi Albert, house 3,\noccupied by one M.G. Epstein, a Soviet Merchant (File D.4198 ).\nAt present she is residing at No.159 Avenue Haig, house 28,\noccupied by one Mrs. E. Kleiner (File D5472 ), sister of the\nabove-mentioned J.R. Korot.\n\n[Signature]\nD. S.\nOfficer i/c Special Branch.\n\n[Signature]",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1158/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1158/page/n1_w2400.jpg",
+   "zh": "表格编号 31\nG. 10000-9-331\n\n上海公共租界工部局警务处。\n（印：上海公共租界工部局警务处 / 档案号 ... / C. & S. B. 登记...）\n特务科 D 号\n报告\n日期：1933年11月20日。\n\n主题（全称）：F.R. 卡费尔小姐，前苏联雇员。\n\n呈报人：D.S. 切列姆尚斯基 转呈人 [签名]\n\n接获情报称，费奥多西娅·拉法伊洛夫娜·卡费尔（Feodosia Rafailovna Kaffel）曾在日本的苏联商业机构任职数年。她系俄罗斯犹太裔女性，1902年2月11日出生于西伯利亚伊尔库茨克。她于1933年8月19日乘“Hoten Maru”号轮船从大连抵达上海。卡费尔小姐系 J.R. 科罗思（J.R. Koroth，又名 Korott）第一任妻子的妹妹；科罗思系涉嫌苏联特工（档案 D.4414 及 4749）。她于1933年7月1日以苏联公民身份在公安局登记，登记号为10811。\n\n抵沪后，她先居住于德拉司特路（Route Delastre）64号，后迁居至阿尔伯特王路（Avenue du Roi Albert）359号3室，该处由苏联商人 M.G. 爱泼斯坦（M.G. Epstein）占用（档案 D.4198）。目前她居住于海格路（Avenue Haig）159号28室，该处由 E. 克莱纳太太（Mrs. E. Kleiner）占用（档案 D5472），克莱纳太太系上述 J.R. 科罗特的妹妹。\n\n[签名]\nD. S.\n特务科主管警官。\n\n[签名]"
   },
   {
    "n": 2,
    "en": "KAFFEL, Feodosia Rafailovna - Soviet\nEmployed for several yrs. with Soviet Commercial\nEstablishments in Japan.\nResides at No. 159 Avenue Haig, house 28.\n\nKOROTH, J. R.\nG KOROTT (File D. 4414 & D. 4749).\n\nEFSHTEIN, M. G.\nSoviet Merchant (File D. 4198).\n\nKLEINER, Mrs. E.\nFile D. 5472.\n\n（印：SMP）\nSMP: D 5476\n20 November 1933",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1158/page/n2_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1158/page/n2_w2400.jpg",
+   "zh": "卡费尔，费奥多西娅·拉法伊洛夫娜 - 苏联籍\n在日本的苏联商业机构任职数年。\n现居海格路159号28室。\n\n科罗思，J. R.\n又名 科罗特（档案 D. 4414 及 D. 4749）。\n\n爱泼斯坦，M. G.\n苏联商人（档案 D. 4198）。\n\n克莱纳太太，E.\n档案 D. 5472。\n\n（印：SMP）\nSMP: D 5476\n1933年11月20日"
   }
  ],
  "pages_done": 3,
@@ -33,6 +36,11 @@
   "ocr_in_tokens": 8136,
   "ocr_out_tokens": 587,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:09:33"
- }
+  "ocr_at": "2026-08-12 03:09:33",
+  "zh_in_tokens": 833,
+  "zh_out_tokens": 629,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 3
 }

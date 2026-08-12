@@ -10,7 +10,8 @@
    "n": 0,
    "en": "Fm. 8\nG. 10,000-6-32\nCONFIDENTIAL\nDRAWER\nSHANGHAI MUNICIPAL POLICE.\nREPORT\nSHANGHAI MUNICIPAL POLICE\nC. S. W. REGISTRY\nFile No. 2554/13\nSection 2, S.B. Station\nDate October 24. 19 32\nSubject (in full) Communist Meeting held in the Western District, O.O.L.\nMade by Clerk Zung Zoong Oen Forwarded by O B Ku. O.\nIt is reported that some twelve cotton mill workers\nemployed in Japanese industrial concerns in the Western District,\nwho are Red adherents, held a secret meeting in a straw hut\nnear the Yoong Yui(永豫 )Cotton Mill, Tan Ka Doo(谈家渡),\nWestern Chapel, between 8 a.m. and 9 a.m. October 22. The\ngathering which was presided over by Ling Ying(林英 ), a\nrepresentative of the local branch of the Mutual Aid Society,\npassed the following resolutions:-\n1) That a number of cotton mill workers proceed to the gaol\nat Lukawei, French Concession, at 11.30 a.m. October 24\nand demand the gaol authorities to allow the sending of\nwinter clothing to those who have been arrested in connection\nwith the Anti-Japanese movement.\n2) That propaganda parties for the delivering of lectures and\nshouting of slogans be organized to assist the \"Winter-\nClothing-Party\" in forcing the French Authorities to release\nthe Anti-Japanese elements who are in gaol.\nZung Zoong Oen\nClerk\nCopy passed to Supr. S.B.\nO B K 23/10\nOfficer i/c Special Branch.\nS2,\nFrench Police informed by\ntelephone. Please pass W.Reg. &\nrefile.\n24.10.32.",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1421/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1421/page/n0_w2400.jpg",
+   "zh": "Fm. 8\nG. 10,000-6-32\n机密\n卷宗柜\n上海公共租界工部局警务处。\n报告\n上海公共租界工部局警务处\n中央巡捕房登记处\n档案编号 2554/13\n静安寺捕房第2科\n日期 1932年10月24日\n事由（全称） 西区举行的共产党会议，O.O.L.\n由警员 Zung Zoong Oen 撰写 经 O B Ku. O. 转呈\n据报，约十二名受雇于西区日本工业企业的棉纺厂工人，系赤色分子追随者，于10月22日上午8时至9时之间，在谈家渡永豫(永豫 )棉纱厂附近的一间草棚内举行秘密会议。此次集会由互助会当地分支代表林英(林英 )主持，通过了以下决议：-\n1) 若干棉纺厂工人将于10月24日上午11时30分前往法租界卢家湾监狱，要求监狱当局允许向因参与反日运动而被捕者寄送冬衣。\n2) 组织宣传队进行演讲和呼喊口号，以协助“冬衣团”迫使法国当局释放被监禁的反日分子。\nZung Zoong Oen\n警员\n副本已送交静安寺捕房督察长。\nO B K 10月23日\n特别科科长。\nS2，\n已通过电话通知法国警察。请转送西区分区登记处并归档。\n1932年10月24日。"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2734,
   "ocr_out_tokens": 434,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:35:24"
- }
+  "ocr_at": "2026-08-12 03:35:24",
+  "zh_in_tokens": 666,
+  "zh_out_tokens": 370,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

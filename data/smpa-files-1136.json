@@ -10,7 +10,8 @@
    "n": 0,
    "en": "Special Branch S.2.\nNovember 6, 1932.\n\nMemorandum on the movements of E.A. Sanegin,\nSoviet Employee.\n\nE.A. Sanegin, employee of the Centrosojus,\narrived in Shanghai from the USSR via Dairen on\nOctober 9, 1932 by the s.s. \"Hoten Maru,\" together\nwith his wife and a child.\nHe is a Soviet citizen, 42 years of age and\nholds Soviet passport No. 8794 issued on August 18, 1932\nat Moscow.\nHe is attached to the local branch of the\nCentrosoju.\nHe is residing at No. 10 Hankow Road.\n\nG Tcherensbansky\nD. S.\n\nOfficer i/c Special Branch\nInformation.\nJ le\n7/11/32\nSBA 6///",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1136/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1136/page/n0_w2400.jpg",
+   "zh": "特别处 S.2.\n1932年11月6日。\n\n关于苏联雇员 E.A. Sanegin 行踪的备忘录。\n\nE.A. Sanegin，中央消费合作总社（Centrosojus）雇员，于1932年10月9日偕同妻子及一名子女，乘坐“Hoten Maru”号轮船，经大连从苏联抵达上海。\n\n他是苏联公民，现年42岁，持有1932年8月18日在莫斯科签发的第8794号苏联护照。\n\n他隶属于中央消费合作总社（Centrosoju）本地分部。\n\n他现居住于汉口路10号。\n\nG Tcherensbansky\nD. S.\n\n特别处处长\n情报。\nJ le\n1932年11月7日\nSBA 6///"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2751,
   "ocr_out_tokens": 205,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:34:11"
- }
+  "ocr_at": "2026-08-12 03:34:11",
+  "zh_in_tokens": 437,
+  "zh_out_tokens": 196,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

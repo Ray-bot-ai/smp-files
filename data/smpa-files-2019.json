@@ -10,13 +10,15 @@
    "n": 0,
    "en": "Form No. 2\nG.25,000-11-24.\n\nShanghai Municipal Police. （印：整 35）\n\nHongkew Station.\nJune 13, 192 5.\n\nREPORT ON Communistic matters.\n\nMade by P. C. C. Kedrolivansky. Forwarded by\n\nSir,\n\nI beg to report, that according to various informers, agitation work of the Soviet agents is proceeding as follows:\n\nMr. Yui (于) Director of the \"Shanghai University\" arrived from Peking on 8th inst and brought instructions from Karahan which are to the effect that all actions of Student's communistic organisation should be carried out under the cloak of patriotism, inasmuch as the Communistic leaders are of the opinion that only patriotic and anti-foreign ideas can cause an uprising of the Chinese people. Bolshevik ideas, which are difficult to understand will be opposed by the Chinese militarists.\n\nOn 9th and 11th June meetings of Russian and Chinese agitators took place at the Ah Toong Da Aud. college (亞東大學) situated somewhere near Chinese City's West Gate. During the meeting on 11th inst. Chinese student Chu Dah Yee (邱達義) said that he was organising among the students a party to be known as the \"Sacred vengeance\". The aim of this party is to punish and generally terrorise foreigners.\n\nPart of \"Agitotdel\" headed by Mr. Chercassoff has been transferred to Hong Feng Road (華丰路) Chapel.\n\nIn the above mentioned place the most active Chinese student's organisation are gathered. My informer stated, that \"Allied Committee of Merchant Student and Workmen's delegates\" (工商学聯合會) situated in Li Teh Middle School, near West Gate are under the influence of the above mentioned Student's organisation and are",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-2019/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-2019/page/n0_w2400.jpg",
+   "zh": "表格第2号\nG.25,000-11-24。\n\n上海公共租界工部局警务处。（印：整 35）\n\n虹口捕房。\n1925年6月13日。\n\n关于共产主义事项的报告。\n\n由警员 C. C. Kedrolivansky 撰写。呈报人\n\n先生，\n\n谨此报告，据多方线报，苏维埃代理人的煽动工作正按如下方式进行：\n\n“上海大学”主任于先生（Mr. Yui）于本月8日自北京抵达，并带来了加拉罕（Karahan）的指示，其大意是：学生共产主义组织的一切行动均应在爱国主义的掩护下进行，因为共产主义领导人认为，只有爱国和排外思想才能引发中国人民的起义。布尔什维克思想因难以理解，将遭到中国军阀的反对。\n\n6月9日和11日，俄国与中国煽动者在位于华界西门附近某处的亚东大学（Ah Toong Da Aud. college）举行了会议。在本月11日的会议上，中国学生邱达义（Chu Dah Yee）称，他正在学生中组织一个名为“神圣复仇社”的党派。该党的目标是惩罚并总体上恐吓外国人。\n\n由切尔卡索夫先生（Mr. Chercassoff）领导的“煽动部”（Agitotdel）部分人员已转移至华丰路（Hong Feng Road）教堂。\n\n在上述地点，聚集着最活跃的中国学生组织。我的线人称，“工商学联合会”（Allied Committee of Merchant Student and Workmen's delegates）位于西门附近的立德中学，受上述学生组织的影响，并且正"
   },
   {
    "n": 1,
    "en": "Form No. 2\nG 25,000-11-34.\n\nShanghai Municipal Police.\nS. I. D.\n6266\n19. 6. 25\n\nStation\n192\n\nREPORT ON________________________________________________________\n__________________________________________________________________\n\nMade by_____________________________ Forwarded by__________________\n\nworking according to their instructions. These instructions are\nsaid to originate from the Soviet leaders.\n\n18/6/25\nRoy\n\nI am, Sir,\nYours obediently,\nV. Kedrolivansky\nT. P. C. C.\n\nD. C. I.\nNoted.\nJ.H.",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-2019/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-2019/page/n1_w2400.jpg",
+   "zh": "表格第2号\nG 25,000-11-34。\n\n上海公共租界工部局警务处。\n特别分部（S. I. D.）\n6266\n1925年6月19日\n\n捕房\n192\n\n关于________________________________________________________的报告\n__________________________________________________________________\n\n撰写人_____________________________ 呈报人__________________\n\n按照其指示行事。据悉，这些指示源自苏维埃领导人。\n\n1925年6月18日\n罗伊（Roy）\n\n先生，\n您忠顺的仆人，\nV. Kedrolivansky\n临时首席警员（T. P. C. C.）\n\n副督察长（D. C. I.）\n已阅。\nJ.H."
   }
  ],
  "pages_done": 2,
@@ -27,6 +29,11 @@
   "ocr_in_tokens": 5468,
   "ocr_out_tokens": 549,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:32:20"
- }
+  "ocr_at": "2026-08-12 03:32:20",
+  "zh_in_tokens": 788,
+  "zh_out_tokens": 544,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

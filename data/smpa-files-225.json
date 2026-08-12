@@ -10,7 +10,8 @@
    "n": 0,
    "en": "P. 101.5\nS. 3000-2-36\n（印：CONFIDENTIAL DRAWER）\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSpecial Branch Reg.\nOFFICE\nFILE NO. S. 4311\nSUBJECT:\n“Oostwag” & Oriental Trading &\nEngineering Corporation - Soviet\nUnion\nPARTICULARS | OFFICE | FILE NO.\n（印：CONFIDENTIAL DRAWER）\n10/3/37.\nINSTRUCTIONS SEE OVER\n1932-40",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-225/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-225/page/n0_w2400.jpg",
+   "zh": "P. 101.5\nS. 3000-2-36\n（印：机密抽屉）\n上海公共租界工部局警务处\n交叉参考单\n特别支部登记\n办公室\n档案编号 S. 4311\n主题：\n“Oostwag”及东方贸易与工程公司 - 苏联\n详情 | 办公室 | 档案编号\n（印：机密抽屉）\n1937年3月10日。\n指示见背面\n1932-40"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2710,
   "ocr_out_tokens": 132,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:34:17"
- }
+  "ocr_at": "2026-08-12 03:34:17",
+  "zh_in_tokens": 364,
+  "zh_out_tokens": 124,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

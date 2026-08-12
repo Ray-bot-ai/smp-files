@@ -10,13 +10,15 @@
    "n": 0,
    "en": "D-3771\nD-3772\nD-3773",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1130/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1130/page/n0_w2400.jpg",
+   "zh": "D-3771\nD-3772\nD-3773"
   },
   {
    "n": 1,
    "en": "SHANGHAI MUNICIPAL POLICE\nC. & S. B. REGISTRY.\nNo. D 2777\nDate 17 / 6 / 32\n\nMemorandum on movements of N.F. Mihailoff, Soviet Employee.\n\nNicolai Filipovitch Mihailoff, reported to be an employee of the Cen-\ntrosojus, arrived in Shanghai from the USSR via Dairen on June 16,\n1932, by the s.s. \" Dairen Maru\".\nHe is 39 years of age, an engineer by profession. Holds a Soviet pas-\nport No 205027/ 20868 issued in Moscow on April 21, 1932.\nMr. Mihailoff is accompanied by his wife, Mrs Mihailoff, 37 years of\nage, who holds a Soviet passport No 205028/20869 issued in Moscow on\nthe same date.\nEfforts are being made to locate their address.\n\nG. Prokofieff\nD.S.\n17/6/32.\n\nOfficer i/c Special Branch.\nInformation:\nJoleggs\n17.6.32",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1130/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1130/page/n1_w2400.jpg",
+   "zh": "上海公共租界工部局警务处\n刑事与特别股登记处。\n编号 D 2777\n日期 1932年6月17日\n\n关于苏联雇员 N.F. Mihailoff 行踪的备忘录。\n\nNicolai Filipovitch Mihailoff，据报为 Centrosojus（音译）的雇员，于1932年6月16日乘坐“大连丸”号轮船，经大连从苏联抵达上海。\n他现年39岁，职业为工程师。持有1932年4月21日在莫斯科签发的苏联护照，号码为 205027/ 20868。\nMihailoff 先生由其妻子 Mihailoff 夫人陪同，她现年37岁，持有同日在莫斯科签发的苏联护照，号码为 205028/20869。\n目前正在设法查明其住址。\n\nG. Prokofieff\n副警司\n1932年6月17日\n\n特别股主管警官。\n情报：\nJoleggs\n1932年6月17日"
   }
  ],
  "pages_done": 2,
@@ -27,6 +29,11 @@
   "ocr_in_tokens": 5423,
   "ocr_out_tokens": 297,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:31:09"
- }
+  "ocr_at": "2026-08-12 03:31:09",
+  "zh_in_tokens": 536,
+  "zh_out_tokens": 288,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

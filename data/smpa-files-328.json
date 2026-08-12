@@ -10,13 +10,15 @@
    "n": 0,
    "en": "SHANGHAI MUNICIPAL POLICE\nC. S. S. B. REGISTRY\nMarch 21, 1933\nNo. D 4656\nMemorandum on the Activities of Students of the\nChinese Y.M.C.A., Szechuen Road, in affairs of a\nPolitical and/or anti-Japanese nature.\n\nAvailable records of the Chinese Y.M.C.A.\nStudents openly associating themselves with political\naffairs date as far back as 1919. In June that\nyear a meeting attended by delegates representing\nvarious educational and commercial organizations was\nheld in the Y.M.C.A. for the purpose of making\ndirect representations to the Central Government\nconcerning the welfare of the people. No further\ndevelopments appeared to have arisen in this\nconnection, probably on account of an anti-Japanese\nboycott which gained momentum during the following\nmonth, and which was openly supported by students\nof the Y.M.C.A.\n\nDuring 1925 a General Strike occurred locally\nand the sum of $600.00 was subscribed to the Labour\nUnion for the assistance of the strikers. Payment\nof this sum took place at the time of the Summer\nVacation and the Y.M.C.A. authorities disclaimed all\nknowledge of same.\n\nIn April 1927 a movement without any apparent\npolitical significance was set afoot by 400 students\nof the Y.M.C.A. who declared a strike and demanded\nthe vesting of executive school affairs with the\nStudents' United Association. The students failed\nto attain their object, and the strike collapsed shortly\nafterwards.\n\nDuring June 1928 the anti-Japanese movement\nwas revived, and a lecture bearing on this matter was\narranged to take place in the Chinese Y.M.C.A. but\nwas prohibited by the Municipal Police.",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-328/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-328/page/n0_w2400.jpg",
+   "zh": "上海公共租界工部局警务处\n中央巡捕房档案室\n1933年3月21日\n编号 D 4656\n关于四川路中华基督教青年会学生参与政治及/或反日活动的备忘录。\n\n有关中华基督教青年会学生公开参与政治事务的现有记录，最早可追溯至1919年。当年6月，一场由代表各教育和商业组织的代表参加的会议在青年会举行，目的是就民众福祉问题向中央政府进行直接请愿。此后此事似乎再无进展，这可能是因为次月兴起的一场抵制日货运动势头渐猛，且得到了青年会学生的公开支持。\n\n1925年期间，本地发生总罢工，有人向工会捐款600.00元，以援助罢工工人。这笔款项是在暑假期间支付的，青年会当局声称对此事毫不知情。\n\n1927年4月，400名青年会学生发起了一场看似无任何政治意义的运动，他们宣布罢课，并要求将学校行政事务的管理权移交给学生联合会。学生们未能达到目的，罢工不久后即告瓦解。\n\n1928年6月，反日运动重新兴起，原计划在中华基督教青年会举行一场与此相关的讲座，但被工部局警务处禁止。"
   },
   {
    "n": 1,
    "en": "- 2 -\n\nIn December 1929 a demonstration of an anti-\nChristian and Communist nature took place in the\nChinese Y.M.C.A., Szechuen Road, at the conclusion\nof a Divine Service, but only a handful of the\ncongregation participated. Later that evening two\nwindows of the Y.M.C.A. Restaurant were smashed by the\noccupants of passing motor-cars, presumably Y.M.C.A.\nStudents with Communist leanings.\n\nAt the time of the anti-Japanese Movement\nin 1932, the Students of the Chinese Y.M.C.A. formed\nthree groups in support of the prevailing boycott.\nThese groups were known as the Conscience Group for\nNational Salvation, Y.M.C.A. Free School Group and the\nChinese Y.M.C.A. Group. No details of the activities\nof these particular bodies were disclosed.\n\nLectures of a pro-Communist nature have been\ndelivered recently in the French Concession Y.M.C.A.\nunder the auspices of the Sino-Soviet Research\nSociety, but no such lectures have been held in the\nSettlement.",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-328/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-328/page/n1_w2400.jpg",
+   "zh": "- 2 -\n\n1929年12月，在四川路中华基督教青年会的一次礼拜仪式结束后，发生了一场具有反基督和共产主义性质的示威活动，但只有少数会众参与。当晚稍后，青年会餐厅的两扇窗户被过往汽车内的人员砸碎，据推测，这些人是有共产主义倾向的青年会学生。\n\n在1932年的反日运动期间，中华基督教青年会的学生组成了三个团体，以支持当时盛行的抵制日货行动。这些团体分别被称为“良心救国团”、“青年会自由学校组”和“中华基督教青年会组”。这些特定团体的活动细节并未披露。\n\n近期，在法租界青年会，在中苏研究社的主持下，举行了具有亲共性质的讲座，但在公共租界内未举行此类讲座。"
   }
  ],
  "pages_done": 2,
@@ -27,6 +29,11 @@
   "ocr_in_tokens": 5471,
   "ocr_out_tokens": 644,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:30:20"
- }
+  "ocr_at": "2026-08-12 03:30:20",
+  "zh_in_tokens": 883,
+  "zh_out_tokens": 460,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

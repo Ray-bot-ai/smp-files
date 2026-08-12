@@ -10,19 +10,22 @@
    "n": 0,
    "en": "D 9127",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-387/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-387/page/n0_w2400.jpg",
+   "zh": "D 9127"
   },
   {
    "n": 1,
    "en": "G. SOM-149\nCONFIDENTIAL\n（印：SECRET）\nSHANGHAI MUNICIPAL POLICE.\nREPORT\n（印：SHANGHAI MUNICIPAL POLICE REGISTRY File No. S. B. D. 912 Special Branch - Station,）\nDate April 24, 1939.\nSubject Anti-Comintern Axis - meeting of Shanghai Consuls-General.\nMade by. D. S. Pitts. Forwarded by C. Gaspar\nWith reference to the contents of the attached\nreport dated April 17, 1939, it has been learned\nthat the meeting referred to took place at 7 p.m.\nApril 18, 1939 at No. 250 Huncjao Road, the\nresidence of Mr. E. BRAUER, the German Consul-\nGeneral in Shanghai.\nDetails of the decisions taken have not\nbeen ascertained.\nE.\n（批：ok）\nJa. Pitts.\nD. S.\nD. S. (Special Branch).\nFILE\n（批：ok P. A. to D. C (S). B 24.4.）",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-387/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-387/page/n1_w2400.jpg",
+   "zh": "G. SOM-149\n机密\n（印：秘密）\n上海公共租界工部局警务处。\n报告\n（印：上海公共租界工部局警务处档案室 档案号 S. B. D. 912 特别分处 - 分站，）\n日期：1939年4月24日。\n主题：反共产国际轴心国——驻上海总领事会议。\n撰写人：D. S. Pitts。转呈人：C. Gaspar\n关于所附1939年4月17日报告的内容，据悉所述会议于1939年4月18日下午7时，在虹桥路250号德国驻上海总领事 E. BRAUER 先生的寓所举行。\n所作决定的细节尚未查明。\nE.\n（批：阅）\nJa. Pitts.\nD. S.\nD. S.（特别分处）。\n归档\n（批：阅 P. A. 致 D. C (S). 4月24日。）"
   },
   {
    "n": 2,
    "en": "CONFIDENTIAL\nDRAWER\n\nPM 2\nG. BOM 1-39\n\nCONFIDENTIAL\nSHANGHAI MUNICIPAL POLICE.\nREPORT\n\nSHANGHAI MUNICIPAL POLICE\nFile 8/4 REGISTRY\nNo. S. B. D.\nSpecial Branch Station,\nDate April 17 1939\n\nSubject. Anti-Comintern Axis - Proposed Meeting of Shanghai Consuls-\nGeneral to Discuss Defence Plans.\n\nMade by. J. A. Pitts. Forwarded by. C. Crawford i/c\n\nInformation secured from a source that has\nproved accurate in the past is to the effect that\na conference is scheduled to take place during the\nafternoon of April 18 between the Consuls-General\nfor Germany, Italy and Japan for the purpose of\ndiscussing measures to be adopted for the defence\nof nationals of these powers in the event of war\ncommencing in Europe.\n\nThe venue of the meeting is unknown but in this\nrespect the Astor House, Broadway Mansions and\nJapanese Consulate-General are said to have been\nmentioned.\n\nEfforts to secure confirmation of this report\nhave failed so far.\n\n（印：SHAN. MB 17 APR. 1939 COMMISSIONER'S OFFICE）\n\nJ. A. Pitts.\nD. C. (Special Branch).\n\nFILE\nD.B.\nP.A. to D.C. (So. Br.)\n\nGerman\n- info\nConfirmation\nJno Robertson\nD.C. (S.B.)",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-387/page/n2_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-387/page/n2_w2400.jpg",
+   "zh": "机密\n抽屉\n\nPM 2\nG. BOM 1-39\n\n机密\n上海公共租界工部局警务处。\n报告\n\n上海公共租界工部局警务处\n档案室 8/4 档\n编号 S. B. D.\n特别分处分站，\n日期：1939年4月17日\n\n主题：反共产国际轴心国——驻上海总领事拟议召开会议讨论防御计划。\n\n撰写人：J. A. Pitts。转呈人：C. Crawford（主管）\n\n从以往证明可靠的消息来源获得的情报显示，德国、意大利和日本总领事定于4月18日下午举行会议，目的是讨论一旦欧洲爆发战争，为保护这些国家侨民而应采取的措施。\n\n会议地点不详，但据称提及了礼查饭店（Astor House）、百老汇大厦（Broadway Mansions）和日本总领事馆。\n\n迄今未能证实此报告。\n\n（印：上海。1939年4月17日 总监办公室）\n\nJ. A. Pitts.\nD. C.（特别分处）。\n\n归档\nD.B.\nP.A. 致 D.C.（南区分处）\n\n德国\n- 情报\n确认\nJno Robertson\nD.C.（特别分处）"
   }
  ],
  "pages_done": 3,
@@ -33,6 +36,11 @@
   "ocr_in_tokens": 8094,
   "ocr_out_tokens": 600,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:08:49"
- }
+  "ocr_at": "2026-08-12 03:08:49",
+  "zh_in_tokens": 846,
+  "zh_out_tokens": 545,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 3
 }

@@ -10,13 +10,15 @@
    "n": 0,
    "en": "D4113 ARREST OF FEMALE LI SIAU MEI\nALIAS SIAU DAU SUSPECTED\n13 10 32 COMMUNIST\n\nD4117 B J. HERTOG, NETHERLANDS SUB\n14 10.32 JECT LOSS PASSPORT\n\nD4118/1 THE 15TH ANNIVERSARY OF OCTO-\nBER REVOLUTION AND THE 1ST AN\n15 11 .32 NIVERSARY OF THE ESTABLISHMENT\nOF THE PROVISIONAL CENTRAL\nSOVIET GOVERNMENT IN CHINA",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-434/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-434/page/n0_w2400.jpg",
+   "zh": "D4113 逮捕女嫌疑人李小妹\n别名小豆，涉嫌\n1932年10月13日 共产主义\n\nD4117 B J. HERTOG，荷兰籍\n1932年10月14日 护照遗失\n\nD4118/1 十月革命十五周年暨中国\n1932年11月15日 临时中央苏维埃政府成立一周年"
   },
   {
    "n": 1,
    "en": "Fm. 2\nG. 10,000-6-32\n\nSpecial Branch.\nFile No. ............\nSHANGHAI MUNICIPAL POLICE.\nGordon Road / Station,\nREPORT.\nP. 54/32.\nDate 12th October 32\n\nSubject (in full) Re arrest of female suspected of Communism on the 11/10/32.\n\nMade by D. S. Elders. Forwarded by ....................\n\nSir,\n\nAt about 11.50 p.m. on the 11/10/32, acting on the authority of S.S.D. Court Search Warrant No. 5422 D.S.I. Everest, D.S. Elders, D.S. Pitts and a party of Chinese detectives raided premises No. 866 Li Ka Soo ( 李家厙 ) Ferry Road but although a careful search was made, no Communist literature could be found. A suspected female named Li Siau Mei ( 李小妹 ) alias Siau Dau ( 小豆 ) aged 19, native of Kiangsu, S/unemployed, was brought to the station. The services of a female Searcher from Louza Station were obtained and the female searched but nothing as found on her person in the way of Communist literature etc. and no information could be obtained from her.\n\nDet. Inspt. Ross, Special Branch, was informed and he gave instructions that the female be released. She left the station at about 1.15 a.m. 12/10/32.\n\nI am, Sir,\nYours Obediently,\nElders.\nD. S. 4.\n\n（左侧批注：）\nDR\n17/10\nSR\n（签名）\n1932\nOCT",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-434/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-434/page/n1_w2400.jpg",
+   "zh": "发自 2\nG. 10,000-6-32\n\n特别处。\n档案号 ............\n上海公共租界工部局警务处。\n戈登路捕房，\n报告。\nP. 54/32。\n日期 1932年10月12日\n\n事由（全称） 关于1932年10月11日逮捕一名涉嫌共产主义的女子。\n\n撰写人 D. S. Elders。转呈人 ....................\n\n先生：\n\n1932年10月11日晚约11时50分，依据特区法院第5422号搜查令的授权，副督察长 Everest、副督察 Elders、副督察 Pitts 及一队华探搜查了斐伦路（Ferry Road）李家厙866号的处所，但尽管进行了仔细搜查，未发现任何共产主义文献。一名名为李小妹（Li Siau Mei）、别名小豆（Siau Dau）的嫌疑女子被带至捕房。该女子19岁，江苏籍，无业。从老闸捕房调来了一名女搜查员对该女子进行搜身，但在其身上未发现共产主义文献等物品，且未能从其口中获取任何信息。\n\n已通知特别处侦探督察 Ross，他指示释放该女子。她于1932年10月12日凌晨约1时15分离开捕房。\n\n此致，\n敬礼，\nElders.\n副督察 4.\n\n（左侧批注：）\nDR\n10月17日\nSR\n（签名）\n1932年\n10月"
   }
  ],
  "pages_done": 2,
@@ -27,6 +29,11 @@
   "ocr_in_tokens": 5420,
   "ocr_out_tokens": 540,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:29:26"
- }
+  "ocr_at": "2026-08-12 03:29:26",
+  "zh_in_tokens": 779,
+  "zh_out_tokens": 472,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

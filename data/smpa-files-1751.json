@@ -10,19 +10,22 @@
    "n": 0,
    "en": "D5821\nD5823\nD5824\nD5825",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1751/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1751/page/n0_w2400.jpg",
+   "zh": "D5821\nD5823\nD5824\nD5825"
   },
   {
    "n": 1,
    "en": "Form No. 3\nG. 25,000-34\n\nSHANGHAI MUNICIPAL POLICE.\nS.2, Special Branch.\nREPORT\n（印：SHANGHAI MUNICIPAL POLICE C. & S. B. REGISTRY. File No. D. 5821 Date 19 / 4 / 34）\nDate... April 18, 1934.\n\nSubject (in full) Written communist posters found pasted on a telephone pole\non N.Szechuen Road near Kiangwan Road on April 18, 1934.\n\nMade by D.I. Kuh Pao-hwa Forwarded by [签名]\n\nI forward herewith two written communist posters\nwhich were found by the Municipal Police exhibited on a\ntelephone standard on North Szechuen Road near Kiangwan Road\nat 10 a.m. April 18, 1934. A translation of the posters\nreads as follows :-\n(a) Unemployed workers, let us besiege the Shanghai\nCity Government and demand food from the Authorities!\n(b) Overthrow Imperialism which aims at the\npartition of China!\n\nKuh Pao-hwa\nD. I.\n\nOfficer i/c Special Branch.\n\n（批：Jul / JZ）",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1751/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1751/page/n1_w2400.jpg",
+   "zh": "表格第3号\nG. 25,000-34\n\n上海公共租界工部局警务处。\nS.2，特别股。\n报告\n（印：上海公共租界工部局警务处 刑事与特别股登记处。档案号 D. 5821 日期 19 / 4 / 34）\n日期……1934年4月18日。\n\n事由（全称）1934年4月18日在靠近江湾路的北四川路电话线杆上发现张贴的共产党手写标语。\n\n由督察顾宝华（Kuh Pao-hwa）呈报 [签名]\n\n现随文附上两张共产党手写标语，系市政警察于1934年4月18日上午10时，在北四川路靠近江湾路处的电话线杆上查获并展示。标语译文如下：\n(a) 失业工人们，让我们包围上海市政府，向当局要求食物！\n(b) 打倒旨在瓜分中国的帝国主义！\n\n顾宝华（Kuh Pao-hwa）\n督察\n\n特别股主管警官。\n\n（批注：Jul / JZ）"
   },
   {
    "n": 2,
    "en": "Chinese\n\nReport sent with Communistic pamphlets, handbills or newspapers to Special Branch.\n\n| Where found | N. Szechuen Road near Kiangwan Road | Time found | 10 a.m. | Date | 18-4-34 |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Character of place where found, (industrial, residential, respectable or doubtful neighbourhood). | Telephone pole on N. Szechuen Road, near Kiangwan Road. |\n| Near School, Factory, Military Camp, Mill etc. | near S. M. P. Barracks. |\n| How distributed? (If known). | Posted on pole. |\n| Nature of Document. (Communist or Anti-Government etc). | Communistic. |\n| Arrests or not, if so how many? | Nil. |\n| Class of man arrested? (Student, coolie, mill worker etc.) | Nil. |\n| Charged under what Section of C.C. Code? | --- |\n\nDate 18-4-34.\n\nSigned E. J. Eva\nfor C. I. etc. i/c. Dixwell Rd Station.",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1751/page/n2_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1751/page/n2_w2400.jpg",
+   "zh": "中文\n\n随共产主义小册子、传单或报纸一并送交特别股的报告。\n\n| 发现地点 | 北四川路靠近江湾路 | 发现时间 | 上午10时 | 日期 | 1934年4月18日 |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| 发现地点的性质（工业区、住宅区、体面街区或可疑街区）。 | 北四川路靠近江湾路处的电话线杆。 |\n| 附近是否有学校、工厂、军营、纱厂等。 | 靠近工部局警务处兵营。 |\n| 分发方式？（如已知）。 | 张贴在线杆上。 |\n| 文件性质。（共产主义或反政府等）。 | 共产主义。 |\n| 是否逮捕，如有，人数多少？ | 无。 |\n| 被捕者身份类别？（学生、苦力、纱厂工人等。） | 无。 |\n| 依据《中华民国刑法》哪一条款指控？ | --- |\n\n日期 1934年4月18日。\n\nE. J. Eva 代签\n代表狄思威路捕房刑事调查股主管等职。"
   }
  ],
  "pages_done": 3,
@@ -33,6 +36,11 @@
   "ocr_in_tokens": 8113,
   "ocr_out_tokens": 570,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:14:53"
- }
+  "ocr_at": "2026-08-12 03:14:53",
+  "zh_in_tokens": 815,
+  "zh_out_tokens": 570,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 3
 }

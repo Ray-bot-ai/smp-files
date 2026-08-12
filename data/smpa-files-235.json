@@ -10,7 +10,8 @@
    "n": 0,
    "en": "FORM No. 3\nG. 35,000-1-35\n\nSHANGHAI MUNICIPAL POLICE.\nFile No. S. B. REGISTRY.\n6730\nSection 2, Special Branch,\nREPORT\nDate May 21, 1935.\n\nSubject Arrival of V. Kiriloff, Soviet diplomatic official.\n\nMade by D.S. Tcheremshansky Forwarded by [签名] D.D.\n\nVasily Kiriloff, 34, Soviet citizen, arrived at Shanghai\nfrom Moscow via Japan on May 19, 1935, by the s.s. \"Empress\nof Asia,\" accompanied by his daughter Nina Kiriloff, 9 years\nof age. He is in possession of Passport No. 11642 issued\non February 17, 1935, at Moscow by the Peoples Commissariat\nfor Foreign Affairs. A Chinese visa was issued on\nFebruary 24, 1935, at Moscow. Kiriloff states that he is\na secretary of the U.S.S.R. Consulate General at Shanghai,\nand will reside at No. 1 Whangpoo Road.\n\n[签名: D. Tcheremshansky]\nD. S.\n\nDeputy Commissioner (Special Branch).\n\nFile\nms",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-235/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-235/page/n0_w2400.jpg",
+   "zh": "表格第3号\nG. 35,000-1-35\n\n上海公共租界工部局警务处。\n档案编号：S. B. 登记处。\n6730\n特务科第二股，\n报告\n日期：1935年5月21日。\n\n事由：苏联外交官员 V. Kiriloff 抵沪。\n\n呈报人：D.S. Tcheremshansky 转呈人：[签名] D.D.\n\nVasily Kiriloff，34岁，苏联公民，于1935年5月19日乘坐“亚细亚皇后”号轮船（s.s. \"Empress of Asia\"），经日本从莫斯科抵达上海，随行有其9岁的女儿 Nina Kiriloff。他持有1935年2月17日由莫斯科苏联人民外交委员会签发的第11642号护照。中国签证于1935年2月24日在莫斯科签发。Kiriloff 称其系苏联驻上海总领事馆秘书，将居住于黄浦路1号。\n\n[签名: D. Tcheremshansky]\nD. S.\n\n副总监（特务科）。\n\n档案\nms"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2705,
   "ocr_out_tokens": 295,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:40:44"
- }
+  "ocr_at": "2026-08-12 03:40:44",
+  "zh_in_tokens": 527,
+  "zh_out_tokens": 278,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

@@ -10,19 +10,22 @@
    "n": 0,
    "en": "D-189",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-50/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-50/page/n0_w2400.jpg",
+   "zh": "D-189"
   },
   {
    "n": 1,
    "en": "Form No. 2\nG. 20000-11-23\n\nSHANGHAI MUNICIPAL POLICE.\n\nREPORT\n\nFile No.\nSHANGHAI MUNICIPAL P\nCENTRAL REGIST...\nNo. I. O. D. ...\nDate: 26.4.29.\n\nSubject (in full) Arrival of Soviet agent.\n\nMade by F. J. S. Makaroff Forwarded by Thos Rubenstein\n\nInformation has been received to the effect\nthat Mr. F.J.S. Makaroff, who recently arrived from Harbin, is a\nSoviet agent and an employee of the Chinese Eastern Railway.\nFormerly considered to be a White Russian he was in charge of\nthe Harbin Branch of Red Cross Society from 1921 to 1923, and\nafter its liquidation is reported to have sold to the Soviet\nConsulate in Harbin all information and application forms of\nthe Officers of the White Army regarding length of service,\nregiment, rank, etc. After that he obtained Soviet papers\nand was employed by the C.E.R. as supervisor of summer resorts.\nMr. Makaroff resides at 15 Tsongchow Road.\n\nN. Makaroff=\nF. C. S.\n\nA/D.C.I.\n\nHR.\n26/4\n94:4:29\n\nCopies to H.B.M.Consul-General,Col.Halland,Capt.Shelley,Lt.Carlson\n\nSent 29.4.\nC. Y. Ivy",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-50/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-50/page/n1_w2400.jpg",
+   "zh": "表格第2号\nG. 20000-11-23\n\n上海公共租界工部局警务处。\n\n报告\n\n档案编号\n上海公共租界工部局警务处\n中央登记……\nI. O. D. 编号……\n日期：1929年4月26日。\n\n主题（全称）苏联特工抵沪。\n\n制作人：F. J. S. Makaroff 转呈人：Thos Rubenstein\n\n接获情报称，近期从哈尔滨抵达的 F.J.S. Makaroff 先生系一名苏联特工，且为中东铁路雇员。他此前被视为白俄分子，于1921年至1923年间负责红十字会哈尔滨分会的工作；据报在该分会解散后，他将白军军官关于服役年限、所属团部、军衔等所有信息及申请表出售给了苏联驻哈尔滨领事馆。此后，他取得了苏联证件，并被中东铁路雇用为避暑地主管。Makaroff 先生居住于通州路15号。\n\nN. Makaroff=\nF. C. S.\n\n助理副督察长\n\nHR.\n4月26日\n94:4:29\n\n副本送：英国驻华总领事、Halland 上校、Shelley 上尉、Carlson 中尉\n\n发送于4月29日。\nC. Y. Ivy"
   },
   {
    "n": 2,
    "en": "ACSAKOFF, S.S. - Soviet\nEmployee of Chinese Eastern Railway. Formerly\nconsidered to be White Russian. Was in charge\nof Harbin Branch of Red Cross Society from\n1921 to 1923.\nResides at 15 Tsongchow Road.\n\nSMP\nSMP: I.U. D 189\n29 April 1929",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-50/page/n2_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-50/page/n2_w2400.jpg",
+   "zh": "ACSAKOFF, S.S. - 苏联籍\n中东铁路雇员。此前被视为白俄分子。1921年至1923年间负责红十字会哈尔滨分会工作。\n居住于通州路15号。\n\n上海公共租界工部局警务处\n上海公共租界工部局警务处：I.U. D 189\n1929年4月29日"
   }
  ],
  "pages_done": 3,
@@ -33,6 +36,11 @@
   "ocr_in_tokens": 8166,
   "ocr_out_tokens": 434,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:01:18"
- }
+  "ocr_at": "2026-08-12 03:01:18",
+  "zh_in_tokens": 680,
+  "zh_out_tokens": 415,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 3
 }

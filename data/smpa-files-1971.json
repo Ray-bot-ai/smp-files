@@ -10,7 +10,8 @@
    "n": 0,
    "en": "Form No. 3\nG. 4006-9.26\n\nShanghai Municipal Police.\n8449\n12/10/27.\nStation.\n\nOctober 12, 1927.\n\nREPORT ON Arrival of Soviet Steamer \"Indigirka\" from\nVladivostock.\n\nMade by P.C.J. Ovsiannikoff Forwarded by J. Simens A.B.P.\n\nThe Soviet Steamer \"Indigirka\" arrived in\nShanghai from Vladivostock at 11.40 a.m. October 11 carrying\nas passengers 83 Chinese and a Russian woman named Lina\nKouznetzova. The latter has no political connections.\n\nV. Ovsianikoff\nP.C.E. 142\n\n12/10/27.\nResy.\n\nJ. S. W.",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1971/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1971/page/n0_w2400.jpg",
+   "zh": "表格第3号\nG. 4006-9.26\n\n上海公共租界工部局警务处。\n8449\n1927年10月12日。\n巡捕房。\n\n1927年10月12日。\n\n关于苏联轮船“因迪吉尔卡”号（Indigirka）从符拉迪沃斯托克抵达的报告。\n\n由警员 J. Ovsiannikoff 呈报，经巡官 J. Simens 转呈。\n\n苏联轮船“因迪吉尔卡”号于10月11日上午11时40分从符拉迪沃斯托克抵达上海，载有乘客83名中国人及一名名为莉娜·库兹涅佐娃（Lina Kouznetzova）的俄国妇女。后者无政治关联。\n\nV. Ovsianikoff\n警员编号 142\n\n1927年10月12日。\n收讫。\n\nJ. S. W."
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2734,
   "ocr_out_tokens": 201,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:41:24"
- }
+  "ocr_at": "2026-08-12 03:41:24",
+  "zh_in_tokens": 433,
+  "zh_out_tokens": 233,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

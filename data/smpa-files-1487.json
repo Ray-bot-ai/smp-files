@@ -10,7 +10,8 @@
    "n": 0,
    "en": "SHANGHAI MUNICIPAL POLICE.\nSection 2, Special Branch.\nREPORT\nDate January 15, 1935.\nSubject A. M. Zaslavsky, Soviet merchant.\nMade by D.S. Tcheremshansky Forwarded by.\n\nInformation has been received that Abram Kemelevitch\nZaslavsky, residing at No. 857 Avenue Joffre, is a Soviet\ninformer. He is a Soviet citizen of Jewish origin, who\nwas born on 17.8.1899, in Tavrida Province, South Russia.\nHe holds Soviet passport No. 104452 issued on 21.12.1925,\nat Chita, Transbaikal Province. Zaslavsky arrived at\nShanghai from Manchuria a few years ago. Upon his arrival\nin this city, he was employed as a shop assistant with K. F.\nMiller Haberdashery Store, No. 21A Szechuen Road, until\n1931 when he opened his own Haberdashery Store at No. 859\nAvenue Joffre. On January 6, 1935 Zaslavsky opened a\nbranch of his enterprise at No. 1159 Bubbling Well Road.\nIt is rumoured that he is financed by the Moscow Narodny\nBank. It is reported that Zaslavsky frequently visits\nthe local U.S.S.R. Consulate-General, and that he is on\nfriendly terms with many local Soviet agents.\n\nD. S. Tcheremshansky\nD. S.\n\nDeputy Commissioner (Special Branch)",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1487/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1487/page/n0_w2400.jpg",
+   "zh": "上海公共租界工部局警务处。\n第二科，特别支部。\n报告\n日期：1935年1月15日。\n事由：A. M. 扎斯拉夫斯基（Zaslavsky），苏联商人。\n制作人：D.S. 切列姆尚斯基（Tcheremshansky） 转呈人：\n\n据获情报，阿布拉姆·克梅列维奇·扎斯拉夫斯基（Abram Kemelevitch Zaslavsky），现住霞飞路857号，系苏联线人。其为犹太裔苏联公民，1899年8月17日出生于俄罗斯南部的塔夫里达省（Tavrida Province）。他持有1925年12月21日在外贝加尔省赤塔签发的苏联护照，号码为104452。扎斯拉夫斯基于数年前从满洲抵达上海。初抵本市时，他在四川路21A号的K. F. 米勒（K. F. Miller）服饰用品店担任店员，直至1931年，他在霞飞路859号开设了自己的服饰用品店。1935年1月6日，扎斯拉夫斯基在静安寺路1159号开设了其企业的分店。有传言称，他的资金由莫斯科国民银行（Moscow Narodny Bank）提供。据报道，扎斯拉夫斯基频繁访问当地苏联总领事馆，并与许多当地苏联特工保持友好关系。\n\nD. S. 切列姆尚斯基\nD. S.\n\n副总监（特别支部）"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2692,
   "ocr_out_tokens": 366,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:37:29"
- }
+  "ocr_at": "2026-08-12 03:37:29",
+  "zh_in_tokens": 598,
+  "zh_out_tokens": 349,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

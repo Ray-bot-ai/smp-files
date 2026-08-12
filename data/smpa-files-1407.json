@@ -10,13 +10,15 @@
    "n": 0,
    "en": "D-56 86\nD-56 87\nD-56 88\nD-56 89",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1407/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1407/page/n0_w2400.jpg",
+   "zh": "D-56 86\nD-56 87\nD-56 88\nD-56 89"
   },
   {
    "n": 1,
    "en": "Form No. 3\nC. 25,090-1-34\n\nCONFIDENTIAL\n\nSHANGHAI MUNICIPAL POLICE.\nS.2, Special Branch\nREPORT\n\nSHANGHAI MUNICIPAL POLICE\nC.R./S.No. REGISTRY.\nNo. D 5686\nDate 19 / 2 / 34\nDate February 19, 1934.\n\nSubject (in full) Removal into International Settlement of boarding\nhouse of Mrs M. Pashe patronised by Soviet Employees.\n\nMade by D.S. Tcheremshansky Forwarded by [Signature]\n\nInformation has been received that the boarding house\nof Mrs. M. Pashe, German citizen at No. 47 Rue Amiral Courbet,\nwhich is known to be patronized by Soviet Employees was removed\non January 1, 1934 to the Lane 591 Bubbling Well Road, houses\n133-135-139. Among the boarders are Mark Markoff (File\nI.O. 7860/25), manager of the local branch of Centrosojus,\nhis wife Mrs. Lidia Markoff, and Indrik Odin (File D-5485),\nGeneral Manager of the local branch of the United Petroleum\nTrust of U.S.S.R. and his wife, Maria Odin.\n\nSupt. i/c Sec. C. 1.\n[Signature]\nD. S.\n\n(CRIME BRANCH)\nOfficer i/c Special Branch.\nD.C (Crime)\n\nFor information of C. I.\n[Signature]\nDept.\n\nFILE\n[Signature]",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1407/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1407/page/n1_w2400.jpg",
+   "zh": "表格编号 3\nC. 25,090-1-34\n\n机密\n\n上海公共租界工部局警务处。\nS.2，特别股\n报告\n\n上海公共租界工部局\n刑事登记处/序列号登记簿。\n编号 D 5686\n日期 19 / 2 / 34\n日期 1934年2月19日。\n\n主题（全称） 受苏联雇员光顾的 M. Pashe 太太寄宿舍迁入国际租界。\n\n呈报人 D.S. Tcheremshansky 转呈人 [签名]\n\n据获情报，德国公民 M. Pashe 太太位于库尔贝海军上将路（Rue Amiral Courbet）47号的寄宿舍，众所周知常有苏联雇员光顾，已于1934年1月1日迁至静安寺路（Bubbling Well Road）591弄133、135及139号。住客包括 Centrosojus（苏联中央消费合作总社）本地分支经理 Mark Markoff（档案 I.O. 7860/25）及其妻子 Lidia Markoff 太太，以及苏联联合石油托拉斯（United Petroleum Trust of U.S.S.R.）本地分支总经理 Indrik Odin（档案 D-5485）及其妻子 Maria Odin。\n\nC科主管警司 1.\n[签名]\nD. S.\n\n（刑事科）\n特别股主管警官。\n副督察长（刑事）\n\n供情报处知悉。\n[签名]\n部门。\n\n归档\n[签名]"
   }
  ],
  "pages_done": 2,
@@ -27,6 +29,11 @@
   "ocr_in_tokens": 5458,
   "ocr_out_tokens": 400,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:29:59"
- }
+  "ocr_at": "2026-08-12 03:29:59",
+  "zh_in_tokens": 638,
+  "zh_out_tokens": 399,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

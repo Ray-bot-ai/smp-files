@@ -10,13 +10,15 @@
    "n": 0,
    "en": "Form No. 3\nC. 25,000-1-34\n\nSHANGHAI MUNICIPAL POLICE.\nSection 2, Special Branch.\nREPORT\n（印：SHANGHAI MUNICIPAL POLICE File & No: B. REGISTRY. No D 5793 Date 10 - 1 - 34）\nDate April 10, 1934\n\nSubject (in full) A. N. Loktin, Soviet Employee.\n\nMade by D.S. Tcheremshansky Forwarded by J.B.Ku. D.I.\n\nAfanasy Nikiforovitch Loktin, Russian, 46 years of age,\nemployee of Torgpredstvo (Soviet Commercial Mission), arrived\nat Shanghai from Dairen on April 4, 1934, by the s.s. \"Dairen\nMaru\", accompanied by his wife. He holds U.S.S.R. passport\nNo. 5115 issued on 9.9.31 at Tokio. His wife Tatiana\nIvanovna Loktin is a Russian, 42 years of age. Loktin first\nstayed in the Astor House Hotel but on April 8, 1934, he removed\nto unknown address.\n\nInquiries proceeding re: place of residence. D.S.\n\nJ. Tcheremshansky\nD. S.\n\nOfficer i/c Special Branch.\n\nD.S. Tcheremshansky\nJBR 10/4\n\n52\n3",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-4/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-4/page/n0_w2400.jpg",
+   "zh": "表格第3号\nC. 25,000-1-34\n\n上海公共租界工部局警务处。\n特务科第二股。\n报告\n（印：上海公共租界工部局警务处 档案及编号：B. 登记处。编号 D 5793 日期 34年1月10日）\n日期 1934年4月10日\n\n主题（全称） A. N. Loktin，苏联雇员。\n\n制作人 D.S. Tcheremshansky 转呈人 J.B.Ku. 副督察长。\n\nAfanasy Nikiforovitch Loktin，俄罗斯人，46岁，\nTorgpredstvo（苏联商务代表团）雇员，于1934年4月4日\n乘“大连丸”号轮船从大连抵达上海，由其妻子陪同。他持有\n1931年9月9日在东京签发的苏联护照第5115号。其妻 Tatiana\nIvanovna Loktin 为俄罗斯人，42岁。Loktin 初住礼查饭店，但于1934年4月8日搬至\n不明地址。\n\n正在查询其居住地。D.S.\n\nJ. Tcheremshansky\nD. S.\n\n特务科主管警官。\n\nD.S. Tcheremshansky\nJBR 4月10日\n\n52\n3"
   },
   {
    "n": 1,
    "en": "LOKTIN, Afanasy Nikiforovitch - Soviet\nEmployee of Torgpredstvo (Soviet Commercial Mission).\nHolds USSR passport No. 5115\nArrived in Shanghai on 4 April 1934.\n\nLOKTIN, Tatiana Ivanovna\nWife of above.\n\nSMP\nNo. 353\n10 April 1934\nSMP: No. D 5793",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-4/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-4/page/n1_w2400.jpg",
+   "zh": "LOKTIN, Afanasy Nikiforovitch - 苏联\nTorgpredstvo（苏联商务代表团）雇员。\n持有苏联护照第5115号\n于1934年4月4日抵达上海。\n\nLOKTIN, Tatiana Ivanovna\n上述人员之妻。\n\n上海公共租界工部局警务处\n编号 353\n1934年4月10日\n上海公共租界工部局警务处：编号 D 5793"
   }
  ],
  "pages_done": 2,
@@ -27,6 +29,11 @@
   "ocr_in_tokens": 5468,
   "ocr_out_tokens": 444,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:19:42"
- }
+  "ocr_at": "2026-08-12 03:19:42",
+  "zh_in_tokens": 683,
+  "zh_out_tokens": 446,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

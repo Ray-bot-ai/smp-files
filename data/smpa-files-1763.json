@@ -10,7 +10,8 @@
    "n": 0,
    "en": "Form No. 3\nG. 25,000-11-32\n\nSHANGHAI MUNICIPAL POLICE.\n\nREPORT\n\nS.2, Special Branch Station.\nDate November 8, 1933.\n\n（印：SHANGHAI MUNICIPAL POLICE\nFile No. S. B. REGISTRY.\nNo. D 2554/42\nDate 4/11/33）\n\nSubject (in full) Communist literature obtained in Western Chapel on\nNovember 2, 1933.\n\nMade by D.I.Kuh Pao-hwa Forwarded by [签名]\n\nI forward herewith copies of two communist handbills\nentitled \"Labour Friends in Shanghai Eastern District\" and\n\"Stories of the Life of Youths in Soviet Districts\" respectively,\nwhich were obtained by Agent A-2164 in Western Chapei on November\n2, 1933. The origin of this literature is not stated in the\ndocuments.\nA summarized translation of the contents of the\nhandbills is attached herewith.\n\nKuh Pao-hwa\nD. I.\n\nOfficer i/c Special Branch.\n\n（批：[签名]）\n（批：File）\n（批：[签名]）\n（批：CC）\n（批：N° ... 1933）",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1763/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1763/page/n0_w2400.jpg",
+   "zh": "表格编号 3\nG. 25,000-11-32\n\n上海公共租界工部局警务处。\n\n报告\n\n特别支部分站 S.2。\n日期：1933年11月8日。\n\n（印章：上海公共租界工部局警务处\n档案号 S. B. REGISTRY.\n编号 D 2554/42\n日期 33年11月4日）\n\n事由（全称）：1933年11月2日在西区小教堂获得的共产主义宣传品。\n\n呈报人：督察 顾宝华 转呈人 [签名]\n\n兹随函附上两份共产主义传单的副本，标题分别为《上海东区劳工之友》和《苏维埃区青年生活故事》，上述传单系探员 A-2164 于1933年11月2日在闸北西部获得。文件中未说明这些宣传品的来源。\n现附上传单内容的摘要译文。\n\n顾宝华\n督察\n\n特别支部主管警官。\n\n（批注：[签名]）\n（批注：归档）\n（批注：[签名]）\n（批注：抄送）\n（批注：编号 ... 1933）"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2734,
   "ocr_out_tokens": 300,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:36:56"
- }
+  "ocr_at": "2026-08-12 03:36:56",
+  "zh_in_tokens": 532,
+  "zh_out_tokens": 283,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

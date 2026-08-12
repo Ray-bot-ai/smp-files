@@ -10,19 +10,22 @@
    "n": 0,
    "en": "N.A.M.\nSECTION 2.\nAugust 22, 1935.\n\nMemorandum\non\nMovements of E. Sharapoff, Soviet Diplomatic Courier.\n\nEvsey Sharapoff, 36, Soviet Diplomatic Courier, arrived\nin Shanghai from the U.S.S.R. via Japan on August 20, 1935,\nin the s.s. \" President Mc Kinley \".\nIt is reported that he will proceed to the Soviet Embassy,\nNanking.\n\nD.S.\n\nDeputy Commissioner(Special Branch).\nInformation.\n\n$ 2, Please inform 'A'\nFile\nDir.\n16",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1128/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1128/page/n0_w2400.jpg",
+   "zh": "N.A.M.\n第二节。\n1935年8月22日。\n\n备忘录\n关于\n苏联外交信使 E. Sharapoff 的行踪。\n\nEvsey Sharapoff，36岁，苏联外交信使，于1935年8月20日经日本乘“麦金莱总统号”轮船（s.s. \"President Mc Kinley\"）从苏联抵达上海。\n据报，他将前往南京苏联大使馆。\n\nD.S.\n\n副总监（特别处）。\n情报。\n\n$ 2，请通知‘A’\n档案\n主任\n16"
   },
   {
    "n": 1,
    "en": "SHANGHAI MUNICIPAL POLICE.\nS. S, Special Branch.\nREPORT\nFile No. S. B. REGISTRY.\nD 6486\nDate February 18, 1935.\n\nSubject (in full)... A. SHURAPOFF, Soviet Diplomatic Courier.\n\nMade by... D.S.I. Prokofiev. Forwarded by... [Signature] D.I.\n\nAvsey Shurapoff, 35, Soviet diplomatic courier, arrived\nin Shanghai from the U.S.S.R via Japan on February 12, 1935 in\nthe S.S. \"President Coolidge\". He holds diplomatic passport\nNo. 3099 issued on December 16, 1934 at Moscow which bears a\nChinese visa issued on January 1, 1935 in that city.\nUpon his arrival in Shanghai Shurapoff proceeded to\nthe Soviet Consulate, No. 1 Yangpoo Road.\n\nA. Prokofiev\nD. S. I.\n\nD. C. (Special Branch).\nFile\n[Signature]\nFeb",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1128/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1128/page/n1_w2400.jpg",
+   "zh": "上海公共租界工部局警务处。\nS. S，特别处。\n报告\n档案编号 S. B. REGISTRY.\nD 6486\n日期 1935年2月18日。\n\n主题（全称）... A. SHURAPOFF，苏联外交信使。\n\n制作人... D.S.I. Prokofiev。转发人... [签名] D.I.\n\nAvsey Shurapoff，35岁，苏联外交信使，于1935年2月12日经日本乘“柯立芝总统号”轮船（S.S. \"President Coolidge\"）从苏联抵达上海。他持有1934年12月16日在莫斯科签发的第3099号外交护照，该护照上有1935年1月1日在该市签发的中国签证。\nShurapoff 抵达上海后，前往杨树浦路1号苏联领事馆。\n\nA. Prokofiev\nD. S. I.\n\n副总监（特别处）。\n档案\n[签名]\n二月"
   },
   {
    "n": 2,
    "en": "Memorandum.\nPOLICE FORCE\nMUNICIPAL COUNCIL.\nShanghai, 7- 5- 1935\nTo D.C. (Sp. Br.)\n\nSir,\nNanking political\nagent approached discreetly\nfew days ago, now\nstates he is unable to\nobtain the names of\nthe expelled students.\nEndeavours made\nthrough other sources\nalso failed.\nTambushang\nSupt.\nFile\n7/5",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1128/page/n2_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1128/page/n2_w2400.jpg",
+   "zh": "备忘录。\n警察部队\n工部局。\n上海，1935年5月7日\n致 副总监（特别处）\n\n先生，\n南京政治\n代理人于数日前谨慎接触，\n现称其无法\n获取被开除学生的姓名。\n通过其他渠道\n所作的努力\n亦告失败。\nTambushang\n警司\n档案\n5/7"
   }
  ],
  "pages_done": 3,
@@ -33,6 +36,11 @@
   "ocr_in_tokens": 8222,
   "ocr_out_tokens": 497,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:04:26"
- }
+  "ocr_at": "2026-08-12 03:04:26",
+  "zh_in_tokens": 743,
+  "zh_out_tokens": 473,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 3
 }

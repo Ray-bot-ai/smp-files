@@ -10,25 +10,29 @@
    "n": 0,
    "en": "D-2011",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-2958/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-2958/page/n0_w2400.jpg",
+   "zh": "D-2011"
   },
   {
    "n": 1,
    "en": "DIRECTION\nDES\nSERVICES DE POLICE\n\nChanghai, SHANGHAI MUNICIPAL COUNCIL\nC. & S. F. REGISTRY\nNo. S. B. D. 2011\n25. 9. 31.\n\nLe Chef de la Section Politique\na l'honneur de vous remercier de la communication\nN° S.B.D. que vous avez bien voulu lui adresser\n2011\nle 23 courant.\n\nMr Assistant Commissioner in charge of\nSpecial Branch.\nS.M.C.\nChanghai.",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-2958/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-2958/page/n1_w2400.jpg",
+   "zh": "警务处\n\n上海，上海公共租界工部局\n中央与特别档案室\n编号 S. B. D. 2011\n31年9月25日。\n\n政治股股长\n谨感谢您惠赐\n编号 S.B.D. 2011\n本月23日来函。\n\n致负责\n特别股的助理总监先生。\n上海公共租界工部局\n上海。"
   },
   {
    "n": 2,
    "en": "Form\nG. 21,500-1-31\n\nSHANGHAI MUNICIPAL POLICE.\nREPORT\n\nFile No.\n& Section 2. Stamps\nS. B. D. 2011.\nDate Sept. 23, 1931.\n23 - 9 - 31\n\nSubject (in full) Movements of A.P. Serebroff, Soviet Citizen.\n\nMade by D.S. Prokofiev. Forwarded by [Signature]\n\nThe undermentioned Soviet citizen left Shanghai for\nDairen on September 22,1931 by the s.s. Choshun Maru.\nA.P. Serebroff Reported to be chief representative of\nthe Far Eastern Lumber Trust in China\nand Japan.\nWhile in Shanghai he resided at 26\nHwakee Avenue,1025 Bubbling Well Road.\n\nG. Prokofer.\nD. S.\n\nOfficer i/c Special Branch.\n\nMr Yas,\nCopies with note as follows:\n\"forward herewith for your information\n\"a copy of a detective Report bearing\n\"on the movements of one\n\"A.P. Serebroff for your information\"\n\"The usual authorities.\"\n[Signature]\n23.9.31.",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-2958/page/n2_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-2958/page/n2_w2400.jpg",
+   "zh": "表格\nG. 21,500-1-31\n\n上海公共租界工部局警务处。\n报告\n\n档案号\n及第2股。印章\nS. B. D. 2011.\n日期 1931年9月23日。\n23 - 9 - 31\n\n事由（全称）苏联公民 A.P. Serebroff 的行踪。\n\n制作人 D.S. Prokofiev。转发人 [签名]\n\n下述苏联公民于1931年9月22日乘“朝春丸”轮（s.s. Choshun Maru）离开上海前往大连。\nA.P. Serebroff 据报为远东木材托拉斯在中国\n及日本的首席代表。\n在上海期间，他居住于华格路26号，静安寺路1025号。\n\nG. Prokofer.\nD. S.\n\n特别股主管警官。\n\nYas 先生，\n附注如下抄件：\n“现随函附上关于\n“A.P. Serebroff 行踪的侦探报告副本一份，\n“供贵方参考”\n“致有关当局。”\n[签名]\n31年9月23日。"
   },
   {
    "n": 3,
    "en": "S. D. REC\nNo. S. B. D. 2011.\ncte 13.9.31.\n\nSeptember 23 1.\n\nMy dear Steptoe,\n\nI forward herewith for your information\na copy of a detective report bearing on the\nmovements of one A.P. Serebroff.\n\nYours sincerely,\n\nH.M. Steptoe, Esq.,\nH.B.M. Consulate-General.\nJan den Berg, Esq.,\nNetherlands Consulate-General.\n□i, Esq.,\nJapanese Consulate-General.\n□y, Esq.,\n□nch Police Headquarters.",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-2958/page/n3_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-2958/page/n3_w2400.jpg",
+   "zh": "S. D. 收件\n编号 S. B. D. 2011.\n收到日期 31年9月13日。\n\n1931年9月23日。\n\n亲爱的 Steptoe：\n\n现随函附上关于\nA.P. Serebroff 行踪的侦探报告副本一份，\n供贵方参考。\n\n此致\n敬礼，\n\nH.M. Steptoe 先生，\n英国驻上海总领事馆。\nJan den Berg 先生，\n荷兰驻上海总领事馆。\n□i 先生，\n日本驻上海总领事馆。\n□y 先生，\n□nch 警察总局。"
   }
  ],
  "pages_done": 4,
@@ -39,6 +43,11 @@
   "ocr_in_tokens": 10871,
   "ocr_out_tokens": 562,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 02:57:19"
- }
+  "ocr_at": "2026-08-12 02:57:19",
+  "zh_in_tokens": 815,
+  "zh_out_tokens": 549,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 4
 }

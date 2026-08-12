@@ -10,7 +10,8 @@
    "n": 0,
    "en": "Form No. 2\nG. 25,000-1-32\n\nSHANGHAI MUNICIPAL POLICE.\nREPORT\n\n（印：File No. SHANGHAI MUNICIPAL POLICE C & S. B. REGISTRY. Special Branch S.2. Station. No. D 3378. Date April 27, 1932. Due 28/4/32）\n\nSubject (in full) Shanghai Special District Court Warrant No. 4202, dated\nApril 25, 1932.\n\nMade by D.S. Moore. ........................................ Forwarded by ........................................\n\nAt 3.15 p.m. April 26, members of the Special Branch\naccompanied by a detective from Central Station and a represent-\native of the Shanghai Public Safety Bureau attempted to execute\nthe above numbered warrant at the Keu Hwa Silk Shop (久華綢緞號),\n210 Nanking Road in an effort to arrest Zau Hoong Hoong (曹洪洪)\nand one Tseu ( 周 ) shop assistants, who are wanted by the\nPublic Safety Bureau for being communists. The two wanted men\nwere not on the premises at the time of the Police visit and\nalthough detectives were left to await their return they failed\nto re-appear. The warrant is therefore herewith returned\nfor cancellation.\n\nGreat difficulty is experienced in the execution\nof this class of warrant, for apart from the name or names\ncontained thereon we have no means of identifying the wanted\npersons. There is nothing to prevent a wanted man giving a\nfalse name and we have no means at our disposal to disprove his\nwords for invariably the Public Safety Bureau detectives know\nnothing of the person wanted and less of his habitual address.\n\nD.B. Moore.\nD. S.\n\nOfficer i/c Special Branch.\nSupt. Jan and S2,\nIn cases of this kind the Chinese\nAuthorities should be persuaded to allow\nthe Municipal Police to keep the premises\nunder observation for a day or two or\nthree.\n\n（批：Noted ABB 27/4/32. File 996 98.4:32. (M. 1202) Warrant returned to Supt Whiting 27.4.32. M.P. 27:4:32.）",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1591/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1591/page/n0_w2400.jpg",
+   "zh": "表格第2号\nG. 25,000-1-32\n\n上海公共租界工部局警务处。\n报告\n\n（印：档案号 上海公共租界工部局警务处 C & S. B. 登记室。特务科 S.2. 站。编号 D 3378。日期 1932年4月27日。到期日 1932年4月28日）\n\n事由（全称）上海特区法院第4202号逮捕令，日期为\n1932年4月25日。\n\n由 D.S. Moore 制作。........................................ 转呈人 ........................................\n\n1932年4月26日下午3时15分，特务科成员在中央巡捕房一名侦探及上海市公安局一名代表的陪同下，试图在南京路210号的久華綢緞號执行上述编号的逮捕令，以逮捕被公安局通缉的两名共产党嫌疑犯：曹洪洪 (Zau Hoong Hoong) 和一名姓周 (Tseu) 的店员。警方到达时，这两名通缉犯不在店内，尽管留有侦探等候其返回，但他们并未再次出现。因此，现将该逮捕令退回，予以注销。\n\n在执行此类逮捕令时遇到了极大困难，因为除了逮捕令上所载的姓名外，我们没有任何手段来识别通缉犯。通缉犯完全可以提供假名，而我们手头没有任何手段来驳斥其说辞，因为公安局的侦探 invariably（总是）对通缉犯本人一无所知，对其常住地址更是知之甚少。\n\nD.B. Moore.\n副督察 (D. S.)\n\n特务科主管警官。\n致 Jan 警司及 S2，\n在此类案件中，应说服中国当局允许\n工部局警务处对相关场所进行一至三天的监视。\n\n（批注：已知悉 ABB 1932年4月27日。档案 996 98.4:32。（M. 1202）逮捕令于1932年4月27日退回 Whiting 警司。M.P. 1932年4月27日。）"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2734,
   "ocr_out_tokens": 522,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:38:38"
- }
+  "ocr_at": "2026-08-12 03:38:38",
+  "zh_in_tokens": 754,
+  "zh_out_tokens": 490,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

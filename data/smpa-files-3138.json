@@ -10,13 +10,15 @@
    "n": 0,
    "en": "D-1216",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-3138/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-3138/page/n0_w2400.jpg",
+   "zh": "D-1216"
   },
   {
    "n": 1,
    "en": "(C.I.D.) Office Notes\n（印：SHANGHAI MUNICIPAL POLICE / C. I. D. REGIST: / No. 1. O. D. 1216. / 30...4 - 30.）\nApril 27, 1930.\n\nThe Chinese Authorities are in receipt of information\nthat communists will demonstrate on April 27, 28 and 29.\nTheir plans are as follow.-\nWestern District.- Demonstrations to be undertaken by\nstudents of the Great China University and the Anti-\n-Imperialistic League.\nFrench Concession.- Demonstration to be undertaken\nby the School of Arts and the Youth League.\nInternational Settlement.- Demonstrations to be\nundertaken by the \"Freedom League\" and the \"General Labour\nUnion.\nEastern District (Yangtsepoo). Demonstrations to be\nundertaken by the Cotton Mill Workers' Union and the \"Mutual\nAid Association.\"\nChapei. Demonstrations to be undertaken by the\nAssociation of Arts and Anti-Imperialistic Boy Scouts.\nPootung. Demonstrations to be undertaken by delegates\nof the Peasants' Group.\nGeneral Supervision by the \"Association of Arts \" and the\n\"Mortan\" Performance Association.\nOn the forenoon of April 27 a meeting of delegates will be\nheld on Avenue Edward VII (Chekiang Road corner) when\ndemonstrators will separate and carry out these plans.\n\n（批：Jho Robertson / D.I.）\n（批：M.S. / 27:4:30）\n（批：D.C. (Br. and Sp. Branches), / Information）\n（批：M.S. / 27:4:30.）",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-3138/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-3138/page/n1_w2400.jpg",
+   "zh": "（刑事侦缉处）办公笔记\n（印：上海公共租界工部局警务处 / 刑事侦缉处登记号：/ 第 1. O. D. 1216 号。/ 30...4 - 30.）\n1930年4月27日。\n\n中国当局收到情报称，共产党人将于4月27日、28日和29日举行示威。\n其计划如下：—\n西区。— 由大夏大学学生及反帝同盟举行示威。\n法租界。— 由艺术学校及青年团举行示威。\n公共租界。— 由“自由同盟”及“总工会”举行示威。\n东区（杨树浦）。— 由棉纺厂工人联合会及“互济会”举行示威。\n闸北。— 由艺术协会及反帝童子军举行示威。\n浦东。— 由农民团体代表举行示威。\n由“艺术协会”及“莫尔坦”演艺协会进行总体督导。\n4月27日上午，将在爱多亚路（浙江路口）召开代表会议，届时示威者将分散并执行上述计划。\n\n（批注：Jho Robertson / 督察长）\n（批注：M.S. / 1930年4月27日）\n（批注：D.C.（英籍与西班牙籍分支），/ 供参考）\n（批注：M.S. / 1930年4月27日。）"
   }
  ],
  "pages_done": 2,
@@ -27,6 +29,11 @@
   "ocr_in_tokens": 5468,
   "ocr_out_tokens": 394,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:31:47"
- }
+  "ocr_at": "2026-08-12 03:31:47",
+  "zh_in_tokens": 633,
+  "zh_out_tokens": 351,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

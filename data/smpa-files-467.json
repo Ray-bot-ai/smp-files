@@ -10,13 +10,15 @@
    "n": 0,
    "en": "FORM NO. 3\nG. 05M 1-39\n\nSHANGHAI MUNICIPAL POLICE.\nC.S.S, Special Branch.\nREPORT\n\nSHANGHAI MUNICIPAL POLICE\nS.B. REGISTRY\nNo. S. B. D.\nDate 27. 2 / 40\nDate February 28. 19 40.\n\nSubject (in full) Soviet Citizen - Arrival of.\n\nMade by D.S. Hocking Forwarded by D.I. Crawford.\n\nMr. Raphael ZILTSER, age 28, citizen of the\nU.S.S.R., merchant by profession, arrived here from\nHongkong on 22-2-40 aboard the s.s. \"Conte Biancamano\".\nHis local address is given as 1562 Avenue Joffre C-3.\n\nD.S & Prokofiev\nE.\nHocking\nD. S.\n\nR.C. (Special Branch).\n\nrecd 29 2 40\nJm",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-467/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-467/page/n0_w2400.jpg",
+   "zh": "表格第3号\nG. 05M 1-39\n\n上海公共租界工部局警务处。\n中央巡捕房，特别支部。\n报告\n\n上海公共租界工部局警务处\n特别支部登记处\n编号 S. B. D.\n日期 40年2月27日\n日期 1940年2月28日。\n\n事由（全称）苏联公民 - 抵达。\n\n制作人 D.S. Hocking 转呈人 D.I. Crawford。\n\nRaphael ZILTSER 先生，28岁，苏维埃社会主义共和国联盟公民，职业为商人，于1940年2月22日乘坐“孔特·比安卡马诺”号（s.s. \"Conte Biancamano\"）轮船从香港抵达此处。其在沪住址列为霞飞路1562号 C-3。\n\nD.S & Prokofiev\nE.\nHocking\nD. S.\n\nR.C.（特别支部）。\n\n收到 40年2月29日\nJm"
   },
   {
    "n": 1,
    "en": "Form No. 3\nC. 25,000-1-34\n\nSHANGHAI MUNICIPAL POLICE.\nS. 2, Special Branch.\nREPORT\nDate December 15th 1934.\n\nSHANGHAI MUNICIPAL POLICE\nFile V. S. B. REGISTER.\n\nSubject in full\nR. A. Zeltzer, Soviet employee.\n\nMade by D. S. Tcheremshansky    Forwarded to J/Bros N.\n\nInformation has been received that Rafail Abramovitch\nZeltzer, residing at No. 464/15 Rue Bourgeat is an employee\nof the Accounting Department of the local branch of the\nCentrosojus (England) Ltd. He is Soviet citizen of Jewish\norigin who was born in 1912 at Vladivostok. He arrived at\nShanghai some time in 1931 together with his parents. It is\nknown that in 1933 he was alredy been employed with the\nCentrosojus.\n\nSince April 27, 1932 he is registered with the\nShanghai Bureau of Public Safety as USSR citizen.\n\nTcheremshansky.\nD. S.\n\nD. C. (Special Branch).\n\nFile\nJAG\nDEC. 15. 1934.",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-467/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-467/page/n1_w2400.jpg",
+   "zh": "表格第3号\nC. 25,000-1-34\n\n上海公共租界工部局警务处。\nS. 2，特别支部。\n报告\n日期 1934年12月15日。\n\n上海公共租界工部局警务处\n档案 V. S. B. 登记册。\n\n事由（全称）\nR. A. Zeltzer，苏联雇员。\n\n制作人 D. S. Tcheremshansky 转呈至 J/Bros N.\n\n接获情报称，拉法伊尔·阿布拉莫维奇·泽尔策（Rafail Abramovitch Zeltzer），居住于布尔热亚路（Rue Bourgeat）464/15号，系中央消费合作总社（英国）有限公司（Centrosojus (England) Ltd.）本地分支会计部的雇员。他是犹太裔苏联公民，1912年出生于海参崴。他与其父母于1931年的某个时候抵达上海。据悉，他在1933年时已受雇于中央消费合作总社。\n\n自1932年4月27日起，他在上海公安局登记为苏联公民。\n\nTcheremshansky.\nD. S.\n\nD. C.（特别支部）。\n\n档案\nJAG\n1934年12月15日。"
   }
  ],
  "pages_done": 2,
@@ -27,6 +29,11 @@
   "ocr_in_tokens": 5400,
   "ocr_out_tokens": 526,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:26:29"
- }
+  "ocr_at": "2026-08-12 03:26:29",
+  "zh_in_tokens": 764,
+  "zh_out_tokens": 554,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

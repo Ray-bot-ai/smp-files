@@ -10,19 +10,22 @@
    "n": 0,
    "en": "D71\nD-71\nD71 MRS. IZMAILOVA, SOVIET EMPLO\n1 3 59 YEE.",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1887/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1887/page/n0_w2400.jpg",
+   "zh": "D71\nD-71\nD71 伊兹迈洛娃夫人，苏联雇员\n1 3 59 YEE."
   },
   {
    "n": 1,
    "en": "Form No. 8\nC. 3022-1-28\n\nSHANGHAI MUNICIPAL POLICE.\n\nREPORT\n\nSHANGHAI MUNICIPAL POLICE\nC. I. D. REGISTRY\nNo. L. O. /D. 71......\nCentral L.S. Station,\nDate ....................\nDate March 1st 1929\n\nSubject (in full) New Soviet Employee.\n\nMade by D. J. Oviannikoff Forwarded by [签名] A. C. M.\n\nSir,\n\nThe undermentioned person was recently engaged by\nthe local office of the Chinese Eastern Railway as typist\nin Commercial Department.\n\nMrs. Izmailova Soviet Agent. Typist of the\nChinese Eastern Railway.\nFormerly resided at the\nPlaza Hotel. Now resides\nat 206 Rue Bourgeat.\n\nV. Oviannikoff\nD. J.\n\nMR. 134 a/D. J. I. [签名]\n\nRef. No. d/1.3.29.\nCopy forwarded to H.B.M. Consul\nLt Col G.H.R. Halland for information.\nCapt J.P. Shelley ✓\nLieut E.F. Carlson",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1887/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1887/page/n1_w2400.jpg",
+   "zh": "表格第8号\nC. 3022-1-28\n\n上海公共租界工部局警务处。\n\n报告\n\n上海公共租界工部局警务处\n刑事侦缉处登记室\n编号 L. O. /D. 71......\n中央老闸捕房，\n日期 ....................\n日期 1929年3月1日\n\n事由（全称）新聘苏联雇员。\n\n由 D. J. Oviannikoff 呈报 转呈 [签名] A. C. M.\n\n先生：\n\n下述人员最近被中东铁路本地办事处聘为商务科打字员。\n\n伊兹迈洛娃夫人 苏联特工。中东铁路打字员。\n原住华懋饭店。现住\n布尔热亚路206号。\n\nV. Oviannikoff\nD. J.\n\nMR. 134 a/D. J. I. [签名]\n\n参考编号 d/1.3.29.\n副本已送交英国驻沪总领事\nG.H.R. 哈兰德中校 知悉。\nJ.P. 谢利上尉 ✓\nE.F. 卡尔森中尉"
   },
   {
    "n": 2,
    "en": "IZMAILOVA, Mrs. - Soviet\nTypist of the Chinese Eastern Railway.\nFormerly resided at the Plaza Hotel.\nNow resides at 206 Rue Bourgeat.\n\nSMP\nSMP: No. I.O. D 71\n1 March 1929",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1887/page/n2_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1887/page/n2_w2400.jpg",
+   "zh": "伊兹迈洛娃夫人 - 苏联籍\n中东铁路打字员。\n原住华懋饭店。\n现住布尔热亚路206号。\n\n上海公共租界工部局警务处\n上海公共租界工部局警务处：编号 I.O. D 71\n1929年3月1日"
   }
  ],
  "pages_done": 3,
@@ -33,6 +36,11 @@
   "ocr_in_tokens": 8154,
   "ocr_out_tokens": 371,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:01:57"
- }
+  "ocr_at": "2026-08-12 03:01:57",
+  "zh_in_tokens": 617,
+  "zh_out_tokens": 389,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 3
 }

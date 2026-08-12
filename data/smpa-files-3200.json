@@ -10,13 +10,15 @@
    "n": 0,
    "en": "D-5783 C.\nD-5784\nD-5785\nD-5786",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-3200/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-3200/page/n0_w2400.jpg",
+   "zh": "D-5783 C.\nD-5784\nD-5785\nD-5786"
   },
   {
    "n": 1,
    "en": "Form No. 3\nG. 1066a-9-33\n\nSHANGHAI MUNICIPAL POLICE.\nREPORT\nS.1, Special Branch.\nDate. April 6 1934.\n\n（印：SHANGHAI MUNICIPAL POLICE\nFile No. & REGISTRY.\nNo. D 5783\nDate 6/4/34）\n\nSubject (in full) Student cadets - return from Chinkiang.\n\nMade by D.I. Sih Tse-liang Forwarded by W Duncan DS\n\nThe 80 student cadets of the Shanghai Middle\nSchool, Loh Ka Pang, Nantao, who left Shanghai for Chinkiang\non March 31 to participate in the review of middle school\nstudent cadets in Kiangsu, which was held there between\nApril 2 and 4, returned to Shanghai at 6.30 p.m. April 5.\nWith them were some 80 cadets of the Futan Middle School,\nKiangwan, and 40 of the Sung Kiang Middle School, Sungkiang.\nThe latter after a night's stay in the \"North Station\"\nLodging House, 43 Boundary Road, left for Sungkiang at\n9.05 a.m. April 6.\n\nSih Tse Liang\nD. I.\n\n（批：J.R.）\nOfficer i/c Special Branch.",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-3200/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-3200/page/n1_w2400.jpg",
+   "zh": "表格编号 3\nG. 1066a-9-33\n\n上海公共租界工部局警务处。\n报告\nS.1，特别股。\n日期：1934年4月6日。\n\n（印：上海公共租界工部局警务处\n档案号及登记处。\n编号 D 5783\n日期 34年4月6日）\n\n事由（全称）学生童子军——自镇江返回。\n\n呈报人：督察司世良（Sih Tse-liang） 转呈人：W Duncan 副督察长\n\n位于南市罗家浜的上海中学80名学生童子军，于3月31日离开上海前往镇江，参加于4月2日至4日期间在江苏举行的江苏省中学生童子军检阅，并于4月5日下午6时30分返回上海。同行的还有江湾复旦中学的约80名童子军，以及松江松江中学的40名童子军。后者在边界路43号“北站”招待所住宿一晚后，于4月6日上午9时05分离开前往松江。\n\n司世良\n督察\n\n（批注：J.R.）\n特别股主管警官"
   }
  ],
  "pages_done": 2,
@@ -27,6 +29,11 @@
   "ocr_in_tokens": 5418,
   "ocr_out_tokens": 345,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:29:02"
- }
+  "ocr_at": "2026-08-12 03:29:02",
+  "zh_in_tokens": 584,
+  "zh_out_tokens": 308,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

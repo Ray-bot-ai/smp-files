@@ -10,13 +10,15 @@
    "n": 0,
    "en": "D-620",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-2792/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-2792/page/n0_w2400.jpg",
+   "zh": "D-620"
   },
   {
    "n": 1,
    "en": "Form No. 2\nG. 2000-8-29\n\nSHANGHAI MUNICIPAL POLICE.\nREPORT\n\n（印：SHANGHAI MUNICIPAL POLICE\nC. I. D. REGISTRY\nForeign Section Station,\nNo. P. O. B... 642.\nDated November 1. 1929）\n\nSubject (in full) Arrival of American Communist.\n\nMade by D. I. Robertson. Forwarded by （手写签名：J. Givens A. C. I.）\n\nAttached is a photograph of Comrade George Beseloff,\nwho arrived here from America in the s.s. \"Mishima Maru\"\non 30/9/29.\nBeseloff is an American citizen of Russian origin\nand is known to have lived at No. 716 1st Avenue, Seattle,\nWashington. His intentions were to proceed to Soviet\nRussia, via Japan, but he was not allowed to do so by the\nJapanese Authorities as during the search of his luggage\nhe was found in possession of certificates, confirming\nhis membership in Russian and American Communistic Parties.\nHe was also found in possession of receipts showing, that\nhe paid membership fee to the American Section of the\nCommunistic Party. He now resides at 127 Range Road.\n\n（手写签名：A. Robertson）\nD. I.\n\nA/D. C. I.",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-2792/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-2792/page/n1_w2400.jpg",
+   "zh": "表格第 2 号\nG. 2000-8-29\n\n上海公共租界工部局警务处。\n报告\n\n（印：上海公共租界工部局警务处\n刑事侦缉处登记科\n外侨股分处，\n邮政信箱号码 P. O. B... 642。\n日期：1929 年 11 月 1 日）\n\n事由（全称）：美国共产党员抵沪。\n\n呈报人：D. I. Robertson。转呈人：（手写签名：J. Givens A. C. I.）\n\n随函附上乔治·贝塞洛夫（George Beseloff）同志的照片一张，\n该员于 1929 年 9 月 30 日乘“三岛丸”号轮船（s.s. \"Mishima Maru\"）\n自美国抵达此处。\n贝塞洛夫系俄裔美国公民，\n据悉曾居住于华盛顿州西雅图市第一大道 716 号。其原拟经日本前往苏维埃\n俄国，但日本当局不准其成行，因在检查其行李时，\n发现其持有证明其加入俄国及美国共产党的证书。\n另在其身上发现收据，显示其已向共产党美国支部\n缴纳党费。该员现寓居兰路（Range Road）127 号。\n\n（手写签名：A. Robertson）\n侦探督察（D. I.）\n\n助理刑事侦缉督察（A/D. C. I.）"
   }
  ],
  "pages_done": 2,
@@ -27,6 +29,11 @@
   "ocr_in_tokens": 5468,
   "ocr_out_tokens": 319,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:31:28"
- }
+  "ocr_at": "2026-08-12 03:31:28",
+  "zh_in_tokens": 558,
+  "zh_out_tokens": 358,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

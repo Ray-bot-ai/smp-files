@@ -10,7 +10,8 @@
    "n": 0,
    "en": "Form No. 3\nC. 25,000-1-34\n\nSHANGHAI MUNICIPAL POLICE.\n（印：SHANGHAI MUNICIPAL POLICE File No. B. REGISTRY. No. D. 5785 Date 21 / 4 / 34）\n\nREPORT\nS.2, Special Branch\nDate April 21, 1934\n\nSubject (in full) Peter Silin, Soviet Employee.\n\nMade by D.S. Tcheremshansky Forwarded by Em Golan H.\n\nPeter Silin, 38, U.S.S.R. diplomatic courier, arrived\nat Shanghai from Moscow via Kobe, Japan, on March 31, 1934 by\ns.s. \"Shanghai Maru\" accompanied by another courier J.\nAntashevitch. Silin holds a diplomatic passport No.2551\nissued by the Commissariat for Foreign Affairs on August 2,\n1933 in Moscow. Passport bears the Chinese visa issued by\nthe Chinese Embassy in Moscow on March 7, 1934.\nSilin stated in the Alien Declaration Form that he\nwill stay at Shanghai for 15 days and will reside in the\nU.S.S.R. Consulate-General.\n\n（批：File entry sent to Ins. S.）\n\nG Tcheremshansky\nD. S.\n\nDeputy Commissioner\nSpecial Branch.",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1909/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1909/page/n0_w2400.jpg",
+   "zh": "表格第3号\nC. 25,000-1-34\n\n上海公共租界工部局警务处。\n（印：上海公共租界工部局警务处 档案号 B. 登记号 D. 5785 日期 34年4月21日）\n\n报告\n特别支部 S.2\n日期 1934年4月21日\n\n事由（全称）彼得·西林（Peter Silin），苏联雇员。\n\n呈报人：D.S. 切列姆尚斯基（Tcheremshansky） 转呈人：Em Golan H.\n\n彼得·西林，38岁，苏维埃社会主义共和国联盟外交信使，于1934年3月31日乘“上海丸”号轮船，经日本神户从莫斯科抵达上海，同行者有另一名信使 J. 安塔舍维奇（Antashevitch）。西林持有苏联外交人民委员部于1933年8月2日在莫斯科签发的第2551号外交护照。该护照贴有中国驻莫斯科大使馆于1934年3月7日签发的中国签证。\n西林在《外侨申报单》中称，他将在上海停留15天，并寓居于苏联总领事馆。\n\n（批：归档件已送交警司 S.）\n\nG. 切列姆尚斯基\nD. S.\n\n副总监\n特别支部"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2762,
   "ocr_out_tokens": 314,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:33:47"
- }
+  "ocr_at": "2026-08-12 03:33:47",
+  "zh_in_tokens": 546,
+  "zh_out_tokens": 326,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

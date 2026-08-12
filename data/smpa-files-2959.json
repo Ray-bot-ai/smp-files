@@ -10,13 +10,15 @@
    "n": 0,
    "en": "D4833",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-2959/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-2959/page/n0_w2400.jpg",
+   "zh": "D4833"
   },
   {
    "n": 1,
    "en": "SHANGHAI MUNICIPAL POLICE\nC. S. B. REGISTRY\nV. D 4823\nS.2 Special Branch. p33\nMay 3,1933.\n\nMemorandum on the movements of Miss A.P. Tishevsky\nSoviet Employee\n\nMiss A.P. Tishevsky former employee of the local branch\nof Chinese Eastern Railway who was discharged about four\nmonths ago and since worked casually with this office left\nfor Tientsin by rail towards the end of April,1933.\nIt is reported that she will be employed in Tientsin with\nTientsin Branch of the Commercial Agency of C.E.R.\nWhen in Shanghai Miss Tishevsky resided at No 2ol Avenue\nDubail, apart 81.\n\nJR\ngtcheremshanny.\nD.S.\n\nOfficer i/c Special Branch.\nInformation.\nDBR 3/5\nMAY 4 1933",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-2959/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-2959/page/n1_w2400.jpg",
+   "zh": "上海公共租界工部局警务处\n中央捕房档案室\nV. D 4823\nS.2 特别股。第33页\n1933年5月3日。\n\n关于A.P. 季舍夫斯卡娅小姐行踪的备忘录\n苏联雇员\n\nA.P. 季舍夫斯卡娅小姐系前中东铁路上海分局雇员，约于四个月前被解雇，此后在本办事处临时工作，于1933年4月底乘火车前往天津。\n据报，她将在天津受雇于中东铁路商务代办处天津分处。\n季舍夫斯卡娅小姐在上海期间，居住于杜美路（Avenue Dubail）201号81室。\n\nJR\ngtcheremshanny.\nD.S.\n\n特别股主管警官。\n情报。\nDBR 3/5\n1933年5月4日"
   }
  ],
  "pages_done": 2,
@@ -27,6 +29,11 @@
   "ocr_in_tokens": 5456,
   "ocr_out_tokens": 222,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:28:42"
- }
+  "ocr_at": "2026-08-12 03:28:42",
+  "zh_in_tokens": 461,
+  "zh_out_tokens": 219,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

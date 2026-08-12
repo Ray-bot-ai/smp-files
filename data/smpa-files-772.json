@@ -10,7 +10,8 @@
    "n": 0,
    "en": "10.7834\nD 4424\nD 4157\nNo. 200 All.\nMay 22, 1935.\n\n（印：C O P Y）\n\nEarl Browder\n\nThe current number of the Readers' Digest contains\nan article on the American Communist Party wherein the\nfollowing reference is made to Earl Browder :-\n\n\"The Secretary of the Party - the sub-Stalin of America -\nis a man named Earl Browder, who was born 43 Years ago in\nWichitta, Kansas. He is a small, thin-faced, sandy man\nwith a quiet voice and a quizzical eye - a distinctly\nAmerican type. He is a good executive and he knows how\nto handle the racial mixture he daily encounters. During\nthe war he spent two years in Leavenworth for his anti-\nWar activities. For 18 years he was a certified public\naccountant. His second in command is Clarence Hathaway,\nbig, blue-eyed, ex-machinist from Minnesota, who edits\nthe official Party organ, the Daily Worker.\n\nSERVICE POLITIQUE\nEnregistré le 23 MAY 1935\nSous No. 5558\nTransmis à\nPour",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-772/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-772/page/n0_w2400.jpg",
+   "zh": "10.7834\nD 4424\nD 4157\n第 200 All. 号。\n1935年5月22日。\n\n（印：副本）\n\n厄尔·白劳德 (Earl Browder)\n\n本期《读者文摘》(Readers' Digest) 刊登了一篇关于美国共产党的文章，其中提及厄尔·白劳德如下：\n\n“该党书记——美国的次斯大林——是一位名叫厄尔·白劳德的人，他于43年前出生于堪萨斯州威奇托 (Wichitta)。他身材矮小，面容清瘦，肤色浅黄，声音低沉，眼神带着戏谑——是典型的美国人形象。他是一位干练的管理者，懂得如何应对每日接触到的种族混杂人群。战争期间，他因反战活动而在莱文沃思 (Leavenworth) 服刑两年。他曾担任注册会计师达18年之久。他的副手是克拉伦斯·哈撒韦 (Clarence Hathaway)，来自明尼苏达州，身材高大，蓝眼睛，前机械师，负责编辑党的官方机关报《工人日报》(Daily Worker)。\n\n政治处\n1935年5月23日登记\n编号 5558\n转呈至\n供"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2766,
   "ocr_out_tokens": 276,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:34:25"
- }
+  "ocr_at": "2026-08-12 03:34:25",
+  "zh_in_tokens": 508,
+  "zh_out_tokens": 286,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

@@ -10,7 +10,8 @@
    "n": 0,
    "en": "F. 201\nT.H. 1000-12-31.\nFILE No. D. 3508\nC. & S. B. REGISTRY\nSUBJECT:\nList of communists arrested\nDuring the month (on a label, if\nlikely to be forwarded not later than\nSENT TO 3rd of every month\nNAME DATE\nS. L. 15. 2. 32",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-539/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-539/page/n0_w2400.jpg",
+   "zh": "F. 201\nT.H. 1000-12-31.\n档案编号 D. 3508\n刑事与特别股登记处\n事由：\n被捕共产党人名单\n当月（如标签所示，若\n可能于每月3日前转发）\n发送至\n姓名 日期\nS. L. 1932年2月15日"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2708,
   "ocr_out_tokens": 99,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:37:47"
- }
+  "ocr_at": "2026-08-12 03:37:47",
+  "zh_in_tokens": 331,
+  "zh_out_tokens": 92,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

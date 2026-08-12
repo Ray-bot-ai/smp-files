@@ -10,7 +10,8 @@
    "n": 0,
    "en": "Fm. 2\nG. 35m-11-32\n\nSHANGHAI MUNICIPAL POLICE.\nREPORT\n\nSHANGHAI MUNICIPAL POLICE\nFile No. S. B. REGISTRY.\nNo. D 2554/26\nS.2, Special Br.\nDate 22 / 8 / 33\nAugust 22 - 1933\n\nSubject (in full) Meeting of communist suspects held in Western Chapei.\n\nMade by D.I.Kuh Pao-hwa Forwarded by [Signature]\n\nAgent A-4123 reports that five communist adherents of\nthe Western District held a meeting under one Siao Yang (小杨)\non a piece of vacant ground near the junction of Robison and\nKiaochow Roads, O.O.L., between 7 and 8 p.m. August 21, 1933\nand discussed the following :-\n(1) That cells each consisting of five persons be organized\nin various industrial concerns in the Western District\nand that each cell hold two meetings weekly.\n(2) That the abolition of bonuses and the employment of casual\nworkers be opposed.\n(3) That the people be urged to support the Barbusse Mission\nand that struggles be commenced in various industrial\nconcerns.\n(4) That a Women's Department be organized to undertake\npropaganda among female workers.\nThe description of Siao Yang is as follows:-\nAge about 27, native of Hunan, height 5'5\", fair\ncomplexion, long face, usually dresses in a blue cloth\nworker's suit. He is reported to be the Clerk of the\nLabour Department of the Shanghai Western Special District\nCommittee of the Chinese Communist Party.\nParticulars of this individual have been recorded.\n\n(印：FILED / [Signature] / O.C./C.S.B)\n\nKuh Pao-hwa\nD. I.\n\nOfficer i/c Special Branch.",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1105/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1105/page/n0_w2400.jpg",
+   "zh": "发自 2\nG. 35m-11-32\n\n上海公共租界工部局警务处。\n报告\n\n上海公共租界工部局警务处\n档案号 S. B. REGISTRY.\n编号 D 2554/26\nS.2，特别处\n日期 1933年8月22日\n\n主题（全称）：共产主义嫌疑人在闸北西区举行的会议。\n\n制作：督察顾宝华 转呈 [签名]\n\n特工 A-4123 报告称，1933年8月21日晚7时至8时之间，五名西区共产主义追随者在罗宾森路（Robison Road）与胶州路（Kiaochow Road）交界处附近的一块空地上，在一位名为小杨（Siao Yang）的人主持下举行了一次会议，并讨论了以下事项：\n(1) 在西区各工业企业中组织细胞小组，每组由五人组成，且每个细胞小组每周举行两次会议。\n(2) 反对取消奖金以及雇佣临时工。\n(3) 敦促民众支持巴比塞代表团（Barbusse Mission），并在各工业企业中发起斗争。\n(4) 组建妇女部，以在女工中开展宣传工作。\n小杨的外貌特征如下：\n年龄约27岁，湖南籍，身高5英尺5英寸，肤色白皙，长脸，通常身穿蓝色布制工人服。据报其担任中国共产党上海西区特别委员会劳工部书记。\n该人员的相关资料已存档。\n\n（印：归档 / [签名] / 特别处处长）\n\n顾宝华\n督察\n\n特别处处长"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2734,
   "ocr_out_tokens": 433,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:36:19"
- }
+  "ocr_at": "2026-08-12 03:36:19",
+  "zh_in_tokens": 665,
+  "zh_out_tokens": 362,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

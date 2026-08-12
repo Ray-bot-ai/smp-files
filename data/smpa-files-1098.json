@@ -10,7 +10,8 @@
    "n": 0,
    "en": "FM. 2\nG. 498-1-36\n\nSHANGHAI MUNICIPAL POLICE.\nFile No. 8032\nSpecial Branch - CS6 Station, 28 7 37\nREPORT\nDate July 28, 1937.\n\nSubject Maurice HONEL, French Communist deputy.\n\nMade by and Forwarded by D.S. Pitts.\n\n（批：x arriving here on July 28, 1937.）\n\nIt was learned this morning that among the passengers from Marseilles to Hongkong on the Messageries Maritimes m.m. \"Jean Laborde\" was a French communist deputy named Maurice HONEL. Aged 34 years this man travelled second class and spent a part of his time on board in spreading communistic doctrines among the crew of the vessel. The purser of the \"Jean Laborde\" stated that he advised the police authorities in Colombo, Singapore and Saigon of this individual's activities. He is said to have put up at the Peninsula Hotel, Kowloon (Hongkong), after leaving the ship, and according to information received it is intention to proceed to Canton, Haiphong and possibly North China before returning to Haiphong and Saigon and then to France.\n\nThe trip he is making is not being financed by the French Government but by the French Communist Party and it is reported that it is his object to spend most of his time in the dissemination of communistic propaganda.\n\n（批：Capt K Mr Stepton）\n\n（印：29 JULY 1937 SHANGHAI）\n\nD.S. Pitts -\nD. S.\n\nD.C. (Special Branch).\n\n（批：Copy sent. DR 29/7）\n（批：Copy sent to French Police. D.S.P. 28/7）\n（批：File）",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1098/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1098/page/n0_w2400.jpg",
+   "zh": "FM. 2\nG. 498-1-36\n\n上海公共租界工部局警务处。\n档案编号 8032\n特务科 - CS6 巡捕房，1937年7月28日\n报告\n日期：1937年7月28日。\n\n主题：莫里斯·奥内尔（Maurice HONEL），法国共产党议员。\n\n撰写及呈报人：D.S. Pitts。\n\n（批注：x 于1937年7月28日抵达此处。）\n\n今晨获悉，在马赛至香港的法国邮船公司（Messageries Maritimes）“让·拉博德”号（m.m. \"Jean Laborde\"）轮船乘客中，有一名名为莫里斯·奥内尔（Maurice HONEL）的法国共产党议员。此人现年34岁，乘坐二等舱，并在航行期间花费部分时间在船员中传播共产主义学说。“让·拉博德”号的管事声明，他已将该人的活动情况通报给科伦坡、新加坡和西贡的警察当局。据称，该人离船后入住九龙（香港）半岛酒店，且根据所获情报，其计划在返回西贡和法国之前，前往广州、海防，并可能前往华北地区。\n\n此次行程并非由法国政府资助，而是由法国共产党资助，据报道，其主要目的是将大部分时间用于散布共产主义宣传。\n\n（批注：Capt K Mr Stepton）\n\n（印章：1937年7月29日 上海）\n\nD.S. Pitts -\nD. S.\n\n副督察（特务科）。\n\n（批注：副本已发送。DR 29/7）\n（批注：副本已发送至法国警方。D.S.P. 28/7）\n（批注：归档）"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2692,
   "ocr_out_tokens": 403,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:40:01"
- }
+  "ocr_at": "2026-08-12 03:40:01",
+  "zh_in_tokens": 635,
+  "zh_out_tokens": 415,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

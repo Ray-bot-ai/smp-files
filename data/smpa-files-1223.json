@@ -10,13 +10,15 @@
    "n": 0,
    "en": "SHANGHAI MUNICIPAL POLICE\nREGISTRY\nSECTION 2.\nSeptember 28, 1933\n\nMemorandum on the movements of N. Itkin, Soviet employee.\n\nNathan Itkin, 33, employee of the Far Eastern Lumber\nTrust ( Dalles ) , who left Shanghai for the U.S.S.R. via\nJapan on or about January 1, 1933, returned here on September\n28, 1933 by the s.s. Askeladden, from Vladivostock.\nHe travels on passport No 93721/425907 issued on Sep-\ntember 4, 1933 in Habarovsk.\nHis address in Shanghai has not yet been located.\n\nG. Prokofieff\nD, S.\n\nOfficer i/c Special Branch.\nInformation.\nDBR 2879.\nFile\nJills\nSEP. 29 1933",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1223/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1223/page/n0_w2400.jpg",
+   "zh": "上海公共租界工部局警务处\n档案室\n第二科。\n1933年9月28日\n\n关于苏联雇员 N. Itkin 行踪的备忘录。\n\nNathan Itkin，33岁，远东木材托拉斯（Dalles）雇员，于1933年1月1日左右经日本离开上海前往苏联，后于1933年9月28日乘“阿斯克勒登”号（s.s. Askeladden）轮船从符拉迪沃斯托克返回此地。\n他持1933年9月4日在哈巴罗夫斯克签发的第93721/425907号护照旅行。\n其在上海的住址尚未查明。\n\nG. Prokofieff\n侦探警长。\n\n特别科主管警官。\n情报。\nDBR 2879。\n卷宗\nJills\n1933年9月29日"
   },
   {
    "n": 1,
    "en": "SHANGHAI MUNICIPAL POLICE\n& S. B. REGISTRY.\nNo. D 3437\nDate 1 / 4 / 32\n\nSpecial Branch S.2.\nApril 1, 1932.\n\nMemorandum on movements of Nathan Lvovich Itkin,\nSoviet Employee.\n\nThis individual arrived in Shanghai from\nDairen by the s.s. \"Hoten Maru\", on March 31, 1932.\nHe is a Russian of Jewish extraction and is 32 years\nof age. He is an agent of \"Dalles\" (Far Eastern\nLumber Trust). Itkin arrived in Shanghai accom-\npanied by his wife N.L. Itkin who is reported to\nhave been formerly employed in the secretariat\ndepartment of \"Zik\" (Central Executive Committee\nof U.S.S.R.). Efforts are made to locate his\nplace of residence.\n\nG. Tcheremshansky\nD. S.\n\nOfficer i/c Special Branch.\nInformation.\nSSR 1/4\nFile\n9/5",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1223/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1223/page/n1_w2400.jpg",
+   "zh": "上海公共租界工部局警务处\n& 特别科档案室。\n编号 D 3437\n日期 1932年4月1日\n\n特别科 S.2.\n1932年4月1日。\n\n关于苏联雇员 Nathan Lvovich Itkin 行踪的备忘录。\n\n此人于1932年3月31日乘“保天丸”号（s.s. \"Hoten Maru\"）轮船从大连抵达上海。\n他是犹太裔俄罗斯人，现年32岁。他是“Dalles”（远东木材托拉斯）的代理人。Itkin 抵沪时由其妻子 N.L. Itkin 陪同，据报其妻此前曾在“Zik”（苏联中央执行委员会）秘书处任职。正设法查寻其居住地。\n\nG. Tcheremshansky\n侦探警长。\n\n特别科主管警官。\n情报。\nSSR 1/4\n卷宗\n9/5"
   }
  ],
  "pages_done": 2,
@@ -27,6 +29,11 @@
   "ocr_in_tokens": 5402,
   "ocr_out_tokens": 460,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:31:00"
- }
+  "ocr_at": "2026-08-12 03:31:00",
+  "zh_in_tokens": 699,
+  "zh_out_tokens": 437,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

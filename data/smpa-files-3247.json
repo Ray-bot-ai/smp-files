@@ -10,19 +10,22 @@
    "n": 0,
    "en": "D45\nD45 M. N. EKSHOFF, SUSPECTED SOV-\n1929 -IET AGENT.\n18. 2. 27.\nD-45",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-3247/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-3247/page/n0_w2400.jpg",
+   "zh": "D45\nD45 M. N. EKSHOFF，疑似苏\n1929 -联特工。\n18. 2. 27.\nD-45"
   },
   {
    "n": 1,
    "en": "Form No. 3\nG. 20009-1-28\n\nSHANGHAI MUNICIPAL POLICE\nSHANGHAI MUNICIPAL C. POLICE REGISTRY\nNo. I. O. D... 45... Central I. B. Station\nREPORT Date...... 18. 2. 29.\nDate February 18, 19 29\nFile No.\n\nSubject (in full) Visit of Suspected Soviet Agent to Shanghai.\n\nMade by T. P. J. Medvedeff Forwarded by H. Gweno A. C. Pol.\n\nSir,\nThe undermentioned suspected Soviet Agent arrived in Shanghai\nfrom Harbin on February 12, 1929 and left again for the latter\nport in the S.S. \"Dairen Maru\" on February 17, 1929.\n\nMichael Nikitich Ershoff. Employed in the Traffic Department\nof the Chinese Eastern Railway at\nHarbin. Supposed to have come to\nShanghai in search of his wife who\nleft him sometime ago. During his\nstay here, he resided at 163 East\nSeward Road.\n\nT. Medvedeff\nT. P. J.\n\nA.R. 18费 A/D.C.I.\n\nAcm",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-3247/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-3247/page/n1_w2400.jpg",
+   "zh": "表格第3号\nG. 20009-1-28\n\n上海公共租界工部局警务处\n上海公共租界中央巡捕房登记处\n编号 I. O. D... 45... 中央情报局分站\n报告 日期...... 1929年2月18日\n日期 1929年2月18日\n档案号\n\n主题（全称） 疑似苏联特工访沪。\n\n呈报人 T. P. J. Medvedeff 转呈人 H. Gweno 助理警司\n\n先生：\n下述疑似苏联特工于1929年2月12日从哈尔滨抵达上海，并于1929年2月17日乘“大连丸”号轮船再次前往该港口。\n\nMichael Nikitich Ershoff。受雇于哈尔滨中东铁路局运输部。据称来上海是为了寻找不久前离他而去的妻子。在沪期间，他居住于东熙华德路163号。\n\nT. Medvedeff\nT. P. J.\n\nA.R. 18费 A/副督察长\n\nAcm"
   },
   {
    "n": 2,
    "en": "ERSHOFF, Michael Nikitish - Soviet\nEmployed in Traffic Dept. of Chinese Eastern Railway\nat Harbin.\nArrived in Shanghai from Harbin on 12 Feb. 1929 and\nleft again for the latter port in the S.S. \"Dairen Maru\"\non 17 Feb. 1929. Resided at 163 East Seward Rd.\n\nSMP\nSMP: I.O. D 45\n18 Feb. 1929",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-3247/page/n2_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-3247/page/n2_w2400.jpg",
+   "zh": "ERSHOFF, Michael Nikitish - 苏联\n受雇于哈尔滨中东铁路局运输部。\n于1929年2月12日从哈尔滨抵达上海，并于1929年2月17日乘“大连丸”号轮船再次前往该港口。居住于东熙华德路163号。\n\n上海公共租界工部局警务处\n上海公共租界工部局警务处：I.O. D 45\n1929年2月18日"
   }
  ],
  "pages_done": 3,
@@ -33,6 +36,11 @@
   "ocr_in_tokens": 8142,
   "ocr_out_tokens": 452,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:09:06"
- }
+  "ocr_at": "2026-08-12 03:09:06",
+  "zh_in_tokens": 698,
+  "zh_out_tokens": 423,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 3
 }

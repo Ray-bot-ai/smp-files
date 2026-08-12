@@ -10,7 +10,8 @@
    "n": 0,
    "en": "G. 35000-1-34\n\nSHANGHAI MUNICIPAL POLICE.\nSection 2, Special Branch.\nREPORT\n\n（印：SHANGHAI MUNICIPAL POLICE\nFile & S.B. REGISTRY.\nNo. D 5823\nDate April 20 / 34）\n\nSubject (in full) F. A. Doerbeck, Soviet Doctor.\n\nMade by D.S. Tcheremshansky Forwarded by [签名]\n\nFriedrich Albert Doerbeck, M.D., Russian of German\nextraction, born in 1871 at Leningrad, an ex-Soviet employee,\narrived at Shanghai from Vladivostok via Japan on April 8, 1934,\nby the s.s. \"Tatsuta Maru\". He holds U.S.S.R. passport\nNo. 193736/425017 issued in Habarovsk, bearing a Chinese visa\nissued by the Chinese Consulate-General in Kobe on April 4, 1934.\nOn the alien declaration form, Doerbeck stated that he will\nreside with his daughter Mrs. Jacobson, No. 46 Nanyang Road.\nIt is reported that Dr. Doerbeck intends starting a hospital\nand that he will also act as medical advisor to local Soviet\nestablishments.\n\n[批：Jul 30]\n\n[签名：g tcheremshansky]\nD. S.\n\nOfficer i/c Special Branch.",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-829/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-829/page/n0_w2400.jpg",
+   "zh": "G. 35000-1-34\n\n上海公共租界工部局警务处。\n特务科第二股。\n报告\n\n（印：上海公共租界工部局警务处\n档案及特务科登记处。\n编号 D 5823\n日期 1934年4月20日）\n\n事由（全称） F. A. Doerbeck，苏联医生。\n\n制作人 D.S. Tcheremshansky 转呈人 [签名]\n\n弗里德里希·阿尔伯特·多尔贝克（Friedrich Albert Doerbeck），医学博士，俄籍德裔，1871年生于列宁格勒，前苏联雇员，于1934年4月8日乘“龙田丸”号轮船（s.s. \"Tatsuta Maru\"）经日本从符拉迪沃斯托克抵达上海。他持有在哈巴罗夫斯克签发的苏联护照，号码为193736/425017，并附有中国领事馆于1934年4月4日在神户签发的中国签证。在外侨申报表中，多尔贝克声明他将与其女儿雅各布森夫人（Mrs. Jacobson）同住，地址为南阳路46号。据报，多尔贝克医生打算开办一家医院，并将担任当地苏联机构的医疗顾问。\n\n[批注：7月30日]\n\n[签名：g tcheremshansky]\nD. S.\n\n特务科主管警官。"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2714,
   "ocr_out_tokens": 338,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:38:54"
- }
+  "ocr_at": "2026-08-12 03:38:54",
+  "zh_in_tokens": 570,
+  "zh_out_tokens": 342,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

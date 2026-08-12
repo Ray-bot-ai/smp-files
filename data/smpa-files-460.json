@@ -10,7 +10,8 @@
    "n": 0,
    "en": "SHANGHAI MUNICIPAL POLICE\nFile No. S. B. REGISTRY.\nS. 2, Special Branch. No. D 6781.\nREPORT\nDate June 15. 1935.\nSubject Arrival of J.V. Gaidul, Soviet Citizen.\nMade by. D.S.I. Prokofiev. Forwarded by. [Signature] 99\n\nJoseph V. GAIDUL, Soviet citizen, arrived in\nShanghai from Moscow via Vladivostock on June 12, 1935, in the\ns.s. \"SEVER\". He holds Soviet passport No.189710 issued\non February 2, 1935, at Moscow. According to him he will\nbe attached to the local branch of the Moscow Narodny Bank.\nGaidul is accompanied by his wife, Mrs. Irene V.\nGaidul, 35, and their daughter, 6 years of age.\nTheir address in Shanghai has not yet been located.\n\nA. Prokofiev\nD. S. I.\n\nD. C. (Special Branch).\nFile\n[Signature]",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-460/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-460/page/n0_w2400.jpg",
+   "zh": "上海公共租界工部局警务处\n档案编号：S. B. 登记处。\nS. 2，特科。编号 D 6781。\n报告\n日期：1935年6月15日。\n事由：苏联公民 J.V. Gaidul 抵沪。\n呈报人：侦探副督察 Prokofiev。转呈人：[签名] 99\n\n约瑟夫·V·盖杜尔（Joseph V. GAIDUL），苏联公民，于1935年6月12日乘坐“SEVER”号轮船，经海参崴从莫斯科抵达上海。他持有1935年2月2日在莫斯科签发的苏联护照，号码为189710。据其称，他将任职于莫斯科国民银行（Moscow Narodny Bank）本地分行。\n盖杜尔由其妻子艾琳·V·盖杜尔夫人（Mrs. Irene V. Gaidul，35岁）及其6岁的女儿陪同。\n他们在上海的住址尚未查明。\n\nA. Prokofiev\n侦探副督察\n\nD. C. （特科）。\n归档\n[签名]"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2752,
   "ocr_out_tokens": 253,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:39:14"
- }
+  "ocr_at": "2026-08-12 03:39:14",
+  "zh_in_tokens": 485,
+  "zh_out_tokens": 261,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

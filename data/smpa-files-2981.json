@@ -10,13 +10,15 @@
    "n": 0,
    "en": "D-856",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-2981/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-2981/page/n0_w2400.jpg",
+   "zh": "D-856"
   },
   {
    "n": 1,
    "en": "THE CHINA PRESS, FRIDAY, JANUARY 3, 1930\nSHANGHAI MUNICIPAL POLICE\nC. I. D. REGISTRY\nNo. I. O. D. 856...\nDate..7.....1.....30.\n\nAmerica's Communist\nParty Expel Former\nProfessor, Is Report\n\n(Associated Press through Reuter)\nNew York, January 2.—The New\nYork Times understands that Mr.\nScott Nearing, whose political opin-\nions were responsible for the loss\nof his professorships at the univ-\nersities of Pennsylvania and Toledo,\nhas now been expelled from the\nCommunist Party of America.\nNearing recently antagonised his\nfellow-Communists by criticising\nthe way in which the Communist\nParty ran its Presidential campaign\nin 1928.\n\nU.P.C.I.\nCol. Holland is interested\nin Mr. Scott Nearing.\n\n4/2\nM.S\n\nPOLITICAL BRANCH\n(FOREIGN SECTION)\nDATE 4 . 1 . 30\nA.R. 8.1.\n\nInv\nU.S. Sec\n\nMr. P.H.\nLem",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-2981/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-2981/page/n1_w2400.jpg",
+   "zh": "《大陆报》，1930年1月3日，星期五\n上海公共租界工部局警务处\n刑事侦缉处登记室\n编号 I. O. D. 856...\n日期..7.....1.....30.\n\n据报美国共产党\n开除前教授\n\n（美联社通过路透社）\n纽约，1月2日。——《纽约时报》获悉，斯科特·尼尔林（Scott Nearing）先生因其政治观点导致其失去了宾夕法尼亚大学和托莱多大学的教授职位，现已被美国共产党开除。\n尼尔林最近因批评共产党在1928年总统竞选中的运作方式而与其共产党同志产生对立。\n\nU.P.C.I.\n霍兰德上校对斯科特·尼尔林先生感兴趣。\n\n4/2\nM.S\n\n政治部\n（外侨科）\n日期 4 . 1 . 30\nA.R. 8.1.\n\nInv\n美国领事馆\n\nP.H. 先生\nLem"
   }
  ],
  "pages_done": 2,
@@ -27,6 +29,11 @@
   "ocr_in_tokens": 5459,
   "ocr_out_tokens": 268,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:31:18"
- }
+  "ocr_at": "2026-08-12 03:31:18",
+  "zh_in_tokens": 507,
+  "zh_out_tokens": 237,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

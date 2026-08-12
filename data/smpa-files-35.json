@@ -10,13 +10,15 @@
    "n": 0,
    "en": "Form No. 3\nC. 25,000-1-34\n\nSHANGHAI MUNICIPAL POLICE.\nREPORT\nS.2, Special Branch.\nDate... 2 / 4 / 34\n\n（印：SHANGHAI MUNICIPAL POLICE\nFile No. 5784\nC & S. B. REGISTRY.\nDate 2 / 4 / 34）\n\nSubject (in full)........................................ Arkady Beeman, Soviet Employee.\n\nMade by... D.S. Tcheremshansky .................... Forwarded by... Em Golan O.I.9\n\nArkady Beeman, 47, representative of \"Intourist\"\n(Soviet Foreign Tourist Company) in Moscow, arrived at\nShanghai from Moscow via Kobe, Japan, on March 31, 1934 by\ns.s. \"Shanghai Maru\". He holds a U.S.S.R. passport No.1764\nissued on November 16, 1932, by the Commissariat of Foreign\nAffairs, bearing a Chinese visa issued on March 27, 1934 by\nthe Chinese Consulate-General in Yokohama.\n\nIn the Alien Declaration Form, Beeman stated that he\nwill stay at Shanghai for 15 days. His place of residence\nat Shanghai is unknown.\n\n（批：file 3/2）\n\nD. Tcheremshansky\nD. S.\n\nDeputy Commissioner,\nSpecial Branch.",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-35/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-35/page/n0_w2400.jpg",
+   "zh": "表格第3号\nC. 25,000-1-34\n\n上海公共租界工部局警务处。\n报告\n特别支部，S.2组。\n日期……1934年4月2日\n\n（印章：上海公共租界工部局警务处\n档案编号 5784\n刑事与特别支部登记处。\n日期 1934年4月2日）\n\n事由（全称）........................................ 阿尔卡季·比曼（Arkady Beeman），苏联雇员。\n\n制作人……D.S. 切列姆尚斯基（D.S. Tcheremshansky）.................... 转呈人……Em Golan O.I.9\n\n阿尔卡季·比曼，47岁，莫斯科“国际旅游公司”（Intourist，苏联外国游客公司）代表，于1934年3月31日乘坐“上海丸”号轮船，经日本神户从莫斯科抵达上海。他持有苏联护照第1764号，该护照由外交人民委员部于1932年11月16日签发，并贴有中国驻横滨总领事馆于1934年3月27日签发的中国签证。\n\n在外侨申报表中，比曼声明将在上海停留15天。其在上海的住址不详。\n\n（批注：归档 3/2）\n\nD. 切列姆尚斯基\nD. S.\n\n副总监，\n特别支部。"
   },
   {
    "n": 1,
    "en": "BERMAN, Arkady - Soviet\nRepresentative of \"Intourist\".\nHolds USSR passport No. 1764.\n\nSMP\nNo. 354\n6 April 1934\nSMP: No. D 5784",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-35/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-35/page/n1_w2400.jpg",
+   "zh": "比曼（BERMAN），阿尔卡季 - 苏联籍\n“国际旅游公司”（Intourist）代表。\n持有苏联护照第1764号。\n\n上海公共租界工部局警务处\n编号 354\n1934年4月6日\n上海公共租界工部局警务处：编号 D 5784"
   }
  ],
  "pages_done": 2,
@@ -27,6 +29,11 @@
   "ocr_in_tokens": 5524,
   "ocr_out_tokens": 392,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:19:21"
- }
+  "ocr_at": "2026-08-12 03:19:21",
+  "zh_in_tokens": 631,
+  "zh_out_tokens": 420,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

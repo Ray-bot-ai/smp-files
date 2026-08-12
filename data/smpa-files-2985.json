@@ -10,7 +10,8 @@
    "n": 0,
    "en": "SHANGHAI MUNICIPAL POLICE\nC. I. D. REGISTER\nNo. I. O. D. 1202.\nDate...26...4 - 30.\n\nThe Shanghai Evening Post, Monday, April 21, 1930\n\n（剪报内容无法辨认）\n\n85\n\nReg.\nPlease file JAS\n\nb. c.\n(Case 13)\nInformation\nWk 23 4/30",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-2985/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-2985/page/n0_w2400.jpg",
+   "zh": "上海公共租界工部局警务处\n刑事侦缉处登记簿\n编号 I. O. D. 1202。\n日期……26……4 - 30。\n\n《上海晚邮报》，1930年4月21日，星期一\n\n（剪报内容无法辨认）\n\n85\n\n登记。\n请归档 JAS\n\nb. c.\n（第13号案件）\n情报\n第23周 4/30"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2715,
   "ocr_out_tokens": 105,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:39:49"
- }
+  "ocr_at": "2026-08-12 03:39:49",
+  "zh_in_tokens": 337,
+  "zh_out_tokens": 112,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

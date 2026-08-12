@@ -10,19 +10,22 @@
    "n": 0,
    "en": "I.O.-7871",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-3263/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-3263/page/n0_w2400.jpg",
+   "zh": "I.O.-7871"
   },
   {
    "n": 1,
    "en": "Form No. 2\nG.36000-9-26\n7271\nShanghai Municipal Police.\nIntelligence Office Station.\nMay 6, 1927.\nREPORT ON Attempt to arrest Zung Kong Poh, (陳公博),\nnotorious communist.\nMade by D. S. I. Robertson Forwarded by J. Givens C. O. I.\n（印：整）\nSir,\nIn accordance with instruction received at noon\nto-day I accompanied the Chinese representatives from General\nYang Hu's Headquarters to the China Cotton Association, 32\nAvenue Edward VII in an endeavour to arrest Zung Kong Poh\n(陳公博), the notorious communist who is wanted by the said\nAuthorities. Our efforts were unsuccessful as the man had left\nthe premises prior to our arrival.\nI am, Sir,\nYour obedient servant,\nRobertson\nD. S. I.\nD. C. I.\nFile\nPoh.",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-3263/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-3263/page/n1_w2400.jpg",
+   "zh": "表格第2号\nG.36000-9-26\n7271\n上海公共租界工部局警务处。\n情报科分站。\n1927年5月6日。\n关于逮捕臭名昭著的共产党分子陈公博（Zung Kong Poh）未遂之报告。\n由副督察长 D. S. I. Robertson 呈报，经情报科科长 J. Givens 转呈\n（印：整）\n敬启者：\n遵照今日中午接获之指令，本人陪同杨虎将军总部派出的中方代表前往爱多亚路32号中国棉业联合会，试图逮捕上述当局通缉的臭名昭著的共产党分子陈公博（Zung Kong Poh）。因该人于我们抵达前已离开该处，故我们的行动未能成功。\n此致\n敬礼\n您的顺从仆人，\nRobertson\n副督察长\n助理督察长\n存档\nPoh."
   },
   {
    "n": 2,
    "en": "Translation of a letter from the Special\nAdministration Department attached to\nthe Headquarters of the Citizens\nRevolutionary Army:\n\n\"We beg to state that according to a\ndetective report 陳公博 徐玉書 Chen Kong Poh and Zee Ngoh\nSze, leaders of the Communist Party, have\nalready arrived in Shanghai. Yesterday certain\npersons communicated with these two men by\ntelephone No. C. 7785 which is attached to the\noffice of the Auditors' Association located\nat No. 32 Avenue Edward VII.\n\n\"We have now detailed our adjutant to\nthe address to effect their arrest and would\nrequest you for assistance.\"\n\nOK.\n\nChop of Yang Fu\nand\nChen Chuan",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-3263/page/n2_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-3263/page/n2_w2400.jpg",
+   "zh": "国民革命军总司令部附属特别行政部来函译文：\n\n“谨陈述如下：据侦探报告，共产党领导人陈公博、徐玉书（Zee Ngoh Sze）已抵上海。昨日有人通过电话号码 C. 7785 与此二人联络，该电话设于位于爱多亚路32号的会计师公会办公室内。\n\n“我方现已派遣副官前往该地址实施逮捕，并恳请贵方予以协助。”\n\n照准。\n\n杨虎及陈群印章"
   }
  ],
  "pages_done": 3,
@@ -33,6 +36,11 @@
   "ocr_in_tokens": 8131,
   "ocr_out_tokens": 381,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:16:57"
- }
+  "ocr_at": "2026-08-12 03:16:57",
+  "zh_in_tokens": 627,
+  "zh_out_tokens": 347,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 3
 }

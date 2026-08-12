@@ -10,7 +10,8 @@
    "n": 0,
    "en": "7.72\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSpecial Branch Reg. OFFICE\nFILE NO. S. 7872\nSUBJECT:\nCho Ken Ho, Korean Communist.\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Transferred to | | So. 8632 |\n\nINSTRUCTIONS SEE OVER",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-107/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-107/page/n0_w2400.jpg",
+   "zh": "7.72\n上海公共租界工部局警务处\n交叉参考卡片\n特别支部 登记室\n档案编号 S. 7872\n事由：\nCho Ken Ho，朝鲜共产党人。\n\n| 详情 | 部门 | 档案编号 |\n| :--- | :--- | :--- |\n| 转至 | | So. 8632 |\n\n指示见背面"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2734,
   "ocr_out_tokens": 93,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:34:02"
- }
+  "ocr_at": "2026-08-12 03:34:02",
+  "zh_in_tokens": 325,
+  "zh_out_tokens": 95,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

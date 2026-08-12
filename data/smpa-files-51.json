@@ -10,19 +10,22 @@
    "n": 0,
    "en": "D-169",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-51/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-51/page/n0_w2400.jpg",
+   "zh": "D-169"
   },
   {
    "n": 1,
    "en": "Form No. 2\nG. 20000-1-28\n\nSHANGHAI MUNICIPAL POLICE\nREPORT\n\nFile No.......\nSHANGHAI MUNICIPAL POLICE\nC. I. D. REGISTRY\nNo. T. O. D.../E.9.... Station,\nDate...April...17...1929.\n\nSubject (in full) Arrival of Soviet agent\n\nMade by J. G. Ovsiannikoff Forwarded by H. Givens A. B. Pol.\n\nThe undermentioned Soviet Agent arrived in Shanghai\nfrom Harbin via Dairen on the s.s. \"Kotou Maru\" on April 1, 1929.\nComrade Kovenko Soviet Agent, Representative of Soviet\nmercantile fleet. Resided until April 3\nin the Palace Hotel but later removed\nto an unknown address. Endeavours\nare being made to locate him.\n\nIt is reported that he arrived here in connection\nwith proposed purchase by the Soviet mercantile fleet of the\ns.s. \"Isabelle\" now somewhere in Foochow undergoing repairs.\n\nV. Ovsiannikoff\nD. S.\n\nAR 14/37\nKey.\nA/ D.C.I.\n\nCopy to: H. B. M. Consul General\nCol. Nalland,\nCapt. Shelley\nLieut. Carlson\n6. Y In 17.4",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-51/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-51/page/n1_w2400.jpg",
+   "zh": "表格第2号\nG. 20000-1-28\n\n上海公共租界工部局警务处\n报告\n\n档案编号.......\n上海公共租界工部局警务处\n刑事侦缉处登记室\nT. O. D.../E.9.... 分局，\n日期...1929年4月17日。\n\n事由（详述）苏联代理人抵沪\n\n制作人 J. G. Ovsiannikoff 转呈人 H. Givens A. B. Pol.\n\n下述苏联代理人于1929年4月1日乘坐“Kotou Maru”号轮船，经大连从哈尔滨抵达上海。\n科文科同志（Comrade Kovenko），苏联代理人，苏联商船队代表。其居住于华懋饭店（Palace Hotel）直至4月3日，随后搬至一处不明地址。目前正在设法查明其下落。\n\n据报，他此次来沪与苏联商船队拟购买“Isabelle”号轮船一事有关，该船目前正于福州某处进行修理。\n\nV. Ovsiannikoff\n副警司（D. S.）\n\nAR 14/37\n索引。\nA/ 助理刑事侦缉处长（D.C.I.）\n\n抄送：英国驻沪总领事\n纳兰德上校（Col. Nalland），\n谢利上尉（Capt. Shelley）\n卡尔森中尉（Lieut. Carlson）\n6. Y In 17.4"
   },
   {
    "n": 2,
    "en": "KOVANKO - Soviet\nArrived in Shanghai on 1 April 1929 on the S.S. \"Hoten Maru\".\nRepresentative of Soviet mercantile fleet.\n\nSMP\nSMP: No. D 169",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-51/page/n2_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-51/page/n2_w2400.jpg",
+   "zh": "科万科（KOVANKO）- 苏联籍\n于1929年4月1日乘坐“Hoten Maru”号轮船抵达上海。\n苏联商船队代表。\n\n上海公共租界工部局警务处（SMP）\n上海公共租界工部局警务处（SMP）：编号 D 169"
   }
  ],
  "pages_done": 3,
@@ -33,6 +36,11 @@
   "ocr_in_tokens": 8142,
   "ocr_out_tokens": 375,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:01:27"
- }
+  "ocr_at": "2026-08-12 03:01:27",
+  "zh_in_tokens": 621,
+  "zh_out_tokens": 435,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 3
 }

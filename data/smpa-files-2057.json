@@ -10,7 +10,8 @@
    "n": 0,
    "en": "C. I. D.\nF. O. REG\nNo. 2308\nDate 27/2/20\n\nEvening Standard\nre\nBolshevist methods\nof Propaganda.\nAngelica Balabanoff",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-2057/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-2057/page/n0_w2400.jpg",
+   "zh": "刑事调查处\n外交部登记号\n第 2308 号\n日期 1920年2月27日\n\n《标准晚报》\n关于\n布尔什维克的宣传手段。\n安杰莉卡·巴拉巴诺夫"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2689,
   "ocr_out_tokens": 55,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:41:17"
- }
+  "ocr_at": "2026-08-12 03:41:17",
+  "zh_in_tokens": 287,
+  "zh_out_tokens": 61,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

@@ -10,25 +10,29 @@
    "n": 0,
    "en": "0-5502\n0-5503\n0-5504",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-741/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-741/page/n0_w2400.jpg",
+   "zh": "0-5502\n0-5503\n0-5504"
   },
   {
    "n": 1,
    "en": "C. & S. B. R. C.\nNo. D 5502\nDate 19 - 2 -\n\nSection 2, Special Branch,\nFebruary 17, 1934.\n\nMemorandum on the movements of A.I. Borodaenko,\nSoviet Employee.\n\nA. I. Borodaenko, acting manager of\nthe Freight Department of the Soviet Merchant\nFleet (Sovfracht), left Shanghai on\nFebruary 11, 1934 by...\nWhile at Shanghai he resided at\nApartments ...",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-741/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-741/page/n1_w2400.jpg",
+   "zh": "C. & S. B. R. C.\n编号 D 5502\n日期 19 - 2 -\n\n特务科第二股，\n1934年2月17日。\n\n关于苏联雇员 A.I. Borodaenko 行踪的备忘录。\n\nA. I. Borodaenko，苏联商船队（Sovfracht）货运部代理经理，于1934年2月11日离开上海，乘坐……\n在上海期间，他居住于……公寓"
   },
   {
    "n": 2,
    "en": "SHANGHAI MUNICIPAL POLICE.\nREPORT\n（印：SHANGHAI MUNICIPAL POLICE\nFile No. S. B. REGISTRY.）\nSECTION D\nDate November 29, 1933\ncitizen,\nthe\non",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-741/page/n2_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-741/page/n2_w2400.jpg",
+   "zh": "上海公共租界工部局警务处。\n报告\n（印章：上海公共租界工部局警务处\n档案号 S. B. REGISTRY.）\nD 股\n日期 1933年11月29日\n公民，\n该\n于"
   },
   {
    "n": 3,
    "en": "FORM NO. 3\nG. 40M-1-38\n\nSHANGHAI MUNICIPAL POLICE.    File No. D 5502.\nSection 1, Special Branch....Slditch/\nREPORT\nDate December 15, 19 38\nSubject (in full) Departure of N.N. Reshetoff, Soviet employee.\nMade by... D.S.I. Prokofiev.    Forwarded by C Crawford. D.I.\n\nMR. N.N. RESHETOFF, Manager of the Shipping De-\npartment, Exporthleb, left for Hongkong on December 13 in\nthe s.s. \"Empress of Russia\".\nHis private address in Shanghai is not available\nat present.\n\nA Prokofiev\nD. S. I.\n\nD. I. (Special Branch).",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-741/page/n3_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-741/page/n3_w2400.jpg",
+   "zh": "表格第3号\nG. 40M-1-38\n\n上海公共租界工部局警务处。    档案号 D 5502。\n特务科第一股....Slditch/\n报告\n日期 1938年12月15日\n事由（全称）苏联雇员 N.N. Reshetoff 离境。\n制作人... D.S.I. Prokofiev。    呈送人 C Crawford. D.I.\n\nN.N. RESHETOFF 先生，Exporthleb 航运部经理，于12月13日乘坐“俄罗斯皇后”号轮船（s.s. \"Empress of Russia\"）前往香港。\n目前无法提供其在上海的私人住址。\n\nA Prokofiev\nD. S. I.\n\nD. I. （特务科）。"
   }
  ],
  "pages_done": 4,
@@ -39,6 +43,11 @@
   "ocr_in_tokens": 10920,
   "ocr_out_tokens": 391,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 02:49:57"
- }
+  "ocr_at": "2026-08-12 02:49:57",
+  "zh_in_tokens": 644,
+  "zh_out_tokens": 405,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 4
 }

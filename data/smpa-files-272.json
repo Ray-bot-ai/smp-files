@@ -10,13 +10,15 @@
    "n": 0,
    "en": "D-5851\n+\nD-5852",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-272/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-272/page/n0_w2400.jpg",
+   "zh": "D-5851\n+\nD-5852"
   },
   {
    "n": 1,
    "en": "Form No. 3\nG. 25,000-1-34\n\nSHANGHAI MUNICIPAL POLICE.\nSection 2, Special Branch.\nREPORT\n（印：SHANGHAI MUNICIPAL POLICE File No. REGISTRY. 5852 Date 1 / 19 34）\nDate... May 1, 1934.\n\nSubject (in full) N. Sokoloff-Andreeff, Soviet Employee.\n\nMade by D.S. Tcheremshansky. Forwarded by [签名]\n\nN. Sokoloff-Andreeff, 46, employee of the local office\nof centrosojus, left Shanghai for Vladivostok by the s.s.\n\"Komiles\" on April 13, 1934, accompanied by his wife, daughter\nand one A. A. Golubeff, an employee of the local office of the\nU.S.S.R. Sokoloff was formerly employed with The Shanghai\nOil Distributors. Mrs. Sokoloff is a Russian, 35 years of age,\nand their daughter Tamara is 12 years of age.\nSokoloff resided from November 1, 1934 until March 7, 1934\nat Flat 406 Embankment Building, No. 410 North Soochow Road.\nLater, he removed to No. 37 Hwa Kee Avenue, No. 1025 Bubbling\nWell Road.\n\n[签名: g tcheremshansky]\nD. S.\n\nOfficer i/c Special Branch.",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-272/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-272/page/n1_w2400.jpg",
+   "zh": "表格第3号\nG. 25,000-1-34\n\n上海公共租界工部局警务处。\n特务科第二股。\n报告\n（印：上海公共租界工部局警务处 档案编号 登记处 5852 日期 1934年1月19日）\n日期……1934年5月1日。\n\n事由（全称） N. Sokoloff-Andreeff，苏联雇员。\n\n呈报人 D.S. Tcheremshansky。转呈人 [签名]\n\nN. Sokoloff-Andreeff，46岁，系中央消费合作总社（Centrosojus）本地办事处雇员，于1934年4月13日偕同其妻子、女儿以及一名苏联本地办事处雇员 A. A. Golubeff，乘“Komiles”号轮船离开上海前往符拉迪沃斯托克（海参崴）。Sokoloff 此前受雇于上海石油分销商公司（The Shanghai Oil Distributors）。Sokoloff 夫人为俄国人，35岁，其女 Tamara 12岁。\nSokoloff 自1934年11月1日至1934年3月7日期间，居住于北苏州路410号河滨大厦406室。随后，他迁至静安寺路1025号华琪路37号。\n\n[签名: g tcheremshansky]\nD. S.\n\n特务科主管警官。"
   }
  ],
  "pages_done": 2,
@@ -27,6 +29,11 @@
   "ocr_in_tokens": 5384,
   "ocr_out_tokens": 374,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:30:44"
- }
+  "ocr_at": "2026-08-12 03:30:44",
+  "zh_in_tokens": 613,
+  "zh_out_tokens": 371,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

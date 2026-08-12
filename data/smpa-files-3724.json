@@ -10,7 +10,8 @@
    "n": 0,
    "en": "SHANGHAI MUNICIPAL POLICE\nB. D. 7342\nCRIME DIARY.\n\"C\" Division.\nDixwell Road Police Station.\nApril 1, 19 36\nCRIME REGISTER No:— Misc. 20/36\nDiary Number:— 1\nNature of Offence:—\n（印：CRIME REGISTRY 6 4 / 36）\n\n| Time at which investigation begun and concluded each day | Places visited in course of investigation each day |\n| :--- | :--- |\n| | |\n\nRECORD OF INVESTIGATION.\nForeigner handed over by the North Szechuen Road\nPolice Station, S.P.S. Bureau.\n\nAt 5.15 p.m. on the 1-4-36 a telephone message was\nreceived from the Officer i/c of the North Szechuen Road\nPolice Station, S.P.S. Bureau, stating they had a foreigner\nin custody, and wished to hand him over to this station.\n\nThe Officer i/c of this District and the undersigned\nattended the said station.\n\nIt was learned Albert Maitland, aged 30 years,\nunemployed, British subject (not registered in the H.B.M.\nConsulate, as stated by Maitland) was arrested at 3.30 p.m.\non the 1-4-36 in the rear room of No. 49 Jukong Road, O.O.\nL., on suspicion of dealing in heroin by officers attached\nto the North Szechuen Road Police Station and members of\nthe Japanese Consulate Police. At the same time one\nKorean and two Chinese males were arrested in the front\nroom of the house where heroin was seized.\n\nNo narcotics were found in the room where Maitland\nwas arrested and nothing of an incriminating nature was\nfound on his person. The Officer i/c of the North Sze-\nchuen Road Police Station stated Maitland had not been\nimplicated by the Korean or Chinese.\n\nHe was handed over to this station and further\nquestioned when it was elicited that on the night of the\n31-3-36 he went to the house mentioned to meet a Korean\nwho he learned\nhad been arrested by the Japanese Consulate Police two\ndays ago, he remained in the rear room until he was\n\n（批：Received 3/4/36 Maitland!!）\n（批：P.A. to D.C. (CRIME)）\n（印：DEPUTY COMMISSIONER CRIME BRANCH）\n（批：FILE 3/2）",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-3724/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-3724/page/n0_w2400.jpg",
+   "zh": "上海公共租界工部局警务处\nB. D. 7342\n罪案日志。\n“C”分区。\n狄思威路捕房。\n1936年4月1日\n罪案登记号：— 杂项 20/36\n日志编号：— 1\n罪行性质：—\n（印：罪案登记处 6 4 / 36）\n\n| 每日开始及结束调查的时间 | 每日调查过程中走访的地点 |\n| :--- | :--- |\n| | |\n\n调查记录。\n由四川北路捕房（特别股）移交的外国人。\n\n1936年4月1日下午5时15分，接到四川北路捕房（特别股）主管警官的电话留言，称该捕房羁押了一名外国人，希望将其移交给本捕房。\n\n本区主管警官及签署人前往上述捕房。\n\n获悉阿尔伯特·梅特兰（Albert Maitland），30岁，无业，英国臣民（据梅特兰称，未在英国驻华领事馆注册），于1936年4月1日下午3时30分，在越界筑路区域菊康路49号的后屋内，因涉嫌贩卖海洛因，被隶属于四川北路捕房的警员及日本领事馆警察逮捕。同时，在该房屋的前屋内查获海洛因，并逮捕了一名朝鲜男子和两名中国男子。\n\n在梅特兰被捕的房间内未发现任何毒品，在其身上也未发现任何具有定罪性质的物品。四川北路捕房主管警官表示，梅特兰未被那名朝鲜人或中国人供出。\n\n他被移交给本捕房并接受进一步讯问，由此得知，在1936年3月31日晚，他前往上述房屋去见一名朝鲜人，他得知该朝鲜人已于两天前被日本领事馆警察逮捕，他一直留在后屋，直到他被\n\n（批：1936年4月3日收悉 梅特兰！！）\n（批：警务副总监助理（罪案））\n（印：罪案组副总监）\n（批：归档 3/2）"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2751,
   "ocr_out_tokens": 571,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:34:50"
- }
+  "ocr_at": "2026-08-12 03:34:50",
+  "zh_in_tokens": 803,
+  "zh_out_tokens": 472,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

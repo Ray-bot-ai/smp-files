@@ -10,7 +10,8 @@
    "n": 0,
    "en": "Form No. 3\nG. 25070-1-34\n\nSHANGHAI MUNICIPAL POLICE.\nSection 2, Special Branch. S/4168X\nREPORT\nFile No.\nDate January 17, 1935\n\nSubject in full L. Gemborek, Soviet diplomatic courier.\n\nMade by D.S. Tcheremshansky. Forwarded by\n\nLudvik Gemborek, born in 1884, U.S.S.R. diplomatic\ncourier, arrived at Shanghai from Vladivostok via Japan\non January 12, 1935, by s.s. \"Shanghai Maru\", accompanied\nby another courier A. D. Lanier.\n\nGemborek holds a diplomatic passport No. 2733 issued\non 2.2.34 in Moscow which bears a Chinese visa issued by\nChinese Embassy in Moscow on 18.12.34. Gemborek stated\nthat he would proceed to U.S.S.R. Embassy in Nanking.\n\nD. S. Tcheremshansky\nD. S.\n\nDeputy Commissioner (Special Branch).\n\nFile\nJAG.\nJAN 18 '35",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1000/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1000/page/n0_w2400.jpg",
+   "zh": "表格第3号\nG. 25070-1-34\n\n上海公共租界工部局警务处。\n特务科第二股。S/4168X\n报告\n档案编号\n日期 1935年1月17日\n\n事由全文：L. Gemborek，苏联外交信使。\n\n呈报人：D.S. Tcheremshansky。转呈人\n\nLudvik Gemborek，1884年生，苏联外交信使，于1935年1月12日乘“上海丸”轮经日本从符拉迪沃斯托克抵达上海，由另一名信使 A. D. Lanier 陪同。\n\nGemborek 持有1934年2月2日在莫斯科签发的第2733号外交护照，该护照贴有中国驻莫斯科大使馆于1934年12月18日签发的中国签证。Gemborek 称他将前往南京的苏联大使馆。\n\nD. S. Tcheremshansky\nD. S.\n\n副总监（特务科）。\n\n归档\nJAG.\n1935年1月18日"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2751,
   "ocr_out_tokens": 276,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:37:18"
- }
+  "ocr_at": "2026-08-12 03:37:18",
+  "zh_in_tokens": 508,
+  "zh_out_tokens": 271,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

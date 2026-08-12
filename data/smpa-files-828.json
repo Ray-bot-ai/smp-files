@@ -10,7 +10,8 @@
    "n": 0,
    "en": "FORM No. 3\nG. 35,000.35\n\nSHANGHAI MUNICIPAL POLICE.\nS. 2, Special Branch, D\nREPORT\nFile No.... S. B. REC[EIPT]... 67113\nDate...... May 25, 1935.\n\nSubject................ F. Chestakovsky, Soviet Diplomatic Courier.\n\nMade by D.S. Tcheremshansky. Forwarded by [Signature].\n\nFedor Chestakovsky, 45, Soviet Diplomatic Courier,\narrived in Shanghai from Moscow via Japan, on May 20, 1935 in\nthe s.s. \"President Johnson,\" accompanied by another courier,\nNicolas Genjuzist.\nChestakovsky holds a Diplomatic Passport No.3131\nissued by the People's Commissariat of Foreign Affairs on\nJanuary 23, 1935. This passport bears a Chinese visa issued\nby the Chinese Embassy in Moscow on April 24, 1935.\nOn the \"Alien Declaration Form\" Chestakovsky stated\nthat after a short stay in Shanghai he would proceed to Nanking\nand Peiping.\n\nD. S. Tcheremshansky\nD. S.\n\nD. C. (Special Branch).\n[Signature]\n25 MAY 1935",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-828/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-828/page/n0_w2400.jpg",
+   "zh": "表格第3号\nG. 35,000.35\n\n上海公共租界工部局警务处。\nS. 2，特务科，D\n报告\n档案编号…… S. B. 收文…… 67113\n日期…… 1935年5月25日。\n\n事由…… F. Chestakovsky（切斯塔科夫斯基），苏联外交信使。\n\n制作人：D.S. Tcheremshansky（切尔姆尚斯基）。呈报人：[签名]。\n\n费多尔·切斯塔科夫斯基（Fedor Chestakovsky），45岁，苏联外交信使，\n于1935年5月20日乘坐“约翰逊总统”号轮船，经日本从莫斯科抵达上海，\n同行者有另一名信使尼古拉斯·根朱斯特（Nicolas Genjuzist）。\n切斯塔科夫斯基持有1935年1月23日由苏联外交人民委员部签发的\n第3131号外交护照。该护照贴有中国驻莫斯科大使馆于1935年4月24日\n签发的中国签证。\n在《外侨申报单》上，切斯塔科夫斯基称，在上海短暂停留后，他将前往南京和北平。\n\nD. S. Tcheremshansky（切尔姆尚斯基）\nD. S.\n\n副督察长（特务科）。\n[签名]\n1935年5月25日"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2705,
   "ocr_out_tokens": 303,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:40:17"
- }
+  "ocr_at": "2026-08-12 03:40:17",
+  "zh_in_tokens": 534,
+  "zh_out_tokens": 331,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

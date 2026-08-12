@@ -10,19 +10,22 @@
    "n": 0,
    "en": "D-258",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-53/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-53/page/n0_w2400.jpg",
+   "zh": "D-258"
   },
   {
    "n": 1,
    "en": "Form No. 2\n20000-1-23\n\nSHANGHAI MUNICIPAL POLICE.\nREPORT\n\n（印：SHANGHAI MUNICIPAL POLICE\nC.I.D REGISTRY\nD. 238.\nForeign Section O...\nDate 5. 6. 29.\nJune 4, 1929）\n\nSubject (in full) Arrival of Suspected Soviet Agent.\n\nMade by D.S. Ovsiannikoff Forwarded by Tho Robertson C.D.I.\n\nThe undermentioned Suspected Soviet Agent arrived\nhere from Tsingtao on May 17 by the s.s. \"Dairen Maru\":\n\nMrs. Koroleff Suspected Soviet Agent, wife of a\nrepresentative of the Soviet Trade\nMission in Tsingtao, who was deported\nfrom the latter town by the Chinese\nauthorities on May 16 and left for Tientsin.\nComrade Koroleff is a member of the\nKomintern and an experienced political\nworker of the U.S.S.R.\nIt is reported that Mrs. Koroleff is\nresiding in French Concession and endeavours\nare being made to locate her exact address.\n\n（批：Why ?）\n\nV. Ovsianikoff\nD. S.\n\n（批：Seen.）\n\nA/ D.C.I.\n\n（左侧批注：\nH.R.\n4 6/29\n9RB\n4/6/29\n）\n\nCopies to H.B.M. Consul-General, Col. Halland. Capt. Shelley,\nLt. Carlson.\n\n（底部批注：\nSent 5. 6.\nS. Y. Lu\n）",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-53/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-53/page/n1_w2400.jpg",
+   "zh": "表格第2号\n20000-1-23\n\n上海公共租界工部局警务处。\n报告\n\n（印章：上海公共租界工部局警务处\n刑事侦缉处登记室\nD. 238.\n外侨科 O...\n日期 29年6月5日。\n1929年6月4日）\n\n主题（全称）疑似苏联特工抵沪。\n\n由 D.S. Ovsiannikoff 制作，经刑事侦缉处处长 Tho Robertson 转呈。\n\n下述疑似苏联特工于5月17日乘“大连丸”号轮船从青岛抵达此处：\n\nKoroleff 夫人，疑似苏联特工，系苏联驻青岛贸易代表团代表之妻。该代表于5月16日被中国当局从青岛驱逐出境，并前往天津。\nKoroleff 同志是共产国际成员，也是苏联经验丰富的政治工作人员。\n据报，Koroleff 夫人现居住于法租界，目前正在设法查明其确切地址。\n\n（批注：为什么？）\n\nV. Ovsianikoff\n侦探警长\n\n（批注：已阅。）\n\n代理刑事侦缉处处长\n\n（左侧批注：\nH.R.\n29年6月4日\n9RB\n29年6月4日\n）\n\n副本送交英国驻沪总领事 Halland 上校、Shelley 上尉、Carlson 中尉。\n\n（底部批注：\n发送于 29年6月5日。\nS. Y. Lu\n）"
   },
   {
    "n": 2,
    "en": "KOROLEFF, Mrs. - Soviet\nArrived in Shanghai on 17 May 1929 on the S.S.\n\"Dairen Maru\". Wife of a representative of the\nSoviet Trade Mission in Tsingtao.\nResiding in French Concession.\n\nKOROLEFF, Mr. - Soviet\nMember of the Komintern and an experienced political\nworker of the USSR. Representative of the Soviet\nTrade Mission in Tsingtao.\n\nSMP\nSMP: I.O. D 258\n5 June 1929",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-53/page/n2_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-53/page/n2_w2400.jpg",
+   "zh": "KOROLEFF，夫人 - 苏联籍\n于1929年5月17日乘“大连丸”号轮船抵达上海。系苏联驻青岛贸易代表团代表之妻。\n居住于法租界。\n\nKOROLEFF，先生 - 苏联籍\n共产国际成员，也是苏联经验丰富的政治工作人员。苏联驻青岛贸易代表团代表。\n\n上海公共租界工部局警务处\n上海公共租界工部局警务处：情报官档案 D 258\n1929年6月5日"
   }
  ],
  "pages_done": 3,
@@ -33,6 +36,11 @@
   "ocr_in_tokens": 8219,
   "ocr_out_tokens": 502,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:01:00"
- }
+  "ocr_at": "2026-08-12 03:01:00",
+  "zh_in_tokens": 748,
+  "zh_out_tokens": 488,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 3
 }

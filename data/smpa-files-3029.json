@@ -10,19 +10,22 @@
    "n": 0,
    "en": "D-822",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-3029/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-3029/page/n0_w2400.jpg",
+   "zh": "D-822"
   },
   {
    "n": 1,
    "en": "Form No. 2\n(C. 980-B-4)\n\nSHANGHAI MUNICIPAL POLICE\nREPORT\n\n（印：SHANGHAI MUNICIPAL POLICE\nCriminal Registry Station,\nNo. I. Q. D. 822.\nDate December 27, 1929.\n28/12/29）\n\nFile No.\n\nSubject (in full) Arrival of Soviet Agents.\n\nMade by D.S. Maklaevsky. Forwarded by Jhn Robertson, C.D.I.\n\nThe undermentioned persons recently arrived in Shanghai\nfrom Tientsin and reside some where in the French Concession.\nEfforts are being made to locate them.\n\nAll these persons were formerly White Russians and in\n1925 turned over to the Bolsheviks in Tientsin when they\nwere attached to the G.P.U. through the medium of Comrade\nRivkin, Custodian of the Soviet Consulate there.\n\n（批：See 04748）\nJohn Tishevsky-\nMember of the G.P.U. attached\nto the Soviet Consulate in\nTientsin. Was engaged as\nchauffeur to the Soviet Consul.\n\n（批：See 1.0\n9541）\nValentin Strogonoff-\nMember of the G.P.U. attached\nto the Soviet Consulate in\nTientsin. Was engaged as\nrecruiting agent amongst White\nRussians for the Bolshevik\nDetachment of General Guschin\nin Marshal Feng Yu-hsieng's\nArmy. He was also engaged as\na Soviet Spy in the White Russian\nDetachment of General Nechaeff\nin Marshal Chang Chung Chang's\nArmy.\n\n（批：See 1.0.\n9541）\nGerasim Popoff-\nMember of the G.P.U. attached\nto the Soviet Consulate in\nTientsin. Was engaged as\nrecruiting agent amongst White\nRussians for the Bolshevik",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-3029/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-3029/page/n1_w2400.jpg",
+   "zh": "表格第 2 号\n(C. 980-B-4)\n\n上海公共租界工部局警务处\n报告\n\n（印：上海公共租界工部局警务处\n刑事登记站，\n编号 I. Q. D. 822。\n日期 1929 年 12 月 27 日。\n28/12/29）\n\n档案号\n\n主题（全称）苏联特工抵沪。\n\n由 D.S. Maklaevsky 撰写。由刑事调查主任 Jhn Robertson 转呈。\n\n下列人员最近从天津抵达上海，现居住于法租界某处。正设法查明其具体住址。\n\n上述人员原均为白俄，1925 年在天津通过当时苏联领事馆保管员里夫金同志（Comrade Rivkin）的中介，被移交给布尔什维克，并隶属于国家政治保卫局（G.P.U.）。\n\n（批注：见 04748）\n约翰·季舍夫斯基 (John Tishevsky)-\n隶属于天津苏联领事馆的国家政治保卫局（G.P.U.）成员。受雇担任苏联领事的司机。\n\n（批注：见 1.0\n9541）\n瓦伦丁·斯特罗戈诺夫 (Valentin Strogonoff)-\n隶属于天津苏联领事馆的国家政治保卫局（G.P.U.）成员。受雇在冯玉祥元帅麾下古辛将军（General Guschin）的布尔什维克分队中，在白俄群体间从事招募工作。他还曾在张宗昌元帅麾下涅恰耶夫将军（General Nechaeff）的白俄分队中担任苏联间谍。\n\n（批注：见 1.0.\n9541）\n格拉西姆·波波夫 (Gerasim Popoff)-\n隶属于天津苏联领事馆的国家政治保卫局（G.P.U.）成员。受雇在冯玉祥"
   },
   {
    "n": 2,
    "en": "SHANGHAI MUNICIPAL POLICE.\nFile No. ______\nREPORT\nStation,\nDate ______ 19\nct (in full)______\n===( 2 )===\nMade by ______ Forwarded by ______\nDetachment of General Guschin\nin Marshal Feng Yu-hsiang\nArmy.\nB. Maklaevsky\nD. S.\nA/D. C. I.\n27.12.29.\nnotifying authorities\nclear 28/1-",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-3029/page/n2_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-3029/page/n2_w2400.jpg",
+   "zh": "上海公共租界工部局警务处。\n档案号 ______\n报告\n分站，\n日期 ______ 19\n主题（全称）______\n===( 2 )===\n撰写人 ______ 转呈人 ______\n元帅麾下古辛将军的布尔什维克分队中，在白俄群体间从事招募工作。\nB. Maklaevsky\nD. S.\n助理刑事调查主任\n1929 年 12 月 27 日。\n通知当局\n结案 28/1-"
   }
  ],
  "pages_done": 3,
@@ -33,6 +36,11 @@
   "ocr_in_tokens": 8182,
   "ocr_out_tokens": 545,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:06:11"
- }
+  "ocr_at": "2026-08-12 03:06:11",
+  "zh_in_tokens": 792,
+  "zh_out_tokens": 566,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 3
 }

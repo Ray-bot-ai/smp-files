@@ -10,19 +10,22 @@
    "n": 0,
    "en": "D 9472",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-213/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-213/page/n0_w2400.jpg",
+   "zh": "D 9472"
   },
   {
    "n": 1,
    "en": "FM 2\nG. 90M-1-35\nHSM\nJ\n\nSHANGHAI MUNICIPAL POLICE.\nSection 1, Special Branch\nREPORT\nFile No. 1072\nDate October 12, 1939.\n\nSubject Enquiries re communist agent Fu Shing Tai (傅鑫推).\n\nMade by D.I. Kuh Pao Hwa Forwarded by C. Crawford J L\n\nD.\n（印：SPECIAL BRANCH）\n\nWith reference to the attached enquiry on\nFu Shing Tai, a communist agent, who is understood\nto have had close connections with the Chinese\nCommunist regime in Kiangsi and previously with the\nWuhan Group, I have to report that a thorough search\nof the police files at Headquarters fail to reveal\nany record of this individual, nor does this name\nappear in connection with the publication entitled the\n\"Shanghai Courier\" in the years 1927/1928.\n\nAccording to information at hand, there was\na certain individual by the surname of Fu (full name\nand pseudonyms unavailable) who was closely connected\nwith the Chinese Communist regime in Kiangsi and\npreviously with Borodin et al in Wuhan, but no further\nparticulars can be obtained.\n\nKuh Pao hwa\nD. I.\n\nD.C. (Special Branch)",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-213/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-213/page/n1_w2400.jpg",
+   "zh": "FM 2\nG. 90M-1-35\nHSM\nJ\n\n上海公共租界工部局警务处。\n特务科第一股\n报告\n档案号 1072\n日期 1939年10月12日。\n\n事由 关于共产党代理人傅鑫推（Fu Shing Tai）的查询。\n\n由督察顾宝华（Kuh Pao Hwa）呈报，经 C. Crawford J L 转递\n\nD.\n（印：特务科）\n\n关于所附对共产党代理人傅鑫推（Fu Shing Tai）的查询，据悉此人与江西的中国共产政权有密切关联，此前曾与武汉集团有联系，兹报告如下：经在总部警务档案中进行彻底搜查，未发现有关此人的任何记录，且在1927/1928年间，该名字也未出现在名为《上海信使报》（Shanghai Courier）的出版物相关记载中。\n\n根据现有情报，确有一名姓傅之人（全名及化名不详），与江西的中国共产政权关系密切，此前曾在武汉与鲍罗廷（Borodin）等人有联系，但无法获取更多详情。\n\n顾宝华（Kuh Pao hwa）\n督察\n\n副督察长（特务科）"
   },
   {
    "n": 2,
    "en": "October 14, 1960.\n\nIs there any record of this individual\nwho is understood to have had close connections\nwith the Chinese Communist Party in Poland and\nparticularly with TASS/ITAR and the Polish press.\nHe may have been connected with the \"Shanghai\nGroup\" in the period 1927/1930.\n\n傅\n生\n泰\n推\n\nFU SHING TAI\n\n\"3\"\n\nS/R\n\nA C 1.1\n( G ) P.4610",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-213/page/n2_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-213/page/n2_w2400.jpg",
+   "zh": "1960年10月14日。\n\n是否有此人的记录？据悉此人与波兰的中国共产党有密切关联，特别是与塔斯社/伊塔尔通讯社（TASS/ITAR）及波兰新闻界有联系。他可能在1927/1930年期间与“上海小组”有关联。\n\n傅\n生\n泰\n推\n\n傅鑫推（FU SHING TAI）\n\n\"3\"\n\nS/R\n\nA C 1.1\n( G ) P.4610"
   }
  ],
  "pages_done": 3,
@@ -33,6 +36,11 @@
   "ocr_in_tokens": 8166,
   "ocr_out_tokens": 422,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:06:20"
- }
+  "ocr_at": "2026-08-12 03:06:20",
+  "zh_in_tokens": 667,
+  "zh_out_tokens": 421,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 3
 }

@@ -10,7 +10,8 @@
    "n": 0,
    "en": "Confidential Drawer\nC. I. D. REGISTRY\nFILE No. D. 1181.\nSUBJECT:\nS. B. Oak proposes to\nexchange information with\nPolice & Communists.\n\nSENT TO\nNAME | DATE\n-----|------\n     | 17 - 4 - 30.\n     |\n     |\n     |\n     |\n     |\n     |\n     |\n     |\n     |\n     |",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-3126/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-3126/page/n0_w2400.jpg",
+   "zh": "机密卷宗\n刑事侦缉处登记室\n档案编号：D. 1181。\n事由：\nS. B. Oak（音译）提议与警方及共产党交换情报。\n\n发送至\n姓名 | 日期\n-----|------\n     | 30年4月17日\n     |\n     |\n     |\n     |\n     |\n     |\n     |\n     |\n     |"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2734,
   "ocr_out_tokens": 102,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:40:58"
- }
+  "ocr_at": "2026-08-12 03:40:58",
+  "zh_in_tokens": 334,
+  "zh_out_tokens": 100,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

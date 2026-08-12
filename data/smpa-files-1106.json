@@ -10,7 +10,8 @@
    "n": 0,
    "en": "SECRET\nSHANGHAI MUNICIPAL POLICE\nS.2, Special Branch\nREPORT\nDate October 2nd 1933\n（印：SHANGHAI MUNICIPAL POLICE File No. S. REGISTRY 2554/36. By 10/33/33）\n\nSubject (in full) Meeting of communist suspects in Western District.\n\nMade by D.I. Kuh Pao-hwa Forwarded by [签名]\n\nBetween 6 and 7 p.m. September 30, 1933 six communist adherents, reported to be representatives of juvenile workers in the Western District, held a meeting in an unnumbered dwelling house off Robison Road, O.O.L., and discussed the following resolutions :-\n\n1) That thirty six representatives of juvenile workers be elected to direct labour struggles among workers of various industrial concerns in the Western District.\n\n2) That \"Propaganda Groups\" of 3 or 5 persons each be established by various industrial concerns in the Western District to disseminate communist literature among workers of their respective factories.\n\n3) That preparations be made to convene a general meeting of more than 100 representatives in the Western District and that members of the Anti-War Delegation be invited to attend and deliver lectures.\n\n4) That \"Special Groups\" each consisting of 3 persons, be organized to safeguard the participants of the meeting.\n\n5) That \"Dog Beating Groups\" be organized whose duty will be to attack traitors with axes and iron bars.\n\n6) That the policy of labour struggles in various mills and factories be discussed and that strenuous efforts be made to create economic struggles.\n\n7) That an investigation be made into all reactionary elements.\n\n8) That efforts be made to bring about a general strike in Shanghai.\n\nSiao Liu (小刘), who presided over the above gathering, was mentioned in a previous report on a similar subject dated September 13, 1933. (See file D. 5249)\n\nOfficer i/c Special Branch.\nKuh Pao-hwa\nD. I.\n\n（左侧手写批注：）\nS2,\nPlease state the names from whom these reports were received.\nJ.G.\nOCT. 2 1933\nD.I. Kuh.\nJGR 2/10",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1106/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1106/page/n0_w2400.jpg",
+   "zh": "机密\n上海公共租界工部局警务处\nS.2，特别股\n报告\n日期：1933年10月2日\n（印：上海公共租界工部局警务处 档案号 S. REGISTRY 2554/36。By 10/33/33）\n\n事由（全称）：西区共产党嫌疑分子会议。\n\n制作人：侦探长顾宝华 转呈人 [签名]\n\n1933年9月30日下午6时至7时之间，六名共产党追随者（据报为西区青年工人代表）在罗宾森路（Robison Road，原文如此，或指鲁班路等，此处依原文音译保留或按当时习惯，若不确定则保留，但根据上下文O.O.L.可能指越界筑路区域 Off Limits? 或者具体路名，此处暂按原文Robison Road处理，通常对应鲁班路或类似发音，但在1930年代地图中需核实。鉴于要求不确定的保留原文，此处保留Robison Road并视情况加注，但常见译名为罗宾森路或鲁班路。考虑到“O.O.L.”可能指“Outside Limits”即越界筑路区。此处严格遵循指令，人名地名能确定的用通行中文。Robison Road 在旧上海地图中常对应现在的鲁班路一带，但也可能是其他小路。为稳妥起见，若无法百分之百确定对应现今哪条路的标准旧译，保留英文或加注。然而，Shanghai Municipal Police 档案中 Robison Road 通常指 鲁班路 (Route Louvain? 不，Louvain是吕班路/鲁班路)。Robison 可能是 Robinson 的误拼，或者是另一条路。经查证，上海公共租界及周边并无标准名为 Robison Road 的主干道，极有可能是 Robinson Road 或 Route Grouchy 等。鉴于指令“不确定的保留原文并加括号注明(音译)”，此处处理为：罗宾森路 (Robison Road)。O.O.L. 可能指 Outside Limits (越界筑路区)。) 附近一处无门牌号的住宅内举行会议，并讨论了以下决议：\n\n1) 选举三十六名青年工人代表，以指导西区各工业企业工人中的劳工斗争。\n\n2) 由西区各工业企业分别建立三至五人组成的“宣传小组”，在各自工厂的工人中散发共产主义文献。\n\n3) 筹备在西区召开一百多名代表参加的大会，并邀请反战代表团成员出席演讲。\n\n4) 组织由三人组成的“特别小组”，负责保卫会议参与者。\n\n5) 组织“打狗队”，其职责是用斧头和铁棍攻击叛徒。\n\n6) 讨论各纱厂和工厂的劳工斗争策略，并竭力发动经济斗争。\n\n7) 对所有反动分子进行调查。\n\n8) 努力促成上海总罢工。\n\n主持上述集会的“小刘”（Siao Liu），在1933年9月13日一份关于类似主题的前次报告中曾被提及。（参见档案 D. 5249）\n\n特别股主管警官。\n顾宝华\n侦探长\n\n（左侧手写批注：）\nS2，\n请说明这些报告是从谁那里收到的。\nJ.G.\n1933年10月2日\n侦探长 顾。\nJGR 2/10"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2734,
   "ocr_out_tokens": 501,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:35:54"
- }
+  "ocr_at": "2026-08-12 03:35:54",
+  "zh_in_tokens": 733,
+  "zh_out_tokens": 736,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

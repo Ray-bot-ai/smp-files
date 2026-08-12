@@ -10,13 +10,15 @@
    "n": 0,
    "en": "D-648",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-2793/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-2793/page/n0_w2400.jpg",
+   "zh": "D-648"
   },
   {
    "n": 1,
    "en": "Form No.\nG. 290-1-29\n\nSHANGHAI MUNICIPAL POLICE.\nREPORT\n\nFile No.\nSHANGHAI MUNICIPAL POLICE\nForeign Section Station,\nNo. I. O. D. 646.\nDate November 12, 1929\n\nSubject (in full) Arrival of Suspected Communist.\n\nMade by P.C.P.S. Medvedeff. Forwarded by Tho Rubentein A.D.I.\n\nMr. Tasaret Gavisoff, an American citizen of Russian\norigin, arrived in Shanghai from Seattle in the s.s.\n\"Empress of France\" on November 1, 1929 and resides at\nthe Crystal Hotel, 39-41 Seward Road. Gavisoff is reported\nto have lived in America for 19 years and is en route to\nthe Caucasus to visit his brother.\n\nApparantly on the arrival of the s.s. \"Empress of\nFrance\" at Yokohama and Kobe, Gavisoff was refused\npermission to land owing to the Japanese Authorities\nfinding a book on Communism among his luggage.\n\nN. Medvedeff\nP.C.P.S.\n\nA/D. C. I.\nSca\n13/11\n\nAR\n12 ½ 9\nMG\n12:11:29",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-2793/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-2793/page/n1_w2400.jpg",
+   "zh": "表格编号\nG. 290-1-29\n\n上海公共租界工部局警务处。\n报告\n\n档案编号\n上海公共租界工部局\n外侨巡捕房，\nI. O. D. 646号。\n日期：1929年11月12日\n\n事由（全称）：疑似共产党员抵沪。\n\n呈报人：特别巡捕梅德韦杰夫（P.C.P.S. Medvedeff）。转呈人：助理督察鲁宾斯坦（Tho Rubentein A.D.I.）。\n\n塔萨雷特·加维索夫（Tasaret Gavisoff）先生，俄裔美国公民，于1929年11月1日乘“法兰西皇后”号轮船（s.s. \"Empress of France\"）从西雅图抵达上海，现居住于西华德路39-41号水晶饭店（Crystal Hotel）。据报，加维索夫已在美国居住19年，正途经此地前往高加索地区探望其兄弟。\n\n显然，当“法兰西皇后”号轮船抵达横滨和神户时，由于日本当局在其行李中发现一本关于共产主义的书籍，加维索夫被拒绝登陆。\n\nN. 梅德韦杰夫\n特别巡捕\n\n助理督察长\nSca\n11月13日\n\nAR\n12 ½ 9\nMG\n1929年11月12日"
   }
  ],
  "pages_done": 2,
@@ -27,6 +29,11 @@
   "ocr_in_tokens": 5502,
   "ocr_out_tokens": 303,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:31:37"
- }
+  "ocr_at": "2026-08-12 03:31:37",
+  "zh_in_tokens": 542,
+  "zh_out_tokens": 338,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

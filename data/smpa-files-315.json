@@ -10,7 +10,8 @@
    "n": 0,
    "en": "Form No. 3\nO. 15,000-1-34\n\nSHANGHAI MUNICIPAL POLICE.\n（印：SHANGHAI MUNICIPAL POLICE S. B. REGISTRY. File No:）\nS.2, Special Branch Section\nREPORT\nDate February 20th 1934\n\nSubject (in full) A. I. Kopeliovitch, Soviet Employee.\n\nMade by D.S. Tcheremshansky Forwarded by D. J. Sweeney.\n\nInformation has been received that Alexander Ilich\nKopeliovitch is now in the employ of the United Petroleum\nTrust of U.S.S.R. (Soyuzneft). He is a Soviet citizen of\nJewish origin, single, born in 1910 at Herson, Russia. On\nFebruary 1, 1934 he secured from the local Public Safety\nBureau a Chinese passport No.5460 to travel to Tientsin and\nback.\nWhile at Shanghai, Kopeliovitch resided at No. 680\nRue Lafayette.\nAttached herewith is the name card of A.I.Kopeliovitch.\n\nTcheremshansky\nD. S.\n\nOfficer i/c Special Branch.\n\n（批：FILE JR）\n（左侧手写批注：20.2.）",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-315/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-315/page/n0_w2400.jpg",
+   "zh": "表格第3号\nO. 15,000-1-34\n\n上海公共租界工部局警务处。\n（印：上海公共租界工部局警务处 特别股登记处。档案号：）\nS.2，特别股\n报告\n日期：1934年2月20日\n\n主题（全称）：A. I. Kopeliovitch，苏联雇员。\n\n呈报人：D.S. Tcheremshansky 转呈人：D. J. Sweeney。\n\n据获悉，Alexander Ilich Kopelievitch 现受雇于苏维埃社会主义共和国联盟联合石油托拉斯（Soyuzneft）。他是犹太裔苏联公民，单身，1910年出生于俄罗斯赫尔松（Herson）。1934年2月1日，他从本地公安局申领了中国护照第5460号，用于前往天津并返回。\n在上海期间，Kopeliovitch 居住在拉斐特路（Rue Lafayette）680号。\n随函附上 A.I. Kopeliovitch 的名片。\n\nTcheremshansky\nD. S.\n\n特别股主管警官。\n\n（批：归档 JR）\n（左侧手写批注：20.2.）"
   }
  ],
  "pages_done": 1,
@@ -21,6 +22,11 @@
   "ocr_in_tokens": 2705,
   "ocr_out_tokens": 299,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:39:05"
- }
+  "ocr_at": "2026-08-12 03:39:05",
+  "zh_in_tokens": 531,
+  "zh_out_tokens": 288,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

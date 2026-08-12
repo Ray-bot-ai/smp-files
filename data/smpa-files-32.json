@@ -10,13 +10,15 @@
    "n": 0,
    "en": "SECRET\nSHANGHAI MUNICIPAL POLICE.\nFile No. 7165\nS.1, Special Branch\nREPORT\nDate April 22, 1937.\nSubject Anti-Soviet Propaganda Distributed in Shanghai\nMade by D.S. McKeown Forwarded by J Boyne D.S.I\n\nWith reference to the sets of pictures (attached),\ndepicting atrocities alleged to have been committed by the\n\"Red\" forces in Spain, I have to report that after a\ncareful examination of the type and texture of the paper\nunder a magnifying glass, it is the considered opinion of\nan expert that the pictures and booklet were not printed in\nChina. It is his further opinion that they emanate from\nGermany. A knowledge of German printing work generally\nand peculiarities of type used in the captions under the\npictures led to this opinion.\n\nThe post mark on the larger envelope indicates\nthat it was received at the 9th sub-office, 100 Carter Road\nat 10 a.m. April 16. The post office can give no details\nregarding the smaller envelope owing to the indistinct\npost mark.\n\nAccording to a paper manufacturer the texture of\nthe envelopes is not of a first class quality and it would\nbe difficult to ascertain the firm from which they were\npurchased.\n\nD.C. (Special Branch).\nJ McKeown.\nD. S.\n22/4\nFILE\nDBR\n22/4\n（印：RECD 23 APR. SHANGHAI）",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-32/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-32/page/n0_w2400.jpg",
+   "zh": "机密\n上海公共租界工部局警务处。\n档案编号 7165\nS.1，特别科\n报告\n日期：1937年4月22日。\n事由：在上海散发的反苏宣传品\n制作人：D.S. McKeown 转呈人：J Boyne D.S.I\n\n关于所附的一套图片，其内容描绘了据称由西班牙“赤色”部队犯下的暴行，经在放大镜下仔细检查纸张的类型和质地后，专家的意见认为，这些图片和小册子并非在中国印刷。他进一步认为，这些物品源自德国。这一判断是基于对德国印刷工艺的一般了解，以及图片说明文字中所用字体的特征得出的。\n\n较大信封上的邮戳显示，该信封于4月16日上午10时送达卡特路（Carter Road）100号第九支局。由于较小信封上的邮戳模糊不清，邮局无法提供有关该信封的详细信息。\n\n据一家造纸商称，信封的纸质并非一流品质，因此很难查明购买这些信封的具体商行。\n\n特别科副督察。\nJ McKeown。\n副督察。\n22/4\n归档\nDBR\n22/4\n（印：1937年4月23日收讫 上海）"
   },
   {
    "n": 1,
    "en": "FORM NO. 3\nC. 104-11-35\n\nSHANGHAI MUNICIPAL POLICE.\nCONFIDENTIAL\nREPORT\n\nSHANGHAI MUNICIPAL POLICE\nS. B. REGISTRY\nNo. 2865\nSpecial Branch Diary\nDate April 10 1937.\n\nSubject (in full) Anti-Soviet Propaganda distributed in Shanghai.\n\nMade by/ and Forwarded by C.D.I. Ross.\n\nI forward herewith a set of pictures showing\natrocities alleged to have been committed by the \"Red\" forces\nat present engaged in hostilities in Spain. These pictures\nwere delivered through the post addressed to the German Restaurant\n1204 Bubbling Well Road, on April 8, 1937. The cancellation\nchop on the envelope shows that it was posted at the Head Post\nOffice at 1 p.m. April 7.\n\nThe pictures were obtained by the undersigned from\nMr. Frank Eder, German, proprietor of the above restaurant.\n\nC. D. I.\nDeputy Commissioner in Charge.\n\nS.I.\n（印：10 APR. 1. CHANGHAI）\nD.S.I. Prokofiev.\nJ.B 12/4\n12/4",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-32/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-32/page/n1_w2400.jpg",
+   "zh": "表格编号 3\nC. 104-11-35\n\n上海公共租界工部局警务处。\n机密\n报告\n\n上海公共租界工部局警务处\n特别科登记处\n编号 2865\n特别科日志\n日期：1937年4月10日。\n\n事由（全称）：在上海散发的反苏宣传品。\n\n制作人及转呈人：C.D.I. Ross。\n\n现随函附上一套图片，显示据称由目前在西班牙从事敌对行动的“赤色”部队犯下的暴行。这些图片于1937年4月8日通过邮政投递至静安寺路（Bubbling Well Road）1204号德国餐馆。信封上的销票戳记显示，该邮件于4月7日下午1时在邮政总局寄出。\n\n上述图片由下述签署人从该餐馆老板、德籍人士 Frank Eder 先生处获得。\n\nC. D. I.\n主管副总监。\n\nS.I.\n（印：1937年4月10日 上海）\nD.S.I. Prokofiev。\nJ.B 12/4\n12/4"
   }
  ],
  "pages_done": 2,
@@ -27,6 +29,11 @@
   "ocr_in_tokens": 5404,
   "ocr_out_tokens": 623,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:19:53"
- }
+  "ocr_at": "2026-08-12 03:19:53",
+  "zh_in_tokens": 862,
+  "zh_out_tokens": 557,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

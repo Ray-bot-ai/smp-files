@@ -10,19 +10,22 @@
    "n": 0,
    "en": "D5472",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1160/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1160/page/n0_w2400.jpg",
+   "zh": "D5472"
   },
   {
    "n": 1,
    "en": "Fin: 2\nG. 35m-11-32\n\nSHANGHAI MUNICIPAL POLICE\nSpecial Branch\nREPORT\nDate November 17, 1933.\n\nSubject (in full) Miss I.I. Kleiner, ex-Soviet Employee.\n\nMade by D.S. Tcheremshansky Forwarded by [Signature]\n\nInformation has been received that Isabela Ilinishna\nKleiner was formerly in the employ of the local branch of the\nUnited Petroleum Trust of U.S.S.R. (Soyzneft), from November\n1931 until December 1932 when she resigned. Later she re-\njoined this firm but was employed for a few months only.\nMiss Kleiner is a Russian Jewess, born in 1910 at\nIrkutsk, Siberia. Her father was for several years with the\nGosstrah (Government Insurance Co.) at Moscow. A few years\nago he was transferred to Harbin and removed all his property,\nfurniture etc. to this city, this being allowed only to the\ntrustworthy Soviet employees. Her mother is a sister of one\nJ.R. Kuroth, a suspected Soviet Agent (File D.4414 & D.4749).\nMiss Kleiner arrived at Shanghai from Harbin in\n1931 accompanied by her mother. She registered with the\nBureau of Public Safety as a Soviet Citizen on May 2, 1931\nunder No.4789.\nWhen in Shanghai she resided at No.148 Seymour Road\nfrom 15/10/31 to 31/3/32, at No.16 Hedhurst Road from 1/10/32\nto 7/7/33 when she removed to her present address, No.159,\nAvenue Haig, house 28, which is occupied by her mother Mrs.\nE. Kleiner.\n\nG. Tcheremshansky\nD. S.\nOfficer i/c Special Branch.\n\n[Signature]\n[Signature]\n\n（左侧批注：* Cross Indexed）",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1160/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1160/page/n1_w2400.jpg",
+   "zh": "归档：2\nG. 35m-11-32\n\n上海公共租界工部局警务处\n特务科\n报告\n日期：1933年11月17日。\n\n主题（全称）：I.I. 克莱纳小姐，前苏联雇员。\n\n制作人：D.S. 切列姆尚斯基 转呈人：[签名]\n\n接获情报称，伊莎贝拉·伊利尼什娜·克莱纳（Isabela Ilinishna Kleiner）曾受雇于苏联联合石油托拉斯（Soyzneft）上海分部，任职时间为1931年11月至1932年12月辞职期间。此后她曾重返该机构，但仅受雇数月。\n\n克莱纳小姐系俄罗斯犹太裔，1910年生于西伯利亚伊尔库茨克。其父曾在莫斯科国家保险公司（Gosstrah）工作数年。数年前，他被调往哈尔滨，并将其所有财产、家具等迁至该市，此举仅被允许给予值得信任的苏联雇员。其母是J.R. 库罗思（J.R. Kuroth，音译）的姐妹，库罗思是一名涉嫌苏联特工的人员（档案号 D.4414 及 D.4749）。\n\n克莱纳小姐于1931年由其母陪同从哈尔滨抵达上海。她于1931年5月2日以苏联公民身份在公共安全局登记，编号为4789。\n\n在上海期间，她于1931年10月15日至1932年3月31日居住在西摩路148号；于1932年10月1日至1933年7月7日居住在赫德赫斯特路16号；随后搬至现址，即海格路159号28室，该处由其母E. 克莱纳夫人居住。\n\nG. 切列姆尚斯基\nD. S.\n特务科主管警官。\n\n[签名]\n[签名]\n\n（左侧批注：* 交叉索引）"
   },
   {
    "n": 2,
    "en": "KLEINER, Isabela Ilinishna - Soviet\nFormerly with United Petroleum Trust of USSR.\n\nSMF: No. D 5472",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1160/page/n2_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1160/page/n2_w2400.jpg",
+   "zh": "克莱纳，伊莎贝拉·伊利尼什娜 - 苏联籍\n前苏联联合石油托拉斯雇员。\n\n上海市政档案：编号 D 5472"
   }
  ],
  "pages_done": 3,
@@ -33,6 +36,11 @@
   "ocr_in_tokens": 8124,
   "ocr_out_tokens": 517,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:06:32"
- }
+  "ocr_at": "2026-08-12 03:06:32",
+  "zh_in_tokens": 763,
+  "zh_out_tokens": 528,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 3
 }

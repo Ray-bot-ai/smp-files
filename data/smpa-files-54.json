@@ -10,13 +10,15 @@
    "n": 0,
    "en": "D-159",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-54/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-54/page/n0_w2400.jpg",
+   "zh": "D-159"
   },
   {
    "n": 1,
    "en": "Form No. 2\nG. 20000-1-28\n\nSHANGHAI MUNICIPAL POLICE.\n\nREPORT\n\n（印：SHANGHAI MUNICIPAL POLICE\nCENTRAL D. REGISTRY\nNo. I. O. D. 159\nDate April 10, 1929）\n\nSubject (in full) Arrival of Suspected Soviet Agent.\n\nMade by D. J. Ovsiannikoff Forwarded by J. Klewens A. C. Pol\n\nThe undermentioned suspected Soviet agent recently\narrived here from Harbin via Dairen:-\nComrade Moris Zelik Russian Jew. Suspected Soviet\nagent working on G.P.U. lines.\nResides at 175 Range Road.\n\nThe wife of Zelik, who is employed as a dancing\npartner in one of the local cafes, assists him in obtaining\ndifferent information required by the local representative\nof G.P.U.\n\nV. Ovsiannikoff\nD. S.\n\nJCA\n\nN/D.C.I.\nCopy to A B y Consul\nCol Holland\nnew Carlton\nCapt Shelley 11 - X\n\n（批：WR. 11/4/29.）",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-54/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-54/page/n1_w2400.jpg",
+   "zh": "表格第2号\nG. 20000-1-28\n\n上海公共租界工部局警务处。\n\n报告\n\n（印：上海公共租界工部局警务处\n中央登记处\nI. O. D. 第159号\n日期：1929年4月10日）\n\n事由（全称）：疑似苏联特工抵达。\n\n呈报人：D. J. Ovsiannikoff 转呈人：J. Klewens，代理警长（A. C. Pol）\n\n下述疑似苏联特工近期从哈尔滨经大连抵沪：\n莫里斯·泽利克（Moris Zelik）同志，俄籍犹太人。疑似从事国家政治保卫总局（G.P.U.）路线活动的苏联特工。\n现居住于兰路（Range Road）175号。\n\n泽利克之妻受雇于本地某咖啡馆担任舞伴，协助其获取国家政治保卫总局（G.P.U.）本地代表所需的各种情报。\n\nV. Ovsiannikoff\n侦探警长（D. S.）\n\nJCA\n\nN/D.C.I.\n抄送：AB y 领事\n霍兰德上校（Col Holland）\n新卡尔顿酒店（new Carlton）\n谢利上尉（Capt Shelley） 11 - X\n\n（批注：WR. 1929年4月11日。）"
   }
  ],
  "pages_done": 2,
@@ -27,6 +29,11 @@
   "ocr_in_tokens": 5468,
   "ocr_out_tokens": 272,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:19:01"
- }
+  "ocr_at": "2026-08-12 03:19:01",
+  "zh_in_tokens": 511,
+  "zh_out_tokens": 326,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

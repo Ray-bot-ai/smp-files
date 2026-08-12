@@ -10,19 +10,22 @@
    "n": 0,
    "en": "D 5530\nD 5531",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1125/page/n0_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1125/page/n0_w2400.jpg",
+   "zh": "D 5530\nD 5531"
   },
   {
    "n": 1,
    "en": "SHANGHAI MUNICIPAL POLICE\nS. B. REGISTRY.\nD\nS. 2, Special Branch,\nMarch 22, 1935.\n\nMemorandum on A.J. Gartman (Hardman), Soviet\njournalist.\n\nAbraham Joseph Gartman alias Hardman arrived in\nShanghai from Tientsin on December 4, 1933 together with\nhis wife, Mrs. Cecilia Gartman, and has since been residing\nin this city. He is a Soviet citizen, who was born on\nSeptember 8, 1899 at Gomel, Russia, and is a journalist\nby profession.\n\nIn Shanghai Gartman works as a correspondent of\nthe Soviet newspaper PRAVDA, official organ of the Russian\nCommunist Party, and the Moscow Committee of the Party.\n\nFollowing their arrival here they put up at the\nEmbassy Hotel. Mr. Gartman then left for Nanking where,\nit is reported, a reception was given in his honour by\nMr. Li Ti Tsing, Director of the Publicity Bureau of the\nMinistry of Foreign Affairs. Upon his return to Shanghai\non December 10 they went to live at Apartment 519 Embankment\nBuilding, their present address.",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1125/page/n1_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1125/page/n1_w2400.jpg",
+   "zh": "上海公共租界工部局警务处\n特别科登记处。\nD\n特别科第2股，\n1935年3月22日。\n\n关于苏联记者 A.J. Gartman（Hardman）的备忘录。\n\nAbraham Joseph Gartman，别名 Hardman，于1933年12月4日与其妻子 Cecilia Gartman 夫人一同从天津抵达上海，此后一直居住在本市。他是苏联公民，1899年9月8日出生于俄罗斯戈梅利（Gomel），职业为记者。\n\n在上海，Gartman 担任苏联报纸《真理报》（PRAVDA）的通讯员，该报是俄国共产党及党莫斯科委员会的官方机关报。\n\n抵达上海后，他们入住 Embassy Hotel（使馆饭店）。随后 Gartman 先生前往南京，据称，外交部宣传局局长李蒂青（Li Ti Tsing，音译）先生为他举行了欢迎招待会。12月10日他返回上海后，便迁至外滩大楼（Embankment Building）519室居住，此为其现住址。"
   },
   {
    "n": 2,
    "en": "Form No. 3\nG. 25,000-1-32\n\nSHANGHAI MUNICIPAL POLICE.\n\nSHANGHAI MUNICIPAL POLICE\nFile No. S. B. REGISTRY.\nSECTION 2 No. D. 5530\nDate 11 / 12 / 33\n\nREPORT\nalias Garlman Date December 9. 19 33.\nSubject (in full) Arrival of A.Hardman , Soviet journalist.\nx.\n\nMade by D.S.I. Prokofiev. Forwarded by [Signature] 09\n\nx See also file\nD. 709.\nS.O. 7860/10\n\nA.Hardman, Soviet citizen, reported to be a corres-\npondent of a Moscow newspaper, arrived in Shanghai from Tientsin\non December 4, 1933. He stayed at the Embassy Hotel until Decem-\nber 7, when he left for Nanking by rail. Mrs Hardman, his wife, who\narrived together with him is still staying at the Embassy Hotel,\nRoom No 23.\n\nJ2\n\nA. Prokofiev\nD.S.I.\n\nOfficer i/c Special Branch.\n\nFile\n[Signature]",
    "error": null,
-   "image_url": "https://archive.org/download/smpa-files-1125/page/n2_w2400.jpg"
+   "image_url": "https://archive.org/download/smpa-files-1125/page/n2_w2400.jpg",
+   "zh": "表格编号 3\nG. 25,000-1-32\n\n上海公共租界工部局警务处。\n\n上海公共租界工部局警务处\n档案编号 特别科登记处。\n第2股 编号 D. 5530\n日期 1933年12月11日\n\n报告\n别名 Garlman 日期 1933年12月9日。\n主题（全称） 苏联记者 A. Hardman 抵沪。\nx.\n\n由警探长 Prokofiev 制作。经 [签名] 转呈 09\n\nx 另见档案\nD. 709。\nS.O. 7860/10\n\nA. Hardman，苏联公民，据报为一家莫斯科报纸的通讯员，于1933年12月4日从天津抵达上海。他入住 Embassy Hotel（使馆饭店）直至12月7日，随后乘火车前往南京。与其一同抵达的妻子 Hardman 夫人仍住在 Embassy Hotel（使馆饭店）23号房间。\n\nJ2\n\nA. Prokofiev\n警探长\n\n特别科主管警官。\n\n档案\n[签名]"
   }
  ],
  "pages_done": 3,
@@ -33,6 +36,11 @@
   "ocr_in_tokens": 8218,
   "ocr_out_tokens": 567,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-12 03:04:56"
- }
+  "ocr_at": "2026-08-12 03:04:56",
+  "zh_in_tokens": 813,
+  "zh_out_tokens": 535,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 3
 }
