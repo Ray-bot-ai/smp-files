@@ -61,8 +61,11 @@ def submit():
     fid = upload(path)
     if not fid:
         print("✗ 上传失败，停"); return
+    # 窗口一律给足。踩过：第一次试点用 24h，排了整整 24 小时**一条都没被处理**，
+    # 到点全部 CanceledBatchByExpire——不是失败，是根本没排到就被作废了。
+    # 千问 Batch 排队以小时甚至天计是常态，最长可设 14 天，没有理由省这个。
     r = api("/batches", data={"input_file_id": fid, "endpoint": "/v1/chat/completions",
-                              "completion_window": "24h",
+                              "completion_window": "14d",
                               "metadata": {"ds_name": "SMP-OCR-pilot-10p"}})
     print("建任务:", json.dumps(r, ensure_ascii=False)[:400])
     if r.get("id"):
