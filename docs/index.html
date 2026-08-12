@@ -489,17 +489,32 @@ footer .zh{color:#575e6a}
     <p class="label">Status</p>
     <h3>Current state of work<span class="zh">当前进度</span></h3>
   </div>
-  <div class="status">
-    <div><span class="label">Stage · 阶段</span><b><span class="dot"></span>Transcription in progress</b></div>
-    <div><span class="label">Pages done · 已完成</span><b>— / ~90,000</b></div>
-    <div><span class="label">Translation · 译文</span><b>Pending · 待启动</b></div>
-    <div><span class="label">Publication · 发布</span><b>After sample verification</b></div>
+  <div class="status" id="status">
+    <div><span class="label">Stage · 阶段</span><b><span class="dot"></span>Transcription in progress · 转录进行中</b></div>
+    <div><span class="label">Files done · 已转录卷宗</span><b id="st-files">—</b></div>
+    <div><span class="label">Pages done · 已转录页</span><b id="st-pages">—</b></div>
+    <div><span class="label">Translation · 中文译文</span><b id="st-zh">—</b></div>
   </div>
   <p style="margin-top:1.6rem;font-size:.92rem;color:var(--muted);max-width:var(--measure)">
-    The site will be published once transcription, translation and sample verification
-    are complete.
-    <span class="zh" style="display:block">站点将在转录、翻译与抽样校验全部完成后发布。</span>
+    This edition is published <b>as it is produced</b>, not after it is finished: what is
+    transcribed is already searchable here, and the rest is not. Sample verification of the
+    error rate is still outstanding, so treat every figure and name as unverified.
+    <span id="st-bad"></span>
+    <span class="zh" style="display:block">本站是<b>边做边发</b>，不是做完才发：已转录的部分现在就能检索，
+      没转录的就是搜不到。错误率的抽样校验尚未完成，所以每一个数字、每一个人名都请当作未经核实。</span>
+    <span class="zh" id="st-updated" style="display:block;margin-top:.5rem;color:var(--silver)"></span>
   </p>
+  <script>
+  fetch('data/progress.json').then(r => r.json()).then(p => {
+    const n = x => x.toLocaleString('en-US');
+    document.getElementById('st-files').textContent = `${n(p.files_done)} / ${n(p.files_total)}`;
+    document.getElementById('st-pages').textContent = `${n(p.pages_done)} / ${n(p.pages_total)}`;
+    document.getElementById('st-zh').textContent = `${n(p.zh_pages)} 页 pages`;
+    if (p.unusable) document.getElementById('st-bad').textContent =
+      ` ${n(p.unusable)} pages are flagged as unusable and marked as such in the reading view.`;
+    document.getElementById('st-updated').textContent = `数据更新于 ${p.updated}（每次重建站点自动刷新，不会再过期）`;
+  }).catch(() => {});
+  </script>
 </section>
 
 <section class="colophon">

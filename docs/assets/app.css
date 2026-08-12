@@ -106,6 +106,16 @@ h1.pt .zh{display:block;font-size:.62em;color:var(--muted);margin-top:.25rem}
   padding:1rem 1.2rem;margin:1.4rem 0;font-size:.92rem}
 .note b{color:var(--ink)}
 .muted{color:var(--muted)}
+
+/* 严重残破页：只标记不删除。原文照旧展示（淡化），旁边说明为什么不能用。 */
+.badtag{font-family:var(--label);font-size:.86em;letter-spacing:.1em;color:var(--stamp);
+  border:1px solid rgba(143,47,34,.4);border-radius:2px;padding:.05em .4em;margin-left:.5em}
+.badnote{background:rgba(143,47,34,.07);border:1px solid rgba(143,47,34,.3);
+  border-left:3px solid var(--stamp);padding:.7rem .85rem;margin-bottom:.8rem;
+  font-size:.84rem;line-height:1.7;overflow-wrap:anywhere}
+.badnote b{color:var(--stamp)}
+.badnote .en{display:block;margin-top:.4rem;color:var(--muted);font-size:.94em}
+.pane .txt.faded{opacity:.5}
 .spin{color:var(--muted);font-size:.9rem;padding:2rem 0}
 
 footer.ft{background:var(--ink);color:#6b7381;padding:2.2rem 0;font-size:.82rem;margin-top:4rem}

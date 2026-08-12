@@ -711,7 +711,9 @@
    "en": "- 15 -\n\nOrganization dealing with soldiers\n\nThe armed organization of the labouring and\nfarming masses should be started. It should be\nsystematic and in addition, political and military\neducation should be given them.\n\nBeing necessary to struggles in farming villages,\nour armed organization is absolutely important (Hai 7).\n\nThe method of organization is not limited to\n\"Small\" Groups, \"Middle\" Groups and \"Big\" Groups and\nit is not necessary to adopt the name of \"Labourers'\nand Peasants' Revolutionary Army\". Our party should\ncarry out the organization according to the circumstances\nand the struggles (Hai 7).\n\nIn a number of \"fundamental\" masses (such as\nVillage Peasants' Union or a trade branch union),\nselect brave elements and organize them into various\ncorps, the name of which can be fixed according to\nthe custom and condition in various places (Hai 7).\n\nThe groups in a village peasants' union are taken\nas the units of peasants' organization, and then the\nvillage peasants' unions, district peasants' unions\nand Hsien peasants' unions to form a system. The\ntrade branch labour unions are taken as the units of\nlabour unions, and then the trade labour unions and\nHsien Labour Unions to form a system. The armed\norganization in the Hsien labour unions and Hsien\npeasants' unions is under the control of the Military\nAffairs Department of the Hsien Committee (Hai 7).\n\nTraining in certain military arts should be carried\nout only under certain secret conditions and training\nin lots should be undertaken among \"organized\" armed\ngroups in various places. The Hsien Military Affairs\nDepartment is required to assign members to train\nvarious \"fundamental\" armed groups one by one (Hai 7).\n\nParty members should be included in various \"funda-\nmental\" armed groups to receive the same organization\nand training (Hai 7).\n\nMilitary Committees should be organized to execute\nmilitary works. (1) The Provincial Committee, Special\nCommittee and the \"uprising\" Hsien and District Committees\nshould all organize military committees, while \"military\naffairs specially assigned officers\" should be sent to\nother important Hsiens and districts. The Military\nCommittee may consist of from 3 to 5 persons; and the\nGroup should assign representatives to take part in it.\n(2) In military centres where there is no military sub-\ncommittee, under the Military Committee and the\nMilitary Affairs Specially Assigned Officers,\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nwith the Group, should form Soldiers' Committees with\na view to inducing C.Y. to participate in the work of\nthe soldiers. (3) Military committees of various grades\nshould have direct relation as well as the Special\nCommittees, Hsien Committees and District Committees\nof the same grade.",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-3357/page/n100_w2400.jpg",
-   "zh": ""
+   "zh": "",
+   "zh_tries": 2,
+   "zh_status": "字符重复循环"
   },
   {
    "n": 101,
@@ -1171,8 +1173,8 @@
   "ocr_out_tokens": 79440,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-11 23:17:31",
-  "zh_in_tokens": 92536,
-  "zh_out_tokens": 57020,
+  "zh_in_tokens": 95122,
+  "zh_out_tokens": 58212,
   "zh_chunks": 33
  },
  "native_zh_pages": 0,

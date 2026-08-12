@@ -58,7 +58,10 @@ def degenerate(text, src_len):
     # 先抹掉表格填空用的点线/下划线/破折号——SMP 报告表满纸都是
     # 「File No............」「Date....................19」这类。
     # 踩过：原本 (.)\1{29,} 把它们当成退化循环，误杀了正常表格页的译文。
-    probe = re.sub(r"[.\u00b7\u2026\-_—–\s]{6,}", " ", text)
+    # 又踩第二次：只补了点线、没补等号线。SHANGHAI MUNICIPAL POLICE 表头带
+    # 32 个连续「=」，照样被判成字符重复循环，害 14 页表格页的**正确译文**
+    # 被整页丢掉（实测 1370/p34 译文 638 字完全正确）。这次把分隔线字符一次收全。
+    probe = re.sub(r"[.\u00b7\u2026\-_—–=*~#+　\s]{6,}", " ", text)
     if re.search(r"([^\s])\1{25,}", probe):
         return "字符重复循环"
     # 任意 30 字窗口重复出现过多
@@ -122,8 +125,31 @@ def call(messages, max_tokens=8000, deadline=240, base=None, key=None, model=Non
 
 
 def _blocked(err):
-    """百炼内容审查拒稿。注意它是 HTTP 200 + body 里带 error，不是 4xx。"""
+    """百炼内容审查拒稿。注意它是 HTTP 200 + body 里带 error，不是 4xx。
+
+    两侧都会拦：Input（送进去的图）和 Output（吐出来的译文）。
+    实测被拦的既有风化案卷（色情），也有中共活动卷宗（政治），别只防一头。
+    """
     return bool(err) and ("DataInspection" in err or "data_inspection" in err.lower())
+
+
+def call_fb(messages, max_tokens=8000, deadline=240):
+    """主端点调用；被内容审查拦下就换备用端点重来。
+
+    翻译一样需要这条退路：百炼的 **Output** 审查会拦掉整块译文
+    （实测 smpa-files-1762「Communist Activities」整件被拦，7 页全无译文）。
+    返回 (d, err, via)。
+    """
+    d, err = call(messages, max_tokens=max_tokens, deadline=deadline)
+    if not err:
+        return d, None, "dashscope"
+    if _blocked(err) and HAS_FALLBACK:
+        d2, err2 = call(messages, max_tokens=max_tokens, deadline=deadline,
+                        base=FB_BASE, key=FB_KEY, model=FB_MODEL)
+        if not err2:
+            return d2, None, "fallback"
+        return None, err2, None
+    return None, err, None
 
 
 def _text_of(d):
@@ -264,6 +290,14 @@ def run_ocr(workers=8):
 
 
 MAX_ZH_TRIES = 2
+BOX_RATIO = 0.30           # 与 build_site.py 的判据一致，改一处要改两处
+
+
+def unusable(en):
+    """严重残破页：模型自己把大部分字标成了 □，说明这页它读不出来。
+    这类页不翻译（只会触发退化循环），站点上单独标注、内容仍保留。"""
+    en = (en or "").strip()
+    return bool(en) and en.count("□") / len(en) >= BOX_RATIO
 
 
 def _fp(text):
@@ -291,6 +325,12 @@ def _missing_zh(doc):
         en = (q.get("en") or "").strip()
         if not en or is_chinese(en):
             continue
+        if unusable(en):
+            continue        # 满页 □ 的残破页，没有值得翻译的内容，翻了也只会退化
+        if q.get("zh_status") and not (q.get("zh") or "").strip():
+            # 已经判定为「译不出来」的终态（退化/模型无输出）。同一页再译一遍
+            # 还是同样的结果，把它当缺口反复重试纯属白烧钱。站点上照实说明即可。
+            continue
         if not (q.get("zh") or "").strip():
             out.append(q["n"])
         elif q.get("zh_src") and q["zh_src"] != _fp(en):
@@ -307,25 +347,34 @@ def _fill_missing_zh(path, doc, missing):
         if q is None or q.get("zh_tries", 0) >= MAX_ZH_TRIES:
             continue
         q["zh_tries"] = q.get("zh_tries", 0) + 1
-        d, err = call([{"role": "user", "content":
-                        TRANS_PROMPT + "\n\n---\n\n⟦p%d⟧\n%s" % (n, q["en"])}],
-                      max_tokens=16000)
+        d, err, via = call_fb([{"role": "user", "content":
+                                TRANS_PROMPT + "\n\n---\n\n⟦p%d⟧\n%s" % (n, q["en"])}],
+                              max_tokens=16000)
         if err:
-            continue
+            continue                    # 接口/网络错误是暂时的，留着下次再试
+        if via == "fallback":
+            q["zh_via"] = via
         z = d["choices"][0]["message"]["content"]
         zin += d["usage"]["prompt_tokens"]; zout += d["usage"]["completion_tokens"]
         z = re.sub(r"⟦p\d+⟧", "", z).strip()
-        if not z or degenerate(z, len(q["en"])):
+        why = degenerate(z, len(q["en"])) if z else "模型无输出"
+        if why:
+            # 退化是**终态**，不是缺口。同一页再译一遍还是同样的垃圾——
+            # 把它当「未翻译」丢回缺口池反复重试，纯属白烧钱，而且掩盖了真实情况。
+            # 记下原因，页面上照实说明「这一页译不出来、为什么」。
+            q["zh_status"] = why
             continue
         q["zh"] = z
         q["zh_src"] = _fp(q["en"])      # 记下这份译文是照哪一版英文译的
+        q.pop("zh_status", None)        # 这次成功了，清掉旧的终态标记
         filled += 1
-    if filled:
-        doc["zh_pages"] = sum(1 for q in doc["page_data"] if (q.get("zh") or "").strip())
-        doc.setdefault("meta", {})
-        doc["meta"]["zh_in_tokens"] = doc["meta"].get("zh_in_tokens", 0) + zin
-        doc["meta"]["zh_out_tokens"] = doc["meta"].get("zh_out_tokens", 0) + zout
-        json.dump(doc, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    # 即使一页都没补成也要落盘：zh_tries 是记在页上的，不写回去就永远是 0，
+    # 那 MAX_ZH_TRIES 形同虚设，每次运行都会把这些补不成的页重烧一遍。
+    doc["zh_pages"] = sum(1 for q in doc["page_data"] if (q.get("zh") or "").strip())
+    doc.setdefault("meta", {})
+    doc["meta"]["zh_in_tokens"] = doc["meta"].get("zh_in_tokens", 0) + zin
+    doc["meta"]["zh_out_tokens"] = doc["meta"].get("zh_out_tokens", 0) + zout
+    json.dump(doc, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(f"{doc['ia_id']}: 补译缺口 {filled}/{len(missing)} 页", flush=True)
     return filled
 
@@ -363,8 +412,8 @@ def _translate_one(iid):
     t0 = time.time()
     zh_pages, zin, zout, bad = {}, 0, 0, 0
     for ci, ch in enumerate(chunks):
-        d, err = call([{"role": "user", "content": TRANS_PROMPT + "\n\n---\n\n" + ch}],
-                      max_tokens=16000)
+        d, err, _via = call_fb([{"role": "user", "content": TRANS_PROMPT + "\n\n---\n\n" + ch}],
+                               max_tokens=16000)
         if err:
             print(f"{iid}: 第 {ci+1}/{len(chunks)} 块失败 {err}"); bad += 1; continue
         zh = d["choices"][0]["message"]["content"]

@@ -81,7 +81,9 @@
    "en": "Form 40\nG. 10,000-9-31\n\nSHANGHAI MUNICIPAL POLICE.\n========================\nREPORT OF POLICE INVESTIGATIONS.\n================================\n\nThe following is the statement of Tsou Dong Hai.\nnative of Yien Zung of Koupo. taken by me C.D.C.317.\nat P.Rd.Station on the 12.8.32. and interpreted by Chang Wen Ta.\n\nMy name is Tsou Dong Hai, aged 21, native of Yien Sung of Koupo,\nnow residing at a straw hut No.255 off Macao Road. I came to\nShanghai at the beginning of October 1929 and resided at resides\nat an unknown number house in Yan Poo Li off Sze Chuen Road. At\nthat time I was employed as a motor truck coolie by the Loo Hong\nKe Motor Truck Company, Han Chung Road, Chapai, until the 6.1.30\nwhen I was dismissed and then commenced work at the Dong Shing\nCotton Mill 131 Gordon Road as a oil cleaner and joined the Dong\nShing Labour Union. I was dismissed from the mill in April this\nyear. Through the introduction of a foreman named Liu Siau Chiu\nTs I am at present working as a coolie in a contractor's workshop\nnear Stone Bridge Chapel. I am not a member of any Communist\nparty. This is my true statement.\n\nSigned and cross-marked by Tsou Dong Hai.\n\nWitness: C.D.C.317.",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-566/page/n10_w2400.jpg",
-   "zh": ""
+   "zh": "表格 40\nG. 10,000-9-31\n\n上海公共租界工部局警务处。\n========================\n警务调查报告。\n================================\n\n以下为邹东海（Tsou Dong Hai）之陈述，由本人 C.D.C.317 于 1932 年 8 月 12 日在 P.Rd. 巡捕房录取，并由张文达（Chang Wen Ta）翻译。\n\n本人姓名邹东海，现年 21 岁，籍贯高邮县松（Yien Sung of Koupo），现居于澳门路旁草棚 255 号。本人于 1929 年 10 月初来沪，居住于四川路旁严家宅（Yan Poo Li）某号（门牌不详）。当时受雇于闸北汉中路鲁鸿记（Loo Hong Ke）汽车运输公司，担任卡车苦力，直至 1930 年 1 月 6 日被解雇，随后前往戈登路 131 号东兴纱厂（Dong Shing Cotton Mill）担任擦油工，并加入东兴工会。今年四月被该厂解雇。经一名叫刘小秋（Liu Siau Chiu Ts）的工头介绍，本人目前在石桥教堂附近的一家承包商工场做苦力。本人并非任何共产党成员。以上陈述属实。\n\n邹东海签字并画押。\n\n见证人：C.D.C.317。",
+   "zh_tries": 1,
+   "zh_src": "78c8f22fd975ae22"
   }
  ],
  "pages_done": 11,
@@ -93,10 +95,10 @@
   "ocr_out_tokens": 3243,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-12 01:51:10",
-  "zh_in_tokens": 10281,
-  "zh_out_tokens": 7935,
+  "zh_in_tokens": 11439,
+  "zh_out_tokens": 8631,
   "zh_chunks": 1
  },
  "native_zh_pages": 0,
- "zh_pages": 10
+ "zh_pages": 11
 }

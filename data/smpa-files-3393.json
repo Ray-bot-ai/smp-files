@@ -445,7 +445,9 @@
    "en": "Accused: Tseu Sz Bing\n(周士平)\n\nList of pro-communist literature seized at 2.30 a.m.\n14/5/35 at No. 477 Holung Road.\n\nIn English                                            Copy\n1. Book: \"The Life and Teaching of Karl              1\n           Marx\" - (M. Beer)\n2. Book : \"Soviet Trade Unions\" - (Robert W.         1\n           Dunn)\n3. Book: \"Village Life under the Soviets\" -          1\n           (Karl Borders)\n4. Book: \"The New Schools of New Russia\" -           1\n           (Lucy L.W. Wilson)\n5. Book: \"Woman in Soviet Russia\" - (Jessica         1\n           Smith)\n6. Book: \"New Tactics in Social Conflict\" -          1\n7. Book: \"Schools Teachers and Scholars in           1\n           Soviet Russia\"\n\nIn Chinese\n8. Book: \"Iron Current\"                              1\n9. Book: \"The Last Day\"                              1\n10. Book: \"New Education in Soviet Russia\"           1\n11. Book: \"Theory on Historical Materialism\"         1\n12. Book: \"A Tour of New Russia\"                     1\n13. Book: \"The Philosophical Foundation of a         1\n           New Society\"\n14. Book: \"Treatise on the League of Peasants        1\n           and Labourers\"\n15. Book: \"Sonin\" (?)                                1\n16. An album containing photographs.\n17. A diary book of a general nature.\n18. One box of chalks.\n19. Two photographs (Tseu Sz Bing and his wife)\n20. Two named cards of Tseu Sz Bing.\n21. Empty envelopes, unposted, bearing the following\n    addresses:-\n    a) Miss Chin Thew Heang, (陳秋香)\n       25 Green Hall,\n       Penang,\n       S.S.\n\n    b) Mr. Chin Khoong Toong, (陳孔頌)\n       25 Green Hall,\n       Penang,\n       S.S.",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-3393/page/n62_w2400.jpg",
-   "zh": ""
+   "zh": "被告：周士平\n(Tseu Sz Bing)\n\n1935年5月14日凌晨2时30分，在霍龙路（Holung Road）477号查获的亲共文献清单。\n\n英文书籍                                            数量\n1. 书名：《卡尔·马克思的生平与学说》——（M. Beer 著）    1\n2. 书名：《苏联工会》——（Robert W. Dunn 著）            1\n3. 书名：《苏维埃下的乡村生活》——（Karl Borders 著）    1\n4. 书名：《新俄罗斯的新学校》——（Lucy L.W. Wilson 著）  1\n5. 书名：《苏俄妇女》——（Jessica Smith 著）             1\n6. 书名：《社会冲突中的新策略》                        1\n7. 书名：《苏俄的学校、教师与学者》                    1\n\n中文书籍\n8. 书名：《铁流》                                      1\n9. 书名：《最后一天》                                  1\n10. 书名：《苏俄新教育》                               1\n11. 书名：《历史唯物论》                               1\n12. 书名：《新俄罗斯游记》                             1\n13. 书名：《新社会的哲学基础》                         1\n14. 书名：《农工联盟论》                               1\n15. 书名：《Sonin》（?）                               1\n16. 相册一本，内含照片。\n17. 普通日记本一本。\n18. 粉笔一盒。\n19. 照片两张（周士平及其夫人）。\n20. 周士平的名片两张。\n21. 未寄出的空信封，印有如下地址：-\n    a) 陈秋香小姐 (Miss Chin Thew Heang),\n       槟榔屿（Penang），\n       海峡殖民地（S.S.），\n       Green Hall 25号。\n\n    b) 陈孔颂先生 (Mr. Chin Khoong Toong),\n       槟榔屿（Penang），\n       海峡殖民地（S.S.），\n       Green Hall 25号。",
+   "zh_tries": 1,
+   "zh_src": "1497a79d6166bb3e"
   },
   {
    "n": 63,
@@ -604,10 +606,10 @@
   "ocr_out_tokens": 31093,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-12 00:04:48",
-  "zh_in_tokens": 41534,
-  "zh_out_tokens": 74593,
+  "zh_in_tokens": 43523,
+  "zh_out_tokens": 91096,
   "zh_chunks": 9
  },
  "native_zh_pages": 0,
- "zh_pages": 82
+ "zh_pages": 83
 }

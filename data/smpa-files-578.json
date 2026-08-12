@@ -144,7 +144,9 @@
    "en": "Form 40\nG.15,000-1-32\n\nSHANGHAI MUNICIPAL POLICE.\n========================\nREPORT OF POLICE INVESTIGATIONS.\n================================\nThe following is the statement of Yuen Foh Tha.\nnative of Hupeh taken by me D.P.S. Warman\nat W'Hongkew on the 14-8-32 and interpreted by Clerk Hou Lin Shu.\n\nMy name is Yuan Foh Tha, age 32, native of Hupeh, married,\nresiding at No.298 Sing Sing Li, Rue Pere Robert, French Town.\nI was born and lived at the village of Ta Shan Hsien, Hupeh, and\nstudied in he local school from the age of 9 years until the age\nof 16, after I had completed my studies I acted as assistant\nteacher in the school for one year after which I was unemployed\nuntil I was twenty-four years of age and resided with my parents.\nI then left home and went to live with an uncle in Wuchang, Hupeh,\nbut did not work for about six months and then entered the Lang\nKoo Middle School at Wuchang as a student, and studied at this\nschool for four years leaving there at the age of 29.\nI then went to live with my brother who was a magistrate of\nChung Hsien (均縣), Hupeh, where I acted as a clerk in his\noffice for eight months after which I returned to my uncle's house\nat Wuchang where I stayed for about nine months and did no work.\nI came to Shanghai in August 1931 and went to live at 34\nRue Admiral Bayle where I stayed for three months afterwards re-\nmoving to an unnumbered house on Tien Tung An Road, Chapei, at\nwhich place I lived for until the commencement of the Sino-Japan-\nese hostilities at which time I went to live at 266 Shangtung Road\nwhere I resided until May 1932, I then removed to my present place\nUpon arriving in Shanghai I was unemployed until March 1932\nwhen I obtained employment in transporting newspapers by air to\nNanking for the China Air Navigation Co (中國航空新聞社) 266 Shang-\ntung Road for which work I received $30.00 per month, I was thrown\nout of work through the re-organisation of the firm in May 1932\nand I have since been engaged in artistic work at 298 Sing Sing",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-578/page/n19_w2400.jpg",
-   "zh": ""
+   "zh": "表格 40\nG.15,000-1-32\n\n上海公共租界工部局警务处。\n========================\n警务调查报告。\n================================\n以下为袁福大（Yuen Foh Tha）之供词，系湖北籍人，由本人 D.P.S. Warman 于 1932 年 8 月 14 日在虹口讯问，并由书记员侯林书（Hou Lin Shu）翻译。\n\n我叫袁福大，32 岁，湖北籍，已婚，现居法租界拉都路（Rue Pere Robert）新新里 298 号。我出生并成长于湖北省大山县（Ta Shan Hsien）某村，9 岁至 16 岁期间在当地学校读书，毕业后在学校担任助教一年，此后直至 24 岁一直失业，与父母同住。随后我离家前往湖北武昌，与一位叔父同住，但约有六个月未工作，之后进入武昌的朗古中学（Lang Koo Middle School）就读，在该校学习四年，29 岁时离校。此后我前往湖北均县（Chung Hsien），与担任该县知事的兄长同住，并在其公署担任书记员八个月，之后返回武昌叔父家，逗留约九个月，期间未工作。我于 1931 年 8 月来到上海，起初居住在贝勒路（Rue Admiral Bayle）34 号，住了三个月后搬至闸北天通庵路（Tien Tung An Road）一处无门牌号的房屋，在此居住直至中日战事爆发，当时我搬至山东路 266 号，居住至 1932 年 5 月，随后搬至现址。抵达上海后，我一直处于失业状态，直到 1932 年 3 月，我在位于山东路 266 号的中国航空新闻社（China Air Navigation Co）找到一份工作，负责通过航空将报纸运送至南京，月薪 30.00 元。1932 年 5 月，因公司重组，我失去工作，此后一直在新新 298 号从事艺术工作",
+   "zh_tries": 1,
+   "zh_src": "ae849601e057c4fc"
   },
   {
    "n": 20,
@@ -233,10 +235,10 @@
   "ocr_out_tokens": 10156,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-12 01:09:37",
-  "zh_in_tokens": 16451,
-  "zh_out_tokens": 12147,
+  "zh_in_tokens": 18053,
+  "zh_out_tokens": 13131,
   "zh_chunks": 4
  },
  "native_zh_pages": 0,
- "zh_pages": 30
+ "zh_pages": 31
 }

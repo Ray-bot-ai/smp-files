@@ -1463,7 +1463,9 @@
    "en": "Form 40\nG. 15,000-10-33\n\nSHANGHAI MUNICIPAL POLICE.\n========================================\nREPORT OF POLICE INVESTIGATIONS.\n========================================\n\nThe following supplementary is the/statement of Tseu Kwei Ih (周贯一)\nnative of Hangchow taken by me\nat Public Safety on the 29.7.35. and interpreted by\nBureau.\n\nMy name is Tseu Kwei Ih, age 23, native of Hangchow.\nI joined the Chinese Communist Youth League in May, 1933.\nIn February this year I was instructed to leave Peiping\nfor Shanghai to continue my work. I was arrested by the\nMunicipal Police on July 24, 1935 and was later escorted\nto the Public Safety Bureau. This is my true statement.\n\nSigned: Tseu Kwei Ih.",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-3402/page/n205_w2400.jpg",
-   "zh": ""
+   "zh": "表格 40\nG. 15,000-10-33\n\n上海公共租界工部局警务处。\n========================================\n警务调查报告。\n========================================\n\n以下附录为周贯一（Tseu Kwei Ih）之陈述，该员系杭州人，由本人于 1935 年 7 月 29 日在警务处对其进行问话，并由本局译员翻译。\n\n本人姓名周贯一，年龄 23 岁，籍贯杭州。\n本人于 1933 年 5 月加入中国共产主义青年团。\n今年二月，本人奉命离开北平前往上海，继续开展工作。本人于 1935 年 7 月 24 日被工部局警务处逮捕，随后被押送至警务处。此乃本人之真实陈述。\n\n签名：周贯一。",
+   "zh_tries": 1,
+   "zh_src": "803b27444a33aa5f"
   },
   {
    "n": 206,
@@ -1511,10 +1513,10 @@
   "ocr_out_tokens": 75918,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-11 23:09:59",
-  "zh_in_tokens": 84088,
-  "zh_out_tokens": 65174,
+  "zh_in_tokens": 84958,
+  "zh_out_tokens": 65569,
   "zh_chunks": 22
  },
  "native_zh_pages": 18,
- "zh_pages": 192
+ "zh_pages": 193
 }

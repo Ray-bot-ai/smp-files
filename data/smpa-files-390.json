@@ -102,7 +102,9 @@
    "en": "FM. 2\nG. 40M-9-\n\nSHANGHAI MUNICIPAL POLICE.\nFile No............\nStation,\nREPORT\nDate....................19\n\nSubject....................................................................................................\nMade by........................................Forwarded by..................................\n-2-\n\nespecially of the student type, observed wandering about\nduring the night. In this matter the Special Branch\ncould render assistance to the stations by detailing\nChinese detectives under the supervision of a foreign officer,\nto patrol neighbourhoods where slogan writing is likely to\nhappen especially prior to and on the eve of a \"Red\"\nanniversary.\nI would also suggest that officers-in-charge of\ndistricts and/or senior detectives be notified that when\nforwarding reports on slogans written in the Chinese language,\nthey should, in addition to the romanized version, include\nthe Chinese characters.\n\n（批：This proposal is receiving attention. JAG.）\n\nD. I.\nDeputy Commissioner (Special Branch).\n\nS.C. (Divisions)\nInformation\nJAG\nFile\nMS\n14 NOV. 1935\n18 NOV. 1935",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-390/page/n13_w2400.jpg",
-   "zh": ""
+   "zh": "FM. 2\nG. 40M-9-\n\n上海公共租界工部局警务处。\n档案号............\n警署，\n报告\n日期....................19\n\n事由....................................................................................................\n呈报人........................................转呈人..................................\n-2-\n\n尤其是学生模样的可疑人员，在夜间四处游荡。在此事项上，特别处可通过派遣华籍侦探，在外籍警官的监督下，对可能发生标语书写活动的街区进行巡逻，从而为各警署提供协助，尤其是在“红色”纪念日前夕及当日。\n\n我还建议，通知各区主管警官和/或高级侦探，在呈报有关中文标语的报告时，除罗马拼音版本外，还应附上汉字原文。\n\n（批：此提议正在研究中。JAG。）\n\nD. I.\n副总监（特别处）。\n\nS.C. (各分区)\n知悉\nJAG\n归档\nMS\n1935年11月14日\n1935年11月18日",
+   "zh_tries": 1,
+   "zh_src": "79bd65499239cb49"
   },
   {
    "n": 14,
@@ -207,7 +209,9 @@
    "en": "F. 22F\nG. 120m-10-33\n\nSHANGHAI MUNICIPAL POLICE.\n\nCRIME DIARY.\n\nPolitical 6/35.                                Division.\nCRIME REGISTER No:—                            Police Station.\n                                               19\nDiary Number:— 1-2-                            Nature of Offence:—\n\n| Time at which investigation begun and concluded each day | | Places visited in course of investigation each day | |\n| :--- | :--- | :--- | :--- |\n| | RECORD OF INVESTIGATION. | | |\n| | The above slogans were immediately washed off by a station coolie. | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | | | |\n| | || |\n| | | D.S.I. | |\n| | for | | |\n| | Copy sent to Special Branch. | | |\n\n（左侧批注：R.D.B 27/5/35）\n\nS2, Please endeavour to arrange with stations to have these slogans photographed. You can arrange with a few stations privately at first, and if the scheme shows signs of proving useful I will arrange to have a special order issued.\nJ.M.S 27 MAY 1935",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-390/page/n28_w2400.jpg",
-   "zh": ""
+   "zh": "",
+   "zh_tries": 2,
+   "zh_status": "片段重复循环"
   },
   {
    "n": 29,
@@ -233,10 +237,10 @@
   "ocr_out_tokens": 8579,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-12 01:08:19",
-  "zh_in_tokens": 11647,
-  "zh_out_tokens": 9475,
+  "zh_in_tokens": 14741,
+  "zh_out_tokens": 11334,
   "zh_chunks": 3
  },
  "native_zh_pages": 0,
- "zh_pages": 29
+ "zh_pages": 30
 }
