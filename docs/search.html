@@ -52,6 +52,7 @@
 <script>
 const $ = s => document.querySelector(s);
 let CAT = null;
+let RUN = 0;      // 检索轮次号：边到边渲染时用它丢弃过期那一轮的结果
 
 async function boot() {
   await loadNorm();
@@ -80,12 +81,25 @@ async function run() {
   }
   const npages = hits.reduce((a, h) => a + h.pages.length, 0);
   let html = `<p class="hint">命中 <b>${fmt(npages)}</b> 页 pages，分布在 <b>${hits.length}</b> 件卷宗 files（${ms} ms）</p>`;
-  $('#res').innerHTML = html + '<p class="spin">载入摘要…</p>';
-  const parts = [html];
-  for (const h of hits.slice(0, 40)) {
-    const d = await getDoc(h.doc);
+
+  // 逐条显示，不要等全部加载完。
+  // 原先是 for + await getDoc 串行取最多 40 份卷宗全文，**取完才一次性写 DOM**，
+  // 所以要干等最慢的那条。卷宗 JSON 含整件正文（大的有几 MB），串行 40 次很慢。
+  // 现在：请求一次性全发出去（浏览器自己限并发），但**按原顺序**边到边渲染。
+  const shown = hits.slice(0, 40);
+  const seq = ++RUN;                       // 防串台：期间又搜了一次就停止渲染旧结果
+  const docs = shown.map(h => getDoc(h.doc));   // getDoc 缓存的是 Promise，不会重复请求
+  $('#res').innerHTML = html +
+    `<div id="list"></div><p class="spin" id="more">载入摘要… 0/${shown.length}</p>`;
+  const list = $('#list'), more = $('#more');
+
+  for (let i = 0; i < shown.length; i++) {
+    let d;
+    try { d = await docs[i]; } catch { continue; }
+    if (seq !== RUN) return;               // 已经有新的检索了，丢弃这轮
+    const h = shown[i];
     const byN = Object.fromEntries(d.pages.map(p => [p.n, p]));
-    parts.push(`<div class="it">
+    list.insertAdjacentHTML('beforeend', `<div class="it">
       <div class="ti"><a href="file.html?id=${h.doc}&q=${encodeURIComponent(q)}">${d.t}</a></div>
       <div class="mt">${d.s ? d.s + ' 系列 series · ' : ''}${d.p} 页 pages · 命中 ${h.pages.length} 页 matched</div>
       ${h.pages.slice(0, 3).map(n => {
@@ -99,8 +113,9 @@ async function run() {
           (inZh ? `<div class="sn zh" style="margin-left:2.6rem">${snippet(p.zh, q, 150)}</div>` : '');
       }).join('')}
     </div>`);
+    more.textContent = `载入摘要… ${i + 1}/${shown.length}`;
   }
-  $('#res').innerHTML = parts.join('');
+  if (seq === RUN) more.remove();
 }
 
 $('#go').onclick = run;
