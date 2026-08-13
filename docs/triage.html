@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>扫图定残破 · 上海工部局警务处档案</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Archivo:wght@600&family=Noto+Serif+SC:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/app.css">
+<style>
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.7rem;margin:1.2rem 0}
+.cell{position:relative;border:1px solid var(--rule);background:#fff;cursor:pointer;
+  line-height:0;transition:border-color .12s}
+.cell img{width:100%;height:190px;object-fit:cover;object-position:top;
+  filter:grayscale(1) contrast(1.05);display:block}
+.cell .cap{line-height:1.35;font-size:.62rem;padding:.25rem .35rem;color:var(--muted);
+  font-family:var(--label);letter-spacing:.04em;background:var(--card);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cell.bad{border-color:var(--stamp);border-width:2px}
+.cell.bad img{opacity:.45}
+.cell.bad::after{content:"不可读";position:absolute;top:.4rem;left:.4rem;
+  background:var(--stamp);color:#fff;font-family:var(--label);font-size:.58rem;
+  letter-spacing:.1em;padding:.15rem .4rem}
+.cell.ok::before{content:"✓";position:absolute;top:.35rem;right:.45rem;color:#4a7a44;
+  font-size:.95rem;font-weight:600;text-shadow:0 0 3px #fff}
+.bar2{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;margin:1rem 0;
+  padding:.85rem 1rem;background:var(--card);border:1px solid var(--rule)}
+.bar2 button{font-family:var(--label);font-size:.68rem;letter-spacing:.1em;
+  text-transform:uppercase;padding:.5rem .9rem;border:1px solid var(--rule);
+  background:#fff;cursor:pointer;color:var(--ink)}
+.bar2 button:hover{border-color:var(--stamp);color:var(--stamp)}
+.bar2 .n{font-size:.82rem;color:var(--muted);margin-left:auto}
+#out{width:100%;height:11rem;font-family:ui-monospace,Menlo,monospace;font-size:.7rem;
+  margin-top:1rem;border:1px solid var(--rule);padding:.7rem;display:none;background:#fff}
+</style>
+</head>
+<body>
+<header class="bar"><div class="in">
+  <a class="brand" href="index.html"><b>Shanghai Municipal Police Files</b><span>1894–1949</span></a>
+  <nav>
+    <a href="search.html">检索 Search</a>
+    <a href="assist.html">联想 AI search</a>
+    <a href="browse.html">目录 Catalogue</a>
+    <a href="quality.html">质量 Quality</a>
+    <a href="index.html">关于 About</a>
+  </nav>
+</div></header>
+
+<div class="wrap">
+  <h1 class="pt">扫图定残破 · Spot the unreadable pages</h1>
+  <div class="note">
+    <b>大模型出大错的页，恰恰是人也读不出来的页。</b>写算法判很难——实测成像指标
+    单指标 AUC 只有 0.69–0.76，把误伤率压到 0 时只抓得到 8% 的坏页；
+    但<b>人扫一眼就知道</b>。所以这里不让算法下结论，只让它<b>排队</b>：
+    最可疑的排在最前面，把你有限的目光用在刀刃上。
+    <span class="zh" style="display:block;margin-top:.5rem;color:var(--muted)">
+      点一下缩略图 = 标为「不可读」，再点一下取消。进度存在你自己的浏览器里。
+      扫完点「导出」，把 JSON 贴进仓库的 <code>unusable_pages.json</code>。
+      拿不准就点开看大图（右键新窗口打开）。</span>
+  </div>
+
+  <div class="bar2">
+    <button id="prev">← 上一批</button>
+    <button id="next">下一批 →</button>
+    <button id="export">导出 JSON</button>
+    <button id="reset">清空标记</button>
+    <span class="n" id="stat">载入中…</span>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <div class="bar2">
+    <button id="prev2">← 上一批</button>
+    <button id="next2">下一批 →</button>
+    <span class="n" id="stat2"></span>
+  </div>
+  <textarea id="out" readonly></textarea>
+</div>
+
+<footer class="ft"><div class="in">
+  <span>NARA RG 263 · M1750 · 公有领域</span>
+  <span>扫描：Virtual Shanghai / bnAsie via Internet Archive</span>
+</div></footer>
+
+<script>
+const $ = s => document.querySelector(s);
+const PER = 60, KEY = 'smp-triage';
+let DATA = null, page = 0;
+let marks = JSON.parse(localStorage.getItem(KEY) || '{}');   // "doc#n" -> 1 坏 / 0 看过且没问题
+
+const save = () => localStorage.setItem(KEY, JSON.stringify(marks));
+
+function render() {
+  const rows = DATA.pages.slice(page * PER, page * PER + PER);
+  $('#grid').innerHTML = rows.map(([doc, n, score]) => {
+    const k = doc + '#' + n, st = marks[k];
+    const iid = 'smpa-files-' + doc;
+    return `<div class="cell ${st === 1 ? 'bad' : st === 0 ? 'ok' : ''}" data-k="${k}"
+                 title="${(DATA.titles[doc] || '').replace(/"/g, '&quot;')}">
+      <img loading="lazy" src="https://archive.org/download/${iid}/page/n${n}_w200.jpg" alt="">
+      <div class="cap">${doc} · p${n + 1} · ${score}</div>
+    </div>`;
+  }).join('');
+  const total = DATA.pages.length, nb = Object.values(marks).filter(v => v === 1).length;
+  const seen = Object.keys(marks).length;
+  const t = `第 ${page * PER + 1}–${Math.min((page + 1) * PER, total)} / ${total.toLocaleString()} 页 ·
+             已看 ${seen} · 标为不可读 ${nb}`;
+  $('#stat').textContent = t; $('#stat2').textContent = t;
+}
+
+$('#grid').addEventListener('click', e => {
+  const c = e.target.closest('.cell'); if (!c) return;
+  const k = c.dataset.k;
+  // 三态循环：未看 → 不可读 → 看过没问题 → 未看
+  marks[k] = marks[k] === undefined ? 1 : marks[k] === 1 ? 0 : undefined;
+  if (marks[k] === undefined) delete marks[k];
+  save(); render();
+});
+
+const go = d => { page = Math.max(0, Math.min(page + d, Math.floor(DATA.pages.length / PER))); render(); scrollTo(0, 0); };
+$('#next').onclick = $('#next2').onclick = () => go(1);
+$('#prev').onclick = $('#prev2').onclick = () => go(-1);
+
+$('#export').onclick = () => {
+  const out = Object.entries(marks).filter(([, v]) => v === 1).map(([k]) => {
+    const [doc, n] = k.split('#');
+    return { ia_id: 'smpa-files-' + doc, n: +n,
+             reason: '人工核对原件影像后判定：本页影像残破，字迹无法辨认，转录不可信。' };
+  });
+  $('#out').style.display = 'block';
+  $('#out').value = JSON.stringify(out, null, 2);
+  $('#out').select();
+};
+
+$('#reset').onclick = () => {
+  if (!confirm('清空所有标记？此操作不可撤销。')) return;
+  marks = {}; save(); render();
+};
+
+fetch('data/triage.json').then(r => r.json()).then(d => { DATA = d; render(); })
+  .catch(() => { $('#stat').textContent = '载入 triage.json 失败——需要先跑一次 build_site.py'; });
+</script>
+</body>
+</html>

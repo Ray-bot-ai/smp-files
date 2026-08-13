@@ -191,6 +191,48 @@ def build_variants_min():
     return len(groups), os.path.getsize(p)
 
 
+def build_triage():
+    """人工扫图队列：把已转录的页按「可疑程度」排序，供人一眼一眼扫。
+
+    为什么是人来扫而不是算法判：**大模型出大错的页，恰恰是人也读不出来的页**。
+    这类页写算法很难（实测成像指标单指标 AUC 只有 0.69–0.76，把误伤压到 0 时
+    只抓得到 8% 的坏页），但人扫一眼就知道。所以别指望判据，把人的注意力用好。
+
+    成像指标在这里唯一的正当用途：**给人排队**，让有限的目光先落在最可疑的页上，
+    而不是替人下结论。没有 imgqual.json 时退化为按 □ 比例排序，一样能用。
+    """
+    qpath = os.path.join(HERE, "imgqual.json")
+    qual = json.load(open(qpath, encoding="utf-8")) if os.path.exists(qpath) else {}
+    med = mad = None
+    if qual:
+        import statistics as st
+        keys = ("contrast", "sharp", "ink", "mean", "blown")
+        med = {k: st.median([v[k] for v in qual.values()]) for k in keys}
+        mad = {k: max(st.median([abs(v[k] - med[k]) for v in qual.values()]), 1e-6)
+               for k in keys}
+
+    rows, titles = [], {}
+    for f in sorted(glob.glob(os.path.join(DATA, "*.json"))):
+        d = json.load(open(f, encoding="utf-8"))
+        short = d["ia_id"].replace("smpa-files-", "")
+        titles[short] = d.get("title", "")
+        for q in d.get("page_data", []):
+            en = (q.get("en") or "").strip()
+            if not en:
+                continue
+            m = qual.get(f"{d['ia_id']}#{q['n']}")
+            if m and med:
+                score = max(abs(m[k] - med[k]) / mad[k] for k in med)
+            else:                      # 没有影像指标就用 □ 比例兜底
+                score = en.count("□") / len(en) * 10
+            rows.append([short, q["n"], round(score, 2)])
+    rows.sort(key=lambda r: -r[2])
+    json.dump({"pages": rows, "titles": titles, "scored": bool(qual)},
+              open(os.path.join(OUT, "triage.json"), "w", encoding="utf-8"),
+              ensure_ascii=False, separators=(",", ":"))
+    return len(rows), bool(qual)
+
+
 def build_progress(nd, npg, nbad):
     """把「干到哪了」写成数据文件，首页去读它。
 
@@ -233,6 +275,9 @@ if __name__ == "__main__":
     print(f"索引 {idx_mb:.2f} MB / {SHARDS} 片（均 {idx_mb*1024/SHARDS:.0f} KB）；正文 {doc_mb:.2f} MB")
     ng, gb = build_variants_min()
     print(f"字形表：{ng:,} 组 / {gb/1024:.0f} KB → docs/data/variants.min.json")
+    nt, scored = build_triage()
+    print(f"人工扫图队列：{nt:,} 页 → docs/data/triage.json"
+          f"（{'按成像指标排序' if scored else '按 □ 比例排序，缺 imgqual.json'}）")
     pr = build_progress(nd, npg, nbad)
     print(f"进度：{pr['files_done']}/{pr['files_total']:,} 件、"
           f"{pr['pages_done']:,}/{pr['pages_total']:,} 页、译文 {pr['zh_pages']:,} 页 "
