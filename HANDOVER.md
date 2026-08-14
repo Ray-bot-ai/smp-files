@@ -183,7 +183,7 @@ https://ray-bot-ai.github.io/smp-files/ · 四页：`index`(关于) `search`(检
 接手的人需要拍板，**建议如下**：
 
 **输出格式**：一件一个 JSON，含每页的 `{page_no, en_text, zh_text, ia_ocr_text, ia_page_url}`。
-保留 IA 旧 OCR 是为了**交叉比对**——两份不一致处正是要人工核对处，这是免费的质检信号，别丢。
+保留原有 OCR（Virtual Shanghai / bnAsie，ABBYY FineReader）是为了**交叉比对**——两份不一致处正是要人工核对处，这是免费的质检信号，别丢。
 
 **抽样校验（最高优先，尚未做）**：随机抽 30–50 页人工比对原件影像，
 按字段分类统计（数字/日期/人名/地名/普通词），并**区分三类**：

@@ -47,8 +47,8 @@ figcaption .zh{display:block;font-family:var(--cjk);margin-top:.35rem}
 .big b{display:block;font-size:1.5rem;color:var(--stamp);font-weight:500}
 .big span{font-size:.6rem;color:var(--muted);font-family:var(--label);
   letter-spacing:.1em;text-transform:uppercase;display:block;line-height:1.5}
-/* 分界提示：第Ⅰ节讲的是 IA 旧 OCR，第Ⅱ节起讲的是本站自己的转录。
-   不加这条，读者会把后面所有的失败案例误记到 IA 头上（或反过来）。 */
+/* 分界提示：第Ⅰ节讲的是原有 OCR（bnAsie/ABBYY），第Ⅱ节起讲的是本站自己的转录。
+   不加这条，读者会把后面所有的失败案例误记到那份 OCR 头上（或反过来）。 */
 .scope{background:rgba(143,47,34,.07);border:1px solid rgba(143,47,34,.3);
   border-left:3px solid var(--stamp);padding:1rem 1.25rem;margin:3rem 0 0;
   max-width:52rem;font-size:.93rem;line-height:1.72}
@@ -117,11 +117,11 @@ figcaption .zh{display:block;font-family:var(--cjk);margin-top:.35rem}
   </div>
   <table class="cmp full">
     <tr><th></th>
-      <th>IA-OCR<small>Internet Archive 上原有的 OCR</small></th>
+      <th>bnAsie OCR<small>Virtual Shanghai / bnAsie 项目的原有 OCR</small></th>
       <th>This edition<small>本站的大模型转录</small></th></tr>
     <tr><td>What it is<span class="zh">是什么</span></td>
-      <td>A conventional character recogniser, run in 2024 for English only.
-        <span class="zh">传统逐字识别，2024 年只按英文跑过一遍。</span></td>
+      <td>ABBYY FineReader, a conventional character recogniser.
+        <span class="zh">ABBYY FineReader，传统逐字识别程序。</span></td>
       <td>A vision language model reading each page at native scanning resolution.
         <span class="zh">视觉大模型，以原生扫描分辨率逐页阅读。</span></td></tr>
     <tr><td>How it fails<span class="zh">怎么出错</span></td>
@@ -153,17 +153,18 @@ figcaption .zh{display:block;font-family:var(--cjk);margin-top:.35rem}
   </div>
 
   <div class="whose">
-    <b>§ Ⅰ concerns Internet Archive's OCR — not this edition</b>
-    <span class="zh2">第 Ⅰ 节讲的是 Internet Archive 上原有的 OCR，不是本站的转录</span>
-    <small>That OCR was produced by Internet Archive in 2024 with a conventional character
-      recogniser. This site keeps it for comparison but does not build on it.
-      · 那份 OCR 是 Internet Archive 2024 年用传统逐字识别程序做的；本站保留它用于对照，
-      检索索引并非建于其上。</small>
+    <b>§ Ⅰ concerns the pre-existing OCR — not this edition</b>
+    <span class="zh2">第 Ⅰ 节讲的是原有的那份 OCR，不是本站的转录</span>
+    <small>That OCR was produced by the Virtual Shanghai / bnAsie project with ABBYY
+      FineReader, a conventional character recogniser. This site keeps it for comparison
+      but does not build on it.
+      · 那份 OCR 是 Virtual Shanghai / bnAsie 项目用 ABBYY FineReader 做的；
+      本站保留它用于对照，检索索引并非建于其上。</small>
   </div>
   <div class="par">
     <p class="collabel">English</p><p class="collabel">中文</p>
     <div><p>It is worth being precise rather than dramatic. Measured across all 3,863 files
-      (33 million word-tokens), <b>69.2% of the words <span class="ia">IA-OCR</span> produces are
+      (33 million word-tokens), <b>69.2% of the words the <span class="ia">bnAsie OCR</span> produces are
       recognisable English</b>; the median file scores the same, and only 3% of files fall
       below 50%. It is <i>poor</i>, not <i>useless</i> — it usually captures most letters of
       a word and misses one or two.</p>
@@ -172,27 +173,26 @@ figcaption .zh{display:block;font-family:var(--cjk);margin-top:.35rem}
       <span class="bad">revesleu</span> for <i>revealed</i> — a human guesses, a search index
       cannot. Errors also compound across a phrase: if roughly one word in three is mangled,
       a two-word phrase survives intact about half the time and a three-word name about a
-      third. Chinese-language enclosures were never recognised at all, since that OCR was run
-      for English only.</p></div>
+      third. Chinese-language enclosures were never recognised at all.</p></div>
     <div><p class="zh">这里应当精确而不是渲染。全库 3,863 件、3,310 万个词形的实测结果：
-      <b>Internet Archive 那份 OCR 产出的词有 69.2% 是可识别的英文</b>，中位数同样是 69.2%，
+      <b>那份原有 OCR 产出的词有 69.2% 是可识别的英文</b>，中位数同样是 69.2%，
       低于 50% 的卷宗只占 3%。它是<i>不好</i>，而不是<i>不能用</i>——
       通常能认出一个词的大部分字母，错一两个。</p>
       <p class="zh">但后果很具体：够勉强读懂一页，远远不够检索。
       <span class="bad">enguirics</span> 之于 <i>enquiries</i>、
       <span class="bad">revesleu</span> 之于 <i>revealed</i>——人能猜出来，检索引擎不能。
       误差在词组上还会叠加：若每三个词错一个，两词词组完整存活约一半，
-      三字人名只剩三分之一。至于夹带的中文件，因为那次 OCR 只按英文跑，从未被识别过。</p></div>
+      三字人名只剩三分之一。至于夹带的中文件，则从未被识别过。</p></div>
   </div>
 
   <div class="scope">
     <span class="lbl">Scope · 适用范围</span>
     <b>§§ Ⅱ–Ⅷ concern this edition's own transcription</b> — the text produced here by a
-    language model. § Ⅰ above described a different machine: the Internet Archive's
-    conventional OCR. The failures below are <i>ours</i>, and they look nothing like
+    language model. § Ⅰ above described a different machine: the Virtual Shanghai / bnAsie
+    project's conventional OCR. The failures below are <i>ours</i>, and they look nothing like
     the failures above.
     <span class="zh"><b>第 Ⅱ–Ⅷ 节讲的全部是本站大模型转录自身的问题</b>，
-    也就是这里生成的那份文本。上面第Ⅰ节说的是另一套机器——Internet Archive 的传统 OCR。
+    也就是这里生成的那份文本。上面第Ⅰ节说的是另一套机器——Virtual Shanghai / bnAsie 项目的传统 OCR。
     下面列出的错法是<i>本站的</i>，与上面那种错法完全不同。</span>
   </div>
 
@@ -400,14 +400,14 @@ figcaption .zh{display:block;font-family:var(--cjk);margin-top:.35rem}
     A page whose transcription is wrong has a translation that is wrong in the same place,
     only harder to notice, because the Chinese reads smoothly and no longer resembles
     anything on the page. <b>Two columns agreeing is not corroboration.</b> The only
-    independent check is the scan itself, and the Internet Archive's separate OCR.
+    independent check is the scan itself, and the bnAsie project's separate OCR.
     <span class="zh"><b>中文译文是照英文转录译出来的，不是照影像译的。</b>
     阅读页里没有任何环节把中文与原件影像比对过。所以转录在哪里编造了一个人名或数字，
     译文就把那个编造忠实地译成通顺的中文——并且再叠上一层它自己的错。
     某一页转录错了，它的译文必然在同一处错，而且<b>更难发现</b>：
     中文读起来很顺，且已经和页面上的字形毫无相似之处，连"看着不像"这条线索都没了。
     <b>两栏一致不构成互证。</b>真正独立的旁证只有两个：原件影像本身，
-    以及 Internet Archive 那份另做的 OCR。</span>
+    以及 Virtual Shanghai / bnAsie 项目那份另做的 OCR。</span>
   </div>
   <div class="par">
     <p class="collabel">English</p><p class="collabel">中文</p>

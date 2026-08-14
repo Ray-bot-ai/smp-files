@@ -243,7 +243,9 @@ def ocr_page(args):
 
 
 def ia_ocr_text(iid):
-    """本地已有的 IA 旧 OCR（件级，非逐页）。留作交叉比对——两份不一致处 = 该人工核对处。"""
+    """本地已有的原有 OCR（Virtual Shanghai / bnAsie 项目用 ABBYY FineReader 制作，
+    件级非逐页）。留作交叉比对——两份不一致处 = 该人工核对处。
+    注意：这份 OCR 不是 Internet Archive 做的，IA 只是托管方，别再写错。"""
     for f in glob.glob(os.path.join(SMP_OCR, "**", f"*__{iid}.md"), recursive=True):
         s = open(f, encoding="utf-8", errors="replace").read()
         return s.split("---", 2)[-1].strip()

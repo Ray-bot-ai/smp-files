@@ -100,10 +100,10 @@ function hl(s){
   if (d.ia_ocr) {
     $('#pages').insertAdjacentHTML('beforeend', `
       <section class="pane" style="grid-template-columns:1fr">
-        <div><h4>对照：Internet Archive 原有 OCR · Existing machine OCR</h4>
+        <div><h4>对照：原有 OCR（Virtual Shanghai / bnAsie，ABBYY FineReader） · Existing machine OCR</h4>
         <div class="oldocr">${esc(d.ia_ocr.slice(0, 6000))}</div>
         <p class="muted" style="font-size:.84rem;margin-top:.6rem">
-          这是重做之前的状态。保留它是为了交叉比对——两份不一致处，正是需要人工核对原件的地方。<br>The pre-existing machine OCR, kept for cross-checking: where the two disagree is where a human should look.</p>
+          这是重做之前的状态，由 Virtual Shanghai / bnAsie 项目用 ABBYY FineReader 制作。保留它是为了交叉比对——两份不一致处，正是需要人工核对原件的地方。<br>The pre-existing OCR, produced by the Virtual Shanghai / bnAsie project with ABBYY FineReader, kept for cross-checking: where the two disagree is where a human should look.</p>
         </div></section>`);
   }
   if (JUMP !== null) document.getElementById('p' + JUMP)?.scrollIntoView({behavior:'smooth'});
