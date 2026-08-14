@@ -77,6 +77,24 @@ def damage_flag(iid, n, en, manual):
     return None
 
 
+SKIPPED = []
+
+
+def load_doc(f):
+    """读一份 data/*.json，读不了就跳过而不是让整个构建挂掉。
+
+    全量跑批要跑好几天，期间会不断重建站点让新内容可检索。而跑批正在写
+    data/，json.dump 不是原子写——正好读到写一半的文件，原来会抛
+    JSONDecodeError 把整次构建带崩，等于「跑批一直在写，站点就一直建不出来」。
+    跳过 + 记录，下次重建自然会带上。
+    """
+    try:
+        return json.load(open(f, encoding="utf-8"))
+    except Exception as e:
+        SKIPPED.append((os.path.basename(f), type(e).__name__))
+        return None
+
+
 def tokens(text):
     """英文词 + 中文归一化 bigram。返回 set（同页重复只算一次，索引小很多）。"""
     t = set()
@@ -137,7 +155,9 @@ def build_docs_and_index():
     ndoc = npage = nbad = 0
     manual = load_manual_flags()
     for f in sorted(glob.glob(os.path.join(DATA, "*.json"))):
-        d = json.load(open(f, encoding="utf-8"))
+        d = load_doc(f)
+        if d is None:
+            continue
         short = d["ia_id"].replace("smpa-files-", "")
         pages = []
         for q in d.get("page_data", []):
@@ -213,7 +233,9 @@ def build_triage():
 
     rows, titles = [], {}
     for f in sorted(glob.glob(os.path.join(DATA, "*.json"))):
-        d = json.load(open(f, encoding="utf-8"))
+        d = load_doc(f)
+        if d is None:
+            continue
         short = d["ia_id"].replace("smpa-files-", "")
         titles[short] = d.get("title", "")
         for q in d.get("page_data", []):
@@ -253,7 +275,9 @@ def build_progress(nd, npg, nbad):
         pages_total += r.get("pages", 0) or 0
     zh = 0
     for f in glob.glob(os.path.join(DATA, "*.json")):
-        d = json.load(open(f, encoding="utf-8"))
+        d = load_doc(f)
+        if d is None:
+            continue
         zh += sum(1 for q in d.get("page_data", []) if (q.get("zh") or "").strip())
     p = {"files_done": nd, "files_total": files_total,
          "pages_done": npg, "pages_total": pages_total,
@@ -273,6 +297,9 @@ if __name__ == "__main__":
     print(f"全文：{nd} 件 / {npg:,} 页；token {ntok:,}（保留 {kept:,}，去掉高频停用）")
     print(f"标记为不可用的页：{nbad}（内容保留，只加说明）")
     print(f"索引 {idx_mb:.2f} MB / {SHARDS} 片（均 {idx_mb*1024/SHARDS:.0f} KB）；正文 {doc_mb:.2f} MB")
+    if SKIPPED:
+        print(f"⚠ 跳过 {len(SKIPPED)} 个读不了的文件（多半是跑批正在写）：{SKIPPED[:5]}")
+        print("  它们这次不会进索引，下次重建会自动带上。")
     ng, gb = build_variants_min()
     print(f"字形表：{ng:,} 组 / {gb/1024:.0f} KB → docs/data/variants.min.json")
     nt, scored = build_triage()
