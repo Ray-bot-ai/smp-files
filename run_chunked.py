@@ -69,8 +69,30 @@ def fetch_chunk(chunk, workers=24):
     return ok, len(jobs)
 
 
+def recoverable(err):
+    """这个失败还值不值得再试一次。
+
+    **不是所有「有错误记录」都等于处理完了。** 第一版 verified() 只要求
+    「要么有正文、要么有错误」，结果把取图失败也当成了完成——那一件随即通过验证、
+    影像被删、跑批向前，这一页就**永久空白**。实测 1,651 页里丢了 10 页（0.6%），
+    照这个比例剩下 85,000 页会丢约 500 页，而且全程不报错。
+
+    可修复：取图失败、超时、接口抖动——重来一次多半就好了。
+    没救：内容审查两侧都拒（Input/Output），而且已经走过备用端点。
+    """
+    if not err:
+        return False
+    if "DataInspection" in err or "data_inspection" in err.lower():
+        return False
+    return True
+
+
 def verified(iid, pages):
-    """这一件是不是真的处理完了——落盘且每页都有交代（正文 或 明确的错误）。"""
+    """这一件是不是真的处理完了。
+
+    完成 = 每页要么有正文，要么有**没救的**错误且已试满次数。
+    可修复的失败一律算没完成——影像因此保留，下一轮还能重取重转。
+    """
     p = os.path.join(D.DATA, f"{iid}.json")
     if not os.path.exists(p):
         return False
@@ -82,9 +104,30 @@ def verified(iid, pages):
         q = got.get(n)
         if q is None:
             return False
-        if not (q.get("en") or "").strip() and not q.get("error"):
-            return False        # 既没正文又没报错 = 静默失败，不能当完成
+        if (q.get("en") or "").strip():
+            continue
+        err = q.get("error")
+        if not err:
+            return False        # 既没正文又没报错 = 静默失败
+        if recoverable(err) and q.get("tries", 0) < D.MAX_TRIES:
+            return False        # 还能救，别急着当完成（影像因此保住）
     return True
+
+
+def missing_images(chunk):
+    """取图失败的页。这类是网络抖动，重取大概率就有了。"""
+    out = []
+    for iid, _pages in chunk:
+        p = os.path.join(D.DATA, f"{iid}.json")
+        if not os.path.exists(p):
+            continue
+        d = json.load(open(p, encoding="utf-8"))
+        for q in d.get("page_data", []):
+            if (q.get("en") or "").strip():
+                continue
+            if "无图" in (q.get("error") or "") and q.get("tries", 0) < D.MAX_TRIES:
+                out.append((iid, q["n"]))
+    return out
 
 
 def record_quality(chunk, qual):
@@ -114,6 +157,40 @@ def drop_images(chunk):
     return freed
 
 
+def repair(ocr_workers=12):
+    """全库扫一遍：把「还能救」的失败页重取重转。
+
+    用途是补第一版 verified() 放过去的那些页——它当时把取图失败也当成完成，
+    影像随即被删、跑批向前，页面永久空白。这里按 data/*.json 里记的
+    image_url 重新取图（Internet Archive 是源头，随时能拉回来）。
+    """
+    todo = {}
+    for f in glob.glob(os.path.join(D.DATA, "*.json")):
+        d = json.load(open(f, encoding="utf-8"))
+        for q in d.get("page_data", []):
+            if (q.get("en") or "").strip():
+                continue
+            if recoverable(q.get("error")) and q.get("tries", 0) < D.MAX_TRIES:
+                todo.setdefault(d["ia_id"], []).append(q["n"])
+    npg = sum(len(v) for v in todo.values())
+    print(f"可修复的失败页：{npg} 页，分布在 {len(todo)} 件")
+    if not npg:
+        return
+    jobs = [(iid, n) for iid, ns in todo.items() for n in ns]
+    with cf.ThreadPoolExecutor(16) as ex:
+        got = sum(1 for p_, _ in ex.map(lambda a: download(*a), jobs) if p_)
+    print(f"重新取图 {got}/{len(jobs)}")
+    D.DEMO = sorted(todo)
+    D.run_ocr(workers=ocr_workers)
+    D.run_translate()
+    left = 0
+    for iid in todo:
+        d = json.load(open(os.path.join(D.DATA, f"{iid}.json"), encoding="utf-8"))
+        left += sum(1 for q in d["page_data"]
+                    if not (q.get("en") or "").strip() and recoverable(q.get("error")))
+    print(f"修复后仍缺 {left} 页")
+
+
 def main(chunk_size, keep, ocr_workers, max_chunks=0):
     todo = targets()
     print(f"待处理 {len(todo)} 件 / {sum(p for _, p in todo):,} 页")
@@ -133,6 +210,19 @@ def main(chunk_size, keep, ocr_workers, max_chunks=0):
 
         D.DEMO = [iid for iid, _ in chunk]
         D.run_ocr(workers=ocr_workers)
+
+        # 取图失败的页重取重转。不做这一步，网络抖一下就是一页永久空白。
+        for attempt in range(2):
+            miss = missing_images(chunk)
+            if not miss:
+                break
+            print(f"{tag} 取图失败 {len(miss)} 页，重取第 {attempt + 1} 轮", flush=True)
+            with cf.ThreadPoolExecutor(16) as ex:
+                list(ex.map(lambda a: download(*a), miss))
+            D.DEMO = sorted({iid for iid, _ in miss})
+            D.run_ocr(workers=ocr_workers)
+
+        D.DEMO = [iid for iid, _ in chunk]
         D.run_translate()
 
         n_new = record_quality(chunk, qual)
@@ -158,9 +248,12 @@ if __name__ == "__main__":
     ap.add_argument("--keep", action="store_true", help="不删影像")
     ap.add_argument("--ocr-workers", type=int, default=12)
     ap.add_argument("--max-chunks", type=int, default=0, help="只跑前 N 批（试跑用）")
+    ap.add_argument("--repair", action="store_true", help="全库补跑可修复的失败页")
     ap.add_argument("--stat", action="store_true")
     a = ap.parse_args()
-    if a.stat:
+    if a.repair:
+        repair(a.ocr_workers)
+    elif a.stat:
         t = targets()
         q = load_qual()
         used = sum(os.path.getsize(f) for f in glob.glob(os.path.join(IMG_DIR, "*", "*")))
