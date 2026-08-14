@@ -124,28 +124,40 @@ async function catMeta(id) {
    返回 {res, all}：res 给模型（摘录限量），all 给界面（命中卷宗一件不漏）。
    题名取自 catalog.json，所以列全部不需要逐件 fetch 详情。 */
 async function toolSearch(args) {
-  const limit = Math.min(args.limit || 12, 30);
-  const A = (x) => (Array.isArray(x) ? x : x ? [x] : []).map(s => String(s).trim()).filter(Boolean);
+  args = (args && typeof args === "object") ? args : {};
+  const limit = Math.max(1, Math.min(Number(args.limit) || 12, 30));
+  /* 参数一律按「可能是任何形状」处理。模型经常不照签名传：
+     query 给成数组、all 给成字符串、数字当字符串……
+     以前 query 直接当字符串 .trim()，模型传个数组就整轮崩掉
+     （实见 "(args.query || "").trim is not a function"）。
+     宁可宽进，也不要因为一次参数写歪就把整次检索毁掉。 */
+  const A = (x) => (Array.isArray(x) ? x.flat(3) : x === null || x === undefined ? [] : [x])
+    .map(v => (typeof v === "object" ? JSON.stringify(v) : String(v)).trim())
+    .filter(Boolean);
   const all = A(args.all), any = A(args.any), none = A(args.none);
-  const q = (args.query || "").trim();
-  if (!q && !all.length && !any.length) return { res: { error: "没有给检索条件" }, all: [] };
+  const qs = A(args.query);          // query 也可能是数组，多项按 AND 处理（与文档一致）
+  if (!qs.length && !all.length && !any.length) {
+    return { res: { error: "没有给检索条件：请给 query，或给 all / any / none。" }, all: [] };
+  }
 
   let hits, toks, label;
-  if (all.length || any.length || none.length) {
-    const r = await searchBool({ all: all.concat(q ? [q] : []), any, none });
+  const useBool = all.length || any.length || none.length || qs.length > 1;
+  if (useBool) {
+    const allTerms = all.concat(qs);
+    const r = await searchBool({ all: allTerms, any, none });
     hits = r.hits;
     toks = null;
-    label = [all.concat(q ? [q] : []).map(t => `+${t}`).join(' '),
+    label = [allTerms.map(t => `+${t}`).join(' '),
              any.length ? `(${any.join(' | ')})` : '',
              none.map(t => `-${t}`).join(' ')].filter(Boolean).join(' ');
   } else {
-    const r = await search(q);
-    hits = r.hits; toks = r.toks; label = q;
+    const r = await search(qs[0]);
+    hits = r.hits; toks = r.toks; label = qs[0];
   }
   const nPages = hits.reduce((a, h) => a + h.pages.length, 0);
 
   // 摘要高亮用哪个词：布尔检索时 query 可能为空，取条件里第一个实词
-  const hlq = q || all[0] || any[0] || "";
+  const hlq = qs[0] || all[0] || any[0] || "";
 
   // 全部命中卷宗：只有题名与命中页数，不含摘录
   const allFiles = [];
@@ -255,8 +267,16 @@ async function runAgent(question, cfg, onEvent) {
     messages.push({ role: "assistant", content: content || null, tool_calls: toolCalls });
     for (const tc of toolCalls) {
       let args = {}; try { args = JSON.parse(tc.function.arguments || '{}'); } catch {}
-      const { res, all } = await toolSearch(args);
-      onEvent({ type: "tool", query: args.query || '', result: res, all });
+      // 工具出错不能把整轮检索带崩：把错误当成工具结果回给模型，让它自己改参数重试。
+      let res, all;
+      try {
+        ({ res, all } = await toolSearch(args));
+      } catch (e) {
+        res = { error: `检索调用失败：${e && e.message ? e.message : e}。` +
+                       `请检查参数：query 是字符串，all/any/none 是字符串数组。` };
+        all = [];
+      }
+      onEvent({ type: "tool", query: (res && res.query) || '', result: res, all });
       messages.push({ role: "tool", tool_call_id: tc.id, content: JSON.stringify(res) });
     }
   }
