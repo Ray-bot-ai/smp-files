@@ -90,6 +90,21 @@
         <option value="deep">思考：深入 · Deep thinking</option>
       </select>
     </div>
+    <div class="row">
+      <label style="margin:0">给模型多少证据 · How much the model gets to see
+        <span style="color:var(--muted)">——这里没有上限，填多少是多少。
+        调大通常检索得更准，也更花钱，<b>花的是你自己 key 的钱</b>。填 0 = 不限。</span></label>
+    </div>
+    <div class="row">
+      <input id="capfiles" type="number" placeholder="卷宗名单 400" style="width:11rem"
+             title="每次检索让模型看到多少件卷宗题名。只有题名+命中页数，很便宜。0=全给">
+      <input id="capsamples" type="number" placeholder="原文摘录 40" style="width:11rem"
+             title="每次检索给多少条带原文的摘录。要逐件取全文，较贵。0=全给">
+      <input id="rounds" type="number" placeholder="检索轮数 12" style="width:10rem"
+             title="最多来回检索多少轮">
+      <input id="maxtok" type="number" placeholder="max_tokens 16000" style="width:12rem"
+             title="单轮输出额度。注意：思考与正文共用这一份额度，开思考时给小了会没有正文">
+    </div>
 
     <p class="priv">
       <b>The key is stored only in your own browser (localStorage) and is sent only to the
@@ -151,6 +166,10 @@ function loadCfg(){
   if (c.model) $('#model').value = c.model;
   if (c.base) $('#base').value = c.base;
   if (c.think) $('#think').value = c.think;
+  if (c.capFiles !== undefined) $('#capfiles').value = c.capFiles;
+  if (c.capSamples !== undefined) $('#capsamples').value = c.capSamples;
+  if (c.maxRounds !== undefined) $('#rounds').value = c.maxRounds;
+  if (c.maxTokens !== undefined) $('#maxtok').value = c.maxTokens;
   if (c.key) { $('#key').value = c.key; $('#cfg').open = false; }
 }
 function onProv(){
@@ -166,7 +185,11 @@ $('#think').onchange = () => {
   localStorage.setItem(CFG, JSON.stringify(c));
 };
 $('#save').onclick = () => {
-  localStorage.setItem(CFG, JSON.stringify({prov:$('#prov').value, model:$('#model').value,
+  const num = (el, d) => $(el).value === '' ? d : +$(el).value;   // 空=用默认，0=不限
+  localStorage.setItem(CFG, JSON.stringify({capFiles:num('#capfiles',400),
+    capSamples:num('#capsamples',40), maxRounds:num('#rounds',12) || 12,
+    maxTokens:num('#maxtok',0) || undefined,
+    prov:$('#prov').value, model:$('#model').value,
     base:$('#base').value, key:$('#key').value, think:$('#think').value}));
   $('#cfg').open = false;
   $('#out').innerHTML = '<p class="spin">已保存到本浏览器 Saved in this browser.</p>';

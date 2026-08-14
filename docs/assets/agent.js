@@ -40,20 +40,41 @@ const SYS_PROMPT = `你是上海公共租界工部局警务处档案（Shanghai 
 
 ### 2. 先把问题拆成「概念」，每个概念一个 any 集合
 用户问的往往是**画像**（若干条件同时成立），不是某个词。
-先拆成 2–3 个概念，每个概念把所有可能的英文说法列进 \`any\`，再用 \`all\` 把概念组合起来。
+先把问题拆成 2–3 个概念；每个概念**穷举**档案里可能的英文说法（同义词、上下位词、
+当时的行话、机构名、职业名），塞进一个 \`any\`；再用 \`all\` 把概念组合起来。
 
-例：「受过中学/大学教育、或当过教师的工厂工人」＝ 两个概念取交集
+写法示意（概念 A ∩ 概念 B）：
 \`\`\`
-{ any: ["educated","education","graduated","college","middle school","normal school",
-        "teacher","schoolmaster","student"],
-  all: ["factory"] }
+{ any: ["A 的说法1","A 的说法2","A 的说法3", …], all: ["B 的说法1"] }
 \`\`\`
-再把 \`all\` 换成 "apprentice"、"mill"、"workman"、"weaver"、"printing" 各跑一次，
-把几轮结果合起来看。**这类问题一次单词检索是答不了的。**
+然后把 \`all\` 里的词换成 B 的其他说法各跑一次，把几轮结果合起来看。
+
+**穷举同义词是这一步的关键。** 档案是巡捕房随手写的，同一件事有十几种说法：
+职业既可能写成具体工种，也可能写成 worker / employed / working at；
+学历既可能写 educated，也可能只是一句 attended … school。
+只想到两三个词就开搜，必然大面积漏掉。宁可 \`any\` 里放十几个词——**这不花额外代价**。
+
+**⚠ 多词短语是「词的 AND」，不是短语匹配。**
+\`"A B"\` 的意思是「同一页里既有 A 又有 B」，因此复合词会**排除**只写了其中一个词的页。
+每个概念都要同时放入**裸词**和更具体的复合词，否则会大面积漏掉写法。
 
 命中 0 就换写法或放宽（去掉 all）；命中过多就往 \`all\` 里再加一个概念收窄。
 
-### 3. 滚雪球 —— 从命中结果里找新词（务必做）
+### 3. 关键词只负责「捞进来」，算不算数要靠**读**
+很多条件在档案里没有固定说法，靠列同义词是列不完的——
+一个人的身份可能写成职务、写成受雇于某处、写成一句转述，
+**这类表述的变体是无穷的，关键词天然抓不全，也判不准**。
+所以正确做法是：
+
+1. **先撒大网**：用宽松的 \`any\`（宁可多而杂）把可能相关的页尽量捞进候选，
+   此时不要急着用 \`all\` 收窄，也不要看命中多就换更窄的词——**召回优先**。
+2. **再逐页读**：对候选页调用 \`read_pages\` 读完整原文，**由你自己判断**
+   这一页写的人和事是否真的符合用户要的画像。
+3. 判断依据写进结果里（哪句话对应哪个条件）。
+
+摘录（samples）只是一小段上下文，**不足以判断**；拿不准就 \`read_pages\`，别猜。
+
+### 4. 滚雪球 —— 从命中结果里找新词（务必做）
 读回来的题名和正文片段，从中提取**新的检索词**再搜：
 - 出现的人名（尤其是罗马字拼法，那往往是档案里唯一的写法）
 - 机构名、社团名、报刊名、街道名
@@ -61,7 +82,7 @@ const SYS_PROMPT = `你是上海公共租界工部局警务处档案（Shanghai 
 - 案件编号前缀、卷宗系列
 迭代 **2–4 轮**，直到新词不再带来新结果。
 
-### 4. 判断相关性，去噪 —— 宁缺毋滥
+### 5. 判断相关性，去噪 —— 宁缺毋滥
 逐条对照用户真实意图：剔除同名异人、字面沾边但实质无关的。
 - **不要用"相邻画像"凑数**。问的是「工厂工人且受过教育」，那么"教师"（不是工人）、
   "党的组织原则"（不是个人）、"知识青年失业"（宏观背景）**都不算命中**，
@@ -97,18 +118,42 @@ const TOOL_DEF = [{
         all: { type: "array", items: { type: "string" },
                description: "AND：每一项都必须出现在同一页。" },
         any: { type: "array", items: { type: "string" },
-               description: "OR：至少出现一项。把同义词/异写放在这里，一次搜完，别一个个单独搜。" },
+               description: "OR：至少出现一项。把同义词/异写放在这里一次搜完。" +
+                 "注意：多词短语是**词的 AND**不是短语匹配——\"middle school\" 要求同页既有 middle 又有 school，" +
+                 "因此匹配不到 \"private school\"。所以务必同时放入裸词（school / worker / mill）。" },
         none: { type: "array", items: { type: "string" },
                 description: "NOT：出现任一项就排除该页。用来滤掉已知的干扰义。" },
-        limit: { type: "integer", description: "返回多少条摘录，默认 12，最大 30" }
+        limit: { type: "integer", description: "返回多少条摘录。证据不够就调大，没有硬上限。" }
       }
+    }
+  }
+}, {
+  type: "function",
+  function: {
+    name: "read_pages",
+    description:
+      "读取指定卷宗指定页的**完整转录原文**（英文 + 中文译文）。" +
+      "关键词检索只能保证把页捞进候选；**判断一页算不算数必须靠读原文**。" +
+      "命中多、或摘录看不出所以然时，用它逐页读。",
+    parameters: {
+      type: "object",
+      properties: {
+        doc_id: { type: "string", description: "卷宗号，来自检索结果的 doc_id" },
+        pages: { type: "array", items: { type: "integer" },
+                 description: "要读的页码（从 1 开始）。省略则读该件全部已转录页。" }
+      },
+      required: ["doc_id"]
     }
   }
 }];
 
-/* 给模型看的卷宗名单上限。题名平均约 55 字，全库将来有 3,866 件，
-   全塞进去会撑爆上下文——所以「模型看到的」封顶，「界面显示的」不封顶。 */
-const MODEL_FILE_CAP = 80;
+/* 这些只是**默认值**，不是上限。用户自带 API key，想给模型看多少是他的事——
+   他花的是自己的钱，我们只负责说清楚哪一项会更贵。
+   设 0 表示不限。**不要在这里夹取用户给的数值。** */
+const CAP = {
+  files: 400,      // 名单（只有题名 + 命中页数，很便宜）
+  samples: 40      // 摘录（要逐件取全文，较贵）
+};
 
 let catIndex = null;
 async function catMeta(id) {
@@ -125,7 +170,7 @@ async function catMeta(id) {
    题名取自 catalog.json，所以列全部不需要逐件 fetch 详情。 */
 async function toolSearch(args) {
   args = (args && typeof args === "object") ? args : {};
-  const limit = Math.max(1, Math.min(Number(args.limit) || 12, 30));
+  const wantSamples = Number(args.limit) > 0 ? Number(args.limit) : CAP.samples;  // 0 = 不限
   /* 参数一律按「可能是任何形状」处理。模型经常不照签名传：
      query 给成数组、all 给成字符串、数字当字符串……
      以前 query 直接当字符串 .trim()，模型传个数组就整轮崩掉
@@ -171,7 +216,7 @@ async function toolSearch(args) {
 
   // 带摘录的样本：要逐件取全文，成本高，限量
   const samples = [];
-  for (const h of hits.slice(0, limit)) {
+  for (const h of (wantSamples > 0 ? hits.slice(0, wantSamples) : hits)) {
     const d = await getDoc(h.doc);
     const byN = Object.fromEntries(d.pages.map(p => [p.n, p]));
     const n = h.pages[0];
@@ -189,13 +234,50 @@ async function toolSearch(args) {
     query: label, tokenised_as: toks, total_pages: nPages, total_files: hits.length,
     samples,
     // 名单比摘录便宜得多，所以模型能看到的卷宗数远多于摘录数
-    files: allFiles.slice(0, MODEL_FILE_CAP).map(f => ({ file: f.file, pages_matched: f.pages_matched }))
+    files: (CAP.files > 0 ? allFiles.slice(0, CAP.files) : allFiles)
+             .map(f => ({ file: f.file, pages_matched: f.pages_matched }))
   };
-  if (allFiles.length > MODEL_FILE_CAP) {
-    res.files_note = `命中 ${allFiles.length} 件，此处只列前 ${MODEL_FILE_CAP} 件（按命中页数降序）；` +
-      `如需收窄请换更具体的检索词。`;
+  if (CAP.files > 0 && allFiles.length > CAP.files) {
+    res.files_note = `命中 ${allFiles.length} 件，此处只列前 ${CAP.files} 件（按命中页数降序）。`;
   }
   return { res, all: allFiles };
+}
+
+/* 读整页原文。关键词负责召回，语义判断靠模型自己读——
+   「在某私立学校任职」这种说法，任何同义词表都枚举不出来，只能读了才知道。 */
+async function toolReadPages(args) {
+  args = (args && typeof args === "object") ? args : {};
+  const id = String(args.doc_id ?? "").trim().replace(/^smpa-files-/, "");
+  if (!id) return { res: { error: "缺 doc_id" }, all: [] };
+  let d;
+  try { d = await getDoc(id); } catch { return { res: { error: `读不到卷宗 ${id}` }, all: [] }; }
+  const want = Array.isArray(args.pages) ? args.pages.flat(3).map(Number).filter(n => n > 0) : null;
+  const out = [];
+  for (const p of d.pages) {
+    if (want && !want.includes(p.n + 1)) continue;
+    if (!(p.en || p.zh)) continue;
+    out.push({ page: p.n + 1, en: p.en || "", zh: p.zh || "",
+               ...(p.bad ? { warning: "本页转录被标为不可用：" + p.bad } : {}) });
+  }
+  return { res: { doc_id: id, file: d.t, pages_returned: out.length, pages: out },
+           all: [{ file: d.t, doc_id: id, pages_matched: out.length, first_page: out[0]?.page || 1 }] };
+}
+
+/* 关思考的参数**各家不一样**，传错了不报错、只是不生效。
+   实测：DeepSeek 完全无视 qwen 的 enable_thinking:false（照样吐 349 字思考），
+   要用 thinking:{type:"disabled"} 才真关掉（0 字）。
+   这类「参数传了但没生效」的坑本项目已经踩过一次（当初 qwen Batch 的
+   enable_thinking 放错层级，账单翻 2.7 倍且全程零报错），不要再踩第二次。 */
+function thinkParams(base, mode) {
+  const deepseek = /deepseek/i.test(base || '');
+  if (deepseek) {
+    if (mode === 'off') return { thinking: { type: 'disabled' } };
+    return { thinking: { type: 'enabled' },
+             reasoning_effort: mode === 'deep' ? 'high' : 'low' };
+  }
+  if (mode === 'deep') return { enable_thinking: true, thinking_budget: 4000, reasoning_effort: 'high' };
+  if (mode === 'short') return { enable_thinking: true, thinking_budget: 1000, reasoning_effort: 'low' };
+  return { enable_thinking: false };
 }
 
 /* 主循环。onEvent 收到 {type, ...}：status / think / answer / tool / done / error */
@@ -206,6 +288,8 @@ async function runAgent(question, cfg, onEvent) {
     { role: "user", content: question }
   ];
   const MAX_ROUNDS = cfg.maxRounds || 12;
+  if (cfg.capFiles !== undefined && cfg.capFiles !== '') CAP.files = +cfg.capFiles;
+  if (cfg.capSamples !== undefined && cfg.capSamples !== '') CAP.samples = +cfg.capSamples;
 
   for (let round = 1; round <= MAX_ROUNDS; round++) {
     onEvent({ type: "status", text: `第 ${round} 轮 · round ${round}` });
@@ -219,10 +303,11 @@ async function runAgent(question, cfg, onEvent) {
       model: cfg.model, messages,
       ...(finishing ? {} : { tools: TOOL_DEF, tool_choice: "auto" }),
       temperature: 0.3, stream: true, stream_options: { include_usage: true },
-      max_tokens: cfg.think === 'off' ? 2000 : 8000,
-      ...(cfg.think === 'deep' ? { enable_thinking: true, thinking_budget: 4000, reasoning_effort: 'high' }
-        : cfg.think === 'short' ? { enable_thinking: true, thinking_budget: 1000, reasoning_effort: 'low' }
-        : { enable_thinking: false })
+      // max_tokens 是**思考与正文共用**的。给小了，模型把额度花在思考上，
+      // 最后一轮就吐不出总结——实见 DeepSeek 跑满 11 轮、检索 48 次，
+      // 最终答案完全空白。所以这里给足。
+      max_tokens: cfg.maxTokens || (cfg.think === 'off' ? 8000 : 16000),
+      ...thinkParams(base, cfg.think)
     };
     const resp = await fetch(base + '/chat/completions', {
       method: 'POST',
@@ -262,7 +347,17 @@ async function runAgent(question, cfg, onEvent) {
       }
     }
 
-    if (!toolCalls.length) { onEvent({ type: "done", rounds: round }); return; }
+    if (!toolCalls.length) {
+      if (!content.trim()) {
+        // 一个字都没吐出来 = 额度被思考吃光，或模型直接收工。不能静默当成功。
+        onEvent({ type: "error", text:
+          "模型这一轮没有输出正文。max_tokens 是思考与正文**共用**的额度，" +
+          "开启思考时很容易被思考吃光。可在设置里调大 max_tokens（更花钱、质量通常更好），" +
+          "或改用较低的思考档位——两条路都行，看你要什么。" });
+      }
+      onEvent({ type: "done", rounds: round });
+      return;
+    }
 
     messages.push({ role: "assistant", content: content || null, tool_calls: toolCalls });
     for (const tc of toolCalls) {
@@ -270,7 +365,9 @@ async function runAgent(question, cfg, onEvent) {
       // 工具出错不能把整轮检索带崩：把错误当成工具结果回给模型，让它自己改参数重试。
       let res, all;
       try {
-        ({ res, all } = await toolSearch(args));
+        ({ res, all } = tc.function.name === "read_pages"
+          ? await toolReadPages(args)
+          : await toolSearch(args));
       } catch (e) {
         res = { error: `检索调用失败：${e && e.message ? e.message : e}。` +
                        `请检查参数：query 是字符串，all/any/none 是字符串数组。` };

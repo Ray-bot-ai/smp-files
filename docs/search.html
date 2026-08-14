@@ -26,10 +26,16 @@
     <span class="zh">英文转录与中文译文一并检索。</span></p>
 
   <div class="searchbox">
-    <input id="q" placeholder="Russian / 巡捕 / passport / 轮船 …" autofocus>
+    <input id="q" placeholder="Russian ｜ mill | factory -communist ｜ school mill" autofocus>
     <button id="go">Search</button>
   </div>
   <p class="hint">
+    支持 <b>AND / OR / NOT</b>：空格 = 都要有；<code>|</code> 或 <code>OR</code> = 任一即可；
+    词前加 <code>-</code> = 排除。都在<b>同一页</b>上判定。
+    例：<code data-q="mill | factory -communist">mill | factory -communist</code>
+    、<code data-q="school mill">school mill</code>
+    、<code data-q="teacher | schoolmaster | educated">teacher | schoolmaster | educated</code>
+    <br>
     简繁异体通搜：输入 <code data-q="银行">银行</code> 可命中原件里的「銀行」。
     试试 <code data-q="Russian">Russian</code>
     <code data-q="hotel">hotel</code>
@@ -65,13 +71,50 @@ async function boot() {
   if (u) { $('#q').value = u; run(); }
 }
 
+/* 把一行查询解析成 AND / OR / NOT 三组。
+   规则刻意简单，够用且好解释：
+     空格分隔   → all（都要有）
+     | 或 OR    → any（任一即可），可写成 a | b | c
+     -前缀      → none（排除）
+     "引号"     → 整体当一个短语
+   全是 all 且只有一项时走原来的单词检索，行为不变。 */
+function parseQuery(raw) {
+  const toksRaw = raw.match(/"[^"]+"|\S+/g) || [];
+  const all = [], any = [], none = [];
+  let orMode = false;
+  for (let t of toksRaw) {
+    if (t === '|' || t.toUpperCase() === 'OR') { orMode = true; continue; }
+    let neg = false;
+    if (t.startsWith('-') && t.length > 1) { neg = true; t = t.slice(1); }
+    t = t.replace(/^"|"$/g, '').trim();
+    if (!t) continue;
+    if (neg) none.push(t);
+    else if (orMode) { any.push(t); orMode = false; if (all.length) any.push(all.pop()); }
+    else all.push(t);
+  }
+  return { all, any, none };
+}
+
+async function parseAndSearch(raw) {
+  const { all, any, none } = parseQuery(raw);
+  if (!any.length && !none.length && all.length <= 1) {
+    const r = await search(raw);
+    return { toks: r.toks, hits: r.hits, label: raw };
+  }
+  const r = await searchBool({ all, any, none });
+  const label = [all.map(t=>'+'+t).join(' '),
+                 any.length ? '(' + any.join(' | ') + ')' : '',
+                 none.map(t=>'-'+t).join(' ')].filter(Boolean).join(' ');
+  return { toks: [...all, ...any], hits: r.hits, label };
+}
+
 async function run() {
   const q = $('#q').value.trim();
   if (!q) return;
   history.replaceState(null, '', '?q=' + encodeURIComponent(q));
   $('#res').innerHTML = '<p class="spin">检索中…</p>';
   const t0 = performance.now();
-  const { toks, hits } = await search(q);
+  const { toks, hits, label } = await parseAndSearch(q);
   const ms = Math.round(performance.now() - t0);
   if (!hits.length) {
     $('#res').innerHTML = `<p class="spin">未命中 No matches. 查询已切分为 tokenised as：${toks.map(t=>'<code>'+t+'</code>').join(' ')}
