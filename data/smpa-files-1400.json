@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1400",
+ "title": "Registery Sheet - Mrs. A. Corrit",
+ "series": "D Files",
+ "nara_file_no": "2754",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1400",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "P. 201\nP.M. 1000-6-51.\n\nTo. D. S. A.\n~~CENTRAL~~ REGISTRY\n\nFILE No. A. 3013\n\nSUBJECT:\nMrs. A. Bosnit.\n\nSENT TO\nNAME | DATE\n---|---\nM. L. | 24 - 12 - 31.\n（左侧有模糊手写批注及划线）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1400/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "第 201 页\n下午 10:00 - 1951年6月5日。\n\n致：D. S. A.\n~~中央~~ 登记处\n\n档案编号：A. 3013\n\n事由：\nA. 博斯尼特夫人（Mrs. A. Bosnit）。\n\n发送至\n姓名 | 日期\n---|---\nM. L. | 1931年12月24日。\n（左侧有模糊手写批注及划线）",
+   "zh_src": "c10ad661e05732c9"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1400/Registery%20Sheet%20-%20Mrs.%20A.%20Corrit%202754.pdf>\n\n---\nVAD at \n \"\" @aefRAE- REGISTRY \n\n\nFILE No... 3/3 \nSUBJECT:",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2751,
+  "ocr_out_tokens": 101,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 01:01:09",
+  "zh_in_tokens": 333,
+  "zh_out_tokens": 122,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

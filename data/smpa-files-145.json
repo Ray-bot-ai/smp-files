@@ -1,0 +1,55 @@
+{
+ "ia_id": "smpa-files-145",
+ "title": "Crime And Special Branch - [Unused Number]",
+ "series": "",
+ "nara_file_no": "567",
+ "pages": 3,
+ "ia_url": "https://archive.org/details/smpa-files-145",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201\nT.H. 1000-7-30.\n\nC. & S. B. REGISTRY\nFILE No. 2/75\nSUBJECT:\nNo file.\n\nSENT TO\nNAME DATE",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-145/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201\nT.H. 1000-7-30。\n\n刑事与特别股登记处\n档案编号：2/75\n事由：\n无档案。\n\n发送至\n姓名 日期",
+   "zh_src": "81b8ab5972684c56"
+  },
+  {
+   "n": 1,
+   "en": "Enquiry into 30/12/30\n\nWhereas, Lee San Phue states\nthat he is the real owner of\nthe woman, & during his temporary\nabsence in Nanking he had asked\nC.D.S. 62 to keep an eye on her.\nHe returned to Shanghai yesterday\nand expresses regret at the trouble\ncaused by the woman, especially\nas it has brought discredit on\nC.D.S. 62 ! The matter of the\nhousing house after has been\nsquared up.\n= The woman is still absent\nfrom Shanghai.\n= The housing house people\ndo not wish any action to be\ntaken.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-145/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "关于1930年12月30日的查询\n\n鉴于李三辉（Lee San Phue，音译）声称\n他是该女子的真正主人，且在他临时\n前往南京期间，他曾要求\n华捕62号代为照看她。\n他于昨日返回上海，并对该女子\n引起的麻烦表示遗憾，特别是\n此事已使华捕62号蒙羞！此后，\n关于妓院一事已得到解决。\n= 该女子仍不在上海。\n= 妓院方面不希望\n采取任何行动。",
+   "zh_src": "4d3eba68c0adb47e"
+  },
+  {
+   "n": 2,
+   "en": "I think I am of the\nopinion that 38 & 62 have\nperhaps more than a\n\"protective\" interest in the\nland, i.e. the statement of the\ntitle. For some time ago\nhim + I was strongly warned\nhim to keep an eye on it\nhis matter if he wishes to\ncontinue in the Civil Service\n+ not very distant in the\nfuture.\n\n30 DEC. 1930",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-145/page/n2_w2400.jpg",
+   "via": "dashscope",
+   "zh": "我认为，38号与62号\n对该地产或许拥有超出\n“保护性”利益之外的权益，\n即产权声明所述之权益。前一段时间，\n我与他曾强烈警告他，若他希望\n继续在警务部门任职，且在\n不远的将来，务必留心\n此事。\n\n1930年12月30日",
+   "zh_src": "9946a010fc0223dd"
+  }
+ ],
+ "pages_done": 3,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-145/Crime%20And%20Special%20Branch%20-%20%5BUnused%20Number%5D%20567.pdf>\n\n---\nF. 201 \n\n\nTH iets. \n\n\nC&S. B. REGISTRY ~ . \nFILE | No. oe, \nSUBJECT: \n\n\n: | \n| \n\n\nPAY em meien « \n\n\nAUDA Ker enc sre oF MET \n\n\nsevere \n\n\n, \nSf 5 Bee evens on \n\n\na ee \n\n\n“w \n\n\ne \nNX, a. a a a \n\n\nNR he MANIEE TE deat PAI Bde \n\n\nee ee re \n\n\n£4 fen \n\n\ni \ni ‘ \n| cee \n\n\nNAO AML ES TG al RANI DRO 6 \n\n\nwena. aqua Prone cmmascempane- +",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 8200,
+  "ocr_out_tokens": 293,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 01:36:53",
+  "zh_in_tokens": 539,
+  "zh_out_tokens": 262,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 3
+}

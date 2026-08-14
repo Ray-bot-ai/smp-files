@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1574",
+ "title": "Shanghai City Government Police Bureau, 1939-1941 - Japanese Military Police",
+ "series": "D Files",
+ "nara_file_no": "2601",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1574",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201 A\nG. 2000-5-38\n\nSee Special Box No. 104\nD. 8155 (1)\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSpecial Branch Registry OFFICE\nFILE NO. D. 8155 (1)\nSUBJECT:\nWestern Police Bureau of Shanghai City Government\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Transferred to | Special Box | No. 104 |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| INSTRUCTIONS SEE OVER | | |",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1574/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 2000-5-38\n\n参见第104号特藏盒\nD. 8155 (1)\n\n上海公共租界工部局警务处\n互见索引卡\n特别分部档案室\n档案编号：D. 8155 (1)\n事由：\n上海市政府西区警察局\n\n| 详情 | 部门/位置 | 档案编号 |\n| :--- | :--- | :--- |\n| 移交至 | 特藏盒 | 第104号 |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| 指示见背面 | | |",
+   "zh_src": "650b603db93f4397"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1574/Shanghai%20City%20Government%20Police%20Bureau%2C%201939-1941%20-%20Japanese%20Military%20Police%202601.pdf>\n\n---\nSee Special Box No. 104 D. 8155 (1) \n\n\nSHANGHAI MUNICIPAL POLICE \nCROSS-REFERENCE SLIP \n\n\nSpecial Branch Registry OFFICE \n\n\nSUBJECT: \n\n\nWestern Police Bureau of Shanghai: City Government \n\n\na \n\n\nPARTICULARS | OFFICE FILE NO. \nes \nPe Transferred to =i Spec Box | Noe 104 \nee ee et rrr ey | ee oe ee eee ww we nn ow mew eww eee e se eeeens sc cemecee \n! \nINSTRUCTIONS SEE OVER +",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2734,
+  "ocr_out_tokens": 182,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 03:15:52",
+  "zh_in_tokens": 414,
+  "zh_out_tokens": 187,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

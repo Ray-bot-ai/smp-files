@@ -128,3 +128,8 @@ footer.ft .in{max-width:78rem;margin:0 auto;padding:0 1.4rem;
   .stats div{border-left:0;border-top:1px solid var(--rule)}
   .stats div:nth-child(-n+2){border-top:0}
 }
+
+/* 多词检索时，标出这一段是哪个词的上下文 */
+.res .sn .tm{display:inline-block;font-family:var(--label);font-size:.62rem;letter-spacing:.08em;
+  color:var(--stamp);border:1px solid rgba(143,47,34,.35);border-radius:2px;
+  padding:0 .35em;margin-right:.5em;vertical-align:1px}

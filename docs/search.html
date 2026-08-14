@@ -30,14 +30,26 @@
     <button id="go">Search</button>
   </div>
   <p class="hint">
-    支持 <b>AND / OR / NOT</b>：空格 = 都要有；<code>|</code> 或 <code>OR</code> = 任一即可；
-    词前加 <code>-</code> = 排除。都在<b>同一页</b>上判定。
-    例：<code data-q="mill | factory -communist">mill | factory -communist</code>
-    、<code data-q="school mill">school mill</code>
-    、<code data-q="teacher | schoolmaster | educated">teacher | schoolmaster | educated</code>
+    <b>AND / OR / NOT ·</b>
+    空格 = 都要有 <span class="muted">(space = all of them)</span>；
+    <code>|</code> = 任一即可 <span class="muted">(either)</span>；
+    <code>-</code> = 排除 <span class="muted">(exclude)</span>；
+    <code>"…"</code> = 整体一项 <span class="muted">(one term)</span>。
+    都在<b>同一页</b>上判定 <span class="muted">— all judged within the same page.</span>
     <br>
-    简繁异体通搜：输入 <code data-q="银行">银行</code> 可命中原件里的「銀行」。
-    试试 <code data-q="Russian">Russian</code>
+    例 e.g. <code data-q="mill | factory -communist">mill | factory -communist</code>
+    <code data-q="school mill">school mill</code>
+    <code data-q="工人|学校">工人|学校</code>
+    <br>
+    <b>简繁异体通搜 ·</b> 输入 <code data-q="银行">银行</code> 可命中原件里的「銀行」。
+    <span class="muted">Simplified and traditional forms match each other automatically.</span>
+    <br>
+    <span class="muted">中文按<b>二字滑窗</b>匹配（非子串）：三字以上的词组是「各二字段都出现在同一页」，
+    可能比原样出现略宽。English is matched by whole word, case-insensitive.
+    Chinese is matched by overlapping bigrams, not substrings, so phrases of 3+ characters
+    can match slightly more loosely than an exact string search.</span>
+    <br>
+    试试 try <code data-q="Russian">Russian</code>
     <code data-q="hotel">hotel</code>
     <code data-q="passport">passport</code>
     <code data-q="巡捕">巡捕</code>
@@ -54,7 +66,7 @@
   <span class="zh">Machine-generated transcription — verify against the original scan before citing.</span>
 </div></footer>
 
-<script src="assets/search.js?v=2"></script>
+<script src="assets/search.js?v=4"></script>
 <script>
 const $ = s => document.querySelector(s);
 let CAT = null;
@@ -71,41 +83,12 @@ async function boot() {
   if (u) { $('#q').value = u; run(); }
 }
 
-/* 把一行查询解析成 AND / OR / NOT 三组。
-   规则刻意简单，够用且好解释：
-     空格分隔   → all（都要有）
-     | 或 OR    → any（任一即可），可写成 a | b | c
-     -前缀      → none（排除）
-     "引号"     → 整体当一个短语
-   全是 all 且只有一项时走原来的单词检索，行为不变。 */
-function parseQuery(raw) {
-  const toksRaw = raw.match(/"[^"]+"|\S+/g) || [];
-  const all = [], any = [], none = [];
-  let orMode = false;
-  for (let t of toksRaw) {
-    if (t === '|' || t.toUpperCase() === 'OR') { orMode = true; continue; }
-    let neg = false;
-    if (t.startsWith('-') && t.length > 1) { neg = true; t = t.slice(1); }
-    t = t.replace(/^"|"$/g, '').trim();
-    if (!t) continue;
-    if (neg) none.push(t);
-    else if (orMode) { any.push(t); orMode = false; if (all.length) any.push(all.pop()); }
-    else all.push(t);
-  }
-  return { all, any, none };
-}
 
-async function parseAndSearch(raw) {
-  const { all, any, none } = parseQuery(raw);
-  if (!any.length && !none.length && all.length <= 1) {
-    const r = await search(raw);
-    return { toks: r.toks, hits: r.hits, label: raw };
-  }
-  const r = await searchBool({ all, any, none });
-  const label = [all.map(t=>'+'+t).join(' '),
-                 any.length ? '(' + any.join(' | ') + ')' : '',
-                 none.map(t=>'-'+t).join(' ')].filter(Boolean).join(' ');
-  return { toks: [...all, ...any], hits: r.hits, label };
+const esc2 = x => String(x).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+/* 查询里用户实际要求的词（不含被排除的），用于逐词给上下文 */
+function queryTerms(raw) {
+  const { all, any } = parseQuery(raw);
+  return [...new Set([...all, ...any])];
 }
 
 async function run() {
@@ -147,13 +130,22 @@ async function run() {
       <div class="mt">${d.s ? d.s + ' 系列 series · ' : ''}${d.p} 页 pages · 命中 ${h.pages.length} 页 matched</div>
       ${h.pages.slice(0, 3).map(n => {
         const p = byN[n] || {};
-        const inEn = hasMatch(p.en, q), inZh = hasMatch(p.zh, q);
         const tag = `<a class="pg" href="file.html?id=${h.doc}&p=${n}&q=${encodeURIComponent(q)}">p${n + 1}</a>`;
-        // 命中在哪一侧就先显示哪一侧；两侧都命中则英文在前、译文补充
-        if (inZh && !inEn)
-          return `<div class="sn zh">${tag}${snippet(p.zh, q)}</div>`;
-        return `<div class="sn">${tag}${snippet(p.en, q)}</div>` +
-          (inZh ? `<div class="sn zh" style="margin-left:2.6rem">${snippet(p.zh, q, 150)}</div>` : '');
+        /* 多词查询必须**每个词各给一段上下文**。
+           以前只按第一个匹配到的位置截一段，于是搜「银行 巡捕」时只看到银行那一段，
+           另一个词在页面别处——结果明明是对的，看上去却像误命中。 */
+        const terms = queryTerms(q);
+        const segs = [];
+        for (const t of terms) {
+          const inEn = hasMatch(p.en, t), inZh = hasMatch(p.zh, t);
+          if (!inEn && !inZh) continue;
+          const lab = terms.length > 1 ? `<span class="tm">${esc2(t)}</span>` : '';
+          if (inEn) segs.push(`<div class="sn">${lab}${snippet(p.en, t, 170)}</div>`);
+          if (inZh) segs.push(`<div class="sn zh"${inEn ? ' style="margin-left:2.6rem"' : ''}>${
+            inEn ? '' : lab}${snippet(p.zh, t, 150)}</div>`);
+        }
+        if (!segs.length) segs.push(`<div class="sn">${snippet(p.en || p.zh, q)}</div>`);
+        return `<div class="sn">${tag}</div>` + segs.join('');
       }).join('')}
     </div>`);
     more.textContent = `载入摘要… ${i + 1}/${shown.length}`;

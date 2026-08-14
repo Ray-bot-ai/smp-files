@@ -41,6 +41,34 @@ async function getShard(i) {
 
 /* 一个检索词命中的「页」集合，元素是 "doc#page"。词内部多 token 仍是 AND。
    这是布尔检索的原子操作：有了它，AND/OR/NOT 都只是集合运算。 */
+/* 中文三字以上的词需要**逐页核对原文**，不能只信索引。
+   索引是二字滑窗（bigram）：「巡捕房」被拆成 巡捕 + 捕房 再取交集，
+   于是「巡捕」和「捕房」分别出现在同一页的不同地方也会命中，页面里其实没有这个词。
+   实测假命中率：巡捕房 5.8%、共产党 0.1%。二字词不受影响——
+   它的唯一 bigram 就是它自己，命中即等于原样出现。
+   所以只对 ≥3 字的中文词做核对：取回该页正文，确认归一化后确实含有这个子串。 */
+function needsVerify(q) {
+  const cjk = (q.match(/[㐀-鿿]/g) || []).length;
+  return cjk >= 3;
+}
+
+async function verifyPages(term, pages) {
+  const nt = normalize(term.toLowerCase());
+  const byDoc = {};
+  for (const k of pages) { const [d, p] = k.split('#'); (byDoc[d] ||= []).push(+p); }
+  const keep = new Set();
+  await Promise.all(Object.entries(byDoc).map(async ([doc, ps]) => {
+    let d; try { d = await getDoc(doc); } catch { ps.forEach(p => keep.add(doc + '#' + p)); return; }
+    const byN = Object.fromEntries(d.pages.map(x => [x.n, x]));
+    for (const p of ps) {
+      const pg = byN[p] || {};
+      const txt = normalize(((pg.en || '') + '\n' + (pg.zh || '')).toLowerCase());
+      if (txt.includes(nt)) keep.add(doc + '#' + p);
+    }
+  }));
+  return keep;
+}
+
 async function pageSet(q) {
   await loadNorm();
   const toks = tokenize(q);
@@ -58,7 +86,7 @@ async function pageSet(q) {
     inter = inter ? new Set([...inter].filter(x => set.has(x))) : set;
     if (!inter.size) return new Set();
   }
-  return inter;
+  return needsVerify(q) ? verifyPages(q, inter) : inter;
 }
 
 function groupByDoc(pages) {
@@ -153,3 +181,47 @@ function hasMatch(text, q) {
 }
 
 const fmt = n => n.toLocaleString('en-US');
+
+/* 把一行查询解析成 AND / OR / NOT 三组。
+   规则刻意简单，够用且好解释：
+     空格分隔   → all（都要有）
+     | 或 OR    → any（任一即可），可写成 a | b | c
+     -前缀      → none（排除）
+     "引号"     → 整体当一个短语
+   全是 all 且只有一项时走原来的单词检索，行为不变。 */
+function parseQuery(raw) {
+  /* 中文不写空格，所以运算符必须在**没有空格**时也能认出来，否则
+     「工人|学校」会被当成一整个词，中文分词把 | 丢掉、两个词变成 AND——
+     不报错、结果却完全相反。全角符号同理（｜－），中文输入法下常打出全角。 */
+  raw = String(raw || '')
+    .replace(/[｜]/g, '|').replace(/[－]/g, '-').replace(/[　]/g, ' ')
+    .replace(/\s*\|\s*/g, ' | ')        // | 前后补空格
+    .replace(/(^|[\s|])-(?=\S)/g, '$1 -'); // 词首的 - 独立出来
+  const toksRaw = raw.match(/"[^"]+"|\S+/g) || [];
+  const all = [], any = [], none = [];
+  let orMode = false;
+  for (let t of toksRaw) {
+    if (t === '|' || t.toUpperCase() === 'OR') { orMode = true; continue; }
+    let neg = false;
+    if (t.startsWith('-') && t.length > 1) { neg = true; t = t.slice(1); }
+    t = t.replace(/^"|"$/g, '').trim();
+    if (!t) continue;
+    if (neg) none.push(t);
+    else if (orMode) { any.push(t); orMode = false; if (all.length) any.push(all.pop()); }
+    else all.push(t);
+  }
+  return { all, any, none };
+}
+
+async function parseAndSearch(raw) {
+  const { all, any, none } = parseQuery(raw);
+  if (!any.length && !none.length && all.length <= 1) {
+    const r = await search(raw);
+    return { toks: r.toks, hits: r.hits, label: raw };
+  }
+  const r = await searchBool({ all, any, none });
+  const label = [all.map(t=>'+'+t).join(' '),
+                 any.length ? '(' + any.join(' | ') + ')' : '',
+                 none.map(t=>'-'+t).join(' ')].filter(Boolean).join(' ');
+  return { toks: [...all, ...any], hits: r.hits, label };
+}

@@ -8,20 +8,28 @@
  "page_data": [
   {
    "n": 0,
-   "en": null,
-   "error": "本地无图",
-   "tries": 1,
-   "image_url": "https://archive.org/download/smpa-files-1099/page/n0_w2400.jpg"
+   "en": "202-c\nSHANGHAI MUNICIPAL POLICE.\nFile No. ... G ...\nD. 7\nSection 2, Special Branch\nREPORT\nDate April 16, 1936.\nSubject Max Boeckem, German, a political suspect, travelling on a\nforged passport.\nMade by D.S. Sansom Forwarded by L.J.J. cy\n\nInformation was received on April 1, 1936 from the local\nGerman Consul-General to the effect that Max BOECKEM, in possess-\nion of a German passport issued at Duesseldorf on February 10,\n1930 (number not quoted) has forged this passport, which expired\non February 10, 1935, in altering the year 1935 into 1938. He\nwas last seen in Belgrade, Jugoslavia, in January 1936, where he\nobtained money under false pretences. In his company was a\ncertain Hermann Friedrich Anton WEISS, who also calls himself\nWels or Goldstein. Both are under political suspicion and have\nbeen expelled from Jugoslavia pretendedly going to Spain.\nNeither of these persons has shown up in Shanghai, but the\npossibility of their arriving here in the future will be given\ndue attention for the information of the Authority concerned, as\nrequested.\n\nD. Sansom.\nD. S.\n\n（左侧批注：DR 16 4/36）\n（左侧批注：FILE 302）\n\nOfficer i/c Special Branch.\nCopy sent to B\nDR 16 4/36",
+   "error": null,
+   "tries": 2,
+   "image_url": "https://archive.org/download/smpa-files-1099/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "202-c\n上海公共租界工部局警务处。\n档案号 ... G ...\nD. 7\n特科第二股\n报告\n日期：1936年4月16日。\n事由：马克斯·伯克姆（Max Boeckem），德国人，政治嫌疑分子，持伪造护照旅行。\n呈报人：D.S. Sansom 转呈人：L.J.J. cy\n\n1936年4月1日，接本地德国总领事馆来函，内称：马克斯·伯克姆（Max BOECKEM）持有一本于1930年2月10日在杜塞尔多夫签发的德国护照（未引述号码），该护照已于1935年2月10日到期，其将年份“1935”篡改为“1938”，从而伪造了该护照。此人最后于1936年1月在南斯拉夫贝尔格莱德露面，在那里以虚假借口骗取钱财。与其同行者有一名赫尔曼·弗里德里希·安东·魏斯（Hermann Friedrich Anton WEISS），亦自称韦尔斯（Wels）或戈尔德斯坦（Goldstein）。两人均涉嫌政治活动，并已被南斯拉夫驱逐出境，声称前往西班牙。上述二人均未在上海现身，但遵照要求，对其未来可能抵达此地的情况将予以适当关注，以便通报有关当局。\n\nD. Sansom.\nD. S.\n\n（左侧批注：DR 16 4/36）\n（左侧批注：FILE 302）\n\n特科主管警官。\n副本送交 B\nDR 16 4/36",
+   "zh_src": "d3d47174ec686a94"
   }
  ],
- "pages_done": 0,
+ "pages_done": 1,
  "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1099/Max%20Boeckem%2C%20A%20Political%20Suspect%2C%20Traveling%20On%20A%20Forged%20Passport%20794.pdf>\n\n---\n{ Ns eave oa oh eatin: \n\n\nil % ak ° . é or . \niene ee eae \nzZoZz-c File NOW G.oi. +S \nSHANGHAI WIUNICIPAL POLICE. D. .” ae | \nSection 2, Special Branch Aamay \nREPORT \n\n\nDate. MPP AL Gs _ioSGe \n\nSubject... Wax. Boeckem,. German, a political muspect, travelling on awww... \nprises ese ol ORR A OTN csc oder sts seesaw npecoesnsendaaiapiahesnoneeraniesanrtdnNsacteenttenensianeds pipes thie diac denne \nMade by.. DeBs Sansom . .. Forwarded by....... ee ae cietcmnpntaotenpssas _— \n\n\nInformation was received on April 1, 1936 from the local \n\n\n_German Consul~-General to the effect that Max BOECKEM, in possess- \n\n\n-ion of a German passport issued at Duesseldorf on February 10, _ \n1930 (number not quoted) has forged this passport, which expired \n\n\n-on February 10, 1935, in altering the year 1935 into 1958. He \n\n\nwas last seen in Belgrade, Jugoslawda, in Jamary 1956, where he _ \n\n\nobtained money under false pretences. In his company was a \n\n\n_certain Hermann Friedrich Antog WEISS, who also calls himself \n\n\nWels or Goldstein. Both are under political suspicion and have \n\n\nbeen expelled from Jugoslavia pretendedly going to Spain. waa \n\n\n= Neither of these persons has siowm up in Shanghai, but the 4 \npossibility of their arriving here in the future will be given | \ndue attention for the information of the Authority concerned, as \nequestede. 2 a \nt \nbat» D. By \nkK, \n\"yo : \n\n\nAt Officer i/o Bpecial Branch ie a \n s Somnaeemesanaenaae",
  "meta": {
   "model": "qwen3.7-plus",
   "mode": "realtime",
-  "ocr_in_tokens": 0,
-  "ocr_out_tokens": 0,
+  "ocr_in_tokens": 2734,
+  "ocr_out_tokens": 361,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-14 19:29:50"
- }
+  "ocr_at": "2026-08-14 21:11:00",
+  "zh_in_tokens": 593,
+  "zh_out_tokens": 370,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

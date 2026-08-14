@@ -1,0 +1,36 @@
+{
+ "ia_id": "smpa-files-1226",
+ "title": "Natalie A. Kabanova",
+ "series": "D Files",
+ "nara_file_no": "801",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-1226",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D 9298",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1226/page/n0_w2400.jpg",
+   "via": "dashscope"
+  },
+  {
+   "n": 1,
+   "en": "23147\n\nNORTH CHINA DAILY NEWS - 4.6.37.\n\nLOST\nLOST, passport issued by U.S.S.R.\nConsulate, Harbin, in 1925, in the\nname of Natalie A. Kabanova. The\nabove is hereby declared null and void.\n-8013",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1226/page/n1_w2400.jpg",
+   "via": "dashscope"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1226/Natalie%20A.%20Kabanova%20801.pdf>\n\n---\nD 424% \n\n\n/ \n“ \nHCRTH CHINA DAILY NEWS - 4.6.37. \nLOST \nLost: passport issued by U.S.S.R. \nConsulate, Harbin, in 1925, in the \nname of Natalie A. Kabanova. The \nabove is hereby deslaret@arerr-artr-void. \n-sers i 2 \na's Lge \n’ * \n7Re A \n“™. \nSy is ~ \n‘ee \nan, “ \n™, \n\n\nBuses",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5459,
+  "ocr_out_tokens": 87,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-14 21:01:08"
+ }
+}

@@ -185,6 +185,15 @@ async function toolSearch(args) {
     return { res: { error: "没有给检索条件：请给 query，或给 all / any / none。" }, all: [] };
   }
 
+  /* query 字符串里也允许写运算符（| 与 -），与全文检索页同一套语法。
+     实见模型把 any/all 的内容一股脑塞进 query 字符串，结果全被当成 AND → 零命中。
+     与其指望它永远写对，不如让两种写法都能用。 */
+  for (const raw of qs.splice(0)) {
+    const p = parseQuery(raw);
+    all.push(...p.all); any.push(...p.any); none.push(...p.none);
+    if (p.all.length === 1 && !p.any.length && !p.none.length) { qs.push(raw); all.pop(); }
+  }
+
   let hits, toks, label;
   const useBool = all.length || any.length || none.length || qs.length > 1;
   if (useBool) {

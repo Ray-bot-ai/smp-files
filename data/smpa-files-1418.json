@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1418",
+ "title": "Report - Change Of Commander Of The Japanese Naval Landing Party In Shanghai",
+ "series": "D Files",
+ "nara_file_no": "937",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1418",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Date December 1, 1931.\nChange of Commander of the Japanese Naval Landing Party in\nShanghai.\nMade by D.S. Umemoto. Forwarded by [Signature]\n\nIt has been officially announced that the change of\ncommander of the Japanese Naval Landing Party will take effect\nfrom December 1, 1931.\nBaron Captain Shibayama, Commander of the Japanese Naval\nLanding Party in Shanghai, to be the commanding officer\nof the H.I.J.M.S. \"Ikagi\".\nBaron Captain Samejima to be Commander of the Japanese\nNaval Landing Party in Shanghai.\n\n[Signature] M Umemoto\nD. S.\n\nOfficer i/c Special Branch.\n\nSI and Logistics,\nPlease note and\nreturn here.\n[Signature]\n7.12.31\n\n* 4/2\nNoted\n[Signature] 8/12\n\n9 12.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1418/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "日期：1931年12月1日。\n上海日本海军陆战队指挥官更迭。\n由梅本（D.S. Umemoto）呈报。经 [签名] 转呈\n\n兹正式宣布，日本海军陆战队指挥官之更迭将于1931年12月1日起生效。\n现任上海日本海军陆战队指挥官柴山男爵大佐（Baron Captain Shibayama），将调任日本帝国海军“伊加吉”号（H.I.J.M.S. \"Ikagi\"）舰长。\n鮫岛男爵大佐（Baron Captain Samejima）将出任上海日本海军陆战队指挥官。\n\n[签名] M. 梅本\n特别处主任\n\n送情报科及后勤科，\n请阅知并\n退回此处。\n[签名]\n1931年12月7日\n\n* 4/2\n已阅\n[签名] 12月8日\n\n12月9日。",
+   "zh_src": "24c7e619030f12bb"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1418/Report%20-%20Change%20Of%20Commander%20Of%20The%20Japanese%20Naval%20Landing%20Party%20In%20Shanghai%20937.pdf>\n\n---\nIt has been officially announced that the chance of \n\n\ncommander of the Japanese Novel Landin- P. rty will take effect i \npager | 2 _ Ve pencs a SY Wit take eriect \n\n\nfrom Decertser 1, 1931. \n\n\nBaron Captain Shibayoair, Commender of the Je-anese Navel \n\n\n_hendines Pesty in Shanghai, to be the cor-rndine of ficer \n\n\ni \npoe Se tt it \n\n\n__...._3aron Captain Seme@iime to be Cormardcr of the Janenese \n\n\nNevel Lendine Perty in Shanenei. \n\n\nOfficer ife Svecinl Branch.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2708,
+  "ocr_out_tokens": 206,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 01:06:02",
+  "zh_in_tokens": 438,
+  "zh_out_tokens": 223,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1375",
+ "title": "Re Andre Deyers Alias Andries Liefjes Alias Arie Faas",
+ "series": "D Files",
+ "nara_file_no": "3424",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1375",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "P. 201 A\nG. 2000-6-37\n\nSHANGHAI MUNICIPAL POLICE\n\nCROSS-REFERENCE SLIP\n\n........................................OFFICE\n\nFILE NO. D. .......\n\nSUBJECT:\n\nLetter from Consul-General for the Netherlands,\nre ... Dever... ... ... ... ... ... ... ... .\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Transferred to | Crime Registry | E. 2640. |\n| （批：FILE 2/1） | （批：CCCC...） | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1375/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "P. 201 A\nG. 2000-6-37\n\n上海公共租界工部局警务处\n\n互见单\n\n........................................办公室\n\n档案编号 D. .......\n\n事由：\n\n荷兰总领事来函，\n关于 ... Dever... ... ... ... ... ... ... ... 。\n\n| 详情 | 办公室 | 档案编号 |\n| :--- | :--- | :--- |\n| 转至 | 犯罪登记处 | E. 2640. |\n| （批：FILE 2/1） | （批：CCCC...） | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n\n指示见背面",
+   "zh_src": "b4c410c5b7c653f7"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1375/Re%20Andre%20Deyers%20Alias%20Andries%20Liefjes%20Alias%20Arie%20Faas%203424.pdf>\n\n---\nF. 200 A ae \nG. 3000-8037 \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \n\n\nsez 2 ts OFFICE \nFILE NOW 22 te \nSUBJECT: \n2 = 3 - baie 3 c tes) ASy \n\n\nPARTICULARS \n\n\n| OFFICE FILE NO. \n\n\nBO i a sas nn \nPo eee Senna, \n\n\neeecccwcencconenenscetecsccenenns cccennenreecesecsceceeesenenerncescenscccenewses tenn ewn co neennn we cennen nnn cen e el wnns nen e nnn n nee een tenn nena e nfo e enn n ne eee en eee ence een een esswenneees \n\n\nemcee cccncccncccecccces. \n\n\nINSTRUCTIONS SEE OVER",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2734,
+  "ocr_out_tokens": 182,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 00:14:41",
+  "zh_in_tokens": 414,
+  "zh_out_tokens": 182,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

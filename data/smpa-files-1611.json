@@ -1,0 +1,36 @@
+{
+ "ia_id": "smpa-files-1611",
+ "title": "SMP Report Re Philip Zetterlund, Swedish Subject",
+ "series": "D Files",
+ "nara_file_no": "1258",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-1611",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "B. 2\n1930-6-32\n\nSHANGHAI MUNICIPAL POLICE\nREPORT\n\n（印：SHANGHAI MUNICIPAL POLICE C. I. S. REGISTRY File No.）\nNo. D 4860\nSection 2, S. B., Shanghai\nDuty 27/5/33\nDate May 24, 1933.\n\nSubject (in full) Philip Zetterlund, Swedish subject.\n\nMade by D.S.I. Everest Forwarded by [签名] D.I.\n\nWith reference to the attached memo dated May 10, 1933,\nfrom the Officer i/c Special Branch regarding Mr. P. Zetterlund,\nI have to report the following:-\nPhilip Zetterlund, Swedish subject, age about 55, has\nbeen a resident of Shanghai for the past 25 years. A\nphotographer by profession he was employed with the Rembrandt\nPhoto Co., 3 North Soochow Road, for 15 years prior to the\nclosing down of this company in 1925. Zetterlund has no\nprivate means and is more or less supported by Mrs. A. Elliot,\nwho was the owner of the now defunct Rembrandt Photo Co., with\nwhom he resides at 122 Range Road. During the past year\nhe has been offering for sale albums of photographs taken\nduring the local Sino-Japanese hostilities of 1932. In this\ncapacity he frequently visits local business offices, military\ncamps etc. Nothing is known against him by this office\neither politically or otherwise with the exception that he is\na habitual drunkard.\n\n[签名]\nD. S. I.\n\nOfficer i/c Special Branch.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1611/page/n0_w2400.jpg",
+   "via": "dashscope"
+  },
+  {
+   "n": 1,
+   "en": "FM. 1\nSHANGHAI MUNICIPAL POLICE\nCONFIDENTIAL B. REGISTRY.\nMemorandum H 860\nPOLICE FORCE.\nD. MUNICIPAL COUNCIL. 133\nShanghai, 60 : 5 : 1942\nTo S.2,\nPlease make discreet\ninquiries about\nZetterlund, No. 122\nRange Road, and\nreport. There is\nno reason to\nsuspect that\nZetterlund engages\nin subversive\nactivities, but he\nhas connections\namong the local\nBolshevik troops, to\nwhom he sells\nalbums.\nJL",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1611/page/n1_w2400.jpg",
+   "via": "dashscope"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1611/SMP%20Report%20Re%20Philip%20Zetterlund%2C%20Swedish%20Subject%201258.pdf>\n\n---\n’ se aNgeAD MUAICIPAL 10% me {) og | \n“eo C8 8. — js \n\n\na . SHANGHAI MUNICIPAL rene ag D= oe \n\n\nWith reference to the attached memo dated May 10, 1955, \n\n\nfrom the Officer ife Special B.: Branch regarding Mr. P. Zetterlund, \nSS — \n\n\n| I have to report the following:- \nPhilip Zetterlund, Swedish subject, age about 55, has \n\n\n| been a resident of Shanghai for the past 25 years. A \n\n\n| photogravher by profession he was employed with the Rembrandt \n_Photo Co., 3 North Soochow Road, for 15 years prior to the \n| glosing down of this company in 1925. Zetterlund has no \n\n| private means and is more or less supported by Mrs. A. Biliot, \n\n\n| who was the owner of the now defunct Rembrandt Photo Co., with \n\n\ns \n| whom he resides at 122 Range Road. During the past year \n\n\n_he has been offering for sale albums of photogravhs taken : \n\n\nduring the local Sino-Japanese hostilities of 1952. In this \ncapacity he frequently visits local business offices, military \n\n\ncamps etc. Nothing is known against him by this office \n\n\n_gither politically or otherwise with the exception that he is \n\n\nWy a habitual drunkard. \n\n\n2 Su 3, \n\n\nOfficer i/fc Special Branch. \n\n\ni \n# \n3 \niH \n+ \ni \n3 \nS \n\n\ni \nFab cazaiose \n\n\n~ SHANGHAI BeNiciraL hel \n\n\na ea = REGISTRY. 7] \n|",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5485,
+  "ocr_out_tokens": 534,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 03:44:18"
+ }
+}

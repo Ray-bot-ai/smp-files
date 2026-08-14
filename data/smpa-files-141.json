@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-141",
+ "title": "Confidential",
+ "series": "",
+ "nara_file_no": "2470",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-141",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201 A\nG. 2000-6-39\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSp. Br. Registry OFFICE\nFILE NO. N 370\nSUBJECT:\nConfidential\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Confidential Drawer. | | |\n| 13/9/40 | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-141/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 2000-6-39\n\n上海公共租界工部局警务处\n交叉参考单\n特别支部登记室\n档案编号 N 370\n事由：\n机密\n\n| 详情 | 办公室 | 档案编号 |\n| :--- | :--- | :--- |\n| 机密抽屉。 | | |\n| 1940年9月13日 | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n\n指示见背面",
+   "zh_src": "4c8f5e4710daaf94"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-141/Confidential%202470.pdf>\n\n---\nfe aes SHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \n\n\n¥ PILE NOs coSiecvsccs. crf sacs \n\n\nSUBJECT: \n\n\nPARTICULARS OFFICE FILE NO. \nSY f/tt© \n\n\nan ewewn nnn anew enn n anna nnn nnn = nn = anne nee sen nnn ne nan e ne ne en enn teen mene nnn een en nnn ca emmme enn nnnnne| coe en nn en eece scope: \n\n\nSEE OVER: \n\n\n- 7 Ss \"s - = E ' - Re mo \n~ \n< eS : \nae cal * - . as ve \n* » * - - “> \n\n2 z ® oy i ~ \n\n-— ex. Sg ets \n= “Xe pe “ ‘age 6 OO De",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2744,
+  "ocr_out_tokens": 159,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 01:04:24",
+  "zh_in_tokens": 391,
+  "zh_out_tokens": 156,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

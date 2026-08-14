@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-1488",
+ "title": "Report Re Admiral Tseng I. Ting",
+ "series": "D Files",
+ "nara_file_no": "2681",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-1488",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Form No. 8\nG. 25,000-1/31\n\nSHANGHAI MUNICIPAL POLICE.\n\nREPORT\n\nFile No.\nMUNICIPAL POLICE\n& S.I. REGISTRY\nS. D. D. 3053\nS. 1. Station,\nc.e 5 / 1 / 32\nDate January 5, 1932\n\nSubject (in full) Admiral Tseng I Ting.\n\nMade by Supt. Tan Shao-liang. Forwarded by Tho Robertson, Supt.\n\nAdmiral Tseng I Ting is identical with Commodore Tseng\nwhose promotion to Rear Admiral was announced a few days ago.\nAdmiral Tseng is a native of Fokien and has served in the\nnavy for the past 30 years. He was in charge of the Destroyer\nSquadron until recently when he was promoted to be Commander of the\n2nd Squadron, plying in the Yangtsze River.\n\nTan Shaoliang\nSuperintendent.\n\nOfficer i/c Special Branch.\n\nJacle\nMll\n5:1:32",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1488/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "表格第8号\nG. 25,000-1/31\n\n上海公共租界工部局警务处。\n\n报告\n\n档案编号\n警务处\n及特别情报登记处\nS. D. D. 3053\nS. I. 分站，\nc.e 1932年1月5日\n日期：1932年1月5日\n\n事由（全称）：曾以鼎海军上将。\n\n由谭绍良警司编制。经罗伯逊警司转呈。\n\n曾以鼎海军上将与数日前宣布晋升为海军少将的曾司令官系同一人。曾上将系福建人，过去三十年间一直在海军服役。直至最近晋升为长江流域航行的第二舰队司令之前，他一直担任驱逐舰支队指挥官。\n\n谭绍良\n警司\n\n特别分部主管警官。\n\nJacle\nMll\n1932年1月5日",
+   "zh_src": "fb2eb859cdfd70ae"
+  },
+  {
+   "n": 1,
+   "en": "SF\n5:1:32\nPlease let me know particulars\nof Admiral Tseng I-Ting, who\nwas formerly in charge of the\nDestroyer Squadron, and who has\na day or two ago assumed\ncommand of the 2nd Naval\nSquadron, Hankow. Is he\nidentical with Commodore Tseng\nwhose promotion to Rear Admiral\nwas announced a few days ago?\nPlease endeavour to obtain this\ninformation as early as possible.\nEnquiry on behalf of Royal Naval\nOffice.\nJ.H.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1488/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "SF\n1932年1月5日\n请提供曾以鼎海军上将的详细情况，他此前负责驱逐舰支队，并于一两天前接任驻汉口的海军第二舰队司令。他是否与数日前宣布晋升为海军少将的曾司令官系同一人？\n请尽力尽早获取此信息。\n应英国皇家海军办事处之询。\nJ.H.",
+   "zh_src": "8465354c537b0bf1"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1488/Report%20Re%20Admiral%20Tseng%20I.%20Ting%202681.pdf>\n\n---\neect POLICE \n——— . SHANGHAI MUNICIPAL POLICE. capone” /Ddate \n\n\nREPORT \n\n\nMade by___... Supt. Tan S hao-liang.. is ___Forwarded by \n\n\nAdmiral Tseng I Ting is identical with Commodore Tseng — - \nwhose promotion to Rear Admiral was announced a few days agoe \n\n\nAdmiral Tseng is a native of Fokien and has served in the i \n\n\nnavy for the vast 30 yearse He was in charge marge of the Destroyer , i \n\n\nSquadron until recently when he’ promoted to be Commander of tne \n2nd Squadron, plying in the Yangtsze River. \n\n\n. Superintendent : ; \n\n\nWORMED Soe A tent te er a Sete, \n\n\nig i ee \n\n\n2. \n\n\nee y \n\n\nBre \n\n\nties ses Sl ch Mstiad ae el? \n\n\nS54 ponies ¢",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5420,
+  "ocr_out_tokens": 365,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 02:12:38",
+  "zh_in_tokens": 604,
+  "zh_out_tokens": 298,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

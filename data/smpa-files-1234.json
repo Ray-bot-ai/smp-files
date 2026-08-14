@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1234",
+ "title": "New Address Of Messrs Hansons Representatives For HBM Court Case",
+ "series": "D Files",
+ "nara_file_no": "1167",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1234",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Form No. 5\n29,000-1-11\n\nSHANGHAI MUNICIPAL POLICE.\n\nREPORT\n\n（印：SHANGHAI MUNICIPAL POLICE\nFile No.\nC. & S. B. REGISTRY.\n3545.\nFrom Oldwell Station,\n14. 4. 32.\nDate April 12th. 1932.）\n\nSubject (in full) New address of Messrs Hansons representative for\nH.B.M. Court cases.\n\nMade by D.S.I. Widdowson Forwarded by Le Maguire C.I.\n\nSir,\nWhilst engaged on enquiries at Messrs Hansons, we\ndiscovered that Mr. I. McNiell, who formerly took charge of\nH.B.M. Court cases on behalf of the S.M.C. has now left Shanghai,\non furlough.\nThe partner who will now conduct such cases is Mr. F.\nGuy Livingstone.\nPrivate address:- No. 153 Route de Grouchy.Tel. No.71379.\nIt is suggested that this information be circulated for\ninformation of other stations.\n\n（批：Re Crime\nInformation\n4/12/4）\n\n（批：Has any mention\nbeen made in\nthe press?\n13/4）\n\nWiddowson.\nD.S.I.\n\nC S\n\n（批：12/4/32）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1234/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "表格编号 5\n29,000-1-11\n\n上海公共租界工部局警务处。\n\n报告\n\n（印章：上海公共租界工部局警务处\n档案编号。\n刑事与特别股登记处。\n3545。\n来自老闸捕房，\n32年4月14日。\n日期：1932年4月12日。）\n\n事由（全称）汉森律师事务所（Messrs Hansons）代表英国陛下法院案件经办人的新地址。\n\n呈报人：副督察威德森（Widdowson） 转呈人：首席督察勒马奎尔（Le Maguire）\n\n敬启者，\n我们在汉森律师事务所进行调查时获悉，此前代表工部局负责处理英国陛下法院案件的 I. 麦克尼尔（I. McNiell）先生现已离开上海，休假去了。\n今后将负责处理此类案件的合伙人是 F. 盖伊·利文斯通（F. Guy Livingstone）先生。\n私人住址：格罗希路（Route de Grouchy）153号。电话号码：71379。\n建议将此信息通报各捕房知悉。\n\n（批注：复犯罪情报科 4/12/4）\n\n（批注：报刊上有无提及？ 13/4）\n\n威德森（Widdowson）。\n副督察\n\nC S\n\n（批注：32年4月12日）",
+   "zh_src": "187a3517a3eccdb5"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1234/New%20Address%20Of%20Messrs%20Hansons%20Representatives%20For%20HBM%20Court%20Case%201167.pdf>\n\n---\nee \n\n\nHANGHAT MUWIGHRBL POLICE. |) \nCc. \n\n\n& S. B. REGISTRY. iH \nTSF; \n\n\n1 er | \n\n\nREPORT _ WT Zo All \n\n\nSHANGHAI MUNICIPAL POLICE. \n\n\n— \n\n\n3 \ngz \nA \n4 \n\n\nSir, \n\n\nWhilst engaged on enquiries at Messrs Hansons, we wees \n\n\nu \n\n\nG@iscovered that ir. I. McWiell, who formerly took charge “ef \n\n\nPEEL SUR ieat aL WRC ROE Ws br SB cr eR ee Pease \n\n\nH.B.M. Court cases on behalf of the 8.M.C. has now left Shanghai, \n\n\non furlough. \nThe partner who will now conduct such cases is Mr. Fe ~ \n\n\nsewn \n\n\nGuy Livingstone. \nPrivate addressz=- Bo. 153 Route de Grouchy.Tel. Ko.71379« \n\n\nIt is suggested that this information be circulated for \ninformation of other stations. Ji",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2713,
+  "ocr_out_tokens": 318,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-14 21:33:52",
+  "zh_in_tokens": 550,
+  "zh_out_tokens": 329,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-1266",
+ "title": "Newspaper Clipping Owen Lattimore Is New Pacific Affairs Editor",
+ "series": "D Files",
+ "nara_file_no": "2047",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-1266",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "8-5627\n8-5629\n8-5631",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1266/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "8-5627\n8-5629\n8-5631",
+   "zh_src": "7703059598c3252d"
+  },
+  {
+   "n": 1,
+   "en": "SHANGHAI MUNICIPAL\nC. & S. E. R. CI. 7899\nNo. D\nDate\nTHE CHINA PRESS, FRIDAY, JANUARY 5, 1934\n\nOwen Lattimore Is New\n'Pacific Affairs' Editor\n\nThe Institute of Pacific Relations\nhas appointed Mr. Owen Lattimore,\nwell known Far Eastern authority,\neditor of \"Pacific Affairs,\" official\norgan of the Institute. The publi-\ncation, formerly a monthly, will be\nenlarged and will henceforth be\npublished as a quarterly.\n\nFILE\n161",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1266/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "上海公共租界\nC. & S. E. R. CI. 7899\nD号\n日期\n《字林西报》，1934年1月5日，星期五\n\n欧文·拉铁摩尔任新版\n《太平洋事务》编辑\n\n太平洋国际学会已任命著名远东问题专家欧文·拉铁摩尔先生为该学会官方刊物《太平洋事务》的编辑。该出版物原为月刊，现将扩充篇幅，并自此改为季刊出版。\n\n档案\n161",
+   "zh_src": "df407c78b5c999c9"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1266/Newspaper%20Clipping%20Owen%20Lattimore%20Is%20New%20Pacific%20Affairs%20Editor%202047.pdf>\n\n---\nTHE CHINA PRESS, FRIDAY, JANUARY ¢ \na a oe Ni Rd, \n\n\n(Owen Lattimore Is New \n|‘Pacifie Affairs’ Editor \n{| The Institute of Pacitic Relations \n| hus appointed Mi Owen Latimer: \nwell known Far Eastern authority. \neditor of “Pacific Affairs,” official \norgan of the Institute. ‘The publi-! \ncation, formerly a monthly, will be \nenlarged and will henceforth be \npublished as a quarterly.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5481,
+  "ocr_out_tokens": 155,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-14 21:53:03",
+  "zh_in_tokens": 394,
+  "zh_out_tokens": 143,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

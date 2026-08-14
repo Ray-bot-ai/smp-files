@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1598",
+ "title": "Silent Chinese Cinema Films Reviewed",
+ "series": "D Files",
+ "nara_file_no": "2919",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1598",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "FORM NO. 3\nG. 65M-1-39\n\nSHANGHAI MUNICIPAL POLICE.\nFile No............\nS.3, Special Branch\nREPORT\nDate Sep\n（印：SHANGHAI MUNICIPAL POLICE S. B. REGISTRY No. S. B. D. 2962 Date 20. 9. 40）\n\nSubject (in full) Silent Chinese cinema films previewed\n\nMade by D.S. McKeown. Forwarded by Supt. Mason.\n\nThe following silent Chinese cinema films were\npreviewed and approved for local public exhibition by\nInspector Riegert, G.M.F., D.S. McKeown and Clerk Van\nTi Fu, S.M.P., at the Wing On Roof Garden Cinema, No.627\nNanking Road, on the morning of September 19, 1940:-\n\"Black Coat Robber\" 黑衣大盗 Drama. Carter Film Co.\n9/1800m\n\"Attempted Suicide Of A\nWaitress\" 女招待自殺記 Romance. -do- 9/1900m\n\nThe subtitles and synopses of these two films were\nexamined and found to contain nothing objectionable.\n\nThe above films will be shown at the Wing On Roof\nGarden Cinema, the permits will therefore be issued by\nthe S.M.P.\n\n（印：INDEXED BY (S.B.) REGISTRY DATE 20/9/40）\nD. C. (Special Branch).\n\nMcKeown\nD. S.\n\n7",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1598/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "表格编号 3\nG. 65M-1-39\n\n上海公共租界工部局警务处。\n档案编号............\nS.3，特别处\n报告\n日期 9月\n（印章：上海公共租界工部局警务处 特别处登记室 编号 S. B. D. 2962 日期 1940年9月20日）\n\n主题（全称） 预审中国无声电影\n\n由 D.S. McKeown 编制。由 Mason 警司转呈。\n\n以下中国无声电影于 1940 年 9 月 19 日上午，在南京路 627 号永安天韵楼电影院，由 Riegert 巡官、G.M.F.、D.S. McKeown 以及上海公共租界工部局警务处职员 Van Ti Fu 进行预审，并批准在本地公映：-\n《黑衣大盗》 剧情片。卡特影片公司。\n9/1800米\n《女招待自杀记》 爱情片。 -同上- 9/1900米\n\n这两部影片的字幕和剧情梗概业经审查，未发现任何不妥之处。\n\n上述影片将在永安天韵楼电影院放映，因此许可证将由上海公共租界工部局警务处签发。\n\n（印章：索引编制者 (特别处) 登记室 日期 1940年9月20日）\nD. C. （特别处）。\n\nMcKeown\nD. S.\n\n7",
+   "zh_src": "3902c1d0b29523c2"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1598/Silent%20Chinese%20Cinema%20Films%20Reviewed%202919.pdf>\n\n---\n©. 65u-t-39 . File No........... mi \nNy SHANGHAI MUNICIPAL POLICE. \nS.e3, Special Bran, \nREPORT \n\n\nSubject (in full) Silent Chinese cinema \n\n\ntote me ee cen nen erm rene -cenenswennmeecencccasneecnccecaece ae \n\n\nfilms preview \n\n\nMade by...DeS. licKeovyme \n\n\nThe following silent Chinese cinema films were \npreviewed and approved for local public exhibition by \n\n\nInspector Riegert, G.M.eF., D.S. LicKeown and Clerk Van \n\n\nTi Fu, S.liek., at the Wing On Root Garden Cinema, No.627\" \n\n\nNanking Road, on the morning of September 19, 19403- _ we \nBL. \n“Black Coat Robver\" OK K's Drama. Carter Film Co. ™ \n~~ ai 9/1800m7% \n“Attempted Suicide Of A_ Romance. -do- 9/1900m \nWeitress\" 4 d21% Getic, \n\n\nThe subtitles and synopzes of these two films were \n\n\nexamined and found to contain nothing objectionable. \n\n\nThe above films will be shown at the Wing On Roor \n\n\nGarden Cinema, the permits will therefore be issued by \n\n\nthe S.lleie",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2708,
+  "ocr_out_tokens": 343,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 03:25:07",
+  "zh_in_tokens": 575,
+  "zh_out_tokens": 345,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

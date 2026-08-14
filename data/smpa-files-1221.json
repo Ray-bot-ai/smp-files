@@ -1,0 +1,28 @@
+{
+ "ia_id": "smpa-files-1221",
+ "title": "Musician V. Babinoff",
+ "series": "D Files",
+ "nara_file_no": "1215",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1221",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "9306\n3 - 3\nJuly 3 39.\n\nThe Conductor,\nMunicipal Orchestra & Band,\nShanghai Municipal Council.\n\nMusician V. Babinoff.\n\nWith reference to your letter dated\nJune 27th, 1939, I forward herewith a copy\nof confidential report regarding V. Babinoff.\n\nX Sent.\n\nDeputy Commissioner\n(Special Branch)",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1221/page/n0_w2400.jpg",
+   "via": "dashscope"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1221/Musician%20V.%20Babinoff%201215.pdf>\n\n---\ntd \n¢ \n\n\nJuly \n\n\nThe Conductor, \nMunicipal Orchestra & Band, \n\n\nShanghai Municipal Councile \n\n\nMusician V. Babjnoffe \n\n\nWith reference to your letter dated \n\n\nx \nJune 27th, 1939, I forward herewith a copy \n\n\nof confidential report regarding Ve Babinoff,. \n\n\nww \nad \nDeputy Commissioner \nl (Speeial Branch)",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2751,
+  "ocr_out_tokens": 96,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-14 21:00:21"
+ }
+}

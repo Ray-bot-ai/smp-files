@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-1326",
+ "title": "Plot To Liberate Walden From Prison In Hankow",
+ "series": "D Files",
+ "nara_file_no": "3493",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-1326",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D-6693\nD-6695\nD-6696",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1326/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "D-6693\nD-6695\nD-6696",
+   "zh_src": "0bc70b57d86f9eda"
+  },
+  {
+   "n": 1,
+   "en": "Sec. S. B. 137\nF. 201 A\nG. 3000.1.35\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSpecial Branch OFFICE\nFILE NO. D. 6704 H\n\nSUBJECT:\nPlot to liberate Walden from prison\nin Hankow\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| See Special Br. No. 1715 | | |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1326/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "S.B. 科第 137 号\nF. 201 A\nG. 3000.1.35\n\n上海公共租界工部局警务处\n互见单\n特务处办公室\n档案编号 D. 6704 H\n\n事由：\n在汉口劫狱营救沃尔登（Walden）的阴谋\n\n| 详情 | 部门 | 档案编号 |\n| :--- | :--- | :--- |\n| 参见特务处第 1715 号 | | |\n\n指示见背面",
+   "zh_src": "4b2a84e49725cbde"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1326/Plot%20To%20Liberate%20Walden%20From%20Prison%20In%20Hankow%203493.pdf>\n\n---\nD-€6 23 \n— D6 69S \n\n\nA ee | \n\n\n_ \nand \n\n\nF. 200 > \nG. 3000.1.35 \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \nFG Re th Bandy orsice \n\n\nFILE no. Sfo#? \n\n\nSUBJECT: \n\n\n, ore brat™ y \n\n\nPARTICULARS | OFTICE FILE NO. \n\n\nmass 3 iaaabenhhananinnscesnoammenauaaee \n\n\nINSTRUCTIONS SEE OVER",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5384,
+  "ocr_out_tokens": 146,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-14 23:08:50",
+  "zh_in_tokens": 385,
+  "zh_out_tokens": 161,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

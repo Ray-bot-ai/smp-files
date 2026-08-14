@@ -1,0 +1,28 @@
+{
+ "ia_id": "smpa-files-1605",
+ "title": "Situation In Nantao Under Japanese Occupation",
+ "series": "D Files",
+ "nara_file_no": "2600",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1605",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201 A\nG. 2000-5-38\n\n（印：CONFIDENTIAL DRAWER）\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\n\nSp. Br. Registry......OFFICE\n\nFILE NO. D 8155B\n\nSUBJECT:\n\nSITUATION IN NANTAO\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| （印：CONFIDENTIAL DRAWER） | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| INSTRUCTIONS SEE OVER | | |",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1605/page/n0_w2400.jpg",
+   "via": "dashscope"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1605/Situation%20In%20Nantao%20Under%20Japanese%20Occupation%202600.pdf>\n\n---\na \n\n\nF. 201 A__ \nG. 2000-5-38 \n\n\nSHANGHAI MUNICIPAL P \n\n\nCROSS-REFERENCE SLIP \n\n\nFILE NO.....D..8155B ow. \n\n\nSUBJECT: \n\n\nSITUATION IN NANTAO \n\n\nPARTICULARS OFFICE \n\n\nYaAMvad \n\n\noi Pek we \n\n\nFILE NO.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2722,
+  "ocr_out_tokens": 174,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 03:42:43"
+ }
+}

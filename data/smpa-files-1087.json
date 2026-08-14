@@ -8,11 +8,14 @@
  "page_data": [
   {
    "n": 0,
-   "en": null,
-   "error": "本地无图",
-   "tries": 1,
+   "en": "D 5540\nD 5541\nD 5542",
+   "error": null,
+   "tries": 2,
    "image_url": "https://archive.org/download/smpa-files-1087/page/n0_w2400.jpg",
-   "zh": ""
+   "zh": "D 5540\nD 5541\nD 5542",
+   "via": "dashscope",
+   "zh_tries": 1,
+   "zh_src": "7813bbf51131c0f8"
   },
   {
    "n": 1,
@@ -25,19 +28,19 @@
    "zh_src": "f8df5600d0f2ba44"
   }
  ],
- "pages_done": 1,
+ "pages_done": 2,
  "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1087/M.N.%20Stankoff%2C%20Candidate%20For%20Position%20Of%20Police%20Watchman%201466.pdf>\n\n---\nD soo \nDsSS¢¥/ \nD542 \n\n\ni Subject (in ful)....... MoNe Bkadinth>..canataate, for. position... of. Dane Bee ere = \nsper ener nL : \n\n\nee sece F Pete ee mennenws meee cece crew en ae tee teeee ne chen en cnn wcw es ness ccesceenwene acccens neseccecoueees ov ennnc cccesencencnwncn se sseees eoenanas aces nnensncecess Oraancencnnnanavenna= — \n\n\nMade by... DaSa..TGheremshansky Forwarded by. Bc lng | \n\n\n|__Stankorf for a position as Police Watchman, enquiries show that — \nhe is Russian, born on September 21, 1889 in the province of \nwi, Biheria. He took park in ‘tne \n\n\n| \n| \n, \n\n\nthe defeat of the White Army, Stankoff left Russia“and remained \n\n\n_for a few months in Gensan, Koreas. On September 23, 1923 he \n\n\n| _ arrived in Shanghai with the detachment of General LebedeffP, — \nAt Shanghai Stankoff was em ed with t R \n\nNo. 493-A Broadway from February 15, 1924 until April 1925; with \n\\ \n\n\nArts & Craft, Ltde, from April 1925 until October 1930, when he \nresigned of his own accord and was given good service certificate; \nwith tne River Police (Chinese Maritimes Customs) as a Temporary \nRiver Police Constabie from October 1, 1950 until October 15, \n| 1933 when he was dismissed, It is said that he had, in general, \n) @ good reputation as_a policeman but that he indulged in drinking \n| occasionally, Prior to his dismissal he was reprimanded for \ndrunkenness and was taken on 6 months probation,  Refore the \n| | expiration of this period he again took to drinking and was \ntherefore dismissede \n| SC Superintendent Woodfield of the River Police, upon being — \napproached confidentially regarding Stankoff, said he would \n! communicate sepeigiie wht ine Chines ay Nowa Seunoh tie’, \n| the subject He mentioned, however, that Stankoff drinks \n| only when off duty, and that at times he discontinued drinking \n! for a prolonged periode In the opinion of Mr, Woodfield the : \na { ) applicant may be given one more chance, as be was smart, clean, \n\n\naf \nae \nN” officer i/fe Special Branch. \n\n\na ce ot - \" 7” ines “ _ —_ ee ee eS en 5 — Se Te le ree: Meer",
  "meta": {
   "model": "qwen3.7-plus",
   "mode": "realtime",
-  "ocr_in_tokens": 2744,
-  "ocr_out_tokens": 540,
+  "ocr_in_tokens": 5442,
+  "ocr_out_tokens": 561,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-14 19:07:20",
-  "zh_in_tokens": 772,
-  "zh_out_tokens": 518,
+  "ocr_at": "2026-08-14 21:10:47",
+  "zh_in_tokens": 1025,
+  "zh_out_tokens": 545,
   "zh_chunks": 1
  },
  "native_zh_pages": 0,
- "zh_pages": 1
+ "zh_pages": 2
 }

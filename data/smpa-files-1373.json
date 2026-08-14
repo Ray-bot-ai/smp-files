@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1373",
+ "title": "Re 56 Drums Of Engine Oil Missing From Shai North",
+ "series": "D Files",
+ "nara_file_no": "3819",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1373",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201\nT.H. 1000-3-29.\n\nCENTRAL REGISTRY\n\nFILE No. D 3521\n\nSUBJECT:\nRe 56 Drums of Engineering\ncoming from Hai Phong\nRailway Station - 27 tons -\nNanking Rai Railway Labor\nApril 7, 1930\n\nSENT TO\nNAME | DATE\n---|---\nTransferred to West Hanoi | \nStation file No 185/32. |",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1373/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201\nT.H. 1000-3-29。\n\n中央登记处\n\n档案编号 D 3521\n\n事由：\n关于来自海防\n火车站的 56 桶工程物资 - 27 吨 -\n南京铁路劳工\n1930年4月7日\n\n发送至\n姓名 | 日期\n---|---\n转至河内西站 | \n档案编号 185/32。 |",
+   "zh_src": "11e5cf416b9e29b7"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1373/Re%2056%20Drums%20Of%20Engine%20Oil%20Missing%20From%20Shai%20North%203819.pdf>\n\n---\ni“ \nec: \nYy \n2 \n\\ \n\nXN \n5 \n\n\n2 \n\n\nFILE No. 2 7= \nJECT: \n\n\nae | 7 \n\n\nae ee \nA \n\n\niP x fai ‘ oor \n\n\na \n\n\nTN AG Hw te ha \n\n\naccel Sn Ne",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2692,
+  "ocr_out_tokens": 113,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 00:10:20",
+  "zh_in_tokens": 345,
+  "zh_out_tokens": 110,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}
