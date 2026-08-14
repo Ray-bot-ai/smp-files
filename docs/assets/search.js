@@ -39,34 +39,71 @@ async function getShard(i) {
   return shardCache[i];
 }
 
-async function search(q) {
+/* 一个检索词命中的「页」集合，元素是 "doc#page"。词内部多 token 仍是 AND。
+   这是布尔检索的原子操作：有了它，AND/OR/NOT 都只是集合运算。 */
+async function pageSet(q) {
   await loadNorm();
   const toks = tokenize(q);
-  if (!toks.length) return { toks: [], hits: [] };
+  if (!toks.length) return new Set();
   const shardIdx = {};
   for (const t of toks) shardIdx[t] = parseInt((await md5hex(t)).slice(0, 4), 16) % SHARDS;
   const need = [...new Set(Object.values(shardIdx))];
   const loaded = {};
   await Promise.all(need.map(async i => { loaded[i] = await getShard(i); }));
-
-  // 每个 token 的命中页集合，取交集（AND 语义），缺失 token 直接判空
   let inter = null;
   for (const t of toks) {
     const posts = loaded[shardIdx[t]][t];
-    if (!posts) return { toks, hits: [] };
+    if (!posts) return new Set();
     const set = new Set(posts.map(p => p[0] + '#' + p[1]));
     inter = inter ? new Set([...inter].filter(x => set.has(x))) : set;
-    if (!inter.size) return { toks, hits: [] };
+    if (!inter.size) return new Set();
   }
+  return inter;
+}
+
+function groupByDoc(pages) {
   const byDoc = {};
-  for (const k of inter) {
+  for (const k of pages) {
     const [d, p] = k.split('#');
     (byDoc[d] ||= []).push(+p);
   }
-  const hits = Object.entries(byDoc)
+  return Object.entries(byDoc)
     .map(([d, ps]) => ({ doc: d, pages: ps.sort((a, b) => a - b) }))
     .sort((a, b) => b.pages.length - a.pages.length);
-  return { toks, hits };
+}
+
+/* 布尔检索，三个条件都在**同一页**上判定：
+     all  每一项都要出现（AND）
+     any  至少出现一项（OR）
+     none 一项都不能出现（NOT）
+   为什么需要它：很多真实问题是「A 类词 之一 且 B 类词 之一」，
+   例如「(受过教育 或 当过教师) 且 (工厂 或 学徒)」。
+   只有 AND 的话，模型只能把同义词一个个单独搜、再靠脑子拼，
+   既漏得多又容易把「相邻但不相干」的东西混进结果。 */
+async function searchBool({ all = [], any = [], none = [] }) {
+  let cur = null;
+  for (const t of all) {
+    const s = await pageSet(t);
+    cur = cur ? new Set([...cur].filter(x => s.has(x))) : s;
+    if (!cur.size) return { hits: [], used: { all, any, none } };
+  }
+  if (any.length) {
+    const u = new Set();
+    for (const t of any) for (const x of await pageSet(t)) u.add(x);
+    cur = cur ? new Set([...cur].filter(x => u.has(x))) : u;
+  }
+  if (!cur) return { hits: [], used: { all, any, none } };
+  for (const t of none) {
+    const s = await pageSet(t);
+    cur = new Set([...cur].filter(x => !s.has(x)));
+  }
+  return { hits: groupByDoc(cur), used: { all, any, none } };
+}
+
+async function search(q) {
+  const toks = tokenize(q);
+  if (!toks.length) return { toks: [], hits: [] };
+  return { toks, hits: groupByDoc(await pageSet(q)) };
 }
 
 const docCache = {};
