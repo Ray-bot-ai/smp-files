@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-1115",
+ "title": "Memo - Police Order No. C 4306 Dated 9.11.31",
+ "series": "D Files",
+ "nara_file_no": "2944",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-1115",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "S. 1A.\nNo. A 797\n\nSHANGHAI MUNICIPAL POLICE\nC. & S. D. REGISTRY\nNo. S. B. D. 2899\n18.11.31.\n\nShanghai Municipal Council.\n\nNovember 13, 1931.\n\nPOLICE FORCE\nCOMMISSIONER'S OFFICE\nP. O. BOX NO. 156\n\nDeputy Commissioner (Divisions).\nDeputy Commissioner (Armed & Training Reserve).\nDeputy Commissioner (Time). ✓\n\nThe ruling contained in Police Order C.4386 of\nNovember 9 does not apply to police officers who were\nengaged as temporary constables and subsequently con-\nfirmed in their appointments.\n\nIn their case the full time served, temporary and\notherwise, counts towards full service benefits.\n\nCommissioner of Police.\n\nRec\n10/11",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1115/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "S. 1A.\n编号 A 797\n\n上海公共租界工部局警务处\n刑事与特别科登记处\n编号 S. B. D. 2899\n1931年11月18日\n\n致上海公共租界工部局。\n\n1931年11月13日。\n\n警务处\n总监办公室\n邮政信箱第156号\n\n副总监（各分区）。\n副总监（武装及训练后备队）。\n副总监（时限）。✓\n\n11月9日发布的警务命令 C.4386 号中所载之规定，不适用于那些先以临时巡捕身份受聘、随后其任命得到确认的警务人员。\n\n在此类情况下，其全部服役时间，包括临时服役期及其他时期，均计入全额服务福利的计算年限。\n\n警务总监。\n\n收件\n11/10",
+   "zh_src": "65807ded6e7396eb"
+  },
+  {
+   "n": 1,
+   "en": "Police Order No. C. 4306 dated 9.11.31.\n\nThe Council has ruled that temporary service shall not\nbe admitted in assessing the period of service required prior\nto the granting of long leave.\n(General Board Order No. 12025 of November 6, 1931).",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1115/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "1931年11月9日发布的警务命令第 C. 4306 号。\n\n工部局已裁定，在核定授予长假所需的服役年限时，临时服役期不得计入在内。\n（依据1931年11月6日总董事会命令第12025号）。",
+   "zh_src": "e35cf652dbfddcda"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1115/Memo%20-%20Police%20Order%20No.%20C%204306%20Dated%209.11.31%202944.pdf>\n\n---\nDeputy Csmmfiesioner (Divisiexs) . \nDepaty Csuufesionsr (Asmeé & Training Reserve). \nDeputy Csaufestoner (‘wime). \n\n\nTk Faling euutained im Police Order 0.4388 of \nRoventeor © Gee ust apply te pelice efSicare une wre \nengages eo tanperesy coustebles ene cubsoqeently ean \nfiswesd tm @Gitr appetatneme. \n\nIm their cose the full time ceuveh, tesgeveny ent \netheruies, counts stewards full services benefits. \n\n\n@amiesteser ef Relics. \n\n\nbe, \n\n\nie: ce Order No, Ce’ dated 9 31. \n\n\nThe ‘Counnti has ruled that temporary service shall not \nbe admitted in assessing the period of service required prior \n\n\n_to the granting of long leave. \nAancayes Board Order No. 12025 of November 6, 1931).",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5444,
+  "ocr_out_tokens": 278,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-14 19:33:19",
+  "zh_in_tokens": 517,
+  "zh_out_tokens": 281,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

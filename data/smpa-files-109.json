@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-109",
+ "title": "Comforts For The Wounded",
+ "series": "",
+ "nara_file_no": "3601",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-109",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201 A\nG 3000-5-37\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\n\nSp. Br. ........................................OFFICE\nFILE NO. / ...........................\n\nSUBJECT:\nComforts for the wounded soldiers (Chinese)\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Transferred to Special Br. | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| INSTRUCTIONS SEE OVER | | |",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-109/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201 A\nG 3000-5-37\n\n上海公共租界工部局警务处\n交叉参考单\n\n特别处 ........................................办公室\n档案号 / ...........................\n\n主题：\n慰问中国伤兵\n\n| 详情 | 办公室 | 档案号 |\n| :--- | :--- | :--- |\n| 转交特别处 | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| 指示见背面 | | |",
+   "zh_src": "a1c9c2797408373f"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-109/Comforts%20For%20The%20Wounded%203601.pdf>\n\n---\nSHANGHAI MUNICIPAL POLICE \nCROSS-REFERENCE SLIP \n\n\nLE. Ae er “4: OF FICE \n\n\nFILE ae \nSUBJECT: \n\n\nfa dns x fez ee BA HOE Rep silo stil oleh eis ee ee ee \nfy \n; v \n\n\nPARTICULARS OFFICE FILE NO. \n\n\nhinbaseasviced 4 Z eee eee ee Z a flesso ae a, Fite eiecs ass \n\n\n#\\ \n\n\n| \n\\ \n| \n| \n\n\n| \nINSTRUCTIONS SEE OVER",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2751,
+  "ocr_out_tokens": 154,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-14 19:27:41",
+  "zh_in_tokens": 386,
+  "zh_out_tokens": 148,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1089",
+ "title": "M.T. Exmreff, Applicant For Enlistment In Russian Regt. SVC",
+ "series": "D Files",
+ "nara_file_no": "1704",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1089",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F 201\nT.M. 3000-7-53\n（批：CSS）\nD. 917-72\nCENTRAL REGISTRY\nFILE No. D5416\nSUBJECT:\nM Tremieff, appln\nfor enlistment in Russian\nRyl A/C\nSENT TO\nNAME DATE\nLee D 917/72",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1089/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F 201\nT.M. 3000-7-53\n（批：CSS）\nD. 917-72\n中央登记处\n档案号 D5416\n事由：\nM Tremieff，申请加入俄罗斯皇家空军\n发送至\n姓名 日期\nLee D 917/72",
+   "zh_src": "76b32e696af7e251"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1089/M.T.%20Exmreff%2C%20Applicant%20For%20Enlistment%20In%20Russian%20Regt.%20SVC%201704.pdf>\n\n---\ned \n1 \n\n\nJ | = | 917-22 \nRAL REGISTRY \n\nFILE No.D .5%*7 6 \nSUBJECT: \n\n\npr, we a , Fs \ngare” , UY f nv E ° ay ae ‘ go ef ‘ae eal ; \naa 3 “7 a FV Ae ee is Te \ni? mT ty Be Back i - e S ees \n\n\n- é y - ‘ \nte j Z - i , \n\n\ny sf 3 £ : f Po ae} fe . af P a 4 wo wb i “y \nf # CA. Ch he he oA PR FUELS \n\n\nys F ? \nare, aff \nFit” 3 \n\n\nlt wf ff © \nSENT TO \n\n\n| \n| | \n|",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2715,
+  "ocr_out_tokens": 90,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-14 19:27:30",
+  "zh_in_tokens": 321,
+  "zh_out_tokens": 84,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

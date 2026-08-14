@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1020",
+ "title": "Letter From Anatol Gefvert, Belgrano 156, Pomos Mejia F.C. Oeste",
+ "series": "D Files",
+ "nara_file_no": "795",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1020",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "THE NORTH-CHINA DAILY NEWS\nTHE NORTH-CHINA HERALD (WEEKLY)\nESTABLISHED 1850\nPOSTAL ADDRESS: P.O. BOX 707, SHANGHAI\nTELEGRAMS: HERALD SHANGHAI\nEDITOR'S OFFICE\n\nMUNICIPALITY\nS. M. REGD.\nSHANGHAI, CHINA D. 2362\n15th Jul, 1937\n\nMajor J. A. Gammell, D.S.O.,\nOffice of the Commissioner of Police,\nMunicipal Building.\n\nMy dear Gammell,\n\nI send you the enclosed in case it interests you, although\nI am sure you know all about it.\n\nYours sincerely,\n\nEdwin Howard\nEditor\n\nNo 116\nMay be quoted as a fact\nm.s\n16/7/4\nf2\nSee School\n& FILE\n412\n16 18/7",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1020/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "《字林西报》\n《北华捷报》（周刊）\n创刊于1850年\n邮政地址：上海707号信箱\n电报挂号：HERALD SHANGHAI\n编辑部\n\n工部局\nS. M. REGD.\n中国上海 D. 2362\n1937年7月15日\n\nJ. A. Gammell 少校，D.S.O.勋衔，\n警务处处长办公室，\n市政厅大楼。\n\n亲爱的 Gammell：\n\n随函附上此件，或许您会感兴趣，尽管\n我相信您对这一切已了如指掌。\n\n此致\n敬礼，\n\nEdwin Howard\n编辑\n\n第116号\n可作为事实引用\nm.s\n1941年7月16日\nf2\n见学校\n及归档\n412\n16 18/7",
+   "zh_src": "66650d180747bb0c"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1020/Letter%20From%20Anatol%20Gefvert%2C%20Belgrano%20156%2C%20Pomos%20Mejia%20F.C.%20Oeste%20795.pdf>\n\n---\nae \n\n\nf. \n°. \n\n\nque *“NORTH-CHINA Dairy News \n\n\n\\ NORTH-CHINA HERALD (WEEKLY) \n\n\nW ESTABLISHED 1650 \n\n\nPostat Avpress: P.O. Box 707. SHANGHAI \nTELEGRAMS: HERALD SHANGHAI \n\n\nEDITOR'S OFFICE \n\n\nBates a5 Z \nam . 3 Bt & \nat a id 3 \nOe © ve Be S Bs \nbs = bs \nhn Fae : \n\nSaaesta aa \n\na Us ’ \nc a re * \n3 \n\n\nea ae aie ee \nS REG. \nSHANGHAI, CHWAJ) 7.3/7.7 \n\n\nSe AS te a .,° or: \nS es Parr) a \n~ rarpesnetue \n4 ~” ra - We ie - \nors a “ J » \n> ’ \n~? \n\n\n%",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2751,
+  "ocr_out_tokens": 221,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-14 18:29:46",
+  "zh_in_tokens": 453,
+  "zh_out_tokens": 203,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

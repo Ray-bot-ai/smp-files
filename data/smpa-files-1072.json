@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-1072",
+ "title": "List Of Officials And Japanese Advisors In Municipality Of Greater Shanghai, 1939",
+ "series": "D Files",
+ "nara_file_no": "3867",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-1072",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D-8155",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1072/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "D-8155",
+   "zh_src": "30c6f7fecd8924ee"
+  },
+  {
+   "n": 1,
+   "en": "F./201 A\nG. 3000-5-37\n\nPlease see special box no. 78.\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSp. Br. Registry OFFICE\nFILE NO. D 8155-\nSUBJECT:\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Transferred to Special Box no. | | 78. |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| INSTRUCTIONS SEE OVER | | |",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1072/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F./201 A\nG. 3000-5-37\n\n请参见第78号特藏盒。\n\n上海公共租界工部局警务处\n互见单\n特别股登记室\n档案编号 D 8155-\n事由：\n\n| 详情 | 部门 | 档案编号 |\n| :--- | :--- | :--- |\n| 已移交至第 | | 78 号特藏盒。 |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| 指示见背面 | | |",
+   "zh_src": "29957fd11a07d822"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1072/List%20Of%20Officials%20And%20Japanese%20Advisors%20In%20Municipality%20Of%20Greater%20Shanghai%2C%201939%203867.pdf>\n\n---\n= — — \n\n\nhs fe Afi L fre to. DE. = \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\n'CROSS-REFERENCE SLIP \n\n\nity \nFILE now. 7 SS Esti \n\n\nSUBJECT: \n\n\nmeee en nw ewww ene nnn atone ow ewe eens econ enna ene n nnn momen nnn eee enn en tener ene cane nnn n cee n nnn n - nnn nnn nn ene ne oon = [oe nee eee ne nn cnn een ee een nef ne en nn ee ee ene ee eee enn ce een ween eee",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5478,
+  "ocr_out_tokens": 164,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-14 19:02:21",
+  "zh_in_tokens": 403,
+  "zh_out_tokens": 174,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

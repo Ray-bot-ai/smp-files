@@ -1,0 +1,34 @@
+{
+ "ia_id": "smpa-files-1080",
+ "title": "Local Sale Of Aphrodisiacs",
+ "series": "D Files",
+ "nara_file_no": "3164",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-1080",
+ "page_data": [
+  {
+   "n": 0,
+   "en": null,
+   "error": "本地无图",
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1080/page/n0_w2400.jpg"
+  },
+  {
+   "n": 1,
+   "en": null,
+   "error": "本地无图",
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1080/page/n1_w2400.jpg"
+  }
+ ],
+ "pages_done": 0,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1080/Local%20Sale%20Of%20Aphrodisiacs%203164.pdf>\n\n---\nof last month. She \nto a certain sanatorium \n\n\n‘rushed by her fam \n8 tien. \n\n\nion received yesterday f rom \n\n\nout of all danger and is \nprogress in satisfeactorizs, \n\n„At the tiůnme hen Madane g \nopera tion, Madame Lido Chun Kai, i \nex-member of the Céntral Rxecu ti Colm ( \nKuomintang, personally paid a virit to den \nUnexpectedly during her visit Me2zame Liao Y \nattack andBhe was detained in th: hospital. \nto the actors, Madame Liao will rot 12 able to ve the \nhosp until after she has undergone medical trea 5 \n20 a period of 100 days. \n\n\nShih Tai pas 4 0 publishes the following comment \n(brief rr. tion} \n\n\nNed on reports received from Péiping, the \n\n48 Post & Meroury deb pa Sd yesterday an \n\nthe d. ot that a cert 5 Japanese building | \n2 1 5 repairing end building \n\nt Kupethow Pass, Great Wall, were \nMan td W of bricks from the \n\npout the permission of the \n\n\n4 tence. of our ancestors. \nPass is also not \ntationed and \n\n\n: Chinese-péople —. \ni ation and make: 1 e",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 0,
+  "ocr_out_tokens": 0,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-14 19:05:33"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1006",
+ "title": "Landing Of Pistols And Ammunition At Central Wharf",
+ "series": "D Files",
+ "nara_file_no": "270",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1006",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "SHANGHAI MUNICIPAL POLICE\nS. B. REGISTRY\n\nJanuary 6, 1932.\n\nDeputy Commissioner (Divisions).\n\nSir,\n\nLanding of pistols and ammunition\nat Central Wharf\n\nAt 2 p.m. today, a Mr. Golding of Messrs. Varden\nand Co., called to see me re a Police escort for one\nof the Company's vans, which is to convey two cases of\npistols and ammunition, from a ship arriving tomorrow\nmorning at the Central Wharf, to the Belgian Consulate.\nat the corner of Route Pichon and Ru Lafayette. The\nFrench Police taking up the escort at the corner of\nAvenue Foch and Avenue du Roi Albert.\n\nMr. Golding was in possession of permits, from the\nHarbour Master, and the Customs, also from the Chief\nOfficer of the Fire Brigade.\n\nJactmelan.\nDivisional Officer \"C\" Division.\n\n（批：Elm 7/）\nCommission of Police\nInformation. Arrangements made by D.O \"C\" Div\nto provide an escort of 2 men through\nSettlement\n（签名：leofspringfield.）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1006/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "上海公共租界工部局警务处\nS. B. 登记处\n\n1932年1月6日。\n\n副总监（各区）。\n\n先生：\n\n关于手枪及弹药在中央码头登陆事宜\n\n今日下午二时，瓦登公司（Messrs. Varden and Co.）的戈尔丁（Golding）先生前来拜会，商请警方为该公司一辆货车提供护卫。该货车拟将两箱手枪及弹药，从明晨抵达中央码头的船上运往位于贝当路（Route Pichon）与霞飞路（Rue Lafayette）转角处的比利时领事馆。法国警察将在福煦路（Avenue Foch）与阿尔伯特国王路（Avenue du Roi Albert）转角处接手护卫任务。\n\n戈尔丁先生持有港务长、海关以及消防队队长签发的许可证。\n\n贾克特梅兰（Jactmelan）。\n“C”区分区警官。\n\n（批注：Elm 7/）\n警务处\n知悉。“C”区分区警官已安排由两名警员在租界境内提供护卫。\n（签名：leofspringfield.）",
+   "zh_src": "d5b321190f477fbd"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1006/Landing%20Of%20Pistols%20And%20Ammunition%20At%20Central%20Wharf%20270.pdf>\n\n---\nnr \n\n\n7 re PANGHAL BUMPS: ye cd 4 \n7 3. B. REGioTRY 7 \n+ , 4 I, \n. pr igen nt \nny \ni— f/f m1 \n~ . \ni January €, 1932, \n\n\nDeputy Commissioner (Divisions). \n\n\n~ \n\n\nSir, \n\n\nLanding of pistols and ammunition \nat Central Wharf \n\n\nAt 2 pom. today, a Me's Soe PF Messrs. Varden \nand Co., called to see me re a Police escort for one \nof t'xe Company's vans, which es to convey two cases of \nPistols and ammnition,from s shin arriving tomorrow \nmornins at tre Central “harf, to the \"elgian Consulate. \nat the corner of “oute Pichon and Ru Lafayette. The \nFrench Police taking un the escort at the corner of \nAvenue Foch and Avenue du Roi Albert. \n\nMr. Golding was in possession of permits, from the \nAarbour Master,and the Cugstoms, also from the Chief \n\n\nOfficer of the Fire \"rigade. \n\n\n, \n\n\n.* sis » 5 \nRY otras Officer \"Cc\" Division, : :",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2715,
+  "ocr_out_tokens": 260,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-14 18:16:27",
+  "zh_in_tokens": 492,
+  "zh_out_tokens": 254,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

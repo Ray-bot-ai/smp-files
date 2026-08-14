@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1121",
+ "title": "Memo Re Men On Leave",
+ "series": "D Files",
+ "nara_file_no": "3247",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1121",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "(C. & S.B.) Office Notes\n（印：SHANGHAI MUNICIPAL POLICE C. & S. B. REGISTRY No SD 3803 Date 27.6.31）\n\nS.C. (Div)\nI have one man on leave\n& 2 sick (today) in Finger Print\nBureau. Will you please\ntransfer Sgt Laurier, temporarily\nfrom Singpo as the remainder\nof the Staff cannot carry\non with the work so short-\nhanded. If he comes on\nMonday morning it will be\nall right.\n[签名]\n2/11/31.\nD. C. (CRIME)\n\n（左侧批注）\nIII\nS.C.(C)\nUrgent\nFor info\n# 3.10\n31\nD.O.B. Div\napproved\nas planned\nadopted\nD. C. (Divisional)\nOCT. 31 1931\nPer below.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1121/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "（刑事与特别股）办公备忘录\n（印章：上海公共租界工部局警务处 刑事与特别股 登记处 编号 SD 3803 日期 1931年6月27日）\n\nS.C. (分区)\n指纹局有一人休假，\n另有两人今日病假。\n鉴于其余人员人手严重不足，\n无法维持工作运转，\n请暂时将劳里尔（Laurier）巡长\n从辛坡（Singpo）(音译)调来。\n若他于周一上午到岗，\n即可满足需求。\n[签名]\n1931年11月2日。\nD. C. (罪案组)\n\n（左侧批注）\nIII\nS.C.(C)\n紧急\n供知悉\n# 3.10\n31\nD.O.B. 分区\n批准\n按原计划\n采纳\nD. C. (分区)\n1931年10月31日\n见下文。",
+   "zh_src": "dcaf6e956b09ed79"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1121/Memo%20Re%20Men%20On%20Leave%203247.pdf>\n\n---\nco ee mac ae RO CERNE \nca \n\n\nlh By ot \n\n\nee Berri \nAi dr neg \n\n\nSos,  « . \nRen TE ge See \naR OB UD ‘ \n\n\nee ee \n\n\nD. C. (CRIM ik)",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2752,
+  "ocr_out_tokens": 216,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-14 19:36:25",
+  "zh_in_tokens": 448,
+  "zh_out_tokens": 229,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}
