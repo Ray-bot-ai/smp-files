@@ -114,11 +114,16 @@ def drop_images(chunk):
     return freed
 
 
-def main(chunk_size, keep, ocr_workers):
+def main(chunk_size, keep, ocr_workers, max_chunks=0):
     todo = targets()
     print(f"待处理 {len(todo)} 件 / {sum(p for _, p in todo):,} 页")
     qual = load_qual()
+    nchunk = 0
     for i in range(0, len(todo), chunk_size):
+        if max_chunks and nchunk >= max_chunks:
+            print(f"\n已达 --max-chunks {max_chunks}，停在这里（其余未动）")
+            break
+        nchunk += 1
         chunk = todo[i:i + chunk_size]
         tag = f"[{i // chunk_size + 1}/{(len(todo) + chunk_size - 1) // chunk_size}]"
         print(f"\n{tag} {len(chunk)} 件 / {sum(p for _, p in chunk):,} 页")
@@ -152,6 +157,7 @@ if __name__ == "__main__":
     ap.add_argument("--chunk", type=int, default=40, help="每批多少件")
     ap.add_argument("--keep", action="store_true", help="不删影像")
     ap.add_argument("--ocr-workers", type=int, default=12)
+    ap.add_argument("--max-chunks", type=int, default=0, help="只跑前 N 批（试跑用）")
     ap.add_argument("--stat", action="store_true")
     a = ap.parse_args()
     if a.stat:
@@ -162,4 +168,4 @@ if __name__ == "__main__":
         print(f"本地影像 {used/2**30:.2f} GB")
         print(f"影像指标已记录 {len(q):,} 页")
     else:
-        main(a.chunk, a.keep, a.ocr_workers)
+        main(a.chunk, a.keep, a.ocr_workers, a.max_chunks)
