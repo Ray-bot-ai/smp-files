@@ -12,7 +12,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1605/page/n0_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 2000-5-38\n\n（印：机密抽屉）\n\n上海公共租界工部局警务处\n交叉参考单\n\n特别分部登记室……办公室\n\n档案编号 D 8155B\n\n事由：\n\n南市局势\n\n| 详情 | 办公室 | 档案编号 |\n| :--- | :--- | :--- |\n| （印：机密抽屉） | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| 指示见背面 | | |",
+   "zh_src": "e80848447d2ed8d3"
   }
  ],
  "pages_done": 1,
@@ -23,6 +25,11 @@
   "ocr_in_tokens": 2722,
   "ocr_out_tokens": 174,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-15 03:42:43"
- }
+  "ocr_at": "2026-08-15 03:42:43",
+  "zh_in_tokens": 406,
+  "zh_out_tokens": 164,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-174",
+ "title": "D1172",
+ "series": "D Files",
+ "nara_file_no": "357",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-174",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201\nT.H. 1000-8-80.\n\nX\n\nC. I. D. REGISTRY\n\nFILE No. L 11/2.\n\nSUBJECT:\nEmployment Information\nOffice \"Laboratory\"\n\nSENT TO\nNAME | DATE\nA. C. I. (1) | 12 - 4 - 30\nI. I. C. O. |\n| c\n|",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-174/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "F. 201\nT.H. 1000-8-80。\n\nX\n\n刑事侦缉处登记室\n\n档案编号 L 11/2。\n\n主题：\n雇佣信息\n办公室“实验室”\n\n发送至\n姓名 | 日期\nA. C. I. (1) | 30年4月12日\nI. I. C. O. |\n| c\n|",
+   "zh_src": "54cfaa94197d1dcf"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-174/D1172%20357.pdf>\n\n---\n3 \nne \nra e* \nra ‘ { \n4. re : - - f \ni £% Ay * a aa a “a , Re \n\n\nC. L D. REGISTRY \nFILE No. 2 “/~- \nSUBJECT: \n\n\n: f 7 4. oe ra ; zt i a. \n\n\nSENT TO",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2734,
+  "ocr_out_tokens": 101,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 15:32:35",
+  "zh_in_tokens": 333,
+  "zh_out_tokens": 100,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2073",
+ "title": "Fong Nan Woo",
+ "series": "IO Files",
+ "nara_file_no": "750",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2073",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nI. O. REG\nNo....................171\nDate..................15/3/26....\n\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE.\n(DETECTIVE BRANCH)\n\nMarch 15th 19/26\n\nSir,\n    In consequence of a report that the rebels, led by Huang Hsin's son, would start a rising last night, the sentries and police patrols were doubled in Chapei, the City, and neighbourhood of the Arsenal.\n    It is said that General Fong Nan Yoo方咸五 who came here on 8th instant, has sent a report to Peking saying that the troops here are not reliable, and urging the Government to send some fresh troops to Shanghai from the North.\n    General Fong left for Nanking yesterday.\n    In response to a telegram from Chiangchun Feng Kuo Chang, two rebel spies named Khong Tso Hyuin孔再兴 and Wong Hai Ching王海清 who were arrested in the vicinity of the Arsenal on 7th instant were sent to Nanking under escort yesterday.\n    Four men, who had been handed over by the French Authorities for being concerned in the attack on a police Station near the West Gate at the time of the Chaoho incident, were shot at the Arsenal on March 14th.\n\n                                Your Obedient Servant,\n\n                                （签名）\n                                Chief Detective Inspector.\n\n（签名）\nCaptain Superintendent of Police.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2073/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "刑事侦缉处\n情报官登记\n编号....................171\n日期..................26年3月15日....\n\n上海工部局。\n\n（印：上海工部局警务处）\n警务处\n（侦探股）\n\n1926年3月15日\n\n先生：\n    鉴于有报告称，由黄兴之子率领的叛军将于昨晚发动起义，闸北、南市及兵工厂附近地区的哨兵和警察巡逻队已加倍部署。\n    据悉，本月8日抵沪的方咸五将军已向北京发送报告，称驻沪部队不可靠，并敦促政府从北方派遣新兵赴沪。\n    方将军已于昨日前往南京。\n    为回复张作霖来自长春的电报，两名于本月7日在兵工厂附近被捕的叛军间谍孔再兴和王海清，已于昨日在押解下送往南京。\n    四名因涉及“超和”事件期间袭击西门附近警察局而被法国当局移交的男子，于3月14日在兵工厂被枪决。\n\n                                您顺从的仆人，\n\n                                （签名）\n                                总探长\n\n（签名）\n警务处总监",
+   "zh_src": "5da079a760c1bb27"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2073/Reports%20Made%201916-1929%20-%20Fong%20Nan%20Woo%20750.pdf>\n\n---\nx \ns \n\n\nPouce Force, \n(Detective BRANCH) \n\n\nSir, \n\n\nmans Hsin's son, would \n\n\nsentries and police patrols wore cCoublsd in Chapei, \n\n\nane neighbourhood of the Arsonale \nti.at Goneral Fonr Nan YooZ, \n\n\nGity, \nIt is said \nhere on Sth instant, \n\n\nGoveriuient to sold sone \ntho Northe \n\n\nShanghai Manicipal Council. \n\n\nIn consequence of a roport that the retels, \n\n\nhas sent \n\n\nthat the troops hore are not reliable, \nfroatl. \n\n\nDate \n\n\nMarch 15th __ \n\n\nlod by \nstart a rising last nisht, the \nthe \n\n\nZB who came \na report to Peking snyinge \nand urcins tho \n\n\ntroops to Shmnchai from \n\n\nGenoral Fong left for Nanking yesterday. \n\n\nIn response to a \nChans, two rehel spies \nWons Hai Chinss & 1% +. who \nof tiic Arsenal on 7th \nescort yoestordaye \n\nPour nen, who tiad \nAuthoritiose for heins \npolice Stution noar the \n\n\nworo \n\n\nChnoho incicent, \n\n\nje \n\n\n< \n\n\n“ \n4 \n2 \n\n\nCaptain Suporintoendent of Polica. \n\n\ninetant \n\n\nboon handed \nconcerned in \n26% Gato at the time \n\n\nis \n\n\nshot \n\n\ntelerram from Chianrchun Fons Kuo \nnamed Khong Tse Hyuin FLA \n\n\n&Y and \nwero arrosted in tiie vicinity \nwere sent to Nanking uncer \n\n\nover by the French \n1.373:G6 attack on a \naor the \n\n\nat tha Arsenal on lnarok 14th. \n\n\nYour Obodient Sorvant, \n\n\nWwranr dine fre \n\n\nChicf Detective Inspector.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2698,
+  "ocr_out_tokens": 333,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:18:32",
+  "zh_in_tokens": 565,
+  "zh_out_tokens": 267,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

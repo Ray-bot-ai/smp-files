@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1992",
+ "title": "Chen Chi May",
+ "series": "IO Files",
+ "nara_file_no": "625",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1992",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. G. REG\nNo 286\nDate 18/4/16\n\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH.)\n\n16th April 1916\n\nSir,\nThe police officer in charge of the 5th district\nin Chapel absconded on 14th instant. A thousand\ndollars reward has been offered for his arrest. It\nis reported that this man, who is a revolutionary,\nran away because his superiors had found out his\nconnection with that party.\nIt is reported that the Shanghai rebels have\nsent fifty men to Yangchow to arrange for the\ndeclaration of independence by that place.\nChen Chi May 陳其美 and Nyeu Tih Sung 鈕鈇生\nare in Shanghai and are leaders of the rebels here.\nIt is reported that General Yang fears that the\ntroops in Pootung and Chapel are not loyal.\nIt is reported that General Lui, in consequence\nof information that the gunners of the Woosung forts\nhad been bought over by the rebels, has detailed some\ntrusted men to look after them.\n\nYour obedient servant,\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\nEntries entered Apl. 16.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1992/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "F. G. REG\n第 286 号\n日期 1916年4月18日\n\n上海工部局。\n\n（印：上海工部局警务处）\n警务处，\n（侦探股。）\n\n1916年4月16日\n\n先生：\n\n负责第五区（Chapel）的警官于本月14日潜逃。已悬赏一千元缉拿此人。据报，此人为革命党人，因其上级发现其与该党派有联系而畏罪潜逃。\n\n据报，上海反叛者已派遣五十人前往扬州，以安排该地宣布独立事宜。\n\n陈其美与钮鈇生现居上海，系此地反叛者之领袖。\n\n据报，杨将军担心驻守浦东及 Chapel 的部队不忠。\n\n据报，刘将军因获悉吴淞炮台的炮手已被反叛者收买，故特派数名亲信人员加以监视。\n\n您顺从的仆人，\n\n总探长。\n\n警务处总监。\n\n条目录入于4月16日。",
+   "zh_src": "e921915a89e52014"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1992/Reports%20Made%201916-1929%20-%20Chen%20Chi%20May%20625.pdf>\n\n---\n= 7 SS : SS er aT: 3 \n\n\nShanghai Municipal Council, \n\n\n_.....—-16th April ss s/ G74 \nPouce Force, \n(Detective Brancn) \nSir, \nSe The police officer in charge of the Sth district \n\n\nin Ohapei absconded on 14th instant. A thousand \ndollars reward has been offered for his arrest. It \nis reported that this man, who is a revolutionary, \nran away because his superiors had found out his \nconnection with that party. \n‘s It is reported that the Shanghai rebels have \n\nP sent fifty men to Yangchow to arrange for the \n\n2 r GAeclazmation of inde endence by that place. \n\n“4 : Ghen Ghi May 7 #3 & and Nyeu Tih Sung Zz Gt + \nare im Shanghai an oe aders of the rebels here. \n\nIt is reported that General Yang fears that the \ntroops in Pootung and Ghapei are not loyal. \n\nIt is reported that General Lut, in consequence \nof information that the gunners of the Woos forts \nhad been bought over by the rebels, has detailed some \ntrusted men to look after them. \n\n\n_ 5 \" Your obedient servant, \n\n\nGhief Detective Inspector. \n\n\nGaptain Superintendent of Police.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2762,
+  "ocr_out_tokens": 289,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 16:51:37",
+  "zh_in_tokens": 521,
+  "zh_out_tokens": 242,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

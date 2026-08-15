@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1847",
+ "title": "Ling%C9 Applicatio",
+ "series": "",
+ "nara_file_no": "2316",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1847",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201 A\nG. 2000-6-39\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSpecial Br. Reg. OFFICE\n\nFILE NO. ……\n\nSUBJECT:\nLing Fat. - application for\na registration.\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Dit | Sp. Br. Reg. | D 8149 - 827 |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1847/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 2000-6-39\n\n上海公共租界工部局警务处\n交叉参考单\n特别处登记室\n\n档案号 ……\n\n事由：\n凌发（Ling Fat）——申请注册。\n\n| 详情 | 部门 | 档案号 |\n| :--- | :--- | :--- |\n| 同上 | 特别处登记室 | D 8149 - 827 |\n\n指示见背面",
+   "zh_src": "c93ecf74411bbd2d"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1847/Ling%25C9%20Applicatio%202316.pdf>\n\n---\nF. 201A \nG. 2000-6-39 \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\n‘CROSS-REFERENCE SLIP \n\n\né \n\n\nFILE NO. 4 22. \nSUBJECT: \n\n\naa Go? ' . \nphi FOR CpG eaten foe \n\n\nee Btn oc A \nCO Te VES te \n\n\nPARTICULARS \n\n\n~ \nww \nos \n\nFi \nLr} \n\n7] \n_ \n~ \n\n4 \not \na \n\n\nsis Ee SS ee OEE conus \n\n\nSS SS \n‘ : \n1 \n‘",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2744,
+  "ocr_out_tokens": 117,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 16:10:55",
+  "zh_in_tokens": 349,
+  "zh_out_tokens": 116,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1996",
+ "title": "Chen Chi Mei",
+ "series": "IO Files",
+ "nara_file_no": "738",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1996",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Shanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL · POLICE FORCE · DETECTIVE BRANCH）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nC. I. D.\nI. O. REG\nNo. 167\nDate 15 / 3 / 16\n14th March 1916\n\nSir,\nThe Central Government has instructed General Yang\nto send maps to Peking showing the location of the\ntroops in the Shanghai district and the number of men\nat each place.\n\nA code telegram was received at the Arsenal yesterday\nfrom the Central Government requesting the immediate\ndespatch of arms and ammunition to Nanking. The Director\nof the Arsenal wired a reply regretting his inability\nto comply with the order.\n\nX It is reported that Chen Chi Mei 陈其美 and Nyeu\nTik Sung 程铁生, head of the local branch of the\nAnti-Yuan army, are arranging to start a rising here\nX on a date between 18th and 24th instant.\n\nEleven robbers, including three handed over by the\nFrench Police, were shot at the Arsenal yesterday after-\nnoon.\n\nYour obedient servant,\n\n[签名]\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\n( )\nSeen by C I P\nIntelligence 15 March 16",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1996/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "上海工部局。\n\n（印章：上海工部局 · 警务处 · 侦探股）\n警务处，\n（侦探股）\n\n刑事侦缉处\n情报登记\n第 167 号\n日期 1916 年 3 月 15 日\n1916 年 3 月 14 日\n\n先生：\n\n中央政府已指令杨将军向北京发送地图，标明上海地区部队的驻地以及各地的人数。\n\n兵工厂昨日收到中央政府发来的密电，要求立即向南京运送军火。兵工厂厂长回电表示抱歉，称无法执行该命令。\n\nX 据报，陈其美与反袁军本地分支负责人程铁生 (Nyeu Tik Sung) 正策划于本月 18 日至 24 日之间在此地发动起义 X。\n\n昨日下午，包括由法国巡捕房移交的三人在内的十一名劫匪在兵工厂被枪决。\n\n您忠实的仆人，\n\n[签名]\n\n首席探长。\n\n警务处总监。\n\n( )\n刑事侦缉处长阅\n情报科 1916 年 3 月 15 日",
+   "zh_src": "414ea28f19082678"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1996/Reports%20Made%201916-1929%20-%20Chen%20Chi%20Mei%20738.pdf>\n\n---\nShanghai Atlanicipal Conneil. \n\n\nc.I. BD. * \nz- O- REG 14th March. . SOD «6 \nPouce Force, eS SOD \n(Derective Brancn) oie 3 1 \n\n\n“A \ncosas wcececcecocseceesee \n\n\nSir \n\"The Central Governrent has instrusted General Yang \nto send maps to Peking showing ths location of the \n\n\ntroops in the Shanghai district and the number of men \nat each place. \n\n\nA code telerram was received at the Arsenal yesterday \nfrom the Gentral Government requesting the immediate \ndéspatch of arms and ammunition to Nanking. The Director \n\n\nof the Arsenal wired a reply regretting his inability \nto comply with the order. \n\n\n» head of the local branch of the \nAnti-Yuan ‘army, are arranging to start a rising Bere \nba Relea a date between 18th and 24th instant. \n\n\nBleven rotbers, inebB&ding three handed over by the \nFreneh Polise, were skot at the Arsenal yesterday after-— \nnoon. \n\n\nYour obedient servant, \n\n\nWW in Hire Te \n\n\nGrief Detective Inspector. \n\n\nGaptain Superintenaent of Police. \n\n\nra et SS",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2734,
+  "ocr_out_tokens": 301,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 16:52:52",
+  "zh_in_tokens": 533,
+  "zh_out_tokens": 267,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

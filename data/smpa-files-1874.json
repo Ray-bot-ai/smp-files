@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-1874",
+ "title": "Mr. D.S. Zelberg And Miss Sarah D. Zelberg",
+ "series": "",
+ "nara_file_no": "3023",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-1874",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D-1945",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1874/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "D-1945",
+   "zh_src": "00154435f375b41f"
+  },
+  {
+   "n": 1,
+   "en": "SHANGHAI MUNICIPAL POLICE\nFile No.\nS & D. B. Station,\nNo. S. B. D. 1945.\nDate January 21, 1931.\nTime 22 - 7 - 31.\n\nREPORT\n\nSubject (in full) Mr. D.S. Zelberg and Miss Sarah D. Zelberg.\n\nMade by D.S. Tcheremshansky. Forwarded by W. Ounear W.P.I.\n\nSir,\n\nInformation has been received to the effect that\nD.S. Zelberg, Russian Jew, is a suspected Soviet Agent and\ncollects information of an economical character regarding\nliving conditions in Shanghai. He has business connections\nwith the Centrosojus and \"Dalbank.\"\n\nHis daughter, Miss Sarah Zelberg, recently joined\nthe staff of the local branch of the \"Dalbank\" as a typist.\n\nIt is said that Mr. Zelberg's brother, being a\nCommunist, was executed in 1918 or 1919 by the White Russian\nGovernment of Ataman Semenoff in Chita Transbaikalian Province.\n\nBoth reside at Park Apartment, No. 455 Rue Lafayette,\nAp. 12.\n\nG. Tcheremshansky\nD. S.\n\nD. C. (C. & S. Branches)\n\nReg. Please file. Copies will be\nhanded to the usual authorities.\nJ.M.G.\n22:1:31.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1874/page/n1_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "上海公共租界工部局警务处\n档案编号\nS & D. B. 分局，\n编号 S. B. D. 1945。\n日期 1931年1月21日。\n时间 22 - 7 - 31。\n\n报告\n\n事由（全称） D.S. Zelberg 先生与 Sarah D. Zelberg 小姐。\n\n呈报人 D.S. Tcheremshansky。转呈人 W. Ounear，W.P.I.。\n\n敬启者：\n\n接获情报称，\nD.S. Zelberg，俄籍犹太人，系疑似苏联特工，\n收集有关上海生活状况的经济性质情报。他与“Centrosojus”（中央消费合作总社）及“Dalbank”（远东银行）有业务往来。\n\n其女 Sarah Zelberg 小姐，近期受雇于“Dalbank”（远东银行）本地分行，担任打字员。\n\n据称，Zelberg 先生的兄弟因是共产党员，于1918或1919年在后贝加尔省赤塔被阿塔曼·谢苗诺夫（Ataman Semenoff）的白俄政府处决。\n\n二人均居住于拉斐德路455号派克公寓12室。\n\nG. Tcheremshansky\nD. S.\n\nD. C.（刑事与特务科）\n\n批注：请归档。副本将送交常规主管当局。\nJ.M.G.\n31年1月22日。",
+   "zh_src": "0cd12ba5c84a243a"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1874/Mr.%20D.S.%20Zelberg%20And%20Miss%20Sarah%20D.%20Zelberg%203023.pdf>\n\n---\n. \n‘ \n\\ \n‘ \n\\ \ni. ’ \n‘ \n. \nA \n‘ \n% \n. oe \nH \n\\ \n: \n_f \n» Se \ne é . x \n\n. 7 é \n. : ; \ny \" . “% \n\n“«e \n- * . * \n\nae s Bi} \n\nane * \n: ; Sic \n% \n- _ \n\n\nott \n\n\nHANGHAI MUNICIPAL POLICE. \n\n\nae -- _ Staton ; \nvat REPORT lo S. ‘B. \nSe ‘4 31 \ni . “ud Sea a, <i \n\n\nSaibbect (jn full) Mr. DS. Zelberg and Miss Sarah D. Zelbery. \n\n\ni \n\n\nSee eeiediidiceeme aaa nee ee \n\n\nMade DeSe Tcheremshanskye —«-_ Forwarded by..._€ \n\n\na ae \n\n\nSir, : . \n> Information has been received to the effect that \nDB. « Zelberg, Russian 1 jew, is a suspected Soviet Agent and \n\n\ncollects information of an economical character regarding \nliving conditions| in Shanghai. He has business connections \nwith the Centrosojus and \"Dalbank.\" \n\n\nae _. His daughter, Miss Sarah Zelberg, recently joined — \n\nthe staff of the local branch of the “Dalbank\" as a typist. \n\nIt is said that Mr. Zelberg's brother, being a \n\nCommunist, was executed in 1918 or 1919. by the White Russian \nGovernment of Ataman Semenoff in Chita Transbaikalian Province. | \nva Both reside at Park Apartment, No. 455 Rue Lafayette, \n\nAPs 125",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5490,
+  "ocr_out_tokens": 337,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 16:17:19",
+  "zh_in_tokens": 576,
+  "zh_out_tokens": 355,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

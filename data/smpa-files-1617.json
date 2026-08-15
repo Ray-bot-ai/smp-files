@@ -12,7 +12,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1617/page/n0_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "THH\nFM\nC. 9QM1-39\n\n上海公共租界工部局警务处。\n（印：机密）\n档案号 ............\nS.I, 特别支部第205分站\n报告\n日期：1939年7月1日。\n\n事由：宋桂林 (Soong Kuan Lin) - 背景情况\n\n由 C.D.I. 施子良 (Sih Tse-liang) 制作 转呈 [签名]\n\n关于附上的1939年6月26日来自上海英国总参谋部办公室的来函，该函寻求有关一名叫宋桂林 (Soong Kuan Lin) 之人的信息，经查询，查明情况如下：\n\n宋桂林现年60岁，浦东人。他在阿尔伯特王路 (Avenue du Roi Albert) 351号1栋受雇于 B. KRENOV 先生，担任“男仆”约十年，直至今年五月。随后，在其雇主推荐下，他获得了大西路 (Great Western Road) 381号卢塞恩乳品厂 (Lucerne Dairy) 的苦力职位，Krenov 先生是该厂经理。\n\n由于年事已高，身体虚弱，宋桂林觉得卢塞恩乳品厂苦力工作所需体力对他而言过于繁重。因此，在6月26日，他代替其长子妙生 (Miao Seng) 任职，其长子受雇于英国总参谋部办公室。\n\n宋桂林有三子一女，其在浦东老家有妻子、儿媳及数名孙辈。通常，宋桂林与其长子同住于阿尔伯特王路7号的一间棚屋内，其长子在英国总参谋部办公室担任苦力，目前正在休假。偶尔，宋桂林会住在其次子家中，其次子受雇于",
+   "zh_src": "d6b4b902b941452d"
   },
   {
    "n": 1,
@@ -20,7 +22,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1617/page/n1_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "上海公共租界工部局警务处。\n档案号 ............\n分站，\n报告\n- 2 -\n日期....................19\n事由....................................................................................................\n制作人................................................转呈人........................................\n\nB. Krenov 先生，在阿尔伯特王路351号1栋担任“男仆”，并居住在该地址。三子尚年幼，协助次子并与次子同住。\n\n据 B. Krenov 先生雇佣的厨师称，宋桂林被视为诚实之人，在 B. Krenov 先生家中长期受雇期间，从未卷入任何外部活动。\n\n在大约十年前受雇于 Krenov 先生之前，已知他曾在中国轮船公司 (China Navigation Company) 上海建筑师办公室担任苦力，并在同山路 (Tongshan Road) 的英军营房担任厨师。\n\n本处档案中没有任何不利于宋桂林或其三子的记录。\n\nC. 2/4\n副督察 Leung\n刑事侦缉探员\n助理处长 (特别支部)\n\nH\n/\n28/2\n3/7",
+   "zh_src": "33c4f47692a5b65c"
   },
   {
    "n": 2,
@@ -28,7 +32,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1617/page/n2_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "电话 77121\n机密。\n参考号 2/22。\n\n英国总参谋部\n上海\n1939年6月26日。\n\n尊敬的先生：\n\n如蒙贵处对下列详情的中国籍人士进行品行调查，以便本人对其是否适合在本办公室担任“苦力”一职形成意见，本人将不胜感激：\n\n姓名：宋关林 (Kuan Lin SOONG)。 年龄：60岁。\n地址：转交 B. Krenov，\n      1栋，\n      阿尔伯特王路 (Avenue de Roi Albert) 351号，\n      上海。\n\n此致，\n\n上尉，\n总参谋部。\n\n上海公共租界工部局警务处\n特别支部\n助理处长\n\n（批注：G.D. S.Ck  5/7  4/2  (C) 6  Rest 3/6）",
+   "zh_src": "48d56f3dadfd48c3"
   }
  ],
  "pages_done": 3,
@@ -39,6 +45,11 @@
   "ocr_in_tokens": 8210,
   "ocr_out_tokens": 959,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-15 03:46:06"
- }
+  "ocr_at": "2026-08-15 03:46:06",
+  "zh_in_tokens": 1205,
+  "zh_out_tokens": 845,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 3
 }

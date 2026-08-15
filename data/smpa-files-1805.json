@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-1805",
+ "title": "Illegal Removel Of K. R. Von Eitro Co 180 Kiangse Rd. Central Misc. 37343",
+ "series": "",
+ "nara_file_no": "654",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-1805",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Returned to Central Station\nF. 201 A\nG. 2M-2-41\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nNo. 1. Registry, Br. & Sp. Br. OFFICE\nFILE NO. U. 240\nSUBJECT:\nIllegal removal of H. R. von\nSiths to 180 Huangue Rd.\n(Central Misc. 373/43)\nPARTICULARS | OFFICE | FILE NO.\nReturned to Central Station 29-3-45 | |\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1805/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "已退回中央巡捕房\nF. 201 A\nG. 2M-2-41\n上海公共租界工部局警务处\n交叉参考单\n第 1 号。注册科，英籍及特别股办事处\n档案编号 U. 240\n事由：\nH. R. von Siths 被非法迁至黄陂路 180 号\n（中央杂项 373/43）\n详情 | 办事处 | 档案编号\n已于 1945 年 3 月 29 日退回中央巡捕房 | |\n指令见背面",
+   "zh_src": "7e69fa21b1d3a30c"
+  },
+  {
+   "n": 1,
+   "en": "No\n8 - 1/14\n- L. Apiana",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1805/page/n1_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "无\n8 - 1/14\n- L. Apiana",
+   "zh_src": "235ee5af69faf601"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1805/Illegal%20Removel%20Of%20K.%20R.%20Von%20Eitro%20Co%20180%20Kiangse%20Rd.%20Central%20Misc.%2037343%20654.pdf>\n\n---\n7 r Ficluzr.edt Le Gerhel Nbahne ” \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \n\n\n62. z \n\n\nFILE NO UL. Z +40 \n\n\nSUBJECT: \ntemevel *f SFE ven \nSf Le 1° ; Fed. \n; Wee, =78/#2> \n\n\nSr \nPARTICULARS ~ | OFFICE i FILE NO. \n\n\nINSTRUCTIONS SEE OVER \n\n\n. rs \n- 7 4 \n. f . a we a FL \ncw é \n‘ \n; \nawl - \ntn awe Vg \n> \n‘ \n>",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 4722,
+  "ocr_out_tokens": 154,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 15:55:47",
+  "zh_in_tokens": 392,
+  "zh_out_tokens": 171,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

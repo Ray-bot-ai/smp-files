@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2087",
+ "title": "General Yang",
+ "series": "IO Files",
+ "nara_file_no": "634",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2087",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nI. O. REG\nNo 226\nDate 8/4/16\n\nShanghai Municipal Council.\n\nApril 7th 191\n\n（印：SHANGHAI MUNICIPAL COUNCIL JUNCTA JUVANT）\nPOLICE FORCE,\n(DETECTIVE BRANCH.)\n\nSir,\nThe rebels are trying to organise a parliament\nand they have wired to the provinces requesting them\nto send two delegates each to Shanghai to discuss the\nmatter.\nIt is reported that General Yang has sent a\nletter to the French Consul General saying that\nthe number of rebels who live in the western part\nof French Town is increasing daily. The letter\nrequests the Consul General to devise some plan\nto deal with them.\nPeople residing in the vicinity of the\nArsenal are removing.\nIt is reported that as a result of\nrepresentations made by the Cantonese community\nthe China Merchants Steamship Co will refuse to\nconvoy the Government soldiers from Shanghai to\nCanton.\nA telegram was received yesterday at the\nArsenal from Peking saying that Yang and Loo\nwill be held responsible should trouble occur\nin Shanghai.\nIt is reported that most of the Arsenal\ndetectives are now in pay of the rebels.\n\nYour Obedient Servant,\n[签名]\nChief of Detective Inspector.\n\n[签名]\nCaptain Superintendent of Police.\n\nEntered on M.S. Apl. 7",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2087/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "刑事调查处\n情报官登记簿\n第 226 号\n日期：1916年4月8日\n\n上海工部局。\n\n191 年4月7日\n\n（印章：上海工部局 同心协力）\n警务处，\n（侦探股。）\n\n先生：\n\n叛乱分子正试图组织议会，并已致电各省，要求各省各派两名代表来沪商讨此事。\n\n据报，杨将军已致函法国总领事，称居住在法租界西区的叛乱分子人数日益增加。该信函请求总领事制定某些计划以处置他们。\n\n居住在兵工厂附近的人们正在搬迁。\n\n据报，由于广东籍社群提出交涉，轮船招商局将拒绝护送政府军从上海前往广州。\n\n兵工厂昨日收到来自北京的一封电报，称若上海发生骚乱，杨与卢将被追究责任。\n\n据报，兵工厂的大部分侦探目前正受雇于叛乱分子。\n\n您顺从的仆人，\n[签名]\n侦探督察长。\n\n[签名]\n警务处总监。\n\n录入于工部局档案，4月7日",
+   "zh_src": "172e842ccedfb3c1"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2087/Reports%20Made%201916-1929%20-%20General%20Yang%20634.pdf>\n\n---\noo ee \n: Cc. lt. Be \n\n\n—— -! \n\n\n: sg oh Mesa \n\n\nAP — a &f- Bo fubiberowinn \n\n\nShanghai Municipal Conunvril. \n\n\nApril 7th ; SOF \n\n\nPouce Force, \n(Detective BRANCH) \n\n\nSir \n\n? The rebels are trying to organise a parliament \nand they have wired to the provinces requesting then \nto send two delegates each to Shanghai to discuss the \n\n\nmattere \nIt is reported that General Yang has sent 4 \n\n\nletter to the rrench Consul General saying that \nthe number of rebels who live in the western part \nof Fronch Town is increasing daily. The letter \nrequests the Consul General to devise some plan \nto a@eal with them. \n\nPeople residing in the vicinity of the \nArsonal are removing. \n\nIt is reported that as a result of \nrepresentations made by the Cantonese community \nthe China herchants steamship Co will refuse to \nconvoy the Governnent soldiers from Shanghai to \nCantor. \n\nA becuase was received yesterday at the \nArsenal from “eking saying that Yang and Loo \nwill be held responsible should trouble occur \n\n\nin eo \nIt is reported that most oer the Arsenal \ndetectives are now in pay of the rebels. \nYour Obedient Servant, \n\n\nVat = Chief Detective Inspector. \n\n\nCaptain Superintendent of Policee",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2734,
+  "ocr_out_tokens": 311,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:22:07",
+  "zh_in_tokens": 543,
+  "zh_out_tokens": 251,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2067",
+ "title": "Feng Kuo Chang",
+ "series": "IO Files",
+ "nara_file_no": "29",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2067",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nF. O. Rm\n409\n26/6/16\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH.)\n\nJune 26th 1916\n\nSir,\n\nIt is reported that the Commanders of certain\ncruisers have demanded the punishment of the monarchical\nplotters and have threatened to bombard Woosung if their\ndemand is not granted.\n\nIt is reported that the Kuomingtang party is\nforming a compact with Chiangchun Feng Kuo Chang\nwhereby the party undertakes to assist Feng as a\ncandidate for the Vice Presidency and the latter\nundertakes to help them to force the Central Government\nto punish the monarchical plotters.\n\nSix field guns and 1,000 rifles were sent from\nthe Arsenal by train to Peking on 26th inst.\n\nGeneral Yang visited Sungkiang yesterday.\n\nYour Obedient Servant,\n\nMinnie Armstrong\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\nEntered amnd. June 26.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2067/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "刑事调查处\n外交部 409室\n16年6月26日\n上海工部局。\n\n（印章：上海工部局警务处）\n警务处，\n（侦探科。）\n\n1916年6月26日\n\n先生：\n\n据报，某些巡洋舰的指挥官要求惩办帝制阴谋分子，并威胁称，若其要求未获满足，将炮轰吴淞。\n\n据报，国民党正与张作霖、冯国璋达成密约，据此该党承诺支持冯氏竞选副总统，而冯氏则承诺协助该党迫使中央政府惩办帝制阴谋分子。\n\n本月26日，兵工厂经铁路向北京运送了六门野战炮和一千支步枪。\n\n杨将军昨日访问了松江。\n\n您顺从的仆人，\n\n米妮·阿姆斯特朗 (Minnie Armstrong)\n总探长\n\n警察总监\n\n于6月26日上午录入并修正。",
+   "zh_src": "a8e35b85f122d314"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2067/Reports%20Made%201916-1929%20-%20Feng%20Kuo%20Chang%2029.pdf>\n\n---\nPouce Force, \n(Detective Brancw) \n\n\nED \n\n\n~ \n\n\nSe F.. \nBe Op; Rr \n\n\nShanghai Municipal Goune \n\n\nSir, \n\npa ai is reported that the Commanders of certain \nCruisers have demanded the punishment of the monarchical \nplotters and have throatened to bombard Woosung if their \ndemand is not granted. \n\nIt is reported that the Kuomingtang party is \nforming a compact with Chiangchun Feng Kuo Chang \nwhereby the party undertakes to assist Feng as a \ncandidate for the Vice Presidency and the latter \nundertakes to help them to force the Central Governnmnt \nto punish the monarchical plotters. \n\nSix field guns and 1,000 rifles were sent from \nthe Arsenal by train to Peking on 26th inst. \n\nGeneral Yang visited Sungkiang yesterday. \n\n\n— Your Obedient Servant, \nwan: Anne \nLWW: CMF \nNk Chief Detective Inspector. \nger \n\n\nCaptain Superintendent of Police. \n\n\nte Ge.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2705,
+  "ocr_out_tokens": 254,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:16:34",
+  "zh_in_tokens": 485,
+  "zh_out_tokens": 216,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

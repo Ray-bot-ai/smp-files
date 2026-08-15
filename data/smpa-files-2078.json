@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2078",
+ "title": "General Feng",
+ "series": "IO Files",
+ "nara_file_no": "696",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2078",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "（印：...me to the CENSOR REGISTRY when finished with.）\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE.\n(DETECTIVE BRANCH)\n\nCommandant, SVC\n\nShanghai Municipal Council.\nC. I. D.\nI. O. REG\nNo 96\nDate 23/2/27 February 23rd 1918\n\nSir,\nSome pawnshops companies, which have branches in Nanking and Shanghai have removed valuables from the former City to the latter as it is thought by some people in Nanking that the soldiers will get out of hand and loot the city.\nWith reference to my report of yesterday's date saying that General Feng had instructed General Yang to make ready to send 2,000 troops to Szechun, it is now reported that the latter General has sent a reply to the former explaining the importance of Shanghai and the activity of the rebels in this port. General Yang also points out the advisibility of maintaining the military forces in Shanghai at their present strength, and asks for further instructions. General Lu, Deputy Military Governor, has sent a similar telegram direct to Peking.\nOn the night of the 21st inst a cruiser took four 7.5 cm. guns on board at the Arsenal and left for Nanking at 3 a.m. 22nd instant.\n\nYour Obedient Servant,\nMcMurtie\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\nReceived on 23rd Feb 23\nRecd by J.C.D",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2078/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "（印：……使用完毕后交至审查登记处。）\n（印：上海工部局警务处）\n警务处。\n（侦探股）\n\n致 义勇队指挥官\n\n上海工部局。\n刑事侦缉处。\n情报官登记处\n第 96 号\n日期：1918年2月23日\n\n先生：\n\n一些在南京和上海设有分号的当铺公司，已将贵重物品从南京运至上海，因为南京有些人认为士兵将会失控并洗劫城市。\n\n关于我昨日报告中提及冯将军已指令杨将军准备派遣2,000名部队前往四川一事，现据报称，杨将军已复电冯将军，阐明上海的重要性以及叛乱分子在本港的活动情况。杨将军还指出，宜将驻沪军事力量维持在当前规模，并请求进一步指示。副督军卢将军也已直接向北京发送了类似的电报。\n\n本月21日晚，一艘巡洋舰在兵工厂装载了四门7.5厘米口径火炮，并于本月22日凌晨3时启程前往南京。\n\n您忠实的仆人，\n麦克默蒂 (McMurtie)\n总探长。\n\n警察总监上尉。\n\n于2月23日收到\nJ.C.D. 收讫",
+   "zh_src": "e8037031a8a72c06"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2078/Reports%20Made%201916-1929%20-%20General%20Feng%20696.pdf>\n\n---\nFe ee ee \n\n\naa en RET PTT FEED, ORL Aa enteen \n\n\na \n\n\nP des a d Ye 2 cil ae a aa 42,4, Ywe \nShanghai thinicipal Council, \n. c.1.b. \n\" 2 PS x Oo- REG \n; he \nPe tee ara SO/ 4 \nPouce Force, 4 \n\n\n(Derective Brancn ) \n\n\nSir, \n\nSome pawnshope companies, which have branches in \nNanking and Shanghai have removed valuables from the \nformer Gity to the latter as it is thought by some poople \nin Nanking that the soldiers will get out of hand \nand loot the oity. \n\n\nWith reference to my report of yesterday's date \nructed General Yang to \n\n\n© Szecheun, it is now \nreported that the latter General has sent a reply to \nthe former explaining the importance of Shanghai and \nPp General Yang \nalso points out the advisibility ofr maintaining the : \nent strength, \n\n\nGeneral Lu, \nDeputy Military Governor, has sent a similar \n\n\ntelegram direst to Peking. \n\n\nOn the night of the 21st inst a cruiser \n\n\ntook four 7.5 om. Suns on board at the Arsenal \n\n\nand \nleft for Nanking at 3 a.m. ePnd instant. \n\n\nYour Obedient Servant, \n\n\nWww Wea levies \n\n\nChief Detective Inspector. \n\n\nGaptain Superintendent of Police. \n\n\n' (ae Le—p-— PD on L- f-2t- Sf a ed \na \n\n\nPoe a eff)",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2744,
+  "ocr_out_tokens": 339,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:19:58",
+  "zh_in_tokens": 571,
+  "zh_out_tokens": 280,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

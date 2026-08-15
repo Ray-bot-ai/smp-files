@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2003",
+ "title": "Chinese Merchants Meeting",
+ "series": "IO Files",
+ "nara_file_no": "45",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2003",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Form 2    34\nShanghai Municipal Police.\n650\n91. Typ\nWest Hongkew Station.\n17-10-1916\nREPORT ON \" Chinese Merchants' Meeting \"\nMade by J.W.Prince D.C. Forwarded by Inspector W. Mason.\nSir,\nI beg to report that at 4 P.M, to-day a meeting of\nShanghai 'Chinese Merchants 'was held in the 'Chamber of Commerce\nBuilding at N'th Honan Rd, about (50) Merchants attended to\ndiscuss the proposition of raising money to relieve, distressed\nRevolutionary Followers at present in Shanghai, with a view to\nsending them to their Native homes. No decision was come to,\nowing, it was stated, to the Shanghai Tao-Tai's disapproval of\nhaving to pay out such a large sum of money as is required.\nThe meeting was quite peaceful. It is proposed to hold another\nmeeting at 4 P.M, tomorrow 18'th, when, it is stated, only about\nfive or six persons will attend.\nTo/\nS.D. Inspector\nC.I.D, Office\nCentral.\nI am Sir\nYours Obediently\nJ.W. Prince\nDet' Serg't.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2003/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "表格 2    34\n上海公共租界工部局警务处。\n650\n91. 打字稿\n虹口西区捕房。\n1916年10月17日\n关于“中国商人会议”的报告\n由警佐 J.W. Prince 撰写，经督察 W. Mason 转呈。\n\n先生：\n\n谨此报告，今日下午四时，一批“中国商人”在河南路（北段）的“商会大楼”举行会议，约有（50）名商人出席，讨论筹款以救济目前身处上海的困顿革命党追随者，并拟将他们遣送回乡的方案。据称，由于上海道台不赞成支付如此巨额的款项，会议未达成任何决议。\n会议过程十分平和。据悉，计划于明日（18日）下午四时再行召开会议，届时据称仅有约五六人出席。\n\n致\n刑事侦缉处总监\n中央办事处\n\n先生，\n您忠实的仆人\nJ.W. Prince\n警佐",
+   "zh_src": "e3f3550a3476bb23"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2003/Reports%20Made%201916-1929%20-%20Chinese%20Merchants%20Meeting%2045.pdf>\n\n---\nREPORT ON \n\n\nSal rs, \n\n\nShanghai \nRuilding \ndiscuss \nRevolutionary Followers at praseant \nsending thsam to their \n\n\nowing,it was statsd, to the Shanghai \n\n\nShanghai Punicipal Rolice. | . sO \n\n\n| bas to repor : \n\"Chinese Merchants ‘was hald in ths 'Tthanber of Ttommar \n: ce \n\n\nhaving to pay out such \n\n\nnatant \n\n\ner \nheed Nest Hongkew Station. 3 \n17-107. 19 16 : \n\n\nmeating at 4 >.%, tomorrow !8'th,whan,it \n\n\nfive or six persons will \n\n\n'o \n\n\n4 \n\n\n°2O.Enspeactor \n\n\nSeleP, OTF TEs \n\n\nCantral. \n\n\nattend. \n\n\n\" Shinese Verchants'viesting 2 \n\n\nForwarded by Aaffurta’ , We bem. Wetencn eee \n\n\nthat at 4 P.vi, to-dey a masating of \n\n\nat N'th Honan Rd, about (50) rerchants attendad to \nthe proposition of raising money to reliave,distresse \n\n\nin Shanghai,with a view to \n\n\nNative homes. “to decision was come to, i \nTao-Tai's disapproval of £ \na largs sum of money as is required. F \n\n\nThe masting was quite cenceful. It is proposed to hold anothsar; \n\n\nis stated,only about | \n\n\nan Cir \n\n\nYours Obedisntly \n\n\nUe \n\n\nNest? Serg'’t.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2710,
+  "ocr_out_tokens": 280,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 16:57:25",
+  "zh_in_tokens": 512,
+  "zh_out_tokens": 228,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

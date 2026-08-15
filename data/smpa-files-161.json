@@ -12,7 +12,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-161/page/n0_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "1\n情报局总部\n档案编号 69/136\n日期 1930年9月28日\n\n致警务处处长的匿名信译文：\n\n无日期。\n\n先生：\n\n附属于虹口捕房的华籍巡捕谢世明（Chia Sze Ming，音译）与虹口区的不法商人勾结，声名狼藉。他惯于借职务之便欺压百姓。\n\n在靠近西华德路（Seward Road）桥梁的狄思威路（Dixwell Road）上，新建了数处房屋。(1) 华籍巡捕谢向承包商索要80.00元，声称是保护建房材料免遭盗窃的必要费用。最终，谢收受了40.00元。\n\n此外，还有一些侦探“副手”每日在汉璧礼路（Hanbury Road）靠近汉璧礼路桥的1101及1102号“新鹤升栈”（Hsin Ngauh Hsin Liao，音译）茶馆聚会。(2) 这些侦探“副手”惯于实施敲诈勒索。在这些“副手”中，一名叫萧苏子（Siao Suh Tse，音译）的人最为凶狠。\n\n恳请阁下对此案进行调查。\n\n首席督察长及内务主管已知悉\n附近茶馆店主或商户不知晓\n\nJWHen\nG.S.O. C Mi 先生\nSea Eni 夫人\n\n我此前曾收到过一封类似的信件。\n(1) 我已亲自调查，但在报告中未发现任何相关内容。负责这些建筑物的警队人员否认知情。这些场所作为茶馆经营，常有清粪夫和苦力光顾。在此查询真相及陈述所有案件，已发出警告并提交情报\n\n1930年5月27日",
+   "zh_src": "8316f8ad19bf2c5a"
   }
  ],
  "pages_done": 1,
@@ -23,6 +25,11 @@
   "ocr_in_tokens": 2689,
   "ocr_out_tokens": 454,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-15 03:44:08"
- }
+  "ocr_at": "2026-08-15 03:44:08",
+  "zh_in_tokens": 685,
+  "zh_out_tokens": 389,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-191",
+ "title": "Dr. Ernst Friedlaender, German Jewish Refugee",
+ "series": "",
+ "nara_file_no": "2578",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-191",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "CTH\nM\nG. 90M-1-39\n\nSHANGHAI MUNICIPAL POLICE.\nSection I, Special Branch.\nREPORT\nFile No. 9775\nDate February 22, 1940.\n\nSubject. Dr. Ernst FRIEDLAENDER, German Jewish refugee.\n\nMade by. D. S. Fitts. Forwarded by. D. I. Crawford.\n\nErnst FRIEDLAENDER, German Jewish refugee,\nborn in Trautenau on July 8, 1889, arrived in Shanghai\nfrom Europe in the s.s. Victoria on January 15, 1939.\nA physician by profession, he has been operating as an\nanalytical chemist with \"Laboratory Lamuert\", 3 Ezre\nRoad for several months. He resides at 1182 Avenue\nRoad.\n\nSince arrival in Shanghai he has borrowed\ncertain sums of money from the I. C. Jewish Relief\nCommittee and at present owes this organization $410.\n\nAn excellent linguist, speaking five\nlanguages, FRIEDLAENDER secured his doctor's degree\nfrom the University of Vienna and is well spoken of\nin refugee medical circles here. Nothing is known\nto his detriment.\n\nHe is in possession of German passport\nJ.52695 issued in Vienna on December 8, 1938.\n\nD. S.\n\nA. C. ( Special Branch ).\n\n（左侧手写批注：Copy sent to L. O'...）\n（左侧另有模糊手写字迹及印章痕迹）",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-191/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "CTH\nM\nG. 90M-1-39\n\n上海公共租界工部局警务处。\n特务科第一股。\n报告\n档案号 9775\n日期 1940年2月22日。\n\n事由：恩斯特·弗里德伦德尔（Ernst FRIEDLAENDER）博士，德籍犹太难民。\n\n呈报人：D. S. 菲茨（Fitts）。转呈人：D. I. 克劳福德（Crawford）。\n\n恩斯特·弗里德伦德尔（Ernst FRIEDLAENDER），德籍犹太难民，\n1889年7月8日出生于特劳特瑙（Trautenau），于1939年1月15日\n乘“维多利亚”号轮船（s.s. Victoria）从欧洲抵达上海。\n职业为医师，近数月来在爱兹拉路3号“拉默特实验室”（Laboratory Lamuert）\n担任分析化学师。现居住于爱文义路1182号。\n\n自抵沪以来，他曾向国际犹太救济委员会（I. C. Jewish Relief\nCommittee）借款若干，目前尚欠该组织410美元。\n\n弗里德伦德尔精通五种语言，是一位优秀的语言学家，\n获维也纳大学博士学位，在本地的难民医疗界口碑良好。\n未发现对其不利之情况。\n\n其持有1938年12月8日在维也纳签发的德国护照，\n号码为J.52695。\n\nD. S.\n\n特务科助理科长（A. C.）。\n\n（左侧手写批注：副本已送交 L. O'...）\n（左侧另有模糊手写字迹及印章痕迹）",
+   "zh_src": "67c35fb04bae0877"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-191/Dr.%20Ernst%20Friedlaender%2C%20German%20Jewish%20Refugee%202578.pdf>\n\n---\nee pot cS \n\n\nSublect.. 0.0.2... \n\n\nSHANGHAI MUNICIPAL POLICE, © =) * iY . \ndon, ff \nBER UN OS 5 See rea een \nREPORT Bhs kebriary 22) a \nDr, Ernst FRIEDLAENDER, Germen Jewish refugee. \n\n\nMaile by. ‘D. S. Fitts. \n\n\nErnst PRLIGDLAZNDSR, German Jewish refugee, \nborn in ‘trautenau on July 8, 1889, arrived in Shanghei \nfrom Gurope in the s.s. Victorie on Jénuary 15, 1939. \nA physicicn by profession, he has veen Oper: ting as an \nanalytical chemist with “Le voretory Lamnvert\", 3 Bare \nRoed for severel months. ne resides at 1182 Avenue \né. / Road, \n0 salt’ henadiadiiai ; - \nSy rn Y 8, Since arrival in Shangsnz.i he hes voorrowed \ncertein sums of money from the 1. C. Jewish Relief \nCom~ittee end at present owes tnis orgenization $410, , \nAn excellent linguist, Speaking five \n\n\nlengueges, sRIEDLASADER secured his doctor's degree \n\n\nKe \n\n\nfrom the ‘niversity of Vienna and is well spoken of \n\n\nin refugee medic:1 circles here. nothing is known \n\n\nne is in possession of German pessport \n\n\n| to his detriment. \nJ.52695 issued in vienna on vecemoer 8, 1938 \n\n\nA. C. ( Special branch ),",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2722,
+  "ocr_out_tokens": 350,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 16:29:25",
+  "zh_in_tokens": 582,
+  "zh_out_tokens": 390,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

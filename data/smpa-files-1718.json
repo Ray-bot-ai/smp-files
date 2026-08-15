@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1718",
+ "title": "Vosrojdenie La Renaissance - Paris, July 1931 - Berkman, Agent",
+ "series": "D Files",
+ "nara_file_no": "3810",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1718",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "（印：OFFICIAL... CA... S. 1 PACIF... 1186... 7 TRAF... 1 38... C... PACIF）\n\n\" VOSROJLENIE\" ( \" La Renaiss e\")\nParis, July 1931 F,\ngati rtmen\npal F\n\nve ju i advi\nan d i this\nShang Monda\ninst or Var\nllow: le fro\nYOU ACE P\nSE C TUN (\nll be oblige\ncerta where\n\nBERKMAN, agent of the Comintern, posing a Russ writer.\nIived near Toulon. Has recently been rted France.\n\nOk. S.B.\ndformat ibk 2/1\nGiele\n9/8\n12:1:82",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1718/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "（印：官方……CA……S. 1 太平洋……1186……7 交通……1 38……C……太平洋）\n\n“VOSROJLENIE”（“复兴”）\n巴黎，1931年7月 F，\ngati rtmen\npal F\n\nve ju i advi\nan d i this\nShang Monda\ninst or Var\nllow: le fro\nYOU ACE P\nSE C TUN (\nll be oblige\ncerta where\n\nBERKMAN，共产国际特工，伪装成俄国作家。\n居住在土伦附近。最近被驱逐出法国。\n\nOk. S.B.\ndformat ibk 2/1\nGiele\n9/8\n12:1:82",
+   "zh_src": "d41919624ca37174"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1718/Vosrojdenie%20La%20Renaissance%20-%20Paris%2C%20July%201931%20-%20Berkman%2C%20Agent%203810.pdf>\n\n---\n\" VOSROJLENIE\" \n\n\n( \" Ls Reneis \n\n\nParis,duly 1°31 \n\n\nEs \nBgati \npal F \n\n\nve ju \n\n\nBERKMAN, agent of the Comintern,posing \n\n\nIived reer Toulon. Mas \n\n\nrecently been \n\n\ne™) \n\n\nBr tmer \n\n\na advi \ni this \nwonds \nor Var \nLe fre \n\n\naCE Pi \nTums ( \n\n\ndbli se \n\n\nwher« \n\n\na Rues \nrted i \n\n\nwriter. \n\n\nFrence. \n\n\ni",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2756,
+  "ocr_out_tokens": 179,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 15:25:19",
+  "zh_in_tokens": 411,
+  "zh_out_tokens": 174,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2104",
+ "title": "Han Hwei",
+ "series": "IO Files",
+ "nara_file_no": "741",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2104",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. : D.\nI. O. REG\nNo. 185\nDate. 21/3/16\n\nMunicipal Police.\nCRIMINAL INVESTIGATION DEPT:\nCaptain Superintendent's Office.\n\nShanghai, 21st March 1916.\n\nSir,\nGeneral Yang has received information that the rebels and some of the Arsenal troops have come to an understanding, whereby the latter have consented to revolt. When the rebels are ready to start, they will fire off bombs and crackers in the vicinity of the Arsenal. Their adherents within that institution will then mutiny and kill their officers.\nIt is expected that the rising will begin to night or to morrow night, so extraordinary precautions are being taken. There is no news of this matter in rebel circles.\nAt present there are three parties of rebels in Shanghai although their aims are somewhat different, they are now working in unison. The three parties are commanded by Han Hwei 韓恢 Pah Wen Wei 柏文蔚; and Chen Chi Mei 陳其美. The last named is said to be in Japan at present. The headquarters of all three parties are reported in Frenchtown. The rebel leaders in Shanghai are now endeavouring to get Fokien to declare independence.\nThe Shanghai Taoyin is said to have requested the venacular newspapers not to print news of defeats suffered by the Government troops. The Taoyin also requested to have reports, which appeared in the Sin Wan Pao 新聞報 and Sz Pao 時報 regarding the censoring of letters in the Chinese Post Office contradicted, as the reports in question were not correct.\nIt is reported that Hupeh will declare independence soon.\n\nYour Obedient Servant,\nmmmmmmusting\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\nEntered on M.S. March 21.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2104/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "C. : D.\nI. O. REG\n第 185 号\n日期：1916年3月21日\n\n公共租界警务处。\n刑事调查科：\n警司办公室。\n\n上海，1916年3月21日。\n\n先生：\n\n杨将军获悉，反叛者与部分兵工厂驻军已达成默契，后者同意发动兵变。当反叛者准备起事时，他们将在兵工厂附近燃放炸弹和鞭炮。届时，兵工厂内的同党将发动哗变并杀害其军官。\n\n预计起义将于今晚或明晚开始，因此正在采取特别预防措施。反叛者圈子内尚无关于此事的消息。\n\n目前上海有三派反叛势力，尽管他们的目标略有不同，但现在正协同行动。这三派分别由韩恢、柏文蔚和陈其美指挥。据说陈其美目前在日本。据报道，这三派的总部均设在法租界。在上海的反叛领袖目前正努力促使福建宣布独立。\n\n据说上海道尹已请求中文报纸不要刊登政府军队遭受败绩的消息。道尹还要求对《新闻报》和《时报》上出现的关于中国邮政检查信件的报道予以辟谣，因为相关报道并不属实。\n\n据报道，湖北即将宣布独立。\n\n您顺从的仆人，\nmmmmmmusting\n首席探长\n\n警察警司\n\n于3月21日录入 M.S.",
+   "zh_src": "7c7e2719bfa7fa07"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2104/Reports%20Made%201916-1929%20-%20Han%20Hwei%20741.pdf>\n\n---\noO. \nZa = MNunicipat Sofice. \nSee piace Seeks dt CRIHINAL INV=STIGATION DEPT: \nALLS... “ Guptcin SO RXPHRDTS Sttice. \n\n\ne1lst Karch 1918. \n\n\nS) hangtai — \n\n\nGenoral Yang has-recoived information that the rebels and \nsome of the Arsenal troops have come to an understanding, \nwhereby tho latter have consented to revolt. When the rebels \nare ready to start, they will fire off bombs and crackers \nin the vicinity of the Arsenal. Their adherents within that \ninstitution will then mutiny and kill thoir officers. \n\nIt is expected that the rising will begin to nisht or \nto morrow nisht, so extraordinary precautions are being \ntaken. There is no news of this matter in robol circles. \n\nAt present thore are threo parties of robels in Shanghai \nalthough their aims are somewhat aifferent, they aro now work \ning in unison. The throe partios are commanded by Han Hwei #¥ 1% \nPah ‘len WeiFAZSs and Chen Chi lei iM a: a The laet named is i \nsaid to be in Japan at present. The headquartors of all . \nthree parties are reported in Frenchtome The rebel leaders \nin Shanghai are now endeavouring to ret Fokien to declare \nindependonce. \n\n\n+ The Shanghai Taoyin is said to have requested the \nvenaciilar newspapers not to print news of > 3 \ntHe Government troops. The Taoyin also requested to have at \nreports, which appeared in the Sin Wan Pao sy ed and Sz Pao ae RT \nregarding the censoring of letters in the Gran 4 \n\n\ncontradicted, as the reports in question wore not correcte \n\n\nIt is roported that Hupeh will declare independence soon. | \n\n\nwe Your Obedient Servant, \ni \ni Www ior.g \n; Ee af : . t \nr- ‘ Chicf Detective Inspector. \n—_ \n3 \n\n\nCaptain Superintendent of POlicee \n\n\nae ee ont 422-7. Df a EO 2s.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2708,
+  "ocr_out_tokens": 393,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:28:11",
+  "zh_in_tokens": 625,
+  "zh_out_tokens": 310,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

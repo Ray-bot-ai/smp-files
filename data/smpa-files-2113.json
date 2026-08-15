@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2113",
+ "title": "Huh Ching Tsung",
+ "series": "IO Files",
+ "nara_file_no": "704",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2113",
+ "page_data": [
+  {
+   "n": 0,
+   "en": ". 1.0\n\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nC. I. D.\nI. O. REG\nNo 39\nDesk\n\nShanghai Municipal Council.\n\nFebruary 12th 1918\n\nSir,\nDuring the Sino-Japanese war in 1894 a fort existed at a place named Huh Ching Tsung 合慶鎮 in Pootung at a point ten li to the north of Bah Loong Kong 白龍港. Since the termination of the war referred to this fort has been allowed to go to ruin. The Central Government, having been memorialised with reference to the matter, has given instructions to have the fort rebuilt. Since the receipt of these instructions, General Yang has sent a party to Pootung to survey the place.\nIt is reported that Admiral Lee who some time ago was requested to go to Peking, will proceed to Japan.\nIt is reported that General Yang has received a code telegram saying that Changchun Feng Kuo Chang 馮國璋 will visit Shanghai on private business soon.\nThe minimum amount of a pledge in pawnshops which requires a stamp on the ticket has been reduced from $10.00 to $4.00. The pawnguild is not opposed to this. The new rule come into force from Chinese new year.\n\nYour Obedient Servant,\n\n[Signature]\n\nChief Detective Inspectors\n\nCaptain Superintendent.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2113/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": ". 1.0\n\n（印：上海工部局）\n警务处，\n（侦探科）\n\n刑事侦缉处\n情报官登记\n第 39 号\n案卷\n\n上海工部局。\n\n1918年2月12日\n\n先生：\n\n在1894年中日战争期间，浦东白龍港以北十里处，一个名为合慶鎮的地方曾有一座炮台。自上述战争结束以来，该炮台一直任其荒废。中央政府就此事收到呈文后，已指令重建该炮台。自收到这些指令以来，杨将军已派遣一队人员前往浦东勘察该地。\n\n据报，李海军上将此前奉召前往北京，现将启程赴日本。\n\n据报，杨将军收到一封密电，称冯國璋将因私事不久访问上海。\n\n当铺中需在票据上加盖印花的最低典当金额已从10.00元降至4.00元。典当业公会对此并不反对。新规定自中国新年起生效。\n\n您顺从的仆人，\n\n[签名]\n\n首席侦探督察长\n\n警司",
+   "zh_src": "1a75fcc1b6a98c5a"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2113/Reports%20Made%201916-1929%20-%20Huh%20Ching%20Tsung%20704.pdf>\n\n---\nShanuahai sthinicipal Counvil. \n\n\nFebruary 22th SOL \n\n\nPoitce Force, \n(Detective BRANCH) \n\n\nsir, \n\nDuring the Sino-Japanese war, in 1894 a fort existed \nat a plage named Huh Ching Tsung 2B ER in Pootung at a \npoint ten 1i to the nobth of Bah Loong’ Kong wW-%E i% \nSince the termination of the war referred to this fort \nhas been allowed to go to ruin. The Central Government, \nhkawing, been memorialised with reference to the matter, \nhas given instructions to have the fort rebuilt. Since \nthe receipt of these instructions, General Yang has sent \n@ party to Pootung to survey the pbace. \n\nIt is reported that Admiral Lee who some time ago \nwas requested to go to Peking, will proceed to Japan. \n\nIt is reported that General Yang has received a code \ntelegram saying that Gh&angchun Feng Kuo Chang ° &, (2) %; \n\n- will visit Shanghai on private business seon. \n\nThe minimm amount of a pledge in parmshops which \nrequires a stamp on the ticket has been reduced from \n$10.00 to $4.00. The pawnguild is not opposed to z \nthis. The new rule come into force from Chinese \nmew year. \n\n\nYour Obedient Servant, \no Fairy ‘ \nZe WW are ve A \non Chief Detective Inspectors \n\n\nGaptain Superintendent.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2713,
+  "ocr_out_tokens": 322,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:30:06",
+  "zh_in_tokens": 554,
+  "zh_out_tokens": 249,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

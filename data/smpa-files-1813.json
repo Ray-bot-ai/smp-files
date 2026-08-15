@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1813",
+ "title": "Intermidation Of Employes Of Seurr. Janner & Co. By Members Of Shai Ocean --- Aid Society",
+ "series": "",
+ "nara_file_no": "2736",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1813",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "877L·D·M - 7/300\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSpecial Br. Reg. OFFICE\nFILE NO. D. 7833.\nSUBJECT:\nIntimidation of employees of Messrs.\nTanner & Co. by members of S'hai\nOcean Steam Tallymen's Mutual\nAid Society.\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Transferred to | | D. 7448 |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1813/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "877L·D·M - 7/300\n上海公共租界工部局警务处\n交叉参考单\n特别科登记室\n档案编号：D. 7833\n事由：\n上海海洋轮船理货员互助会成员恐吓坦纳公司（Messrs. Tanner & Co.）雇员。\n\n| 详情 | 部门 | 档案编号 |\n| :--- | :--- | :--- |\n| 转至 | | D. 7448 |\n\n指示见背面",
+   "zh_src": "23d455a2be141d5b"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "Aid Society\"\nseries: unknown\nseries_years: \noriginal_reg_no: \nnara_file_no: 2736\nyears_in_ocr: []   # OCR 抽出，待核，日期是 OCR 最易错的字段\nia_url: https://archive.org/details/smpa-files-1813\npdf_url: https://archive.org/download/smpa-files-1813/Intermidation%20Of%20Employes%20Of%20Seurr.%20Janner%20%26amp%3B%20Co.%20By%20Members%20Of%20Shai%20Ocean%20---%20Aid%20Society%202736.pdf\nocr_reliability: low\n---\n\n> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1813/Intermidation%20Of%20Employes%20Of%20Seurr.%20Janner%20%26amp%3B%20Co.%20By%20Members%20Of%20Shai%20Ocean%20---%20Aid%20Society%202736.pdf>\n\n---\nFILE NOlNW fT Sexe \n\n\n/ SUBJECT: \nPe : 4 - \n\n\nOFFICE \n\n\neon ercce nw ccccc cen ercaccemas neveterens ecw reewccnnesennsenemeeeneeereceus cnnnnas comnaceccsas -cseecwererocecececelncsencnsacnacccneccesnenernaereslnwencraenacccecrs sucocersececeseoenas \n\n\neet canecccnnncnccee: cenee anc ccceneecne cece rencecerncnnaareaewenseeneanan seeeenasseenncnsnmaescrccememeeseseemeneeaien carrer ns sss: censnccrcomesacs leasnmsnewesacencacanoccsiaser ea \n\n\neee wae na cece scence eecsne raceme cess ec seer neccne ss ceennnarsnnenenensgaasscenenmnneereeeenaas sennsnoemessacss seccseetlenaes teanacnnnee seancenstoan esas eaccons encnasnrasscoenranseseee \n\n\nINSTRUCTIONS SEE OVER \n\n\nceweeccsceccneen ans can ncncccenetecnnenenmnennsnnenescannnehananenccracscenssernasannsenes mrmseneseeassenensessen eee weearasnaen swan smnasasesenecuses Weeseseseneees Rae een ee eeeeer",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2692,
+  "ocr_out_tokens": 133,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 15:59:05",
+  "zh_in_tokens": 365,
+  "zh_out_tokens": 122,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

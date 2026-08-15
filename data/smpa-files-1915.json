@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-1915",
+ "title": "Porter D. Dilley, American Newsreel Cameraman",
+ "series": "",
+ "nara_file_no": "2711",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-1915",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D 9129(c)",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1915/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "D 9129(c)",
+   "zh_src": "575d0c3fc9eb8529"
+  },
+  {
+   "n": 1,
+   "en": "F. 201 A\nG. 2000-5-38\n\n（印：CONFIDENTIAL）\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\n\nSp. Br. Registry...OFFICE\n\nFILE NO. D. 9131\n\nSUBJECT:\n\nPorter D. Dilley, American newsreel cameraman\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Transferred to | | D 8984(C) |\n| （印：CONFIDENTIAL DRAWER） | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| INSTRUCTIONS SEE OVER | | |",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1915/page/n1_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 2000-5-38\n\n（印：机密）\n\n上海公共租界工部局警务处\n交叉参考单\n\n特别处登记室……办公室\n\n档案编号 D. 9131\n\n事由：\n\n波特·D·迪利（Porter D. Dilley），美国新闻片摄影师\n\n| 详情 | 办公室 | 档案编号 |\n| :--- | :--- | :--- |\n| 转至 | | D 8984(C) |\n| （印：机密抽屉） | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| 指示见背面 | | |",
+   "zh_src": "8a1560a3f1f8808f"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1915/Porter%20D.%20Dilley%2C%20American%20Newsreel%20Cameraman%202711.pdf>\n\n---\nD ql 24«) \n\n\nwe \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \n\n\ntn R \nacest Renced \n\n\nko. Registry... OBBICE \n\n\nFILE NO.....2:..9151_ \n\n\nSUBJECT: \n\n\nPorter DBD. Dilley, American sewsreel cameraman \n\n\nPARTICULARS | OFFICE | FILE NO. \nD 8984(C) \n\n\nTransferred to",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5445,
+  "ocr_out_tokens": 198,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 16:31:38",
+  "zh_in_tokens": 437,
+  "zh_out_tokens": 206,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

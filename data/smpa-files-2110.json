@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2110",
+ "title": "Huang Hsin",
+ "series": "IO Files",
+ "nara_file_no": "152",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2110",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D.\nI. O. REU\nNo 765\nDate 16/12/26\nShanghai Municipal Council.\nDecember 15th 1916\n\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE.\n(DETECTIVE BRANCH)\n\nSir,\nA memorial service in honour of the late Generals\nHuang Hsin 黄兴 and Tsai Ao 蔡锷 was held in the\nSing Woo Tai 新舞台 theatre City at 1 p.m. on the\n14th inst. About 2000 persons were present.\nLiang Chi Chao 梁启超 Dan Zai Bing 谭延闿 Tsiang\nPah Chi 蒋百里 representing the Vice President and\nothers made speeches. It was proposed to erect and\nequip a public library as a permanent monument to\nGeneral Tsai Ao.\nThe delegates sent from Tientsin to stir up\npublic feeling in Shanghai against the French have\nagain requested the Chinese Press to start a newspaper\ncampaign and have again received an evasive reply.\nZee Kou Liang 徐国樑 the Chief of the City\nPolice accompanied by the City Police Band visited\nthe Szochow Guild on the 14th inst to pay his respects\nat the coffin of the late General Tsai Ao.\nYang Toheng 杨德晟 the Special Envoy for\nforeign affairs left for Peking by train this morning.\n\nYour Obedient Servant,\n\nDetective Sub Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2110/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "D.\nI. O. REU\n第 765 号\n日期 1926年12月16日\n\n上海工部局。\n1916年12月15日\n\n（印章：上海工部局）\n警务处。\n（侦探科）\n\n先生：\n\n为悼念已故将军黄兴与蔡锷而举行的追悼会，于本月14日下午1时在市内的新舞台戏院举行。出席者约两千人。\n\n梁启超、谭延闿、蒋百里（代表副总统及其他人士）发表了演说。会议提议建立并装备一座公共图书馆，作为对蔡锷将军的永久纪念。\n\n从天津派来煽动上海民众反法情绪的代表的再次请求中文报界发起报纸宣传运动，但再次得到含糊其辞的答复。\n\n本市警察局局长徐国樑偕同市警察局乐队，于本月14日前往苏州公所，向已故蔡锷将军的灵柩致祭。\n\n外交特派员杨德晟今晨乘火车前往北京。\n\n您顺从的仆人，\n\n侦探副督察。\n\n警务处处长。",
+   "zh_src": "bed03a784d094bc0"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2110/Reports%20Made%201916-1929%20-%20Huang%20Hsin%20152.pdf>\n\n---\nFee (el \n\n\nShanuabat thuaatripaa! ee \n\n\n5 eZ No..--+ \n\n\nDecember 15th € \nLAS \n\n\nPouce Force, \n(Derecive BRANCHY \n\n\nA ein oe oe service in hop: ef the late Generals \nHuang Hein Ye op- ae Teai Ao <¢%¥ fwae held in the \nsing Woo Set 4%, theatre Oeky — 1 Peme on the \nEt ga inst. <b ase persons sente \n\n\nonap' ~?xDan Za Bin ed D Tsaiang \nFab Oniyt Dv '€_representing the AL £ eident and \n\n\nothers de speeches. It was ciewicicuent to erect and \nequip a public library ae a permanent monument to \nGeneral Tsai Ao. \n\nThe delegates sent from Tientsin to stir up \npublis reeling in Shanghai inet the rrenoch have \nagain requested the Chinese ess to start a newspaper \ncampaign and have SE El \"fpene o an evasive reply. \n\ncy Zee Kou Liang ne 4% (2 the Ohief of the City \nh - POlisce accompanied ity Polise Band visited \neA the Szocheun Guild oan the 14th inst to pay his respects \né at the ooffin of the late General Tsai Ao. \nYang Toheng 7:7, 3 ‘the Special Fnvoy for \nroreign affairs left for Peking by train this mornirg’. \n\n\nYour Obedient Servant, \n\n\ni { (((€ Ua ldo ahh vig \n\n\nDetective Sub Inspector. \n\n\nCaptain Buperintendent of Police. \n\n\n2 me",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2758,
+  "ocr_out_tokens": 337,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:29:36",
+  "zh_in_tokens": 569,
+  "zh_out_tokens": 257,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

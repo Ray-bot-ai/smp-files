@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2016",
+ "title": "Chung Li Pah",
+ "series": "IO Files",
+ "nara_file_no": "15",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2016",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "484\n29/7/16\n\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL · JUNCTA · IN · UNO · POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nJuly 29th 1916\n\nSir,\n    A memorial service in honour of Chung Li Pah 黎德白\na Honan rebel, who was executed in his native province\non 7th February 1916, in the Honan Guild at 8 p.m.\n29th inst. There were about 100 people present\nincluding representatives of Sun Yat Sen and Huang Hsin.\nThere were no speeches made.\n    Through a clerical error it was stated in the\nreport of 28th inst that the cruiser Hai Yoong 海榮 had\nleft for Canton, whereas it was the cruiser Hai 海 which had left for that port.\n    Z □ □h Liang has issued orders to his subordinates\nto keep a sharp lookout for monarchical plotters, who\nare said to be in Shanghai and to arrest them when seen.\n    Wong Ling Voong 王鳴鳳 Chief staff officer of Deputy\nMilitary Governor Lu is reported to have absconded\nwith $3,000.00.\n\n                Your Obedient Servant,\n\n                mmmmuuushona\n\n                Chief Detective Inspector.\n\nCaptain Superintendent of Police.\n\n29\n7\nQ11",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2016/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "484\n29/7/16\n\n上海工部局。\n\n（印：上海工部局 · 合众为一 · 警务处）\n警务处，\n（侦探股）\n\n1916年7月29日\n\n先生：\n    今晚8时，在河南会馆为河南反叛分子黎德白（Chung Li Pah）举行追悼会，此人于1916年2月7日在其原籍省份被处决。约有100人出席，其中包括孙中山和黄兴的代表。会上未发表演讲。\n    由于文书错误，28日的报告中称巡洋舰“海荣”号已驶往广州，而实际驶往该港口的是巡洋舰“海”号。\n    Z □ □h Liang 已向其下属发布命令，严密监视据称在上海的君主制阴谋策划者，并一经发现即予逮捕。\n    据报，副督军卢的首席参谋官王鳴鳳（Wong Ling Voong）携款3,000.00美元潜逃。\n\n                您顺从的仆人，\n\n                mmmmuuushona\n\n                总探长。\n\n警察总监。\n\n29\n7\nQ11",
+   "zh_src": "76c685259397cb15"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2016/Reports%20Made%201916-1929%20-%20Chung%20Li%20Pah%2015.pdf>\n\n---\nShanghai Mlarircipal ia \n\n\nTuly B9th SO 8 \n\n\nPouce Force, \n(DetectivE BRANCH) \n\n\nat \n\n\nFa ea executed Ln his native provinse \n33. B36 Homan Guild at © pete \nADSat Le) BS S \n\nPeasiitatiaves of Sun Yat Son and Huans Hein. \n\n\nes f Fes 5 services in fonsw of Chimg bi Pah Fe tz iD \n\n\nWas \n\n\n3.erTr",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2710,
+  "ocr_out_tokens": 324,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:01:18",
+  "zh_in_tokens": 556,
+  "zh_out_tokens": 279,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

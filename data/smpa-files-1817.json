@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1817",
+ "title": "J. A. Thomas - Member Of S. V. C. Where Abouts",
+ "series": "",
+ "nara_file_no": "3600",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1817",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201 A\nG. 2000-8-37\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSpecial Branch Registry\nOFFICE\n\nFILE NO. D 8142\n\nSUBJECT:\nJ. F. Thomas - member of S.V.C. - & Thereabouts.\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Filed under | | D 8257/1 |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| INSTRUCTIONS SEE OVER | | |",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1817/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 2000-8-37\n\n上海公共租界工部局警务处\n互见索引卡\n特别股登记室\n办公室\n\n档案编号 D 8142\n\n主题：\nJ. F. Thomas——上海义勇队（S.V.C.）队员——及相关事宜。\n\n| 详情 | 办公室 | 档案编号 |\n| :--- | :--- | :--- |\n| 归档于 | | D 8257/1 |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| 指示见背面 | | |",
+   "zh_src": "5f9c912c53570e40"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1817/J.%20A.%20Thomas%20-%20Member%20Of%20S.%20V.%20C.%20Where%20Abouts%203600.pdf>\n\n---\nSHANGHAI MUNICIPAL POLICE \nCROSS-REFERENCE SLIP \nSfaccinl a ete Lgl \nFILE No.2 2/72 \nSUBJECT: \nfa saan + Pendens 4 BkEs ee Minky \nPARTICULARS OFFICE FILE NO. \ng \nj \ni \n\n\nINSTRUCTIONS SEE OVER \n\n\no PORO ROR wernnonnn Seecensccsnsososecsoncenereswenes ees reneeseeeseoeee nee 1o peeesene cecerennreceer ees neeee se | anenee: memenane sens neces nncena| ecmeeennen nescence cence csreseeneeeceee",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2734,
+  "ocr_out_tokens": 167,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 16:00:06",
+  "zh_in_tokens": 399,
+  "zh_out_tokens": 175,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

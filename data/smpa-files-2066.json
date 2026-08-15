@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2066",
+ "title": "Feng Kou Chang",
+ "series": "IO Files",
+ "nara_file_no": "30",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2066",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nI. O. REG\nNo. 297\nDat. 20/6/16\n\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nJune 19th 1916.\n\nSir,\nThe Chinese Telegraph Administration has received instructions from Peking to dispatch free of charge telegrams sent to President Li by the southern leaders concerning political affairs.\nChiangchun Feng Kou Chang 馮國璋 has sent a man to Shanghai to advise Li Ping Su 李平書 to proceed to Nanking.\nA detective named Van Sau roo 范少甫 who is employed by Generals Chang Hsun and Nyi Sz Tsung boarded and searched a boat belonging to a Pootung man named Loo Ts Ming 陸子明 near Lungwha on 17th inst. The boatmen raised an alarm to which the local police and soldiers responded. Van was arrested and taken to the Arsenal. When he was searched a letter was found in his possession showing that he had been planning with an Inspector of the City Police to rob a house in Jessfield.\nFour hundred and sixty soldiers left the Arsenal for Fokien on 17th inst by the cruiser \"Poh Eon\".\nIt is reported that twelve soldiers have deserted from Woosung.\nA revolver was stolen from the room of a police sergeant in the 4th district in Chapel on 18th inst.\n\nYour Obedient Servant,\n\n（签名）\nChief Detective Inspector.\n\n（签名）\nCaptain Superintendent of Police.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2066/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "刑事侦缉处\n情报官登记\n第 297 号\n日期：16/6/20\n\n上海工部局。\n\n（印：上海工部局）\n警务处，\n（侦探股）\n\n1916 年 6 月 19 日。\n\n先生：\n\n中国电报局已接到北京指令，对南方领袖就政治事务发给黎总统的电报免收费用予以拍发。\n\n冯国璋已派人前往上海，劝告李平书前往南京。\n\n受张勋将军和倪嗣冲将军雇用的名为范少甫 (Van Sau roo) 的侦探，于本月 17 日在龙华附近登船并搜查了一艘属于浦东人陆子明 (Loo Ts Ming) 的船只。船夫发出警报，当地警察和士兵随即赶到。范被捕并被带往兵工厂。经搜查，在其身上发现一封信件，显示他正与一名华界巡捕房的督察密谋抢劫极司菲尔路 (Jessfield) 的一处住宅。\n\n四百六十名士兵于本月 17 日乘“宝应”号巡洋舰离开兵工厂前往福建。\n\n据报，有十二名士兵从吴淞开小差。\n\n本月 18 日，一支左轮手枪在 Chapel 第四区一名警佐的房间内被盗。\n\n您顺从的仆人，\n\n（签名）\n总探长。\n\n（签名）\n警务处总监。",
+   "zh_src": "d7a16af6b7d03e34"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2066/Reports%20Made%201916-1929%20-%20Feng%20Kou%20Chang%2030.pdf>\n\n---\nVw _ POM oer MO i ele \n\n\nShanghai Mlanicipal Counrtl- \n\n\nJune 19th SOA Ge \n\n\nPouce Force, \n(DerectiveE BRANCH) \n\n\nSir, \n\nThe Chinese Telegraph Administration has received \ninstructions from Peking to aispatch free of charge \ntelegrams sent to President Li by the southern leaders \nconcerning political affairse ,. \n\nChiangchun Feng Kou Qhang by: 27) \nto Shanghai to advise Li Ping Su $x to proceed \n\n\nto Nanking. ie \nA aotective named Van Sau s00 ve J 4A wno is \n\n\nemployed by Generals Ohang Hsun and Nyi Sz Tsung \nboarded and searched a oat belonging to a Pootung \nman named Loo Ts Ming %7}jnear Lungwha on 17th inst. \nThe boatmen raised an alarm to which the local \n\n. : police and soldiers respondede Van was arrested \n\n\n5 ¢™ \nPi PA and taken to the Arsenal. When he was searched \nee a letter was found in his possession shpwring that \n\" he had been planning with an Inspector of the City \n\n\nPolice to rob a house in Jessfielda. \nFour hundred and sixty soldiers left the Arsenal \n\n\nfor Fokion on 17th inst by the cruiser \"koh Eon\". \nIt is reported that twelve soldiers have deserted \nfrom Woosungs \nA revolver \nsergeant in the \n\n\nwas stolen from the room of 2 polics \n4th district in Chapei on 18th inste \n\n\nYour Obedient Servants, \n\n\nae bw whe lrwica \n\n\neo \nfor ‘V/A \nWe } Chief Detective Inspector. \n\n\nVanes rors src NMI aHiEat Pei Cees Laie A eo Maemo \n\n\n172 VRPT AE RANA BRE BBN EY",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2714,
+  "ocr_out_tokens": 352,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:16:25",
+  "zh_in_tokens": 584,
+  "zh_out_tokens": 328,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

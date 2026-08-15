@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1719",
+ "title": "W. G. Wallace, Di Papps Reports Re Activiti",
+ "series": "D Files",
+ "nara_file_no": "3059",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1719",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201 A\nG. 2000-5-38\n\nSHANGHAI MUNICIPAL POLICE\n\nCROSS-REFERENCE SLIP\n\nSp. Br. Registry OFFICE\n\nFILE NO. D. 8852 (C.)\n\nSUBJECT:\n\nW. G. WALLACE.\nD. I. Papp's reports re activities.\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Transferred to Crime Branch File | Cr. Regy. | E. 612. |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1719/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 2000-5-38\n\n上海公共租界工部局警务处\n\n互见单\n\n特别处登记室\n\n档案号 D. 8852 (C.)\n\n事由：\n\nW. G. WALLACE。\nD. I. Papp 关于其活动的报告。\n\n| 详情 | 部门 | 档案号 |\n| :--- | :--- | :--- |\n| 转至刑事处档案 | 刑事登记室 | E. 612. |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n\n指示见背面",
+   "zh_src": "e9ba90a9140e2460"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1719/W.%20G.%20Wallace%2C%20Di%20Papps%20Reports%20Re%20Activiti%203059.pdf>\n\n---\nane SOTA. \nG. 2000-5-38 \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\nTronsferred to Crime \n\n\nCROSS-REFERENCE SLIP \nSpe2ha. REcishry... OFFICE \nFILE NO...D...8852.(.C.)........- \nSUBJECT: \nW. Gs. WALLACE. \nre activities. \n\n\nDe Ie Parp's revorts \nOFFICE FILE NO. \n\n\nPARTICULARS \n\n\nBranch File |",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2715,
+  "ocr_out_tokens": 183,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 15:25:26",
+  "zh_in_tokens": 415,
+  "zh_out_tokens": 182,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

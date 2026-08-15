@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2127",
+ "title": "K. Hatakeyama",
+ "series": "IO Files",
+ "nara_file_no": "439",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2127",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D\n313\n675/16\n\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH.)\n\nMay 3rd 191 6.\n\nSir,\nAt 10 a.m. 2nd instant a Cantonese dressed in foreign clothes was arrested near the Shanghai Hangchow Railway Station on suspicion of being a rebel spy.\nIt is reported that General Lu of Woosung having received information that his gunners are disloyal has removed the breach blocks from some of the guns and has taken them to his headquarters.\nNormal conditions prevail in Jusieh. The Nanking troops have left the Chi Ta hotel.\nThe Japanese whose arrest by the Arsenal Authorities was referred to in yesterday's report is named K.Hatakeyama. He was handed over on 1st instant to the Japanese Authorities who sent him to Japan on 2nd instant by the s.s. Yamashiro Maru. Hatakeyama came to Shanghai about a week ago. Since his arrival he has been staying in a Japanese lodging house at No.43 Seward Road. He had no employment. It is now reported that he had only one revolver in his possession when arrested, and that he was alone. The Japanese Consular Authorities say that Hatakeyama lost his way and wandered into Chinese territory.\n\nYour Obedient Servant,\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2127/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "刑事侦缉处\n313\n675/16\n\n上海工部局。\n\n（印：上海工部局警务处）\n警务处，\n（侦探科。）\n\n1916年5月3日。\n\n先生：\n\n本月2日上午10时，一名身穿西式服装的广东男子在上海杭州火车站附近因涉嫌为叛军间谍而被捕。\n\n据悉，吴淞的卢将军因获悉其炮手不忠，已卸下部分火炮的炮闩，并将其移至其司令部。\n\n闸北局势正常。南京部队已撤离吉大旅馆。\n\n昨日报告中提及的由兵工厂当局逮捕的日本人，姓名为K. Hatakeyama（音译）。他已于本月1日被移交给日本当局，后者于本月2日通过“山城丸”号轮船将其遣送回国。Hatakeyama约于一周前抵达上海。自抵沪以来，他一直居住在西华德路43号的一家日式寄宿寓所内。他并无职业。现据报告，他被捕时仅持有一支左轮手枪，且当时独自一人。日本领事当局称，Hatakeyama系迷路后误入华界。\n\n您顺从的仆人，\n\n总探长。\n\n警务处总监。",
+   "zh_src": "9a131f5b54a2bbdf"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2127/Reports%20Made%201916-1929%20-%20K.%20Hatakeyama%20439.pdf>\n\n---\nhe ee See ura “ae \n\n\n| \n\n\na rr er rer re nr I te na 8 2 te te ore martian se eee \n\n\nPouce Force, \n(Derective Brancn) \n\n\nLIBIE. \n\n\nShanghai Municipal Counril, \n\n\nSir, \n\nAt 10 aeme 2nd instant a Cantonese dressed in \nforeign clothes was arrested near the Shanghai Hangchow \nRailway Station on suspicion of being a rebel spye \n\nit is reported that General Lu of Woosung having \nreceived information tliat his gunners are disloyal \nhas removed the breach blocks from some of the \nSuns and has taken them to his headquarterse \n\nNormal conditions prevail in -fusich. The \nNanking troops have left the Chi Ta hotel. \n\nThe Japanese whose arrest by the Arsenal \nAutnorities was referred to in yesterday's report \nis name@ K.Hatakéyamae. He was handed over on ist \ninstant to the Japanese Authorities who sent him \nto Japan on 2nd instant by the sese Yamashiro \niiarue. Hatakeyama came to Snanghai about a week \naBEgO~e Since his”’arrival he has been staying in \na@ Japanese lodsing house at No.43 Seward Roade \nHe had no employment. It is now revortec that he had \nonly one revolver in his possession when arrosted, \nand that he was alone. The Japanese Consular \nAuthorities say that Hatakeyama lost his way and \nwandered tnto Chinese territory. \n\n\nYour Obedient Servant, \n\n\n; | Wannrwliinsteeeg \n\n\nChief Detective Inspector. \n\n\nCaptain Superintendent of rolice.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2698,
+  "ocr_out_tokens": 318,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:37:03",
+  "zh_in_tokens": 550,
+  "zh_out_tokens": 274,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

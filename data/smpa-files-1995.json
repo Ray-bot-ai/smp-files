@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1995",
+ "title": "Chen Chi Mei",
+ "series": "IO Files",
+ "nara_file_no": "617",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1995",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "No\nF. O. REG\nNo 249\nDate 13/4/16.\nShanghai Municipal Council.\n12th April 1916-\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE.\n(DETECTIVE BRANCH.)\n\nSir,\nTwenty five Chinese revolutionaries have arrived here from Japan during the last week. They were accompanied by twenty three Japanese. They intend to take steps to forment an insurrection at Shanghai and are endeavouring as a preliminary to arm all the members of Chen Chi Mei's 陳其美 party pistols amd revolvers. One of the number who is known as Liu Tsang 劉璋 (probably not his real name) is a man who owns about twenty mines of various kinds in Central China and who has also about ninety mow of land in Nanking. On this property he is endeavouring to raise a sum of money sufficiently large to buy over the troops of the Shanghai garrison. It is reported that he has offered the mortgage to certain Japanese firms who are considering the proposition but who have not given him any definite answer up to the present.\nX Chen Chi Mei 陳其美, it is stated, inhabits the upstairs room of a house in the French Concession. He remains indoors all the time but receives trusted visitors who are arranging that he shall be reinstated in the position which he occupied between 1911 and 1913 as Tutuh of Shanghai.\n\nYour Obedient Servant,\nMcMurchustine\nChief Detective Inspector.\n\nEntered on\nM.S. Apr 12 X\nSeen by C.S.P.\nCopy sent to\nS.V.C.\nCm\nCaptain Superintendent of Police.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1995/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "编号\n外交部登记号\n第 249 号\n日期 1916年4月13日。\n上海工部局。\n1916年4月12日-\n（印章：上海工部局警务处）\n警务处。\n（侦探股。）\n\n先生，\n上周有二十五名中国革命党人从日本抵达此处。他们由二十三名日本人陪同。他们意图采取措施在上海煽动叛乱，并正作为初步行动，试图为陈其美党派的所有成员配备手枪和左轮手枪。其中一名被称为刘璋（Liu Tsang，可能并非其真名）的人，是在华中地区拥有约二十处各类矿山的业主，并在南京拥有约九十亩土地。他正试图以这些财产筹措巨额资金，用以收买上海驻军部队。据报，他已向某些日本商号提出抵押借款，这些商号正在考虑该提议，但截至目前尚未给予其明确答复。\n据称，陈其美（Chen Chi Mei）现居于法租界内一处房屋的楼上房间。他终日闭门不出，但会接见亲信访客，这些人正安排让他复任其在1911年至1913年间所担任的上海都督之职。\n\n您顺从的仆人，\n麦克默查斯汀（McMurchustine）\n总探长。\n\n录入于\nM.S. 4月12日 X\n警务处长阅毕。\n副本发送至\nS.V.C.\nCm\n警务处处长",
+   "zh_src": "5b26907e15c8c054"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1995/Reports%20Made%201916-1929%20-%20Chen%20Chi%20Mei%20617.pdf>\n\n---\nwete mer \n\n\n‘ zs ; X= Oo. REG \n\n\nShanghai Manicipal Council. \n\n\n12th April CGB \n\n\nH \nPouce Force, \n(Detective BRANCH.) \nSir, \nTventy five Chinese revolutionaries have arrived \nhere from Japan during the last week. They were accompanied \nby twenty three Japanese. They intend to take steps \nto forment an insurrection at Shanghai and are \nendeavouring as a preliminary to arm all the members \nof Chen Ghi Mei's p#H X party pistols amd revolyers. \nOne of the number who is kmown as Liu Tsang Sy t \n(probably not his real names is a man who owns about \ntwenty mines of various kinds in Gentral Ohina and \nwho has also about ninety mow of land in Nanking. \ni, f On this property ko is endeavouring to raise a sum \nase of money sufficiently large to buy over the troops \nq of the Shanghai garrison. It is reported that he j \n| has offered the mortgu.ge to certain Japanese firms \nwho are considering the proposition but who have \ni not given him any definite answer up to the present. \ni x Chen Chi Mei fFRAR it is stated, inhabits \nthe upstairs wGom o holtse.in the French Concession. \nHe remains indoors all the time but receives trusted \nvisitors who are arranging that he shall be \n, a on reinstated in the pesition which he occupied between \n1911 and 1913 as Tutuh of Shanghai. | \n\n\nMei. AAt-/ 2. \nwe Your Obedient Servant, \n(eta, bx, OCF Whi YoMa \nLepflez saciid 26 Chief stective Inspector. \nSve \nan \n\n\nCaptain Superintendent of Police.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2698,
+  "ocr_out_tokens": 371,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 16:52:41",
+  "zh_in_tokens": 603,
+  "zh_out_tokens": 334,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

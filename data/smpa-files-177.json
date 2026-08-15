@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-177",
+ "title": "David Dohse",
+ "series": "",
+ "nara_file_no": "3078",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-177",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "FORM No. S. 3.\nG. 50008.34\n\nSHANGHAI MUNICIPAL POLICE\nS. 3, Special Branch.\nREPORT\n\nFile No. MUNICIPAL POLICE\nS. B. REG. S.\n7486\nDate July 8, 1936.\n\nSubject (in full) David Dohse\n\nIssue by C.A. Cook Forwarded by D.S. Lees\n\nSir,\n\nI beg to report that the German named David Dohse,\nwho fled from Shanghai some ten years ago, having been\nimplicated in defrauding certain fire insurance companies, has\nreturned to Shanghai and has been recognized by several who\nknow him.\n\nDohse's brother is acting chief of the local\nNazis organization pro tem until the return of Ishmann.\n\nJohn Hoer\nClerical Assistant.\n\nOfficer i/c Special Branch.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-177/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "表格编号 S. 3.\nG. 50008.34\n\n上海公共租界工部局警务处\nS. 3，特别股。\n报告\n\n档案编号 警务处\n特别股登记册 S.\n7486\n日期 1936年7月8日。\n\n事由（全称） 大卫·多斯（David Dohse）\n\n由 C.A. Cook 签发 经 D.S. Lees 转呈\n\n先生：\n\n谨此报告，德国人大卫·多斯（David Dohse）约十年前因牵涉诈骗多家火灾保险公司而逃离上海，现已返回上海，并被数名认识他的人认出。\n\n多斯的兄弟在伊什曼（Ishmann）（音译）回来之前，暂时代理当地纳粹组织的首领职务。\n\n约翰·霍尔（John Hoer）\n文书助理。\n\n特别股主管警官。",
+   "zh_src": "6ed3d3a5e438af4d"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-177/David%20Dohse%203078.pdf>\n\n---\nREPORT er _ &ak \n\n\nSubject (in full).............D@VA@ Dohse sist \n\n\n“TFuae by Gabe COM Forwarded by. Ca g. ge \n| sir, \n\n\nI = toe to report that the German named Bho _Dohse, \n\n\n_who fled from Shanghai some ten years agos wavdng: 1 been_ \n\n\n_implicated in defrauding certain fire insurance natiueainels has \n\n\nreturned to Shanghai and has been recognized by several who _ \n_know him. \n\n\n_Dehse's brother is acting chief of the local __. \n\n\nNazis organization pro tem until the return of Lmhrmann, \n\n\naoe $$ —____-— \n\n3 \n\n4 — ee \nH \n\nareas \n\n| \n\ni] \n\ni \n\n\nOfficer afc | Special Branche \n\n\n- \nne tt IR a -_—-- - ~ oe : \n“~« . : .- \n\n\n—_ bet 2 ES ‘cutlit . xf R ‘ i \n\n\na a eT Nae eT \n\n\nMidine stig! MOO at eens Thess",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2744,
+  "ocr_out_tokens": 197,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 15:42:42",
+  "zh_in_tokens": 429,
+  "zh_out_tokens": 203,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

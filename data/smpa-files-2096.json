@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2096",
+ "title": "Han Hwe",
+ "series": "IO Files",
+ "nara_file_no": "80",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2096",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "No\nC. I. D.\nI. O. REG\nNo. 586\nDate 19-9-16\nShanghai Municipal Council.\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH.)\nSeptember 18th 1916.\n\nSir,\nIt is reported that a number of dissatisfied rebels visited the house of Han Hwe 韩恢 on the 16th and 17th inst and made trouble there. They said that even if they received repatriation money they would use it to buy pistols to shoot him. As a result Han Hwe's house is now guarded by the French Police.\nAbout 500 skilled mechanics were examined on the 17th inst at the workshops of Nicholas Tsu, Chinese Bund, for work in France. Two hundred passed successfully and they will be despatched about the end of the month. They are to receive 100 francs per month. They passed a medical examination and each successful candidate underwent an operation on the shoulder which may have been inoculation against disease.\nIt is reported that the Chapei Police have completed their inquiries re. the gambling on North Honan Road and have reported the matter to Yang Tcheng who has been requested to invite the cooperation of the Municipal Police.\nThe Chief of the Chinese Police has attended a meeting of prominent residents at which it was decided to hold a benefit performance in the Sing Woo Dae theatre 新舞台 City on the 25th inst. The proceeds will go to the families of the policemen killed by robbers at Sicawei last month.\n\nYour Obedient Servant,\nmmmm Armstrong\nChief Detective Inspector.\n\n（批：18/9）\n（签：Q...）\nCaptain Superintendent of Police.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2096/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "编号\n刑事侦缉处\n情报官登记簿\n第 586 号\n日期 19-9-16\n上海工部局。\n（印章：上海工部局警务处）\n警务处，\n（侦探科。）\n1916年9月18日。\n\n先生：\n\n据报，本月16日及17日，数名不满的叛乱分子前往韩恢（Han Hwe）寓所滋事。他们声称，即便获得遣返费，也将用于购买手枪将其射杀。因此，韩恢的寓所目前由法国巡捕房派员守卫。\n\n本月17日，约500名熟练技工在外滩尼古拉斯·朱（Nicholas Tsu，音译）的工场接受赴法工作甄选。其中200人顺利通过，预计将于月底派遣。他们的月薪为100法郎。这些人通过了体检，每位获选者均接受了肩部手术，这可能是针对疾病的预防接种。\n\n据报，闸北巡捕房已完成关于北河南路赌博案的调查，并将此事报告给杨澄（Yang Tcheng，音译），已请其邀请工部局警务处予以配合。\n\n华界警局局长出席了一次知名居民会议，会上决定于本月25日在新舞台戏院举行义演。所得款项将捐给上月在徐家汇被匪徒杀害的警员家属。\n\n您忠实的仆人，\nmmmm 阿姆斯特朗\n首席探长\n\n（批注：18/9）\n（签名：Q...）\n警务处总监",
+   "zh_src": "491d2737442b6549"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2096/Reports%20Made%201916-1929%20-%20Han%20Hwe%2080.pdf>\n\n---\n(Detrective Brancn,) \n\n\n(Lal. \n\n\n—__ \n\n\nm2 \naa \n\n\nDae 9.2 Oey Shanghai Municipal Connvil. \n\n\nSeptember 18th \n\n\nne BOF \n\n\nsir, \n\nIt is reported that a number of dissatisfied rebels \nvisited the house of Han Hwe #4 j/Kon the 1$th and 17th \ninst and made trouble theree y said that even \nif they received repatriation money they would use it \nto buy pistols to shoot him. As a result Han Hwe’s \nhouse is now guarded by the French Police. \n\nAbout 500 skilled mechanics were examined \non the 17th inst at the workshops of Nicholas Tsu, \nChinese Bund, for work in Francee Two hundred passed \nsuccessfully and they will be despatched about the \nend of the month. They are to receive 100 francs \nper monthe They passed a medical examination and \neach successful candidate underwent an operation on \nate shoulder which may have been inoculation against \n\nCABsee \n\nIt is reported that the Chapei Police have completed \ntheir inquiries re- the gambling on North Honan Road \nand have reported the matter to Yang Tcheng who has \nbeen requested to invite the cooperation of the \nMunicipal Police. \n\nThe Chief of the Chinese Police has attended \n& meeting of prominent residents at which it was \nadecided to hold a benefit performance in the Sing Woo \nDace theatre #7 A 2City on the 25th inst. The \nProceeds will %o the families of the policemen \nkilled by robbers at Sicawei last monthe \n\n\nYour Obedient Servant, \n\n\n& bya. Cirwtlirng \n\n\nOhief Detective Inspector. \n\n\nCaptain Superintendert of Police.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2698,
+  "ocr_out_tokens": 392,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:26:10",
+  "zh_in_tokens": 624,
+  "zh_out_tokens": 344,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

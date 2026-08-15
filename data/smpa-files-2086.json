@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2086",
+ "title": "General Yang",
+ "series": "IO Files",
+ "nara_file_no": "626",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2086",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C: I. D.\nI. O. REG\nNo. 226\nDate 4/4/16...\n\nShanghai Municipal Council.\n\nApril 4th 1916\n\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE,\n(DETECTIVE BRANCH.)\n\nSir,\nIt is reported that the rebels held a meeting\nat No.32 Admiral Bayle on the evening of 3rd instant\nwhen they decided to remain quiescent for the present.\nThe Chapel Military Authorities had field guns\nposted at strategic points last night.\nIt is reported that the 13th Regiment which is\nstationed in Woosung and Chapei is under orders to\nstart for Canton. This regiment is 1,200 strong.\nIt is reported that General Yang visited\nNanking yesterday for the purpose of consulting with\nChiangchun Feng with a view to declaring independence.\nIt is reported that nine men of the 38th regiment\nat the Arsenal were shot on 3rd instant for disclosing\nmilitary secrets to the rebels.\n\nYour Obedient Servant,\n\n（签名）\nChief Detective Inspector.\n\n（签名）\nCaptain Superintendent of Police.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2086/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "C: I. D.\nI. O. REG\n第 226 号\n日期 1916年4月4日...\n\n上海工部局。\n\n1916年4月4日\n\n（印：上海工部局）\n警务处，\n（侦探科。）\n\n先生：\n\n据报，叛军于本月3日晚在百乐路32号举行会议，会上决定暂时保持静默。\n\n法租界军事当局昨晚已在各战略要地部署野战炮。\n\n据报，驻防吴淞和闸北的第13团已奉命开赴广东。该团兵力为1,200人。\n\n据报，杨将军昨日前往南京，旨在与蒋尊簋（Chiangchun Feng，音译）商议，以期宣布独立。\n\n据报，兵工厂第38团的九名士兵因向叛军泄露军事机密，于本月3日被枪决。\n\n您顺从的仆人，\n\n（签名）\n总探长。\n\n（签名）\n警务处总监。",
+   "zh_src": "ff1cf2588b8e485e"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2086/Reports%20Made%201916-1929%20-%20General%20Yang%20626.pdf>\n\n---\nPouce Force, \n(Detective Brancw) \n\n\nSir, \nIt is reported that the rebels hela a meeting \n\n\nat No.32 Admiral Bayle on the evening cf Srd instant \nwhen they decided to remain quiescent for sghe present. \n| The Chapei Uilitary Authorities had field guns \nposted at strategic points last night. \nIt is reported that the 13th Regiment which is \nstationed in Woosung and Chapei is under orders to \n\n\nStart for Canton. This regiment is 1,200 strong. \nIt is reported that General Yang visited \nNanking yesterday for the purpose of consulting with \nChiangchun Fens with a view to declaring independence. \nIt is reported that nine men of the 38th regiment \nat the Arsenal were shot on Srd instant for disclosing \n\n\nmilitary secrets to the rebols. \n\n\nYour Obedient Servant, \n\n\nWinAll \n\n\nChief Detective Inspector. \n\n\nCaptain Superintendent of Police.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2722,
+  "ocr_out_tokens": 267,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:21:54",
+  "zh_in_tokens": 499,
+  "zh_out_tokens": 240,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

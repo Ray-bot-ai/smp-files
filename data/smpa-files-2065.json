@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2065",
+ "title": "Feng Kou Chang",
+ "series": "IO Files",
+ "nara_file_no": "9",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2065",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "499\n499 6/8/16\nShanghai Municipal Council.\nAugust 4th 1916\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nSir,\n\nYesterday General Yang received a telegram from\nChianchun Feng Kou Chang 馮國璋 saying that the\nlatter had received telegraphic information from\nHuang Hsin that serious trouble would take place\nin Shanghai within the next three days.\nGeneral Yang had the telegram taken to Huang\nHsin who denied having sent any such message.\nThe Lungwha officials now suspect that some\nof the pro-Manchu party in Shanghai sent the\ntelegram in Huang Hsin's name. In consequence of\nthe information, General Yang instructed the men\nunder his command to take special precautions\nlast night.\nIt is reported that a number of disbanded\nsoldiers who are natives of Shantung have come\nlately to Shanghai in the hope of finding employment.\nAdmiral Sah Tsung Ping arrived by train\nlast evening from the Capital.\n\nYour Obedient Servant,\n\n[Signature]\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\n[Signature] [Signature] 4/8/16.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2065/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "499\n499 16/8/6\n上海工部局。\n1916年8月4日\n（印：SHANGHAI MUNICIPAL COUNCIL）\n警务处，\n（侦探股）\n\n先生：\n\n昨日，杨将军收到来自冯国璋（Chianchun Feng Kou Chang）的电报，称后者从黄兴处收到电报信息，获悉未来三天内上海将发生严重骚乱。\n杨将军将该电报拿给黄兴看，黄兴否认曾发出此类消息。\n龙华当局现在怀疑，是上海部分亲满派人士以黄兴的名义发送了该电报。鉴于此情报，杨将军已指令其部下于昨晚采取特别预防措施。\n据报，近期有一批籍贯为山东的退伍士兵来到上海，希望寻找工作。\n萨镇冰海军上将昨晚乘火车从京城抵达。\n\n您的顺从仆人，\n\n[签名]\n\n总探长。\n\n警务处巡官。\n\n[签名] [签名] 16/8/4。",
+   "zh_src": "19a1f4b6889e7990"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2065/Reports%20Made%201916-1929%20-%20Feng%20Kou%20Chang%209.pdf>\n\n---\nwe | ALT | “OC ie \n\n\nShanghai Manicipal Conunril. \n\n\nPouce Force, \n(DETECTIVE Brancy) \n\n\nSirs \n\n\nal Yorterca, Gonoral Yang r-coeived a tolcorram from \n\nOhianrchun wun Kou Chars +z [) t® sayinne that tho \n\nlattor -cived tolvcrrnarhic Unfornmation from \n\nHvinuig Hein that acriours tro@biec would tenho place \n\neln. Shanehai within the rp xt thr oc dnayae \n\nGer.cral Yu: lind tho tolesram tak to Huns \n\nHsin Bcd liaving sent any such mossrgoe \n\nme ¥ re Soli aga Sinls now suspect thnt sone \n\nor tho prog. peer party i211 css eda sont \ntol onram in Hunans Hein? < oi ° Tr. conseq \nthe i:fornation, Gonoral Yane ise truscto® \nundor iia cormand to tax specinl precauti \nlast nicht \n\n\ntoa muiber cf dinbandod \n\nof Srantwig Dare co: \n\n! ie Tepe of Piwding eee morte \nBung \"Pi: 1g arrived wy brad \n\ntho Capital. \n\n\nYour %WMedle:nt Servant, \n\n\nIVTTITTNTO Cees Uae) \n\n\nChic® Betectirve Tnepcetore \n\n\nCuptain Superinton \n\n\nAurust (4tn SOS 6 \n\n\nwor",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2689,
+  "ocr_out_tokens": 275,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:16:14",
+  "zh_in_tokens": 507,
+  "zh_out_tokens": 235,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

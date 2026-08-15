@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2112",
+ "title": "Huang Hsing",
+ "series": "IO Files",
+ "nara_file_no": "186",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2112",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "699/116\nShanghai Municipal Council.\nNovember 4th 191\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE (DETECTIVE BRANCH)）\nSir,\nIt is reported that the mother and widow of Huang Hsing are coming from Japan and that the French Police have given permission to have the coffin kept in his house until their arrival.\nIt is reported that the Chinese Chamber of Commerce here has written a letter to the French Municipal Council exhorting them to use their influence to bring about a peaceful solution of the Tientsin incident. The letter promises that the prominent merchants would use their influence to prevent a boycott of French goods.\nSome time ago the rebel leaders here decided to entertain the French Consul and other officials in Frenchtown to a farewell party as a token of gratitude for the protection of the French Authorities during the past five years. This function has been postponed until the Laoushikai incident has been peacefully settled.\nYour Obedient Servant,\nDetective Sub Inspector.\nCaptain Superintendent of Police.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2112/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "699/116\n上海工部局。\n191 年 11 月 4 日\n（印：上海工部局警务处（侦探股））\n\n先生：\n\n据报，黄兴之母及其遗孀正从日本前来，法国巡捕房已许可将其灵柩停放在其寓所内，直至她们抵达。\n\n据报，本地华商总会已致函法国公董局，促请该局运用其影响力，促成天津事件的和平解决。信中承诺，知名商人将运用其影响力，防止发生抵制法货之举。\n\n前些时候，本地的反叛领袖们决定在法租界宴请法国领事及其他官员，举行告别宴会，以感谢法国当局在过去五年中提供的保护。该活动已推迟，待老西开事件和平解决后再行举办。\n\n您顺从的仆人，\n副探长\n警司",
+   "zh_src": "05cd899da89f6c05"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2112/Reports%20Made%201916-1929%20-%20Huang%20Hsing%20186.pdf>\n\n---\nLAS : a °C ale \n\n\nShanabai #Municipal Couneil. \n\n\nNovember 4th VASE \n\n\nPouce Force, \n(Detective BRANCH) \n\n\nSir, \nIt is reported that the mother and-widow of Huang \nHsing are coming from Japan and that the French Police \nhave given permission to have the coffin kept in his \nhouse until their arrival. \nIt is reported that the Ohinese Charber of \nCommerce herew has written a letter to the srench \nMunicipal Council exhorting them to use their influence \nto bring about a peaceful solution of the Tientsin \nincident. The letter promiseg that the prominent \nmerchants would use their influence to prevent a \nboycott of French goodea. \n5 Some time ago the rebel leaders here cdecided \n‘, to entertain tho rrench Consul and other officials \n\\ in srrenchtown to a farewell party as a token of \ngratitude for tho protection of the French Authorities \nduring the past five years. This function has been \npostponed until the Laoushikai incident has been > on Matas \n\n\npeacefully settled. “1 mHe4% tur ~F A 22% om \nGL KGS - gis ake A ee , ia Se “ - - Ce ae es sd \na : Your Obedient Servant, \nA 22 ae 7 \ne& Detective Sub Inspector. \n\n\nP f \nfi eh \nt \n\n\nCaptain Superintendent of Police. \n\n\nte Bae ee \n\n\nLb \n\n\n2180N \n\n\nRTI Bp bOI! fe \n\n\n800 Rav Bw eer OK",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2752,
+  "ocr_out_tokens": 225,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:29:55",
+  "zh_in_tokens": 457,
+  "zh_out_tokens": 200,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

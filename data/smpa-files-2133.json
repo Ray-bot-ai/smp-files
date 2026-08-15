@@ -1,0 +1,55 @@
+{
+ "ia_id": "smpa-files-2133",
+ "title": "Koh Ming Tong Society",
+ "series": "IO Files",
+ "nara_file_no": "127",
+ "pages": 3,
+ "ia_url": "https://archive.org/details/smpa-files-2133",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "1.0557",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2133/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "1.0557",
+   "zh_src": "4e944c897c5507e5"
+  },
+  {
+   "n": 1,
+   "en": "No.\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nShanghai Municipal Council.\n\n6th August 1916.\n\nC. : D\nI. O. REG\nNo. 557\nDate 6.9.16\n\nSir,\n\nThe attached is the copy of a circular\nwith translation thereof issued by a\nKoh Ming Tong Society which has established\nitself at No. 155 Avenue Joffre.\n\nYour obedient servant,\n\nmmamunshui\nChief Detective Inspector.\n\nk\n6/9\nCaptain Superintendent of Police.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2133/page/n1_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "编号：\n（印章：上海工部局）\n警务处，\n（侦探股）\n\n上海工部局。\n\n1916年8月6日。\n\n抄送：D\n登记号：557\n日期：1916年9月6日\n\n先生：\n\n随函附上由设在霞飞路155号的“孔孟堂”（Koh Ming Tong Society）所发布的一份通告及其译文的副本。\n\n您忠实的仆人，\n\nmmamunshui\n首席侦探督察长。\n\nk\n9月6日\n警察总监",
+   "zh_src": "28ed2532263e2af1"
+  },
+  {
+   "n": 2,
+   "en": "IDENTIFICATION FORM OF A MEMBER OF THE SOCIETY\nFOR THE FUTURE WELFARE OF THE KOH MING TUNGS\nIN SHANGHAI.\n\nName.\n\nAge\nNative province District\nFirst step in an official career\nOfficial position\nPresent address No. Alleyway Road Territory\nShanghai.\n\nCareer.\n\nWhat official position during Manchu Regime\nWhat official position during 1st year of Republic\nWhat official position during 2nd year of Republic\nWhy resigned\nWhat occupation after resignation\n\nIntroduced by\n\nName address sealed\n\" \" \"\n\nRemarks.\n\nDate Month year of Republic.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2133/page/n2_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "上海孔孟堂（Koh Ming Tungs）会员身份登记表\n\n姓名。\n\n年龄\n籍贯 省 区\n仕途起点\n官职\n现住址 号 弄 路 区域\n上海。\n\n履历。\n\n清朝时期担任何种官职\n民国元年担任何种官职\n民国二年担任何种官职\n因何辞职\n辞职后从事何种职业\n\n介绍人\n\n姓名 地址 盖章\n\" \" \"\n\n备注。\n\n民国 年 月 日",
+   "zh_src": "5cd1757c706afc63"
+  }
+ ],
+ "pages_done": 3,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2133/Reports%20Made%201916-1929%20-%20Koh%20Ming%20Tong%20Society%20127.pdf>\n\n---\n1 7 Shanghai Municipal Counvil. \n\n\n6th August .§..-—s- fG/ 7':~ 6. \n\n\n(Detective BRANCH) \n\n\nsir, \n\nThe attached is the copy of a circular \nwith translation thereof issued by a \nKoh Ming Tong Socisty which has established \nitself at Ng. 155 Averme Joffre. \n\n\nYour obedient eecrvant, \n\n\nwe WM anntmnnd borg \n\n\né Ghietr Detective Inspector. \n\n\nCaptain Superintendent of Police. \n\n\nIDENTIFICATION FORM OF A MEMBER OF THE SOCIETY \n\n\nFOR THE FUTURE WELFARE OF THE KOH MING TONGS \n\n\nIN SHANGHAT. \n\n\nAge \n\nBative province District \n\nVirst step in an official career \n\nOrficial position \n\nPres@@t address Noe Alleyway Road \nShanghai « \n\n\nGarecere \n\n\nWhat offcial position during Manchu Regime \n\nWhat official position during 1st year of Republic \nWhat official position during 2nd year of Republic \nWhy resigned \n\nWhat occupation after resignation \n\n\nIntroduced by \n\n\nVame ataeeus sealed \ne e e \nRemarks. \n\n\nTerritory \n\n\nDate Month year of Republic.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 8132,
+  "ocr_out_tokens": 279,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:38:44",
+  "zh_in_tokens": 525,
+  "zh_out_tokens": 260,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 3
+}

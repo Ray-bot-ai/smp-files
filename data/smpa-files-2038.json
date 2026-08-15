@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2038",
+ "title": "Daung Zen Tsang",
+ "series": "IO Files",
+ "nara_file_no": "38",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2038",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nI. O. REG\nNo. 401\nDate 21/6/16\n\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nJuly 21st 1916\n\nSir,\nThe workmen in the Arsenal were paid yesterday in notes of the Bank of Communications. As these notes are at present at a discount, the operatives are grumbling a good deal.\nGeneral Yang gave a dinner to all military detectives and secret service agents in Shanghai yesterday at Loongwha. After the dinner the General thanked them for the good work they had done and said their services would not be further required. He advised those who were not under his control to return to the provinces from which they came and they promised to do so.\nDaung Zen Tsang 震杜章 a high official in the Board of Finance has absconded from Peking with a large amount of Government funds. It is expected that he will come to Shanghai.\nIt is reported that the Chinese socialists intend to hold a meeting at 2 p.m. 21st instant in the building of a charitable society known as Tsoong Woo Sz Zen Wei 中華慈善會 in Nanyang Li 南陽里 alleyway opposite the Mixed Court.\nConsiderable dissatisfaction exists in Kuomintang circles with the official appointments made by Tuan Chi Jui. The Koumingtang intends to again advocate the use of force if Tuan continues to appoint monarchists and their sympathisers to office. In the event of hostilities the Kuomintang hope to be supported by Feng Kuo Chang.\n\nYour Obedient Servant,\n\nWilliam Armstrong\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\nEntries omitted.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2038/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "刑事调查处\n情报官登记册\n编号 401\n日期 1916年6月21日\n\n上海工部局。\n\n（印章：上海工部局警务处）\n警务处，\n（侦探股）\n\n1916年7月21日\n\n先生：\n\n兵工厂的工人昨日以交通银行纸币支付薪水。由于这些纸币目前存在贴水，工人们抱怨颇多。\n\n杨将军昨日在龙华宴请了在上海的所有军事侦探和密探。宴后，杨将军感谢他们所做出的良好工作，并表示不再需要他们的服务。他建议那些不受其管辖的人返回原籍省份，这些人也承诺照办。\n\n财政部高官震杜章（音译）携大量政府资金从北京潜逃。预计他将来到上海。\n\n据报，中国社会主义者拟于本月21日下午2时，在位于会审公廨对面南阳里弄堂内、名为“中华慈善会”的慈善机构大楼中举行会议。\n\n国民党内部对段祺瑞所作的官方任命存在相当多的不满。如果段祺瑞继续任命君主立宪派及其同情者担任公职，国民党打算再次主张使用武力。一旦发生敌对行动，国民党希望得到冯国璋的支持。\n\n您顺从的仆人，\n\n威廉·阿姆斯特朗\n首席侦探督察长。\n\n警察总监上尉。\n\n条目省略。",
+   "zh_src": "60dfd0e3f440da36"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2038/Reports%20Made%201916-1929%20-%20Daung%20Zen%20Tsang%2038.pdf>\n\n---\nmentee inte =e L \n\n\n/ Be \n; : 5» OC Reo. \n\n\nmw. QL... \n= \n\n\nShanghai Municipal Coun \n\n\nPolice Force, \n(DETECTIVE BRANCH) \n\n\nSir, : \n\nThe workmen in the Arsenal were paid yesterday in hotes i \nof the Bank of Communications. As these notes are at 4 \npresent at a discount, the operatives are grumbling ‘ia : \n@ good deal. a 4 \n\nGeneral Yang gave a dinner to all military detective S \nand secret service agents in Shanghai yesterday at Loongwha. \nAfter the dinner the General thanked them for the good work \nthey had done and said their services would not be further \nrequired. He advised those who were not under his control \nto return to the provinces from which they came and they \npromised to do so. ; \n\nDaung Zen Teang(f fe a high official in the Board of \nFinance has absconded from’ Peking with a large amount \nofr Government funds. It is expecte@& that he will come to \nShan. e \n\n+ It is reported that the Ohinese sooialists intend. \nto hold a meeting at 2 pem. 2lst instant in the building gs \nof a charitable society kmown as Tsocong Woo Sz Zen Wo FFL ED \nin Nanyang Li 197 P alleyway opposite the Mixed Court. \n\nGonsiderable dissatisfaction exists in Kuomingtang \nCircles with the official appointments made by Tuan Ohi Jui. \nThe Koumingtang intends to again advocate the use'of force \nif Tuan continues to appoint monarchists and their sympathisers \nto office. In the event of hostilities the Kuomingtang \nhope to be supported by reng Kuo Ghang. \n\n\nYour Obedient Servant, \n\n\nwe P \nV4 24 a Wudteacee Coins YUWG \n%\\\\IS \nPa Chief Detective Inspector. \n\n\nGaptain Superintendent of Police. \n\n\n) \n\n\nra ma ' ee a \n\n\nWessun esc oe saan Se i i i a aa ce",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2713,
+  "ocr_out_tokens": 384,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:08:23",
+  "zh_in_tokens": 616,
+  "zh_out_tokens": 297,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

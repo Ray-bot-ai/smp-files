@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2046",
+ "title": "Dittman - Nielsen",
+ "series": "IO Files",
+ "nara_file_no": "1047",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2046",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "No\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE (DETECTIVE BRANCH)）\nC. I. D.\nI. O. REG\nNo 1005\nShanghai Municipal Council\nMarch 14th 1917.\n\nSir,\n\nA report has been made to the effect that\na man named Dittman who stays at the Astor\nHouse spends a good deal of his time at a window\nfrom which he can see the German Consulate.\nHe has conversations with Nielsen after which\nthe latter leaves him and goes over to the\nGerman Consulate.\n\nYour Obedient Servant,\nmmmuuuummstung\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\nASH\n14/3/17.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2046/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "编号\n（印章：上海公共租界工部局警务处（侦探股））\n刑事侦缉处\n情报官登记册\n第 1005 号\n\n上海公共租界工部局\n1917年3月14日\n\n先生：\n\n据报告称，一名名为迪特曼（Dittman）的男子，现寓居礼查饭店（Astor House），常长时间驻足于一扇窗户旁，从该处可眺望德国领事馆。他与尼尔森（Nielsen）交谈后，后者便离开他，前往德国领事馆。\n\n您忠实的仆人，\nmmmuuuummstung\n首席探长\n\n警察总监上尉\n\nASH\n1917年3月14日",
+   "zh_src": "8de0ceb834a8c28e"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2046/Reports%20Made%201916-1929%20-%20Dittman%20-%20Nielsen%201047.pdf>\n\n---\nJ‘ ho. \n\noe ae ae \n\nwth: Menge ns \n\nShanghai Municipa ths i Sirs ay \\ \n\nMarch a ais {Te \nPouce Force, ~s ; ‘ \ni (Detective Brancn) \nsir, \n\n\nA report has been made to the effaest that \n& man named Dittman who stays at the Astor \nHouse spends a good deal of his time at a& window \nfrom whioh he can see the German Consulates. \nBe hae conversations with Nielgen after which \nthe latter leaves Bim and goes over to the \n\n\nGerman Gonsulate. \n\n\nYour Obedient Servant, \n\n\nUn reg \n\n\nOief Detective Inspector. \n\n\nGaptain Superintendent of Police.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2744,
+  "ocr_out_tokens": 172,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:10:01",
+  "zh_in_tokens": 404,
+  "zh_out_tokens": 168,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

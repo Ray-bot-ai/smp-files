@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2051",
+ "title": "Doong Ts Wen",
+ "series": "IO Files",
+ "nara_file_no": "37",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2051",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "No\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n405\nShanghai Municipal Council.\n23rd June 1916.\n\nSir,\nA number of militarists in Peking have started a society for the purpose of bringing military men together and protecting their interests. The society will be known as the Doong Ts Wen 同志會 and it is said that it will resist any action taken by the Government with a view to reducing the strength of the army. Four delegates have arrived in Woosung from the capital to organize a branch here.\n\nThirty one members of the Manchu Restoration Party arrived here from the North yesterday. They are staying in the western part of Frenchtown.\n\nIt is reported that a section of the Kuomintang Party has telegraphed to the independent provinces advising them not to resume relations with Peking until the Central Government had made a clear announcement regarding its intentions.\n\nYour obedient servant,\n（签名）\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n（批：OM）\n（批：Entered on 23rd June 23.）",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2051/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "编号\n（印章：上海工部局）\n警务处，\n（侦探股）\n405\n上海工部局。\n1916年6月23日。\n\n先生：\n北京的一些军阀成立了一个会社，旨在团结军人并维护其利益。该会社名为“同志会”（Doong Ts Wen），据悉，它将抵制政府为削减军队规模而采取的任何行动。四名代表已从首都抵达吴淞，在此设立分会。\n\n昨日，三十一名满清复辟党成员从北方抵达此地。他们现居住在法租界西部。\n\n据报，国民党某派系已致电独立各省，劝告它们在中央政府就其意图作出明确声明之前，不要恢复与北京的关系。\n\n您忠实的仆人，\n（签名）\n总探长。\n\n警察总监。\n（批注：OM）\n（批注：于6月23日登记。）",
+   "zh_src": "6633b11849366073"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2051/Reports%20Made%201916-1929%20-%20Doong%20Ts%20Wen%2037.pdf>\n\n---\nWe Wscnackt OS. nb faye \nShanubai #hinicipal Conneil. \n\n\nPouce Force, \n(Detective BRANCH) \n\n\nSirs \n\nA mumber of militarists in Peking have sbarted \na society for the purpose of bringing military men \ntogether and protecting their interests. The socisty \nwill be known as the Doong Ts Wen ti) 4 and it \nis seid that it will resist any action taken by the \nGovernment with a view to reducing the strength of \nthe armye Four delegates have arrived in Woosung \nfrom the capital to organize a branch heree \n\n\nThirty one members of the Manchu Restoration \nParty arrived here from the North yesterdaye They \nare staying in the western part of Frenchtowne \n\n\nIt ie reported that a section of the Kuomingtang \nParty has telegraphed to the indepondent provinces \nj 5 advising them not to resume relations with Peking \na until the Gentral Goverrment had made a clear \na announcement regarding its intentions. \n\n\nYour obedient servants \n\n\n¢ é 4 h - PP 4 1. Ay \nfe : fa YAW ae = Tn raat \nrf a \n\n6 Chief Detective Inspector. \n\n\nCaptain Superintendent of Police. \n\\ \naf \n\n\n’ we \na \n(\\\\ ah \n\n\n\\ \n\n\n\\N \n\n\n(a ee oz \n\n\nSora wae. . fig S \n\n\nee ene SEE \n\n\nWeber sencry MNO NIRE ANAEMIA, SEEKS BREE MRT BRN NE RHP",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2698,
+  "ocr_out_tokens": 246,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:11:34",
+  "zh_in_tokens": 478,
+  "zh_out_tokens": 202,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

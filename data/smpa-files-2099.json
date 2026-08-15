@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2099",
+ "title": "Han Hwe",
+ "series": "IO Files",
+ "nara_file_no": "130",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2099",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "No\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE (DETECTIVE BRANCH)）\nShanghai Municipal Council.\nC. I. D.\nI. O. RED\nNo. 566\nDate 13.9.16\nSeptember 12th 1916\n\nSir,\nAn office for the repatriation of the rebels has been established on Zau Tsen Road 肇周路 near the West Gate. It is reported that on the 11th instant Han Hwe 韩恢 received $3,000 from the Nanking Provincial Government to relieve the more pressing needs of the rebels.\nGeneral Yang has received a report from one of his detectives that there is an office of the Manchu Restoration Party situated in the Tien Pao Li 天保里 North Chekiang Road. He has given instructions to the Chapel Police to investigate the matter.\nThe troops have been allowed a holiday to-day being the Autumn festival but no leave has been granted.\nThe workmen at the Arsenal have been granted three days holiday but they have not received their pay on account of the financial stringency of the Government.\n\nYour Obedient Servant,\n（签名）\nChief Detective Inspector.\n\n（签名）\n12a\nCaptain Superintendent of Police.\n\n（手写批注：... 12.）",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2099/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "编号\n（印章：上海公共租界工部局警务处（侦探股））\n上海公共租界工部局。\n刑事侦缉处。\nI. O. RED\n第 566 号\n日期 1916年9月13日\n1916年9月12日\n\n先生：\n在西门附近的肇周路已设立一处叛军遣返办公室。据报，韩恢于本月11日从江苏省政府领取了3,000美元，以缓解叛军更为紧迫的需求。\n杨将军从其一名侦探处收到报告，称在北浙江路天保里设有一处满清复辟党办公室。他已指示巡捕房对此事进行调查。\n今日正值中秋节，部队已获准休假，但未批准离营假。\n兵工厂的工人已获准三天假期，但由于政府财政紧张，他们尚未领到薪水。\n\n您顺从的仆人，\n（签名）\n首席探长。\n\n（签名）\n12a\n警务处总监。\n\n（手写批注：... 12.）",
+   "zh_src": "2a8cf6d86522c080"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2099/Reports%20Made%201916-1929%20-%20Han%20Hwe%20130.pdf>\n\n---\n06 oO TD Apr aaAtne 1 ap. \n\n\nShanghai Municipal Counvil. \n\n\né &.1. 6. ss \n\n- O&O RE 24 \n\n- em h a \nPouce Force We...... HS Nee acters caccceeree a ee Ee SS SOF? \n(Derective BRaN cH) Diab 000 SP Qigere NW Pecere \n\n\nSir, \n\nAn office for the repatriation of_the rebels \nhas been established on Zau Tsen Road f; Bi] Fgznear \nthe West Gate. It i eported that or the \nllth instant Han Hwe (fA received $3,000 \nfrom the Nanking Provincial Goverrment to \nrelieve the more pressing needs of the rebels. \n\nGeneral Yang has received a report from \none of his detectives that there is an office of \nthe Manchu Restoration Party situated in the Tien \nPao LiZ4%,€ North Chekiang Roade e has \ngiven instructions to the Chapei Police to \ninvestigate the matter. \n\ne@ troops have heen allowed a holiday \nto-day being the Autumm festival but no leave \nhas been granted. \n\nThe workmen at the Arsenal have been \nSranted three days holiday but they have not \nreceived their pay on account of the financial \nstringency of the Government. \n\n\nYour Obedient Servant, \n\n\nChief Detective Inspector. \n\n\nCaptain Superintendent of Police.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2698,
+  "ocr_out_tokens": 293,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:26:54",
+  "zh_in_tokens": 525,
+  "zh_out_tokens": 244,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

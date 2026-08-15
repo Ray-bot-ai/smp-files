@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-2025",
+ "title": "D.S. Schmidt",
+ "series": "IO Files",
+ "nara_file_no": "1105",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-2025",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "I.O. 1094\n1214",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2025/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "I.O. 1094\n1214",
+   "zh_src": "be09df844024324f"
+  },
+  {
+   "n": 1,
+   "en": "C. I D.\nNo. 1094\n28/4/7\nShanghai Municipal Council.\nApril 19th 1917\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE.\n(DETECTIVE BRANCH.)\n\nSir,\nD.S.Schmidt reports that he saw Ettinger\non April 18th at 9 p.m. on the North Szechuen\nRoad with something bulky in his hip pocket.\nEttinger when he saw the D.S. got into\na ricsha and went away in the direction of\nthe Hongkew Park.\nThe D.S. asks for instructions as to\nwhether he would be justified in searching\nEttinger if he met him again under similar\nconditions.\nEttinger is not on the list of Germans\nregistered at the Bureau of Foreign Affairs.\nHe is a Turkish Jew and has been until\nrecently under the protection of the German\nConsulate.\n\nYour Obedient Servant,\nMuirhead Armstrong\nChief Detective Inspector.\n\nCM\nOn report\narrest & search\nStation & Court\nto\nM\nCaptain Superintendent of Police.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2025/page/n1_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "C. I D.\n第 1094 号\n28/4/7\n上海工部局。\n1917年4月19日\n\n（印：上海工部局警务处）\n警务处。\n（侦探股。）\n\n先生，\n施密特侦探长（D.S. Schmidt）报告称，他于4月18日晚9时在四川北路看见艾廷格（Ettinger），其臀部口袋中装有体积庞大的物品。\n艾廷格见到该侦探长后，即乘人力车向虹口公园方向离去。\n该侦探长请示，若他在类似情况下再次遇见艾廷格，是否有理由对其实施搜查。\n艾廷格未列入外事局登记的德国人名册。\n他是土耳其籍犹太人，直至最近一直受德国领事馆保护。\n\n您顺从的仆人，\n缪尔黑德·阿姆斯特朗\n首席侦探督察\n\nCM\n阅悉报告\n逮捕并搜查\n警局及法庭\n致\nM\n警务处总监",
+   "zh_src": "80251072f84e8a29"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2025/Reports%20Made%201916-1929%20-%20D.S.%20Schmidt%201105.pdf>\n\n---\n{—I \n\n\nO . \n\n\nloge \ne2\\>4 \n\n\nie) \nQ \nwae \n\n\nMeL OGL. \nShanghai Municipal Council. Sy, C7 \n\n\n\\ April 19th SOA 7 \n\n\nPouce Force, \n* (Detective BRancH) \n\n\nsir \n: D.SeSchnidt reports that he saw Ettinger \n\n\non april 18th at 9 pem. on the North Szecheun \nRoad with something bulky in his hip pocket. \n\nEttinger when he saw the D.S.- got into \na ricsha and went away in the direction of \nthe Hongkew Parke \n\nfhe D.S- asks for instructions as to \nwhether he would be justified in searching \nEttinger if he met him again under similar \nconditions. \n\nEttinger is not on the list of Germans \n\n\nregistered at the Bureau of rorelign Affairs. \n\n\ncer He is a Turkish Jew and has been until \nOs ner f. £2 Ps wae recently under the protection of the German \nS comek at Lone Consulate. \nclot - eee - & Your Obedient Servant, \neo pee Nua khs1 \ne+ Chief iestvesepbcl ees Inspector. \n\n\nOaptain Superintendent ef Police. \n\n\ner eine emrrrnrnnni oe oe A RARER RRR HE Rt \n\n\nRamee",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5503,
+  "ocr_out_tokens": 273,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:04:42",
+  "zh_in_tokens": 512,
+  "zh_out_tokens": 245,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

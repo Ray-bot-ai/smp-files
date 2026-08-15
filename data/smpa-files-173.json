@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-173",
+ "title": "D706",
+ "series": "D Files",
+ "nara_file_no": "356",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-173",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "P. 301\nT.H. 1680-4-30.\nSee 10. 8760/94 & 95\nC. I. D. REGISTRY\nFILE No. D 706.\nSUBJECT:\n□□□□□ □ □ □ □ □\n□□□□□ □ □ □ □ □\n□□□□□ □ □ □ □ □\nSENT TO\nNAME DATE\n6 - 6 - 30.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-173/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "第 301 页\nT.H. 1680-4-30。\n参见 10. 8760/94 及 95\n刑事调查处登记室\n档案编号 D 706。\n主题：\n□□□□□ □ □ □ □ □\n□□□□□ □ □ □ □ □\n□□□□□ □ □ □ □ □\n发送至\n姓名 日期\n1930 年 6 月 6 日。",
+   "zh_src": "c7b825f5f52cf6c9"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-173/D706%20356.pdf>\n\n---\n<0, £760 Gee \n\n\nC. I OD. REGISTRY \nFILE No. 2) 706. \nSUBJECT: \n\n\nee, ot ee, wr a ke fl? ih : i c- Fi \n4",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2756,
+  "ocr_out_tokens": 112,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 15:30:02",
+  "zh_in_tokens": 344,
+  "zh_out_tokens": 121,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

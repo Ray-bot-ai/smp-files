@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2116",
+ "title": "Hwang Hsin",
+ "series": "IO Files",
+ "nara_file_no": "31",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2116",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nK. O. REG\nNo. 298\nDate 20/6/16\n\nShanghai Municipal Council.\n\nJuly 19th 1916\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nSir,\nIt is expected that President Li Yuan Hung will issue a Mandate re-establishing the original provisional Constitution of Nanking after which the ex-members of the two houses of Parliament will meet either at Shanghai or Nanking. There are at present over three hundred of these in Shanghai. Others are on their way here and will arrive before the date of the meeting which is fixed for June 30th. Four hundred are necessary to form a quorum.\nThey will approve of or veto the Ministers who are selected by the President and a resolution will be brought forward demanding the impeachment and trial of those who were responsible for the Monarchical propaganda.\nThis will meet the views of the southern leaders and a settlement of all difficulties may be looked for if the Mandate is issued soon.\nHwang Hsin 黃興 is still in Japan. The Republicans in this port have advised him to return to America as they consider his presence here at the moment would serve no good purpose and would cause them considerable embarrassment.\nKang Yue Wei 康有為 recently wired to Chang Hsun 張勳 asking him to support the Manchu boy Emperor.\nChang Hsun promised to do so if Feng Kuo Chang 馮國璋 would agree. He sent a telegram to the latter asking for his aid but in the reply which he received it was intimated that none could be given.\n\nYour Obedient Servant,\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2116/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "刑事调查处\nK. O. 登记册\n编号 298\n日期 16/6/20\n\n上海工部局。\n\n1916年7月19日\n\n（印：上海工部局警务处）\n警务处，\n（侦探科）\n\n先生：\n\n据预期，总统黎元洪将发布命令，恢复南京原临时约法，此后国会两院的前议员将在上海或南京集会。目前在上海的此类议员已有三百余人。其他人正在来沪途中，并将在定于6月30日举行的会议日期之前抵达。四百人方可构成法定人数。\n\n他们将批准或否决由总统选任的各部总长，并将提出一项决议，要求弹劾并审判那些对君主制宣传负责的人。\n\n这将符合南方领袖们的意愿，如果该命令能尽快发布，可望解决所有困难。\n\n黄兴（Hwang Hsin）仍留在日本。本埠的共和党人已劝告他返回美国，因为他们认为他此时留在此地无益，反而会给他们造成相当大的尴尬。\n\n康有为（Kang Yue Wei）最近致电张勋（Chang Hsun），请其支持满清幼帝。\n\n张勋承诺若冯国璋（Feng Kuo Chang）同意，他便予以支持。他向冯国璋去电请求援助，但在收到的回复中暗示无法提供援助。\n\n您顺从的仆人，\n\n首席探长。\n\n警务处总监。",
+   "zh_src": "4897486c9a66727c"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2116/Reports%20Made%201916-1929%20-%20Hwang%20Hsin%2031.pdf>\n\n---\nPotice Force, \n(Detective Brancn) \n\n\nSirs \n\nIt is expectod that President Li Yuan Hung will \nissue a Mandate re-establishing the original provisional \nConstitution of Nanking after which the ox-members of the \ntwb houses of Parliament will meet either at Shanghai \nor Nanking. There are at present over three mindrea \nef these in Shanghai. Others are on their way here \nand will arrive before the date of the meeting which \nis fixed for June SOthe scour hundred are necessary \nto form a quorum. \n\nThey will approve of or vete the Ministers who are \nselected by the President and a resolution will be \nbrought forward demanding the impeachment and triel \nof those who were responsible for the Monarchical \npropaganda. \n\nThis will meet the views of the southern leaders \nand a settlement of all difficulties may be looked for \nif the Mandate is issued soon. \n\n\nHwang Hsin & €f?1s still in Japan. The *epublicans \n\n\n{ a) in this port have advised him to return to An rica as \ngat they consider his presence here at the moment would serve \na no good purpose and would cause them considerable \ne embarrassamente \n\n\nYue wot ADS recently wired to Ghang Hsun 3%, $4 \nasking m to support the Manchu boy Emperor. x \nGhang Hsun promised to do so if Feng Kuo Chang 1& WG \nwould agreee He sent a telegram to the latter asking \nfor his aid but in the reply which he received it was \nintimated that none could be given. \n\n\nYour Obedient Servs.t, \n\n\nNY Yai Wine ddr rug \n\n\nBhier Detectivo Inspector. \n\n\nCaptain Superintendent of Police. \n\n\nae \nen ee oe FE I ES oF",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2708,
+  "ocr_out_tokens": 379,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:30:46",
+  "zh_in_tokens": 611,
+  "zh_out_tokens": 318,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

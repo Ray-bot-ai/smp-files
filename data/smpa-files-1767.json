@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1767",
+ "title": "Red Flag? Issue No. 60, Dated October 15, 1933",
+ "series": "D Files",
+ "nara_file_no": "788",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1767",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Form No. 3\nG. 25\n\nSHANGHAI MUNICIPAL POLICE.\nS.2, Special Branch.\nREPORT\nDate November 4, 1933\n\n（印：SHANGHAI MUNICIPAL POLICE\nC.R.S.B. REGISTRY.\nNo. D. 5415.\nDate 4. 11. 33）\n\nSubject (in full) \"Red Flag\", Issue No.60, dated October 15, 1933.\n\nMade by D.I.Kuh Pao-hwa Forwarded by [签名]\n\nI forward herewith a copy of the latest issue of\nthe Chinese Communist Party publication \"Red Flag.\" A copy\nof this issue, which is dated October 15, 1933, was obtained\nby Agent A-1286 in Western Chapei on November 1, 1933.\nA summarized translation of an article in this\nperiodical entitled \"Outline of Chinese Fascism\" is attached\nto this report.\n\nKuh Tao-hua\nD. I.\n\n[签名] Officer i/c Special Branch.\n\nFile\n[签名]\n1933\n\nNote.- Other files on the Red Flag :- S 677 - S 1421",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1767/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "表格第3号\nG. 25\n\n上海公共租界工部局警务处。\nS.2，特别支部。\n报告\n日期：1933年11月4日\n\n（印章：上海公共租界工部局警务处\n中央红色特别支部登记处。\n编号：D. 5415。\n日期：33.11.4）\n\n主题（全称）《红旗》，第60期，1933年10月15日出版。\n\n呈报人：督察顾宝华 转呈人 [签名]\n\n现随文附上中国共产党刊物《红旗》最新一期的副本。该期出版日期为1933年10月15日，由探员A-1286于1933年11月1日在闸北西部获取。\n本期期刊中题为《中国法西斯主义大纲》一文的摘要译文附于本报告之后。\n\n顾道华\n督察\n\n[签名] 特别支部主管警官。\n\n归档\n[签名]\n1933年\n\n注.- 关于《红旗》的其他档案：S 677 - S 1421",
+   "zh_src": "33bd70b9b2e5b95a"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1767/Red%20Flag%3F%20Issue%20No.%2060%2C%20Dated%20October%2015%2C%201933%20788.pdf>\n\n---\nPETE cote rote \n\n\n: -— _ ||) SHANGNAD MUNICIPAL POLICE \n| Gv Ay Sy B- REGISTRY. \n\n\n_ SHANGHAI MUNICIPAL POLICE. \n\n\n2 REPORT \n\n\n\"Red Flag} Issue No.60, dated October 15, 1933, \n\n\nSubject (in full) .\"Red Pl \n\n\nMade by._....... _De \n\n\n_the Chinese Communist Party publication \"Red Flag.\" A copy. _ \n\n\nI.Kuh Paojhwa Forwarded ed \n\n\n___ 1 forward herewith a copy of the latest issue of \n\n\nof this issue, which is dated October 15, . 1933, was obtained \n\n\n_by Agent A-1286 in Western Chapei on November 1, 1953. \n\n\n7 ____ A summarized translation of an article in this oe \n\n‘pertaateat entitled \"Outline of Chinese Fascism\" is attached ~ \n_to this report. _ s sitet toca iets: ~eeiiee \neee eee Kuk = = \na a a De. Ie eee as ee, Se ee \n\n‘i Officer ife Special Sranche _ _ : ees \n7 Te. e G Me ae eee OE Pod L a ‘Ce <2 ~ re / \n( \n\n2 bacgacns ‘a ——. EE acc",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2698,
+  "ocr_out_tokens": 282,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 15:42:03",
+  "zh_in_tokens": 514,
+  "zh_out_tokens": 264,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

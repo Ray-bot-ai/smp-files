@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1835",
+ "title": "Karl Lunt",
+ "series": "",
+ "nara_file_no": "1960",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1835",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201 A\nG. 2000-5-38\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\n\nSp. Br. Registry. OFFICE\n\nFILE NO. D 9462\n\nSUBJECT:\n\nKARL LUNT\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Transferred to | | D 9478(C) |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| INSTRUCTIONS SEE OVER | | |",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1835/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 2000-5-38\n\n上海公共租界工部局警务处\n交叉参考单\n\n特别处登记室\n\n档案编号 D 9462\n\n事由：\n\nKARL LUNT\n\n| 详情 | 处室 | 档案编号 |\n| :--- | :--- | :--- |\n| 转至 | | D 9478(C) |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| 指令见背面 | | |",
+   "zh_src": "07f53d3d4d9c7026"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1835/Karl%20Lunt%201960.pdf>\n\n---\nF. 200A _ \nG. 2000-5-38 \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \n\n\nFILE NO....D_.9:462.0 \n\n\nSUBJECT: \n\n\nKARL LUNT \n\n\na . \n\n\nPARTICULARS | OFFICE FILE NO. \nee ee ee re ee ee \nTransferred to | D 9478(Cc) \newuguicws ‘tai ciate tii \nTT OEE ET Oo LEN SE Te CTT a See \n| \nINSTRUCTIONS SEE OVER",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2708,
+  "ocr_out_tokens": 158,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 16:07:12",
+  "zh_in_tokens": 390,
+  "zh_out_tokens": 157,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

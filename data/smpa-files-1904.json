@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-1904",
+ "title": "Pamphlets Found Outside Japanese Club",
+ "series": "",
+ "nara_file_no": "528",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-1904",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D9275",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1904/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "D9275",
+   "zh_src": "4029f2f513a26413"
+  },
+  {
+   "n": 1,
+   "en": "F\nOM 1-39\n\nSHANGHAI MUNICIPAL POLICE D.\n\nCRIME DIARY.\n\nCRIME REGISTER No: Misc. 210/39.\nDivision.\nHongkew Police Station.\nJune 21. 19 39.\n\nDiary Number: 1.\nNature of Offence:\n\nTime at which\ninvestigation begun\nand concluded each day\n\nPlaces\nvisited in\ncourse of\ninvestigation\neach day\n\nRECORD OF INVESTIGATION.\n\nPamphlets found outside Japanese Club.\n\nSir,\n\nAt 1.30 a.m. on the 21/6/39, a number of\npamphlets written in Japanese were found on a window\nledge of the Japanese Club, Boone Road.\n\nSame are forwarded for information and\ntranslation as they have some bearing on Tientsin\nIncident.\n\nMcD Robertson\nS B (Special Branch)\n\nD.S.I.\n\nSen. Det. i/c.\n\nD.D.O. \"C\".\n\nS I.\n28R.\n2/6",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-1904/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F\nOM 1-39\n\n上海公共租界工部局警务处 D。\n\n罪案日志。\n\n罪案登记号：Misc. 210/39。\n分区。\n虹口巡捕房。\n1939年6月21日。\n\n日志编号：1。\n罪行性质：\n\n每日调查\n开始及\n结束时间\n\n每日调查\n过程中\n造访的\n地点\n\n调查记录。\n\n在日本俱乐部外发现传单。\n\n敬启者，\n\n1939年6月21日凌晨1时30分，在布恩路（Boone Road）日本俱乐部的窗台上发现若干用日文写成的传单。\n\n现将上述传单呈送，供阅知及翻译之用，因其与天津事件有一定关联。\n\n麦克·罗伯逊 (McD Robertson)\n特别课警员 (S B (Special Branch))\n\n副督察长 (D.S.I.)\n\n高级探员主管 (Sen. Det. i/c.)\n\n“C”区副总监 (D.D.O. \"C\".)\n\n巡官 (S I.)\n28R.\n2/6",
+   "zh_src": "b6fef8cc7c330fd1"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1904/Pamphlets%20Found%20Outside%20Japanese%20Club%20528.pdf>\n\n---\nD9275 \n\n\nhc 4 oS iy et \n* i pioneer: \nLae : i se Saat '? \nuM 1-39 * \n4. @a@ hi \nSHANGHAI MUNICIPAL POLIEE-D. \nSRIME D'ARY. \n- = Seisseees -....- OFIVISION. ° \nCRIME REGISTER No: | Mi sC. 230/39. .. Honskew Police Station. \nJune 21,. 19 396 \nDiary Number: - qT Nature ot Offence: \napa : Gye = | \" | ' a gi a. \n| Places H \nTine at which visited in \ninvestigation beyun _ course of \nand concluded each day investigation \n| each day \n\n\ni RECORD OF INVESTIGATION. \n\n\nPamphlets found outside Japanese Club, \n\n\nsir, \n\n\nAt 1.30 a.m. on the 21/6/38, a number of \n\n\npamphlets written in Jor nese were found on a window \n\n\nledge of the Japnnese Club, Boone Road. \n\n\ntranslation as they have some bearing on Tientsin \n\n\nSame are forwarded for info mation and \nIncident, \n} \n\n\nAo Ae pertoor \nLOS eral son uN)",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5459,
+  "ocr_out_tokens": 245,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 10:48:13",
+  "zh_in_tokens": 484,
+  "zh_out_tokens": 269,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

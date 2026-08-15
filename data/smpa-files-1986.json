@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1986",
+ "title": "Chang Chi",
+ "series": "IO Files",
+ "nara_file_no": "415",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1986",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "No\n889\n14/6/16\nShanghai Municipal Council.\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\nJune 12th 1916.\n\nSir,\n\nA great number of the ex-members of the Parliament\ndissolved by Yuan Shih Kai are at present in Shanghai.\nMost of them inhabit the French Concession where they\nare in the habit of holding private meetings about\nthree times each week.\n\nThey are generally in favour of supporting Li\nYuan Hung, the present President and are advocating the\nbringing into line of the provinces which have\ndeclared themselves independent of the Central Government.\n\nChang Chi 张  ̶ ̶ the ex-President of the Upper House\nis taking a very prominent part in these discussions.\n\nYour Obedient Servant,\n\nmmmmmmmmming\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\nEntered on 12 June 12\nOK",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1986/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "编号\n889\n16/6/14\n上海工部局。\n（印：上海工部局）\n警务处，\n（侦探股）\n1916年6月12日。\n\n先生：\n\n目前有许多被袁世凯解散的国会前议员身处上海。他们大多居住在法租界，并习惯于每周举行约三次私人会议。\n\n他们普遍倾向于支持现任总统黎元洪，并主张使那些宣布脱离中央政府的省份重新归顺。\n\n参议院前议长张继（Chang Chi）在这些讨论中扮演着非常突出的角色。\n\n您忠实的仆人，\n\nmmmmmmmmming\n总探长。\n\n警察总监。\n\n录入于6月12日\n核准",
+   "zh_src": "99132f9f6d1a1e27"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1986/Reports%20Made%201916-1929%20-%20Chang%20Chi%20415.pdf>\n\n---\n’ \n\n\nShanghai #lanicipal Counil.’ \n\n\nJune 12th SOGI/S- \n\n\nPouce Force, \n(Derective Brancn) \n\n\nSir, \n; A great number of the ex-members of the Parliament \n~ @issolved by Yuan shih Kal are at present in Shanghai. \nMost of them inhabit the French Concession where they \nare in the habit of holding private meetings about \nthroe times each week. \nThey are Benerally in favour of supporting Li \n\n\nYuan Hung, the present President and are advocating the i \nbringing into line of the Provinces which have \n\n\ndeclared themselves independent of the Gentral Government. \nGhang Ohi “~~ the ex-President of the Upper House \n\n\nis taking a very prominent Part in these discussions. \n\n\nutah NS O40 \n\n\nae \n\n\nrs Your Obedient Servant, \n\n\n¥ y WWW Mies fev : \nOhlef Detective Inspector. 2 \n\n\nCaptain Superintendent of Police. as \n\n\na |",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2689,
+  "ocr_out_tokens": 221,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 16:50:06",
+  "zh_in_tokens": 453,
+  "zh_out_tokens": 166,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -12,7 +12,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1611/page/n0_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "B. 2\n1930-6-32\n\n上海公共租界工部局警务处\n报告\n\n（印：上海公共租界工部局警务处 C. I. S. 登记处 档案号）\n编号 D 4860\n上海，特别分部第 2 科\n值班日期 1933年5月27日\n日期 1933年5月24日。\n\n主题（全称）菲利普·泽特伦德（Philip Zetterlund），瑞典籍。\n\n由特别调查员埃弗勒斯特（Everest）呈报，经 [签名] 督察转呈。\n\n关于附上的1933年5月10日特别分部主管警官有关 P. 泽特伦德先生的备忘录，本人谨报告如下：\n菲利普·泽特伦德，瑞典籍，年龄约55岁，已在上海居住过去25年。职业为摄影师，在1925年该公司关闭之前，他受雇于北苏州路3号的伦勃朗照相馆（Rembrandt Photo Co.）达15年之久。泽特伦德无私人财产，或多或少依靠 A. 埃利奥特（A. Elliot）女士供养，后者是现已停业的伦勃朗照相馆的所有人，他与她同住于兰路（Range Road）122号。在过去一年中，他一直兜售在1932年当地中日冲突期间拍摄的照片相册。为此，他经常走访当地的商业机构、军营等。除其有习惯性酗酒恶习外，本处室在政治或其他方面均未掌握对其不利的情况。\n\n[签名]\n特别调查员\n\n特别分部主管警官。",
+   "zh_src": "3743eda550ebe557"
   },
   {
    "n": 1,
@@ -20,7 +22,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1611/page/n1_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "FM. 1\n上海公共租界工部局警务处\n机密 B. 登记处。\n备忘录 H 860\n警务处。\nD. 工部局。 133\n上海，1942年5月60日 : 5 :\n致 S.2，\n请对居住在\n兰路（Range Road）122号的\n泽特伦德进行\n秘密调查，并\n提交报告。没有\n理由怀疑\n泽特伦德从事\n颠覆性\n活动，但他与\n当地\n布尔什维克部队\n有联系，并向\n他们出售\n相册。\nJL",
+   "zh_src": "34ac2915dd020b5c"
   }
  ],
  "pages_done": 2,
@@ -31,6 +35,11 @@
   "ocr_in_tokens": 5485,
   "ocr_out_tokens": 534,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-15 03:44:18"
- }
+  "ocr_at": "2026-08-15 03:44:18",
+  "zh_in_tokens": 773,
+  "zh_out_tokens": 517,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

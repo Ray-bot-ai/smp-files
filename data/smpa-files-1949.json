@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1949",
+ "title": "385 Sien Tuh Li",
+ "series": "IO Files",
+ "nara_file_no": "59",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1949",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "I. D.\nO. Div\n656\n23/10\n\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nOctober 20th 191_\n\nSir,\nAt 10 a.m. on the 19th inst about 200 rebel natives\nof Kiangsu hold a meeting at 335 Sion Tun Li 修德里 Frenchtown.\nAfter much discussion they decided to petition the\nrepatriation authorities to pay out the funds individually\ninstead of handing the money to the leaders.\nA new office has been opened by the amalgamated\nrebels of all provinces at No.71 Pai Kong Lee 宝康里 Avenue\nJoffre.\nThe Chinese Chamber of Commerce has requested that\nthe distribution of repatriation funds be postponed but\nthe request has been rejected by the Authorities concerned.\nThe amalgamated rebels have also decided to send eight\nrepresentatives to interview General Yang and ask for the\npostponement of the distribution of the funds.\nTwo regiments of the 10th Division now stationed at\nLoongwha who have received instructions to hold themselves\nin readiness for a transfer to some other place.\nAll official yamens in the City and suburbs were\ndecorated on the 19th inst in recognition of the birthday\nof the President.\n\nYour Obedient Servant,\n\n[Signature]\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1949/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "I. D.\nO 科\n656\n10月23日\n\n上海工部局。\n\n（印章：上海工部局警务处）\n警务处，\n（侦探股）\n\n191_年10月20日\n\n先生：\n\n本月19日上午10时，约200名江苏籍叛乱分子在法租界修德里335号举行集会。\n经长时间讨论后，他们决定向遣返当局请愿，要求将款项直接发放给个人，而非交给首领。\n各省叛乱分子联合组织已在霞飞路宝康里71号开设新办事处。\n上海总商会曾请求推迟发放遣返经费，但该请求已被有关当局驳回。\n联合叛乱分子还决定派遣八名代表去会见杨将军，要求推迟发放款项。\n现驻龙华的第十师两个团已接到命令，随时准备调往他处。\n为庆祝总统诞辰，城内及郊区的所有官署均于本月19日张灯结彩以示庆贺。\n\n您顺从的仆人，\n\n[签名]\n首席侦探督察长。\n\n警务处总监上尉。",
+   "zh_src": "3e2e7037287cb45d"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1949/Reports%20Made%201916-1929%20-%20385%20Sien%20Tuh%20Li%2059.pdf>\n\n---\n7. 1. 8. \n\n\n” E85 \n224% \nShanghai Municipal Counril. \n\n\n: Ostober 70th \nPouce Force, a eases. wats tae ; SOA | \n(Detective Brancn) \n\n\nSir, \n\nAt 10 werte D2 tire Wth inst Bhout \nof Klanzau held a -: \nAfter mich dics: \n\n\nern yrabel rutiver \natin at BGR Stor Tuh AAG {E BED Cr totive \nston thoy decided to netition tra \nromntriation Muthor+tica to gay oat tt? Sunita Lucivicually \nLt tneatew2? of Tanding thie mois to tiie Lloacocre. \n¢ A new off4ce lus Fei oF o.ed wy 42.> anmalrounted \nia weabola of all crovincer at %o.71 Pau Kone Lre SyR EZ Awenue \naf Joffre. \n48 al: My Chinere Chniihur of Com.orce ans requested that \n; f 5 Atatribution of repatriation Pu.ds be roret a.m Mit \nS12 request hna heon refactod by the Anthorttios concerned. \nThe nnaleasatea rohels tinvo aleo 7eclidat to send eight \n-orrosontativer to i:.torvied Goneral Yanr ant nak for tie \n; PUNBLMisaeit 89h the Aistribetio. of tio funds. \n7/ ; Two rostinenits of the 19th Niviclon nov atationod at \n| Loongwha weer “invs received Liustmiction.s to hold toreocelves \n' \ni \n\n\nin rondis.esa for n transfer to soi etiics piace. \nAll off iciul ganens ii, the Clty w 2 sudurds were \nJesorated on. the 19th iiat in resumitition of t'.e hirtheay \n\n\nof tia PrusnisAeute \n\n\nYour Onedieiu.t Sor vaur.t, \n\n\n| VCVCe eee kere tr. . \ni “ \n\n\nChiof Detestive T..c,octor. \n\n\nOrnrtai:: Sugerintoendent of Police.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2705,
+  "ocr_out_tokens": 334,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 16:42:33",
+  "zh_in_tokens": 566,
+  "zh_out_tokens": 257,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

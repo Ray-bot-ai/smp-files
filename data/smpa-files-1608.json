@@ -12,7 +12,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1608/page/n0_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "D4812",
+   "zh_src": "bdea2152a83c64bd"
   },
   {
    "n": 1,
@@ -20,7 +22,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1608/page/n1_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "F. 201 A\n6. 3000-2-36\n\n上海公共租界工部局警务处\n互见索引卡\n特别处档案室\n\n档案编号 D.4811。\n\n事由：\n\n关于 Den Za，化名 B. Willi[涂改痕迹]\n\n| 详情 | 部门 | 档案编号 |\n| :--- | :--- | :--- |\n| 转至 | 刑事登记处 | 编号 E.163。 |\n\n（批注：怀特先生，特别处档案室。\n关于 Den Za，化名 B.\nWilliams 的报告 D. 4811\n已转至 E. 163。\n[签名] 1/10）",
+   "zh_src": "9fdb68052e699a32"
   }
  ],
  "pages_done": 2,
@@ -31,6 +35,11 @@
   "ocr_in_tokens": 5414,
   "ocr_out_tokens": 172,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-15 03:43:41"
- }
+  "ocr_at": "2026-08-15 03:43:41",
+  "zh_in_tokens": 411,
+  "zh_out_tokens": 184,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

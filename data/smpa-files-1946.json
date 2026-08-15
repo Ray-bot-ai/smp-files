@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1946",
+ "title": "Admiral Sah",
+ "series": "IO Files",
+ "nara_file_no": "25",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1946",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE (DETECTIVE BRANCH)）\nShanghai Municipal Council.\n（批：A. I. D.\nAg. 423\nDate 3/7/16）\nJuly 1st 1916.\n\nSir,\nAdmiral Sah and the American Minister arrived from\nPeking at 7 a.m. 1st inst.\nIt is reported that the Admiral who is second in\ncommand of the squadron outside Woosung, is opposed\nto continuing the independence of the Navy and is\nnegotiating with the General Yang.\nThe Arsenal troops have dug trenches near\nthe West fort.\nThe police in Chinese territory were paid\non 30th ultimo.\nA cruiser and two gunboats are still in\nthe river.\n\nYour Obedient Servant,\n（签名）\nChief Detective Inspector.\n\n（签名）\n（批：7 AM）\nCaptain Superintendent of Police.\n\n（批：Encl. as stated. July 1\nCopy sent to S.V.C.）",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1946/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "（印：上海工部局警务处（侦探部））\n上海工部局。\n（批：A. I. D.\nAg. 423\n日期 16年7月3日）\n1916年7月1日。\n\n先生，\n萨海军上将和美国公使于本月1日上午7时从北京抵达。\n据报，这位担任吴淞口外舰队副司令的海军上将反对海军继续维持独立状态，并正在与杨将军进行谈判。\n兵工厂部队已在西炮台附近挖掘战壕。\n华界警员已于上月30日发薪。\n一艘巡洋舰和两艘炮艇仍停泊在江中。\n\n您顺从的仆人，\n（签名）\n总探长。\n\n（签名）\n（批：上午7时）\n警务处总监。\n\n（批：附件如上所述。7月1日\n副本已送交 S.V.C.）",
+   "zh_src": "33c25ca053567042"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1946/Reports%20Made%201916-1927%20-%20Admiral%20Sah%2025.pdf>\n\n---\n* ae July lst % SOAS . \nPouce Force, ; / a : \n(Detective Brancn) \n\n\nSirs \n\nAdmiral Sah and the American Minister arrived from \nPeking at 7 aeme Lut inate \n\nIt is reported that tho Admiral who is second in \ncommand of the squadron outside Woosung, is opposed \nto continuating the independence of the Navy am is \nnegotiating withe Goneral Yang. \n\nThe Arsenal troops have dug trenches near \nthe West fort. \n\nTne police in Chinese territory wers paid \non 30th ultinoe \n\nA cruiser ans two gunboats are still in \nthe river. \n\nYour Obedient Servant, \n\n\n= \n\n\nVAN frre \n\n\n» \n\ns reas | \n\n“9 (UF 4 Chief Detsctive Inspector. \n\nH o } \nsane \nCaptain Superintendent of Police. \n\n‘es 5 \n\nPiss Cems gute 3 Bex gsEEZ ne i ft ey , \na a ee ee a oe ¢",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2713,
+  "ocr_out_tokens": 236,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 16:41:59",
+  "zh_in_tokens": 468,
+  "zh_out_tokens": 216,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

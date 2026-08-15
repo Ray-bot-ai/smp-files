@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2072",
+ "title": "Fong Nan Woo",
+ "series": "IO Files",
+ "nara_file_no": "735",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2072",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nI. O. REG\nNo. 158\nDate 9/3/16\n\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nMarch 9th 1916.\n\nSir,\nGeneral Fong Nan Woo 方咸五 arrived from Nanking at the Arsenal at 2 p.m. 8th instant. It is said that he has come here for the purpose of investigating the local military situation. It is also reported that he will try to float a loan, and he may enter into negotiations with the Consular Body with a view to establishing a Court where cases appealed from the Mixed Court will be tried. General Fong had a conference yesterday with Yang Tcheng Commissioner for Foreign Affairs, Director Li Tsong Nyoh 李宗岳 of the Arsenal and General Yang. General Fong will visit Woosung to-day.\nIn consequence of a rumour that the Central Government intends to mortgage the taxes on wine and tobacco to foreigners, the Shanghai Chamber of Commerce has sent a strongly worded telegram objecting to such a course to Chiangchun Peng of Nanking for transmission to the Central Government.\n\nYour Obedient Servant,\n\nmmmmmmustang\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2072/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "刑事调查处\n情报官登记册\n第 158 号\n日期 1916年3月9日\n\n上海工部局。\n\n（印章：上海工部局警务处）\n警务处，\n（侦探科）\n\n1916年3月9日。\n\n先生：\n\n方咸五将军于本月8日下午2时从南京抵达兵工厂。据说他来此的目的是调查本地军事局势。另有报告称，他将尝试募集一笔贷款，并可能与领事团进行谈判，以期设立一个审理来自会审公廨上诉案件的法庭。方将军昨日与外交特派员杨贞、兵工厂总监李宗岳以及杨将军举行了会议。方将军将于今日前往吴淞。\n\n鉴于有谣言称中央政府打算将酒税和烟草税抵押给外国人，上海总商会已向南京的章宗彭发送了一份措辞强烈的电报，反对这种做法，请其转呈中央政府。\n\n您忠实的仆人，\n\nmmmmmmustang\n\n首席侦探督察长。\n\n警务处巡官队长。",
+   "zh_src": "7542e5a3a8ae908a"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2072/Reports%20Made%201916-1929%20-%20Fong%20Nan%20Woo%20735.pdf>\n\n---\nDet... ign ap \nShanghai Mtlinicipal Counvil. \n\n\nbe \n\n\niarch 9th SOL \n\n\nPouce Force, \n(Detective BrRancn) \n\n\nSins Plagz. \nGoneral Fong Nan WooP arrived from Nanking at the \n\n\n‘Arsenal at ? perme Sth instant. It is said that he has \n\n\ncome here for the purpose of investigating the local \nmilitary situation. It is also reported that he will try \nto float a loan, and ie may enter into nerfotiations with \nthe Consular Body witl a viow to ostahblishins a Court \nwhere cases appoaled fron the Hixoed Court will be tricd. \nGeneral Fong had a conference yestorday with Yang Tcheng \nCommissioner for Fopeign Affairs, PDirector Li Trong \n\nNyoh wastot the Arsenal and Geonoral Yang. Goneral Fong \nwill visit Voosuny to-day. \n\n\nIn conmscimicnce of a rumour tint the Cuntral Government \n\n\nare th eens \n\n\nintends to mortciama tho taxes on wine and tohacco to foreinnors ; \n\n\ntho Shanghai Chamber of Commerce Bas sent a strongly \nworded tclomram objectinsy to such a aeoawse to Chiangctrn \nPeng of Nanking for transmission to the Contral Governmente \n\n\nYour Obedient Sorvant, — \n\n\nhywwnwt ned ht uy \n\n\nChief Detoctive Inspector. \n\n\nCaptain Suporintondent of Police. \n\n\nPON ce ORR IRI EEN AKIV FR AS DEMATTEO IO 6",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2714,
+  "ocr_out_tokens": 289,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:18:04",
+  "zh_in_tokens": 521,
+  "zh_out_tokens": 231,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

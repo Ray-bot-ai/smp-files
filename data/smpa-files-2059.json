@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2059",
+ "title": "Extract From The Daily Report Of 17 Sept. 1921",
+ "series": "IO Files",
+ "nara_file_no": "892",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2059",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Memorandum.\nLtt. No. 4199 POLICE FORCE.\n27. 4. 25. MUNICIPAL COUNCIL.\nShanghai, 192\nTo.\nPhotograph of San Ming Public\nSchool (三民公學) at which Esperanto\nis taught.\n民國十四年二月八日三民公學開校紀念攝影",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2059/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "备忘录。\n第 4199 号函 警务处。\n1925 年 4 月 27 日。工部局。\n上海，192\n致：\n三民公学（San Ming Public School）照片，该校教授世界语。\n民国十四年二月八日三民公学开校纪念摄影",
+   "zh_src": "c4f37574cdd9662f"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2059/Reports%20Made%201916-1929%20-%20Extract%20From%20The%20Daily%20Report%20Of%2017%20Sept.%201921%20892.pdf>\n\n---\njaMlentorandury, \n\n\nbhte wm. POLICE. FORCE, \n\n\n(nap = MUNICIPAL COUNCIL, \nShanghai, \n\n\nRctaenat of San Ming Public \n\n\nx4 \n\n\ns : \nschool ( = pol a) at which Esperanto \n\n\nis tuught.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2710,
+  "ocr_out_tokens": 85,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:13:16",
+  "zh_in_tokens": 317,
+  "zh_out_tokens": 86,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

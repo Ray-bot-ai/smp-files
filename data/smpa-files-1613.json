@@ -12,7 +12,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1613/page/n0_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "发自：\nG. 35-11-32\n\n上海公共租界工部局警务处。\n报告\n特务科第 D. 5761 号\n日期：1931年3月28日\n\n（印章：上海公共租界工部局警务处\n档案号 5761\n刑事与搜查登记处。\n第31组）\n\n事由（全称）：苏联驻华大使 D.V. 博戈莫洛夫先生举行的社交活动。\n\n撰写及呈报人：D.S. Sansom。\n\n3月27日，苏联驻华大使 D.V. 博戈莫洛夫先生在黄浦路苏联领事馆举行招待会，以庆祝其就职。\n\n活动于晚上10时开始，至凌晨12时45分结束，约有200名宾客出席。未发生任何意外事件。\n\n下列特务科成员在领事馆附近执行观察任务：\nD.S. Sansom。\nD.S. Makaroff。\nS.D.H. 102 Basant Singh。\nS.D.C. Surain Singh。\nC.D.C. 281。\n\nD. S.\n特务科主管警官。\n\n102",
+   "zh_src": "dd79f3113c46a5f6"
   },
   {
    "n": 1,
@@ -20,7 +22,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1613/page/n1_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "发自 2\nG. 35058-1-34\n\n上海公共租界工部局警务处。\n特务科第2组。\n报告\n\n（印章：上海公共租界工部局警务处\n档案号 B: 登记处。\n编号 D. 5761\n科室：特务科\n日期 1934年1月27日\n日期 1934年3月27日。）\n\n事由（全称）：将在苏联大使馆举行的招待会。\n\n撰写人：D.S. Tcheremshansky。转呈人：D.Blu. A.I.\n\n参照附上的1934年3月27日《申报》译文，经查明，将于3月27日晚上10时在黄浦路1号苏联大使馆举行招待会。请柬已发送给当地外交和领事团体的官员，以及外侨和华人社区中的知名人士。除苏联大使馆和苏联总领事馆成员出席外，苏联中央消费合作总社（Centrosojus）、远东银行（Dalbank）以及苏联联合石油托拉斯的负责人也将参加此次招待会。\n\nJ. Tcheremshansky\nD. S.\n\n副总监，\n特务科。\n\n（批注：S2\n后续报告\n待基础\n说明之后）\n\n（批注：存查。请附录于 D.S. Sorensen 提交的报告中，并转交特务科 D.S. Makansy (S2) —— 其在场执勤人员称，活动顺利进行，未发生任何意外事件。\nABlu 3月28日。）",
+   "zh_src": "c125d1eb0f0d93f8"
   },
   {
    "n": 2,
@@ -28,7 +32,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1613/page/n2_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "1934年3月27日《申报》刊登文章的译文。\n\n苏联大使今晚宴请本地名流。\n\n- - -\n\n大使昨夜离开南京前往上海。\n\n- - -\n\n苏联驻华大使博戈莫洛夫先生将作为主人，于1934年3月27日晚上10时至1934年3月28日凌晨12时30分，在黄浦路苏联领事馆举行茶舞会。约有两百名上海各界知名人士受邀参加此次活动，其中包括上海市市长兼淞沪警备司令吴铁城将军、外交部上海办事处主任俞明先生，以及上海海关税务司唐海安先生。苏联大使于3月26日乘夜车离开南京前往上海。",
+   "zh_src": "e771741c8453d4a7"
   }
  ],
  "pages_done": 3,
@@ -39,6 +45,11 @@
   "ocr_in_tokens": 8137,
   "ocr_out_tokens": 952,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-15 03:44:45"
- }
+  "ocr_at": "2026-08-15 03:44:45",
+  "zh_in_tokens": 1198,
+  "zh_out_tokens": 797,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 3
 }

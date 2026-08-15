@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2111",
+ "title": "Huang Hsing",
+ "series": "IO Files",
+ "nara_file_no": "2",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2111",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "S. I. D. 434\nF. O. REC\nNo. 434\nDate 6/7/16\n\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE,\n(DETECTIVE BRANCH.)\n\n6th July 1916.\n\nSir,\n\nThe Kuomintang party expects Huang Hsing\nto arrive here within the next few days.\n\nThe soldiers at the Arsenal and Woosung were\npaid on 5th instant.\n\nAdmiral Sah left by the S.N.R. for Peking\nat 11 p.m. 5th instant.\n\nYour Obedient Servant,\n\n[签名]\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2111/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "S. I. D. 434\nF. O. REC\n第 434 号\n日期 1916年7月6日\n\n上海工部局。\n\n（印：上海工部局）\n警务处，\n（侦探股。）\n\n1916年7月6日。\n\n先生：\n\n国民党方面预计黄兴将于未来数日内抵达此地。\n\n兵工厂及吴淞的士兵已于本月5日领饷。\n\n萨镇冰海军上将已于本月5日晚11时乘南满铁路列车前往北京。\n\n您顺从的仆人，\n\n[签名]\n\n总探长。\n\n警务处总监。",
+   "zh_src": "e3235b4477405828"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2111/Reports%20Made%201916-1929%20-%20Huang%20Hsing%202.pdf>\n\n---\n: wo Reo \n\n\n7 ; ; MEE eee eee 3 ¥; i‘ \nShanghai Mhinicipal ani” ” \n\n\n6th Juhyg \n\n\nPovice Force, \n(Detective BRANCH) \n\n\nsir, \n\n\nThe Kuominstang party expects Huang Hsing \n\n\nto arrive here within the next few dayse \n\n\nThe soldiers at the Arsenal and Woosung were \n\n\nPaid on 5th instant. \n\n\nAdmiral Sah left by the SeN.R-. for Peking \nat 11 peme Sth instant. \n\n\nYour Obedient Servant, \n\n\noe brie wre Mee iy \n\n\nChief Detective Inspector. \n\n\nCaptain Superintendont of Police. \n\n\nSI7 6. \n\n\nBn \n\n\nPane AO CRS Yh \n\n\nwae",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2752,
+  "ocr_out_tokens": 167,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:29:46",
+  "zh_in_tokens": 399,
+  "zh_out_tokens": 153,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

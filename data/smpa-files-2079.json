@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2079",
+ "title": "General Hwang Hsin",
+ "series": "IO Files",
+ "nara_file_no": "213",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2079",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nI. O. REG\nNo. 569\nDate. 29/12/16\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nDecember 29th /19/6.\n\nSir,\nGeneral Yang has issued instructions to the troops on the Chekiang border to take special precautions in view of the trouble there. The local troops have also been taking precautions in the vicinity of the Arsenal.\nOn the 28th inst a memorial service for the late Generals Hwang Hsin and Tsai Aonwas held in the Honan Guild at which the most of the local gentry attended. Dr. Gilbert also attended.\nAdmiral Sah had a long conference with General Lu at Woosung forts on 28th inst.\nDr. Sun Yat Sen sent two deputies to Hangchow on the 28th inst and it is rumoured that their mission is to forment the present unrest.\nThe Chapei Police have received instructions to take the number of all motor cars visiting the gambling house at No.24 North Honan Rd.\n\nYour Obedient Servant,\n[签名]\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2079/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "刑事侦缉处\n情报官登记册\n编号 569\n日期：1920年12月29日\n上海工部局。\n\n（印章：上海工部局）\n警务处，\n（侦探科）\n\n1920年12月29日。\n\n先生：\n杨将军已指令驻浙江边境的部队鉴于当地局势采取特别预防措施。本地部队也在兵工厂附近采取了预防措施。\n本月28日，在河南会馆为已故的黄兴将军和蔡锷将军举行了追悼会，本地大多数士绅出席。吉尔伯特博士也出席了。\n萨 Admiral（音译）于本月28日在吴淞炮台与卢将军进行了长时间会谈。\n孙中山博士于本月28日派遣两名代表前往杭州，据传他们的任务是煽动当前的动荡局势。\n闸北警察已接到指令，记录所有前往北河南路24号赌场的汽车车牌号码。\n\n您顺从的仆人，\n[签名]\n总探长。\n\n警务总监上尉",
+   "zh_src": "dcfb8d4eb7731862"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2079/Reports%20Made%201916-1929%20-%20General%20Hwang%20Hsin%20213.pdf>\n\n---\nc. tl. Be \nXe Oo. REG \n\n\n© ! \nWNO..ccceececceses \nena 9eccebets senses \n\n\nDialb.-ceceesceees eae \n\n\nShanghai Municipal Counvil:/ \n\n\nDecember 29th AD [6B \n\n\nPo.ice Force, \n(Detective BRANCH) \n\n\nSir, \n\nGeneral Yang has issued instructions to the \ntroops on the Chekiang border to take special \nprecautions in view of the trouble there. \n\nThe local troops have also been taking precautions \nin the vicinity of the Arsenal. \n\nOn the 28th inst a memorial service \nfor the late Generais HwasAng Hsin and Tsai \nAocoxnweas held in the Honan Guild at which the most \nof the local gentry attended. Dr. Gilbert \n\n\nalso attended. \n? Admiral Sah had a long conference with \nFd General Lu at Wdbosung forts on 28th inst. \nf pr. Sun Yat Sen sert two deputies to \n\n\nHangchow on the 28th inst and it is rumoured \nthat their mission is to forment the present \nunrest. \n\n\nThe Chapei Police have received instructions \nto take the number of e211 motor cars visiting \nthe gambling houss at No.24 North Honan Rd. \n\nYour Obedient Servant, \n\n\nWU (ea lee \n\n\nChief Detective Inspector. \n\n\nCaptain Superintendent of Police.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2713,
+  "ocr_out_tokens": 281,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:20:16",
+  "zh_in_tokens": 513,
+  "zh_out_tokens": 232,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

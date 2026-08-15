@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-205",
+ "title": "Erik Friman",
+ "series": "",
+ "nara_file_no": "2381",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-205",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F 2P1 A\nG 2000-1-34\n\nSee C.Reg. (E) 911.\n\nSHANGHAI MUNICIPAL POLICE\n\nCROSS-REFERENCE SLIP\n\nSpecial Branch Reg. XXXXXX\n\nFILE NO D.4019.\n\nSUBJECT:\n\nERIK FRIMAN\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Transferred to | Crime Registry | E.911. |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | December 20, 1934. | |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-205/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "F 2P1 A\nG 2000-1-34\n\n参见 C.Reg. (E) 911。\n\n上海公共租界工部局警务处\n\n交叉参考单\n\n特别支部登记号 XXXXXX\n\n档案编号 D.4019。\n\n主题：\n\n埃里克·弗里曼（ERIK FRIMAN）\n\n| 详情 | 部门 | 档案编号 |\n| :--- | :--- | :--- |\n| 转至 | 犯罪记录室 | E.911. |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | 1934年12月20日。 | |\n\n指示见背面",
+   "zh_src": "76c5a7a676818c89"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-205/Erik%20Friman%202381.pdf>\n\n---\nWIELD Tee \n\n\n_ Fagia See C.Rege (B) 911. \n\n\nG 2000-51-34 \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \n\n\nSpecial Branch Reg. ARKAAK \nFILE NO  De4019, \n\n\nSUBJECT: \n\n\nERIK FRINAN \n\n\nPARTICULARS \"OFFICE FILE NO, \n\n\nTransferred to Crime Registry E.911. \n\n\nsit acmane a \n. \\ \nns on \nINSTRUCTIONS SEF OVER",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2734,
+  "ocr_out_tokens": 169,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:11:12",
+  "zh_in_tokens": 401,
+  "zh_out_tokens": 183,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

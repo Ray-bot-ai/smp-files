@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1959",
+ "title": "An Auction Of The Property Of The Deceased Chen Chi Mei",
+ "series": "IO Files",
+ "nara_file_no": "70",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1959",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Form 2    84\nShanghai Municipal Police.\nC. I. D.\nI. O. REG                                Central Police                Station.\nNo. 578\nDate 18. 9. 16                           September 15th,       1916.\n\nREPORT ON    An Auction of the property of the deceased Chen Chi Mei.\nor of some other members of his Revolutionary Party.\n\nMade by    D.S.I.Brewster.            Forwarded by    Chief Detective Inspector.\n\nSir,\n    An auction as above, was held in the French room Central Police\nStation compound this afternoon. The articles sold included four\nkongs of damaged bomb cases (part or the whole of which may have\nbeen seized by the French Police from time to time). Sold to\nAh Kung (阿根 ), 355 Tsipoo Road.\n    4 boxes of khaki masks.\n    1 basket of India rubber bars.\n    These masks are apparently made to be worn as respirators\nwhen assailed by poison gas. Bought by Yui Da (餘大), 600\nPeking Road.\n    Five cases of glass jars encased in perforated tin, about\nseven inches high. These are apparently for holding a liquid\nwhich would generate poison gas when broken and exposed to the\nair. Bought by Ah Kung (阿根), and Yui Da (餘大) as above.\n\n                                    Your obedient servant,\n                                    WB newton.\n                                    Detective Sub-Inspector.\n\nChief Detective Inspector.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1959/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "表格 2    84\n上海公共租界工部局警务处。\n刑事侦缉处。\nI. O. REG                                中央巡捕房                站。\n第 578 号\n日期 16. 9. 18                           1916 年 9 月 15 日。\n\n关于已故陈其美或其革命党其他成员财产拍卖的报告。\n\n由副督察布鲁斯特（D.S.I. Brewster）撰写。    由首席侦探督察转呈。\n\n先生：\n    上述拍卖于今日下午在中央巡捕房大院内的法式房间举行。拍品包括四箱破损的炸弹壳（其中部分或全部可能系法国警察不时查获）。卖予芝浦路 355 号的阿根（Ah Kung）。\n    4 盒卡其色面具。\n    1 篮印度橡胶条。\n    这些面具显然是为了在遭受毒气攻击时作为呼吸器佩戴而制作的。由北京路 600 号的餘大（Yui Da）购得。\n    五箱装在穿孔锡罐中的玻璃罐，高约七英寸。这些显然是用于盛装一种液体，该液体在破碎并暴露于空气中时会产生毒气。由上述阿根（Ah Kung）和餘大（Yui Da）购得。\n\n                                    您顺从的仆人，\n                                    W.B. 牛顿。\n                                    副侦探督察。\n\n首席侦探督察。",
+   "zh_src": "963d5c7792e1b014"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1959/Reports%20Made%201916-1929%20-%20An%20Auction%20Of%20The%20Property%20Of%20The%20Deceased%20Chen%20Chi%20Mei%2070.pdf>\n\n---\nShanghai Wunicipal Bolice. \n\n\nc. 1. OF \nSA 4 “ee «Seater: Gentral Police inti \nae... SAS. ap site een \nneti NE conn er tember  15thy —s \n\n\nD:S.-I-Brewatere ou. Forwarded by ........: Fe ae ee eee Ie \n\n\nsir, \n\nAn auction as above gras hela in the French womn Central Folice \nStation compound this afternoon. the articles sold included four \nkonces of damased bomb cases (part or the whole of which may have \nbeen seized by the French Police from time to tire). Sold to \nAh Kunr (f7 #Z ), 255 wsipoo Roar. \n\n4 boxes of lItheki masks. \n\n1 basket of Iniiea rubber hare. \n\nwhese maBlis ere apnarently made to be worn as resvirators \nwhen assatied by pois{on ras. Boucht by Yui Da ( ERK )> ess \nPekirg Read. \n\nFive cases of sless jars encased in verfcrated tin, ahbeut \n\n\neever inches hich. ahese are arnparertiy for holdinsg a liavid \n\n\nwhich would menerate noiscn fas ‘Then broker and exrosed to the \nair. Bought by Ah Kune ( (7 #@_), and Yui Da ( GEM) as adove. \n\n\nYour obedicr: servant, \n\n\naad WY pewter ~ \n\n\nDetective sut-Tneapector. \n\n\nGhief Detective Insvector.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2698,
+  "ocr_out_tokens": 334,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 16:45:22",
+  "zh_in_tokens": 566,
+  "zh_out_tokens": 334,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2130",
+ "title": "Kau Yih Fee",
+ "series": "IO Files",
+ "nara_file_no": "172",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2130",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "687\nShanghai Municipal Council.\nNovember 2nd 1916\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\nFILED\nSir,\nThe body of the late General Huang Hsing was encoffined at his residence on 1st inst.\nAll prominent rebels and a large number of Japanese attended. It is already proposed to hold a large memorial service in honour of the deceased at some future date.\nAbout 50 of the minor rebel leaders held a meeting at an Industrial Institute for the Poor Frenchtown at 3 p.m. on 1st inst. It was decided to address a letter to the Chamber of Commerce demanding $20.00 each for natives of Yunnan and $10 each for Hupeh men besides a passage ticket to their homes.\nOne of the rebel leaders named Kau Yih Fee 高一飛 is reported to be searching for suitable quarters in the vicinity of Pingchao Road in which he will establish a new Society for the promotion of the welfare of rebels.\nThe Police in the City and suburbs were paid on the 1st inst.\nOne hundred automatic pistols and 5,000 rounds of ammunition were sent from the Arsenal to Loongwha on the 1st inst.\nYour Obedient Servant,\nhuuanduwstrong\nChief Detective Inspector.\nCaptain Superintendent of Police.",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2130/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "687\n上海工部局。\n1916年11月2日\n（印：上海工部局警务处）\n警务处，\n（侦探股）\n已归档\n\n先生：\n\n黄兴将军的遗体已于本月1日在其寓所入殓。\n众多著名反叛分子及大量日本人出席了仪式。目前已有提议，拟于日后举行大型追悼会以纪念死者。\n\n本月1日下午3时，约50名次要反叛头目在法租界贫民工业学院举行会议。会议决定致函总商会，要求除提供返乡车船票外，另向云南籍人士每人发放20美元，向湖北籍人士每人发放10美元。\n\n据悉，一名名为高一飛（Kau Yih Fee）的反叛头目正在平潮路附近寻找合适房舍，拟在此建立一个新的社团，以促进反叛分子的福利。\n\n本市及郊区警员薪饷已于本月1日发放。\n\n兵工厂已于本月1日向龙华运送了一百支自动手枪及五千发子弹。\n\n您顺从的仆人，\nhuuanduwstrong\n总探长。\n警务处总监。",
+   "zh_src": "649590bf2ceda5d6"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2130/Reports%20Made%201916-1929%20-%20Kau%20Yih%20Fee%20172.pdf>\n\n---\nPo.iice Force, \n(Detective BrRancn) \n\n\n682° thr! \n\n\n2 F \n\n\nShanghai Mlaunicipal Cound: \n\n\nwOvesber 2nd SOS 6 \n\n\nSir, \n\nThe body of the late General Huang Hsing was \nencoffined at his residence on lst inst. \n\nAll prominent rebels and a large number of \nJapanese attended. It is already proposed to \nhold a large memorial service in honour of the \ndeceased at some future date. \n\nAbout 50 of the minor rebel leaders held a \nmeeting at an Inddstrial Insittute for the Poor \nwrenchtown at 3 Ppeme on lst inst. It was decided \nto address a letter to the Chamber of Gommerce \ndemanding $20.00 each for natives of Yunnan and \n$10 each for Hupeh men besides 4 passage ticket \nto their homes. k \n\nOne of the rebel leaders named Kau Yih Fee.) ~ I \nis reported to be searching for’ suitable quarters ‘/ \nin the wicinity of Pingchao Road in which he \nwill establish a new Society for the promotion \nof the welfare of rebels. \n\nTne Police in the City and suburbs were \npaid on the lst inst. \n\nOne mindred automatic pistols and 5,000 \nrounds of ammunition were sent from the Arsenal \nto Loongwha on the list inst. \n\n\nYour Obedient Servant, \n\n\n/. : a \nperce ci fad {Len tAn IVA \n\n\nvhief Detective Inspector. \n\n\nGaptain Superintendent of Police. \n\n\nASE YORI AE AN AEN NLD ET 8085 ip PRED ITV AO te BA ne \n\n\nNORE: a <LI HERD ANE ERA ABA RAIL ACL RIS ce 4",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2698,
+  "ocr_out_tokens": 308,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:38:13",
+  "zh_in_tokens": 540,
+  "zh_out_tokens": 258,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

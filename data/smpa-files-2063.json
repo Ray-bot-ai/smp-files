@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2063",
+ "title": "Faung Sung Dau",
+ "series": "IO Files",
+ "nara_file_no": "702",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2063",
+ "page_data": [
+  {
+   "n": 0,
+   "en": ". 10\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nShanghai Municipal Council.\n\nC. I. D.\nI. O. REG             2nd February       1916\nNo. 32\nDate 2 - 2\n\nSir,\n    The workmen at the Arsenal have been granted three\ndays holiday.\n    It is reported that General Yang has heard privately\nthat the Central Government intends to transfer him to\nFokien when the new year holidays have passed. It\nis said that General Yang is very displeased with this news.\n    It is reported that the police and military patrols\nin the City will be doubled to-night and during the\nnext few days.\n    It is reported that the civil Governor of Kiangsu\nhas recommended Magistrate Shen Yuen Zah 沈恩石 of\nthe City yamen for the post of Taoyin of Yangchow.\n    Acting on instructions from Peking the police\nhave ordered the residents of the City to display the new\nmonarchical flags during the new year holidays. The\nresidents are greatly perturbed because of this order\nas they do not even know what the monarchical flags are\nlike. It is said that the Nantao Chamber of Commerce\nhas taken up the matter with General Yang.\n    The Shanghai Tramway Co is thinking about starting\na motor delivery service in Shanghai. The Company's\nservants are now collecting information with a view\nto estimating whether the venture would be likely to\nprove profitable or otherwise.\n\n                        Your Obedient Servant,\n\n                        (签名)\n\n                        Chief Detective Inspector.\n\nCaptain Superintendent of Police.\n\n(手写批注：Seen by C.I.P.\nInformation filed.)",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2063/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": ". 10\n\n（印：上海工部局警务处）\n警务处，\n（侦探股）\n\n上海工部局。\n\n中央侦探署\n情报官登记册             1916年2月2日\n第32号\n日期 2 - 2\n\n先生：\n    兵工厂的工人已获准放假三天。\n    据报，杨将军私下获悉，中央政府打算在新年假期过后将其调往福建。据说杨将军对此消息甚为不满。\n    据报，华界今晚及未来数日的警力和军事巡逻将加倍。\n    据报，江苏省民政长官已推荐上海县衙门知事沈恩石出任扬州道尹一职。\n    警方奉北京方面指令，已命令华界居民在新年假期期间悬挂新的君主制旗帜。居民们因这项命令而深感不安，因为他们甚至不知道君主制旗帜是何模样。据说南市商会已就此事与杨将军进行交涉。\n    上海电车公司正考虑在上海开办汽车送货服务。该公司职员目前正在收集信息，以评估该举措是否可能盈利。\n\n                        您忠实的仆人，\n\n                        (签名)\n\n                        总探长。\n\n警察总监。\n\n(手写批注：警察总监已阅。\n资料归档。)",
+   "zh_src": "452ea2c39b8ea127"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2063/Reports%20Made%201916-1929%20-%20Faung%20Sung%20Dau%20702.pdf>\n\n---\nShanuhbai Municipal Council. \n\n\nCc. lr. pb. \nIi OQ REG 2nd Pebruary SOG 7 & \nPoutce Force, No JS sg a5, \n(Detective Brancn) Laie Toe \n\n\nSir, \n\nThe workmen at the Arsenal have been granted three \ndays holiday. \n\nIt is reported that General Yang has heard privately \nthat the Central Government intends to transfer him to \n#fokien when the nese year holidays have passed. It \nis said that General Yang is very adispleased with this news. \n\nIt is reported that the police and military patrols \nin the Gity will be doubled to-night and during the \nnext fow days. \n\nIt is reported that the civil Governor of Kiangsu \nhas recomended lhiagistrate Shen Yuen Zah voy GE of \nthe Gity yamen for the post of Taoyin of Yanechow. \n\nActing on instructions from Peking the police \nhave ordered the residents @f the City to aisplay the new \nmonarchical flags @uring the new year holidays. The \nresidents are gsroatly perturbed because of this order \nas they do not ven know what the monarchical flags are \nlike. It is said that the Nantao Chamber of Commerce \nhas taken up the matter with General Yang. \n\nThe Shanghai Tramway Go is thinking about starting \na motor delivery service in Shanghai. The Company's \nsorvants are now collecting information with a view \nto estimating whether the venture would be likely to \nprove profitable or otherwise. \n\n\nYour Obedient Servant, \nGhief Detective Inepector. \n\n\nGaptain Superintendent of POlice. \n\n\nfive by CH” \n\n\na tr fe 7p Oe LES oes 2",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2744,
+  "ocr_out_tokens": 385,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:15:56",
+  "zh_in_tokens": 617,
+  "zh_out_tokens": 283,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

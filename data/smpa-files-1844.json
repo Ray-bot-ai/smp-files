@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-1844",
+ "title": "Lang Alias Langancters, German Arms To Affected",
+ "series": "",
+ "nara_file_no": "2722",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-1844",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "P 201\n8000-7-57\nCIS B\nNo. E 247\nCENTRAL REGISTRY\nFILE No. D 105\nSUBJECT:\nLang alias Lang motuon\nSuman, anus trafficker\nNAME SENT TO DATE\nTransferred to\nCrime Registry\nE 267\n本埠四馬路\n總巡捕房台啟\n內具名",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-1844/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "P 201\n8000-7-57\nCIS B\n第 E 247 号\n中央登记处\n档案号 D 105\n事由：\nLang，又名 Lang motuon\nSuman，人口贩子\n姓名送交日期\n转交至\n犯罪登记处\nE 267\n本埠四马路\n总巡捕房台启\n内具名",
+   "zh_src": "03a049652ae851f0"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-1844/Lang%20Alias%20Langancters%2C%20German%20Arms%20To%20Affected%202722.pdf>\n\n---\n| CENTRAL REGISTRY \nFILE No. /2 JS \nSUBJECT: | \n\n\n| son és (é- é eo ae % y Ba ag sy 22 ogee \n\n\nyh sR. . C14. toll t- Ce ARE ‘4 \n\n\n: SENT TO",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2722,
+  "ocr_out_tokens": 95,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 16:10:09",
+  "zh_in_tokens": 327,
+  "zh_out_tokens": 100,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2114",
+ "title": "Huh Chung Tsung",
+ "series": "IO Files",
+ "nara_file_no": "755",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2114",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nI. O. REG\nNo. 138\nDate 4.3.26.\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nMarch 2nd 1916\n\nSir,\nBefore daybreak on 1st instant a cruiser left the Arsenal for the upper Yangtse with 1000 rifles and 30 boxes of ammunition on board.\nThe scheme for rebuilding the fort at Huh Chung Tsung 合慶鎮 Pootung has been abandoned, owing to lack of funds and the general unrest in the country.\nWith reference to the report of 1st instant regarding the arrival of a high military officer named Tsang Chi Hyuin 張繼勳 at the Arsenal, it is reported that the officer in question inspected the Arsenal barracks yesterday.\nSome friction has occurred between the troops and police in Pah Loong Kong 白龍 Pootung over the arrest of a soldier for misconduct. The troops have appealed to General Yang in the matter.\nCommencing from yesterday nobody is allowed to enter or leave the City between 12 m.n. and 6 a.m.\nHaving heard a rumour that General Feng Kwo Chang 馮國璋 was about to resign the Chamber of Commerce here has sent a telegram to Nanking requesting the General to remain at his post.\n\nYour Obedient Servant,\n\nWilliam Armstrong\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\nSeen by C.I.P.\nEntered 2nd March -",
+   "error": null,
+   "image_url": "https://archive.org/download/smpa-files-2114/page/n0_w2400.jpg",
+   "tries": 1,
+   "via": "dashscope",
+   "zh": "刑事偵查處\nI. O. REG\n第 138 號\n日期 26年3月4日\n上海公共租界工部局。\n\n（印章：上海公共租界工部局警務處）\n警務處，\n（偵探分部）\n\n1916年3月2日\n\n先生：\n\n本月1日黎明前，一艘巡洋艦載有1000支步槍和30箱彈藥，從兵工廠啟程前往長江上游。\n\n由於資金匱乏及國內普遍動盪不安，重建浦東合慶鎮砲台的計劃已被放棄。\n\n關於本月1日有關一名名為張繼勳的高級軍官抵達兵工廠的報告，據報該軍官昨日視察了兵工廠營房。\n\n在浦東白龍港，因一名士兵行為不端遭逮捕，軍隊與警察之間發生了一些摩擦。軍隊已就此事向楊將軍提出申訴。\n\n自昨日起，午夜12時至上午6時期間，任何人不得進出城區。\n\n聽聞馮國璋將軍擬辭職之謠言後，本地商會已向南京發送電報，懇請馮將軍留任。\n\n您忠實的僕人，\n\n威廉·阿姆斯特朗\n\n總探長。\n\n警務處總監。\n\n經首席督察閱畢\n3月2日登記入檔 -",
+   "zh_src": "db452267f5c32037"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2114/Reports%20Made%201916-1929%20-%20Huh%20Chung%20Tsung%20755.pdf>\n\n---\n(TE EG \nZ ‘ y \n~~ UR \noy C \neve\" \n\n\nPo.ice Force, \n(Detective BRANCH) \n\n\nDate \n\n\nJ Shanabai Municipal Conall. \n\n\nMarch ®nd \n\n\nSirs \n\nBefore daybreak on Ist instant a cruiser left the \nArsenal for the upper Yangtse with 1000 rifles and 30 \nboxes of amaunition on boarde \n\nThe scheme for rebuilding the fort at Huh Chung \nTeung & 7 Pootung has been abandened, owing to lack \nor funds and the general unrest in the country. \n\n\nWith reference to the report of lst instant recarding \n\n\nthe arrival of a high military officer named Tsans, Chi \nHyuins$#42@8, at the Arsenal, it is reported that the \nofficer in question inspected the Arsenal harracks \nyesterday. \n\nSome friction has occurred hetween the troops and \npolice in Pah Loong Kong O#~ /z Pootung over the arrost \nof a ecoldier for misconduct. The troops have appeaked \nto Goneral Yang, in the mattere \n\nCommencing from yesterday nobody is allowed to \nenter or loave the City between 12% men. and 6 aeme \n\nHaving, heard a rumour that General Feng Kwo Chang \nLE Bt was about to resign the Chamber of Commerce here \nhas dent a telesram to Nanking requesting the General \nto remain at hie pest. \n\n\nYour Obedient Servant, \n\n\nJinvewne At sti reg \n\n\nChief Petective Inspector. \n\n\nCaptain Suporintendent of Police. \n\n\noF \n\n\nDANE Ti ne em \n\n\neine. ea ern ee Stars \n\n\nke",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2744,
+  "ocr_out_tokens": 347,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 17:30:18",
+  "zh_in_tokens": 577,
+  "zh_out_tokens": 312,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}
