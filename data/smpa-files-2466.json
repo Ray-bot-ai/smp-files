@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2466",
+ "title": "Zung Zung Zen",
+ "series": "IO Files",
+ "nara_file_no": "23",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2466",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "429\n4/3/16.\nShanghai Municipal Council.\nJuly 4th 1916\n\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nSir,\n\nIt is reported that the members of the Koumingtang held a meeting at No.5 Paul Beau on 3rd instant with a view to uniting all the functions of their party.\nIt is said that they decided to disband all ex-soldiers who were being paid out of the society's funds.\nThey also decided to form a new society to be known as the Zung Zung Zen\nThe troops at the Arsenal and Woosung have not yet been paid for the month of June.\nThe Commander of the Woosung forts has reported to General Yang that the war ships outside Woosung are behaving in a suspicious manner.\nAdmiral Sah paid a second visit to Lunghwa on the afternoon of 3rd inst.\nThe newspaper guild has petitioned the President requesting him to withdraw the censorship on telegrams from different parts of the country.\n\nYour Obedient Servant,\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2466/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "429\n16年3月4日。\n上海工部局。\n1916年7月4日\n\n（印：上海工部局）\n警务处，\n（侦探股）\n\n先生：\n\n据报，国民党成员于本月3日在宝昌路5号举行会议，旨在统一该党各项职能。\n据悉，他们决定遣散所有由该党经费供养的前士兵。\n他们还决定组建一个新社团，名为“Zung Zung Zen”（音译）。\n兵工厂和吴淞的部队尚未领取六月份的薪饷。\n吴淞炮台指挥官已向杨将军报告，称吴淞外海的军舰行为可疑。\n萨海军上将于本月3日下午第二次访问龙华。\n报业公会已呈请大总统，请求撤销对来自全国各地电报的新闻检查。\n\n您顺从的仆人，\n\n总探长。\n\n警务处总监。",
+   "zh_src": "8263a03cc269b8ac"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2466/Reports%20Made%201916-1929%20-%20Zung%20Zung%20Zen%2023.pdf>\n\n---\nPouce Force, \n\n\n\\ \n\n\nLLE - \n\n\n= “y sa e. F \nShanuuahai #thinicipal Contes \n\n\nJuby 4th . \n\n\n(Detective BRANCH) \n\n\n————— \n\n\nSir, \n\n\nIt is reported that the members of the Koumingtang \nheld a meeting at NoeS Paul Beau on 3rd instant with a \nView to uniting all the functions of their party. \n\nIt is said that they decidea to disband all ex-soldiers \nWho were being paid out of the socisty'’s funds. \n\nThey also decided to form a new society to be known \n\n@s the Zung Zung Zen ° \n\nThe trcevps at the Arsenal and Woosung have not \nyet been paid for the month of June. \n\nThe Commander of the Woosung forts has reported \nto General Yang that the war ships outside Woosung are \nbehaving in a suspicious manner. \n\nAdmiral Sah paid a second vw&kBit to Lung wha \non the afternoon of Srd inste \n\nThe newspaper guild has petitioned the President \nrequesting him to withdraw the censorship on telegrams \nfrom different parts of the country. \n\n\nYour Obedient Servant, \n\n\nMere bri Al Lat nxt \n\n\nChief Detectiva Inspector. \n\n\nCaptain Superintendent of Police. \n\n\na er ere ee \n\n\nMe wAdEr Os",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2744,
+  "ocr_out_tokens": 256,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 00:10:29",
+  "zh_in_tokens": 488,
+  "zh_out_tokens": 204,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

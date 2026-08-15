@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2224",
+ "title": "Nyeu Tih Sung",
+ "series": "IO Files",
+ "nara_file_no": "33",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2224",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C: I. D:\nE. O. REG\nNo. 396\nDate 21/7/17\n\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nJuly 20th 1918.\n\nSir,\n\nSeven local Kuomintang newspapers, whose transmission through the post has been forbidden for sometime, have telegraphically requested the President to cancel the prohibition.\n\nA few Chinese socialistic leaders held a meeting in the home of Nyeu Tih Sung 鈕鐵生 on 19th inst when they discussed the formation of a socialistic party. It was decided to hold a public meeting on 21st instant.\n\nThe wages of the Arsenal workmen are two months over due but the Central Government has promised to send money to pay them in a few days.\n\nYour Obedient Servant,\n\n（签名）\nChief Detective Inspector.\n\n（批：25/7. AM）\nCaptain Superintendent of Police.\n\n（手写批注：In this case are all \"......\"）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2224/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "C: I. D:\nE. O. REG\n第 396 号\n日期 17/7/21\n\n上海工部局。\n\n（印：上海工部局警务处）\n警务处，\n（侦探股）\n\n1918年7月20日。\n\n先生：\n\n七家本地国民党报纸的邮递已被禁止一段时间，它们通过电报请求大总统取消该禁令。\n\n几位中国社会主义领袖于本月19日在鈕鐵生（Nyeu Tih Sung）家中举行会议，讨论组建社会主义政党事宜。会议决定于本月21日召开公开会议。\n\n兵工厂工人的工资已拖欠两个月，但中央政府承诺将在数日内拨款支付。\n\n您顺从的仆人，\n\n（签名）\n总探长。\n\n（批注：7月25日。上午）\n警务处总监。\n\n（手写批注：在此案中均为“......”）",
+   "zh_src": "1609333e7499f661"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2224/Reports%20Made%201916-1929%20-%20Nyeu%20Tih%20Sung%2033.pdf>\n\n---\nPouce Force, \n(Detective BRANCH) \n\n\nShanghai 4tluanic sat | GCaunril. a \nSully | 20th AGB \n\n\nSir, \n\nSeven local Kuomingtang newspapers, whose \ntransmission through the post has been forbidden \nfor sometime, have telegraphically requested the \nPresident to cancel the prohibition. \n\nA few Chinese socialistic leaders held a \nmeeting in the home of Nyeu Tih sung 47. $4 $ on \n19th inst when -hey discussed the formation of a \nSecialistic party. It was decided to hold a \npublic meeting on 2lst instant. \n\nThe wages of the Arsenal workmen are two \nmonths over due but the Central Government has \n\n\npromised to send money to pay them in a fow days. \n\n\nYour Obedient Servant, \n\n\nWt 4c ortlors \n\n\n8, VX \n: ”) WweY Chief Detective Inspector. \n\n\nGaptain Superintendent of Police. \n\n\nLZ. it af a a AS ae",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2764,
+  "ocr_out_tokens": 245,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 21:24:09",
+  "zh_in_tokens": 477,
+  "zh_out_tokens": 210,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

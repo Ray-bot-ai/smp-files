@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2187",
+ "title": "Mau Chih Ying",
+ "series": "IO Files",
+ "nara_file_no": "632",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2187",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nI. O. REG\nNo. 229\nDate 6/4/16\n\nShanghai Municipal Council.\n\nApril 5th 1916\n\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nSir,\n\nIt is reported that several ex-soldiers who have been enrolled as rebels, are now in Shanghai staying in different lodging houses in Frenchtown. They receive money for their sustenance from no.3? Amiral Bayle.\nThere are rumours in the City that an attack will soon be made on the Arsenal and residents are removing to the Settlement.\nIt is reported that a rebel leader named Mau Chih Ying has left here for Hangchow with $25,000 in order to buy over the police of that City.\nIt is said that the Arsenal Authorities suspect that the gunners have been bought over by the rebels. Commencing from yesterday nobody is allowed south of St.Catherine's Bridge after 6 p.m.\nDespite the amount of money that the rebels here are alleged to be receiving they still complain that they are short of funds.\nFour women are now employed searching female passengers on the Shanghai Nanking Railway.\nGeneral Yang has ordered the 13th and 14th regiments consisting of some three thousand men to be in readiness to start for Canton. The men comprising these regiments are at present quartered in the vicinity of the Arsenal. Two thousand men are expected to arrive here soon from Shantung and Chili to take the place of the troops who are sent away.\n\nYour Obedient Servant,\n\n（签名）\n\nChief Detective Inspector.\n\n（批：A. Ssu.）\n\nCaptain Superintendent of Police.\n\n（批：Entered on M.S. Apl. 5）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2187/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "刑事侦缉处\n情报官登记\n第 229 号\n日期 16/4/6\n\n上海工部局。\n\n1916年4月5日\n\n（印：上海工部局）\n警务处，\n（侦探股）\n\n先生：\n\n据报，几名被征募为叛军的退伍士兵现居于上海法租界内的不同客栈。他们从贝勒海军上将路3号？领取生活费用。\n市内谣传兵工厂即将遭到袭击，居民正迁往租界。\n据报，一名名为茅志英（Mau Chih Ying，音译）的叛军首领已携带25,000美元离开此地前往杭州，意图收买该城市的警察。\n据悉，兵工厂当局怀疑炮手已被叛军收买。自昨日起，下午6点后任何人不得进入圣凯瑟琳桥以南地区。\n尽管据称此地的叛军获得了大量资金，但他们仍抱怨资金短缺。\n目前有四名妇女受雇在沪宁铁路上搜查女性乘客。\n杨将军已命令由约三千人组成的第13和第14团做好出发前往广州的准备。组成这些团的士兵目前驻扎在兵工厂附近。预计不久将有二千名士兵从山东和直隶抵达此地，以接替被调走的部队。\n\n您顺从的仆人，\n\n（签名）\n\n总探长。\n\n（批：A. Ssu.）\n\n警务处总监。\n\n（批：已于4月5日录入MS）",
+   "zh_src": "8f853b73216831a0"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2187/Reports%20Made%201916-1929%20-%20Mau%20Chih%20Ying%20632.pdf>\n\n---\na ee ees \n\n\naoe | 4 \n: ‘ y Wenrenerery Op. aay Manes \na Shanghai Manivipal Counril. \nApril 5th Sod\"? \n\n\nPouce Force, \n(Detective BRANCH \n\n\n‘aaidt ais oy 32 Sir, \nIt is reported that several ex-—soldiers who have \n= been enrolled as rebels, are now in Shanrhai staying in \ndifferent lodging houses in Frenchtown. They receive \nmoney for their sustenance from No.32 Amiral Bayle. \nThore are rumours in the City that an attack \nwill soon be made on the Arsenal and residents \nare removing to the Settlement. \nIt is reported that a rebel leader named Mau Chih \nYing has left here for Hangchow with $25,000 in orcer \nto bay over the police of that City. \nIt is said that the Arsenal Authorities suspect \nthat the gunners have been bought over by the rebels. \nCommencing from Yorterday nobody 88 allowed \n: south of St.Catherine'’s Bridge after 6 PeMe \n7 ibe Despite the amount of money that the rebels \n—_ here are alleged to be-receiving they stiil complain \n: that they are short of funds. \nfour women are now employed searching female \npassengers on the Shanghai Nanking Railway. \nGeneral Yang hes ordered the 13th and 14th \nregiments consisting of some three thousand men to \nbe in readiness to start for Canton. The men \ncomprising these regiments are at present quartered \nin the wicinity of the Arsenal. ‘wo thousand \nmen are expected to arrive here soon from Shantung \nand Ghili to ta§e the place of the troops whéd are \nsent away. F \n\n\nYour Obedient Servant, \n\n\nWwW Adar \n\n\nChief Detective Inspector. \n\n\nGaptain Superintendent of POlice. \n\n\nFein awe ZZ iY Cel",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2714,
+  "ocr_out_tokens": 388,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 20:52:25",
+  "zh_in_tokens": 620,
+  "zh_out_tokens": 332,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

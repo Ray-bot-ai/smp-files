@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2356",
+ "title": "Tsang Tsi San",
+ "series": "IO Files",
+ "nara_file_no": "443",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2356",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "No\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\nShanghai Municipal Council.\nApril 5th 1916.\n（批：3/5 5/5/16）\n\nSir,\nA Sergeant named Tsang Tsi San 張其山 of the Chapel Central Police Station was arrested on 4th instant for conspiring with revolutionaries. He had spoken to some of the troops in Chapel and told them they would get double pay if they joined the rebels.\nThe rebels in Shanghai have been informed by their leaders that Yuan Shih Kai will resign soon.\nDeputy Military Governor Lu Yoong Ziang became ill yesterday morning. He thinks that his cook put some poison in his food. The cook has been placed under arrest.\nIt is reported that the troops in Chapel are not on friendly terms with the troops in Woosung.\nThere is trouble brewing between the rebel leaders in Shanghai.\nFive hundred troops arrived here at 11 a.m. 4th instant. These soldiers who are commanded by an officer named Li Loh Jau 李六橋 left for Tsung Sz in the afternoon.\nThe guard at the S.N.R. Station has been doubled since yesterday.\nIt is reported that Chen Chi Moi 陳其美 and another rebel chief named Woo Yung 吳芸 left Shanghai on May 3rd and that a telegram has now been received here to the effect that they have arrived in Shantung.\n\nYour Obedient Servant,\n（签名）\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\n（批：Forwarded on A.M. May 5.）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2356/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "编号\n（印章：上海工部局）\n警务处，\n（侦探股）\n上海工部局。\n1916年4月5日。\n（批注：3/5 16年5月5日）\n\n先生：\n\n老闸中央捕房一名名为张其山（Tsang Tsi San）的巡长，于本月4日因涉嫌与革命党人密谋而被捕。他曾在老闸向部分士兵游说，称若加入叛军，薪饷将加倍。\n\n上海的叛军已从其首领处获知，袁世凯即将辞职。\n\n副都督卢永祥（Lu Yoong Ziang，音译）昨晨患病。他认为是其厨师在食物中下毒。该厨师已被逮捕。\n\n据报，老闸的驻军与吴淞的驻军关系不睦。\n\n上海的叛军首领之间正酝酿纠纷。\n\n五百名士兵于本月4日上午11时抵达此地。这些由一名名为李六桥（Li Loh Jau）的军官率领的士兵，于下午前往松江（Tsung Sz，音译）。\n\n自昨日起，沪宁铁路车站的警卫力量已增加一倍。\n\n据报，陈其美（Chen Chi Moi）及另一名名为吴芸（Woo Yung，音译）的叛军首领已于5月3日离开上海，且此处现已收到电报，称二人已抵达山东。\n\n您顺从的仆人，\n（签名）\n总探长。\n\n警务处总监。\n\n（批注：于5月5日上午转发。）",
+   "zh_src": "508b1f42f47b5080"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2356/Reports%20Made%201916-1929%20-%20Tsang%20Tsi%20San%20443.pdf>\n\n---\nPouce Force, \n(DeTEcTIVE Brancn) \n\n\nSir, # \nA Sergeant named Tsang Tsi San $% “lor the \nChapei Central Police Station was arrosted on \n4th instant for conspiring with revolutionaries. \nHe ha@g spoken to some of the troops in Chapei \nand told them they would get double pay if the \njoined the rebels. \nThe rebels in Shanghai have boon informed \nby their leaders that Yuan Shih Kai will resign soone \n\nDeputy Liilitary Governor Lu Yoong Ziang \nbecame ill yesterday morninge e thinks that \nhis cook put some poison in his food. The cook \nhas been placed under arroste \n\nIt is reported that the troops in Chapei are not \non friendly terms with the troops in Woosung. \n\nThere is trouble brewing between the rebel \nloaders in Shanghai. \n\nFive mMindred troops arrived here ay 11 aeme 4th \ninstant. These soldiers who are commandod by an \nofficer named Li Loh Jaugy tA eft for Tsung Sz \nin the afternoone \n\nTie guard at the S.N. R. Station has bcen \ndoubled since yesterday. ARG \n\nIt 18 reported that Ghen Chi_lici [REF ana \nanother rebel chief named Woo Yung & = loft Shanghai \non way 3rd and that a telegram has now boen \nteceived here to the cffect that they have arrived \nin Shantung. \n\n\nYour Obedient Servant, \n\n\na - MWA hore, \n\n\n| a phe Ghiof Dotoctive Inspectore \n\n\n- \n\n\nCaptain Superintendent of POlice. \n\n\nLe rey a+ PLES (PPtheg",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2758,
+  "ocr_out_tokens": 357,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 22:48:24",
+  "zh_in_tokens": 589,
+  "zh_out_tokens": 351,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

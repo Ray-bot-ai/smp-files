@@ -12,7 +12,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-123/page/n0_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "D-7393",
+   "zh_src": "c4e8de5c2991c277"
   },
   {
    "n": 1,
@@ -20,7 +22,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-123/page/n1_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "F.M. 2\n6. 40M 9 35\n\nZOZ-C\n上海公共租界工部局警务处。\n档案号 ...\n特务科第2组/djoh/\n报告\n日期... 1936年5月... 9日...\n\n主题... 荷兰总领事馆1936年4月30日来函，涉及：N. L. SENDEROFF。\n由特别调查员普罗科菲耶夫（Prokofiev）呈报 经 I. S. J. （签名）转呈\n\n经查，Naum Lazarevitch SENDEROFF 系犹太裔俄国人，1889年1月6日出生于南俄基辅。据报他于1928或1929年间某时从苏联抵达满洲，并与其兄弟在哈尔滨经营一家小型珠宝店。1930年他们从哈尔滨抵达上海，此后一直居住在本市。起初，他与 I. A. Ilitovitch 合伙经营类似业务，后者目前拥有位于霞飞路867号的一家珠宝店。由于在商业事务上发生分歧，N. L. Senderoff 与 Ilitovitch 之间发生争吵，导致前者被第二特区法院以“威胁和侮辱”罪名起诉，并于1933年11月28日被判处20美元罚款或监禁10天。\n\n在与 Ilitovitch 断绝关系后，据报 N. L. Senderoff 在霞飞路719号独立经营小本生意，直至约八个月前，此后他一直以佣金方式从事手表、宝石等交易。另据报，经常有人在 auditorium（原文不清，可能指某娱乐场所或礼堂）的海莱（Hai Alai）赌局中见到他。他目前的地址是霞飞路915号。\n\n1931年两次及1933年一次，本地公安局向 Senderoff 签发护照，以便其前往哈尔滨；1931年9月10日，他从同一机构获得第447号外国护照，有效期涵盖前往德国、法国及返回的行程。然而，调查显示，本地法国领事馆的记录中没有任何关于向 Senderoff 签发签证的内容，且他不太可能在上海获得德国签证。",
+   "zh_src": "ab48b6477d0c0172"
   },
   {
    "n": 2,
@@ -28,7 +32,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-123/page/n2_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "F.M. 2\n4. 40M-9 35\n\n上海公共租界工部局警务处。    档案号..........\n                               分局，\n            报告             日期....................19\n\n主题.......................................................................\n\n呈报人...........................转呈人...\n                                 -2-\n\n目前，他持有荷兰总领事馆信函中提及的公安局护照第5936号。\n    在上海期间，他未因涉及政治性质的活动而引起工部局警务处的注意。\n    关于与 Senderoff 一同访问荷兰总领事馆的 S. M. Brinberg，可靠消息称，此人最近从天津法国领事馆获得了法国签证，但在收到有关其背景的进一步信息后，该签证被同一当局撤销。\n\nDBR\n930                                A. Prokofiev.\n                                   特别调查员\n\n特务科主管警官。",
+   "zh_src": "51afc6d269fd81c9"
   },
   {
    "n": 3,
@@ -36,7 +42,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-123/page/n3_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "荷兰驻华中总领事馆\n电话：AC. HOLLANDIA。\n第1660号。\n\n上海，1936年5月13日。\n\n先生：\n\n谨此确认收到您本月9日关于 I. L. Senderoff 的第 D. 7393 号来函，并感谢其中所载信息。\n\n鉴于不利情报及其与 S. A. Brinberg 的密切关系，将拒绝签发进入荷属东印度的签证。\n\n此致\n\n敬礼\n\n您的顺从仆人，\n\n总领事。\n\n存档\n12\n\nT. Robertson 先生，\n特务科主管警官，\n上海公共租界工部局警务处，\n上海。",
+   "zh_src": "d4cb99e380673501"
   },
   {
    "n": 4,
@@ -44,7 +52,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-123/page/n4_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "7393\n10 5 36\n\n1936年5月9日。\n\n先生：\n\n谨此确认收到您1936年4月30日第1511号来函，并随函附上关于 N.L. Senderoff 的报告副本一份，供贵方参考。\n\n此致\n\n敬礼\n\n您的顺从仆人，\n\n特务科主管警官。\n\nJ. Van den Berg 先生，\n荷兰总领事馆，\n上海。",
+   "zh_src": "2b16e19a23417631"
   },
   {
    "n": 5,
@@ -52,7 +62,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-123/page/n5_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "荷兰驻华中总领事馆\n电话：AD. HOLLANDIA。\n\n第1511号。\n\n上海，1936年4月30日。\n\n先生：\n\n谨此通知您，Naum Laseroff SENDEROFF 已向本总领事馆申请进入荷属东印度的签证。\n\n他持有1935年5月17日由上海公安局局长签发的第5936/259518号护照，仅有效用于前往日本大连及返回。\n\n根据该护照，他出生于基辅，出生日期为1990年1月6日（原文如此，疑为1890或1889之误）。\n\n他自称居住在霞飞路915号，从事珠宝和手表生意。\n\n他打算探望其侄女 M.J. Mizrahi 夫人（娘家姓 Rikoff），后者居住在泗水（Sourabaia），其丈夫在泗水拥有一家进出口公司“Java China Trading Co.”。\n\nSenderoff 在 Szmul Mowsza BRINBERG 的陪同下到访本领事馆，Brinberg 也打算探望 M.J. Mizrahi 夫人。Brinberg 曾于1935年11月申请签证，然而鉴于其此前在远东参与非法毒品贸易的活动，签证被拒。（参见您1934年11月27日第D.6254号信函，1935年12月10日第D.4841号信函）。\n\n12\n/\n42\n\n如蒙告知是否从政治或道德角度掌握任何对 Senderoff 不利的信息，本人将不胜感激。\n\n此致\n\n敬礼\n\nT. Robertson 先生，\n特务科主管警官，\n上海公共租界工部局警务处，\n\nD.S.S. Grohofio.\nJ.L. ½\n\n上海。\n\n您的顺从仆人，\n\n—中文秘书。",
+   "zh_src": "16290a52b6f26865"
   }
  ],
  "pages_done": 6,
@@ -63,6 +75,11 @@
   "ocr_in_tokens": 16298,
   "ocr_out_tokens": 1601,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-14 21:02:15"
- }
+  "ocr_at": "2026-08-14 21:02:15",
+  "zh_in_tokens": 1867,
+  "zh_out_tokens": 1417,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 6
 }

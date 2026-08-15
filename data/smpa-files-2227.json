@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2227",
+ "title": "Nyeu Tih Sung",
+ "series": "IO Files",
+ "nara_file_no": "609",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2227",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Referred to Commandant S.V.C. for information.\n（批：C.S.P.）\nNo 212 25/4/16\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n（批：Please return this slip to the CENTRAL REGISTRY when finished with.）\nShanghai Municipal Council.\nC. I D.\nI. O. REG\nNo. 283\nDate 25th April 1916.\n\nSir,\nThere was further fighting to the north of Woosieh on the morning of April 24th between republican troops from Kiangyin and the soldiers of the Government. The Republicans were driven back towards Kiangyin and there is now no further menace to the safety of the Railway. The two points on the line Wangting and a point north of Woosieh where there were chances of an attack being pushed through are now entirely clear of rebel soldiery. The Kiangyin party is retreating towards its base and the party which was dispersed from Wukiang and which later showed indications of regathering at Wangting is now apparently heading for Huchow in the Chekiang province where Nycu Tih Sung 鈕鐵生 is said to be endeavouring to establish his headquarters.\nThe train service to Nanking was resumed last evening.\nIt is reported that Han Hwei 韓恢 left for Kompo with thirty men on 24th instant.\nIt is reported that two of the workmen in the gun factory at the Arsenal were arrested on 24th inst, for having bottles of sulphuric acid in their possession.\n\nYour obedient servant,\n（签名）\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n（签名）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2227/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "转交义勇军指挥官知悉。\n（批注：C.S.P.）\n第212号 1916年4月25日\n（印章：上海工部局）\n警务处，\n（侦探科）\n（批注：使用完毕后请将此单退回中央登记处。）\n上海工部局。\n刑事调查科。\n情报官登记处\n编号 283\n日期 1916年4月25日。\n\n先生，\n4月24日上午，来自江阴的共和派军队与政府军在吴淞以北地区再次发生战斗。共和派军队被击退至江阴方向，目前铁路安全已无进一步威胁。铁路上曾面临攻击突破风险的两个地点——王亭以及吴淞以北某地——现已完全清除叛军士兵。江阴方面的部队正向其基地撤退；此前从吴江溃散、后在王亭显露重新集结迹象的那支部队，目前显然正前往浙江省湖州，据说钮铁生（Nycu Tih Sung）正试图在那里建立总部。\n通往南京的列车服务于昨晚恢复。\n据报，韩恢（Han Hwei）于本月24日率领三十人前往龚家坡（Kompo）。\n据报，兵工厂枪炮厂的两名工人于本月24日因持有硫酸瓶而被捕。\n\n您顺从的仆人，\n（签名）\n首席侦探督察。\n\n警务处总监。\n（签名）",
+   "zh_src": "7ac00fe289e60a90"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2227/Reports%20Made%201916-1929%20-%20Nyeu%20Tih%20Sung%20609.pdf>\n\n---\n. Referred to Commandant S$.V.C. for information. \n\n\nSoachik Musieipat Council. \n\n\nCG. f Bx \ni- GO. REG \n\n\nFt Oe a \n\n\nBate. Miss MBs 25th Aprid ____. (97 8- \n\n\nPouce Force, \n(Detective Brancn) \n\n\nSirs \n: There was further fighting to the north of Woosieh on \nthe morning of April 24th between republican troops from \nKiangyin and the soldiers of the Governmente The Ropublicans \n\nwere driven back towards Kiangyin and there is now no \nfurther menace to.the safety of the Railway. The two points \non the line Wangti and a point north of Woosieh ghere \nthere were chances @f an attack being pushed through are \nnow entirely clear 6f rebel soldiery. The Kiangyin party \nis retreating to 2 its wase and the party which was \n@ispersed from bg and which later whowed indications \nof regathering at ng is now aprarently heading Bi 9 \ney Huchow in the Ghekiang province where Nyeou Tih Sung DFR. \nb i¢ is said to be endeavouring to establish his headquarters. \n‘- The train servige to PE gee 8 resumed last evening. \n; It is reported that Han Hwei ol 7 4, Left for Kompo \ngee with thirty men on 24th instant. \n\nIt is reported that two of the workmen in the gun \nfactory at the Arsenal were arrested on 24th inst, for \nhaving bottles of sulpmiric acid in their possession. \n\n\nWour obedient servant, \n\n\n| Panpatrnateng \n\n\nGhief Detcctive Inspector. \n\n\nCaptain Superintendent of Police.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2713,
+  "ocr_out_tokens": 381,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 21:24:53",
+  "zh_in_tokens": 613,
+  "zh_out_tokens": 320,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

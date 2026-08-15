@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2407",
+ "title": "Woo Sung Pao",
+ "series": "IO Files",
+ "nara_file_no": "640",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2407",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nP. O. REG\nNo. 215\nDate 31/3/16\n\nShanghai Municipal Council.\n\nMarch 30th 1916.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE (DETECTIVE BRANCH)）\n\nSir,\nThe Arsenal Authorities have received information that a rising will take place on 1st proximo. Enquiries in rebel circles have failed to elicit any confirmation of this news.\nIt is reported that the Chinese Post Offices has received instructions not to allow the following newspapers which are printed in Yunnan, to pass through the post:- Woo Sung Pao 華聲報 Koh Sz Pao 國是報 Dzoong Koh Pao 崇實報。\nTwo hundred troops from the Arsenal have been distributed among Zau Woo Ching 曹万泾 Ong Jao 虹橋 and Tsih Pao 七宝 villages.\nOne thousand soldiers left the Arsenal for Nanking by the s.s. \"Kiang Kwen\" on 29th instant.\nThe recruits who have come to Woosung from the North, will be sent to the Arsenal where they are trained.\nIt is rumoured that the heads of Austrian and German firms in Shanghai held a meeting in the Club Concordia on 29th instant for the purpose of discussing the attitude they will adopt towards Portuguese employees in view of Portugal having joined the allies.\n\nYour Obedient Servant,\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2407/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "刑事调查处\n警察局登记号\n第 215 号\n日期 1916年3月31日\n\n上海工部局。\n\n1916年3月30日。\n\n（印：上海工部局警务处（侦探股））\n\n先生：\n\n兵工厂当局收到情报，称下月1日将发生暴动。经在反叛分子圈子中查询，未能证实此消息。\n\n据报，中国邮政局已接到指令，禁止下列在云南印刷的报纸通过邮政系统寄送：《华声报》、《国是报》、《崇实报》。\n\n兵工厂的两百名士兵已部署在曹万泾、虹桥和七宝等村庄。\n\n一千名士兵于本月29日乘坐“江宽”轮离开兵工厂前往南京。\n\n从北方来到吴淞的新兵将被送往兵工厂接受训练。\n\n有谣言称，鉴于葡萄牙已加入协约国，在上海的奥地利和德国商号头目于本月29日在协和会俱乐部举行会议，讨论他们将如何对待葡萄牙籍雇员。\n\n您忠实的仆人，\n\n总探长。\n\n警务处总监。",
+   "zh_src": "94e3dcc20717e17b"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2407/Reports%20Made%201916-1929%20-%20Woo%20Sung%20Pao%20640.pdf>\n\n---\nPouce Force, \n(Detective BRANCH) \n\n\nx \n\n\nzx. \nWe. \nPate... iizm \n\n\nShanghai Manicipal Counril: \n\n\n_ March 30th  /G78- \n\n\nsbhr Pe \n\nThe Arsenal Authorities have received information \nthat a rising will tage Place on ist proximo. \nEnquiries in rebel c les have failed to elecit \n\n\nany confirmati of this news. \nIt is reported that the Chinese Post Offices has \n\n\nreceived instructions not to allow the following \n\n\nnewspapers which are printed in yy to pass \nthrough the post:= Woo Sung Pao BH $R Kon Sz Pao Asan \n\n\nro) \nDzoong Koh Pao “ ° \n\nTwo hundre oops from g%he Arsenal have oping \ndistributed among Zau Woogthing | /5 /4 Ong Jao 4a \nand Teih Pao ¢'s: willages. \n\nOne thousand soldiers left the Arsenal for \nNanking by the 8-5-< \"Kiang Kwen\" on 29th instante \n\nThe recruits who have come to Woosung from \nthe North, will be sent to the Arsenal where they - \nare trained. \n. It 4s rumoured that the heads of Austrian and \nGerman’ firms in Shanghai held a meeting in the Club \nGoncordia on 29th instant for the purpose of discussing \nthe attitude they will adopt towards Portuguese \nemployees in view of Portugal having joined the allies. \n\n\nYour Obedient Servant, \n\n\ni , \n\n\nChief Detective Inspector. \n\n\nGaptain Superintendent of Policee \n\n\ni \n$ \n3 \n\n\n|",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2708,
+  "ocr_out_tokens": 328,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 23:50:52",
+  "zh_in_tokens": 560,
+  "zh_out_tokens": 259,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

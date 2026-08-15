@@ -12,7 +12,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1226/page/n0_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "D 9298",
+   "zh_src": "bbf537cbbbf76a20"
   },
   {
    "n": 1,
@@ -20,7 +22,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1226/page/n1_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "23147\n\n《字林西报》 - 1937年6月4日。\n\n遗失声明\n遗失，由苏联驻哈尔滨领事馆于1925年签发的护照，持照人姓名为娜塔莉·A·卡巴诺娃（Natalie A. Kabanova）。上述护照特此声明作废。\n-8013",
+   "zh_src": "081dcd944dd34599"
   }
  ],
  "pages_done": 2,
@@ -31,6 +35,11 @@
   "ocr_in_tokens": 5459,
   "ocr_out_tokens": 87,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-14 21:01:08"
- }
+  "ocr_at": "2026-08-14 21:01:08",
+  "zh_in_tokens": 326,
+  "zh_out_tokens": 104,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

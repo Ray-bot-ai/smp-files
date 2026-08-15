@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2242",
+ "title": "Pak Vung Wei",
+ "series": "IO Files",
+ "nara_file_no": "645",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2242",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nI. O. REG\n224\nDate 4/4/16\n\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE,\n(DETECTIVE BRANCH.)\n\n2nd April 1916.\n\nSir,\nOwing to a report that the rebels intended to attack\nthe Arsenal last night, extraordinary precautions were\ntaken in Chinese territory.\nEight soldiers were placed on guard at the telegraph\noffices on the Chinese Bund yesterday, as it was feared\nthat the rebels may try to take the place.\nIt is reported that the rebels in Shanghai have\nreceived a large sum of money within the past few days\nfrom Sun Yat Sun.\nIt is reported that a rebel leader named Pak Vung\nWei 柏文尉 will start a Republican Newspaper in French-\ntown.\nPrecautions will be again taken on the same scale\nboth to-night and to-morrow night and there does seem at\npresent to be much chance of a rebel success even if, as\nreported, they have bought over the soldiers in the Hoo\nChing Ying camp at the end of the Chinese Bund. The\nMilitary Authorities are confident that they have the\nsituation in hand.\n\nYour obedient servant,\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\nEntered on m.s. apl. 2/16.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2242/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "刑事侦缉处\n情报官登记簿\n224\n日期 1916年4月4日\n\n上海工部局。\n\n（印：上海工部局）\n警务处，\n（侦探科。）\n\n1916年4月2日。\n\n先生：\n\n鉴于有报告称叛军意图于昨夜袭击兵工厂，华界方面已采取特别防范措施。\n\n昨日，八名士兵被部署在外滩华界段的电报局担任警卫，因为担心叛军可能试图占领该地。\n\n据报，上海的叛军在过去几天内从孙逸仙（Sun Yat Sun）处获得了一大笔款项。\n\n据报，一名名为柏文尉（Pak Vung Wei）的叛军首领将在法租界创办一份共和派报纸。\n\n今晚及明晚将再次采取同等规模的预防措施。目前看来，即使如传闻所称，他们已收买了位于外滩华界段尽头的沪军营（Hoo Ching Ying camp）的士兵，叛军成功的可能性也不大。军事当局确信局势已在掌控之中。\n\n您顺从的仆人，\n\n总探长\n\n警务处总监\n\n录入于手稿，1916年4月2日。",
+   "zh_src": "9e6d58b9c4268b83"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2242/Reports%20Made%201916-1929%20-%20Pak%20Vung%20Wei%20645.pdf>\n\n---\n— Ct. De \n\n\nAP —— me LAE. \n\n\nShanghai Municipal Conneil. \n\n\nPouce Force, \n(Detective Brancn) \n\n\nS . \n~ \n\n\nSir : \n\n* owing to a report that the rebels intended to attack \n\nthe Arsenal last night, extraordinary precautions were \ntaken in Ghinese torritory. : \n\nBight soldiers were placed on guard at the telegraph \noffices on the Ghinese Bund yesterday, as it was fearcda \nthat the rebels may try to take the place. \n\nIt is reported that the rebels in Shanghai have \n\n- received a large sum of money within the past:.few days \n. from Sun Yat Sun. \n\n\ntt is_roported that a rebel leader named Pak \nWei a x \n\n\ntown. \nPrecautions will be again taken on the same scale \nboth to-night and to-moyyow nizht and there does seem at \npresent to be mich chance of a rebel euccess ewen if, as \nreported, they havwe bought ower the soldiers in the Hoo \nGhing Ying camp at the cond of the Ghinese Bund. The \n\n\nMilitary Authorities are confident that they hawe the \nsituation in hand. \n\n\nYour obe@ient serwant, \n\n\nGhier Detectiwe Inspoctor. \n\n\nOm \n\n\nGaptain Superintendent of Police. \n\n\n____ 2nd@ April _ S G76 \n\n\n¢ will start a Republican Newspaper in French- \n\n\nFL AAROE EG,",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2714,
+  "ocr_out_tokens": 301,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 21:37:04",
+  "zh_in_tokens": 533,
+  "zh_out_tokens": 267,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

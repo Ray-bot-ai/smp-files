@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2241",
+ "title": "Pah Vung Wei",
+ "series": "IO Files",
+ "nara_file_no": "1053",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2241",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "FILED\nC. I. D.\nI. O. REG\nNo. 951\nDate 27.2.17\nShanghai Municipal Council.\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH.)\n27th February 1917.\n\nSir,\nGeneral Lu visited the naval officers near\nthe Arsenal on the forenoon of 26th inst.\nIt is reported that the Deputy Minister\nof Naval Affairs and General Lu will visit\nWoosung to-day.\nPah Vung Wei 柏文蔚 returned from Hangchew\nat noon 26th inst.\nAt 4.30 p.m. 26th inst 18 leading members\nof the local Koumingtang party met in the home of\nDr. Sun Yat Sen No.63 Route Valloon for the\npurpose of deciding ways and means to persuade\nthe Government to refund the expenses incurred\nby Dr. Sun Yat Sen in promoting the last\nrebellion. They decided to telegraph to Peking\npointing out the urgency of the claim and to\nthe Chinese emigrants asking for their support\nin the matter. Those present at the meeting\nincluded Tang Shao Yi 唐紹儀 Wong Tsin\nWei 汪精衛 Ho Hai Ming 何海鳴 Wong Rsoong\nWei 王寵惠 Tsong Sau Liang 莊少良 Ong Zung Tien 翁縱天\nand Zau Nyan Pah. 趙念伯\n\nYour Obedient Servant,\n（簽名）\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2241/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "归档\n刑事侦缉处\n情报官登记册\n编号 951\n日期 1917年2月27日\n上海工部局。\n（印章：上海工部局警务处）\n警务处，\n（侦探科。）\n1917年2月27日。\n\n先生：\n本月26日上午，卢将军拜访了兵工厂附近的海军军官。\n据报，海军部次长与卢将军将于今日前往吴淞。\n柏文蔚于本月26日中午从杭州返回。\n本月26日下午4时30分，当地国民党18名主要成员在孙中山博士位于华伦路63号的寓所集会，旨在商定促使政府偿还孙博士在发动上次叛乱期间所产生费用的方法与途径。他们决定向北京发电报，强调该索赔要求的紧迫性，并向海外华侨发电报，请求他们在此事上给予支持。出席会议者包括唐绍仪、汪精卫、何海鸣、王宠惠、庄少良、翁纵天以及赵念伯。\n\n您顺从的仆人，\n（签名）\n总探长。\n\n警务处总监",
+   "zh_src": "c38dd0be321aaeee"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2241/Reports%20Made%201916-1929%20-%20Pah%20Vung%20Wei%201053.pdf>\n\n---\n. . — \n\n\ne \n\n\nShanghai Mhmicipal Council, \n\n\n27th February ss . \n\n\nPouce Force, \n(Detective Brancn) \n\n\nSir, \nGeneral Lu visited the naval officers near \nthe Arsenal on the forenoon of 26th inst. \nIt is- reported that the Deputy Minister \nof Naval Affairs and General Lu will visit \nWoosung to-day. 5 ; - \nPah Vung Wei KbxE returned from Hangchéw \nat noon 26th inst. ‘ 8 ; \nAt. 4.50 poem. 26th inst 18 leading members 5 \nof the local — — Party met in the home of \nDF. Sun Yat Sen No.63 Routo Valloon for the \npurpose of deciding ways and means to persuace \nthe Government to refund the expenses inourred \nby Dr. Sun Yat Sen in promoting the last \nrebellion. They decided to telegrah to Peking \npointing out the urgency of the claim and to “3 \nthe chinese omigrants asking for their. support 2 \nun tho matter. Those present at the meoting 5 \nincluded, Zang Shao Eig oe Wong Sin \nT Ed gg eomag \n3: 0 ang em + — \nand A Nyan n- E r \n\n\nu Nyan \n4 Your Obedient Servant, \n— \n* Aldi us lu cu u- Ai \n. Chief Detective Inspector. \n\n\nGaptain Superintendent of Police.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2734,
+  "ocr_out_tokens": 359,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 21:36:53",
+  "zh_in_tokens": 591,
+  "zh_out_tokens": 256,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

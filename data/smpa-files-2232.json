@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2232",
+ "title": "Nyeu Tih Sung",
+ "series": "IO Files",
+ "nara_file_no": "1399",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2232",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Referred to Commandant, S.V.C. for information.\n（批：… C.S.P.）\nShanghai Municipal Council.\nF. O. REG\nNo. 183\nDate 21/3/16\n17th March 1916\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH.)\n\nSir,\nThe Chinese Authorities having received information that the rebels intended to start a rising within the next few days, extraordinary precautions are being taken in the City and Chapel.\n\nNyeu Tih Sung 鈕 鐵 生 , Head of the Anti-Yuan-Army in Shanghai, is at present on a visit to Sungkiang where he is said to be reorganising the rebel forces.\n\nFour hundred and fifty troops with two machine guns left Woosung for Quinsan on 15th instant.\n\nA young man of the student class was arrested in the vicinity of the Arsenal at 10 p.m. 15th instant. When searched, a map of the Arsenal and surrounding country was found in his possession.\n\nIt is reported that Kwangsi declared independence the day before yesterday.\n\nIt is said that the rebels in Shanghai have received $200,000 within the past few days.\n\nIt is strongly reported that a son of Yuan Shih Kai, but which one is not stated, visited the Arsenal within the past few days, but has now returned to the North. He is said to have been accompanied by one of Chiangchun Feng's officers.\n\nYour obedient servant,\n（签名）\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2232/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "转交上海万国商团司令官知悉。\n（批：… C.S.P.）\n上海工部局。\nF. O. REG\n第 183 号\n日期 1916年3月21日\n1916年3月17日\n\n（印：上海工部局警务处）\n警务处，\n（侦探科。）\n\n先生：\n\n中国当局获悉叛军拟于数日内发动起义，故在上海县城及城隍庙地区正采取特别防范措施。\n\n上海反袁军首领钮铁生目前正访问松江，据称他正在那里重组叛军部队。\n\n四百五十名士兵携两挺机枪于本月15日离开吴淞前往昆山。\n\n一名学生模样的青年于本月15日晚10时在兵工厂附近被捕。经搜查，发现其身上藏有兵工厂及周边地区的地图。\n\n据报道，广西于前日宣布独立。\n\n据悉，上海的叛军在过去几天内已收到20万美元。\n\n有强烈消息称，袁世凯的一个儿子（未指明是哪一位）于近日访问了兵工厂，但现已返回北方。据说他由张作霖的一名军官陪同。\n\n您忠实的仆人，\n（签名）\n总探长。\n\n警察总监",
+   "zh_src": "a17fb8d0056174b1"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2232/Reports%20Made%201916-1929%20-%20Nyeu%20Tih%20Sung%201399.pdf>\n\n---\n-* Pouce Force, \n\n\nReferred to Commandant, S.V.C. for information. \nZ a end ee \n~. j COS gg te 2 Bs \nShanabat Mlinicipal Guawil. ~ \n\nee x: O, REG \n\n\n5D \n\n\n17th March SDP 6B \n\n\n(Detective BRANCH) \n\n\nSirs, \n\nThe Chinese authorities having received information \nthat the rebels intended to start a rising within the \nnext few days, extraordinary precautions are being taken \nin the City and Chapei. \n\nNyeu Tih sung 4g 44 4 , Mead of the Anti-Yuan-Army \nin Shanghai, is at present on a visit to Sungkiang where \nhe is said to be reorganising the rebel forces. \n\n\nFour hundred ana fifty troops with two machine guns \nlert Woosung for Quinsan on 15th instante \n\n\nA young man of the student class was arrestea in the \nvicinity of the Arsenal at 10 peme 15th instant. When \n\n\nsearched, a map of the \nfound in his possessione \n\n\nIt is reported that Kwangsi declared independence the \n\n\nday before yesterday. \n\ntt is said that the rebels in Shamghai have received \n$200,000 within the past few dayse \nthat a son of Yuan Shih Kai, \n\n\nIt is strongly reported \n\n\nbut which one is not stated, \npast few days, but has now ret’ -ned to the North. He is \nsaid to have been accompanied ty one of Chiangchun Feng's \n\n\noi ficerse \nYour obedient servant, \n\n\nWane lrg \n\n\nChief Detective Inspectore \n\n\nCaptain Superintendent of Police. \n\n\nArsenal and swrrounding country was \n\n\nvisited the Arsenal within the \n\n\nNineteen Ala enpeeae on Ay \n\n\naver aettn \n\n\nu",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2689,
+  "ocr_out_tokens": 361,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 21:26:32",
+  "zh_in_tokens": 593,
+  "zh_out_tokens": 280,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

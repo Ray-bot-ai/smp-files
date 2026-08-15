@@ -12,7 +12,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-2166/page/n0_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "刑事调查处\n收件登记\n641\n1916年10月12日\n\n编号\n上海工部局。\n\n（印：上海工部局警务处）\n警务处，\n（侦探股。）\n\n1916年10月12日\n\n先生：\n\n杨将军已拨出1,000元，用于在其麾下部队中分发。\n\n本月11日中午，吴淞的卢将军拜访了杨将军，与其商讨向北京调动部队的事宜。\n\n据报，兵工厂于本月11日收到来自北京的电报指示，要求制造大量自动手枪，以便在冬季月份配发给北京及北方的警察。\n\n军事侦探凌子芳（Ling Sz Fong，音译），其总部设在灵肯路1号（No.1 Ling King Road），据称受张勋将军资助，已于本月11日乘早班火车离开上海前往徐州府。\n\n遣返办公室以及叛乱首领的住所不断有贫困的叛乱分子前来造访， clamouring for monetary assistance（喧闹着要求金钱援助）。因此，叛乱首领们已向杨将军递交了一封长信，敦促立即分发这笔款项。\n\n油漆工罢工事件仍未解决。\n\n一名德国人E.H.Eickhoff，其在九江路16号设有办事处，于上周末途经南京前往北京。\n\n您顺从的仆人，\n\n威廉·阿姆斯特朗\n首席侦探督察。\n\n警察总监。\n\n（批注：录入于1916年10月12日的每日统计第7项）\n（批注：D/E）\n（批注：AM）",
+   "zh_src": "68caa216591cc577"
   }
  ],
  "pages_done": 1,
@@ -23,6 +25,11 @@
   "ocr_in_tokens": 2752,
   "ocr_out_tokens": 401,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-15 19:37:15"
- }
+  "ocr_at": "2026-08-15 19:37:15",
+  "zh_in_tokens": 633,
+  "zh_out_tokens": 358,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

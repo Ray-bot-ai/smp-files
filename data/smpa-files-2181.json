@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2181",
+ "title": "Lu Yoong Ziang",
+ "series": "IO Files",
+ "nara_file_no": "110",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2181",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "No\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE (DETECTIVE BRANCH)）\nNo... 5/5\n14/8/16.\nShanghai Municipal Council.\nAugust 12th 191^8\nSir,\nIt is reported that three representatives of the\nManchu Restoration Party have been in Woosung since\n10th instant negotiating with Deputy Military Governor\nLu Yoong Ziang.\nIn consequence of instructions from the Central\nGovernment to make arrangements to send a regiment\nof cavalry to Manchuria, General Yang has ordered\nthe 4th cavalry regiment at present stationed in\nSungkiang to hold itself in readiness to depart\nfor that place.\nEight Arsenal mechanics left for Hangchow\nthis morning.\nIt is reported that the Arsenal Authorities\nwill test guns to-day.\nYour Obedient Servant,\nWilliam Armstrong\nChief Detective Inspector.\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2181/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "编号\n（印章：上海公共租界工部局警务处（侦探股））\n编号…… 5/5\n16年8月14日。\n上海公共租界工部局。\n191^8年8月12日\n先生：\n据报，满清复辟党三名代表自本月10日起一直在吴淞，与副督军卢永祥进行谈判。\n鉴于中央政府已下达指令，要求安排派遣一个骑兵团前往满洲，杨将军已命令目前驻防松江的第四骑兵团做好出发前往该地的准备。\n兵工厂八名技工于今晨启程前往杭州。\n据报，兵工厂当局将于今日测试枪支。\n您顺从的仆人，\n威廉·阿姆斯特朗\n首席探长。\n警务处总监。",
+   "zh_src": "46890af1c7384b08"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2181/Reports%20Made%201916-1929%20-%20Lu%20Yoong%20Ziang%20110.pdf>\n\n---\n‘= \n\n\nVv V2 . A/S, \n\n\nwe 14 [fC \n\n\nShannhai Manicipal Couneil. \n\n\nAurust 12th \n\n\nPouce Force, \n(Detective Brancn) \n\n\nSir, \n: Tt is revorted thnt three reprerncutatives of tre \nTieanehu Rt cont ton. Party have beam in VYousunn rL106 \nZO0th inetaent nemotiating with Derity Militoyry Gov: rior \nTan Youur BZiarre \n\nIn couceguence of irr trictious fro: the Omtrol \nGoverizuont to make arrerraents to cent a wseth.ernt \n\n\ncf cavalry to Hanchurlayg @sreral Yang herr ordered \n\n\nPa \nbet ¥ the 4t cavalry rerinet at present stntloned in \na lw Sungkinn® to hold iteelf in reddiness to Ssrnrt \n# v Pcor thrt plaucee \nr < \n\n\nFisht Arcenal ::echa.iers left for Hanrchowr \nthis r:omiug.e \nIt is reported tat tre Anmooral Acttovities \n\n\nWL11 teat ruin horny e \n\n\n. Your Wostliout Servants, \n“any ~ \nfe oe a hw tors \nz Chief Detective Tis:ecctore \n\n\nGaptnin Surerinteuda.t of PClitee",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2744,
+  "ocr_out_tokens": 205,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 20:51:13",
+  "zh_in_tokens": 437,
+  "zh_out_tokens": 180,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

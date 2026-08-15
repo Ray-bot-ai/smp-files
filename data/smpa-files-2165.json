@@ -12,7 +12,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-2165/page/n0_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "刑事调查处。\n外交部登记册\n编号……200\n日期……1916年3月27日\n\n公共租界警务处。\n刑事调查处：\n警司办公室。\n\n上海，1916年3月25日。\n\n先生：\n\n随函附上广东籍居民关于杨成（Yang Cheng）的匿名报告，该报告内容可能相当准确。指控其雇用侦探从事其无权从事的工作，这与我所掌握的信息相符；且警方深知其与张勋的侦探林世豐（Ling Shih Foong）有关联。\n\n您忠实的仆人，\n\n威廉·阿姆斯特朗（William Armstrong）\n\n首席探长。\n\n致警务处警司。\nC17\n1/3 -",
+   "zh_src": "afc3d0d966b64c71"
   }
  ],
  "pages_done": 1,
@@ -23,6 +25,11 @@
   "ocr_in_tokens": 2698,
   "ocr_out_tokens": 173,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-15 19:37:03"
- }
+  "ocr_at": "2026-08-15 19:37:03",
+  "zh_in_tokens": 405,
+  "zh_out_tokens": 167,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

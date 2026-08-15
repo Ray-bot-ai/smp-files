@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2169",
+ "title": "Liu Kwe Yung",
+ "series": "IO Files",
+ "nara_file_no": "21",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2169",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "415\n415\n29/6/16\nShanghai Municipal Council.\nJune 28th 1916\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nSir,\nGeneral Yang received a long letter from Admiral\nLee Ting Sing 李鼎新 on 27th instant in which the latter\nstated that the navy had declared independence and that\nhe had been selected to take supreme command. He\ninvited General Yang to follow the example of the navy.\nOn receipt of the above letter General Yang sent for\nDeputy Military Governor Lu Yung Ziang (Woosung) and they\nhad a long consultation after which the former dispatched\ntelegrams to Nanking and Peking. It is said that General\nLu strongly opposes the action of the navy and will fight\nrather than declare independence.\nIt is reported that several Kuomintang leaders\nincluding Nyeu Tih Sung 鈕永建 Han Hwei 韓恢 and Ho Hai\nMing 何海鳴 are present on board the warships outside\nWoosung.\nIt is reported that Chekiang will cooperate with\nthe navy in any action it takes.\n\nYour Obedient Servant,\n[签名]\nChief Detective Inspector.\n\n[签名]\nCaptain Superintendent of Police.\n\n[签名]\n\nE.. [手写批注，难以辨认] June 28\n[手写批注，难以辨认]",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2169/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "415\n415\n29/6/16\n上海工部局。\n1916年6月28日\n（印：上海工部局警务处）\n警务处，\n（侦探股）\n\n先生，\n杨将军于本月27日收到海军上将李鼎新的一封长信，信中称海军已宣布独立，并推举他担任最高指挥官。他邀请杨将军效仿海军之举。收到上述信件后，杨将军召见淞沪护军使卢永祥（吴淞），两人进行了长时间磋商，随后前者向南京和北京发出了电报。据悉，卢将军强烈反对海军的行动，宁可作战也不愿宣布独立。\n据报，包括钮永建、韩恢和何海鸣在内的几位国民党领导人目前身处吴淞外的军舰上。\n据报，浙江将在海军采取的任何行动中予以配合。\n\n您的顺从仆人，\n[签名]\n总探长。\n\n[签名]\n警务总监。\n\n[签名]\n\nE.. [手写批注，难以辨认] 6月28日\n[手写批注，难以辨认]",
+   "zh_src": "4294c70e4b28889e"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2169/Reports%20Made%201916-1929%20-%20Liu%20Kwe%20Yung%2021.pdf>\n\n---\nme \n\n\nPo.tce Force, \n(Detective BRANCH) \n\n\n- a, . 3 \nee {5 3 \n= Je ‘Ye, \n\n\nale \n\n\nShanabai Municipal Couneil, \n\n\nJune 28th SOI 6 \nSir, \nGeneral Yang received a iong letter from Admiral \nLee Ting Sing = +; ;- on 27th instant in which the latter \n\n\nstated that the navy had declared independence and that \nhe had been selected to take supreme comuand. He \ninvited General Yang to follow the example of the navy. \n\nOn receipt of the above letter General Y: sent for \nDeputy Military Governor Lu Yung Ziang (Wooaung) and they \nhad a long sonsultation after which the former dispatched \ntelegrams to Nanking and Poking. It is said that General \nLu strongly opposes the action of the navy and will fight \nrather than Geclare independence. \n\nIt is reported that, several ee pee leaders \nincluding Nyeu Tih Sung ££ %4{Han Hwei 72 ijand Ho Hal \nMing 15 (275 are present on board the warships outside \nWoosunge — \n\nIt is reported that Chekiang will cooperate with \nthe navy in any action it takes. \n\n\nYour Obedient Servant, \n\n\nWt. PELL ox \n\n\nGhief Detective Inspector. \n\n\nog \n\n\n2",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2705,
+  "ocr_out_tokens": 323,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 20:47:00",
+  "zh_in_tokens": 555,
+  "zh_out_tokens": 252,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

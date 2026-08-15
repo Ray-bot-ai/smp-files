@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2328",
+ "title": "The Tutuh Of Fokien",
+ "series": "IO Files",
+ "nara_file_no": "135",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2328",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "No\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nC. I. S\nI. O. REQ\nNo 521\nDate 21/8/16\n\nShanghai Municipal Council\n\n19th August 1916\n\nSir,\n\nThe Tutuh of Fukien has requested the Director\nof the Arsenal to supply him with 30 machine guns,\nand the latter has consented to do so.\n\nSome of the leaders of the Manchu Restoration\nparty, who have been in Shanghai and Woosung for\nthe past ten days, left for Nanking at 11 p.m.\n18th instant.\n\nThe City gentry intend to give General Yang\na big gift on his birthday, which falls on 24th\ninstant.\n\nYour obedient servant,\n\nmwmumustong\nChief Detective Inspector.\n\nkro\n19/8.\nCaptain Superintendent of Police .",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2328/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "编号\n（印章：上海工部局警务处）\n\n警务处，\n（侦探股）\n\nC. I. S\nI. O. REQ\n第 521 号\n日期 16/8/21\n\n上海工部局\n\n1916年8月19日\n\n先生：\n\n福建督军已要求兵工厂总监向其供应30挺机枪，后者已同意照办。\n\n满洲复辟派的一些头目过去十天一直身处上海和吴淞，已于本月18日晚11时启程前往南京。\n\n本市绅界打算在本月24日杨将军生日之际，向其赠送一份厚礼。\n\n您顺从的仆人，\n\nmwmumustong\n总探长。\n\nkro\n8月19日。\n警务处巡官队长。",
+   "zh_src": "60c0ecb6916e475a"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2328/Reports%20Made%201916-1929%20-%20The%20Tutuh%20Of%20Fokien%20135.pdf>\n\n---\nte G. se @ \ni Z- GQ. fie | \n\n\n= Mo.... 2.0. r-# ae L ” - \n, a Dux...... ea aig \nShanghai Mluricipal Counrtl! \n\n\nPotice Force, \n(Detective BRANCH) \n\n\nYegetct-d the Birscetor \n\n\nor tii: Arrcwnl to o2.PtTly him with SO wactuinc rune, \n\"9 th. Lbet“coer Has conmmonted to *o ads \n\nSo:zc Of th: L-uderes cf the Manchu Rectoration \nPperty;, Vic Rave Door 22 Steanichad aya Votistsim fer \nthe pact ten dara, 1-ft for Naruci:i.s st Ll Seme \n18th inctunt. \n\nTh Clty c.z.try Li:tend to -cive Gensoreal Yang \na big, eift om his birthdacs;, which Pells on “4th \ninstant. \n\n\nYour obcAtiscnt survar.ts \n\n\nnag Onior Detective Tier chor. \n‘SG \n\n\n-~ \n\n\nCanrtuizn Siu. porimte:d-nt of Polite .- \n\n\n_.igth Avrust.  f GA _4",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2698,
+  "ocr_out_tokens": 217,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 22:37:27",
+  "zh_in_tokens": 449,
+  "zh_out_tokens": 185,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2203",
+ "title": "Moh Siang Yao",
+ "series": "IO Files",
+ "nara_file_no": "95",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2203",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nX. Q. REG\nNo. 624\nDate 7/10/16\n\nNo\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH.)\n\n5th October 1916\n\nSir,\nThe troops were expecting to be paid to-day\nbut as the usual list of names has not been made\nit would appear that payment has been postponed.\n\nAbout 300 destitute rebels visited the office\nfor repatriation on the 4th inst and created a\ndisturbance. Some of them were almost naked.\n\nIt is reported that Moh Siang Yao 穆湘瑤,\na former Chief of Police, is negotiating for the\npurchase of 60 mow of land off Lay Road and\nproposes to build a silk filature there. He is\nsaid to be acting on behalf of Liang Shih Yi.\n\nYour obedient servant,\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2203/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "刑事调查处\nX. Q. 登记处\n编号 624\n日期 1916年10月7日\n\n致\n上海工部局。\n\n（印章：上海工部局警务处）\n警务处，\n（侦探科。）\n\n1916年10月5日\n\n先生：\n\n部队原定于今日领饷，但由于尚未编制通常的姓名清单，看来发饷已被推迟。\n\n本月4日，约300名贫困的反叛者前往办事处申请遣返，并制造了骚乱。其中一些人几乎赤身裸体。\n\n据报，前警察局长穆湘瑤正在洽谈购买雷士德路（Lay Road）附近六十亩土地，并拟在此处建造一家缫丝厂。据说他是代表梁士诒行事。\n\n您忠顺的仆人，\n\n总探长。\n\n警务处总监上尉。",
+   "zh_src": "b8591749e0e5b6ad"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2203/Reports%20Made%201916-1929%20-%20Moh%20Siang%20Yao%2095.pdf>\n\n---\nPouice Force, \n(Detective BRrancn) \n\n\nma Ee Ma \n\n\nShanghai Municipal Cannrif. \n\n\nue Botober \n\n\nSir, \n\nThe troops were expecting to be paia to-day \nbut as_ the usual list of names has not been made \nit would appear that payment has been postponed. \n\n\nAbout S500 destitute rebels visited the office \nfor ropatriation on thse 4th inst and creatod a \ndisturbance. Some of them wore almost neakod. \n\n\nIt is reported that Moh Siang Yao 4% (74 63,, \n@ fFormcr Chief of Police, is nesctiating for the \npurchase of 60 mow of land off Lay Road and \n\n\nproposes to build a silk filature there. He is \nsaid to bp acting on behalf of Linng Shih Yi. \n\n\nYour obedient servant, \n\n\nhwmwnitnwelirn, \n\n\nChier Detective Inspector. \n\n\nCaptain Superintendent of Police. \n\n\nee \n4 gee \nfr si \n_— \n= SE \naf a ee \nae ‘ be hae oe & \n\n\nHore Se \n\n\nNe eee",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2698,
+  "ocr_out_tokens": 232,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 20:58:09",
+  "zh_in_tokens": 464,
+  "zh_out_tokens": 204,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

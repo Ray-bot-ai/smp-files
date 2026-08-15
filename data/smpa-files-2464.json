@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2464",
+ "title": "Zung Tsung Huan",
+ "series": "IO Files",
+ "nara_file_no": "145",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2464",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nI. O. REG\nNo. 7041\nDate\nShanghai Municipal Council.\nDecember 1st 1916\n\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nSir, General Yang visited Zung Tsung Hyan 岑春煊\nex Commandant of the Republican troops\nof Canton and Kwangsi at his residence No.306\nAvenue Joffre on 30th instant. The local\nofficials and notables have decided to entertain\nZung on 2nd instant.\n\nFifty rebels met in Zee Oen 全安 teashop\nin Rue Wagner at 2 p.m. yesterday and decided\nto form a begging party in order to raise funds\nto take them to their homes.\nZung Vung Hyui 陳文樞 and Kwoh Tsa 郭超\nwere appointed leaders of the Party. The manner\nin which they will ask for charity will be\ndecided later.\n\nIt is reported that the National Herald\nhas been sold to a representative of Premier\nTuan Chi Jui for $60,000.00.\n\nYour Obedient Servant,\nM B Newton\nDetective Sub Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2464/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "刑事调查处\n情报官登记册\n编号 7041\n日期\n上海工部局。\n1916年12月1日\n\n（印：上海工部局）\n警务处，\n（侦探科）\n\n先生，杨将军于本月30日前往霞飞路306号寓所拜访了前广东及广西共和军司令岑春煊。本地官员及名流已决定于本月2日宴请岑氏。\n\n昨日下午2时，五十名叛乱分子在瓦格纳路的全安茶馆集会，决定组成一个乞讨团，以筹集资金供他们返乡。陈文樞和郭超被推举为该团首领。至于他们将采取何种方式行乞，待日后决定。\n\n据报，《国民公报》已以60,000.00美元的价格出售给段祺瑞总理的一位代表。\n\n您顺从的仆人，\nM B Newton\n侦探副督察。\n\n警察总监上尉。",
+   "zh_src": "e7e15126824cb019"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2464/Reports%20Made%201916-1929%20-%20Zung%20Tsung%20Huan%20145.pdf>\n\n---\nPouce Force, \n(Detective BRANCH) \n\n\nSir, \nGeneral \n\n\nex Commandant \nof Canton and \nAvenue Jorfre \n\n\nofficiale and \n\n\nfe \n\n\nso \n\n\nseeeve fqrbas \n. éqvbess \n\n\nShanghai #lanicipal Giniatvil. \n\n\nYangz visited Zune \n\n\nof the Republican \n\n\nDecember ist \n\n\n—_ \n\n\nTsung Hyan D \n\n\ntroops \n\n\nKwangei at his reeidence Noe3sné \n\n\non SOth instant. \n\n\nThe local \n\n\nB he we \n\n\nnotables have decided to entsrtain \n\n\nZung on 2nd instant. \n\n\nRue Wasner \nform a vers \n\n\ntake them t \n\n\n> = \nZung Vung Hyui ges KAGE \n\n\nwere arnrointed \nin which trey \n\n\naecided later. \n—_— \n\n\nhare been sola \n\n\nTuan Chi Jui \n\n\nCaptain Superinterdent of Polie \n\n\nFifty rebels met in Zee Oen \n\n\nat \ning rarty in \n\n\no their homes. \n\n\nleaders \n\n\nwill ask \n\n\nof the Party.e \n\n\nfor charity will be \n\n\nIt is reported that the Nantional Herald \n\n\nto a repregeniative of Premier \n\n\nfor $60,000 .CO- \n\n\nYour Obediert Servant, \n\n\nWh pews tee \n\n\nDetective \n\n\nCe \n\n\nSub Inspector. \n\n\n‘Eg Be teashop \n\n\nA peme yesterday and decided \n\n\norder fo raise funds \n\n\nand Kwoh Tsa WY ZA \n\n\nThe menner \n\n\noid \n\n\nPa a \n\n\nsegeeen \n\n\nSyptOTevcuan \n\n\nAD 76 \n\n\nSra Tee eee foes et et eee ee",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2752,
+  "ocr_out_tokens": 290,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 00:10:02",
+  "zh_in_tokens": 522,
+  "zh_out_tokens": 220,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

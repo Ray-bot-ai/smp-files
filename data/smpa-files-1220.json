@@ -12,7 +12,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1220/page/n0_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "D. 3650。",
+   "zh_src": "c9274afe3489be08"
   },
   {
    "n": 1,
@@ -20,7 +22,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1220/page/n1_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "D. 3650。\n\n公共租界警务处侦探赵兴清（Zao Sing Qing）被共产党刺客谋杀案。\n1932年5月16日。\n\n1932年7月18日在西藏路296号查获弹药案。\n\nS. 盒 #119",
+   "zh_src": "6f507f18cf1fe3f4"
   }
  ],
  "pages_done": 2,
@@ -31,6 +35,11 @@
   "ocr_in_tokens": 5449,
   "ocr_out_tokens": 88,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-14 21:00:14"
- }
+  "ocr_at": "2026-08-14 21:00:14",
+  "zh_in_tokens": 327,
+  "zh_out_tokens": 96,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

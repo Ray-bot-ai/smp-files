@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2208",
+ "title": "Mr. Ma Chun Wu",
+ "series": "IO Files",
+ "nara_file_no": "18",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2208",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Shanghai Municipal Council.\n487\n1/8/16\nJuly 31st 191\n\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nSir,\nMr. Ho Chien Wu 馬君武 an official of the Association of Chinese Railways entertained thirty five M.P.s to tiffin in Yih Ping Shang restaurant on 29th inst. These parliamentarians left for Peking on 30th inst.\nLi Ping Shu 李平書 expects to become civil Governor of Kiangsu.\nIt is reported that the City gentry do not favour the retention of Zoo Ko. Liang 徐同榜 as Chief of Police here.\nIt is reported that a staff officer of the Woosung Garrison named Yeh Sui Te 易佐之 has been arrested. Although it has been given out that he is charged with plotting against the Government, it is thought that the true reason for his arrest is that he was concerned in the case of embezzlement reported on 29th inst.\nIt is reported that a memorial service in honour of Chn. Chi Mei and other Republicans who have died for the cause will be held in Cheng Su Ho's garden on 8th proximo.\nIt is reported that Deputy Military Governor Loo is plotting with the Landau party and General Yang has sent two men to Woosung to investigate the matter.\nThe Nantao Chamber of Commerce has undertaken to defray the expenses in connection with the restoration of the City Volunteers.\nThe Director of the Arsenal has received instructions from the Central Government to devote all his attention to the manufacture of rifles of 1913 pattern.\n\nYour Obedient Servant,\nmmmmmmmine\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2208/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "上海工部局。\n487\n1/8/16\n191年7月31日\n\n（印：上海工部局）\n警务处，\n（侦探股）\n\n先生：\n\n中国铁路协会官员马君武先生于本月29日在益品商餐厅宴请三十五位国会议员用午餐。这些议员已于本月30日启程前往北京。\n\n李平书预计将出任江苏省民政长。\n\n据报，本地士绅不赞成留任徐同榜（Zoo Ko. Liang，音译）为本处巡捕房总巡。\n\n据报，吴淞驻军一名名为易佐之的参谋军官已被逮捕。虽然对外宣称其罪名是图谋反对政府，但人们认为其被捕的真正原因是他牵涉到本月29日报导的贪污案中。\n\n据报，将于下月8日在程苏和（Cheng Su Ho，音译）的花园举行追悼会，以纪念陈其美及其他为共和事业捐躯的志士。\n\n据报，陆军副司令卢氏正与兰道派（Landau party，音译）密谋，杨将军已派遣两人前往吴淞调查此事。\n\n南市商会已承诺承担恢复商团经费的相关费用。\n\n兵工厂总监已收到中央政府指令，要求全力投入1913式步枪的生产。\n\n您顺从的仆人，\nmmmmmmmine\n首席探长。\n\n警察总监上尉",
+   "zh_src": "48877311f736b4f1"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2208/Reports%20Made%201916-1929%20-%20Mr.%20Ma%20Chun%20Wu%2018.pdf>\n\n---\nf \n\n\nH \n= - —- \n\n\nve &?e...> 0. LL 7S \n\n\nfs \n\n\nShannhai Maniripal Cunarcil \n\n\nAE?7 \n\n\nPovrice Force, \n(DetecttvE BrRancH) \n\n\notPa sin. \nead thi =t \n\n\nff to. Association \nFive i'ePes to \nShanr rostuurant o.. CAth: inete \ntans left for Poking on 40th inste \nexpects to become civil Governor \n\n\nTt \"la roported that the Ctty cantry Aa rot Pravour \n73 - +ention of Zeo Mo... Liane LEM Chicf of Police \n\n\nat Sere \n\n\nPT. SOT. \n\n\notl hie atrertioen \nrattoern.e \n\n\nYour “RPLALI: © Surwnnts \n\n\nWynn stAne' \n\n\nCHhisct Dut. -tiwi. Ti. “postu \n\n\nmp \n\n\nGSVt Sh, Sul wit. t of POLICG. \n\n\nSetad “anes \n\n\nre ceivos, Lister orha 2 \n\n\nSCL ede ITA \n\n\nDRG easy ce tat Co Hatten Seat",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2714,
+  "ocr_out_tokens": 391,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 21:18:41",
+  "zh_in_tokens": 621,
+  "zh_out_tokens": 325,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

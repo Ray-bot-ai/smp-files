@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-2382",
+ "title": "Van",
+ "series": "IO Files",
+ "nara_file_no": "71",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-2382",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Shanghai Municipal Police.\nC. I. D.\nF. O. REC\nNo. 580 Hongkew Station.\nDate 15. 9. 16. September 15th 1916\n\nREPORT ON a Meeting organised by the Monarchy Party.\n\nMade by D.S.I. Reeves. Forwarded by\n\nSir,\nDet. Nakai reports that he has made enquiries re this\nmatter, and has been informed by the various proprietors of\nthe Japanese Hotels that no dinner will take place in the\nHotels. Det. Nakai states that he has received information\nthat the dinner and discussion will take place in a certain\nrestaurant on the Foochow Road, but is unable to find out the\nname of the restaurant.\n\nI am Sir,\nYour obedient servant,\nPercy. St. Reeves\nD.S. Insp.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2382/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "上海公共租界工部局警务处。\n刑事侦缉处。\n外侨事务科 收件\n第580号 虹口巡捕房。\n日期：1916年9月15日\n\n关于君主派组织的一次会议的报告。\n\n由副督察里夫斯（Reeves）呈报。转呈\n\n阁下，\n中井侦探（Det. Nakai）报告称，他已就此事进行调查，并从各家日本旅馆的业主处获悉，这些旅馆内不会举行晚宴。中井侦探称，他收到情报称，晚宴及讨论将在福州路某家餐馆举行，但他无法查明该餐馆的名称。\n\n此致\n敬礼\n您的恭顺仆人，\n珀西·圣·里夫斯（Percy St. Reeves）\n副督察",
+   "zh_src": "00902cfccfc0321c"
+  },
+  {
+   "n": 1,
+   "en": "Sin Wan Pao.\n10-9-16.\n\nThe leader of the pro-Manchu Society named\nSin Chu (Prince Su) has sent two representatives to\nShanghai. They arrived here the day before yesterday.\nOne of them is known as \"Van 樊 \" and the other\n\"Tsi 齊 .\" They interviewed several sympathisers\nnamely the second son of Tih Liang 铁良 and one Chu. 左\nThe object of their visit is to secure the support\nof the members to hold a big meeting in Dalny in\nthe 10th moon when they will attempt to carry out the\nrestoration of the Emperor. The two deputies will\nwithin these few days invite those who share their\nviews, to dinner in a hotel in Hongkow in order to\ndiscuss measures to be taken.\n\n（印：11 SEP. 1916 / Passed by C. D. I.）\n（批：as received / Report- / Nakai may / know some- / -thing about / him. / WA）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2382/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "《辛闻报》（Sin Wan Pao）。\n1916年9月10日。\n\n亲满社团名为“辛朱”（即肃亲王）的首领已派遣两名代表前往上海。他们于前天抵达此地。其中一人名为“樊”（Van），另一人名为“齐”（Tsi）。他们会见了几位同情者，即铁良的次子和一位姓左（Chu）的人士。\n\n他们此行的目的是争取成员的支持，以便在农历十月于大连（Dalny）举行一次大型集会，届时他们将试图实施皇帝复辟。这两名代表将于近日在虹口的一家旅馆邀请志同道合者共进晚餐，以商讨拟采取的措施。\n\n（印：1916年9月11日 / 经刑事侦缉处处长审阅）\n（批：按收到时情况 / 报告- / 中井可能 / 了解一些 / 关于他的 / 情况。 / WA）",
+   "zh_src": "8eaa60290db1dbb7"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2382/Reports%20Made%201916-1929%20-%20Van%2071.pdf>\n\n---\nc.f. pg. \nio. ere accept _.....Hongkew.. . Station. \nWe... Q \nex... \\ &- a oe SEPtember.... Sth. AGILE \nREPORT ON. .& Meeting organised by the Monarchy Party. \nfon sin Sa \nWade by... D+SeT. Reeves. Z “Forwarded by \n\n\nSir, \n\n\nDet. Nakai reports that he has made enouiries re this \natter, and has been informed by the various proprietors of \n\n\nthe Japanese Hotels that no dinner will take place in the \n\n\notels-. Det. Nakai states that he has received information \n\n\nthat the dinner and discussion will take Place in a certain \n\n\nestaurant on the Foochow Road, but is unable to find out the \n\n\name of the restaurant. \n\n\nIam Sir, \n\n\nYour obedient servant, \n\n\nBrey B- , \n\n\nD.S. Insp. \n\n\n1 Ven Pao. \n\n\nT \nmemoly the second son of Tih Tis ee B and one Gnu. \n\n\nTic object of thelise BRisit Le te secure tro sunport \n\n\nshare their \n\n\nAiscuss measszres te he taken.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5506,
+  "ocr_out_tokens": 417,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 23:21:29",
+  "zh_in_tokens": 656,
+  "zh_out_tokens": 387,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

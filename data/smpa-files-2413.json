@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2413",
+ "title": "Yang Sin Teh",
+ "series": "IO Files",
+ "nara_file_no": "178",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2413",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. O.\nF. O. REG\nNo. 679\nDate 3/11/46\n\nTranslation of a letter from the Shanghai\nMilitary Governor to C.D.I.Armstrong.\n\nSungkiang and Shanghai Military\nCommissioner's yamen.\nJune 27,\n\nYesterday you called at this yamen and stated that\na Chinese named Kau had requested a Japanese of\n320 Chapoo Road to order another Japanese residing at\n1 Quinsan Road to print on his behalf notes on the\nHupeh Provincial Bank. I appreciated your information\nand at once wired to Chiangchun Wong and Civil Governor\nVan at Wuchang. A reply has been received from them\nto the effect that the Hupeh province have not ordered\nany such notes to be printed and that those found here\nmust be forgeries.\n\nIn view of this I specially write to you in the\nhope that you will take note and adopt measures\nto effect the arrest of the parties concerned and bring\nthem before the Mixed Court for trial in order that\nthey may be handed over to this yamen for final\ndecision.\n\nMeanwhile let me express my appreciation for\nyour friendly cooperation and with compliments,\n\nI am, etc,\n\n(signed) Yang Sin Teh.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2413/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "首席情报官\n外交部登记处\n第 679 号\n日期：1946年11月3日\n\n上海军事长官致 C.D. Armstrong 上校（首席侦探督察）信函的译文。\n\n松江与上海军事专员公署。\n6月27日，\n\n昨日阁下莅临本公署，称一名姓高的华人请求住在乍浦路320号的一名日本人，令另一名居住在昆山路1号的日本人为其代印湖北省银行钞票。本人对阁下提供的情报表示感谢，并立即致电武昌的蒋春旺（音译）及范民政长官。已收到他们的复电，大意是湖北省并未下令印制此类钞票，此处发现的必系伪钞。\n\n有鉴于此，本人特致函阁下，希请留意并采取相应措施，将涉案人员逮捕，送交混合法庭受审，以便将其移交本公署作最终裁决。\n\n同时，本人对阁下的友好合作表示赞赏，顺致敬意。\n\n此致，\n\n（签名）杨新德（音译）",
+   "zh_src": "8859223034127d8e"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2413/Reports%20Made%201916-1929%20-%20Yang%20Sin%20Teh%20178.pdf>\n\n---\nTranslation of a lettor from the Shanghai 4 \nMilitary Governor to C.D.I.Armstronge \n\n\n— \n\n\nSungkiang and Shanghai Military \nCommissioner’s yamene \n\n\nJune 27, \n\n\nYesterday you called at this yamen and stated that \na OChinese named Kau had requested a Japanese of \nS20 Chapoo Road to order another Japanese residing at \n1 Quinsan Road to print on his behalf notes oh the \nHupeh Provincial Bank. I appreciated your information \nand at once wired to Chiangchun Wong and Civil Governor \nVan at Wuchange A reply has been received from them \nto the erfect that the Hupeh province have not ordered \nany such notes to be printed and that those found here \nmust be forgericese \n\nIn wiew of this I specially write to you in the \nhope that you will take note and adopt masures \nto effect the arrest of the parties concerned and bring \nthem before the Mixed Court for trial in order that \nthey may be handed over to this yamen for final \ndecisione \n\nMeanwhile let me express my appreciation for \n\n\nyour friendly cooperation and with conplinents, \n\n\nI am, etc, \n\n\n&etgmed) Yang Sin Teh.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2751,
+  "ocr_out_tokens": 276,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 23:52:44",
+  "zh_in_tokens": 508,
+  "zh_out_tokens": 231,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

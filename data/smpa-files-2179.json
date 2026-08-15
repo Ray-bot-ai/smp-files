@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2179",
+ "title": "Loo Yung Ziang",
+ "series": "IO Files",
+ "nara_file_no": "3",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2179",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "437\n7/7/16\nShanghai Municipal Council.\nJuly 7th 1916.\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nSir,\nIt is rumoured that General Yang will soon resign\nand that a civilian will be appointed Governor of Shanghai.\nThe native gentry have held a meeting and have\ndecided to petition the Government and request to have\nthe Nantao police placed under local control as they\nwere at the time of the first revolution.\nIt is reported that General Yang has informed\nChiangchun Feng that General Leo Yung Ziang\nis conspiring with the Manchu Restoration Party.\nIt is rumoured that Tong Hyang Ming\nhas disappeared from Hunan but complete quiet\nprevails in that province.\nThe three evening trains from Nanking failed to\narrive yesterday. It is said that the heavy rain\nhas caused some damage to the line near Chinkiang\nand that trains could not pass that point.\nIt is reported that Huang Hsin arrived here\non 6th inst by the Shidzuoka Maru from Japan.\nHe is said to be staying in Frenchtown. He passed\ndown Nanking Road on car 584.\n\nYour Obedient Servant,\nMcMustrine\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2179/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "437\n16/7/7\n上海工部局。\n1916年7月7日。\n（印：上海工部局）\n警务处，\n（侦探股）\n\n先生：\n\n据传杨将军即将辞职，并将任命一位文官担任上海道尹。本地士绅已举行会议，决定向政府请愿，要求将南市警察置于地方管辖之下，如同第一次革命时期那样。\n\n据悉，杨将军已告知冯国璋，李永祥将军正与满清复辟党 conspiring（共谋）。\n\n据传唐仰明已从湖南失踪，但该省目前完全平静。\n\n昨日，从南京开出的三趟晚班列车未能抵达。据说大雨导致镇江附近的铁路线受到一定损坏，列车无法通过该地段。\n\n据报道，黄兴于本月6日乘“静冈丸”轮从日本抵达此地。据悉他现住在法租界。他曾乘坐584号电车沿南京路下行。\n\n您顺从的仆人，\n麦克马斯特林\n总探长\n\n警务处总监 上尉",
+   "zh_src": "49c6c49e7895b30c"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2179/Reports%20Made%201916-1929%20-%20Loo%20Yung%20Ziang%203.pdf>\n\n---\nPouce Force, \n(DetrecttveE BRANCH) \n\n\nral # \nSy \n\n\nCaptain Superinten \n\n\nEe \n‘ 1 \n\n\n* \n\n\nShanghai #lunicipal Counvil. \n\n\nJuly 7th SOA Be \nSirs \nIt is rwuiouresd that General Yang will secon resign \nointed Governor of Shanghai e \n\n\nand that a civilian will be apr \n\nThe native gentry have held a meeting and have \ndecided to petition the Government and request to have \nthe Nantao police placed under local control as they \nwere at the time of the first revelutione \nrt is reported that General Yang has informed \nChinngechun Feng that General Leo Yung Ziang \nis conspiring with the lianchu Restoration Partye \n\nIt ie rumoured that Tong Hyang Ming \nhae Gisappeared from Hunan but complete quict \nprevails in timt province. \n\nTne three evening trains frou Narusing failed to \narrive yesterday - It is said that tne heavy rain \nhas caused some damage to the line near Ch*.nkiang \nand that trains could not pass that pointe \n\nIt is reported that Huang Hsin arrived here \n\n\non 6th inst by the Shidzuoku Maru from Japanre \nHe is said to be staying in Frenchtowme He passed \n\n\ndown Nanking Road .ori cat 588. \n\n\nYour Odedient Servant, \nChisf Detective Inspectore \n\n\ndent of Police.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2764,
+  "ocr_out_tokens": 301,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 20:50:36",
+  "zh_in_tokens": 533,
+  "zh_out_tokens": 241,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

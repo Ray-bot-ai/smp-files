@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2235",
+ "title": "Ong Zung Zen",
+ "series": "IO Files",
+ "nara_file_no": "687",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2235",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Shanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE (DETECTIVE BRANCH)）\n\nC. I. D.\nI. O. REQ\nNo 16\nDate 15-1-16\n\nJanuary 15th 1916\n\nSir,\nPrevious to the first revolution the Chinese Tramway\nCo had permission to lay rails as far as the Arsenal.\nOwing to the military importance assumed by that institution\nat the time mentioned, the permission was withdrawn, and\nthe rails which were to be used for that purpose were\nleft on the company's hands. The manager of the Company\nis now reported to have obtained the sanction of the City\nAuthorities to lay a line from the Small East Gate to the\nWest Gate through the City in order to utilise these rails.\nThis project is not regarded with favour by many of the\nCity residents. At 3 p.m. 14th instant a meeting,\nattended by seventy eight members of the City gentry\nand merchants was held in the City temple with a view\nto opposing the innovation. After speeches had been made\npointing out the disadvantages of the scheme from a\npublic point of view, the matter was put to a vote and\nit was unanimously decided to oppose it. The meeting\nwas presided over by a silk merchant named Org Zung Zen 翁慎傳\nThe latter and five others were selected to wait on\nthe manager of the Tramway Co and request him to abandon\nhis scheme for the sake of public benefit.\n\nYour Obedient Servant,\n\nmmmmmmsting\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\nEntered on M.S. Jan 16.\nSeen by C.I.D.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2235/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "上海工部局。\n\n（印章：上海工部局警务处（侦探股））\n\n刑事侦缉处\n情报官申请\n第 16 号\n日期 16-1-15\n\n1916年1月15日\n\n先生：\n\n在第一次革命之前，华商电车公司曾获准铺设铁轨至兵工厂。鉴于该机构在当时所具有的军事重要性，该项许可被撤销，原拟用于此目的的铁轨仍留存在该公司手中。据报，该公司经理现已获得华界当局批准，计划从城中小东门经城内铺筑线路至西门，以利用这些铁轨。许多城内居民对该项目持反对态度。本月14日下午3时，七十八位城绅及商人在城隍庙举行会议，旨在反对这一革新举措。会上发言指出了该方案从公共利益角度看不利之处，随后对此事进行表决，一致决定予以反对。会议由一位名为翁慎傳 (Org Zung Zen) 的丝绸商人主持。后者及另外五人被推选去拜会电车公司经理，请求他为了公共利益放弃其计划。\n\n您顺从的仆人，\n\nmmmmmmsting\n总探长。\n\n警察总监。\n\n于1月16日录入警务处档案。\n刑事侦缉处阅。",
+   "zh_src": "34e0721ef5335002"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2235/Reports%20Made%201916-1929%20-%20Ong%20Zung%20Zen%20687.pdf>\n\n---\nay \n\n\nShanghai Manicipal Council. \n\n\nJanuar 15th . 1 F \nirinsions SOF \n\n\nPo.ice Force, \n(Detective Brancnw) \n\n\nSirs, \n\nPrevious to the first revolution the Chinese Tramway \nCo had permission to lay rails as far as the Arsenal. \nOwing to the military importance assumed by that institution \nat the time mentioned, the permission was withdrawn, and i \nthe rails which were to be used for that purposes were \nleft on the company's hands. The manager of the Company \nis now reported to have obtained the sanction of the City \nAuthorities to lay a line from the Small ast Gate to the \nWest Gate through the City in order to utilise these roailse \nThis project is not regarded with favour by many of the \n\n\nSAN REER MALE: Lah ees oe \n\n\ni, ai City residents. At 3 pem. 14th instant a meeting, \n/- atteneed by seventy eight members of the City sentry \n« ana merchants was held in the City temple with a view \n\n\nto opposing the innovation. After speeches had been made \n\npointing out the disadvartages of the scheme from a \n\npublic point of view, the matter was put to a vote and \n\n4t was unanimously decided to aqppose ite The meeting ehh \nqa TAS | \n\n\nwae presided over by a silk merchant named Org Zung Zen \nThe latter and five’ others were selected to wait on \n\nthe manager of the Tramway Co and request him to abandon \nhis scheme for the sake of public benefit. : \n\n\nYour Obedient Servant, \n\n\nyet www \n\n\nChief Detectiwe Inspector. \n\n\nOaptain Superintendent of Folisce. \n\n\nSen eet ee RE A ART NNT HOBIE esa me om permnn em \n\n\nWeteremmenrmieiine: sem",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2722,
+  "ocr_out_tokens": 375,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 21:27:33",
+  "zh_in_tokens": 607,
+  "zh_out_tokens": 283,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2459",
+ "title": "Zung Kau Chun",
+ "series": "IO Files",
+ "nara_file_no": "688",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2459",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nI. O. REG\nNo.\nDat. 11-1-16\n\nShanghai Municipal Council.\n\nJanuary 11th 1916\n\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE,\n(DETECTIVE BRANCH.)\n\nSir,\nThe midshipman named Zung Kau Chun 陳可勤 who was alleged to be the leader of the attack on the cruiser Chaoho was shot at the Arsenal at 2 p.m. yesterday.\n\nIt is reported that General Yang has received a code telegram from the Central Government saying that Tuan Ji Zay 段祺瑞 had fled from Peking and instructing the General to keep a sharp lookout for him. Another report says that Tuan did not leave Peking but was assassinated there by Yuan Shih Kai's agents.\n\nAt 11 a.m. 10th inst a fire accidently broke out in Tsang Dong Zung 張同順 cracker shop in the City. The blaze was extinguished before any serious damage had been done.\n\nIt is now definitely known that the men who were arrested at Zau Woo Kyung 邹伍经 Loonghwo are robbers.\n\nEntered on ms. Jan. 11\nSeen by C S P\n\nYour Obedient Servant,\n\nmmmmmmmmshing\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2459/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "刑事调查处\n情报官登记\n编号\n日期：16年1月11日\n\n上海工部局。\n\n1916年1月11日\n\n（印：上海工部局）\n警务处，\n（侦探科。）\n\n先生：\n\n据称是袭击“巢湖”号巡洋舰主谋的海军少尉陈可勤（Zung Kau Chun），于昨日下午2时在兵工厂被枪决。\n\n据悉，杨将军收到中央政府发来的密电，称段祺瑞（Tuan Ji Zay）已逃离北京，并指示将军严密监视其行踪。另有消息称，段并未离开北京，而是在北京被袁世凯的代理人暗杀。\n\n本月10日上午11时，城内张同顺（Tsang Dong Zung）爆竹店意外发生火灾。火势在造成严重损失前已被扑灭。\n\n现已确切查明，在邹伍经（Zau Woo Kyung）龙活（Loonghwo）被捕之人系劫匪。\n\n录入手稿时间：1月11日\nC S P 阅\n\n您的恭顺仆人，\n\nmmmmmmmmshing\n首席侦探督察长。\n\n警察总监上尉。",
+   "zh_src": "b0db588286fa9384"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2459/Reports%20Made%201916-1929%20-%20Zung%20Kau%20Chun%20688.pdf>\n\n---\n_Jamary lth 9/8 \n\n\nPouce Force, \n(Detective BrRancr) \n\n\nsir ry : i p-e fea: \nThe midshipman ¥afed Zung Kau Chun 5 fwno was \n\n\nalleged to be the leader of the attack on the cruiser \n\n\n‘Ghaoho was shot at the Arsenal at 2 p.m. yesterday. \nIt is reported that General Yang has received \n\n\na code telegram from the Central Government saying that \n\n\nTuan Ji zay Fagiizheaa mea from Peking and instructing the \n\n\nGeneral to keep a sharp S&ookbut for him. Another report \n\n\nsays that Tuan did not leave Peking but was assassinated \nthere by Yuan Shih Kai'ts agents. \n\nAt 11 aem. 19th inst a fire accidently broke out i7 \nTsang Doomg zung Sf f@|\"Re-acker shop in the City. The \nblaze was extinguished before any serious damage \nhad been donee \n\nIt is now definitely kmown that the men who were \n\n\narrested at Zau Woo Kyung’ 4) |ZLoonghwo are robbers. \n\n\n. eee a a ee Your Obedient Servant, \n\n\nop ue _ \nfecntbng Oe WWW We \n\n\nChief Detective Inspector. \n\n\nCaptain Superintendent of Police. \n\n\nate SRA LOU NNE ale cual OS \n\n\naiiatlan tons simeotilaverece \n\n\ni eins Sach ae \n\n\n\\iastetetetadnnins intone",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2698,
+  "ocr_out_tokens": 302,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 00:07:17",
+  "zh_in_tokens": 534,
+  "zh_out_tokens": 265,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

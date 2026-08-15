@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2432",
+ "title": "Yung Doo",
+ "series": "IO Files",
+ "nara_file_no": "419",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2432",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D:\n298\n15/6/16\n\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nJune 14th 1916\n\nSir,\nIt is reported that one of the monarchical party\nnamed Yung Doo 楊度 has come to Shanghai and is now\nstaying in Hardoon's garden.\nThere is considerable unrest among the troops\nat Woosung owing to a rumour that they would be disbanded.\nGeneral Yang has sent a telegram to Peking saying\nthat it is not necessary to keep so many troops in Shanghai.\nA high military officer named Fong Kung Sung 方更生 has\nbeen sent here to investigate the matter. There are about\nthree thousand Anwei troops stationed in the Doo Sz\nKhoong Su 圖書館 outside the south gate at present.\nThe Central Government has ordered the Arsenal\nto send 1,000 rifles to Peking. Chianchun Feng Kou Chang\nhas instructed the Director of the Arsenal to comply with\nthe order.\n\nYour Obedient Servant,\n（签名）\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n（批：14/6 Auth）\nEnclosed original. June 14.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2432/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "刑事调查处：\n298\n16年6月15日\n\n上海工部局。\n\n（印：上海工部局警务处）\n警务处，\n（侦探股）\n\n1916年6月14日\n\n先生：\n\n据报，君主派成员之一杨度（Yung Doo）已抵达上海，现寓居于哈同花园。\n\n由于有传言称部队将被解散，吴淞驻军中出现相当程度的不安。\n\n杨将军已向北京发送电报，称无需在上海保留如此多的部队。\n\n一位名为方更生（Fong Kung Sung）的高级军官已被派往此处调查此事。目前约有三千名安威军（Anwei troops）驻扎在南门外的图书馆（Doo Sz Khoong Su）。\n\n中央政府已命令兵工厂向北京运送1,000支步枪。姜春峰口长（Chianchun Feng Kou Chang）（原文不清/音译）已指示兵工厂总监遵照该命令执行。\n\n您顺从的仆人，\n（签名）\n总探长。\n\n警务处巡官。\n（批注：6月14日 核准）\n附原件。6月14日。",
+   "zh_src": "6f6e7648793d6adf"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2432/Reports%20Made%201916-1929%20-%20Yung%20Doo%20419.pdf>\n\n---\n0 EB ony \n\n\nol? \n\n\nShanghai #lunicipal Counvril: \n\n\nJune (14th SGP \n\n\nPo.ice Force, \n(Detective Branch) \n\n\nSir, \nical party \n\n\nIt is reported that one of the monarch \n\n\nnamed Yung Doo fEras come to Shanghai and is now \n\n\nstaying in Hardoon's fardene \n\n\nThere is considerabis unrest among the troops \n\n\nat Woosung owing to a rumour that they would be disbanded. \n\n\n1 Yang has sent @& telegram to Peking saying \ntroops in Shanghai. \nPa \nsung P Z ¢ has \n\n\nare about \n\n\nGenera \nthat it is not necessary to keep so many \n\n\nA high military officer named Fong Kung \n\n\nbeen sent here to investircate the mattere There \n\n\nthree thousand Anwhei troops stationed in \n\n\nKhoong sult aA outside the south gate at present. \ned the Arsenal \n\n\nthe Doo SZ \n\n\nThe Central Governmert has order \n\n\nto send 1,000 rifles to Peking. OQOhianrchun Fong Kou Ohang \n\n\nhas instructed the Director of the Arsenal to comply with \n\n\n— the order. \nee \nfc + : Your Obedient Servant, \n\n\ni es ar \n(AH WA (rl {Wr \nChief Detective Inspectore \n\n\nGaptain Superintendent of Police. \n\n\n; a ee ee \n\n\nHe \n\n\nSapna aa ae NI ‘ \nATENEO ALAEE API ATRL IPN UE Be OEY RAR ODL SADR RIO VEU MEALTIME SO beth 8) LF: \naeikTS #",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2713,
+  "ocr_out_tokens": 293,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 23:57:39",
+  "zh_in_tokens": 524,
+  "zh_out_tokens": 266,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

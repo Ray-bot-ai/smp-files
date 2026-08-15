@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2447",
+ "title": "Zee Koh Liang",
+ "series": "IO Files",
+ "nara_file_no": "416",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2447",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "390 14/6/16\nShanghai Municipal Council.\nJune 13th 1918\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH.)\n\nSir,\nIt is reported that a certain section of the\nKuomintang party in Shanghai are not satisfied with the\npresent arrangements in Peking and they intend to make\nfurther trouble. They are now considering means to\nsmuggle arms into the interior and it has been suggested\nto employ Japanese hawkers to do this work.\nIt is reported that the Arsenal detectives have held\na meeting as it was rumoured that their services would\nbe dispensed with. At the meeting they decided to\npetition General Yang to retain them in office until\nthey can find other employment.\nZee Koh Liang 徐國標has sent one of his officers to\nTientsin to enlist eighty recruits for the local police.\nGeneral Yang has received a telegram from Liu Kwan\nYung, Minister of the Navy requesting him to arrest\ntwo naval officers named Mau Zoong Fong 毛仲芳 and Woo\nSay Zung 吳賽仁。\nThe Asiatic Daily News ceased publication on June 12th.\n\nYour Obedient Servant,\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\nAM\nEntered on 13.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2447/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "390 16/6/14\n上海工部局。\n1918年6月13日\n（印：上海工部局警务处）\n警务处，\n（侦探科。）\n\n先生：\n\n据报，上海国民党某派系对北京目前的局势安排不满，意图进一步制造事端。他们目前正在策划将武器走私至内地的手段，有人提议雇用日本小贩来执行此项任务。\n\n据报，兵工厂的侦探们举行了一次会议，因为有传言称他们的服务将被终止。在会议上，他们决定向杨将军请愿，请求在他们找到其他工作之前保留其职务。\n\n徐國標（Zee Koh Liang）已派遣一名下属前往天津，为当地警察招募八十名新兵。\n\n杨将军收到海军总长刘冠雄（Liu Kwan Yung）发来的电报，要求逮捕两名海军军官，分别为毛仲芳（Mau Zoong Fong）和吳賽仁（Woo Say Zung）。\n\n《亚细亚日报》（Asiatic Daily News）已于6月12日停刊。\n\n您顺从的仆人，\n\n总探长。\n\n警务处总监。\n\nAM\n于13日录入。",
+   "zh_src": "eb1630b374d4fd8d"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2447/Reports%20Made%201916-1929%20-%20Zee%20Koh%20Liang%20416.pdf>\n\n---\nmY “ ceo \n\n\nShanahbai Municipal Cannril. \n\n\nPoitce Force, \n(Detective BRANCH.) \n\n\nsir, \n\nIt is reported that a certain section or the \nKuomingtang party in Shanghai are not satisfied with the \npresent arrangements in Peking and they intend to make \nfurther trouble. They are now considering means to \nsmuggle arms into the interior and it has been suggested \nto employ Japanese hawkers to do this worke \n\nIt 1s reported that the Arsenal daetectives have held \n@ meeting as it was rumoured that their services would \nbe Gispensed withe At the meeting they decided to \nPetition General Yang to retain them in office until \nthey can find other employment. \n\nZee Koh Liang <% '») 4#has sent one of his officers to \nTientsin to enlist eighty recruits for the local policee \n\nGeneral Yang has received a telegram from Liu Kwan \nYung, Minister of the Navy requesting him to arrest \ntwo naval officers named Mau Zoong Fong & (#35 and Woo \n\n\nSay Zung KK % = 5 \nThe Asiatic Daily News caased publication on June 12the \n\n\nYour Obedient Servant, \n\n\nY\\ at Ceres oe oe Sieh AN, parvo \n\n\nChief Detective Inspector. \n\n\nOGaptain Superintendent of Police. \n\n\nJune 13th VAS) Ps e \n\n\nPEMAR Bes test ean \n\n\nPaats Daaied oid. \n\n\na AALS \n\n\ns \n\n\nVile PUN",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2713,
+  "ocr_out_tokens": 299,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 00:03:48",
+  "zh_in_tokens": 531,
+  "zh_out_tokens": 270,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

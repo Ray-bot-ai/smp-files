@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2348",
+ "title": "Tsai Da Pei",
+ "series": "IO Files",
+ "nara_file_no": "73",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2348",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "No\nShanghai Municipal Council.\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH.)\nC. I. D.\nR. O. REG\nNo. 568\nDate. 10 - 9 - 1918.\nSeptember 9th 1918.\n\nSir,\nGeneral Yang, although he has heard many rumours and received many reports of the activities of the Monarchy Restoration Party has, so far, been unable to locate their Headquarters or discover their line of action. He has now detailed four men to work exclusively on the work of investigating the movements of this party. He has also stopped the leave of all his officers and given them instructions to lecture their men at intervals on the subject of the importance of their remaining loyal to the Republic. The steps taken by General Yang may be due to a rumour which was previously reported and is again current that the Manchu Restoration Party will make an active move before the 12th inst (the moon festival) which is popularly supposed to be the anniversary of the date of the completion of the Manchu conquest of China.\nTsai Da Pei 蔡大培 one of the rebel leaders is leaving Shanghai for Hupeh in a day or two and is taking with him 300 men of the rebel party.\nSkilled mechanics are now being engaged in Shanghai for work in France and it is reported that a few of them will be tested as to their qualifications at the workshops of Nicholas Tsu, Chinese Bund on the 10th inst.\nThe painters strike is still on.\n\nYour Obedient Servant,\n（签名）\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2348/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "编号\n上海工部局。\n（印章：上海工部局警务处）\n警务处，\n（侦探科。）\n刑事侦缉处\n登记号\n第 568 号\n日期. 1918 年 9 月 10 日。\n1918 年 9 月 9 日。\n\n先生，\n杨将军虽已听闻诸多谣言并收到许多关于君主复辟党活动的报告，但迄今仍未能查明其总部所在地或探知其行动路线。他现已专门指派四人负责调查该党的动向。他还取消了所有下属警官的休假，并指示他们定期向警员宣讲忠于民国的重要性。杨将军采取这些措施，可能是因为此前曾有过报道且目前再次流传的一则谣言，称满清复辟党将在本月 12 日（中秋节）前采取积极行动，民间普遍认为这一天是满清征服中国完成的周年纪念日。\n反叛首领之一蔡大培将于近一两天内离开上海前往湖北，并将率领 300 名反叛党人同行。\n上海目前正在招募熟练技工赴法国工作，据悉，其中少数人的资格将于本月 10 日在外滩尼古拉斯·朱（Nicholas Tsu，音译）的车间进行测试。\n油漆工罢工仍在继续。\n\n您顺从的仆人，\n（签名）\n总探长。\n\n警察总监",
+   "zh_src": "339727a33d978ffd"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2348/Reports%20Made%201916-1929%20-%20Tsai%20Da%20Pei%2073.pdf>\n\n---\nShanghai Manicipal Counril. \n\n\nBen la Se September 9th  --_ ff 9/fBs \n\n\nPouce Force, Dase....,\\% - ; =< ha \n(Detective BRancH) 2... Putadbe, i: \n\n\nSir, \n\n; General Yang, although he has heard many rumours \nand received pamy reports of the activities of the \nMonarchy Restoration Party has, sc far, been unable \n\nto locate their Headquarters or discover their line \n\nof action. Hp has now detailed four men to work \nexclusively on the work of investigating the movements \n\nof this party. He has also stopped the leave of all \n\nhis officers and given them instructions to lecture their \nmen at intervals on the subject of the importance of \ntheir remaining loyal to the Republice The steps \n\ntaken by General Yang may be aue to a rumour which was \npreviously reported and is again current that the Manchu \nRestoration Party will make an active move before the 12th \ninst (the moon festival) which is popularly supposed to \n\n\n/} } be the amniversary of the date of the completion of the \n‘ae am Manchu conquest of Ohinae . \naa Teai Da Pei /£ 4-44. one of the rebel leaders is \n\n\nleaving Shanghai for peh in a day or two and is \ntaking with him SOO men of the rebel party. \n\nSkilled mechanics are now being engaged in SNangha \nfor work in #rwance and it is report that a few a \nof them will Bex tested as to their qualifications \nat the workshops of Nicholas Tsu, Ghinese Bund on \nthe 10tn inste \n\nThe painters strike is still one \n\n\nYour Obedient Servant, \n\n\nAe, ae WU iw AP \n\n\nChief Detective Inspector. \n\n\nGaptain Superintendent of Policee \n\n\nPa",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2734,
+  "ocr_out_tokens": 369,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 22:46:25",
+  "zh_in_tokens": 601,
+  "zh_out_tokens": 305,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

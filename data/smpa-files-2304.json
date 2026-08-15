@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2304",
+ "title": "Tang Shaw Yi",
+ "series": "IO Files",
+ "nara_file_no": "72",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2304",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nI. O. REG\nNo. 542\nDate 15. 9. 16\n\nSeptember 14th 1916.\n\nThe following is a translation from the Deutsche Zeitung\nfur China.\n-----------------------------------------------------------------------\nYesterday at the Hardoon's garden a farewell dinner was given to\nTang-Shaw-Yi, the Minister of Foreign affairs, previous to his\ndeparture for Peking. He is leaving for Peking to-day. A\nnumber of prominent Chinese were present, also Dr. Wen-Tsung-\nHiu, General Huang-Hsing, Wen-Tsung-Yao and the notorious\nRevolutionist Tshan-Ta-Pei, who had been released only lately\nfrom the Municipal Gaol.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2304/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "刑事调查处\n情报官登记簿\n第 542 号\n日期 16. 9. 15\n\n1916 年 9 月 14 日。\n\n以下系译自《德文新报》（Deutsche Zeitung fur China）。\n-----------------------------------------------------------------------\n昨日，在哈同花园为外交总长唐绍仪举行送别晚宴，随后他将启程前往北京。他将于今日动身赴京。众多中国知名人士出席了宴会，其中包括温宗尧博士、黄兴将军、温宗耀以及臭名昭著的革命党人詹大悲，后者近期刚从工部局监狱获释。",
+   "zh_src": "2103a05ca61145f5"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2304/Reports%20Made%201916-1929%20-%20Tang%20Shaw%20Yi%2072.pdf>\n\n---\noe \n, \n/ \n\n\nfur China. \n\n\nYesterday at the Hardoon's farden a farewell dinner was Fiven to \n\n\nTang—Shaw-Yi, tho Minister of Forsirmn affairs, privious to his \n\n\naeparture fer Psokince He is lsaeving fo ekinr toeuay. A \nnumber of prominent chinese were presant, asluc Dr. VenteTebince \n\n\nHiu, Gonsral HusrnreHsinc, WoneTsunreYeo and th lo \n\n\nfrom the Municipal Gacl.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2708,
+  "ocr_out_tokens": 163,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 22:10:54",
+  "zh_in_tokens": 395,
+  "zh_out_tokens": 147,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

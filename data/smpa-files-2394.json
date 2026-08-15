@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2394",
+ "title": "Wong Tsch Ming",
+ "series": "IO Files",
+ "nara_file_no": "700",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2394",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Shanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE.\n(DETECTIVE BRANCH.)\n\nC. I D.\nI. O. REG\nNo. 35\nDeb.\n\nFebruary 8th 1916\n\nSir,\nThe operatives in the Arsenal resumed work yesterday.\nOne thousand rifles and forty boxes of ammunition were dispatched from the Arsenal to Peking yesterday forenoon by the gun boat \"Yoong Ziang\" 永翔 .\nIt is reported that many strangers who are believed to be rebels reside on the East side of the road to the Arsenal between West Gate and St. Catherine's bridge.\nIt is reported that the rebels have enrolled thirty volunteers to act as intelligence men. Each of them has been supplied with a warrant card by Wong Tao Ming 王则民 the leader of the local branch of the anti-yuan army. Attached please find a copy of the stamp which is being used by Wong 王 and a copy of one of the warrant cards. The English translation of the writing on the card is as follows:-\n\"Owing to the importance of ascertaining early information of military affairs in Shanghai, ............ who is well acquainted with local conditions, is hereby appointed an intelligence agent, and is authorised to act in that capacity in this district.\"\n\nYour Obedient Servant,\n\nmmmmmmmmsting\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2394/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "上海工部局。\n\n（印章：上海工部局警务处）\n警务处。\n（侦探股。）\n\n刑事侦缉处。\n情报登记\n第 35 号\nDeb.\n\n1916年2月8日\n\n先生：\n\n兵工厂的工人于昨日复工。\n昨日上午，一千支步枪和四十箱弹药由炮舰“永翔”号从兵工厂运往北京。\n据报，许多被认为是叛乱分子的生人居住在西门至圣凯瑟琳桥之间通往兵工厂的道路东侧。\n据报，叛乱分子已招募三十名志愿者充当情报人员。反袁军当地分支首领王则民已向每人发放了一张委任证。随函附上王使用的印章图样一份，以及其中一张委任证的副本。证件上文字的英文译文如下：——\n“鉴于及早查明上海军事情报之重要性，………………因熟悉本地情况，兹任命为情报员，并授权其在本地区以此身份行事。”\n\n您顺从的仆人，\n\nmmmmmmmmsting\n首席侦探督察。\n\n警察总监",
+   "zh_src": "504c8a85eb959269"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2394/Reports%20Made%201916-1929%20-%20Wong%20Tsch%20Ming%20700.pdf>\n\n---\nMRE ees tate ee \n\n\nAMR ERMELET ROTI AOE EIT PIE MV ETUC ET! LIANE ABO \n\n\nDo \n\n\nc. \no- \n\n\nPouce Force, \n(Detective Brancn) \n\n\nSir, \n\n\nEG \n\n\nShanghai Municipal Couseil. \n\n\nFobruary 8th SOA 8 \n\n\nThe operatives in the Arsenal resumed work ;ostoreay. \nOno thousand rifles ana forty boxes of ammninition were \n\n\n@Gispatched from the Arsenal te \nthe fun boat \"Yoong Zianer\" sfc F9 \n\n\nPoking yesterfay forenoon by \n\n\nBt is reported that miiny strangors who are bolieved to \n\n\nbe rebels roside on \n\n\nthe \n\n\nHast side of the road to the Arsenal \n\n\nbetwoen West Gautc and St.Cathorine's bridre. \n\nIt is reported that the rebels have enrolled thirty \nvwoluntoers to act as intollisence men. Each of then has been \nsupplied with a warrant card by Yong Tsoh Ming Einy& the \nleader of tho local branch of the anti-yuan army. Attached \n\n\nrleaso find a copy of the stamp \n\n\nWhich is hoing ured by \n\n\nVong 4 and a copy of ono of the warrant cards. Tho \n\n\nEnglish translation \n\n\n\"Owing to the importance of ascertaining early information \n\n\nof military affairs \n\n\nofr \nin \n\n\nthe writing on tho card is as follows:-— \n\n\nShanghai, ....2........ who is well \n\n\nacquainted with local conditions, is hepeby appointed an \n\n\nintelligence asent, \n\n\nane \n\n\nis authorised to act in that \n\n\ncapacity in this district.\" \n\n\neA \n\n\n4 \n\n\nYour Obedient Servant, \n\n\nWWW ao \n\n\nChief Detective Inspector. \n\n\nCaptain Supocrintendent of Police. \n\n\nTRG RIAL pole",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2744,
+  "ocr_out_tokens": 307,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 23:24:56",
+  "zh_in_tokens": 539,
+  "zh_out_tokens": 238,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

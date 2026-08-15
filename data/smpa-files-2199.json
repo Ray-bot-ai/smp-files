@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2199",
+ "title": "Ming Ko Pao",
+ "series": "IO Files",
+ "nara_file_no": "426",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2199",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nI. O. REG\nNo. 276\nDate 7/6/16\nShanghai Municipal Council.\nJune 8th 1916.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE JUNCTA IN UNO）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nSir,\n\nThe troops at the Arsenal and Woosung have not yet\nbeen paid, but there is no discontent among them.\nIt is reported that General Yang is arranging to borrow\nsufficient money to pay them from the Nantao Chamber\nof Commerce.\n\nThe Ming Ko Pao 民囯報 has, with to-day's issue\npresented their readers with a pamphlet in which Sun Yat Sen's\ndeclaration is printed in English and Chinese.\n\nThe declaration has already appeared in the\nEnglish newspapers.\n\nYour Obedient Servant,\n[Signature]\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\nEntered on card June 1",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2199/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "刑事调查处\n情报官登记\n第 276 号\n日期 1916年6月7日\n\n上海工部局。\n1916年6月8日。\n\n（印章：上海工部局警务处 合众为一）\n\n警务处，\n（侦探科）\n\n先生：\n\n兵工厂和吴淞的部队尚未领到军饷，但士兵中并无不满情绪。\n据报，杨将军正安排向南市商会借取足够款项以发放军饷。\n\n《民国报》在今日发行的报纸中，向读者附赠了一本小册子，其中印有孙中山宣言的中英文版本。\n\n该宣言已刊登于各英文报纸。\n\n您忠实的仆人，\n[签名]\n总探长\n\n警务处总监\n\n6月1日录入卡片",
+   "zh_src": "791cb187391e6dec"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2199/Reports%20Made%201916-1929%20-%20Ming%20Ko%20Pao%20426.pdf>\n\n---\nc.1. Db. \nNj x OQ. \nAG Weicrxeeuacee \n\n\n“4 \nf i vesl fh, J be LLetvace \n\n\n= ; ; , patra ees f : \nShanabai #harticipal Courtril. \n\n\n{ee 8 Sune 6th SOF Be \nPovice Force, \n(Detective BRANCH) \n\n\nSar, \nThe troops at the Arsenal and Woosung have not yet \n5 been paid, but there is no discontent among them. \n\n\nIt is reported that General Yang is arranging to borrow \n\n\nsufficient money to pay them from the Nantao Chamber \nor Commerce. \n\n\nPs The Ming Ko Pao AMiknas, with to-day’s issue \n\n\nPresented their readers with a pamphlet in which Sun Yat Sen's \naeclaration is printed in English and Chinese. \n\n\n” The declaration has already appeared in the \nEnglish newspapers. \n\n\nYour Obedient Servant, \n\n\nLWW ag \n\n\nGhief Detective Inspector. \n\n\nGaptain Superintendent of Police.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2762,
+  "ocr_out_tokens": 220,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 20:57:13",
+  "zh_in_tokens": 452,
+  "zh_out_tokens": 185,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

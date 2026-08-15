@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2210",
+ "title": "Mr. Stephorius",
+ "series": "IO Files",
+ "nara_file_no": "1411",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2210",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Please return this file to the\nCENTRAL REGISTRY\nwhen finished with.\n\n（印：SHANGHAI MUNICIPAL COUNCIL）\n\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nShanghai Municipal Council.\n\n14th January 1916\n\nC. I. D.\nI. O. REG\nNo 15\nDate 14-1-16\n\nSir,\nThe French Police were notified by the Bureau of Foreign\nAffairs both on the afternoon of the 12th and the afternoon\nof the 13th that the rebels were going to attack the Chinese\nPolice Stations in the evening. Nothing happened.\nMore than the usual precautions were taken in the\nChinese City. The French Police have arrested a Government\ndetective who had an office and who is charged with\nfunctioning in the French Concession.\n\nThe following in an extract from the Deusche Zeitung\nfur China dated 13th January 1916:-\n\" Shanghai Elections.\nWe have nominated for the coming election Mr. Stepharius\nas he is the oldest member of the German Community.\nWe could not nominate Mr.H.Figge for certain reasons.\nWe, Germans, in Shanghai have little chance of getting\na representative elected but we have shown that our interests\nin China are not finished yet. \"\n\nYour Obedient Servant,\n\n（签名）\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2210/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "使用完毕后，请将此卷宗归还至\n中央登记处\n\n（印章：上海工部局）\n\n警务处，\n（侦探分部）\n\n上海工部局。\n\n1916年1月14日\n\n刑事侦缉处\n情报官登记\n第15号\n日期 16-1-14\n\n先生：\n\n法租界巡捕房于12日下午及13日下午两次接外务局通知，称叛军将于当晚袭击华界巡警局。但并未发生任何事件。\n\n在华界已采取比平时更为严密的预防措施。法租界巡捕房逮捕了一名政府侦探，该侦探设有办事处，并被指控在法租界内活动。\n\n以下为1916年1月13日《德文新报》（Deutsche Zeitung für China）摘录：\n“上海选举。\n我们提名施特法里乌斯（Stepharius）先生参加即将到来的选举，因为他是德国社群中最资深的成员。由于某些原因，我们无法提名H.菲格（Figge）先生。我们在上海的德国人几乎没有机会选出代表，但我们已表明，我们在中国的利益尚未终结。”\n\n您顺从的仆人，\n\n（签名）\n\n总探长。\n\n警务处总监。",
+   "zh_src": "ac487da3fb197d6d"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2210/Reports%20Made%201916-1929%20-%20Mr.%20Stephorius%201411.pdf>\n\n---\nPlease return this file to the f > \nAWENTRAL REGISTRY Pet : \n“when finished with. 2 sak \nNe -_ \n\n\n—, = ye é.® < aa \nShanghai Mlunictpal Counvri \n/ 7 q \n\n\nPouce Force, \n(Detective Brancn) - \n\n\nSir, Dake \nThe French Police were notified by the Bureau of Foreign \n\nAffairs both on the afternoon of the 12th and the afternoon \n\nof the 18th that the rebels were going to attack the Chinese \nPolice Stations in the evening. Nothing happened. \nMore than the usual precautions were taken in the \nOhinese Oity. The French Police have arrested a Government \ndetective who had an office and who ie charged with \nfunctioning in the French Concession. \n\n\nWY, ; The following in an extract from the Deusche Zeitung \n/2 fur Ghina dated 13th January 1916:=- \nos . Shanghai Elections. \n\n\nWe have nominated for the coming election Mr. Stepharius \nas he is the eldest member of the German Comminity. \nWe could not nominate Mr.H,Figge for certain reasons. \nWe, Germans, in Shanghai have little chance of getting \na representative elected but we have”’shown that our interests \nin Ghina are not finished yet. \"* \n\n\nYour Obedient Servant, \n\n\nlannnannnnecbirng \n\n\nChief Detective Inspector. \n\n\nCaptain Superintendent of POlice.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2705,
+  "ocr_out_tokens": 308,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 21:19:20",
+  "zh_in_tokens": 540,
+  "zh_out_tokens": 274,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

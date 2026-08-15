@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2289",
+ "title": "Sun Yat Sen",
+ "series": "IO Files",
+ "nara_file_no": "430",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2289",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "S. I. D.\nE. O. REG\n326\n13/5/16\n\nNo\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH.)\n\nMay 12th 1916-\n\nSir,\n\nIt is reported that Sun Yat Sen 孙逸仙 and his\nfollowers intend to hold a meeting in a foreign house\nin Avenue Dubail this afternoon.\nIt is reported that Sun Yat Sen intends to\nleave his present quarters in Frenchtown and move to\nthe Palace Hotel soon.\nThe cruiser Ching Tsing 镜清 left the Arsenal\nyesterday morning for Nanking. She had 100 artillery\nmen as well as a consignment of rifles and ammunition\non board.\nThe officer in charge of the police at Minghong\nhas reported to General Yang that the rebels and bad\ncharacters in his district has become united and\nare likely to cause trouble. He applied for troops\nto assist in preserving the peace in his district.\nGeneral Yang told him that Minghong is near Shanghai\nand therefore it was not necessary to send troops there.\nShould trouble occur there troops could be quickly\ndispatched to the place from Shanghai.\n\nYour Obedient Servant,\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\n12/5. Ash/145",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2289/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "S. I. D.\nE. O. REG\n326\n1916年5月13日\n\n编号\n上海工部局。\n\n（印章：上海工部局警务处）\n警务处，\n（侦探科。）\n\n1916年5月12日——\n\n先生：\n\n据报，孙逸仙及其追随者拟于今日下午在杜白路（Avenue Dubail）的一处外侨住宅内举行会议。\n据报，孙逸仙打算不久后离开其目前在法租界的住所，搬入华懋饭店（Palace Hotel）。\n“镜清”号巡洋舰昨晨离开兵工厂前往南京。该舰载有炮兵100名，以及一批步枪和弹药。\n闵行警务负责人已向杨将军报告称，其辖区内的叛乱分子与不良之徒已相互勾结，很可能制造事端。他申请派兵协助维持其辖区的治安。\n杨将军告知他，闵行邻近上海，因此无需向该地派兵。若该地发生骚乱，可从上海迅速调派军队前往。\n\n您顺从的仆人，\n\n总探长。\n\n警察总监。\n\n5月12日。Ash/145",
+   "zh_src": "efd012efbdd06254"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2289/Reports%20Made%201916-1929%20-%20Sun%20Yat%20Sen%20430.pdf>\n\n---\nSe tea deeatal hail \n\n\nPo.iice Force, \n(Detective Branch) \n\n\nwos \n‘ Pe \n\n\nB-2- \n\n\n= \nShanghai Municipal Council. \n\n\nMay 12th \n\n\nsir, \n\n\n4 \n\nIt is reported tiat Sun Yat ie ae his. \nfollowers interd to hold a meeting in a Poreign house \nin Avenue Dubail this afternoon. \n\nIt is reported that Sun Yat Sen intends to \nleave his present quarters in Frenchtown and move to \nthe Palace Hotek soon. kj + \n\nThe cruiser Ching Tsing %. | left the Arsenal \nyesterday mornirg for Nanking. She hada 100 artillery \nmen as well ae a consignment of rifles and ammunition \non board. \n\nThe officer in charge of the police at Minghong \nhas reported to General Yang that the rebels and bad \ncharacters in his district has become united and \nare likely to cause trouble. He applied for troops \nto assist in preserving the peace in his district. \nGeneral Yang told him that Minghong is near Shanghali \nand therefore it was not necessary to send troops there. \nShould trouble occur there troops could be quickly \ndispatched to the place from Shanfhaie \n\n\nYour Obedient Sermsht, \n\n\nWA ar a \n\n\nChief Detective Inspectore \n\n\nCaptain Superintendent of Police. \n\n\ni a \n[ov (ae \n\n\n’ \n\n\nSmee 1 POTOU US SOSA NONE TOE VTA TRIE EI LN ST |",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2705,
+  "ocr_out_tokens": 304,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 22:04:43",
+  "zh_in_tokens": 536,
+  "zh_out_tokens": 275,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

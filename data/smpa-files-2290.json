@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2290",
+ "title": "Sun Yat Sen",
+ "series": "IO Files",
+ "nara_file_no": "445",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2290",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "S.I.D.\n222\n12/376\n\nNo\n\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH.)\n\nMay 11th 1916.\n\nSir,\nIt is reported that the rebels in Frenchtown\nintend to apply to the French Municipal Council\nfor permission to raise a Volunteer Corps.\nThis will be ostensibly for the same purposes\nas the Volunteer Corps in the Settlement but in\nreality will be used for training rebels to the\nuse of arms.\nIt is reported that Sun Yat Sen sent\ntelegrams to Yunnan, Canton, Szechuen and Chekiang\nyesterday urging these provinces to unite and\noffering to assist them in any way he can.\nIt is reported that mines are placed\nin the sea outside Woosung during the night time\nto protect the forts from an attack by sea.\nIt is reported that General Lu Yung Ziang\nintends to resign soon, as his troops are getting\nout of hand and he fears that they will murder him.\n\nYour Obedient Servant,\n\n（签名）\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\nam\n11/5\n\nEntered on m.s. May 11.\ncopy sent to S.V.C.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2290/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "特别情报处（S.I.D.）\n222\n12/376\n\n编号\n\n上海工部局。\n\n（印章：上海工部局警务处）\n警务处，\n（侦探科。）\n\n1916年5月11日。\n\n先生：\n\n据报，法租界内的反叛分子拟向法国公董局申请许可，组建一支义勇队。此举表面上将与公共租界义勇队的目的相同，但实际上将用于训练反叛分子使用武器。\n\n据报，孙中山昨日向云南、广东、四川和浙江发送电报，敦促这些省份联合起来，并表示愿尽其所能提供协助。\n\n据报，夜间在吴淞口外海域布设水雷，以保护炮台免受海上攻击。\n\n据报，卢永祥将军打算不久后辞职，因其部队已失控，他担心部下会杀害他。\n\n您顺从的仆人，\n\n（签名）\n\n首席侦探督察长。\n\n警务处总监。\n\nam\n11/5\n\n于5月11日录入备忘录。\n副本已送交上海义勇队（S.V.C.）。",
+   "zh_src": "80d7becfd4343611"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2290/Reports%20Made%201916-1929%20-%20Sun%20Yat%20Sen%20445.pdf>\n\n---\nPouce Force, \n(Detective BRANCH) \n\n\nsir, \nd that the rebels in Froenchtom \n\n\nIt is roporte \nintemd to apply to the French Municipal Council \nfor permission to raise a Volunteer Corpse F \n\n\nThis will be ostensibly for the same purposes \nas the Volunteer Corps in the Settlement but in \nreality will be used for training rebels to the \n\n\nuse of arms. \n\nIt is xwpported that Sun Yat Sen sent \ntelegrams to Yunnan, Canton, Szecheun and Chekiang \nyeaterday urging these provinces to unite and \n\n\noffering to assist them in any way he can. \nIt is reported that mines are placed \n\n\nin the sea outside Woosung during the night time \n\n\nto protect the forts from an attack by seae \nIt is reported that General Lu Yung Ziang \n\n\nintends to resign s0o0ns; as his troops are getting \nout of Hand and he fears that they will murder hime \nYour Ovedient Servant, \nWitt \n\n\nChicf Detective Inspector. \n\n\nNs CON AIRE GNI IOI I er ceases \nEe ee eee Ae ENTE \n\n\nnem erene sans",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2714,
+  "ocr_out_tokens": 293,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 22:05:17",
+  "zh_in_tokens": 525,
+  "zh_out_tokens": 250,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

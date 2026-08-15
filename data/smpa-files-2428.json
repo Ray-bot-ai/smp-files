@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2428",
+ "title": "Yu Yah Ching",
+ "series": "IO Files",
+ "nara_file_no": "126",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2428",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "A?\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE (DETECTIVE BRANCH)）\nShanghai Municipal Council.\nC. & D.\nL. O. RED\nNo. 589\nDate 4 - 9 - 16\n1st September 1916\n\nSir,\nYu Yah Ching 虞洽卿 called yesterday\nat No. 468 Rue Eugene Bard, the headquarters of\nthe society for the relief of ex-revolutionaries,\nwhere he had arranged to meet some rebel leaders\nin connection with the repatriation of rebel\nfollowers. None of the leaders turned up.\n\nGeneral Yang sent one of his staff officers\nnamed Zau Li Waung 趙聯潢 to Nanking on 31st\nultimo to get money to pay the troops here.\n\nThe painters' strike is still on.\n\nYour obedient servant,\nmmmmclwshong\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2428/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "A?\n（印章：上海公共租界工部局警务处（侦探股））\n上海公共租界工部局。\nC. & D.\nL. O. RED\n第 589 号\n日期 4 - 9 - 16\n1916 年 9 月 1 日\n\n先生：\n\n虞洽卿（Yu Yah Ching）昨日前往欧仁·巴尔路（Rue Eugene Bard）468 号，即前革命党人救济会总部，他已安排在此与一些叛乱首领会面，商讨遣返叛乱追随者事宜。没有任何首领出席。\n\n杨将军于上月 31 日派遣其一名参谋赵联潢（Zau Li Waung）前往南京，以获取资金支付此处驻军军饷。\n\n油漆工罢工仍在继续。\n\n您顺从的仆人，\nmmmmclwshong\n总探长。\n\n警察总监上尉",
+   "zh_src": "e0e00389bcfed180"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2428/Reports%20Made%201916-1929%20-%20Yu%20Yah%20Ching%20126.pdf>\n\n---\nPouce Force, \n(Detective BRANCH) \n\n\n* \n\n\n. \n\n\nShanghai Municipal Council. \n\n\nCS. 1 D- \nL. O. \n\n\nr let Septender SDF & \n\n\n~ \n\n\nsir, \n2 14 E \nYu Yah Ching /% !7 called yesterday \n\n\nat 10. 468 Rue Eugene Bard, the headquarters of \nthe society for the relief of ex-revolutionaries, \nwhere he had arranged to meet some rebel leaders \nAn connection with the repatriation of rebel \nfollowers. None of the leaders turned up. \n\n\nGeneral Yang sent one of his staff officers \nnamed Zau Li Waung E Kt Ff to Nanking on Sist \nultimo to get money to pay the troops here. \n\n\nme painrere strike is til one \n\n\nYour obedient servants, \n\n\nHu ED \n\n\nchi er Detective Inspector. \n\n\nCaptain Superintendent of Police.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2713,
+  "ocr_out_tokens": 213,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 23:56:30",
+  "zh_in_tokens": 445,
+  "zh_out_tokens": 216,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

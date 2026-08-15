@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2418",
+ "title": "Yih Ping Shang",
+ "series": "IO Files",
+ "nara_file_no": "119",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2418",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Shanghai Municipal Council.\nJuly 22nd 1916\n\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nSir,\nThe Parliamentarians were entertained to tiffin\nand dinner in the Yih Ping Shang—怡香 hotel on\n21st inst by the Venus Insurance Company and Nanyang\nBros. Tobacco Coy respectively.\nThirty two M.P.s left for the North at 12 noon.\n21st instant by s.s. \"Tongshan\".\nThe printing press and furniture of the defunct\nAsiatic Daily News have been mortgaged to Arthur & Co\nNo.20 Nanking Road for $50,000.00.\nIt is reported that the Koumingtang party is\ntrying to come to an understanding with the army\nand navy here. They intend to hold a conference after\nthe M.P.s depart for the north.\nSixteen soldiers in uniform left the Arsenal for\nTientsin at 3 p.m. yesterday. It is reported that\nthey have gone north to recruit some new men.\n\nYour Obedient Servant,\n\nWilliam Armstrong\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2418/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "上海工部局。\n1916年7月22日\n\n警务处，\n（侦探股）\n\n先生：\n\n本月21日，国会议员分别由维纳斯保险公司（Venus Insurance Company）和南洋兄弟烟草公司（Nanyang Bros. Tobacco Coy）在怡香饭店（Yih Ping Shang—怡香 hotel）招待午宴和晚宴。\n\n三十二名国会议员于本月21日中午12时乘坐“通山”号轮船（s.s. \"Tongshan\"）启程北上。\n\n已停刊的《亚细亚日报》（Asiatic Daily News）的印刷机和家具已抵押给南京路20号的阿瑟公司（Arthur & Co），抵押金额为50,000.00美元。\n\n据报，国民党正试图与本地的海陆军达成谅解。他们打算在国会议员北上后召开一次会议。\n\n昨日午后3时，十六名身着军装的士兵离开兵工厂前往天津。据报，他们北上是为了招募新兵。\n\n您顺从的仆人，\n\n威廉·阿姆斯特朗\n首席侦探督察长\n\n警务处总监",
+   "zh_src": "b115766f673b292c"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2418/Reports%20Made%201916-1929%20-%20Yih%20Ping%20Shang%20119.pdf>\n\n---\ni ° eS . Ss by hs \nYoo. ters \naw a ‘4 & f \n\n\nMe \nShanghai Municipal ¢ won’ \n\n\ns A July 2nd C 8 \nz gp \nPouce Force, mn 7 \n\n\n(Derective Brancn) \n\n\nSir, \n\nTi.e Parlianentarians wer: entertained to tiffin \naod dinner in the Yih Ving Shang— % % hotel on \nPlst tust by the Venus Tnsurance Company and Nanyane \nBros. Toha::co Coy respectively. \n\nTiulrty two ''.Pes left for tiie Norti. at 17 1:.e%e \nlet tnotunt by seae \"Tongan\" \n\nThe printing press and forniture of tie @efunct \nAsiatic Daily News lLave_br3n :ort@aged to Arthur & Co \nNo.?0 Nanking Road for 39 5999.206 \n\nIt is reported tint. tie Kounl:-gtang party is \ntrying to come to an undersa‘andtr with tlhe army \nard navy here. Tliey intend to hold na conference after \nthe i.2.8 depart for the north. \n\nSixteen soldiers Ln oniform Left the Arsenal for \nTioutein at 3 pete yesterday. It is reported that \n\nhey Nave gone north to recruit gone ::6Ww mene \n\n\nYour %} edient Servant, \n\n\nWar Grud Wag \n\n\nChicsf Metective Tnspestor.e \n\n\nGaptain Superintade:t of POlicee",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2705,
+  "ocr_out_tokens": 254,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 23:53:52",
+  "zh_in_tokens": 486,
+  "zh_out_tokens": 249,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

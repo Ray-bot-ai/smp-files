@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2388",
+ "title": "Wong Ih Eon",
+ "series": "IO Files",
+ "nara_file_no": "606",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2388",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "No\nC. I. D.\nI. O. REG\nNo 272\nDate 22/4/16\nShanghai Municipal Council.\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE,\n(DETECTIVE BRANCH.)\nApril 22nd 1916\n\nSir,\nIt is reported that the rebels in Shanghai\nare now divided into three parties viz, Ghoong Woo\nChing 共和軍 Woo Koh Ching 護國軍 Tsoong Wco Koh Ming\nChing 中華民國軍。 Wong Ih Eon 黃一殿 son of Hsang Hsin\nis leader of the first named organisation.\nMyeu Tih Sung 鈕鉄生 is leader of the second and Chen\nChi Mei 陳其美 of the last named. The headquarters\nof all these parties are said to be in the western\npart of Frenchtown.\nIt is reported that the rebels here have sent a\nman named Tsaung Ming Kwung 庄銘坤 to Soochow which\naccording to rebel reports will declare independence\nsoon. The rebels have also sent a man named\nTsu Tsung Hai to Yangchow, which is also expected to\nbreak off relations with Peking in the near future.\nIt is reported that the rebels are trying\nto arrange to get warships from Canton to attack\nWoosung forts. Kiangyin will be used as a base\nfor the operations.\nIt is reported that Fokienese sugar merchants\nin Shanghai have contributed a big sum of money\nto the rebel funds.\nIn addition to the places in Pao Kong Li 宝康里\nthe rebels have now new meeting places at No.84 and 8\nShing Yih Li 新億里 Avenue Joffre Frenchtown.\n\nYour Obedient Servant,\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\nE udieson mrd Apr. 22.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2388/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "编号\n刑事侦缉处\n情报登记处\n第 272 号\n日期 1916年4月22日\n上海工部局。\n（印：上海工部局）\n警务处，\n（侦探股。）\n1916年4月22日\n\n先生，\n据报，上海的叛军目前分为三派，即：共和军、护国军、中华民国军。黄一殿（Wong Ih Eon），系项馨（Hsang Hsin，音译）之子，为第一派组织的领袖。钮铁生（Myeu Tih Sung）为第二派的领袖，陈其美（Chen Chi Mei）为最后一派的领袖。据说所有这些派别的总部均位于法租界西部。\n据报，此地的叛军已派遣一名名为庄铭坤（Tsaung Ming Kwung）的人前往苏州，据叛军方面消息，苏州即将宣布独立。叛军还派遣了一名名为朱宗海（Tsu Tsung Hai，音译）的人前往扬州，预计该地不久也将与北京断绝关系。\n据报，叛军正试图安排从广州调遣军舰来攻击吴淞炮台。江阴将被用作行动基地。\n据报，在上海的福建籍糖商已向叛军基金捐赠了一大笔款项。\n除了在宝康里的据点外，叛军目前在法租界霞飞路新亿里84号和8号也设立了新的集会地点。\n\n您顺从的仆人，\n总探长。\n\n警察总监上尉。\n\nE udieson mrd 4月22日。",
+   "zh_src": "f682a657fe1211a5"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2388/Reports%20Made%201916-1929%20-%20Wong%20Ih%20Eon%20606.pdf>\n\n---\n; aia \na ce AT \n\n\nShanghai Municipal Ga a \n\n\nuncil, \nApril 22nd AGIF \nPouce Force, Oe ae ee ee ; \n(Detective Brancn) 5 \nSir, ae \n\n\nthe rebels in Shanghai \nare nowy aiviged into three rties viz, Ghoong Woo \nChin +H B64. .\" Koh Ching | E \n\nChing e Wong Ih £ \nis leader of the fis \n\n\nMyeu Tih s BLiGRE As leader of the second and Chen \nChi mei 72 Ze = \n\n\nIt is reported that the reb 1s here have Bent a \nman named Tsaung Ming Kwung/;: #2 oF \n\n\nwill declare indepandence \ns00ne The rebels have als \n\n\ner ag \nto arrange to get warships attack \nWoosung forte. 11 be used as a base \nfor the operations. \n\n\nIt is reported that Fokienese Sugar merchants \nin Shanghai have contributed a big sum of money \nto the rebel funds. iw , \n- In addition to the Places in Pao Kong Li €. [. ¢ \nthe rebels ha © now new meeting places at Noes4 and 8 \nShing Yih Li? € ¢ avenne Joffre Frenchtown, \n\n\nYour Obedient Servant, \nChief Detective Inspector. \n\n\nCaptain Superintendent of Police. \n\n\nWy? ¥",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2713,
+  "ocr_out_tokens": 419,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 23:23:25",
+  "zh_in_tokens": 651,
+  "zh_out_tokens": 356,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

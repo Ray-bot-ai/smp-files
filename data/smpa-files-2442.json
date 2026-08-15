@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2442",
+ "title": "Zau Woo Kyung",
+ "series": "IO Files",
+ "nara_file_no": "627",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2442",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nI. O. REQ\nNo 225\nDate 4/4/16\n\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH.)\n\n3rd April 1916.\n\nSir,\nOne thousand two hundred troops of the Arsenal garrison are now living in tents, which were erected on 2nd instant at various points between Loonghwo and Zau Woo Kyung 肇河泾 village.\n\nIt is rumoured that some soldiers looted two shops in Woosung on the night of 2nd instant. Enquiries have been made but no confirmation of this rumour can be obtained.\n\nThe rebels are still very active in attempting to win over the Government soldiers. Their head-quarters are still in the western part of the French Concession.\n\nYour obedient servant,\n\n[签名]\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\n[签名]\n\nEn. Lined on M.S. Apl. 3.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2442/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "刑事侦缉处\n情报官申请\n第 225 号\n日期：1916年4月4日\n\n上海工部局。\n\n（印章：上海工部局警务处）\n警务处，\n（侦探科。）\n\n1916年4月3日。\n\n先生：\n\n兵工厂驻军的一千二百名士兵目前居住在帐篷中，这些帐篷于本月2日在龙华与肇河泾村之间的各处搭建。\n\n有谣言称，部分士兵于本月2日晚在吴淞抢劫了两家商店。经查询，未能证实此谣言。\n\n反叛者仍在积极试图策反政府军士兵。其总部仍位于法租界西部。\n\n您忠实的仆人，\n\n[签名]\n总探长。\n\n警察总监上尉。\n\n[签名]\n\n附注：手写稿上已划线。4月3日。",
+   "zh_src": "b7ee6e9de68fe4bc"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2442/Reports%20Made%201916-1929%20-%20Zau%20Woo%20Kyung%20627.pdf>\n\n---\nPouce Force, \n(Detective BrRancH) \n\n\n* Sir, \n\n~— “one thousand two hundred troops of the Arsenal \ngarrison are now living in tents, which were erected \non 2nd instant at various points petween Loonghwo \nand Zau Woo Kyung /7 (7[ |Z villagee \n\n\nIt is rumoured that some soldiers looted two shops \nin Woosung on the night of 2na instant. Enquiries have \n! Deen made but no confirmation of this rumour oan be \n\n\nNey obtainede \n\n\nfhe rebels are still wery_ active in attempting \nto win over the Government soldiors. Their head— \nquarters are still in the western part of the Prench \n\n\nGoncessione \n\n\nYour obedient servant, \n\n\niin An drars \n\n\nGhief- Detective Inspestore \n\n\nCaptain Superintendent of Police.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2758,
+  "ocr_out_tokens": 230,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 00:03:02",
+  "zh_in_tokens": 462,
+  "zh_out_tokens": 197,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

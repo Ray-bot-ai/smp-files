@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2331",
+ "title": "Tientsin Incident",
+ "series": "IO Files",
+ "nara_file_no": "57",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2331",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nI. O. REG\nNo. 666\nDate 28/10/16\n\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE (DETECTIVE BRANCH)）\n\nOctober 28th 1916\n\nSir,\nOn the 25th inst the French Consul General sent to\nthe local Chinese Press a full explanation of the Tientsin\nincident. On the evening of the same date representatives\nof the Press held a meeting at which it was decided not to\npublish the explanation as the action of the French\nAuthorities at Tientsin was a serious infringement of the\nsovereign rights of the country. A reply to the\nabove effect will be sent to the French Consul General.\n\nA deputation from the Rebels who have not yet been\npaid, visited the Arsenal on the 25th inst and stated\nthat they could not wait until the 28th inst for payment.\nThey were curtly informed by a staff officer that no\nmore payments would be made until that date.\nThe patrols and sentries have been doubled on the roads\naround the City and Arsenal.\n\nYour Obedient Servant,\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\n（批：ATS）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2331/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "刑事调查处\n情报官登记册\n编号 666\n日期 1916年10月28日\n\n上海工部局。\n\n（印：上海工部局警务处（侦探部））\n\n1916年10月28日\n\n先生：\n\n本月25日，法国总领事向本地中文报界发送了一份关于天津事件的完整说明。同日晚，报界代表举行会议，决定不刊登该说明，理由是法国当局在天津的行动严重侵犯了本国主权。将向法国总领事发送一份表达上述意思的复函。\n\n一群尚未领到薪饷的叛军代表于本月25日造访兵工厂，声称他们无法等到本月28日再领取薪饷。一名参谋军官冷淡地告知他们，在该日期之前不会再发放任何薪饷。\n\n城区及兵工厂周边道路的巡逻队和哨兵人数已加倍。\n\n您忠实的仆人，\n首席侦探督察长。\n\n警察总监上尉。\n\n（批注：ATS）",
+   "zh_src": "8371e065f115798e"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2331/Reports%20Made%201916-1929%20-%20Tientsin%20Incident%2057.pdf>\n\n---\n___ Ostober 26th... 9774 \n\n\nPouice Force, \n(Detective BRancH) \n\n\nsir \nSe On the 25th inst the Freneh Consul General sent to \n\n\nthe, Chinese Press a full explanation of the Tientsin \n\n\nOn the evening of the same date representatives \n\n\nincident. \nng at which it was decided not to \n\n\nof the Press held a meeti \noa _ publish the explanation as \nbw e Authopities at Tientsin was a \n\n\nsovereign rights of the country e \nabove effect will be sent to the #rench Consul Generale \n\n\nthe action of the Freneh \nserious inrringement of the \nA reply to the \n\n\nA deputation from the Rebels who have not yet beer \n\n\npaid, wisited the Arsenal on the 26th inst and stated \n\n\nthat they could not wait until the 26th inst for payment. \nThey were curtly informed by a staff officer that mo \nmore payments would be made until that date. \n\nfhe patrols and aentriog have been doubled on the roads \n\n\nAE \naround the City and Arsenal - \nwe Your Obedient Servant, \n\n\n4. bruset LLL \n\n\né Chier Detective Inspector. \n\n\ng \n\n\nCaptain Superintendent of Police.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2713,
+  "ocr_out_tokens": 282,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 22:38:32",
+  "zh_in_tokens": 514,
+  "zh_out_tokens": 227,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

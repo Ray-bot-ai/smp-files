@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-237",
+ "title": "Bonham, A. Private - Departure Of",
+ "series": "D Files",
+ "nara_file_no": "1222",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-237",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "FORM NO. 3\nB. 40M-1 38\n\nSHANGHAI MUNICIPAL POLICE.    File No............\nC. S. 6, Special Branch. Shanghai,\nREPORT\nDate........July 14. 1939.\n\nSubject (in full)........BONHAM, Private - Departure of.\n\nMade by....D.S. Anderson........Forwarded by..D.S.I. [签名]\n\nWith reference to a teleprinter message circulated\nfrom Central Police Station at 12.17 p.m. on 7th June 1939,\nregarding a Private A.Bonham, of the East Surrey Regiment,\nbeing missing since the 5-6-39, I have to report that, on\n8th of July 1939, Private A.Bonham, departed from Shanghai\nfor Hongkong on board the Butterfield & Swire steamer\n\"Kuinchow\".\n\nThe military Police of the East Surrey Regiment\nand\nhave been communicated with/it has been ascertained that the\nPrivate in question was duly located in Shanghai and has been\ndischarged from the service.\n\n[手写批注：BPC at 9.53 am 16/7/39 to cancellation forwarded]\n\nD.C.(Special Branch).\n\nA.S. Anderson.\nD. S.\n\n[手写批注：To be cam\nFILE\n382\nP... (1)\n57]",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-237/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "表格编号 3\nB. 40M-1 38\n\n上海公共租界工部局警务处。    档案编号............\nC. S. 6，特别处。上海，\n报告\n日期........1939年7月14日。\n\n事由（全称）........二等兵邦纳姆（BONHAM）——离境。\n\n呈报人....安德森副巡长（D.S. Anderson）........转呈人..警司 [签名]\n\n兹就1939年6月7日下午12时17分由中央捕房发出的电传消息，关于东萨里团（East Surrey Regiment）二等兵A.邦纳姆（A.Bonham）自1939年6月5日起失踪一事，本人谨此报告：1939年7月8日，二等兵A.邦纳姆乘坐太古轮船公司（Butterfield & Swire）的“九江”号（Kuinchow）轮离开上海前往香港。\n\n已与东萨里团的宪兵取得联系/经查证，该二等兵确在上海找到，并已退出现役。\n\n[手写批注：1939年7月16日上午9时53分致BPC，已转发注销通知]\n\n特别处副巡长。\n\nA.S. 安德森。\n副巡长。\n\n[手写批注：待归档\n档案\n382\nP... (1)\n57]",
+   "zh_src": "81d7de4b1da047aa"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-237/Bonham%2C%20A.%20Private%20-%20Departure%20Of%201222.pdf>\n\n---\n« \n\n\nFORM NU, 3 . File IN Oecdeee as \n\n\nliad ade SHANGHAI MUNICIPAL POLICE. \n3.3.6,S0c¢ial Branchs...Ssoxum, . \natic Dete..... TBLY Ube.1930. ” \nSubject (in full) ed BONEAM, Private - Deoarture ofe uw. a ee eee eT eee . \n\n\nts \n\n\nWith reference to a teleorinter message cires ated \n\nfrom Central Police Station at 12.17 p.m. cn 7th June 199, \nregarding a Private A.Bonnam, of the Zast Surrey Keginent, \nbeing missirg ciacue “the S©6-39, I have to report that, on \n8th of July 1939, Private A.Bonham, dcedarted from Shanghai \nfor Hongkong on board the Butterfield &@ Swire steamer \n\"Kuinchow\". \n\n, The military Police of the Sast Surrey Regisment \nhave been comnunicated withsit has been ascertained that the \nPrivate in question was duly located in Shanghai and has been \n\n\ndischarged from the service, \n\n\n4 \nwel? sf i A Pa Seu. \nwor ai (A, s.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2722,
+  "ocr_out_tokens": 322,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 23:16:34",
+  "zh_in_tokens": 554,
+  "zh_out_tokens": 326,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

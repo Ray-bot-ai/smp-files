@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2332",
+ "title": "Tih Liang",
+ "series": "IO Files",
+ "nara_file_no": "747",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2332",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nF. O. REG\nNo.........204\nDate......28/3/16\n\nMunicipal Police.\nCRIMINAL INVESTIGATION DEPT.\nCaptain Superintendent's Office,\n\nShanghai, March 28th 1916.\n\nSir,\nIt is reported that two members of the Manchu party\nnamed Tih Liang 鐵良 and Sung Yuin 升允 have come to\nShanghai from Tsingtao and are now conferring with the\nlocal rebels.\nIt is reported that the rebels in Shanghai\nsent arms and ammunition to Tahu on 26th instant.\nIt is reported that Zau Lien Whang 趙聯璜 one of\nGeneral Yang's staff officers, is acting as spy for the\nrebels.\nCablegrams are constantly being exchanged between\nthe Shanghai rebels and the Chinese emigrants\nin the Straits, Japan and America.\nIt is reported that the Chiangchun of Fokien has\nsent a telegram to General Yang saying that Canton\nhas declared independence and that the Chiangchun\nof that province has absconded.\nOne hundred and eighty recruits arrived\nin Woosung this morning from North.\n\nYour Obedient Servant,\n\n（签名）\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\n（左侧手写批注：K. 29/3）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2332/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "刑事调查处\n外交部登记\n编号……204\n日期……1916年3月28日\n\n公共租界警务处。\n刑事调查科，\n警司办公室，\n\n上海，1916年3月28日。\n\n先生：\n\n据报，满党成员铁良（Tih Liang）和升允（Sung Yuin）已从青岛抵达上海，现正与当地反叛分子进行磋商。\n\n据报，上海的反叛分子于本月26日向大虎（Tahu）运送了武器弹药。\n\n据报，杨将军的参谋军官之一赵联璜（Zau Lien Whang）正在为反叛分子充当间谍。\n\n上海反叛分子与海峡殖民地、日本及美国的中国流亡者之间不断交换电报。\n\n据报，福建督军已致电杨将军，称广东已宣布独立，且该省督军已潜逃。\n\n一百八十名新兵今晨从北方抵达吴淞。\n\n您的恭顺仆人，\n\n（签名）\n总探长。\n\n警务处警司。\n\n（左侧手写批注：K. 3/29）",
+   "zh_src": "17a0667750240d0d"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2332/Reports%20Made%201916-1929%20-%20Tih%20Liang%20747.pdf>\n\n---\nC1: D: \nx O. REG . \nNe......... 2 OL Read oe 2 Municipal Sofice. \na fl CRIMINAL INVESTIGATION DEPT. \nweveee LA. OfF. SAE... Ceuta caged a aE \n\n\nShanghai,.. March 28th 1916. \n\n\nsir \n: It is reported that two members of the Manohu party \nnamed Tih Liang 4 # and Sung Yuin#{ 4) havwe come to \nfrom Tsingtao and are now conferring with the. \nlocal rebels. \n\nIt is reported the rebels in Shanghai Me eee \nsent arms and ammuinition'to Tahu on 26th instant. \n\nIt is reported that Zau Lien Whang#) # fone, of \n= Yeng‘s staff officers, is acting as spy for the \nrebels. wes s \n\nCablegrams are sonstantly being exehanged between \nthe Shanghai rebels and the Chinese emigrants \nin the Straits, Japan and Keocriea. \n\nIt is reported that the Ghiangehun of Fokien has \nsent a telegram to General Yang saying that Canton \nhas declared independenee and that the Chiangehun \nof that province has absconded.. \n\nOne hundred and ezghty recruits arrived \nin Woosung this morning from North. \n\n\nYour Obedient Servant, \n\n\nWd erg \n\n\na- Ghief Detective Inspector. \n\n\nCaptain Superintendent of Polisee.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2764,
+  "ocr_out_tokens": 301,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 22:38:47",
+  "zh_in_tokens": 533,
+  "zh_out_tokens": 256,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

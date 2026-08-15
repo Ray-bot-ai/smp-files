@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2257",
+ "title": "Rothman Watching For Nielsen",
+ "series": "IO Files",
+ "nara_file_no": "1048",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2257",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Shanghai Municipal Police.\n（批：1062 3/4/17）\n\nCENTRAL POLICE Station.\n2nd March, 1917.\n\nREPORT ON Rothman watching for Nielsen.\n\nMade by D.S.Givens. Forwarded by Chief Detective Inspector\n\nSir,\nD.S. 201 Sullivan has confidentially informed me that\nwhilst on duty on the jetties on 1st instant, he met J.\nRothman, who informed him that he was watching for Adolph\nNielsen, who was expected to leave by the S.S. Ecuador.\nRothman said that a British warship would take Nielsen off\nthe ship if he tried to get away. A C. Nielsen, whose\ndescription answers that of the son of Gordus Nielsen,\nthe broker, left by that boat.\n\nI am, Sir,\nYour obedient servant,\nJ.H. Givens\nDetective Sergeant.\n\nChief Detective Inspector.\n（手写签名）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2257/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "上海公共租界工部局警务处。\n（批注：1062 3/4/17）\n\n中央巡捕房。\n1917年3月2日。\n\n关于罗斯曼（Rothman）监视尼尔森（Nielsen）的报告。\n\n由警佐吉文斯（D.S. Givens）呈报。经首席探长转呈\n\n阁下，\n201号警佐沙利文（Sullivan）私下告知我，\n本月1日他在码头执勤时，遇见了J.\n罗斯曼（Rothman），后者告诉他，自己正在监视阿道夫·\n尼尔森（Adolph Nielsen），此人预计将乘坐“厄瓜多尔”号轮船（S.S. Ecuador）离境。\n罗斯曼称，如果尼尔森试图逃脱，一艘英国军舰将会从该船上将其带走。一名C. 尼尔森（C. Nielsen）已乘该船离开，其体貌特征与经纪人戈杜斯·尼尔森（Gordus Nielsen）之子相符。\n\n此致，\n阁下之恭顺仆人，\nJ.H. 吉文斯\n警佐\n\n首席探长\n（手写签名）",
+   "zh_src": "fc987229a2c2c6b6"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2257/Reports%20Made%201916-1929%20-%20Rothman%20Watching%20For%20Nielsen%201048.pdf>\n\n---\nCENTRAL POLICE Station. \nnda Haroh, 191 7- \nREPORT ON Rothman watching for Nielsen. \n. eo \nMade by. D.SeGivens.s Forwarded by. (>}ie4 Detective tnspectc \nSir, \n\n\nD.S. 201 Sullivan has confidentially tnformed me thet \n\nwhilst on duty on the jetties on Ist instant, he met J. \nRothman, who informed him that he was watching for Adolph \n\n“~ p RARE ay who was expected to leave by the S.S. Ecuador. \noe | Rothman said that ,British warship would take Nielsen off \n| the ain if he trio di to fet away. ae. Nielsen, whose \ni \n\n\n; description ansvers that of the son of coragus Nielsen, \n\n\n, the broker, left by that boat. \n\n\neae ae a \n\n\nI am, Sir, \n\n\nYour obedient pervant, \nC// ee ne? \n\n\nDetoctive Sergeant. \n\n\nChief Detective Tnspector.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2678,
+  "ocr_out_tokens": 217,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 21:42:11",
+  "zh_in_tokens": 449,
+  "zh_out_tokens": 264,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2293",
+ "title": "Sun Yat Sun",
+ "series": "IO Files",
+ "nara_file_no": "34",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2293",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nI. O. REG\nNo.: 303\nDate: 15/6/26\n\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nJune 15th 1916\n\nSir,\nThe troops who went to the border of Chekiang\nwhen that province declared independence are now being\nwithdrawn in accordance with instructions from\nChiangchun Feng.\nIt is reported that some of the troops in Shanghai\nand Woosung will be sent back to the North soon.\nThree coolies were killed as the result of an\nexplosion at the Powder Works at Lunghwa. They had\nentered a chamber wherein a quantity of black gunpowder\nmanufactured about twenty years ago was stored and\nit is surmised that one of them lit a cigarette\nin the place.\nIt is reported that Sun Yat Sun at Shanghai\nhas advised Hwang Hsin in Japan to do as he has\ndone in notifying his followers in the Kiangsu,\nKwangtung, Fukhien and Shantung provinces to make\nno further opposition to the Government and its\npresent President Li Yuan Hung. Sun Yat Sen\nis in communication with the President.\n\nYour Obedient Servant,\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\n（批：Entered on 1st June 15.）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2293/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "刑事调查处\n情报官登记\n编号：303\n日期：1926年6月15日\n\n上海工部局。\n\n（印：上海工部局警务处）\n警务处，\n（侦探科）\n\n1916年6月15日\n\n先生：\n\n当浙江省宣布独立时派往该省边境的部队，现正按照张作霖的指令撤出。\n据悉，驻扎在上海和吴淞的部分部队将很快被遣返北方。\n龙华火药厂发生爆炸，导致三名苦力死亡。他们进入了一间储存着约二十年前制造的大量黑火药的房间，据推测，其中一人在该处点燃了香烟。\n据报道，身处上海的孙中山已建议在日本的黄兴效仿其做法，通知其在江苏、广东、福建和山东各省的追随者，不再对抗政府及其现任总统黎元洪。孙中山正与总统保持联络。\n\n您顺从的仆人，\n\n总探长。\n\n警务处总监。\n\n（批注：录入于1915年6月1日。）",
+   "zh_src": "1cfc18597a4563e4"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2293/Reports%20Made%201916-1929%20-%20Sun%20Yat%20Sun%2034.pdf>\n\n---\nPouce Force, \n\n\nJune 15th VASP A 6 \n\n\n(Derective BRANCH) \n\n\nsir » \n\n\nihe troops who went to the border of Chekiang \nWhen that prowince declared independence are now being \nwithdrawn in accordance with instructions from \nOhiangchun renge . \n\nIt ie reported that some of the troops in Shanghai \nand Woosung will be sent back to the North soone \n\nThree coolies were killed as the result of an \nexplosion at the Powder Works at Lungwhae They had \nentered a chamber wherein a quantity of black gunpowder \nmanufactured about twenty years ago was stored and \nit is surmised that one of them 1it a cigarette \nin the place. \n\nIt is reported that Sun Yat Sun at Shanghai \nhas advised Hwang Hsin in Japan to do es he mas \ndone in notifying his followersin the Kiangsu, \nKwangtung, FPukhien and Shantung provinces to make \nno. further opposition to the Government and its \n\n\nPresent President Li Yuan Hunge Sun Yat Sen \nis in commmication with the Presidente \n— Your Obedient Servant, \n\n\n/ \"4 \n\n\nChipf Detective Inepectore \n\n\nOaptain Superintendent of Policee \n\n\nper? «\\ \nSs SY, \n\n\nWE MOTIESO Fk 8 \n\n\nVia dae AREA RE tO BRL Ie area sme",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2752,
+  "ocr_out_tokens": 316,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 22:05:57",
+  "zh_in_tokens": 548,
+  "zh_out_tokens": 237,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2452",
+ "title": "Zee Li Hyuin",
+ "series": "IO Files",
+ "nara_file_no": "424",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2452",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nI. O. REG\nNo 372\nDate 5/6/16\n\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH.)\n\n5th June 1916.\n\nSir,\n\nA military officer named Zee Li Hyuin 徐連勳\narrived in Shanghai from Nanking on 3rd instant.\nZee is said to have been sent here by Chiangchun\nFeng to confer with the local rebel leaders.\nIt is reported that Director Li of the\nArsenal has instructions not to supply arms to\nanybody except on instructions from Chiangchun\nFeng Kou Chang. Deputy Military Governor Lu\napplied to Director Li for five hundred rifles a\nfew days ago but his application was not entertained.\nSun Yat Sen is arranging to hold a rebel\nconference in Shanghai.\nIt is reported that General Yang will\nvisit Nanking soon.\n\nYour Obedient Servant,\n\n（签名）\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2452/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "刑事侦缉处\n情报官登记\n第 372 号\n日期 1916年6月5日\n\n上海工部局。\n\n（印：上海工部局警务处）\n警务处，\n（侦探科。）\n\n1916年6月5日。\n\n先生：\n\n一名名为徐連勳（Zee Li Hyuin）的军官于本月3日从南京抵达上海。\n据称，徐是奉冯国璋（Chiangchun Feng）之命前来此地，与当地叛乱首领进行会晤。\n据报道，兵工厂李总监接有指令，除凭冯国璋（Chiangchun Feng Kou Chang）的手令外，不得向任何人供应武器。数日前，陆军副督军卢向李总监申请五百支步枪，但其申请未获受理。\n孙中山正安排在上海召开叛乱会议。\n据报道，杨将军不久将访问南京。\n\n您顺从的仆人，\n\n（签名）\n\n总探长。\n\n警务处巡官队长。",
+   "zh_src": "f20f7469d55378e6"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2452/Reports%20Made%201916-1929%20-%20Zee%20Li%20Hyuin%20424.pdf>\n\n---\n5th June ; SOF \n\n\nPo.ice Force, \n(Detective BrRancH) \n\n\nSir, 3 \nA military officer named Zee Li Hyuin 5B (eG \narrived in Shanghai from Nanking on 3rd irs tante \nZee is said to have been sent here by Chiangchun \nFeng to confer with tne local rebel leaiers. \nIt is reporter that Director Li of the \n\nArsenal has instructions not to supply arms to \nanybody except on instructions from Ohiangchun \nFeng Kou Chang. Deputy Military Governor Lu \napplied to Director Li for five himdred rifles a \nfow days ago but his application was not entertained. \n\nSun Yat Sen is arranging to hold a rebel \nCSonference in Shanghai. \n\nIt is reported that General Yang will \nVisit Nanking soone \n\nYour Obedient Servant, \n\n\ni? 2 \nkOe . Jima Anuthng \n\n\nSO \nChief Detective Inspector. \n\n\nOaptain Superintendent of Police. \n\n\near 5 9",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2698,
+  "ocr_out_tokens": 242,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 00:05:25",
+  "zh_in_tokens": 474,
+  "zh_out_tokens": 228,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

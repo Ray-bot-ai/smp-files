@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2365",
+ "title": "Tsou Ching Tsung",
+ "series": "IO Files",
+ "nara_file_no": "4",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2365",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "443\n11/7/16\n\nShanghai Municipal Council.\n\nJuly 11th 1916.\n\nPOLICE FORCE.\n(DETECTIVE BRANCH)\n\nSir,\nOwing to a second landslide on the Shanghai Nanking\nRailway line the train service was discontinued from 11 p.m.\n9th to 8 a.m. 10th inst.\nTsou Ching Tsung 周金 Shanghai Taoyin is said to\nhave tendered his resignation. There is a report that\nSung Pao Tsang 沈保昌 City Magistrate, will take his place.\nThe Kuomintang party are opposed to Sung and say that\nhe is a pro-monarchist.\nZau Li Wang 赵立王 one of General Yang's staff officers\nan Arsenal Magistrate, and two officers of the City Police\nleft for Nanking at 11 p.m. 10th inst.\n\nYour Obedient Servant,\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2365/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "443\n1916年7月11日\n\n上海工部局。\n\n1916年7月11日。\n\n警务处\n（侦探股）\n\n先生：\n\n由于沪宁铁路线发生第二次山体滑坡，列车服务自本月9日晚11时起至10日上午8时止暂停。\n\n据称，上海道尹周金（Tsou Ching Tsung）已提出辞呈。有消息称，上海县知事沈保昌（Sung Pao Tsang）将接替其职位。国民党反对沈保昌，称其为拥戴君主制者。\n\n杨将军的一名参谋、兵工厂厂长赵立王（Zau Li Wang，音译），以及两名市警察官员，于本月10日晚11时前往南京。\n\n您忠实的仆人，\n\n总探长\n\n警务处总监",
+   "zh_src": "0aa76f9b55a9e990"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2365/Reports%20Made%201916-1929%20-%20Tsou%20Ching%20Tsung%204.pdf>\n\n---\n- uggs \n\n\nwf Arle \n\n\nShanabai sthauaticipal Counvril. \n\n\nJuyy lith SOS * \n\n\nPouce Force, \n(Detective BRANCH) \n\n\nSirs \nCvin,: to a sccond landslide -cn the Shanghai Nanking \n\n\nRailway lire the train scrvice was discont nucd from 11 peme \nCth to & aeme LOth inst. \n\nTsou Ching teung [Al % 4; Shangind Taoyin is seid to \nhave tondcred his Set enathat. There is a retort that \nSung Pao Tsane Le ( Seity illagistrate, will tarc his placce \nThe Kuomingtang party are opposed to Sung and say that \nhe is a progmonarchiste \n\nZau Li Wang at ES Goes of Gcneral Yang's staff officers \narm Arsenal lMagictratc, and two officcrs of the City Police \n\n\nleft for Nanking at ll peme 1LOth inst. \nYour Cbhodiont Servant, \nWA ie, Ata’ is \nChicf Mctective Inaroctore \n\n\nCaptain Superinteucent of Policce",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2758,
+  "ocr_out_tokens": 227,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 23:14:56",
+  "zh_in_tokens": 457,
+  "zh_out_tokens": 190,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

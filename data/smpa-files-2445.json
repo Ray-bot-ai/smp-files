@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2445",
+ "title": "Zee Koh Liang",
+ "series": "IO Files",
+ "nara_file_no": "117",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2445",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "481\n27/2776\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\n27th July 1916\n\nSir,\n\nA foreman and twelve Arsenal mechanics have left\nhere for Hankow. They will bring back the machinery\nwhich was sent to Hanyang Arsenal last year.\n\nThe parliamentarians have almost all left for the\ncapital. It is believed that the few remaining will\nleave here to-day.\n\nOne hundred and twenty soldiers with 2 field guns\nreturned from Sungkiang to the Arsenal on 26th instant.\n\nZoo Koh Liang, Chief of Police, has given orders\nthat police on duty at jetties and railway stations\nare not to search passengers.\n\nYour obedient servant,\n\n[签名]\nChief Detective Inspector.\n\n[签名]\nCaptain Superintendent of Police.\n\n[手写批注]",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2445/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "481\n27/2776\n上海公共租界工部局。\n\n（印：上海公共租界工部局）\n警务处，\n（侦探股）\n\n1916年7月27日\n\n先生：\n\n一名工头及十二名兵工厂技工已由此启程前往汉口。他们将运回去年送往汉阳兵工厂的机器设备。\n\n国会议员几乎已全部离沪赴京。据悉，余下少数几人亦将于今日离沪。\n\n本月26日，一百二十名士兵携两门野战炮从松江返回兵工厂。\n\n警察总监朱国梁已下令，在码头及火车站执勤的警员不得搜查乘客。\n\n您忠顺的仆人，\n\n[签名]\n总探长。\n\n[签名]\n警务处巡官。\n\n[手写批注]",
+   "zh_src": "5e224b9fa081a337"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2445/Reports%20Made%201916-1929%20-%20Zee%20Koh%20Liang%20117.pdf>\n\n---\noe \n\n\nw > \n\n\n“* \n\n\nae din OTS \nwer UD OLY \nSTE. Shanahai Municipal ole \n\n\n27th July VAS a: \n\n\nPouce Force, \n{DeTective BRANCH) \n\n\nSir, \nA foruran ard twelve Areenal mochanicese hnve loft \n\n\nhers for Havlrowe They will brins back th: machiucry \n\n\nWhich was sent to Hanyoane Arscural last youre \nTre parlinnenteriaons have alnost all lcft Por the \n\n\nCaritaile It is bilicv-d that the few remaining will \n\n\nLonwe Rurs to-daye \nie \nOns hundrsd end twonty soldicr.: eilh 2 Pield runs \nPuturnid fron: Singkians to the Arsenal on 2Ath instunt. \nZeo Koh Liargs, Giii-f of Police, hans siven ordecre \n\n\nthet police om uty at Jcttiecs on. raeilway staticns \n\n\n“aro not to svurch pa. sTi1.faBe \n\n\nYour obcdicnt sorvant, \n\n\n- \n\n\n« - \n\n\nVay Geicft DBD tective Irs pector. \n4 \n\n\nA. \nGaptrin Siperintend nt of Pslicce | \nMe 4 \nP “7a .",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2705,
+  "ocr_out_tokens": 207,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 00:03:29",
+  "zh_in_tokens": 439,
+  "zh_out_tokens": 189,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

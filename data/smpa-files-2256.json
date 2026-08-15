@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2256",
+ "title": "Reproduction Of Photo Of Officers",
+ "series": "IO Files",
+ "nara_file_no": "148",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2256",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nI. O. REG\nNo. 774\nDate 19/12/16\nMemorandum.\nTHE POLICE FORCE,\nMUNICIPAL COUNCIL,\nC. I. D. STATION,\nShanghai, 15 - 12 1916\nTo\nReproduction of photo of Officers and\nmen of a German war ship. —\nOriginal sent by D. I. P.\nMBrewster\nH. J.\nS.90.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2256/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "刑事调查处\n情报官登记册\n编号 774\n日期 1916年12月19日\n备忘录。\n\n警察部队，\n工部局，\n刑事调查处分站，\n上海，1916年12月15日\n\n致\n\n德国军舰官兵照片的复制件。—\n原件由警务处处长（D. I. P.）发送\nM. Brewster\nH. J.\nS.90。",
+   "zh_src": "62b3a910f374d5d6"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2256/Reports%20Made%201916-1929%20-%20Reproduction%20Of%20Photo%20Of%20Officers%20148.pdf>\n\n---\n: } Memorandum. \niGHE POLICE FORCE, i \n. MUNICIPAL COUNGIL, II \n~ ee | To \na em 3 SEAFHON, } \nShanghai, \\R- \\R 191 \\o i \ntI \n\n\nVW revo are pe | ‘ \nwh A.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2710,
+  "ocr_out_tokens": 121,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 21:42:01",
+  "zh_in_tokens": 353,
+  "zh_out_tokens": 109,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -12,7 +12,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-2162/page/n0_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "编号\n上海工部局。\n（印章：上海工部局警务处（侦探股））\n1. O. REG\n第 558 号\n9-16\n1916年9月5日。\n\n先生，\n\n蔡锷将军目前是宝隆医院（Paulun Hospital，位于伯基尔路）的一名病人，由克里格医生（Dr. Kreig）诊治。他有两间房间，其中一间由他自己居住，另一间则由八名担任其保镖的士兵居住。他们未穿着制式军服，而是穿着一种类似制服的服装。\n\n据报，梁士诒在上海，居住在戈登路23号，即刘学问（Lieu Yah Sing）的寓所。刘学问是华南地区著名的广东番摊赌博 promoter（组织者/头目）。\n\n督军冯国璋已下令，将目前拘押在兵工厂的三名复辟帝制阴谋分子押解至南京受审。\n\n据报，木匠们已决定从本月23日起罢工。\n\n油漆工的罢工仍在进行中。\n\n您顺从的仆人，\n\n总探长。\n\n警察总监上尉。\n\n录入于 D/Stat 7 Sch. 5。\n警察总监已阅。",
+   "zh_src": "be90c4dafbfe4489"
   }
  ],
  "pages_done": 1,
@@ -23,6 +25,11 @@
   "ocr_in_tokens": 2705,
   "ocr_out_tokens": 306,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-15 19:36:19"
- }
+  "ocr_at": "2026-08-15 19:36:19",
+  "zh_in_tokens": 537,
+  "zh_out_tokens": 275,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

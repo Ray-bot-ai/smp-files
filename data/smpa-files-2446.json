@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2446",
+ "title": "Zee Koh Liang",
+ "series": "IO Files",
+ "nara_file_no": "121",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2446",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "463\n19/7/16\nShanghai Municipal Council.\nJuly 20th 1916\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE (DETECTIVE BRANCH)）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\nSir,\nIt is reported that the Chinese journalists Association\nwill entertain the M.P.s in the Y.M.C.A. or Cotton Yarn\nGuild on 21st instant.\nSun Yat Sen and Huang Hsin intend to remain in\nShanghai for the present. The latter has told friends\nthat he does not wish to take up any government position.\nZoo Koh Liang 徐國樑 Chief of the Chinese Police\nvisited Dr. Sun Yat Sen yesterday afternoon.\nYour Obedient Servant\nChief Detective Inspector.\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2446/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "463\n19/7/16\n上海工部局。\n1916年7月20日\n（印：上海工部局警务处（侦探股））\n警务处，\n（侦探股）\n先生：\n据报，中国记者协会将于本月21日在青年会或棉纱公会宴请国会议员。\n孙中山与黄兴拟暂时留驻上海。后者曾向友人表示，其不愿担任任何政府职务。\n华界巡警总监徐国梁于昨日下午拜访了孙逸仙博士。\n您忠实的仆人\n总探长。\n警务处总监。",
+   "zh_src": "b1bcbfda869f24fa"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2446/Reports%20Made%201916-1929%20-%20Zee%20Koh%20Liang%20121.pdf>\n\n---\nlw ; ae AO fll \n\n\nShanghai M#lanicipal Cantril! \n\n\nzt ROE: t,4 8 \nae mee SO) \n\n\nPouitce Force, \n(Derective Brancy) \n\n\nSix, \n\nIt is rererted tit tire Chincsc fovurnnliste Association \nWill entertain the iiePesn in the Yei.Cen. or Cotton Yarn \nGuild on T1ist tistante \n\nSun Yat Sci and Husne Heim intene to rouain in \nShanghai for the presonte The latter has told Priends \ntiat As docs not wieah to teke up any goverimmcnt nositione \n\nZcoe Koh Liane 4 Zig4gorice of tiie Chinose Police \n\n\nBe \nLY]: visited fr. Sun Yat Sen yesterdany afterrcenm. \n\n\nPn Your Cheodtunt Sore \n- \nhh \n! \nVn’ Ante | \n\n\nGlhiicf Nctoestive Tne pector. \n\n\nGaptrin Surcrintcrdont of Police.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2722,
+  "ocr_out_tokens": 184,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 00:03:37",
+  "zh_in_tokens": 416,
+  "zh_out_tokens": 144,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

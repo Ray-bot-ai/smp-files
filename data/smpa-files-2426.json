@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2426",
+ "title": "Yu Ya Ching",
+ "series": "IO Files",
+ "nara_file_no": "175",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2426",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. B.\nF. O. 983 683 Oct\n31/10/16\nShanghai Municipal Council.\nOctober 30th 1916\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nSir,\nThe payment of repatriation funds was continued on the 29th inst when 27 groups were dealt with. There are still 36 small groups who have not yet been paid and they have been told that they will receive the money on application at the Military Governor. Representatives of these men have interviewed Yu Ya Ching 虞洽卿 who asked for the list of names which he promised to forward to the Military Governor.\nLieu Ta Kyl 柳大軍 one of the minor rebel leaders absconded on the 29th inst with the repatriation money issued to him for distribution among his followers. It is reported that he has gone to Hsuchowfu to join the army of General Chang Hsun.\nAdmiral Tsao Kya Ziang 曹嘉祥 the Vice Minister of the Navy is holding an enquiry at the Marine Headquarters re: the sinking of the s.s. Hsinyu, a transport, in May last.\nA military conference was held at the Arsenal on the 29th inst to consider whether or not the troops now stationed around Shanghai should be transferred to some other place. It was decided after some discussion that the whole of the garrison will remain at Shanghai for the present.\n\nYour Obedient Servant,\n[Signature]\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\n7... ) m.f 643 30.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2426/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "刑事调查处。\n外交部 983 683 10月\n1916年10月31日\n\n上海工部局。\n1916年10月30日\n\n（印章：上海工部局警务处）\n\n警务处，\n（侦探股）\n\n先生：\n\n遣返资金的发放工作于本月29日继续进行，当天处理了27批人员。仍有36个小团体尚未领取款项，已告知他们可向督军申请领取。这些人的代表会见了虞洽卿，虞洽卿索要了名单，并承诺将转呈给督军。\n\n小叛乱首领之一的柳大軍于本月29日携发给其用于分发给部下的遣返资金潜逃。据报，他已前往徐州府投奔张勋将军的部队。\n\n海军部次长曹嘉祥海军上将正在海军总部就去年五月运输船“新裕”轮沉没一事举行调查。\n\n本月29日，在兵工厂召开了一次军事会议，商讨是否应将目前驻扎在上海周边的部队调往他处。经讨论后决定，整个卫戍部队暂时留驻上海。\n\n您顺从的仆人，\n[签名]\n总探长。\n\n警务处总监。\n\n7... ) m.f 643 30.",
+   "zh_src": "b4ef0c19ba5305a4"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2426/Reports%20Made%201916-1929%20-%20Yu%20Ya%20Ching%20175.pdf>\n\n---\ne.. . — \nCulirril. \n\n\nOctober 30th \n\n\nPo.iice Force, \n(Derective BRANCH) \n\n\nSir, \n\nThe payment of repatriation funds was contimed \non the 28th met when 27 groups were dealt with. \nmere ars still 36 small groups who have not yet been \npaid and they have been told that they will receive \nthe money on application at the Military Governor. \nRepresentatives of these men have interviewed Yu Ya \n\nn&t¢éewho asked for the list of names which he \npromised tb forward to the Military Governor. \n\nLieu Ta Zy £one of the minor rebel leaders \nabsconded on the 29th' inst with the repatriation money \nAssped to him for distribution among his followers. \n\nIt is reported that he has gone to Hsuchowru to \njoin the army of General Heune ‘ 4 \n\nAdmiral Tsao Kya Aang 4 j:the Vice Minister : \nof the Navy is holding an enquiry at the Marine i \nHeadquarters re: the sinking of the sese Hsinyu, a ; \ntransport, in May last. i \n\nA military @onferensce was held at the Arsenal 3 \non the 28th inst to sonsider whether or not the troops 4 \nnow stationed around Shanghai should be transferred ‘ \n\n3 to some other place. It was decided after some 3 \n: aisctssion that the whole of the garrison will 7 \nremain at Shanghai for the pragsent. \n\n\nYour Obedient Servant, \n\n\nhau ALLAN CALS CAR, \n\n\n4 \n= \n\n= \n\n2 \n\n\nChier Detective Inspestor. \n\n\nWA LEA AD ARO RES it",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2744,
+  "ocr_out_tokens": 371,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 23:56:07",
+  "zh_in_tokens": 603,
+  "zh_out_tokens": 292,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

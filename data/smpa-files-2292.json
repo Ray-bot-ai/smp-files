@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2292",
+ "title": "Sun Yat Sen",
+ "series": "IO Files",
+ "nara_file_no": "460",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2292",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nP. O. REG\nNo. 254\nDate 29/5/26\n\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nMay 27th 1916.\n\nSir,\nThe rebels held a meeting in No.14 Blue\nChapel At 7 p.m. 26th instant for the purpose\nof electing a successor to Chen Chi Ke 陳其美.\nSun Yat Sen 孫逸仙 Li Ping Shu 李平書 Han Hwe 韓恢\nand Tsu Tuh 周德 were present.\nChui Tsung 民正 was unanimously selected, but\nhe declined to accept the post. It was announced\nthat a further meeting would be held in three days time.\nThe brother and wife of Chen Chi Ke went to the\nresidence of Sun Yat Sen at No.713 Avenue Joffre and\ncreated a disturbance on 26th instant.\nThe Shanghai Arsenal has sent 100 gunners to\nNanking. They travelled in civilian clothes.\nIt is reported that the situation is becoming\ncritical at Sungkiang.\nColonel Zau Ying Bang 趙雲邦 one of Chiangchun\nFong's staff officers, is constantly travelling\nbetween Shanghai and Nanking. Every time he\nvisits this city, he has secret conferences with\nGeneral Yang.\nThe troops at Woosung have instructions to\nhold themselves in readiness to leave that place.\nIt is thought that they will be used against Chekiang.\n\nYour Obedient Servant,\n\n（签名）\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\n（手写批注）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2292/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "刑事调查处\n警务处登记号\n第 254 号\n日期 1926年5月29日\n\n上海工部局。\n\n（印章：上海工部局警察部队）\n警察部队，\n（侦探科）\n\n1916年5月27日。\n\n先生：\n\n叛乱分子于本月26日晚7时在蓝教堂14号举行会议，目的是选举陈其美的继任者。孙中山、李平书、韩恢和周德出席了会议。民正被一致推选，但他拒绝接受该职位。会上宣布，三天后将再次举行会议。\n\n陈其美的兄弟和妻子于本月26日前往霞飞路713号孙中山的寓所闹事。\n\n上海兵工厂已派遣100名炮手前往南京。他们身着便服出行。\n\n据报，松江局势正变得危急。\n\n赵云邦上校是蒋尊方的一名参谋军官，经常往返于上海和南京之间。他每次来到本市，都会与杨将军举行秘密会谈。\n\n吴淞的部队已接到指令，随时准备撤离该地。人们认为他们将用于对付浙江。\n\n您顺从的仆人，\n\n（签名）\n\n首席探长。\n\n警司。\n\n（手写批注）",
+   "zh_src": "5d7a87046a2d35ea"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2292/Reports%20Made%201916-1929%20-%20Sun%20Yat%20Sen%20460.pdf>\n\n---\nxX- Oo REG \nZAP ne we \n\n\nees 29) Sle \n\n\nShanghai Municipal Council. \n\n\nhiny O7 th ; a \n\n\nPouce Force, \n(Detective BrancH) \n\n\nSirs, \nTho rotols held a mcoting in Noel4 BRhe \nChapgal At 7 pete CRAth Luistant for ie Pe ose \n\n\nof cfocting a successor to Ohon Ch \nSun Yat Son3Zgnvgle Li Ping shu SF nate Hwe EK \nané Tsu Puh_ ur fF PEAS prosente \nChui Tsung | was unanimou sly sclectod, but \nho coclined to acocpt tie -oste It was arnounced \nthat a Purthor meeting wouLd be held in three Gays tinee \nTho brothior and wifc of Chen Chi Lic went to the \nresidence of Sum Yat Son at Noe713 Avonuc Joffre and \ncroated a disturtance on %Gth instante \nThe Shanghai Arsconal has sent 109 minners to \nNonking. They traveollod in civilian clot*:ose \nIt is roported that the situation is bocoming \n\n\ncritical at Sungkiange L Vi \n\nColonel Zau Ying Bansic ER Jone of Chiangchun \nPons's staff officers, is constantly travelling \nbetween Shangiai and Nankinse livery time ho \nvisits this city, he has sccret conrcronces \nGorioral Ynng&e \n\nTre troops at Joosuns have instructions to \n\nhold themsclyvos in readiness to heave that placee \nIt is thoujht that they will be used against Ohokiangfe \n\n\nare \nwith \n\n\nYour Obedient Sorvant \na) -} Th \n\" . ey z. \npar ny. WA Ar orn \nChief Dotoctivo Insrectore \n\n\nCaptain Suporintoendont of volicce \n\n\n\\yrereasrsonar em waar nb esis! WS Ue OKC ORY Ne RN ROP Bry owernrenena tre re mee: rite:",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2689,
+  "ocr_out_tokens": 387,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 22:05:44",
+  "zh_in_tokens": 619,
+  "zh_out_tokens": 281,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

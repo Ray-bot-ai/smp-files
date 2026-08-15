@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2371",
+ "title": "Tsu Sau Ching",
+ "series": "IO Files",
+ "nara_file_no": "465",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2371",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "O: I. D.\nE O. REC\n343\nDate 24/5/16\n\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH.)\n\nMay 24th 1916.\n\nSir,\nIt is reported that the rebels have been paying their men only six cents per day since Chen Chi Lei 陳其美 was assassinated. The rank and file being dissatisfied with this, created a disturbance on the evening of 23rd instant in Wung Tuh Li 文德里 alleyway, Frenchtown but they dispersed after some persuasion on the part of the leaders.\nWith reference to the reported arrest of an officer and ten men at the Arsenal for selling bombs to the rebels, the men have been released and discharged from the Arsenal Works. The officer, whose name is Tsu Sau Ching 周□□ is still detained.\nIt is reported that the family of Chen Chi Lei intend to remove his coffin to the Huchow Guild.\nThe delegates of the seventeen provinces who came to Nanking at the request of General Feng Kou Chang and who are now, for the time being, dispersed, are agreed as to the inadvisability of changing the President until such time as a Parliament can be convoked.\nThe conference at Nanking has been adjourned but will resume its sittings when representatives of the provinces which have declared independence are expected to attend. They will be invited to do so.\n\nYour Obedient Servant,\n\n（签名）\n\nChief Detective Inspector.\n\n（批：K.P. 24/5.\nam）\n\nCaptain Superintendent of Police.\n\n（手写批注：Received 111 / May '24）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2371/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "O: I. D.\nE O. REC\n343\n日期 16/5/24\n\n上海工部局。\n\n（印：上海工部局警务处）\n警务处，\n（侦探科。）\n\n1916年5月24日。\n\n先生，\n据报，自陈其美遇刺以来，叛军每日仅向其部下支付六分钱。普通士兵对此不满，于本月23日晚在法租界文德里弄堂制造骚乱，经领导人劝说后散去。\n关于兵工厂一名警官及十名士兵因向叛军出售炸弹而被捕的报道，这些士兵已被释放并解除在兵工厂的职务。该警官名为周□□（Tsu Sau Ching），目前仍被拘留。\n据报，陈其美家属拟将其灵柩移至湖州会馆。\n应冯国璋将军之邀前来南京的十七省代表，目前暂时离散，他们一致同意在国会召开之前不宜更换总统。\n南京会议已休会，但预计当宣布独立的各省代表出席时，会议将复会。届时将邀请他们参加。\n\n您顺从的仆人，\n\n（签名）\n\n总探长。\n\n（批：K.P. 5月24日。\n上午）\n\n警务处总监。\n\n（手写批注：1924年5月 / 111号收讫）",
+   "zh_src": "66d9d9eb757c0320"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2371/Reports%20Made%201916-1929%20-%20Tsu%20Sau%20Ching%20465.pdf>\n\n---\n‘Date..........3~.! \n\n\n. Pouce Force, \n(Derective BRancH) \n\n\nSir, \nIt is reported that the rebel@ have boon paying \n\na thoir men only six cents per day since Gen Chi Lioi fe w+ \nWas assassinated. The rank and file being dissatisfied \nwith this, croated a disturbance on the evening of \n23rd instant in Wang Tuh Li xz Yalloyway, Frenchtown \nbut they dispersed after some persuasion fs the part \nof the leadors. \n\nWith roference to the reportod arrest of an \nofficer and ten men at the Arsenal for selling bombs to \nthe robclis, the man have boon releasod and dischargod \nfrom the Arsonal Works. Tho officor, whos@ename is \nTsu Sau Ching rk) 7Aepis still detained. \n\nIt is reported that tho family of Gho i Liei \nintend to remove his coffin to the Huchow Guild. \n\n\na The delesates of the seventcen provinces who came \ny; ¢ to Nanking at the request of Goneral Feng Kou Ghang \nop age anc who are now, for the time being, disporsod, re \n-t agreed as to tho inadvisability of changing eho Zip aiaont \nuntil such as a Parliament can be convoked. \n\n\n, \n\n\nThe conforence at Nanking has bcen adjourned \nbut will rosume its sittings when Se tae ee \nof the provinces which have declared independent \narc expectod go attend. Thoy will be invitod to do so. \n\n\nYour Obodioent Servant, \n\n\nVa Te a= Chicf Dotective Inspector. \nZz ’ \n\n\n. \n\n\nOM vs Captain Superintendent of POLlise. \n\n\nWN \n. \n~N \n~ \n4 \n% \nwe \n~ \n‘ \n\\ \n$ \nscsi gill at i",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2705,
+  "ocr_out_tokens": 380,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 23:17:03",
+  "zh_in_tokens": 612,
+  "zh_out_tokens": 309,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

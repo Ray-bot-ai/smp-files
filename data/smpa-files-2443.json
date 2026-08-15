@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2443",
+ "title": "Zee Koh Liang",
+ "series": "IO Files",
+ "nara_file_no": "12",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2443",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "No\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nShanghai Municipal Council.\n#90\n2/8/16\nAugust 2nd 1916.\nFILED\n\nSir,\n\nIt is reported that Deputy Military Governor Lu is\nnot satisfied with the present government. Representatives\nof General Chang Hsun are said to be in Woosung at present\nconferring with him regarding the formation of a military\nparty which will be in opposition to the Government.\n\nSixty men returned from Sungkiang to Loongwha on 1st\ninstant bringing 30 ponies, 6 field guns and 8 boxes\nof ammunition with them.\n\nOne tenth of the Arsenal workmen are dismissed\nat the end of each month. It is reported that the\nworkmen have threatened to go on strike if the authorities\ncontinue to comply with these instructions.\n\nIt is reported that some military officers are\nusing their influence to have Z... Kol. Liang, Chief of\nPolice, retained in his present post.\n\nYour Obedient Servant,\nmmmmmmmmm\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2443/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "编号\n（印章：上海工部局）\n警务处，\n（侦探股）\n\n上海工部局。\n#90\n2/8/16\n1916年8月2日。\n已归档\n\n先生：\n\n据报，陆军副总督卢对现政府不满。据说张勋将军的代表目前身在吴淞，正与其商谈组建一个反对政府的军事派系事宜。\n\n本月1日，六十人从松江返回龙华，随行携带30匹小马、6门野战炮和8箱弹药。\n\n兵工厂工人每月底有十分之一被解雇。据报，如果当局继续执行这些指令，工人们已威胁要举行罢工。\n\n据报，一些军官正在利用其影响力，试图让警察局长梁……上校（原文不清）留任现职。\n\n您顺从的仆人，\nmmmmmmmmm\n总探长。\n\n警务处总监",
+   "zh_src": "136190617ea50d97"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2443/Reports%20Made%201916-1929%20-%20Zee%20Koh%20Liang%2012.pdf>\n\n---\n>- \n\n\nShanabat #lauticipal Courril! \n\n\nPouce Force, = ! ss ct \n(Derective BRANCH) ~~ - 4 &. Le \n\n\nIt is reportcad that Deputy Military Govorror Lu is \na \n\n\na \n\n\nLica with tho present governmcrnt. Ropreccntativer \nx Of Gciieral Chare Hsun arc caid to be in Yeosung at present \nCoinforrmtig; with hair rerarding tho fomaation of a military \n\n\nparty whieh will bo i:. opposition to the Govorreernte \n\n\nSixty cic:. returned from Suugkiang to Lociysitha on \n\n\nE Faxy iat \n: \ni instant bri:cging 70 ponics, G Picld gfune and & boxcs \n} g \n: \ni : of ammuiition with thom. \nt Hy \nH . One tunth of tls Arcs \n4 at the cud of sach month. \ni in \n: E {-§ Worimion: hauwe thr-atoned to \n\\ ee \n\n\nSwett Le Burgiky ween th \nIt te Superted that seowo sGldoeary «sa? 8tonra nse \n\n\nof \n\n\nSRR Fey \ni \nP| \nb \nc \nfad \ns bee \n¢- \ni \n4 \na) \nt \nHy \n, \nct \n% \nC \nN \n4 \ni} \nQ \nte \n(G \nue \n\n\nie ty \n\n\nyd: Your Cbcdisnt Servant, \n\n\n<S a \nie “e \n\n\n} “¢ Chiof Detestive Titsrector. \n\n\nCaptain Superintictout cf Policc.e \n\n\nior ARRON! PEL LEN \n\n\nAurust 2nd SD rf \n\n\neee or ee",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2744,
+  "ocr_out_tokens": 259,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 00:03:11",
+  "zh_in_tokens": 491,
+  "zh_out_tokens": 205,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

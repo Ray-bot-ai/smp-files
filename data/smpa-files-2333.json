@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2333",
+ "title": "Ting Ching Li",
+ "series": "IO Files",
+ "nara_file_no": "20",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2333",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "420\n2/7/16\n\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\n30th June 1916.\n\nSir,\nAt 6.30 p.m. 29th instant a bomb explosion occurred\nat No. 30 Ting Ching Li 長慶里 alleyway, Avenue\nJoffre, killing one man and wounding three. It is\nreported that the deceased and wounded men were rebels\nand that they were engaged in making bombs when the\nexplosion took place.\n\nThere was a rumour in the City last night that\nGeneral Yang had been murdered, but it is not true.\nIt is thought that some of the detectives who will\nsoon be dismissed started the report.\n\nIt is reported that Premier Tuan Chi Jui has sent\na high officer named Chung Ts Bang 龔志鵬 to Shanghai\nto try to persuade the navy to cancel its independence.\n\nIt is reported that the situation is critical at\nWoosung, and that the ships may start to bombard the\nforts in the near future.\n\nYour obedient servant,\n\n[签名]\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\n[手写批注]",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2333/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "420\n1916年7月2日\n\n上海工部局。\n\n（印：上海工部局）\n警务处，\n（侦探股）\n\n1916年6月30日。\n\n先生：\n\n本月29日下午6时30分，霞飞路长庆里30号弄堂内发生炸弹爆炸事件，造成一人死亡，三人受伤。据报，死者及伤者均为反叛分子，爆炸发生时他们正在制造炸弹。\n\n昨晚市内流传杨将军被谋杀的谣言，但此消息不实。据信，该谣言系由几名即将被解职的侦探所散布。\n\n据报，国务总理段祺瑞已派遣一名名为龚志鹏的高级官员前往上海，试图劝说海军取消独立。\n\n据报，吴淞局势危急，舰只可能在近期开始炮击炮台。\n\n您的顺从仆人，\n\n[签名]\n\n总探长。\n\n警务处总监。\n\n[手写批注]",
+   "zh_src": "68f3467b778ac1e2"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2333/Reports%20Made%201916-1929%20-%20Ting%20Ching%20Li%2020.pdf>\n\n---\nwav? \n: Oo f5 \n\n\nShanubai 4thuticipal Caunvi \n\n\n3 s0th June. : AD7 Ce \nPotice Fopce, \n(Oeregrite PHaven) \n# \nSir, \n< -- At 6.50 pem. 29th instant a_ bomb explosion occurred \n\n\nat Noe SO Ting Ohing bi & EF Z alleyway, Averue \nJoffre, killing one man and wounding three. It is \nreported that the deceased and wounded men were rebels \nand thet they were engaged in making bombs when the \n\n\nexplosion took place. \n\n\nThere was a rumour in the City last night that \nGeneral Yang had been murdered, but it is not truee \nIt is thought that some of the detectives who will \n~f ~- Boon be dismissed started the report. \n\n\nIt is reported that Premier Tuan, Ghi Jui has sent \na high officer named Ghung Te Bang G 4. HE to Shanghat \nto try to persuade the navy to cancel its independemce. \n\n\nIt is reported that the situation is critical at \nWoosung, and that the ships may start to bombard the \nforts in the near future. \n\n\nYour obedient servant, \n\n\n* \nee le WJ SA \n\n\n—* Ghief Detective Inspector. \nCaptain Superintendent of Police. \n\n\nfe e@ —7-e ad oo \n\n\n(\\ ay \nBVA es - . \na Xe a. Z a t ? oa 2 rg JZ oOo",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2713,
+  "ocr_out_tokens": 277,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 22:38:58",
+  "zh_in_tokens": 509,
+  "zh_out_tokens": 218,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

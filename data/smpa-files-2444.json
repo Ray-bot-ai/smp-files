@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2444",
+ "title": "Zee Koh Liang",
+ "series": "IO Files",
+ "nara_file_no": "17",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2444",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "488\n1/8/16\nShanghai Municipal Council.\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE JUNCTA JUVANT）\nPOLICE FORCE.\n(DETECTIVE BRANCH)\n1st August 1918\n\nSir,\nThe City and Chapei Police were paid on 31st ultimo.\nThe troops in Woosung and the Arsenal expect to be paid\nto-day.\nThere is some dissatisfaction among the troops in\nChapei at present. It appears a rumour is current amongst\nthem that they will soon be transferred to the North,\nand they do not wish to go.\nZoo Koh Liang, Chief of the local Chinese Police,\nhas given instructions that constables on street duty\nare not to carry arms during the day, but they must\ncarry truncheons instead.\nFour Republican papers are printed in red to-day.\n\nYour obedient servant,\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2444/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "488\n1/8/16\n上海工部局。\n（印：上海工部局警务处 协力同心）\n警务处。\n（侦探股）\n1918年8月1日\n\n先生，\n华界及闸北警队已于上月31日发饷。\n驻吴淞及兵工厂之部队预计今日发饷。\n目前闸北部队中存在一些不满情绪。据悉，军中流传着他们即将被调往北方的谣言，而他们不愿前往。\n当地华捕督察长朱古良（Zoo Koh Liang，音译）已下达指令，日间在街头执勤的巡捕不得携带枪械，但必须携带警棍。\n今日有四份共和派报纸以红色字体印刷出版。\n\n您顺从的仆人，\n总探长。\n\n警务处总监上尉。",
+   "zh_src": "6675a304c0f8bfbd"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2444/Reports%20Made%201916-1929%20-%20Zee%20Koh%20Liang%2017.pdf>\n\n---\nShanghai #hanicipal \n\n\nist \n\n\nPouce Force, \n{Detective BRANCH) \n\n\nSix, \n\n\n- Ths Gity ona \n\n\nH& \n. & \n\n\nGCannue \n\n\nAusust \n\n\ng \nj a \n\n\nU \n\n\nAGL E \n\n\nZi L2aco0. Wart pala om Slet wi tamo-. \nfhe troovs in Voosung and the Arscnal expect to bo raid \n\n\nto-day e \n\n\nTiisr=e Le fone clscantisfactian ncong: the \nGhapci at presonte TR aprcarc a meroursr ic \n\n\nthet tht. they cill soot be transferred \n} és & and thoy do rot wish to yoe \n. a i | x» Zoe Kon Linus, Chiwt of th. local Ciimese PF \n\n\n\\ hee given inctructione that const-blies om str \nBae ot to 47 as deine ta: cay, Rok trey \ncarry trumci:cor.e ivctoncd. \n\nPour Republicnne pupors are pri::ted in rod \n\n\nYor oboe icrt eo-rvnr.t, \n\n\n: - \n\n\nes Giiof Dcetostive \n\n\nCaptain Superi:.tc:lent of Police. \n\n\ntroops \n\n\namongst \n\n\nTiispuctor.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2762,
+  "ocr_out_tokens": 215,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 00:03:20",
+  "zh_in_tokens": 447,
+  "zh_out_tokens": 191,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2385",
+ "title": "Waung Ping",
+ "series": "IO Files",
+ "nara_file_no": "58",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2385",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Shanghai Municipal Council.\n\nOctober 21st 191\n\nPOLICE FORCE,\n(DETECTIVE BRANCH.)\n\nSir,\nAfter 7 p.m. on the 20th inst, the sentries and\npatrols were doubled at and around the City and Arsenal.\nGeneral Yang has invited all the prominent merchants\nand officials to be present at the distribution of\nrepatriation funds which will begin to-day at 8 a.m.\nnear the Kau Tsaung Miao 高昌廟.\nColonel Wang Ping 王賓 of Loongwha has received\ninstructions to turn out as many troops as he can to insure\nthe maintainance of order at the distribution of the\nfunds. In view of the activities of those rebels who\nare not satisfied with the amount of the grant it is\nanticipated that only about 3/10 of the whole will present\nthemselves to receive the money. Dr. Sun Yat Sen\nwas interviewed on the above subject by representatives\nof the rebels on the 20th inst and he informed them\nthat he had nothing whatever to do with the repatriation\nscheme.\n\nYour Obedient Servant,\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2385/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "上海工部局。\n\n191年10月21日\n\n警务处，\n（侦探科。）\n\n先生：\n\n本月20日晚7时后，兵工厂及其周边地区的哨兵和巡逻队已加倍部署。杨将军已邀请所有知名商人和官员出席遣散费的发放仪式，该仪式将于今日上午8时在高昌庙附近开始。\n\n龙华的王宾上校已接到指令，调集尽可能多的部队，以确保遣散费发放期间的秩序维持。鉴于那些对拨款金额不满的叛乱分子的活动，预计仅有约十分之三的人员会前来领取款项。孙中山博士于本月20日就上述事项接受了叛乱分子代表的问询，他向他们表示，他与遣散计划毫无关系。\n\n您顺从的仆人，\n\n总探长。\n\n警务处总监。",
+   "zh_src": "5c9e70e481afa802"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2385/Reports%20Made%201916-1929%20-%20Waung%20Ping%2058.pdf>\n\n---\nAP ay ‘ ; 7 £Z, f \nShanghai Municipal Council, \n\n\nOctober Pist 6 \npemacers - FFF. \nPotice Force, \n(Detective BrRancH) \nRe siz, \nNG APtcr 7 Perie On the 2Oth inset, the sentries and \nQe AN - patrols were doubled at and arouna the City and Arsenal. \ny General Yang has invited all the prominent merchants \n\\ ana officials to be present at the distribution of \nrepatriation funds which will begin to-day at 8 aeme \n<i near tho Kau tsaung Miao & SA - \n¥ Golonel Waung Ping = % of Loongwha has roccived \na. instructions to turn out as “many troops as he can to insure \nae DN the maintainance of order at the distribution of the \niy \\ fundse In view of the activitios of those rebols who \nXs are not satisfied with the amount of the grant it is \nC; antitipated that only about 3/10 of the whole will presant \nthem elves -to recoive the money. Dr. Sun Yat Sen \n\n\nwas interviewed on the above subject by representatives \n\n\nof thse rebols on the 20th inst ana he informed them | \nthat he had nothing Whatever to do with the repatriation \n\n\nscheme. \nYour Obedient Servant, \n\n\nhim WK. bt ace AOA Tra \n\n\npe, 4 Chief Detective Inspectr . \nVe \n\n\nf+ - \n\n\nvaptain Superintendent of Police.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2698,
+  "ocr_out_tokens": 267,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 23:22:21",
+  "zh_in_tokens": 497,
+  "zh_out_tokens": 180,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

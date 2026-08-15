@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2330",
+ "title": "Tieh Liang",
+ "series": "IO Files",
+ "nara_file_no": "85",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2330",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "No\nNo. 595\nDate 25. 9. 16\nShanghai Municipal Council.\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH.)\nSeptember 20th 1916\n\nSir,\n\nIt is reported that General Yang on the 19th instant received a telegram from Tuchun Feng Kou Chang who stated that he had positive information that Tieh Liang 铁良 was in Shanghai and asking for a full report on the subject of the Manchu Restoration Party movement. In consequence General Yang has now detailed two extra detectives making ten in all to make enquiries about the movement.\n\nThe time limit for the registration of rebels for repatriation expired on the 17th inst but there are still many coming in who are very much annoyed when they find they are too late. There were about 150 disappointed candidates on the 19th inst.\n\nZee Kou Liang 徐国 the Chief of Police has issued instructions to his subordinates to escort to Police Headquarters any skilled workmen they may find attempting to obtain work abroad.\n\nYour Obedient Servant,\n\n（签名）\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\n（批：Ash.）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2330/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "无\n第 595 号\n日期 16. 9. 25\n上海工部局。\n（印：上海工部局警务处）\n警务处，\n（侦探股。）\n1916 年 9 月 20 日\n\n先生：\n\n据报，杨将军于本月 19 日收到督军冯国璋发来的电报，称其掌握确切情报，铁良在上海，并要求就满人复辟党运动一事提交完整报告。因此，杨将军现已增派两名侦探，使调查该运动的侦探总数达到十名。\n\n叛乱分子登记遣返的期限已于本月 17 日届满，但仍有许多人前来登记，当发现为时已晚时，他们感到非常恼火。本月 19 日，约有 150 名失望的申请者。\n\n警察局长徐国良已向其下属发出指令，要求将任何试图出国谋职的技术工人护送至警察总局。\n\n您顺从的仆人，\n\n（签名）\n\n总探长。\n\n警司。\n\n（批：Ash.）",
+   "zh_src": "9dfe0cb883862f53"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2330/Reports%20Made%201916-1929%20-%20Tieh%20Liang%2085.pdf>\n\n---\nPouce Force, \n(Detective BrRancnH) \n\n\nOd \n\n\na Ss i \nDates Die its. Rs \n\n\n— \n‘Stranghat Mhrnicipal Council. \n\n\n__ September 20th 976. \n\n\nSir, \n\n\nIt is reported that General Yang on the 19th \ninstant received a telegram from Tuchun Feng Kou Chang \nwho stated that he had positive information that Tieh \nLiang $9@ féwas in Shanghai and asking for a full \n\n\nThe time limit for the registration of rebels \nfor repatriation expired on the 17th inst but there \nare still many coming in wto are very much annoyed when \nthey find they are too late. There were about 150 \nGisappointed candidates on the 19th inst. \n\nZee Kou Liang {7 ALzA¥ the Chief of Police has \nissued instructions to his subordinates to escort \nto Police Headquarters any skilled workmen they \nmay find attempting to obtain work abroade \n\n\nYour Obedient Servant, \n\n\nWinuuArursiton Q \n\n\nChief Detective Inspector. \n\n\nOaptain Superintendent of Police.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2722,
+  "ocr_out_tokens": 276,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 22:38:21",
+  "zh_in_tokens": 506,
+  "zh_out_tokens": 248,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

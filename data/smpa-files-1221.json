@@ -12,7 +12,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1221/page/n0_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "9306\n3 - 3\n1939年7月3日。\n\n致：\n上海公共租界工部局\n市立管弦乐队指挥\n\n关于乐师 V. Babinoff。\n\n兹参照贵方1939年6月27日来函，随函附上关于 V. Babinoff 的机密报告副本一份。\n\nX Sent.\n\n副警务处长\n（特别处）",
+   "zh_src": "936e67afb585e5f3"
   }
  ],
  "pages_done": 1,
@@ -23,6 +25,11 @@
   "ocr_in_tokens": 2751,
   "ocr_out_tokens": 96,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-14 21:00:21"
- }
+  "ocr_at": "2026-08-14 21:00:21",
+  "zh_in_tokens": 328,
+  "zh_out_tokens": 101,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

@@ -12,7 +12,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1227/page/n0_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "D-8733",
+   "zh_src": "20d03e6caf67668b"
   },
   {
    "n": 1,
@@ -20,7 +22,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1227/page/n1_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "FM. 2\nG. 55M-1-38\n\n上海公共租界工部局警务处。\n档案编号............\nS.1，特务科，8733Y\n报告\n日期：1938年9月14日。\n\n主题：题为《上海青年》的救国小册子\n（上海青年）\n由职员罗伟公（Loh Wei-kong）编制，由C. Crawford 副督察转呈。\n\n* Realio\nD 843\n\n1938年9月3日出版的第三期《上海青年》救国小册子已为工部局警务处所获。该刊物声称出自“上海青年社”（原称“上海市学生联合会”，地址不详），包含以下文章：\n(1) 战争一年后的日本经济形势。\n(2) 欧洲局势展望。\n(3) 我们在一年抗战中获得的少许经验。\n(4) 信箱：包含关于一般政治问题的问卷及答复。\n(5) 关于“八一三周年纪念”期间出售国旗的反思。\n(6) 中国游击队的活动。\n(7) 致长期抗战中受难同胞的一封信。\n(8) 如何写作作文。\n\n（印：上海公共租界工部局警务处特务科）\n\n本小册子的第一期出版日期为1938年5月10日，系工部局警务处于1938年7月底进行搜查行动时查获，该行动与出版一本名为《孤光》的反日小册子有关（参见1938年8月1日特务科报告）；第二期则出现于7月1日。据称这两期均由上海市学生联合会出版。\n\n* 58677\n档案\n\n罗伟公\n职员\n特务科侦探长",
+   "zh_src": "e87be01b901e71bc"
   }
  ],
  "pages_done": 2,
@@ -31,6 +35,11 @@
   "ocr_in_tokens": 5442,
   "ocr_out_tokens": 471,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-14 21:01:22"
- }
+  "ocr_at": "2026-08-14 21:01:22",
+  "zh_in_tokens": 710,
+  "zh_out_tokens": 419,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }
