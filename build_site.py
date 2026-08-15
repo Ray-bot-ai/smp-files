@@ -96,7 +96,13 @@ def load_doc(f):
 
 
 def tokens(text):
-    """英文词 + 中文归一化 bigram。返回 set（同页重复只算一次，索引小很多）。"""
+    """英文词 + 中文归一化 bigram + 每个单字。返回 set（同页重复只算一次，索引小很多）。
+
+    为什么要单字：bigram 索引里单字**只在孤立成词时**才被索引——「工人罢工」
+    只产出 工人/人罢/罢工 三个 bigram，没有「工」。搜「工」就只能命中
+    「工」单独成词的那几页（实测 12,424 页里只中 8 页），单字检索等于失效。
+    所以把每个 CJK 字符本身也加进索引；代价是索引 +约 20%，换来单字检索可用。
+    """
     t = set()
     low = text.lower()
     t.update(WORD.findall(low))
@@ -105,8 +111,10 @@ def tokens(text):
         n = normalize(seg)
         if len(n) == 1:
             t.add(n)
+            continue
         for i in range(len(n) - 1):
             t.add(n[i:i + 2])
+        t.update(n)          # 每个单字也是 token（见上面注释）
     return t
 
 
@@ -145,6 +153,27 @@ def build_catalog():
               open(os.path.join(OUT, "catalog.json"), "w", encoding="utf-8"),
               ensure_ascii=False, separators=(",", ":"))
     return len(items), sum(x["p"] for x in items)
+
+
+def build_titleidx(items):
+    """全库标题索引：token → [件短号…]，单文件不分片。
+
+    为什么要有它：正文倒排索引只覆盖**已转录**部分（约 1/5），
+    其余 60% 的卷宗在检索页完全隐形。标题索引覆盖全部 3,866 件的标题，
+    让「先按标题找到卷宗、再去 IA 看原件」成为可能——尤其对还没转到的题材。
+    分片一致性（shard_of 两端必须一致）的坑在这里不存在：单文件，无分片。
+    但 token 语义仍须与 search.js 的 tokenize() 完全一致（同一套
+    tokens()/normalize，正文索引已验过这条），否则同样零命中不报错。
+    """
+    post = {}
+    for x in items:
+        for tok in tokens(x["t"]):
+            post.setdefault(tok, []).append(x["i"])
+    for v in post.values():
+        v.sort()
+    json.dump(post, open(os.path.join(OUT, "titleidx.json"), "w", encoding="utf-8"),
+              ensure_ascii=False, separators=(",", ":"))
+    return len(post)
 
 
 # ── 单件全文 + 倒排索引 ──────────────────────────────────────
@@ -186,12 +215,16 @@ def build_docs_and_index():
                   open(os.path.join(OUT, "doc", f"{short}.json"), "w", encoding="utf-8"),
                   ensure_ascii=False, separators=(",", ":"))
         ndoc += 1
-    # 分片写出。丢弃出现在超过 40% 页面的 token（停用词级别，检索无意义且占体积）
+    # 分片写出。丢弃出现在超过 40% 页面的 token（停用词级别，检索无意义且占体积）。
+    # 但中文单字**一律保留**：单字是合法检索词（工/党/厂/会/俄…），
+    # 40% 阈值会把它们几乎全丢光；连「的」这种也保留——搜它是噪声，
+    # 但静默丢掉单字会让用户撞上「搜单字永远零命中」的坑（实测抓出）。
     cutoff = max(20, int(npage * 0.4))
     shards = defaultdict(dict)
     kept = 0
     for tok, posts in inv.items():
-        if len(posts) > cutoff:
+        is_cjk1 = len(tok) == 1 and "\u3400" <= tok <= "\u9fff"
+        if not is_cjk1 and len(posts) > cutoff:
             continue
         shards[shard_of(tok)][tok] = posts
         kept += 1
@@ -291,6 +324,9 @@ def build_progress(nd, npg, nbad):
 if __name__ == "__main__":
     nf, np_ = build_catalog()
     print(f"目录：{nf:,} 件 / {np_:,} 页 → docs/data/catalog.json")
+    ntoks_t = build_titleidx(json.load(open(os.path.join(OUT, "catalog.json"),
+                                            encoding="utf-8"))["items"])
+    print(f"标题索引：{ntoks_t:,} token → docs/data/titleidx.json（覆盖全库标题，含未转录）")
     nd, npg, ntok, kept, nbad = build_docs_and_index()
     idx_mb = sum(os.path.getsize(p) for p in glob.glob(os.path.join(OUT, "idx", "*.json"))) / 2**20
     doc_mb = sum(os.path.getsize(p) for p in glob.glob(os.path.join(OUT, "doc", "*.json"))) / 2**20

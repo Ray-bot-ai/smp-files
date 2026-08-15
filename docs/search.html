@@ -55,6 +55,18 @@
     <code data-q="巡捕">巡捕</code>
     <code data-q="轮船">轮船</code>
     <code data-q="opium">opium</code>
+    <br>
+    <b>影响检索结果的内部设置 Internal settings affecting results（明示 disclosed）：</b>
+    <br>① 英文按<b>整词</b>匹配、不分大小写 · English matched as whole words, case-insensitive.
+    <br>② 中文按<b>归一化二字滑窗</b>（简繁异体互搜）；三字以上词组会<b>逐页核对原文</b> ·
+      Chinese matched by normalized overlapping bigrams; phrases of 3+ chars are verified against page text.
+    <br>③ <b>停用词 Stop words</b>：出现在 40% 以上已转录页面的英文词<b>不建索引</b>
+      （如 the / of / a / to），单独搜这类词结果为空 ·
+      English words occurring on &gt;40% of transcribed pages are not indexed (e.g. the / of / a / to); searching one alone returns nothing.
+    <br>④ 中文<b>单字</b>全部建索引，可单独检索 · all single Chinese characters are indexed and searchable alone.
+    <br>⑤ 正文检索仅覆盖<b>已转录</b>部分；标题检索覆盖<b>全库</b>（含未转录卷宗） ·
+      body search covers transcribed pages only; title search covers the whole catalogue.
+    <br>⑥ 全部命中<b>无上限</b>展示 · all hits are displayed, no caps.
   </p>
 
   <div id="meta" class="spin">正在载入索引…</div>
@@ -66,7 +78,7 @@
   <span class="zh">Machine-generated transcription — verify against the original scan before citing.</span>
 </div></footer>
 
-<script src="assets/search.js?v=4"></script>
+<script src="assets/search.js?v=5"></script>
 <script>
 const $ = s => document.querySelector(s);
 let CAT = null;
@@ -78,7 +90,7 @@ async function boot() {
   $('#meta').innerHTML = `目录 Catalogue: ${fmt(CAT.total_files)} 卷宗 files / ${fmt(CAT.total_pages)} 页 pages ·
     已完成双语转录 transcribed: <b>${fmt(CAT.done_files)}</b> 卷宗 files /
     <b>${fmt(CAT.done_pages)}</b> 页 pages
-    <span class="muted">（检索仅覆盖已转录部分 · search covers transcribed pages only）</span>`;
+    <span class="muted">（正文检索覆盖已转录部分；标题检索覆盖全库含未转录 · body search covers transcribed pages; title search covers the whole catalogue）</span>`;
   const u = new URLSearchParams(location.search).get('q');
   if (u) { $('#q').value = u; run(); }
 }
@@ -91,66 +103,109 @@ function queryTerms(raw) {
   return [...new Set([...all, ...any])];
 }
 
+/* 标题命中区：与正文命中并列显示。含未转录卷宗（d=0）——没有正文可看，
+   给出 IA 原件链接；已转录的链到站内逐页阅读。全部显示，不设上限。 */
+function titleHitHtml(q, tits) {
+  if (!tits.length) return '';
+  const rows = tits.map(x => {
+    const esc = esc2(x.t);
+    const meta = `${x.s ? esc2(x.s) + ' 系列 · ' : ''}${x.p} 页 pages · ` +
+      (x.d ? '<b>已转录</b>' : '<span class="muted">未转录</span>');
+    const link = x.d
+      ? `<a href="file.html?id=${x.i}&q=${encodeURIComponent(q)}">${esc}</a>`
+      : `${esc} &nbsp;<a class="ia" href="https://archive.org/details/smpa-files-${x.i}" target="_blank" rel="noopener">IA 原件 ↗</a>`;
+    return `<div class="it"><div class="ti">${link}</div><div class="mt">${meta}</div></div>`;
+  }).join('');
+  return `<h2 class="sech">标题命中 Title matches<span class="muted"> · 覆盖全库（含未转录卷宗）</span></h2>` +
+    `<p class="hint">标题里含查询词的卷宗 <b>${fmt(tits.length)}</b> 件：</p><div>${rows}</div>`;
+}
+
 async function run() {
   const q = $('#q').value.trim();
   if (!q) return;
   history.replaceState(null, '', '?q=' + encodeURIComponent(q));
   $('#res').innerHTML = '<p class="spin">检索中…</p>';
   const t0 = performance.now();
-  const { toks, hits, label } = await parseAndSearch(q);
+  // 正文与标题同时查：标题索引单文件，几乎不增加等待
+  const [body, tits] = await Promise.all([
+    parseAndSearch(q),
+    titleSearch(parseQuery(q))
+  ]);
+  const { toks, hits } = body;
   const ms = Math.round(performance.now() - t0);
+  const thtml = titleHitHtml(q, tits);
   if (!hits.length) {
-    $('#res').innerHTML = `<p class="spin">未命中 No matches. 查询已切分为 tokenised as：${toks.map(t=>'<code>'+t+'</code>').join(' ')}
+    $('#res').innerHTML = `<p class="spin">正文未命中 No matches in transcribed text. 查询已切分为 tokenised as：${toks.map(t=>'<code>'+t+'</code>').join(' ')}
       <br>目前仅 ${fmt(CAT.done_pages)} 页已转录，全库 ${fmt(CAT.total_pages)} 页仍在处理中。
-      <br>Only ${fmt(CAT.done_pages)} of ${fmt(CAT.total_pages)} pages have been transcribed so far.</p>`;
+      <br>Only ${fmt(CAT.done_pages)} of ${fmt(CAT.total_pages)} pages have been transcribed so far.</p>` +
+      thtml;
     return;
   }
   const npages = hits.reduce((a, h) => a + h.pages.length, 0);
-  let html = `<p class="hint">命中 <b>${fmt(npages)}</b> 页 pages，分布在 <b>${hits.length}</b> 件卷宗 files（${ms} ms）</p>`;
+  let html = `<p class="hint">正文命中 <b>${fmt(npages)}</b> 页 pages，分布在 <b>${hits.length}</b> 件卷宗 files（${ms} ms）</p>`;
+  if (tits.length) {
+    html += `<p class="hint">另有 <b>${fmt(tits.length)}</b> 件卷宗的<b>标题</b>命中（见下方「标题命中」区，含未转录卷宗）</p>`;
+  }
 
-  // 逐条显示，不要等全部加载完。
-  // 原先是 for + await getDoc 串行取最多 40 份卷宗全文，**取完才一次性写 DOM**，
-  // 所以要干等最慢的那条。卷宗 JSON 含整件正文（大的有几 MB），串行 40 次很慢。
-  // 现在：请求一次性全发出去（浏览器自己限并发），但**按原顺序**边到边渲染。
-  const shown = hits.slice(0, 40);
+  // 全部命中都显示，**任何地方都不设上限**（设计原则：对用户来说拿到结果
+  // 比等待更重要；上限会让检索系统变得不可用）。为性能分两步：
+  // ① 行骨架同步渲染：标题/系列/页数直接取目录（CAT，全在内存），
+  //    命中页链接立即可点，**不需要等正文 JSON**；
+  // ② 前 3 页的摘要等正文到了再回填；第 4 页起的其余命中页放进醒目条
+  //    （morepg），**全部链接直接列出**，不管有多少页。
   const seq = ++RUN;                       // 防串台：期间又搜了一次就停止渲染旧结果
-  const docs = shown.map(h => getDoc(h.doc));   // getDoc 缓存的是 Promise，不会重复请求
+  const byId = new Map(CAT.items.map(x => [x.i, x]));
+  let rowsHtml = '';
+  hits.forEach((h, idx) => {
+    const ci = byId.get(h.doc) || {};
+    const pglink = n => `<a class="pg" href="file.html?id=${h.doc}&p=${n}&q=${encodeURIComponent(q)}">p${n + 1}</a>`;
+    const first3 = h.pages.slice(0, 3);
+    const rest = h.pages.slice(3);
+    rowsHtml += `<div class="it" data-idx="${idx}">
+      <div class="ti"><a href="file.html?id=${h.doc}&q=${encodeURIComponent(q)}">${esc2(ci.t || h.doc)}</a></div>
+      <div class="mt">${ci.s ? esc2(ci.s) + ' 系列 series · ' : ''}${ci.p ?? '?'} 页 pages · 命中 ${h.pages.length} 页 matched</div>
+      ${first3.map(n => `<span class="snk" data-idx="${idx}" data-n="${n}">${pglink(n)}</span>`).join('')}
+      ${rest.length ? `<div class="morepg">其余 <b>${fmt(rest.length)}</b> 页命中，全部可点：${rest.map(pglink).join(' ')}</div>` : ''}
+    </div>`;
+  });
   $('#res').innerHTML = html +
-    `<div id="list"></div><p class="spin" id="more">载入摘要… 0/${shown.length}</p>`;
+    `<div id="list">${rowsHtml}</div><p class="spin" id="more">载入摘要… 0/${hits.length}</p>`;
   const list = $('#list'), more = $('#more');
 
-  for (let i = 0; i < shown.length; i++) {
+  // 摘要回填：正文请求已在 getDoc 里并行发出，这里按顺序等并填入骨架。
+  for (let i = 0; i < hits.length; i++) {
+    const h = hits[i];
     let d;
-    try { d = await docs[i]; } catch { continue; }
+    try { d = await getDoc(h.doc); } catch { more.textContent = `载入摘要… ${i + 1}/${hits.length}`; continue; }
     if (seq !== RUN) return;               // 已经有新的检索了，丢弃这轮
-    const h = shown[i];
     const byN = Object.fromEntries(d.pages.map(p => [p.n, p]));
-    list.insertAdjacentHTML('beforeend', `<div class="it">
-      <div class="ti"><a href="file.html?id=${h.doc}&q=${encodeURIComponent(q)}">${d.t}</a></div>
-      <div class="mt">${d.s ? d.s + ' 系列 series · ' : ''}${d.p} 页 pages · 命中 ${h.pages.length} 页 matched</div>
-      ${h.pages.slice(0, 3).map(n => {
-        const p = byN[n] || {};
-        const tag = `<a class="pg" href="file.html?id=${h.doc}&p=${n}&q=${encodeURIComponent(q)}">p${n + 1}</a>`;
-        /* 多词查询必须**每个词各给一段上下文**。
-           以前只按第一个匹配到的位置截一段，于是搜「银行 巡捕」时只看到银行那一段，
-           另一个词在页面别处——结果明明是对的，看上去却像误命中。 */
-        const terms = queryTerms(q);
-        const segs = [];
-        for (const t of terms) {
-          const inEn = hasMatch(p.en, t), inZh = hasMatch(p.zh, t);
-          if (!inEn && !inZh) continue;
-          const lab = terms.length > 1 ? `<span class="tm">${esc2(t)}</span>` : '';
-          if (inEn) segs.push(`<div class="sn">${lab}${snippet(p.en, t, 170)}</div>`);
-          if (inZh) segs.push(`<div class="sn zh"${inEn ? ' style="margin-left:2.6rem"' : ''}>${
-            inEn ? '' : lab}${snippet(p.zh, t, 150)}</div>`);
-        }
-        if (!segs.length) segs.push(`<div class="sn">${snippet(p.en || p.zh, q)}</div>`);
-        return `<div class="sn">${tag}</div>` + segs.join('');
-      }).join('')}
-    </div>`);
-    more.textContent = `载入摘要… ${i + 1}/${shown.length}`;
+    /* 多词查询必须**每个词各给一段上下文**。
+       以前只按第一个匹配到的位置截一段，于是搜「银行 巡捕」时只看到银行那一段，
+       另一个词在页面别处——结果明明是对的，看上去却像误命中。 */
+    const terms = queryTerms(q);
+    h.pages.slice(0, 3).forEach(n => {
+      const slot = list.querySelector(`.snk[data-idx="${i}"][data-n="${n}"]`);
+      if (!slot) return;
+      const p = byN[n] || {};
+      const tag = `<a class="pg" href="file.html?id=${h.doc}&p=${n}&q=${encodeURIComponent(q)}">p${n + 1}</a>`;
+      const segs = [];
+      for (const t of terms) {
+        const inEn = hasMatch(p.en, t), inZh = hasMatch(p.zh, t);
+        if (!inEn && !inZh) continue;
+        const lab = terms.length > 1 ? `<span class="tm">${esc2(t)}</span>` : '';
+        if (inEn) segs.push(`<div class="sn">${lab}${snippet(p.en, t, 170)}</div>`);
+        if (inZh) segs.push(`<div class="sn zh"${inEn ? ' style="margin-left:2.6rem"' : ''}>${
+          inEn ? '' : lab}${snippet(p.zh, t, 150)}</div>`);
+      }
+      if (!segs.length) segs.push(`<div class="sn">${snippet(p.en || p.zh, q)}</div>`);
+      slot.outerHTML = `<div class="sn">${tag}</div>` + segs.join('');
+    });
+    more.textContent = `载入摘要… ${i + 1}/${hits.length}`;
   }
-  if (seq === RUN) more.remove();
+  if (seq === RUN) {
+    more.remove();
+    if (thtml) $('#res').insertAdjacentHTML('beforeend', thtml);
+  }
 }
 
 $('#go').onclick = run;

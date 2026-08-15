@@ -133,3 +133,9 @@ footer.ft .in{max-width:78rem;margin:0 auto;padding:0 1.4rem;
 .res .sn .tm{display:inline-block;font-family:var(--label);font-size:.62rem;letter-spacing:.08em;
   color:var(--stamp);border:1px solid rgba(143,47,34,.35);border-radius:2px;
   padding:0 .35em;margin-right:.5em;vertical-align:1px}
+
+/* 检索结果里「前 3 页有摘要、其余页命中」的突出提示条：其余页全部可点 */
+.res .morepg{margin:.45rem 0 .15rem;padding:.4rem .55rem;
+  background:#fff6dd;border-left:3px solid #d9a21b;
+  font-size:.85rem;line-height:1.9}
+.res .morepg .pg{margin-right:.15rem}

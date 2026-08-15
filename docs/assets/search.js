@@ -225,3 +225,67 @@ async function parseAndSearch(raw) {
                  none.map(t=>'-'+t).join(' ')].filter(Boolean).join(' ');
   return { toks: [...all, ...any], hits: r.hits, label };
 }
+
+/* ── 标题检索 ──────────────────────────────────────────────
+   正文索引只覆盖已转录部分，其余约六成卷宗在检索页完全隐形。
+   标题索引（docs/data/titleidx.json，单文件）覆盖全库 3,866 件标题：
+   token 语义与正文完全一致（英文整词、中文归一化 bigram），
+   只是所有 token 都要落在**同一个标题**上。三字以上中文仍是
+   bigram 交集、可能假命中——好在标题都在内存里，直接核对子串。 */
+
+let titleIdx = null;
+async function loadTitleIdx() {
+  if (!titleIdx) titleIdx = fetch('data/titleidx.json').then(r => r.json());
+  return titleIdx;
+}
+
+async function titleSet(term) {
+  await loadNorm();
+  const idx = await loadTitleIdx();
+  const toks = tokenize(term);
+  if (!toks.length) return new Set();
+  let inter = null;
+  for (const t of toks) {
+    const posts = idx[t];
+    if (!posts) return new Set();
+    const s = new Set(posts);
+    inter = inter ? new Set([...inter].filter(x => s.has(x))) : s;
+    if (!inter.size) return new Set();
+  }
+  if (needsVerify(term)) {
+    const nt = normalize(term.toLowerCase());
+    const cat = await loadCatalog();
+    const keep = new Set();
+    for (const id of inter) {
+      const it = cat.items.find(x => x.i === id);
+      if (it && normalize(it.t.toLowerCase()).includes(nt)) keep.add(id);
+    }
+    return keep;
+  }
+  return inter;
+}
+
+/* 标题检索，与 searchBool 同语义（all AND / any OR / none NOT），
+   作用在标题上。返回 [{i,t,s,n,p,d}]，含未转录卷宗（d=0）。 */
+async function titleSearch({ all = [], any = [], none = [] }) {
+  let cur = null;
+  for (const t of all) {
+    const s = await titleSet(t);
+    cur = cur ? new Set([...cur].filter(x => s.has(x))) : s;
+    if (!cur.size) return [];
+  }
+  if (any.length) {
+    const u = new Set();
+    for (const t of any) for (const x of await titleSet(t)) u.add(x);
+    cur = cur ? new Set([...cur].filter(x => u.has(x))) : u;
+  }
+  if (!cur) return [];
+  for (const t of none) {
+    const s = await titleSet(t);
+    cur = new Set([...cur].filter(x => !s.has(x)));
+  }
+  const cat = await loadCatalog();
+  const byId = new Map(cat.items.map(x => [x.i, x]));
+  return [...cur].map(id => byId.get(id)).filter(Boolean)
+    .sort((a, b) => (b.d - a.d) || (b.p - a.p));
+}
