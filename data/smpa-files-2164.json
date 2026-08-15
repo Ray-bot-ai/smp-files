@@ -1,0 +1,28 @@
+{
+ "ia_id": "smpa-files-2164",
+ "title": "Ling Liang Gee",
+ "series": "IO Files",
+ "nara_file_no": "88",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2164",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "No\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE (DETECTIVE BRANCH)）\nShanghai Municipal Council.\nC. ! D.\nI. O. REG\nNo. 597\nDat. 28. 9. 16\nSeptember 25th 1916.\n\nSir,\nAbout 100 persons attended a memorial service\nat the Wusieh Guild on Haining Road on the 24th inst\nin honour of Ling Liang Gee林亮吉 who was killed\nin a motor car accident on Mohawk Road last month.\nThe meeting was quiet and orderly.\nAbout 150 natives of Hunan attended a meeting\nin the Hunan Guild near St.Catherine's Bridge at 2.30\np.m. on the 24th inst to protest against the\nJapanese loan and grant of mining concessions\nin Honan. In a truculent speech Tan Zung Vong 谭人凤\nan ex-~~states that the rebels of~~\nHunan now in Shanghai would refuse to accept\nassistance from the repatriation fund. The\n（批：Official）meeting broke up at 4.15 p.m. after much talk but\nno decision was arrived at.\nThe master painters have granted an increase\nin wages to their workmen of 30 cash per day to\ntake effect from the 27th inst. The workmen have\nnot yet decided to accept the concession.\nConsiderable pressure seems to have been brought\nto bear on the master painters by the authorities\nbefore the increase was agreed to.\n\nYour Obedient Servant,\n~~\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n（批：28/9）\n（签名：Ash）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2164/page/n0_w2400.jpg",
+   "via": "dashscope"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2164/Reports%20Made%201916-1929%20-%20Ling%20Liang%20Gee%2088.pdf>\n\n---\n—— : re 7 RE \n\n\n>> EES Doerr s Seon ace worse: \nPSs Seale a a i ae \n\n\noes ame _._ September 25th 978+ \n\n\nBocce Force, \n(Detective BrancH) \n\n\nSir, \nAbout 100 persons attended a memorial service \nat the Wusich Guild on yore re on the 24th inst . \nin honour of Ling Liang Gee# who was killed \nin a motor car accident on SEES Road last monthe \nThe meeting was quiet and orderly. \nAbout 150 natives of Hunan attended a meeting \nik the Hunan Guiid near St.Catherine's Bridge at 2.30 \nPeMe On tne 24th inst to protest against the \nJapanese 9 and grant of mining gg ied ag Bes \nin Honan. a truculent speech Tan Zung ong (F/R \nan cx-ttadeeiiet@—Hemems states that the couse \nBuran now in Shanghai would refuse to ce loa \njG :+«Cassiatance from the repatriation fund. The \na es, meeting broke up af 4e15 Peme aftor much talk but \nno decision was arrived ate \nThe master painters have granted an increase \nin wages to their workmen of 30 cash per day to \ntake effect from the 27th inste The workmen have \nnot yet decided to accept the concession. \nConsiderable pressure ssems to have been brought \nto bear on the mastor painters by the authorities \nbefore the increase was agreed to. \n\n\nYour Obedient Servant, \n\n\nte oes = \n\n\nWr atn OLAar aa chr ona \n\n\nK Chief Detective Inspector. \nat , \n“a \nQ \n\n\nCaptain Superintendent of POlice.e \n\n\n(vit",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2758,
+  "ocr_out_tokens": 385,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 19:36:55"
+ }
+}

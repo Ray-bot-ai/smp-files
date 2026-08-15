@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2144",
+ "title": "Li Ping Su",
+ "series": "IO Files",
+ "nara_file_no": "174",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2144",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "682\n3/116\nShanghai Municipal Council.\nOctober 28th 1916\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nSir,\n\nThe payment of repatriation money to the 36 groups\nof rebels who have not yet been paid will commence this\nmorning at the same place. Troops and Police have received\norders to be present at 7.30 a.m.\n\nA movement is on foot to form a Volunteer Corps\nin the Chinese City but the scheme is being opposed by\nLi Ping Su 李平書 and other business men. The organizers\nhave opened an office at the book Guild and will hold a\nmeeting to discuss the subject about the beginning of\nnext month.\n\nAll the hotels on the Nantao Bund are now being\nregularly visited and searched by the Police during the\nevening.\n\nThere are, so far, no signs of any serious intention\non the part of the local Chinese to support an agitation\nagainst the French in consequence of the Tientsin incident.\n\nYour Obedient Servant,\n[签名]\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2144/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "682\n3/116\n上海工部局。\n1916年10月28日\n（印：上海工部局警务处）\n警务处，\n（侦探科）\n\n先生：\n\n向尚未领款的36批叛乱分子发放遣返费的工作将于今日上午在同一地点开始。军队和警察已奉命于上午7时30分到场。\n\n目前有人发起在华界组建志愿团的运动，但该计划正遭到李平书及其他商人的反对。组织者已在书业公会开设办事处，并将于下月初左右召开会议讨论此事。\n\n警方现在每晚对南市外滩的所有旅馆进行例行巡查和搜查。\n\n迄今为止，没有迹象表明当地华人因天津事件而有意支持针对法国人的煽动活动。\n\n您顺从的仆人，\n[签名]\n总探长。\n\n警务总监上尉。",
+   "zh_src": "d8d1c64a05d5e8c1"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2144/Reports%20Made%201916-1929%20-%20Li%20Ping%20Su%20174.pdf>\n\n---\nPouce Force, \n(DeTecTIVE BRANCH) \n\n\nwe \n\n\nShanabai Municipal Council. \nOstober 28th SDS & \n\n\nSir, \n\nThe payment of repatriation money to the 36 groups \nef rebels who have not yet been paid will commence this \nmorning at the same plaeee Troops and Police have received \ncadens to be present at 7.50 aeme \n\n‘A movement is on foot to form a Volunteer Corps \nin the Chinese City but the ssheme is being opposed by \nLi Ping su%¥4¥ana other business mene The organizers \nhave opened an offics at the book Guild and will hold a \nmeeting to discuss the subject about the beginning of \nmext month. \n\nAll the hotels on the Nantao Bund are now being \nregularly visited and scarcned by the Police during thse \nevening. \n\nThere are, so far, no signs of any secrious intention \non the part of the local Chinese to support an agitation \nagainst the French in sonsequence of the Tientsin incident. \n\nYour Obedient Servant, \n\n\nPa OO CLEAN \nChief Detective Inspector. \n\n\nCaptain Superintendent of Police.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2698,
+  "ocr_out_tokens": 266,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 19:26:28",
+  "zh_in_tokens": 498,
+  "zh_out_tokens": 193,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

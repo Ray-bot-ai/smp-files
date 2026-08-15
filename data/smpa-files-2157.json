@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2157",
+ "title": "Lieu Foh Sun",
+ "series": "IO Files",
+ "nara_file_no": "204",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2157",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE.\n(DETECTIVE BRANCH)\n\n（批：799 0M）\nShanghai Municipal Council.\n\nDecember 21st 1916.\n\nSir,\nGeneral Yang is prepared to hand over his duties\nto a temporary successor but no instructions have\nbeen so far received from Peking.\nOn the 20th inst many of the prominent gentry and\nmerchants paid a visit of condolence to General.\nThey were received by staff officers, the General\nnot being present.\nGeneral Lu of Woosung visited Lunghwa yesterday\nand stayed from 10 a.m. to 4 p.m. During his stay he\nhad an interview with General Yang.\nAbout 70 merchants held a meeting at the Book\nGuild in the Chinese City yesterday to discuss\nways and means to raise a Volunteer Corps.\nThe so-called rebels under the leadership of\nLieu roh Sun □□□ still continue to hold meetings\nat the Zee Oon □□ teashop Rue Wagner, Frenchtown.\nAnother meeting will be held at 4 p.m. to-day.\nIt now appears that for each name placed on the list\nfor presentation to General Li in claiming\nmoney and tickets, a charge of five cents was made\nand it has now been raised to ten cents.\nMany have not yet paid and a notice has been posted\nat the teashop stating that the names of persons\nwho have not yet paid will be removed from the list.\n\nYour Obedient Servant,\nmmmmmmmmmm\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2157/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "（印：上海工部局）\n警务处。\n（侦探股）\n\n（批：799 0M）\n上海工部局。\n\n1916年12月21日。\n\n先生：\n杨将军准备将职务移交给一位临时继任者，但迄今尚未收到来自北京的指示。\n本月20日，许多绅商名流前往慰问杨将军。\n他们由参谋人员接待，杨将军本人不在场。\n吴淞的卢将军昨日访问龙华，停留时间为上午10时至下午4时。在此期间，他会见了杨将军。\n约70名商人昨日在南市书业公会举行会议，讨论筹组民团的方法与途径。\n所谓由孙□□□领导的叛乱分子，仍在法租界华格纳路（Rue Wagner）的紫云□□茶馆继续集会。\n今日下午4时将举行另一次会议。\n目前看来，在向李将军申领钱款和票证而列入名单的每个姓名，原收取五分钱费用，现已涨至一角钱。\n许多人尚未付款，茶馆内已张贴告示，称未付款者的姓名将从名单中除名。\n\n您顺从的仆人，\nmmmmmmmmmm\n总探长。\n\n警察总监",
+   "zh_src": "0fb8a873c9955e82"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2157/Reports%20Made%201916-1929%20-%20Lieu%20Foh%20Sun%20204.pdf>\n\n---\nShanabai Mhanicipal Canretl. \n\n\nDecember 21st SA D/6 0 \n\n\nPouce Force, \n(Detective BrRancH) \n\n\nSir, \nGeneral Yang is prepared to hand ovor hie duties \n\n\nto a temporary successor but no instructions have \nbeen so far received from Peking. \n\non the 20th inst many of the prominent gentry and \nmerchants paid a visit of condolence to General. \nThey wore received by staff officers, the General \nnot being present. \n\nGeneral Lu of Woosung visited Lungwha yesterday \nand etayed from 10 a.m. to 4 pem- During his stay he \nhad an interview with General Yang- \n\nAbout 70 merchants held a meeting at the Book \nGuild in the Chinese City yesterday to disokss \nways and means to raise a Volunteer Corps. \n\nThe so-called rebels under the leadership of \nLiew xoh Sun -%;,, ¢ {still continue to hold meetings \nat the Zee Oen . .. teashop Rue Wagner, Frenohtown. \nAnother moeting will be held at 4 PeMme to-day - \nIt now appears that for each name Placed on the list \nfor presentattion to General Li in claiming \nmoney and tickets, a charge of f&ve cents was made \nand it has now been raised to ten cents. \nMany have not yet paid and a notice has been posted \nat the teashop stating that She names of persons \nwho have not yet paid will be removed from the list. \n\n\nYour Obedient Servant, \n\n\noa Www Arr, \nhe \nase Ohief Detective Inspector. \n\n\nCaptain Superintendent of Police.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2710,
+  "ocr_out_tokens": 358,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 19:33:57",
+  "zh_in_tokens": 590,
+  "zh_out_tokens": 279,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

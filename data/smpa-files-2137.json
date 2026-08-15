@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2137",
+ "title": "Kuo Ming Tang",
+ "series": "IO Files",
+ "nara_file_no": "428",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2137",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "O. I. D.\nNo. 284\nDate 8/6/16\n\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE,\n(DETECTIVE BRANCH.)\n\nJune 8th 1916.\n\nSir,\nAll the Chinese newspapers with the exception\nof the organs of the Kuo Ming Tang party, are printed\nto-day in red, which is a sign that they welcome\nthe new regime and intend to support Li Yuan Hung.\nIt appears the Kuo Ming Tang 革命黨 papers are\nwithholding their support until they see how Li\ndeals with the monarchial plotters.\n\nThe Ningpo and Shaoshing Guild in Shanghai\nhave issued circulars requesting all residents\nto hoist flags on 8th, 9th, and 10th instants\nIn honour of the new President.\n\nIt is reported that there is a slight feeling\nof unrest among the troops in Woosung.\n\nIt is reported that General Yang has received\na telegram from the Central Government requesting him\nto watch the movements of Liang Shih Yi, who has\nfled from Peking.\n\nYour Obedient Servant,\n（手写签名）\nChief Detective Inspector.\n\n（左侧手写批注：Entered on m.s. June 8.）\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2137/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "O. I. D.\n第 284 号\n日期 16/6/8\n\n上海工部局。\n\n（印：上海工部局警务处）\n警务处，\n（侦探股。）\n\n1916年6月8日。\n\n先生：\n\n除国民党机关报外，所有中文报纸今日均以红字印刷，此乃欢迎新政权并意图支持黎元洪之标志。看来，国民党革命党报刊正暂缓表示支持，以观黎氏如何处置君主制阴谋者。\n\n上海的宁波会馆与绍兴会馆已发布通告，要求所有居民于本月8日、9日及10日悬挂旗帜，以向新任总统致敬。\n\n据报，吴淞驻军中存在轻微的不安情绪。\n\n据报，杨将军已收到中央政府电报，要求其监视已从北京出逃的梁士诒的动向。\n\n您顺从的仆人，\n（手写签名）\n总探长。\n\n（左侧手写批注：已于6月8日录入手稿。）\n\n警务总监上尉。",
+   "zh_src": "e76c2f17b4341f3a"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2137/Reports%20Made%201916-1929%20-%20Kuo%20Ming%20Tang%20428.pdf>\n\n---\n= - -- Ps Sli aw) : ‘i Sy @: ft. o: \n\n\nto June Sth SOD 6. \nPouce Force, _ 7 - . ; \n(DETECTIVE BrRancnw) \n\n\nae All the Chinese newspapers with the exception \nef the organs of the Kuo Ming Tang party, are printed \nto-day in reds which is a sign that they welcome \nthe new regime and intend to support Li Yuan Hunge \nEt appears the Kuo Ming Tang ee 4 Papers are \nwithholding their support until they see how Li \ndeals with the monarchboal plotters. \n\nThe Ningpo and Shaoshing Guild in Shanghai \n\n/ have issued circulars requpsting all residents \n\nto hoist flags on Sth, 9th, and 10th instants \nmn honour of the new President. \n\nIt is reported that there is a slight feeling \nof unrest among the troops in Woosung. \n\nIt is reported that General Yang has received \n\n\n& telegram from the Central Government requesting him \n\n\nere to watch the movements of Liang Shih Yi, who has \n’ \n} é fled from Peking. \nQ7 \ne = \nYour Obedient Servant, \n[eee ee Zrrree ys & \n\n\n[yee (ite 2, ~ tte ek Dales \n\n\nChief Detective Insvector. \nCaptain Superintendent cf POlice.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2762,
+  "ocr_out_tokens": 301,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 19:24:22",
+  "zh_in_tokens": 533,
+  "zh_out_tokens": 236,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

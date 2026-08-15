@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2159",
+ "title": "Lieu Gee",
+ "series": "IO Files",
+ "nara_file_no": "92",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2159",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "No\n（印：SHANGHAI MUNICIPAL COUNCIL）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\nShanghai Municipal Council.\n611 2/10/76 Q#\n2nd October 1918\n\nSir,\nIt is reported that on the 29th ult: General Yang received a telegram from Tuchun Feng, instructing him to carefully investigate and report upon the movements in Shanghai of the Manchu Restoration Party. The work is being undertaken by a detective named Lieu Gee 刘琪 .\n\nThe meeting of the dissatisfied rebels which was to be held in the Honan Guild near St. Catherine's Bridge on the 30th ult was not held as a result of the rebel leaders posting a notice to the effect that the matters in dispute would be settled amicably. The rebels referred to have removed their office to No. 1 Tan Poo Li 退步里 Avenue Joffre.\n\nLieu Da Nyi 柳大年 against whom a warrant was issued sometime ago is now living at 71 Pau Kaung Li, Avenue Joffre and is reported to be working in the interests of the Manchu Restoration Party. He is wanted for complicity in the sending of a bomb to a resident in the City but the French Authorities refused to countersign the warrant.\n\nThe Rebel Party are planning to hold a demonstration on the 10th inst but have not yet decided what form it will take.\n\nYour obedient servant,\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2159/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "编号\n（印章：上海工部局）\n警务处，\n（侦探股）\n上海工部局。\n611 2/10/76 Q#\n1918年10月2日\n\n先生：\n\n据报，上月29日，杨将军收到督军冯发来的电报，指示他仔细调查并报告满清复辟党在上海的活动。此项工作正由一名叫刘琪（Lieu Gee）的侦探负责进行。\n\n原定于上月30日在圣凯瑟琳桥附近的河南会馆举行的不满分子叛乱会议并未召开，原因是叛乱首领张贴告示，称争议事项将通过友好方式解决。上述叛乱分子已将其办事处迁至霞飞路退步里（Tan Poo Li）1号。\n\n此前已被签发逮捕令的柳大年（Lieu Da Nyi），现居住于霞飞路宝康里（Pau Kaung Li）71号，据报正为满清复辟党的利益活动。他因涉嫌向市内一名居民寄送炸弹而被通缉，但法国当局拒绝在逮捕令上会签。\n\n叛乱党派计划于本月10日举行示威活动，但尚未决定采取何种形式。\n\n您顺从的仆人，\n\n总探长。\n\n警务处巡官队长。",
+   "zh_src": "13724526afd6a886"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2159/Reports%20Made%201916-1929%20-%20Lieu%20Gee%2092.pdf>\n\n---\n| E. \n\n\n6 \nShanghai Municipal ConA 7 \n\n\nend ootober as \n\n\nPolice Force, \n(DeTEcTIVE BRANCH) \n\n\nsir, \n\nIt is reported that on the 29th ult: General Yang \nreceived a telegram from Tuchm Feng, instructing him \nto carefully investigate and rpport upon the movements \nin Shanghai of the Manchu Restoration Party. The work \n4s being undertaken by a detective named Lieu Gee Z| |i: - \n\n\nThe meeting of the dissatisfied rebels which was to \nbe held in the Honan Guild near St. Catherine's Bridge \non the Soth ult was not held as a result of the rebel \nleaders posting a notice to the effect that the matters \nin dispute would be settled amicably. The rebels aor gina \n\n\nto have reméved their office to 10. 1 Tan Poo Li )? + \nAvenue Joffre. \n\n\nLieu Da 151 An 7 FF against whom a warrant was \nissued sometime ago is now living at 71 Pau Kaung Li, \nAvenue Joffre and is reported to be working in the \ninterests of the Manchu Restoration Party. He is wanted \nfor complicity in the sending of a bomb to a resident \nin the City but the French Anthorities refused to \ncountersign the warrante \n\n\nThe Rebel Party are plarming to hold a demonstration \nwa gg 10th inst but have not yet decided what form it \n1 take. \n\n\nYour obedient servant, \n\n\nChief Detective Inspectore \n\n\nCaptain Superintendent of Pole. \n\n\n. ²˙ mm QP. mange a a a",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2713,
+  "ocr_out_tokens": 321,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 19:34:21",
+  "zh_in_tokens": 553,
+  "zh_out_tokens": 287,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -1,0 +1,28 @@
+{
+ "ia_id": "smpa-files-2165",
+ "title": "Ling Shih Foong",
+ "series": "IO Files",
+ "nara_file_no": "454",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2165",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nF. O. REG\nNo.........200\nDate.......27/3/16\n\nMunicipal Police.\nCRIMINAL INVESTIGATION DEPT:\nCaptain Superintendent's Office.\n\nShanghai, March 25th 1916.\n\nSir,\n\nThe attached anonymous report from Cantonese\nresidents regarding Yang Cheng is probably fairly\naccurate. The allegation that he employs detectives\nto do work which they have no right to do is in\naccord with my information and his connection with\nLing Shih Foong 林世豐 the detective of Chang Hsun\nis well known to the Police.\n\nYour Obedient Servant,\n\nWilliam Armstrong\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\nC17\n1/3 -",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2165/page/n0_w2400.jpg",
+   "via": "dashscope"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2165/Reports%20Made%201916-1929%20-%20Ling%20Shih%20Foong%20454.pdf>\n\n---\neo ms \n\n\nREG \nWe..----- Tal. 0. Municipal Police. \nne (a: LM CRIMINAL INVESTIGATION DEPT: \n‘Dete ox Sixeekaccewkx pra. \nStrang fiai, . March ?Phth 1916. \n\n\nSir, \n\nThe attached anonymous report from Cantonese \nresidents regarding Yang Cheng is probably fairly \naccurate. The allegation that he employs detectives \nto do work which they have no right to do is in \naccord with my information and his connection with \nLing Shih voong tt “the aetective of Chang Hsun \nis well known to the Police. \n\n\nYour Obedient Servant, \nWow Qrrttrn4 \nChief Detective Inspector. \n\n\nCaptain Superintendent of Police. \nae | } \nC4 be > \n~ \n\n\n} \ni \no",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2698,
+  "ocr_out_tokens": 173,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 19:37:03"
+ }
+}

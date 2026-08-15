@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2155",
+ "title": "Liang Chi Tsao",
+ "series": "IO Files",
+ "nara_file_no": "139",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2155",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nI. O. REQ\nNo. 746\nDate\nShanghai Municipal Council.\nDecember 2nd 1916\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE JUNCTA IN UNO）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nSir,\nThe Shanghai Press Association has received a strongly worded telegram from the Chinese Territorial Preservation Society of Tientsin requesting it to advocate a boycott of French goods and complaining of the slackness of the Press association for not having taken action before.\nThe members of the Press Association discussed this matter last evening and decided to remain silent for the present.\nThe lawyers association which was formed in the City some time ago and which has forty six members is drawing up a petition to be sent to the Central Government protesting against the light sentence inflicted on ex-Taoyin Chow.\nLiang Chi Tsao 梁啓超 arrived here from Canton 2 p.m. 1st inst. He is living in Connaught Road.\nIt is reported that representatives of the rebel begging party will leave Shanghai in a day or two to make a tour through the provinces seeking assistance.\nThe Kiangsi merchants residing in Shanghai will hold a meeting in Yu Yuen Garden at 2 p.m. 3rd inst to welcome Li Lieh Chun 李烈鈞 who arrived here on 19th ult from Canton.\nAdmiral Winterhalter arrived here from Peking at 6.55 p.m. 1st inst.\n\nYour Obedient Servant,\nMcEwan\nDetective Sub Inspector.\n\nCaptain Superintendent of Police.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2155/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "刑事调查处\n情报官请求\n第 746 号\n日期\n上海工部局。\n1916年12月2日\n\n（印章：上海工部局警务处 合众为一）\n警务处，\n（侦探股）\n\n先生，\n上海报界公会收到来自天津中国国土保全会的一份措辞强烈的电报，要求该公会倡导抵制法货，并抱怨报界公会此前未采取行动，表现懈怠。\n报界公会成员于昨晚讨论了此事，决定暂时保持沉默。\n不久前在城内成立的律师协会拥有四十六名会员，目前正在起草一份呈送中央政府的请愿书，抗议对前道台周氏判处轻刑。\n梁启超于本月1日下午2时从广州抵达此地。他现居住在康纳路（Connaught Road）。\n据报，反叛乞援派的代表将在一两天内离开上海，前往各省巡游以寻求援助。\n寓居上海的江西商人将于本月3日下午2时在豫园举行会议，欢迎李烈钧。李烈钧于上月19日从广州抵达此地。\n温特哈尔特（Winterhalter）海军上将于本月1日下午6时55分从北京抵达此地。\n\n您顺从的仆人，\n麦克尤恩（McEwan）\n侦探副督察。\n\n警察总监",
+   "zh_src": "865d0cbf20d1507e"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2155/Reports%20Made%201916-1929%20-%20Liang%20Chi%20Tsao%20139.pdf>\n\n---\nc. mw DO, . \ni O- REQ \n\n\n¥. \nWiisisiraigaald \n\n\nEA e \nsocSenoneneneasnanad \n\n\nPROSE oasosscesssscnssnaaas davasssnrari \n\n\nShanabai #thlianicipal Counvil. \n\n\nDecember 2nd SO / & \n\n\nPo.ice Force, \n{DeTectivE BRANCH) \n\n\nSir, \nTne Shanghai Press A=sociation has received a strongly \n’ worded telegram from the Chinese Terriorial Preservation \n\nwos Society of Tientsin requesting it to advocate a boycott \ni - of French goods and complaining of the slackness of \n, the Press association for not having taken action before. \nwe The members of the Press Association discussed \nt this matter last evening and decided to remain silent \nfor the present. \nThe lawyers association which was formed in \nthe City some time ago and which has forty six members \nis drawing up a petition to be sent to the Gentral \nGOvernment protesting against the light sentence inflicted \non ex-Taoyin Chow. .,;' —.:. \nLiang Ohi Tsao //, | > = ‘arrived here from Canton \n2 peme lst inst. He is livire in Connaught Road. \n— It is reported that representatives of the rebel \nbegging party will leave Shanghai ina day or two to make \na tour through the provinces seeking assistance. \n— The Kiangesi merchants residing in Shanghai will \nhold a meeting in Yu Yuen Garden at 2 peme Srd inst \nto welcome Li Lieh Omm ~-. ~- who arrived here on \n19th ult from Canton. \n— Aa@miral Winterhalter arrived here from Peking \nat 6.55 Ppeme lst inste \n\n\nYour Obedient Servants, \n\n\nMd wew Were \n\n\nDetecfLive Sub Inspeetor. \n\n\nCaptain Superintendent of Police.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2705,
+  "ocr_out_tokens": 351,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 19:32:54",
+  "zh_in_tokens": 583,
+  "zh_out_tokens": 291,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

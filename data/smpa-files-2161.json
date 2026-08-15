@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2161",
+ "title": "Lieu Sau Tsche",
+ "series": "IO Files",
+ "nara_file_no": "461",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2161",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "C. I. D.\nI. O. B.\nNo. 253\nDate 29/5/16\n\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE (DETECTIVE BRANCH)）\nPOLICE FORCE,\n(DETECTIVE BRANCH)\n\nMay 26th 1916\n\nSir,\nIt is reported that an ex-Hutch Taotai named Lieu\nSau Tscho has organised a rebel Dare to Die Corps\nin the Western part of Frenchtown. The Corps consists\nof 275 men, who are paid 50 cents each daily, and its\nheadquarters are in Wang Tuh Li alleyway.\nOn April 18th 1916 it was reported that bombs\nhad been found in a public latrine near the City Central\nPolice Station and on 23rd inst it was reported that an\nofficer and ten men belonging to the Arsenal Works had\nbeen arrested for selling bombs to rebels. It is now\nstated that the officer has admitted at his trial that\nthe bombs found in the latrine was made in the Arsenal\nand sold to the rebels.\nIt is reported that the Chinese Authorities have\ngiven permission to the gentry of Ying Ziang Kong to\ncause people erecting new houses to take out permits\nfor which a fee will be charged.\n\nYour Obedient Servant,\n\nChief Detective Inspector.\n\nCaptain Superintendent of Police.\n\nEndorsed endorsed May. 26.\nX Copy sent to S.V.C",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2161/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "刑事侦缉处\n情报办公室\n第 253 号\n日期 1916年5月29日\n\n上海工部局。\n\n（印章：上海工部局警务处（侦探分部））\n警务处，\n（侦探分部）\n\n1916年5月26日\n\n先生：\n\n据报，前沪道刘绍周（Lieu Sau Tscho，音译）在法租界西部组织了一支“敢死队”叛军。该队由275人组成，每人每日薪饷为五角，其总部设在王屠里（Wang Tuh Li，音译）弄堂。\n\n1916年4月18日，据报在市中心警察局附近的一处公共厕所内发现了炸弹；本月23日，又据报兵工厂的一名警官及十名工人因向叛军出售炸弹而被捕。现称，该警官在审讯中已承认，厕所内发现的炸弹系兵工厂制造并出售给叛军的。\n\n另据报，中国当局已许可应祥公（Ying Ziang Kong，音译）的士绅们要求新建房屋者申领许可证，并收取费用。\n\n您忠实的仆人，\n\n总探长。\n\n警察总监上尉。\n\n批注：1916年5月26日批注。\n抄送副本至 S.V.C",
+   "zh_src": "fb8d58d3c4153d5c"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2161/Reports%20Made%201916-1929%20-%20Lieu%20Sau%20Tsche%20461.pdf>\n\n---\nPotice Force, \n(Detective BrRancn) \n\n\nShanghai Manicipal aie: \n\n\nGr tiat an exejHursch Taotai naned Lisu \nFerahes MWeWtsas orvanised a rebel Dare to Dio Gorps \nin tho VJostern part of Fronchtowne Tic Corps consists \n\n\n@ Gr \n\n\nWro are paid SO conts cach caily, and its \n\n\nhogdquarters aro in Jung Tuh Liwy/z ¢ alleywaye \nOn April 16th 17°16 it was rovorted that bombs \n\n\nhad beon found i: \nPolice Station and \n\n\na public latrine near the City Centr \n\n\non °3read inst it was roported that a \nto tito Arsenal ‘lorks had \n\n\nofficer and ten men belonrsing \n7: boon arrostcoa for sellins bombe \n\n\n4o- “ stated that tho officor \ntizo Latrine \n\n\nthie bombs Pound in \n\n\nand sola to tio robclse \nted that tho Chinsso Authorities tevo \n\n\nit 2e roeror \n\n\nGivon pormission to t.i.e \ning new \n\n\ncause poople ocrect \n\n\nfor which a foo will be cin \n\n\nCaptain Superintendent of \n\n\none ae eaten eke 4h AP CEES OMEN URNS rane a. \n\n\nYour Obedient \n\n\nPolicce \n\n\ni \n\n\nu \n\n\nto rebols.e It is now \n\n\nlas admitted at his trial that \nwas made in the Arsenal \n\n\nYing Ziang sions to \nto tako out rormits \n\n\nervants \n\n\nal \nn",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2744,
+  "ocr_out_tokens": 337,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-15 19:35:16",
+  "zh_in_tokens": 569,
+  "zh_out_tokens": 304,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}
