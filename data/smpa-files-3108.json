@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-3108",
+ "title": "Report Re Miss A. Milikovsky",
+ "series": "D Files",
+ "nara_file_no": "2899",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-3108",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D-2151\nD-2155\nD-2156",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3108/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "D-2151\nD-2155\nD-2156",
+   "zh_src": "533f0514d8b2d6fe"
+  },
+  {
+   "n": 1,
+   "en": "Form No. 3\nG. 31,500-1-31\n\nSHANGHAI MUNICIPAL POLICE\nREPORT\n\n（印：SHANGHAI MUNICIPAL POLICE\nC. I. S. S. REGISTRY Station,\nNo. S. B. D. 2157.\nDate March 16, 19 31.\n16 - 3 - 31.）\n\nSubject (in full) Miss A. Milikovsky.\n\nMade by D.S. Prokofiev. Forwarded by Whlunean DST.\n\nSir,\n\nInformation has been received to the effect\nthat Miss A. Milikovsky is employed as a typist at the\nlocal branch of the Dalbank, replacing Miss S. Zelberg\nwho was recently married to Mr. Hartman, employee of the\nDalbank.\n\nMiss Milikovsky resides at No. 591 Rue\nLafayette.\n\nG. Prokofiev\nD. S.\n\nD. C. (C. & S. Branches)\n\n（手写批注：Jileggl\n16:3:31.）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3108/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "表格编号 3\nG. 31,500-1-31\n\n上海公共租界工部局警务处\n报告\n\n（印：上海公共租界工部局警务处\n刑事与政治部登记处，\n编号 S. B. D. 2157。\n日期 1931年3月16日。\n16 - 3 - 31。）\n\n事由（全称） A. Milikovsky 小姐。\n\n由 D.S. Prokofiev 撰写。经 Whlunean DST 转呈。\n\n敬启者：\n\n接获情报称，A. Milikovsky 小姐受雇为道胜银行（Dalbank）本地分行的打字员，接替最近嫁给道胜银行雇员 Hartman 先生的 S. Zelberg 小姐。\n\nMilikovsky 小姐居住于拉斐特路 591 号。\n\nG. Prokofiev\nD. S.\n\nD. C. （刑事与政治部）\n\n（手写批注：Jileggl\n16:3:31。）",
+   "zh_src": "f843e1293aa363b6"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-3108/Reports%20Of%20Special%20Branch%20Made%20Between%201929-1949%20-%20Report%20Re%20Miss%20A.%20Milikovsky%202899.pdf>\n\n---\nD- AIST \n9. 215 S \n\n\nV-Alse \n\n\nSHANGHAI MUNICIPAL POLICE, \n\n\nREPORT \n\n\nSubject (in full) Miss A. Milikovsky. \n\n\nMade by DB. Prokofiev. Forwarded by . WhQursrea., AS 92 \n\n\nSir, — \nInformation has been received to the effect \n\n_ that Miss A. Milikovaky is employed as a typist at the \n\n_local branch of the Dalbenk, replacing Miss S. Zelberg \n\n\nwho was recently married to Mr. Hartman, employee of the \nDalbank. \n\n\nMiss 5 Mi1tkovsty resides at No. 591 Rue 4. \n— — oe",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5430,
+  "ocr_out_tokens": 272,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 08:09:21",
+  "zh_in_tokens": 511,
+  "zh_out_tokens": 272,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-2923",
+ "title": "Memo - Avenue Book Store",
+ "series": "D Files",
+ "nara_file_no": "3730",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-2923",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D-672",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2923/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "D-672",
+   "zh_src": "88eb63a494d3e1a9"
+  },
+  {
+   "n": 1,
+   "en": "(C.I.D.) Office Notes\nFile No. L. 672\nNovember 19, 1929.\n\nA small shop at 1350B Avenue Road styled the\nAvenue Book Store (愛文書局) has for sale a weekly\nperiodical entitled the \"Awakened Lion\" (醒獅), which\nis published by the Chinese Youth Party (中國青年黨),\nhitherto known as the Chinese Nationalistic Youth Group\n(中國國家主義青年團). This party came into existence\nin 1924 for the primary purpose of opposing the spread\nof Communism in China, and its leader was a Szechuenese\nnamed Tseng Chi (曾琦), a returned student from Japan.\nIts activities have been confined to the distribution\non rare occasions of anti-Communistic literature and the\npublication of the periodical \"Awakened Lion\". After\nthe arrival of the Nationalists who are opposed to this\nParty, many of its members have gone to the North --\nTientsin, Peiping, and Moukden. The above store is\nowned by one Kiang Tung-tsz (江同之), a native of\nAnhui, and is being looked after by his assistant\nnamed Wu Teh-hsi (吴德熙), a native of Szechuen.\nThe influence of this Party, the location of the Head-\nquarters of which is unknown, is at present insignificant.\nAlthough this party is looked upon with anything but\nfavour by the Kuomintang, its publication (the Awakened\nLion) still enjoys postal privileges.\n\nHas Robertson\nC. D. I.\n\nThe above report is of no\nparticular value to us, but\nis the result of enquiries made\nat the verbal request of the\nFrench Police. The information\ncontained in the report has\nbeen conveyed to them.\nJolepps.\n19:11.29",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2923/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "（刑事侦缉处）办公笔记\n档案编号：L. 672\n1929年11月19日。\n\n爱文义路1350B号有一家名为“爱文书局”的小店，出售一种名为《醒狮》的周刊，该刊由中国青年党出版，该党此前称为中国国家主义青年团。该党成立于1924年，主要宗旨是反对共产主义在中国的蔓延，其领袖是一位名叫曾琦的四川人，系留日归国学生。该党的活动仅限于偶尔分发反共文献以及出版《醒狮》周刊。在反对该党的国民党人士到来后，其许多成员已前往北方——天津、北平和沈阳。上述书店由安徽籍人士江同之所有，并由其助手、四川籍人士吴德熙打理。该党总部所在地不明，目前影响力微乎其微。尽管国民党对该党颇不以为然，但其出版物《醒狮》仍享有邮政优惠待遇。\n\n哈斯·罗伯逊\n刑事侦缉处处长\n\n上述报告对我们而言并无特别价值，但系应法国巡捕房的口头请求进行调查的结果。报告中包含的信息已转告法方。\n乔勒普斯\n19:11.29",
+   "zh_src": "3a1dbb32484b6fc3"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2923/Reports%20Of%20Special%20Branch%20Made%20Between%201929-1949%20-%20Memo%20-%20Avenue%20Book%20Store%203730.pdf>\n\n---\ni File Nos. ts, E72. \n{ \n) \n\n\n_(C.1.D.) Office Notes Novembe-r.19, 1929,---_ \n\n\n| aindaanaTOnES 9 \n\n\n| A small shop at 1350B Avenue Road styled the \nAvenue Boox Store (HUF fy) vas for sale a weekly \n\n. periodical entitled the “Awakened Zion\" ( HEY), Which \n\nis published by the Chinese Youth Party (% DAS), \n\n| nitnerto known a the Chinese Nationalistic Youth Group \n\n| (> QDR ZAK F 3] Ve This party came into existence \n\n| in 1924 for the primary purpose of ogposins the spread \n\nof Communism in China, anc its leader was a Szechuenese \n\nnamed Tseng Chi (Yt ), a returned stucent trem Japan. \n\nIts activities have been conrined to the cistribution \n\n\non rare occasions of anti-Communistic literature and tie \n\n\npublication of the »eriocical \"Awakened Lion\". after \nthe arrival of tne Nationalists sho are opposed to this \nParty, many cf its members have sone tu tiv North -= \n\n\nTientsin, Feiping, and Moukden. The above store is \n\n\nowned by one Kians Tung-tsz (te) XS ), a native of \n\n\nAnhui, and is being looked after by his assistant \n\n\nThe influence of this Party, the location of the Head- \nQuarters of which is unknown, is at present insignificant. \nAlthough this party is looked upon with anything but \nfavour by the- Kuomintang, its publication (the Awakened \n\n\nLion) still enjoys postal privileges. \n\n\nnamed Wu Ten-nsi (% {= REL), a native of Szechuen.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5445,
+  "ocr_out_tokens": 420,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 04:53:14",
+  "zh_in_tokens": 659,
+  "zh_out_tokens": 282,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

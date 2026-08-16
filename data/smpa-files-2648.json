@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2648",
+ "title": "Ko Sin Wei Pao",
+ "series": "N Files",
+ "nara_file_no": "2887",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2648",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201 A\nG. 2000-6-39\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSp. Br. Registry OFFICE\nFILE NO. N 358\nSUBJECT:\nLo Sin Wei Pao\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Filed | S.B Registry | D 8149. S. 29 |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2648/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 2000-6-39\n\n上海公共租界工部局警务处\n交叉参考单\n特科登记室\n档案编号 N 358\n事由：\n《洛新卫报》（Lo Sin Wei Pao）\n\n| 详情 | 部门 | 档案编号 |\n| :--- | :--- | :--- |\n| 归档 | 特科登记室 | D 8149. S. 29 |\n\n指示见背面",
+   "zh_src": "366f438828fa0934"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2648/Reports%20Made%201943-1945%20During%20Japanese%20Occupation%20-%20Ko%20Sin%20Wei%20Pao%202887.pdf>\n\n---\nF. 201A \nG. 2000-6-39 \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \n\n\nFILE se, AY — JSF \n\n\nSUBJECT: \ndL, Ae, tle Pao \n\n\nPARTICULARS | OFFICE | FILE NO. | \n\n\nAit \n\n\ned nee Sy Semmmnnnnee | Aan ee eee \n\n\nance tO AEN MEE EPID MRED SPN ON UE TI ION 9 as on \n© % =",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2722,
+  "ocr_out_tokens": 112,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 01:57:27",
+  "zh_in_tokens": 344,
+  "zh_out_tokens": 122,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-3037",
+ "title": "Report On Comrade Krymsky",
+ "series": "D Files",
+ "nara_file_no": "1996",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-3037",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D-843",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3037/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "D-843",
+   "zh_src": "eb797bbb266246ab"
+  },
+  {
+   "n": 1,
+   "en": "Form No. 2\nG. 9040-8-29\n\nSHANGHAI MUNICIPAL POLICE\nREPORT\n\n（印：SHANGHAI MUNICIPAL POLICE\nRoute Patrol Station,\nNo. I. C. D. 843.\nDate January 4, 1930.）\n\nSubject (in full) Comrade Krusky.\n\nMade by D.S. Nekrasov'y. Forwarded by Tho Rubenstein S.D.I\n\nInformation has been received to the effect that\nComrade Krusky, Russian Jew, who arrived in Shanghai\nfrom Moscow via Harbin in March 1929, is a rabid\nCommunist. He is a graduate of the Special Communistic\nPropaganda School in Moscow and since his arrival in\nShanghai has disseminated verbal communistic propaganda\namongst local Jewish youngsters. In his conversation\nhe is very anti-British and is employed as a porter,\nby the American Welsh Transportation Coy and resides\non the premises at 56, Wayside Road.\n\nB. Maklaenky.\nD. S.\n\n（批：HP 4/1）\n（批：L.C.(Pol) authorities\nGeneral authori\nties\nOffice Attached）\n\n（批：M.B.\n4/1/30）\n\n（批：Foreign Section,\nFor attention Please\nM.B.）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3037/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "表格第2号\nG. 9040-8-29\n\n上海公共租界工部局警务处\n报告\n\n（印：上海公共租界工部局警务处\n巡捕房，\n编号 I. C. D. 843。\n日期：1930年1月4日。）\n\n事由（全称）克鲁斯基同志。\n\n呈报人：D.S. 涅克拉索夫'y。经由 S.D.I 托·鲁宾斯坦转呈\n\n接获情报称，\n克鲁斯基同志，俄籍犹太人，于1929年3月经哈尔滨从莫斯科抵达上海，是一名狂热的共产主义者。他毕业于莫斯科特别共产主义宣传学校，自抵沪以来，一直在当地犹太青年中散布口头共产主义宣传。他在谈话中表现出强烈的反英倾向，受雇于美国威尔士运输公司（American Welsh Transportation Coy）担任搬运工，居住在韦赛德路56号院内。\n\nB. 马克莱恩基。\nD. S.\n\n（批注：HP 1月4日）\n（批注：L.C.(Pol) 当局\n总当局\n附设办公室）\n\n（批注：M.B.\n1930年1月4日）\n\n（批注：外事科，\n请予关注\nM.B.）",
+   "zh_src": "9ddfa6175ba79d10"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-3037/Reports%20Of%20Special%20Branch%20Made%20Between%201929-1949%20-%20Report%20On%20Comrade%20Krymsky%201996.pdf>\n\n---\nSHANGHAI MUNICIPAL PO \n\n\n\" \n\n\naere \n\n\nREPORT \n\n\nSubject (in full)___Comr> Gs JERSE Ieee \n\n\nMade by.2«S-0. Ueklucva Ye Forwarded by th (PB chaen. = \n\n\n= ; Informimticon nas been. received ts tee coffect ts £ \n\n\n_ .Sonrede Urpusly, Russicn jew, wo -rrived in Shanghri ise tg \n| fror . osgow vie Narbin in irreh_19 9, is =: rebid __ \n\n__Darmminist. _J¢ is _cradu_te of the S: eci:1 Coimmunistic \n__Proresand: Sehool in j.oscow sn! .inee his orriv J in 1. \n\n\nSienchei has disser:ineated_verb 1 communistic - ro. orends \n\n\n‘On vet iocel jewish rounssters. _In sis convers .tisy.... \n\n\n_is_yery -ntiesritisn enu in srloyed ss # i orters \n\n\ny tre \n\n\ntne rrerises at Lc, Wsside Rona, .",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5397,
+  "ocr_out_tokens": 307,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 06:41:05",
+  "zh_in_tokens": 546,
+  "zh_out_tokens": 305,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-2710",
+ "title": "Radio Materials In Standard Radio Corporation. Godwin Removed By Japanese",
+ "series": "N Files",
+ "nara_file_no": "1882",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-2710",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "SR. BR. REV.\nNo. N. 925\nJune 190, 20/6... 6/ ...\n\nRadio Materials in Standard Radio Corporation\nGodown Removed by Japanese\n\nAt about 1 a.m. June 19, a number of Japanese\nGendarmes, accompanied by officers of the French Police,\nproceeded to the godown of the Standard Radio Corporation\n(標準無線電公司) at Lane 142/9 Rue du Lieut. Petiot,\nFrench Concession, and took away all radio materials in\nthe premises. The watchman of the godown was also\narrested.\n\nD.C. (C. & S.O3)\nLd\nInformation\n\nFILE\n\n20 6",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2710/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "特别处 复查\n编号 N. 925\n190年6月，20/6... 6/ ...\n\n标准无线电公司仓库内的无线电材料被日本人搬走\n\n6月19日凌晨1时许，数名日本宪兵在法国巡捕房警官的陪同下，前往位于法租界佩蒂奥中尉路（Rue du Lieut. Petiot）142弄9号的标准无线电公司（標準無線電公司）仓库，将屋内所有无线电材料搬走。该仓库看守人亦被捕。\n\n副总监（刑事及保安科）\n呈阅\n情报\n\n卷宗\n\n20 6",
+   "zh_src": "47c7b91ab1226488"
+  },
+  {
+   "n": 1,
+   "en": "（印：... POLICE\nSP. BR. REGISTRY\n...）\n\nOctober 11 41.\n\nP. C. Matthews, Esq.,\nHeadmaster,\nCathedral School,\n39 Myburgh Road.\n\nDear Sir,\n\nWith reference to your letter dated\n8th October, 1941, I forward herewith a copy\nof a confidential report regarding Charles W. LOVY\nalias Karl Wilhelm LOWY.\n\nYours faithfully,\n\n（签名：Duncan）\n\nAssistant Commissioner\n(Special Branch)",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2710/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "（印：... 警务处\n特别处 登记室\n...）\n\n1941年10月11日。\n\nP. C. Matthews 先生，\n校长，\n圣三一堂学校，\n迈尔堡路39号。\n\n尊敬的先生：\n\n关于您1941年10月8日的来信，现随函附上一份有关 Charles W. LOVY（又名 Karl Wilhelm LOWY）的机密报告副本。\n\n此致\n\n敬礼\n\n（签名：Duncan）\n\n助理总监\n（特别处）",
+   "zh_src": "2872cbbd9f0401a6"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2710/Reports%20Made%201943-1945%20During%20Japanese%20Occupation%20-%20Radio%20Materials%20In%20Standard%20Radio%20Corporation.%20Godwin%20Removed%20By%20Japanese%201882.pdf>\n\n---\nRagio mwateriais in Stanaare \n\n\nGodown Removed by Japanese \n\n\nRadio Corporation \n\n\nAt about 1 aems June 19, a number of Jannece \nGenaurmes, accompanied by officers of the Frenen Folic., \nproceeded to the godown of tne Stundard Radio Corporation \nAF PBIRE >A)) at Lane 142/9 Rue du Lieut. Fetiot, \nFrench Concession, and took away all radio materials in \n\n\nthe premises. The watchman of the godown wae aiso \n\n\narrested. \n\n\naA \nae augiet IMPURE Cee ‘Y \n\n\n¢ : \nia SP. Se. RoC STRY ; \n- 55 a . \nod oT ” é \ns i \n: 3 < \n\nKO — - \n\na ee \nBctober 12 41le \n\n\nPe Co MatthewS, Esues \n\n\nHeadmaster, \nCathedral School, \n39 Myburgh Roade \nYear Sirs, \nwith reference to your letter dated \n8th Jetover, 1941, I forward herewith a \"ec py \nof a considential report re::arding Charles We LOVY \nalias Karl Wilhelm LOWYe \n\n\nYours faithfully» \n\n\nMP verti \n\n\nAssistant Commissioner \n(Special Branch)",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5466,
+  "ocr_out_tokens": 286,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 02:34:25",
+  "zh_in_tokens": 525,
+  "zh_out_tokens": 273,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-2573",
+ "title": "Captain W. Stennes Suspected Nazi Agent - Activities",
+ "series": "N Files",
+ "nara_file_no": "3726",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-2573",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "N32(c)",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2573/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "N32(c)",
+   "zh_src": "9350d7d908923dd6"
+  },
+  {
+   "n": 1,
+   "en": "F. 201 A\nG. 2000-6-39\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSp. B. Registry OFFICE\nFILE NO. N. 32(c)\n\nSUBJECT:\nCaptain W. Stennes,\nSuspected Nazi Agent. - Activities\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Transferred to - | Sp. Br. Reg. | D. 9522(c) |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2573/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 2000-6-39\n\n上海公共租界工部局警务处\n互见单\n特别股登记室\n档案编号 N. 32(c)\n\n事由：\nW. 施滕内斯上尉，\n涉嫌纳粹代理人。——活动情况\n\n| 详情 | 部门 | 档案编号 |\n| :--- | :--- | :--- |\n| 转至 - | 特别股登记室 | D. 9522(c) |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n\n指示见背面",
+   "zh_src": "11e76bdc6eb781ef"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2573/Reports%20Made%201943-1945%20During%20Japanese%20Occupation%20-%20Captain%20W.%20Stennes%20Suspected%20Nazi%20Agent%20-%20Activities%203726.pdf>\n\n---\n3a? \n\n\nF. 201A \nG. 2000-6-39 \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \n\n\npee. beg ae ae OFFICE \nFILE no.LY. IRQ be \nSUBJECT: \n\n\nSee \n\n\nPARTICULARS | OFFICE | FILE NO. \n\n\nee wncenn ner corneas concen scene cn clncceccesoccecnncmnns cons enerecwnency \n\n\n¥. + “3 \n\n\nSe ier eee” Ce Sa Sie eee .",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5440,
+  "ocr_out_tokens": 182,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 01:18:57",
+  "zh_in_tokens": 421,
+  "zh_out_tokens": 192,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2757",
+ "title": "Tseng Pao",
+ "series": "N Files",
+ "nara_file_no": "2506",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2757",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201 A\nG. 2000-6-39\n\nSee S. 8149 S. - (46)\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSpecial Branch Reg. OFFICE\n\nFILE NO. M. 388\n\nSUBJECT:\nTseng Pao\n曾 報\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Transferred to S. 8149 S. - 46 | | |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2757/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 2000-6-39\n\n参见 S. 8149 S. - (46)\n\n上海公共租界工部局警务处\n交叉参考单\n特别支部登记室\n\n档案编号 M. 388\n\n主题：\nTseng Pao\n曾 報\n\n| 详情 | 部门 | 档案编号 |\n| :--- | :--- | :--- |\n| 转至 S. 8149 S. - 46 | | |\n\n指示见背面",
+   "zh_src": "50b238fdad1ea1af"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2757/Reports%20Made%201943-1945%20During%20Japanese%20Occupation%20-%20Tseng%20Pao%202506.pdf>\n\n---\nCRP a Ma TAR oman w ANN WATE \n\n\nPSN tenet! \n\n\nee sls ee \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \n\n\n_F. 2014 \nGT 2000-6-39 \n\n\nCE \nSUBJECT: \nPARTICULARS | OFFICE FILE NO. \n\n\na; bg © Q.HEFL. - CLG",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2734,
+  "ocr_out_tokens": 131,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 02:56:18",
+  "zh_in_tokens": 363,
+  "zh_out_tokens": 131,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

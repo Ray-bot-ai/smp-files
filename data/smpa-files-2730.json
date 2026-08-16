@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2730",
+ "title": "Russian Japanese Relation - Buffer State To Be Created In Mongolia Etc",
+ "series": "N Files",
+ "nara_file_no": "2873",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2730",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201 A\nG. 2000-5-39\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSp. Br. Registry OFFICE\n\nFILE NO. N 360\n\nSUBJECT:\nRusso. Japanese relations : Buffr. State\nto be created in Mongolia etc.\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Confidential Frames. | | |\n| 11/9/40 | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| INSTRUCTIONS SEE OVER | | |",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2730/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 2000-5-39\n\n上海公共租界工部局警务处\n互见索引卡\n特别处登记室\n\n档案编号 N 360\n\n主题：\n俄日关系：拟在蒙古等地建立缓冲国\n\n| 详情 | 部门 | 档案编号 |\n| :--- | :--- | :--- |\n| 机密卷宗 | | |\n| 1940年9月11日 | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| 指示见背面 | | |",
+   "zh_src": "ea952fa79dde247f"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2730/Reports%20Made%201943-1945%20During%20Japanese%20Occupation%20-%20Russian%20Japanese%20Relation%20-%20Buffer%20State%20To%20Be%20Created%20In%20Mongolia%20Etc%202873.pdf>\n\n---\nF. 201 A \nG. 2000-5-39 \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \n\n\nFILE No. ZY SE eo. \nSUBJECT: \nfoiaa» Gegpiariee tallntiien 2 Aaggp Spake \n\n\nPARTICULARS | OFFICE | FILE NO. \n\n\nJoe \n\n\nMPRA ta ae ee \n\n\nSF 4d BOP SS \n\n\nORM ARETE 4 \n\n; \n: \n' \n‘ \nH \n‘ \nH \ni \n‘ i \nry \n: : \n‘ : \n‘ : \n‘ i \n; ‘ \n‘ H \n: ‘ \n: H \nt ‘ \n: H \n: ; \n‘ $ \n: H \n\n: \n\n: \n\n, \n\na ee",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2722,
+  "ocr_out_tokens": 169,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 02:39:08",
+  "zh_in_tokens": 401,
+  "zh_out_tokens": 167,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

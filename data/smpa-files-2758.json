@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-2758",
+ "title": "Tsi Li Ming - Hospitalized Suffering Gunshot Wounds",
+ "series": "N Files",
+ "nara_file_no": "487",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-2758",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "N-1371",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2758/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "N-1371",
+   "zh_src": "d5c2bc65ee870376"
+  },
+  {
+   "n": 1,
+   "en": "Copy for Special Branch\n1371\n4 2 42\n271/42.\nLousa\n3/2/42.\n6th.\n1.\nSee below. JAC See below.\nOn the morning of the 30/1/42, C.D.C. 115\nvisited the Latter Chinese Hospital and there\ninterviewed the 2nd victim:-\nTsi Li Ming ( 施立明 ) (vide Diary 1).\nhospitalised suffering from gunshot wounds of\nthe thighs. He will be discharged from hospital\nin a week's time.\nA statement has been taken from him and is\nattached, herewith.\nSen. Det. 1/c\nD.D.C. \"A\" Division.\nCopy to Special Branch\nCopy to Supt. 1/c C.I.D.\nKPC/\n(批：Major Hole and S) H. 2. H2 & Co 8/2)\n(印：INDEXED BY (S.D.) REGISTRY DATE 4/2/42)",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2758/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "特务科副本\n1371\n4 2 42\n271/42.\nLousa（音译）\n1942年2月3日。\n第6项。\n1.\n见下文。JAC 见下文。\n1942年1月30日上午，刑事侦缉处第115号警员\n走访了拉特中国医院（Latter Chinese Hospital），并在那里\n讯问了第二名受害者：——\n施立明（Tsi Li Ming）（参见日记1）。\n因大腿枪伤住院治疗。他将在一周后出院。\n已获取其供词，附于此处。\n高级侦探 1/c\n“A”分区副督察。\n抄送特务科\n抄送刑事侦缉处总监 1/c\nKPC/\n（批注：Hole少校和S）H. 2. H2 & Co 2月8日）\n（印章：由（特别分部）档案室索引 日期 1942年2月4日）",
+   "zh_src": "a28e52ad33b83914"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2758/Reports%20Made%201943-1945%20During%20Japanese%20Occupation%20-%20Tsi%20Li%20Ming%20-%20Hospitalized%20Suffering%20Gunshot%20Wounds%20487.pdf>\n\n---\nN -(3 71 \n\n\na Sen. Det. 14/0 —— \n\n\nnua \n3/2/426 \n\n\n271/42. \n\n\nSth, le \n\n\nOn tne worming of the 39/3/22, C.-C. 115 \nvisited ne Lecter Chinsse Hxepita}d end thers \n\n\ninterviewei the 2nd vierim:- \n\n\nTesi Li Ming ( Pe } pf ) (vide Diery 1). \n\n\nhospitalised eufferi-; rrom ¢unsnet wounde of \n\n\nthe thighs. He will be diesehercece Prom hosptitel \n\n\nin ew wesk*tec time. \n\n\n4 stetement hee been t11.9n ?rom him anda tis \n\n\nettaches, terevith, \n\n\nNn \n\n\n2.D.C.\"A”™ Divi sion. \n\n\nto S cial Brench \n2° to Supt \n\n\nKPc/ \n\n\nOO aed Ban ei age Unt oelavad Low as \n\n\nSN aie oa i Oy",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5423,
+  "ocr_out_tokens": 244,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 02:56:26",
+  "zh_in_tokens": 483,
+  "zh_out_tokens": 252,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

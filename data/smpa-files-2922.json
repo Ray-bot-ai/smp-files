@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2922",
+ "title": "Magazines Of Newspapers, 1937-1942",
+ "series": "D Files",
+ "nara_file_no": "3129",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2922",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201 A\nG. 200D-5-38\n\nSee Special Box No. 97        D. 8149\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\n\nSpecial Branch RegistryOFFICE\n\nFILE NO. D. 8149\n\nSUBJECT: 1928-39.\n\nRegistration of Newspapers\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Transferred to | Special Box | No. 97 |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| INSTRUCTIONS SEE OVER | | |",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2922/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 200D-5-38\n\n见特别盒第97号        D. 8149\n\n上海公共租界工部局警务处\n互见单\n\n政治部档案室\n\n档案号 D. 8149\n\n主题：1928-39年。\n\n报纸登记\n\n| 详情 | 部门 | 档案号 |\n| :--- | :--- | :--- |\n| 移交至 | 特别盒 | 第97号 |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| 指示见背面 | | |",
+   "zh_src": "2fbca518fbdcf33f"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2922/Reports%20Of%20Special%20Branch%20Made%20Between%201929-1949%20-%20Magazines%20Of%20Newspapers%2C%201937-1942%203129.pdf>\n\n---\na | \n\n| \n_F- MLA _ \n&. 2000-58-38 \n\n\n—_ \n\n\nSee Special Box No. 97 D. 8149 \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \n\n\nFILE NO..De...8149 \n\n\nSUBJECT: aye 2x \n\n\nRegistration of Newspapers \n\n\nPARTICULARS OFFICE FILE NO. \n\n\n....1yansferred..£9.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2756,
+  "ocr_out_tokens": 180,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 04:53:03",
+  "zh_in_tokens": 412,
+  "zh_out_tokens": 180,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

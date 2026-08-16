@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-2600",
+ "title": "Discovery Of A Smoke Bomb At A Japanese Department Store In French Concession",
+ "series": "N Files",
+ "nara_file_no": "1823",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-2600",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "N1003",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2600/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "N1003",
+   "zh_src": "982a14e54b92e6eb"
+  },
+  {
+   "n": 1,
+   "en": "1003\n29 7 41\n\nJuly 27, 1941.\n\nDiscovery of a smoke bomb at a Japanese department\nstore in French Concession\n\nAt 10.30 a.m. July 28, a smoke bomb, wrapped\nin newspaper, was found lying on a counter in the\nPiece Goods Department of the Gohdo Department Store\n(日商合同百貨商店), a Japanese concern, at No. 1\nRue Massenet, corner of Avenue Joffre. The missile\nwas later removed by French Police. A party of\nJapanese gendarmes also attended.\nNothing is known as to how the bomb came to\nbe left there.\n\nlo 29/7.\n\nYokoyama\n27/7 A.C. (S)\n\n（印：SHANGHAI MUNICIPAL POLICE ★ COMMISSIONER'S OFFICE ★ 28 JULY 1941）\n\nFILE\nlo 29/7.\n\n29 7 41",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2600/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "1003\n29 7 41\n\n1941年7月27日。\n\n法租界一家日本百货店内发现烟雾弹\n\n7月28日上午10时30分，在霞飞路（Avenue Joffre）与马思南路（Rue Massenet）转角处马思南路1号的日本商号合同百货商店（Gohdo Department Store，日商合同百貨商店）的布匹部柜台上，发现一枚用报纸包裹的烟雾弹。该投掷物后由法国巡捕移除。一队日本宪兵亦到场。\n\n目前尚不清楚该烟雾弹是如何被遗留在那里的。\n\nlo 29/7.\n\n横山 (Yokoyama)\n27/7 A.C. (S)\n\n（印：上海公共租界工部局警务处 ★ 总监办公室 ★ 1941年7月28日）\n\n档案\nlo 29/7.\n\n29 7 41",
+   "zh_src": "4ee8b0a2835e0b12"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2600/Reports%20Made%201943-1945%20During%20Japanese%20Occupation%20-%20Discovery%20Of%20A%20Smoke%20Bomb%20At%20A%20Japanese%20Department%20Store%20In%20French%20Concession%201823.pdf>\n\n---\nfeo3 ° \n27 7% ue \n\n\nJuly 27, 1941. \n\n\nDiscovery of > smoke bomb at a Jap»nese department \n\n\nStore in French Concession \n\n\nAt 10.30 asm. July 25, a smoke bomb, wrapned \nin newsrpnner, was found lying on a counter in the \n\n\nFiece Goods Den-rtment of the Gohao Department Store \n\n\ni¢g Fal z 6 ag ii), a Japonese concern, at Noe l \n\n\nRue Linssenet, corner of Avenue Joffre. The missile \nwos lioter removed by #rench Police. A party of \n\n\nJap nese scendarmes -:1so0 attendede \n\n\nNothing is knowm -s to how the bomb came to \n\n\nbe left there. \n\n\n\"1 \n\n\nNEES \n\n\nWe > \nie",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5456,
+  "ocr_out_tokens": 230,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 01:34:41",
+  "zh_in_tokens": 469,
+  "zh_out_tokens": 237,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

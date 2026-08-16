@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-2767",
+ "title": "Van Foong - Silk Weaving Factory",
+ "series": "N Files",
+ "nara_file_no": "3136",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-2767",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "N1104",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2767/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "N1104",
+   "zh_src": "af14fd8a589c043a"
+  },
+  {
+   "n": 1,
+   "en": "Misc. 20/42.\nYangtsepoo 1104\nMarch. 16th, 42. 42\n\nRe-opening of Industrial Concern.\n\nD.S.I. Smith\n\nSir,\n\nI beg to report that the Van Foong (萬丰) Silk\nWeaving Factory located at Houses 59-65, Lane 126 Linching\nRoad re-opened for manufacturing purposes, on the\n16/3/42.\n\nThe factory is under Chinese ownership and employs\n32 male and 10 female Chinese.\n\nSl. B\n14.3.42\nel\n17/3\n\nI am, Sir,\nYour obedient servant,\nW.G. Smith & Kurogane..\nD. S. I.\n\nD.O. \"D\"\nCopy to O.i/c SpBr. Direct.\n\n21/3\n17/3\n\n(印：BOARD OF INDUSTRY)\nDATE 20/3/42",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2767/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "杂项 20/42。\n杨树浦 1104\n1942年3月16日。42\n\n关于一家工业企业重新开业的事宜。\n\n副巡长史密斯\n\n先生：\n\n谨此报告，位于临清路126弄59-65号的万丰（Van Foong）丝织厂已于1942年3月16日重新开工生产。\n\n该厂为华人所有，雇佣华籍男工32名，女工10名。\n\nSl. B\n1942年3月14日\nel\n3月17日\n\n先生，\n您顺从的仆人，\nW.G. Smith & Kurogane..\n副巡长\n\n“D”区警官\n抄送：特别分部主管警官\n\n3月21日\n3月17日\n\n（印：工业局）\n日期 1942年3月20日",
+   "zh_src": "8137f9c348f0c8e4"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2767/Reports%20Made%201943-1945%20During%20Japanese%20Occupation%20-%20Van%20Foong%20-%20Silk%20Weaving%20Factory%203136.pdf>\n\n---\nMle 7 \n\n\nDe SeTo \n\n\nRe-openin:; of Industrial Concern. \n\n\nMe” \n\n\n. \nwie \n\n\nSmith \n\n\n169) \nrs \n4 \n. \n\n\nT beg to report that the van Foong es + ) Silk \nbane 126 Linching \n\n\n-eaving Factory locatede at Houses 59-65, \n\n\nond re-opened for manufacturing purposes, on the \n\n\n16/3/42. \nTh: employs \n\n\nS2 male anc 10 femete Chinese, \n\n\nfactory is under Chinese ownership and \n\n\nIam, Six, \nWeur obvecient servant, \n\n\nJE \ngee \n\n\nDeo. “Dp” \nCapy to D- $e SpBr. Direct. \n\n\n£ \n\n\nMAA A lasge \n\n\nMUNG Yes a\"",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5442,
+  "ocr_out_tokens": 230,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 02:59:11",
+  "zh_in_tokens": 469,
+  "zh_out_tokens": 228,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

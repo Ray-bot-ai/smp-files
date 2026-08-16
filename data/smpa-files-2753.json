@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-2753",
+ "title": "Translation From The Tairiku Shimpo, Local Japanese Daily,",
+ "series": "N Files",
+ "nara_file_no": "2891",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-2753",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "N354",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2753/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "N354",
+   "zh_src": "a8addfc9f2481d0a"
+  },
+  {
+   "n": 1,
+   "en": "F.M.\nG. 90M-1-39\n\nSHANGHAI MUNICIPAL POLICE.\nS.B. REGISTRY\nFile No 354\nSPECIAL BRANCH 61. Sheldon, 40\nREPORT\nDate: Aug. 30th. 1940\n\nSubject. TRANSLATION FROM THE TAIRIKU SHIMPO, LOCAL JAPANESE DAILY, REGARDING\nSIX RUSSIAN MEMBERS OF THE FRENCH V.C. WHO HAD DESERTED A FEW DAYS AGO.\n\nMade by. D.S.I. Maklaevsky Forwarded by. D.S.I. Logan.\n\nWith reference to the attached translation from the\n\" Tairiku Shimpo \", local Japanese daily, of August 28th.\n1940 enquiries show that there is no truth, whatsoever ,\nin the report regarding six Russian members of the\nAuxiliary Detachment of the French Volunteer Corps who\nhad deserted a few days ago. There is not, likewise, any\ntruth in the report regarding the theft of the two\nmachine guns from the French Volunteer Corps.\n\nD.S.I. Maklaevsky -\nD.S.I. Maklaevsky -\nD.C. (SPECIAL BRANCH).\nD.S.I. Maklaevsky\n2/9\n\nINDEXED BY\n(S.B.) REGISTRY\nDATE 6 / 9 / 40",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2753/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F.M.\nG. 90M-1-39\n\n上海公共租界工部局警务处。\n特别处档案室\n档案号 354\n特别处 61. Sheldon, 40\n报告\n日期：1940年8月30日\n\n事由：译自当地日文日报《大陆新报》，关于数日前叛逃的六名法籍志愿团（French V.C.）俄籍成员之报道。\n\n编制人：警督马卡耶夫斯基（D.S.I. Maklaevsky） 转呈人：警督洛根（D.S.I. Logan）。\n\n关于随附译自1940年8月28日当地日文日报《大陆新报》之译文，经查询显示，有关法籍志愿团辅助分队（Auxiliary Detachment of the French Volunteer Corps）六名俄籍成员于数日前叛逃的报道，毫无事实依据。同样，有关从法籍志愿团盗窃两挺机枪的报道，亦无事实依据。\n\n警督马卡耶夫斯基 -\n警督马卡耶夫斯基 -\n副督察长（特别处）。\n警督马卡耶夫斯基\n2/9\n\n索引编制\n（特别处）档案室\n日期 1940年9月6日",
+   "zh_src": "c0fbd48e6f03c7e7"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2753/Reports%20Made%201943-1945%20During%20Japanese%20Occupation%20-%20Translation%20From%20The%20Tairiku%20Shimpo%2C%20Local%20Japanese%20Daily%2C%202891.pdf>\n\n---\na 3-79 \n\n\na entries et ce NT ARISE RT Se AT MR DRE TOES PGF PS LG PWT ee. \n\n\n—— \n\n\n477 \n\n\n“$th retTerence to the uttached tranelation from tne \n\n\n140 enquiries shov. that there is no truth,Vhatsoever , \nin tne report regardin: six Russian nemoers of the. \n\n\nrn ee) \n\n\nauxiliary Detachrent of the French VYolunte-r Corps «90 \n\nmad deserted a fev duys ugoe There is noglikewise, uny \nt \n\n~ort recarcing the theft of the tro \n\n\nj machine cuns fron the Prernch Volunte r Corose \n\n\nBillo —— \nDAA. a \nD.C.(SPHCIAL DRANCE). a] ¢ \n\n\nae Ss eas cin SN gd SE aa",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5473,
+  "ocr_out_tokens": 314,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 02:55:27",
+  "zh_in_tokens": 553,
+  "zh_out_tokens": 298,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

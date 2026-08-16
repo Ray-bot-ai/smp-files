@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-2890",
+ "title": "Letter Re Chen Kung Photos Included",
+ "series": "D Files",
+ "nara_file_no": "3729",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-2890",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D-673",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2890/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "D-673",
+   "zh_src": "1fc7295f9a9cb733"
+  },
+  {
+   "n": 1,
+   "en": "(C.I.D.) Office Notes\nSHANGHAI MUNICIPAL POLICE\nC. I. D. REGISTRY\nFile No. D. 673.\n21 / 11 . 29\nNovember 20, 1929.\n\nOfficer i/c Special Branch,\n\nThe original of attached photograph is Chen\nKung, a student of the Whangpoa Military Academy who is\nnow wanted by the French and Chinese Authorities for\ninstigating the murder of Pah Shing and others at 43\nAvenue Joffre on November 11.\n\nThe wanted man is said to be head of the\nKiangsu Communist Party Assassination Corps.\n\nLau Ka Leung\nClerical Assistant.\n\nThere are two reprints\nproduced by the Chinese Authorities\nfrom a photograph submitted to\nthem by the French Police.\nHR\nC. S. J. Robertson\nAlta (Liaison Section)\nHave the Chinese Authorities\npublished a Wanted Circular asking\nthat CHEN KUNG be arrested. Would\nit be possible to obtain a full\ndescription of CHEN KUNG? Is he\nknown by sight to any of our staff?\nJRG\n21:11:29.\n\nNo circular has issued\nfor the reason that the Chinese\nAuthorities believe their own to\nbe in Shanghai & any publicity\nmight result in his moving out\nof the jurisdiction. He is not known\nto any of our staff. Beyond the photograph\nno further details.\nJR\n21/11/29",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2890/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "（刑事侦缉处）办公笔记\n上海公共租界工部局警务处\n刑事侦缉处档案室\n档案编号 D. 673.\n29年11月21日\n1929年11月20日。\n\n致特别股主管警官：\n\n所附照片之原件系陈公（Chen Kung），其为黄埔军校学生，现因煽动于11月11日在霞飞路43号谋杀白胜（Pah Shing）及其他人等，正被法国及中国当局通缉。\n\n据称，该通缉犯系江苏共产党暗杀团团长。\n\n刘嘉良（Lau Ka Leung）\n文书助理。\n\n此处有两份由中国当局根据法国警察提交给他们的照片翻印的副本。\nHR\nC. S. J. 罗伯逊\n阿尔塔（联络科）\n中国当局是否已发布通缉令，要求逮捕陈公（CHEN KUNG）？能否获取陈公（CHEN KUNG）的详细体貌特征描述？我处职员中是否有人认识其相貌？\nJRG\n29年11月21日。\n\n未发布通缉令，原因是中国当局相信其人仍在上海，任何公开举动都可能导致其逃离管辖区域。我处职员均不认识此人。除照片外，无更多细节。\nJR\n29年11月21日",
+   "zh_src": "02afbbcc0d9979af"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2890/Reports%20Of%20Special%20Branch%20Made%20Between%201929-1949%20-%20Letter%20Re%20Chen%20Kung%20Photos%20Included%203729.pdf>\n\n---\na \n~ \nr \n\n\n-—— ---— ye \n\n\na 7 ge \n(C.1.D.) Office Notes es KS gs Ci. \n\n\nOfficer i/fe Speciz1 Branch, \n\n\nThe original of attached photograph is Chen \nKung, a student of the Whangpoa Military Academy who is \nnow wanted by the French and Chinese Authorities for \n. instigating the murder of Pah Shing and others at 435 \n! Avenue Joffre on November ll. , \nThe wanted man is said to be head of the \n\n\nKiangsu Communist Party Assassination Corps. \n\n\na a \nClerical Assistant.’",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5445,
+  "ocr_out_tokens": 340,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 04:35:56",
+  "zh_in_tokens": 579,
+  "zh_out_tokens": 327,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

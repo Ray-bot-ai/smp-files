@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2797",
+ "title": "C & S.B. Registry - Subject Nong Yoong Hang Alias John King",
+ "series": "D Files",
+ "nara_file_no": "1671",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2797",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "FILE NO. N. 189.\nC. & S. B. REGISTRY\nSUBJECT:\nWong Young Hang alias John King - re\nSmuggling of Chinese into America -\n1/boat re.\nSENT TO\nNAME DATE\nFiled A. 250.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2797/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "档案编号 N. 189。\n刑事与特别处登记簿\n事由：\nWong Young Hang，别名 John King - 关于\n将中国人偷运至美国 -\n1/船务相关。\n发送至\n姓名 日期\n归档 A. 250。",
+   "zh_src": "4d8a63b43b1cc2ae"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2797/Reports%20Of%20Special%20Branch%20Made%20Between%201929-1949%20-%20C%20%26amp%3B%20S.B.%20Registry%20-%20Subject%20Nong%20Yoong%20Hang%20Alias%20John%20King%201671.pdf>\n\n---\nFILE No. Ae / Lv A \n\n\nCc. & S. B. REGISTRY \nSUBJECT : \n\n\nia dT di dale deme ocr al \n\n\nAmu ’ andl ee \n\n\nfide SENT TO \n\n\nS Cutter ences: od ke Renata \n‘ 2 \n\n\neto npoee \n\nos uo \nWWE \n\na ih",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2749,
+  "ocr_out_tokens": 64,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 03:21:32",
+  "zh_in_tokens": 296,
+  "zh_out_tokens": 68,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

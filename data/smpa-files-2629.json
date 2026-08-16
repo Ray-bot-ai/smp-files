@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2629",
+ "title": "Heinrich Kayer and fourteen other persons",
+ "series": "N Files",
+ "nara_file_no": "238",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2629",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "S. IA.\nNo. N. 900/42\n\nShanghai Municipal Council.\n\n（印：SHANGHAI MUNICIPAL COUNCIL POLICE FORCE）\nPOLICE FORCE.\nCOMMISSIONER'S OFFICE.\nP. O. BOX NO. 158\n\nDecember 7, 1941.\n\nDear Sir,\n\nIn reply to your letter dated December\n2, 1941, I forward herewith copy of a Police report\nregarding Heinrich Mayer and fourteen other persons.\n\nYours faithfully,\n\nAssistant Commissioner\n(Special Branch).\n\nImmigration Officer,\nAmerican Consulate-General,\nShanghai.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2629/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "S. IA.\n编号 N. 900/42\n\n上海公共租界工部局。\n\n（印章：上海公共租界工部局警务处）\n警务处。\n总监办公室。\n邮政信箱第 158 号\n\n1941 年 12 月 7 日。\n\n敬启者：\n\n兹复贵方 1941 年 12 月 2 日来函，随函附上关于海因里希·迈耶（Heinrich Mayer）及其他十四人的警务报告副本一份。\n\n此致\n\n助理总监\n（特别处）。\n\n美国驻上海总领事馆\n移民官员，\n上海。",
+   "zh_src": "ff13856db35de506"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2629/Reports%20Made%201943-1945%20During%20Japanese%20Occupation%20-%20Heinrich%20Kayer%20and%20fourteen%20other%20persons%20238.pdf>\n\n---\nShanghai Municipal Council. \n\n\nDecember se WD ALO \n\n\nPOLICE FORCE. \n\n\nCOMMISSIONER'S OFFICE. \n\n\nP.O. BOX NO. 158 \n\n\nDear Sir, \n\nIn reply to your letter dated December \n2, 1941, I forward herewith copy of a Police report \nregarding Heinrich Mayer and fourteen other persons. \n\n\nYours faithfully, \n\n\nI Pp \na Lf \nZe REL SF ogee \nAssist tc issioner \n\n\n(Spécial Branch). \n\n\nImmigration Officer, \nAmerican Consulate-General, \n\n\nShanghai.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2722,
+  "ocr_out_tokens": 143,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 01:52:48",
+  "zh_in_tokens": 375,
+  "zh_out_tokens": 158,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-2867",
+ "title": "Letter - For Special Protection By Police To Japanese Residents",
+ "series": "D Files",
+ "nara_file_no": "837",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-2867",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "S. B. D. 2588/5.\nSHANGHAI JAPANESE AMALGAMATED\nASSOCIATION OF STREET UNIONS. 8-31\nJuly 31, 1931.\n\nTo Commissioner of Police,\nS. M. C.\n\nDear Sir,\nI have the honour to express my sincere\nthanks to you for the special protection accorded\n(notwithstanding the increased volume of police work\nat present) to the Japanese residents by the Shanghai\nMunicipal Police in detailing police officers to the\nJapanese Club and other important places during this\nfeverish time of the anti-Japanese movement by the\nChinese.\n\nYours obediently,\nY. Hayashi.\nChairman of the Committee of\nthe Shanghai Japanese Amalgamated\nAssociation of Street Unions.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2867/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "S. B. D. 2588/5.\n上海日本各街路同业公会联合会。8-31\n1931年7月31日。\n\n致警务处处长，\n上海公共租界工部局。\n\n尊敬的先生：\n谨此向您致以诚挚的谢意，感谢上海公共租界警务处在中国人反日运动高涨之际，尽管目前警务工作繁重，仍特别派遣警员驻守日本俱乐部及其他重要场所，为日本居民提供特别保护。\n\n此致\n敬礼\n林（Hayashi）Y.\n上海日本各街路同业公会联合会委员会主席",
+   "zh_src": "fa45eb32bc3469f0"
+  },
+  {
+   "n": 1,
+   "en": "上海日本各路聯合會\n\n拝啓\n陳〃排日高潮事局多端之折柄工部局\n警察課〃深甚御配慮，素〃日本人\n俱樂部其他，要所特別警備〃配置\n乞候段深〃感謝仕候\n茲謹奉敬意〃表候\n一九三一年七月卅日\n上海日本各路聯合會\n委員長 林雄吉\n（印：委員 林雄吉印）\n上海共同租界工部局\n警察課長 殿",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2867/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "",
+   "zh_note": "原文即中文，无需翻译"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2867/Reports%20Of%20Special%20Branch%20Made%20Between%201929-1949%20-%20Letter%20-%20For%20Special%20Protection%20By%20Police%20To%20Japanese%20Residents%20837.pdf>\n\n---\n' | eal \n€ eS Oh FS | \n3 B.D. 25836- \nSHANGHAI JA: ATSSE AMALGAMATED \n\nASSOCIATION UY STREET UN{O'NS. 9 — ¥ \n\n\nJuly 31, I931e \n\n\n\\ \n\n\nTo Commissioner of Polics, \n\n\nSe ile Ce \n\n\nDear Sir, \nI have the honour to express my sincere \nthenys 4: you for the special protection accorded \n\n\n(notwithsteiing the increased volume 91 police work \n\n\nat ul \n\n\nsresent)ts the Jnporese resicents by the Srangh \n\n\n\\¢ \nwunicinal Police ir. get-ilinz police officers to the \n\n\n« \n\n\nJapanese Club and other impostect rlouccs during this \n\n\nfeverish tine cf the arti-Japa..cc2 movement by the \n\n\nYours of 2 “Ta ly, \nYe Haveshi. \nShairmen of the Comittee of \n\n\n“> Shanghei Japanese Amalgemcted \n\n\nAssociation of Street Unions.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5426,
+  "ocr_out_tokens": 298,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 04:30:04",
+  "zh_in_tokens": 413,
+  "zh_out_tokens": 141,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 1,
+ "zh_pages": 1
+}

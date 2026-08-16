@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-289",
+ "title": "Weekly Return From August 16 To 22 Inclusive Complaints",
+ "series": "D Files",
+ "nara_file_no": "2774",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-289",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "WEEKLY RETURN FROM AUGUST 16 TO 22 INCLUSIVE\nCOMPLAINTS IN THE PRESS V THE SHANGHAI MUNICIPAL POLICE\nCompiled by Special Branch in accordance with Headquarter's Circular No.167\n\n| Date | Subject | Sent To | Newspapers | No. of Letters or Articles | Remarks by D. O. Etc. |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| 16/8/41 | About Barricades | D.C.(T) | Shanghai Times. | One letter signed \"Within Reason.\" | |\n\nA. C. (Special Branch).\n\nCopies to:-\nActing Commissioner of Police.\nD.C. (Divisions).\nD.C. (Traffic).",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-289/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "8月16日至22日（含）周报\n报刊上针对上海公共租界工部局警务处的投诉\n特务处根据总部第167号通令编制\n\n| 日期 | 主题 | 发送至 | 报纸 | 信件或文章数量 | 副总巡等备注 |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| 1941年8月16日 | 关于路障 | 交通处副总巡 | 《上海泰晤士报》 | 一封署名“Within Reason”（在合理范围内）的信件 | |\n\nA. C.（特务处）。\n\n副本分送：\n代理警务处处长。\n各区副总巡。\n交通处副总巡。",
+   "zh_src": "a76e0e1647a99be4"
+  },
+  {
+   "n": 1,
+   "en": "WEEKLY RETURN FROM AUGUST 16 TO 22 INCLUSIVE\nCOMPLAINTS IN THE PRESS V THE SHANGHAI MUNICIPAL POLICE\nCompiled by Special Branch in accordance with Headquarter's Circular No.167\n\n（右上角框内文字）：\nSHANGHAI MUNICIPAL POLICE\nREGISTRY\nNo. S. B. D. 6778\nDate 25 8/41 WH\n\n| Date | Subject | Sent To | Newspapers | No. of Letters or Articles | Remarks by D. C. Bte. |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| 16/8/41 | About Barricades | D.C.(T) | Shanghai Times. | One letter signed \"Within Reason.\" | |\n\nW Duncan.\nA. C. (Special Branch).\n\nCopies to:-\nActing Commissioner of Police. ✓\nD.C. (Divisions).\nD.C. (Traffic).\n\n（手写签名及日期）：\n20/8\n\n（右下角手写）：\n25th 8 41\nm",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-289/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "8月16日至22日（含）周报\n报刊上针对上海公共租界工部局警务处的投诉\n特务处根据总部第167号通令编制\n\n（右上角框内文字）：\n上海公共租界工部局警务处\n档案室\n编号 S. B. D. 6778\n日期 1941年8月25日 WH\n\n| 日期 | 主题 | 发送至 | 报纸 | 信件或文章数量 | 特务处副总巡备注 |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| 1941年8月16日 | 关于路障 | 交通处副总巡 | 《上海泰晤士报》 | 一封署名“Within Reason”（在合理范围内）的信件 | |\n\nW Duncan.\nA. C.（特务处）。\n\n副本分送：\n代理警务处处长。✓\n各区副总巡。\n交通处副总巡。\n\n（手写签名及日期）：\n8月20日\n\n（右下角手写）：\n1941年8月25日\nm",
+   "zh_src": "c3cb96043cd00fd1"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-289/Weekly%20Return%20From%20August%2016%20To%2022%20Inclusive%20Complaints%202774.pdf>\n\n---\nWEEKLY RETURN FROM AUGUST 16 TO INCLUSIVE “4 ye : ps \nCOMPLAINTS IN THE PRESS V THE SHANGHAI MUNICIPAL PoLIcR ‘**: \ndquarterts Circular No.167 \n\n\nCompiled »b eci Branch in cordance with He \n\n\nDate Subjeot Sent To Newspapers Ho. of Letters Ra ks \n“or Articies De 5. ae. \n16/8/41 About Barricades D.c.(T) Shanghai One letter \nTimese signed \"Within \nReason.\"* \n\n\nLOR Yenc: i \n\n\nAe C. (Special Branch). \n\n\nCopies toz= \n\n\nActi Commissionor of Police. \nDec. fois sions}. \nDeCe Traffic). \n\n\nss NPAT OAT IDg \n\n\nXY \n16/8/41 About Barricades D.C.(T) Shenghai Qne letter : \nae ieascnee \n\n\n” \n\n\nAe Co (Special Branch ). \n\n\nCopies tes= \n\n\nAeting Commissioner ef Police. : \nBdeCo vieiens}. \nB.C. (Traffic). \n\n\n25° a",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5403,
+  "ocr_out_tokens": 423,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 04:35:46",
+  "zh_in_tokens": 662,
+  "zh_out_tokens": 435,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

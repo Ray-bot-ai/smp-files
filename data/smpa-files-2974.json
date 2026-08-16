@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2974",
+ "title": "Mrs. Livanoff Alias Madam Ganette Alias V. Scon Alias",
+ "series": "D Files",
+ "nara_file_no": "3328",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2974",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201 A\nG. 3000-1.35\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSpecial Branch Registry\nOFFICE\n\nFILE NO. S. 1265\n\nSUBJECT:\nMrs. Livanoff alias Madame Sanette alias\nV. Leon alido Madam S. Desmond alias\nDauphine Desmonde\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Transferred to | | S. 6578 |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2974/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 3000-1.35\n\n上海公共租界工部局警务处\n交叉参考单\n特务科档案室\n办公室\n\n档案编号 S. 1265\n\n事由：\n利瓦诺夫夫人（Mrs. Livanoff），又名萨内特夫人（Madame Sanette），又名\nV. 莱昂（V. Leon），又名 S. 德斯蒙德夫人（Madam S. Desmond），又名\n多芬·德斯蒙德（Dauphine Desmonde）\n\n| 详情 | 办公室 | 档案编号 |\n| :--- | :--- | :--- |\n| 转至 | | S. 6578 |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n\n指示见背面",
+   "zh_src": "ae1fbdc4c2f92569"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2974/Reports%20Of%20Special%20Branch%20Made%20Between%201929-1949%20-%20Mrs.%20Livanoff%20Alias%20Madam%20Ganette%20Alias%20V.%20Scon%20Alias%203328.pdf>\n\n---\ner \n\n\nj G. aT = \n\n\nSHANGHAI MUNICIPAL \n\n\nrd a i * \n\n\ni \n\n\nPOLICE \n\n\nCROSS-REFERENCE SLIP \n\n\na \n\n\nPARTICULARS . \n\n\nOFFICE FILE NO. \n\n\na | \n\n\nINSTRUCTIONS SEE OVER \n\n\nKJ, 6878",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2674,
+  "ocr_out_tokens": 177,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 05:39:22",
+  "zh_in_tokens": 409,
+  "zh_out_tokens": 214,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

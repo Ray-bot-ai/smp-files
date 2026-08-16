@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2640",
+ "title": "Japanese Growing Influence And Local Italian And German Commercial Circles",
+ "series": "N Files",
+ "nara_file_no": "2872",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2640",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201 A\nG. 2000-6-39\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSp. Br. Legalty OFFICE\nFILE NO. N 361\nSUBJECT:\nJapanese growing influence in local\nItalian & German commercial circles.\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Confidential Drawer. | | |\n| 11/9/46 | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| INSTRUCTIONS SEE OVER | | |",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2640/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 2000-6-39\n\n上海公共租界工部局警务处\n交叉参考单\n特别支部 法律科\n档案编号 N 361\n事由：\n日本人在本地意大利及德国商界的影响力日益增长。\n\n| 详情 | 科室 | 档案编号 |\n| :--- | :--- | :--- |\n| 机密卷宗柜。 | | |\n| 1946年9月11日 | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| 指令见背面 | | |",
+   "zh_src": "a2a801cb429a8c11"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2640/Reports%20Made%201943-1945%20During%20Japanese%20Occupation%20-%20Japanese%20Growing%20Influence%20And%20Local%20Italian%20And%20German%20Commercial%20Circles%202872.pdf>\n\n---\nae 4 \nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \n\n\na4 > Qe. fped athe... OFFICE \nre a \n\n\nSUBJECT: \n\n\nPARTICULARS | OFFICE | FILE NO.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2708,
+  "ocr_out_tokens": 164,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 01:55:17",
+  "zh_in_tokens": 396,
+  "zh_out_tokens": 169,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

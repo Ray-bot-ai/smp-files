@@ -1,0 +1,55 @@
+{
+ "ia_id": "smpa-files-3110",
+ "title": "Report Re Mr. Rimsha",
+ "series": "D Files",
+ "nara_file_no": "3032",
+ "pages": 3,
+ "ia_url": "https://archive.org/details/smpa-files-3110",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D-1965",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3110/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "D-1965",
+   "zh_src": "8c9a5fd35f74093c"
+  },
+  {
+   "n": 1,
+   "en": "Form No. 2\nG. 5000-9-30\n\nSHANGHAI MUNICIPAL POLICE.\nREPORT\n\nSHANGHAI MUNICIPALITY\nC. & S. D. RLG.STN.\nS/o. Stn. D. 1965. Station,\n27 - 1 - 31.\nDate 27 January 26, 19 31.\nFile No.\n\nSubject (in full) Mr. Rimsha.\n\nMade by D.S. Tcheremshansky. Forwarded by Ahouncan WPS.\n\nSir,\n\nThe undermentioned Soviet citizen arrived\nin Shanghai from Hankow on 17-1-31 on S.S. \"Changsha.\"\n\nRimsha-\nFormer employee of\nHankow Branch of Asiatic\nTrading Corporation.\nAfter the \"Centrosojus\"\nwas closed in 1929, the\nAsiatic Trading Corpora-\ntion acted on their behalf.\nHe resides at 205 Rue\nDuplex.\n\ng. Tcheremshansky\nD. S.\n\nD. C. (C. & S. Branches)\n\n27:1:31.\nlco\nxt",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3110/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "表格第2号\nG. 5000-9-30\n\n上海公共租界工部局警务处。\n报告\n\n上海公共租界\n刑事侦缉处 罗别根路巡捕房\n发自 D 巡捕房，编号 1965。巡捕房，\n日期：1931年1月27日。\n档案编号。\n\n事由（全称）：Rimsha 先生。\n\n由 D.S. Tcheremshansky 撰写。由 Ahouncan WPS 转呈。\n\n敬启者，\n\n下述苏联公民于1931年1月17日乘坐“长沙”轮（S.S. \"Changsha\"）从汉口抵达上海。\n\nRimsha -\n前亚洲贸易公司\n汉口分行雇员。\n在1929年“Centrosojus”（中央消费合作总社）关闭后，\n亚洲贸易公司\n代表其行事。\n他居住于\n杜美路205号。\n\ng. Tcheremshansky\nD. S.\n\n副督察长（刑事及政治分支）\n\n1931年1月27日。\nlco\nxt",
+   "zh_src": "9a352919d42e759f"
+  },
+  {
+   "n": 2,
+   "en": "RIMSHA\nFormer employee of Hankow Branch of Asiatic\nTrading Corp.\n\nSMP\nSMP: No. S.B. D 1965",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3110/page/n2_w2400.jpg",
+   "via": "dashscope",
+   "zh": "RIMSHA\n前亚洲贸易公司\n汉口分行雇员。\n\n上海公共租界工部局警务处\n上海公共租界工部局警务处：编号 S.B. D 1965",
+   "zh_src": "242978cb31c2fa88"
+  }
+ ],
+ "pages_done": 3,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-3110/Reports%20Of%20Special%20Branch%20Made%20Between%201929-1949%20-%20Report%20Re%20Mr.%20Rimsha%203032.pdf>\n\n---\n3 \nf Al \n* \n\n— & \n\n\n$000-9- \n„ \nN 7 \n\n1 8 \n\n“| N \n\n4 \n\n7 \n\n1. Subject ed \n\n\n‘| 8 \n\n\nSe \n\n\nSir, \n\n\n_ Made by.DeS. Tcheremshansky. \n\n\n8 The undermentioned Soviet citizen arrived \nin n Shanghai _frem I Hankow on on 17121 \n\n\nRimsha- \n\n\nbl Er- . a : \n\n\nSHANGHAI MUNICIPAL POLICE. 2. & S. I. REG.Sii. 7 \nREPORT \nMr. Rimphae \n\n\nForwarded by. \n\n\nen 8.8. _*Changsha.* \n\n\nFormer employee of — \nHankow Branch of Asiatic __ \n__ Trading Corporation. \nAfter the \nvas closed in 1929, the \ntion acted on their behalf. _ \nHe resides at 205 Rue \n\n\n“Cegtrogojus® \n\n\nDuplex. \n\n\n8 — \n\n\nRIMSHA 1 \nFormer eaplhyee of Hankow Branch of Asiatic \nTrading torp. . \n\n\n! \n\n\n9 AD \n‘ew Gl \n\n\nSMP: No. S.B. D 1965",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 8120,
+  "ocr_out_tokens": 319,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 08:09:55",
+  "zh_in_tokens": 565,
+  "zh_out_tokens": 334,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 3
+}

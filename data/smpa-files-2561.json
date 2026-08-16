@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-2561",
+ "title": "Assassination Of Tung Chu, Translator Of C. M. F",
+ "series": "N Files",
+ "nara_file_no": "2245",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-2561",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "N 757",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2561/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "N 757",
+   "zh_src": "a84d82ec6789c87a"
+  },
+  {
+   "n": 1,
+   "en": "SHAI MUNICIPAL POLICE\nS. M. REGISTRY\nN. 757\n5 / 4 / 41\nApril 4, 1941.\n\nAssassination of Tung Chu ( 董 樞 ), translator\nof C. V. F.\n\nAt 12.20 p.m. April 3, 1941, Tung Chu alias\nTung Siao Han ( 童 肖 涵 ), translator, employed by\nthe French Municipal Council, was fatally shot by some\nunknown person on Avenue Joffre near Rue Baron Gros ,\nwhilst en route from office to his home at 223 Rue Lagrene.\n\nA suspect was arrested by the French Police\nnear the scen. of the crime. The arrested person, named\nChang Shi Kwen, ( 張 錫 坤 ) is an ex-constable of the\nFrench Police who is said to have joined some \"special\nservice\" organization in the Western District.\n\nThe reason for the assassination is at present\nunknown, but it is thought the motive might be of a\npolitical nature, as the deceased often showed strong\npatriotic feelings.\n\nD.B. (cwse)\nComr.\nSir:\nI\nJ. Sharman\nA. C. (S. Br.)\n5/4\n\n（印：SHANGHAI MUNICIPAL POLICE COMMISSIONER'S OFFICE）\n（印：SHANGHAI MUNICIPAL POLICE APR. 8 1941 DEPUTY COMMISSIONER CRIME AND SPECIAL BRANCH）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2561/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "上海公共租界工部局警务处\n警务处登记室\n编号 757\n1941年4月5日\n\n1941年4月4日。\n\n法公董局译员董枢（Tung Chu）遇刺案\n\n1941年4月3日下午12时20分，受雇于法国公董局的译员董枢，又名童肖涵（Tung Siao Han），在从办公室前往拉格莱尼路（Rue Lagrene）223号住所的途中，于霞飞路（Avenue Joffre）靠近格罗男爵路（Rue Baron Gros）处，被不明身份者枪击身亡。\n\n法国警方在犯罪现场附近逮捕了一名嫌疑人。被捕者名为张锡坤（Chang Shi Kwen），系法国警察局前巡捕，据称已加入西区某“特别服务”组织。\n\n目前尚不清楚刺杀原因，但鉴于死者经常表现出强烈的爱国情感，推测其动机可能具有政治性质。\n\nD.B. (cwse)\n警务总监\n致：\nJ. Sharman\n助理总监（特别分部）\n4月5日\n\n（印：上海公共租界工部局警务处总监办公室）\n（印：上海公共租界工部局警务处 1941年4月8日 副总监 罪案与特别分部）",
+   "zh_src": "d8667e05e20c3a60"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2561/Reports%20Made%201943-1945%20During%20Japanese%20Occupation%20-%20Assassination%20Of%20Tung%20Chu%2C%20Translator%20Of%20C.%20M.%20F%202245.pdf>\n\n---\n‘ : eee \n\n\nee <7 AA HMUNIE AL POLICE \n; © ca. Or. mee 12Y \n\n\na \n\n\nof sesees \n\n\nAezil 4, i941. \n\n\nAssessination of Tune Chu ( = Lia ),translator \n\n\nOF Be Se Wes \n\n\nAt 22.2C pems April do» 1941, tune Chu alias \nTung Siao Han (= A iy), trenslator, employed by \nthe French Municipal Council, was fatally shot by some \nunknown person on Avenue yoffre near Rue peron Gros , \nwhilst en route from office to his home at 223 Rue Lagrene. \n\nA suspect was arrested by the Frencn Police \nnear the scen. oe Grine. The arrested person, named \nChang Shi Kwen, ( sk 5% >P ) is an ex-cons able of tne \n2rench Police who is said to have joined some \"special \nservice\" organization in the Western District. \n\nThe reason for the assassination is at present \nunknown, but it is thought tne motive might be of a \n\n\npolitical natures as the deceased often showed strong \n\n\npatriotic feelings. \nGE (or s® \n\n\na cae \n5 ie & \n\n\n| Sie: 4 \n\n\nsaa Nanininsan h deliietnemmetiens haan Co ona acne",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5495,
+  "ocr_out_tokens": 346,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 01:15:31",
+  "zh_in_tokens": 585,
+  "zh_out_tokens": 320,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

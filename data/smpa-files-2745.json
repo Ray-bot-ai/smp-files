@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2745",
+ "title": "Tanza Inice",
+ "series": "N Files",
+ "nara_file_no": "2424",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2745",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 261 A\nG. 1000-4-40\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSp. Br. Registry OFFICE\n\nFILE NO. N 758\n\nSUBJECT:\nLanza. Snice. 277/41 -\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Confidential & others. | | |\n| 5/12/41 | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2745/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 261 A\nG. 1000-4-40\n\n上海公共租界工部局警务处\n互见索引卡\n特别分部登记室\n\n档案编号 N 758\n\n事由：\nLanza。Snice。277/41 -\n\n| 详情 | 部门 | 档案编号 |\n| :--- | :--- | :--- |\n| 机密及其他。 | | |\n| 1941年12月5日 | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n\n指示见背面",
+   "zh_src": "a67bc9ca40a35c59"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2745/Reports%20Made%201943-1945%20During%20Japanese%20Occupation%20-%20Tanza%20Inice%202424.pdf>\n\n---\nre. \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \n\n\nry ZE2.. \n\n\nBELLE: NOx, 3-5 \n\n\nSUBJECT : \n\n\neee Pins 277fv1 és \n\n\nPARTICULARS | OFFICE FILE NO. \n\n\n\\dertiat- torre. | | \n\n\nINSTRUCTIONS SEE OVER",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2734,
+  "ocr_out_tokens": 172,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 02:52:18",
+  "zh_in_tokens": 404,
+  "zh_out_tokens": 174,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

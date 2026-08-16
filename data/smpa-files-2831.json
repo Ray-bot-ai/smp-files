@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2831",
+ "title": "Enquiries About Rolf Henkl And Robert Brzesowsky",
+ "series": "D Files",
+ "nara_file_no": "2828",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2831",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "See Sp Box No 131\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSp. Br. Registry OFFICE\nFILE NO. D 77\nSUBJECT: D-77\nCanteen Clubs.\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Sp. Box No. 131 | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2831/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "参见特别档案盒第131号\n上海公共租界工部局警务处\n交叉参考单\n特别处登记室\n档案编号 D 77\n主题：D-77\n食堂俱乐部。\n\n| 详情 | 办公室 | 档案编号 |\n| :--- | :--- | :--- |\n| 特别档案盒第131号 | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n\n指示见背面",
+   "zh_src": "9d55a39e7fb8f927"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2831/Reports%20Of%20Special%20Branch%20Made%20Between%201929-1949%20-%20Enquiries%20About%20Rolf%20Henkl%20And%20Robert%20Brzesowsky%202828.pdf>\n\n---\n7 D-77 \n\n\n\" PARTICULARS _ OFFICE FILE NO. \n\n\nwoccccce cdbeccescnnccnee cocccers coeeces o0e ceeen ceeesebecessecneeess sec: sesceeenes cesecceSesscceeresesonseeeseeeslacsncsesescecce SHSeneenesecnenel BEsesens asecososnce. cosercasersasese \n\n\nencccce saccasenceuessusessccecscesssececcecenseseesseces coccosns soucesescsssccoecs cocssese=sesacssesecesceseceees] osseccsnessssasesesSeceescccess ol S6seease sncecsueceeeesecaces:atee eeen \n’ ) \na abdaccusabccassdussdasecapensecscesensusecmeaseccsscetessdeestaseseceeedsuess Sosegsesanbonseiue shuns seuesebedelvecopnnesteebansjeauseue sbbeaede) aotbads sscesas desenbemsedeceas ooeee \neee cwscces. oo. ecnnge sopoccce oe - eee. oo eooe \ncoceccoecencosce eee: os oo eoseee \n\\aedebedweebccaseasessaswesbes vasecdusasia spensed staaus saseuesapseceestabteslsceneds sas susecaassassecsansaabeases lend pcice xe sated seats s0seeas4dell wexguiwe seaseasceadsteatdasaaceccanes \n<4 \n\n\nPewee we eres coreccocsnd ss secccesnccses se eeceees + cescenesceeuases $002 02 eSeeed CSS ESO TOSS Se cneres Coeesetesessoene| seceenns ooo eee - 88S t S88 ees ores! secerses cers csnes sesseseesccscosoosce \n« \n\n\n\\e@aves cncccces cesaccesensescee es coc ceader seccsenseesecesennsesensccesecs 1Oseses sceseuetecsesesesesececsseccscncel seeders. saccenoesessscescccsces scecnens -ceceess 500. teGaccecesesenees \n\n\nINSTRUCTIONS SEE OVER \n\n\na",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2710,
+  "ocr_out_tokens": 141,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 04:10:23",
+  "zh_in_tokens": 373,
+  "zh_out_tokens": 141,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

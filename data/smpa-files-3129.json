@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-3129",
+ "title": "Shanghai Municipal Police Cross Reference Slip",
+ "series": "D Files",
+ "nara_file_no": "2224",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-3129",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F 261 A\nG 2000-1-34\n\n1708\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSpecial Br. Registry\nOFFICE\n\nFILE NO. D. 1708\n\nSUBJECT:\nWhite Slave Traffic.\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Transferred to | Central Registry | A 7782 |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3129/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F 261 A\nG 2000-1-34\n\n1708\n\n上海公共租界工部局警务处\n交叉参考单\n特别科登记室\n办公室\n\n档案编号 D. 1708\n\n事由：\n白奴贸易。\n\n| 详情 | 办公室 | 档案编号 |\n| :--- | :--- | :--- |\n| 转至 | 中央登记室 | A 7782 |\n\n指示见背面",
+   "zh_src": "37a5ffeae49231e3"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-3129/Reports%20Of%20Special%20Branch%20Made%20Between%201929-1949%20-%20Shanghai%20Municipal%20Police%20Cross%20Reference%20Slip%202224.pdf>\n\n---\n. = 2c1A : F ius \n2000-1-34 — : . ae (pe J 4 \nR. ee 94 \neee me \nPo e ‘agama a \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\n| oy CROSS-REFERENCE SLIP’ \n\n\nee Gfocinl en \nFILE ro: 728 ob \n\n\nSUBJECT: \n\n\nWht tin ug \n\n\nFFIC \n\n\nPARTICULARS \n\n\nep rmmeners wok ees 6 ie \n\n\nRi aside BA asa wedi:",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2715,
+  "ocr_out_tokens": 111,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 08:13:02",
+  "zh_in_tokens": 343,
+  "zh_out_tokens": 114,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

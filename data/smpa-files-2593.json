@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2593",
+ "title": "Confidential",
+ "series": "N Files",
+ "nara_file_no": "2468",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2593",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201 A\nG. 2900-6-39\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSp. Br. Registry OFFICE\n\nFILE NO. X 367\nSUBJECT:\nConfidential.\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Confidential Drawer. | | |\n| 13/9/40 | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2593/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 2900-6-39\n\n上海公共租界工部局警务处\n互见索引卡\n特别股登记室\n\n档案编号 X 367\n事由：\n机密。\n\n| 详情 | 部门 | 档案编号 |\n| :--- | :--- | :--- |\n| 机密卷宗柜。 | | |\n| 1940年9月13日 | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n\n指示见背面",
+   "zh_src": "6ea1fe34a3019bf8"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2593/Reports%20Made%201943-1945%20During%20Japanese%20Occupation%20-%20Confidential%202468.pdf>\n\n---\nae Og \n\n\n. 2 \nF.f2oo1a \nG. 2$00-6-39 \n\n\n1. cakenal \nne teenie aE \n\n\nSHANGHAI MUNICIPAL POLICE \nCROSS-REFERENCE SLIP \n\n\nLp, dv \n\n\neS ot rele RISD” SERRE OFFICE \n\n\nSUBJECT: \n\n\n: \nPARTICULARS , OFFICE | FILE NO. \n\n\nST rar \n\n\nie suspic ected INSTRUCTIONS SEE OVER |. seioleonsiasiaiag Wiaiehaiata \n\n\n7 |",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2744,
+  "ocr_out_tokens": 160,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 01:33:12",
+  "zh_in_tokens": 392,
+  "zh_out_tokens": 165,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

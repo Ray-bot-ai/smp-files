@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2761",
+ "title": "Tsing Chung Chon Poa - Sweet, Sweet Weekly",
+ "series": "N Files",
+ "nara_file_no": "2314",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2761",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201 A\nG. 2000-6-39\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSp. Br. Registry OFFICE\nFILE NO. N 415\n\nSUBJECT:\nTung Chung Chou Pao.\nSweet. Sweet Weekly\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Filed | S. B. Regy | D 849-S-3 |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2761/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 2000-6-39\n\n上海公共租界工部局警务处\n互见索引卡\n特别处登记室\n档案编号 N 415\n\n主题：\n《大中周报》。\n《甜报》。《甜周报》\n\n| 详情 | 处室 | 档案编号 |\n| :--- | :--- | :--- |\n| 已归档 | 特别处登记室 | D 849-S-3 |\n\n指令见背面",
+   "zh_src": "14000ed026214749"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2761/Reports%20Made%201943-1945%20During%20Japanese%20Occupation%20-%20Tsing%20Chung%20Chon%20Poa%20-%20Sweet%2C%20Sweet%20Weekly%202314.pdf>\n\n---\nF. 201 A \nG. 2000-6-39 \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \n\n\nks Ru. Re = OFFICE \n\n\nae \nFILE ee i Mee oe \n\n\nSUBJECT: \n\n\nPARTICULARS | OFFICE FILE NO. \n\n\nSieg 2d",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2734,
+  "ocr_out_tokens": 119,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 02:57:38",
+  "zh_in_tokens": 351,
+  "zh_out_tokens": 122,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-2965",
+ "title": "Mexican Penal Code Re Miss Alys Margaret Reid",
+ "series": "D Files",
+ "nara_file_no": "2727",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-2965",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D99 LETTER TO N.F ALLMAN., CONSUL\n13 3 29 GEN. FOR MEXICO RE MEXICAN\nPENAL CODE\nD99\nD-99",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2965/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "D99 致墨西哥驻上海总领事 N.F. 奥尔曼 (N.F. Allman) 的信函，关于墨西哥刑法典\nD99\nD-99",
+   "zh_src": "152a51ba1a84a715"
+  },
+  {
+   "n": 1,
+   "en": "SHANGHAI MUNICIPAL POLICE\nC. I. D. REGISTRY\nNo. I. O. D.. 99\nDate............ 13 . 3 . 19\n\nMarch 13th, 9\n\nDear Mr. Allman,\nI return herewith with\nmany thanks, the Mexican Penal Code, which\nyou so kindly lent me.\n\nYours sincerely,\nIca\n\nN. F. Allman Esq.,\nConsul General for Mexico,\nShanghai.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2965/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "上海公共租界工部局警务处\n刑事侦缉处档案室\n编号：I. O. D.. 99\n日期：1929年3月13日\n\n1929年3月13日\n\n尊敬的奥尔曼先生：\n\n兹将您惠借的《墨西哥刑法典》奉还，谨致谢忱。\n\n此致\n敬礼\n\n伊卡 (Ica)\n\nN. F. 奥尔曼 先生\n墨西哥驻上海总领事\n上海",
+   "zh_src": "248e99f1b5d1e6f3"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2965/Reports%20Of%20Special%20Branch%20Made%20Between%201929-1949%20-%20Mexican%20Penal%20Code%20Re%20Miss%20Alys%20Margaret%20Reid%202727.pdf>\n\n---\nMICAN \n\n\nE \n\n\nM \n\n\nMexico \n\n\nRo To NF ALLMAN, Lonsun \nFDR Re \n\n\n. LETTE \nGen \n\n\na. \n\n\neee \n\n\nDeay Mr. Aliman, \n\nI return herewith with \nmany thanks, the Mexican Peual Cede, which \nyou so kina@iy lent me. \n\n\nYours sincerely, \n\n\nLe \n\n\nNo? Allman =sG6, \nCensul General for Mexico, \n\n\nCh.ughal.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5456,
+  "ocr_out_tokens": 155,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 05:21:29",
+  "zh_in_tokens": 394,
+  "zh_out_tokens": 162,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

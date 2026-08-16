@@ -1,0 +1,55 @@
+{
+ "ia_id": "smpa-files-2701",
+ "title": "P. H. Tolani - Arrival Of Pahlajrai Hiranand Tolani Alias Pahlaj",
+ "series": "N Files",
+ "nara_file_no": "1857",
+ "pages": 3,
+ "ia_url": "https://archive.org/details/smpa-files-2701",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "N969",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2701/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "N969",
+   "zh_src": "a90209096e6d2805"
+  },
+  {
+   "n": 1,
+   "en": "Sen. Dep. C.\n6th trial\nInformation\nreturn please.\n\nPERSONAL ASSISTANT\n18 JULY 1941\nTo Deputy Commissioner (Crime)\n\n15/7/41",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2701/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "高级副警务总监。\n第六次审讯\n情报\n请回复。\n\n私人助理\n1941年7月18日\n致副警务总监（刑事）\n\n1941年7月15日",
+   "zh_src": "af0a4653120e2769"
+  },
+  {
+   "n": 2,
+   "en": "FORM NO. 3\nG. 50M-1-40\n\nSHANGHAI MUNICIPAL POLICE.\nFile No.\nC.S.6, Special Branch\nREPORT\nDate July 16, 1941\n\nSubject (in full) P.H. TOLANI - arrival of.\n\nMade by D.S.I. Wittinsky Forwarded by D.S.I. Wilcox\n\nPanlajrai Hiranand Tolani alias Panlaj, British\nIndian, age 30, manager of the Commercial Agency, 72\nHongkong Road, who was suspected of having misappropriated\nthe sum of $182,000 (see F.I.R. 749/41 C.), arrived in\nShanghai from Nagasaki, on the 2-7-41, aboard the s.s.\n\"Nagasaki Maru\".\nOn the passenger manifest his profession is\ngiven as merchant and his address 146 Quinsan Road.\n\n2.6 (CWSB)\n\n（印：SPECIAL BRANCH）\n\nA.C. (Special Branch).\n\nO. Wittinsky\nD. S. I.\n\n（印：FILE）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2701/page/n2_w2400.jpg",
+   "via": "dashscope",
+   "zh": "表格编号 3\nG. 50M-1-40\n\n上海公共租界工部局警务处。\n档案编号\nC.S.6，特别股\n报告\n日期：1941年7月16日\n\n主题（全称）P.H. TOLANI - 抵达情况。\n\n由特别股督察 Wittinsky 撰写，由特别股督察 Wilcox 转呈\n\nPanlajrai Hiranand Tolani，别名 Panlaj，英属印度人，30岁，香港路72号商业代理行经理，涉嫌挪用公款182,000元（见刑事案件初报 749/41 C.），于1941年7月2日乘坐“长崎丸”号轮船从长崎抵达上海。\n\n在乘客名单上，其职业登记为商人，地址为昆山路146号。\n\n2.6 (CWSB)\n\n（印：特别股）\n\n助理总监（特别股）。\n\nO. Wittinsky\n特别股督察\n\n（印：归档）",
+   "zh_src": "6410dc9fe1045843"
+  }
+ ],
+ "pages_done": 3,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2701/Reports%20Made%201943-1945%20During%20Japanese%20Occupation%20-%20P.%20H.%20Tolani%20-%20Arrival%20Of%20Pahlajrai%20Hiranand%20Tolani%20Alias%20Pahlaj%201857.pdf>\n\n---\na LOS \nab fi \nORM NGs 5, Pile Pi ecccoucussu = \ncitar SHANGHAI MUNICIPAL POLICE, = sis ‘¥ \not & Mews SS \nc.S.6, Special..Bgancn. 2Sibetben — \nREPORT Pave, July, 16 ¥= aki g \n\n\nSubject (in full).......2.2 He... TOLANT «arrival off .. \n\n\nMade by...... DeS-I-.. Wittinsky _..00.. Forwarded by.-....... DIRS nie SP gee Up Eo 2 > Ea amare ee ere eet ene ee eae \n\n\nPanlajrai Hi-ramana Tolani alias Panlaj, Britisn \n\n\nIndian, age SO, manager of tne Commercial Azency, 72 \nHonskong Roac, who was suspected of having misappropriated \nthe sum of %182,000 (See F.I.b. 749/41 C.), arrivea in \nShanghai from Nagasaki, on tne 2-7-41, aboard the s.s. \n“Nagasaki M:..ru\". \n\nOn the passenzer manifest nis profession is \n\n\ngiven “238 Nercniant and nis aadress 146 4yuinsan huoad. \n\n\nbb ev s4) ks \nss ©) ae \n\n\nA.c. (Special Branch).",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 8152,
+  "ocr_out_tokens": 311,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 02:32:19",
+  "zh_in_tokens": 557,
+  "zh_out_tokens": 307,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 3
+}

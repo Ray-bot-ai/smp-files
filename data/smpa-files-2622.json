@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2622",
+ "title": "G. Schwartz, German",
+ "series": "N Files",
+ "nara_file_no": "2327",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2622",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201 A\nG. 2000-6-39\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSp. Br. Registry OFFICE\nFILE NO. N 418\nSUBJECT:\nS. Schwartz. German\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Confidential Drawer. | | |\n| 8/10/40 | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| INSTRUCTIONS SEE OVER | | |",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2622/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 2000-6-39\n\n上海公共租界工部局警务处\n交叉参考单\n特别分部登记室\n档案编号 N 418\n事由：\nS. Schwartz（施瓦茨）。德国人\n\n| 详情 | 部门 | 档案编号 |\n| :--- | :--- | :--- |\n| 机密抽屉。 | | |\n| 1940年10月8日 | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| 指示见背面 | | |",
+   "zh_src": "f9ac8024407213c5"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2622/Reports%20Made%201943-1945%20During%20Japanese%20Occupation%20-%20G.%20Schwartz%2C%20German%202327.pdf>\n\n---\nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \n\n\nFILE sty FETS. \n\n\nSUBJECT: \n\n\nOFFICE \n\n\nPARTICULARS \n\n\nf.-OF FICE \n\n\nFILE NO. \n\n\nA one earns part ROR TERROR eer ne reece connec \n\n\n: : ‘ \nI nea a oe a, ih Sa ace \nra RLT Oa Paar",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2698,
+  "ocr_out_tokens": 156,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 01:40:26",
+  "zh_in_tokens": 388,
+  "zh_out_tokens": 165,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

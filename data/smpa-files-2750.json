@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-2750",
+ "title": "To Feng Jih Pao - Unregistered Newspaper",
+ "series": "N Files",
+ "nara_file_no": "250",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-2750",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201 A\nG. 2000-6-39\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSp. B. Registry OFFICE\nFILE NO. N 390\nSUBJECT:\nLo Feng Jih Pao. unregistered\nnewspaper.\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Filed | S. B. Regy | D8149. S. 36 |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-2750/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 2000-6-39\n\n上海公共租界工部局警务处\n交叉参考单\n特别股登记室\n档案编号 N 390\n事由：\n《洛风日报》。未注册报纸。\n\n| 详情 | 部门 | 档案编号 |\n| :--- | :--- | :--- |\n| 归档 | 特别股登记室 | D8149. S. 36 |\n\n指示见背面",
+   "zh_src": "eca88b0bb6fdce39"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-2750/Reports%20Made%201943-1945%20During%20Japanese%20Occupation%20-%20To%20Feng%20Jih%20Pao%20-%20Unregistered%20Newspaper%20250.pdf>\n\n---\nr \n\n\na aren ng RARER NOEL ALON, FIFE I OT NE \n\n\nF. 201A \nG. 2000-6-39 \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \n\n\necefiae Tete. OU ET. _OF FICE \n\n\nFILE NO [VV 2 und \n\n\nSUBJECT: \n\n\nFILE NO. \n\n\nPARTICULARS | OFFICE | \n\n\nPita \n\n\na = Diez 26",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2689,
+  "ocr_out_tokens": 123,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 02:54:16",
+  "zh_in_tokens": 355,
+  "zh_out_tokens": 118,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

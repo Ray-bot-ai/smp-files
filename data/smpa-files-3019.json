@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-3019",
+ "title": "Report Of Arrest Re Wlassoff Michel",
+ "series": "D Files",
+ "nara_file_no": "3687",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-3019",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "SHANGHAI MUNICIPAL POLICE\nTranslation\nNo. I. O. D. 639\nDate....11. 11. 29.\n\nPolice Station\nNo. 444\n3rd Brigade    Bulletin of Depot No. 983 C.\nShanghai 4.II    1929,    2 a.m.\n\nArrest\n\nReason and/or charge : Robbery of pedestrians\nDescription of the person arrested:\nName: Wlassoff Michel\nResidence: Russian S.V.C. Company\nProfession: Volunteer\nPlace of Birth: Irkutsk\nAge 20, Single.\nAuthority commanding arrest: French Police\nBy whom arrested : Mr. GRELL\nReasons for arrest: The arrest was effected by Chinese\npoliceman No. 283 at the request of the complainant, who\nis accusing him of having stopped his friend and himself\nnear Garden Terrace, route Pere Robert, under the pretext\nof searching them for arms and to have taken $2.00 from them.\nThe accused denies the charge at the same time\nadmitting that he was in a state of lightly under the\ninfluence of drink.\n\nDate, place and circumstances of arrest: Arrested on 3-II-29\nat 11 p.m. on Rue Lafayette by Chinese Policeman No. 283\nat the request of the complainant.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3019/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "上海公共租界工部局警务处\n译文\n编号：I. O. D. 639\n日期……1929年11月11日\n\n警察局\n第444号\n第三大队    第983 C号堆栈公报\n上海 1929年2月4日    凌晨2时\n\n逮捕\n\n逮捕理由及/或指控：抢劫行人\n被捕人描述：\n姓名：Wlassoff Michel（音译）\n住址：俄罗斯S.V.C.公司\n职业：志愿队员\n出生地：伊尔库茨克\n年龄20岁，未婚。\n下达逮捕令的当局：法国警察\n执行逮捕者：GRELL先生\n逮捕原因：应控告人请求，由华捕第283号执行逮捕。控告人指控被告以搜查武器为借口，在罗伯特长路（Route Pere Robert）花园露台附近拦下其朋友及本人，并从中抢走2.00美元。\n被告否认该项指控，但同时承认自己当时略有醉意。\n\n逮捕的时间、地点及情形：1929年2月3日晚上11时，在拉斐特路（Rue Lafayette），应控告人请求，由华捕第283号执行逮捕。",
+   "zh_src": "68729f6f886bfb91"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-3019/Reports%20Of%20Special%20Branch%20Made%20Between%201929-1949%20-%20Report%20Of%20Arrest%20Re%20Wlassoff%20Michel%203687.pdf>\n\n---\nPolice Station \n\n\n3rd Brigade Bulletin of Depot No. 983 C. \nShanghai 4.II 1929, 2 aeme \n\n\narrest \n\n\nReason and/or charge % Robbery of pedestrians \n\nDescription of the person arrested: \n\nName: WLASSOFF Michel \n\nResidence: Russian 5.V.C. Company \n\nProfession: Volunteer \n\nPlace of Birth: Irkutsk \n\n“ge 20, dSingle. \n\nAuthority commanding arrest: Frencn Police \n\nBy whom arrested : Mr. GRELL \n\nReasons for arrest: The arrest was effected by Chinese \n\np@liceman lio. 283 at tne request of the complainant, who \n\nis accusing him of having stopped his friend and himself \n\nnear Garden Terrace, route Pere Robert, under the pretext \n\nof searching them for arms and to have taken $2.00 from them. \nThe accused denies the charge at the same time \n\nadmitting that he was in a sate of lightly under the \n\ninfluence of drink. \n\n\nDate, place and circumstances of arrest: arrested on 3-11-29 \nat II pem. on Rue Lafayette by Chinese Policeman Noe 283 \n\n\nat the request of the complainant. \n\n\nge",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2715,
+  "ocr_out_tokens": 306,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 06:35:24",
+  "zh_in_tokens": 538,
+  "zh_out_tokens": 281,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}
