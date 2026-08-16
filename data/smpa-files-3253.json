@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-3253",
+ "title": "Whereabouts Of G. Kum Alias Zung Bai Koong",
+ "series": "",
+ "nara_file_no": "1006",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-3253",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Form No. 2\nG. 12000-1-19\n3262\n20/2/20\nShanghai Municipal Police.\nCENTRAL POLICE Station.\n19th February, 1920. 191\nREPORT ON Whereabouts of G. Kun alias Zung Bai Koong( ).\nMade by D. S. I. Givens Forwarded by Chief Detective Officer.\nSir,\nEnquiries made go to show that G. Kun alias\nZung Bai Koong(鄭佩剛) is now in Canton, but his address\nhas not been ascertained. In the books seized last\nyear, No. 20 Cross Street, Singapore, was mentioned as the\naddress of an agent for the sale of the Bolshevist litera-\nture. Enquiries there may throw some light on Kun's\npresent address whereabouts for he was reported to be in the\nStraits Settlements in May 1919.\nEfforts to locate G. Kun alias Zung Bai Koong\nare being continued.\nI am, Sir,\nYour obedient servant,\nD. S. I.\nC. D. O.\n19/2\nFile No. 3218 is a warrant for\nG. Kun's arrest.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3253/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "表格第2号\nG. 12000-1-19\n3262\n20/2/20\n上海公共租界工部局警务处。\n中央巡捕房。\n1920年2月19日。191\n关于G. Kun（又名Zung Bai Koong）下落之报告。\n由侦探副督察吉文斯（D. S. I. Givens）呈报，经首席侦探督察转呈。\n敬启者：\n经查证，G. Kun，又名Zung Bai Koong（鄭佩剛），现居广州，但其具体住址尚未查明。在去年查获的书籍中，提及新加坡克罗斯街20号（No. 20 Cross Street, Singapore）为一名布尔什维克文献销售代理人的地址。对此地进行查询或可有助于弄清Kun目前的住址及下落，因据报他于1919年5月曾在海峡殖民地（Straits Settlements）。\n查找G. Kun（又名Zung Bai Koong）的工作仍在继续。\n此致\n敬礼\n您的恭顺仆人，\n侦探副督察\n首席侦探督察\n2月19日\n档案编号3218系针对G. Kun的逮捕令。",
+   "zh_src": "d43a36f0073e0bef"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-3253/Whereabouts%20Of%20G.%20Kum%20Alias%20Zung%20Bai%20Koong%201006.pdf>\n\n---\nShanghai Municipal Police. 2 Sr \nyy: = ia : \n\n\n_CENTRAL POLICE \n\n\noe . vo etn Station. \nre \n_ February ». 191 \nREPORT ON _... Whereabouts. of G..Kim alias. Zung..Bad. Koong lO \n\n\n_Ghief Betectice ORC \n\n\n¥2) ce POT WATER BY oooceccc co « \n\n\nSir, \nis Enauiries made go to show that G. Kun alias \n| zune Bai Koong (8 WA I») is now in Canton, but his address \nihas not been ascertained. In the books ssized last \niyear, No. 20 Cross Street, Singapore, was mentioned as the \n\n\n| address of an agent for the sale of the Bolahevist litera- \n\n\n/ ture. Enauiriess trere may throw some light on Kun's \npresent for he was reported to be in the \n\n\n, Straits Settlements in Mey 1919. \n\n\nEfforts to lcecate G. Kun alias Zunpe Bat Koong \n\n\n, are being continued. \n\n\nI am, sir, \n\n\na5 ¥ Your obedient servant, \nYs ; ge \n* ae Cc. Dd. Ors Dd. s. I. \nq|~ \n‘ \n\n\nPile Uo. B28 ig a warack fer",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2744,
+  "ocr_out_tokens": 285,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 09:59:03",
+  "zh_in_tokens": 517,
+  "zh_out_tokens": 281,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-3275",
+ "title": "863 Complaint of E. Halpern",
+ "series": "U Files",
+ "nara_file_no": "",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-3275",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "V-629",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3275/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "V-629",
+   "zh_src": "b687fb8ed145a4ba"
+  },
+  {
+   "n": 1,
+   "en": "Re Complaint of E. Halpern.\nShanghai Municipal Police\nSpecial Branch.\nNo. U 629\nDate 25-12-44\nCecilia Ezra 28, Turkish, S/female, residing at Lane 470/6\nSeymour Road(C.C. 1916 issued by the Bubbling Well Station).\nShe is a lodging house licence holder at this address.\nShe filed a petition with the Chinese Court on the 24th\nNovember 1944 against her lodgers namely:-\n(1)E.E.Halpern(Male stateless Deutch),\n(2)M.Herzberg(Male stateless German),\n(3)Loh(female Chinese),\n(4)R.M.Ruehain(Male Iranian),\nwho failed to pay their rents since June and July 1944.\nThrough the Housing Committee the rents was increased\nup to $3,500.00 but they refused to pay same.\nFrom November 22nd 1944 Miss C.Ezra increased their\nrents up to $2,000.00 per a room and this increase was also\nrefused by these four lodgers.\nThe latest increase is also included in the Court\npetition by Miss C.Ezra.\nThe date for hearing of their case is set for 16-12-44.\nShe was requested to inform D.S.I. Onda of the results of\ndecision of Court.\n\nD.E. Konovaloff,P.T.\n\n（手写批注：）\n阅\nFile\n22\n30/12\n（印章）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3275/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "关于 E. Halpern 的投诉。\n上海公共租界工部局警务处\n特别股。\n编号 U 629\n日期 1944年12月25日\nCecilia Ezra，28岁，土耳其籍，单身女性，住西摩路（Seymour Road）470弄6号（公民证由静安寺捕房于1916年签发）。\n她在该地址持有出租房屋执照。\n她于1944年11月24日向华界法院提交诉状，控告其房客，即：\n(1) E.E. Halpern（男性，无国籍，德国人），\n(2) M. Herzberg（男性，无国籍，德国人），\n(3) Loh（女性，中国人），\n(4) R.M. Ruehain（男性，伊朗人），\n上述人员自1944年6月和7月起未支付租金。\n经住房委员会调整，租金已增至3,500.00元，但他们拒绝支付。\n自1944年11月22日起，C. Ezra 小姐将每间房间的租金增至2,000.00元，但这四名房客也拒绝了此次加租。\nC. Ezra 小姐在向法院提交的诉状中也包含了最近这次加租的内容。\n该案听证日期定为1944年12月16日。\n已要求她向法院判决结果通知特别股督察长（D.S.I.）Onda。\n\nD.E. Konovaloff，代理巡官（P.T.）\n\n（手写批注：）\n阅\n归档\n22\n12月30日\n（印章）",
+   "zh_src": "a0c722004f395bcc"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-3275/U629%20863%20Complaint%20of%20E.%20Halpern.pdf>\n\n---\nVU -6 29 \n\n\nBe laint of 8. H ern. \nNo. L.. \n\n\neoudd Lin: \nalc... py Nr 3 \n\n\nSaSibigetskier28, Turkish, s/f \nSeymour Road(C.C. 1916 iesued by Bs \n\nShe is a lodging house licence holder at this address. \nShe filed a petition with the Chinese Court on the 24th \nNovember 1944 against her lodgers namely:=— \n\n{2 \\usicreberetmate. stateless Deutch), \n\ntshisnrronsistaateesy sn en \nB.m.Ruebain(Male iranian), \nwho failed to pay their rents sénée June and July 1944. \n\nThrough the Housing Committee the rente was increased \nup to $5,500900 but they refused to vay same. \n\nFrom November 22nd 1944 Mise G.Ezra inoreased their \nrents up to $2,000.00 per a room and this increase was alro \nrefueed by these four lodgers. \n\nThe latest increase is also included in the Court \npetition by Miss C.Ezra. \n\nfhe date for hearing of their case ie set for 16-12-44. \nShe wae requested to inform D.S.I. Onda of the results of \ndecision of Gourt. \n\n\nD.@. Konovaloff,P.f. \n\n\neS .. \nLK \n\nAe \n\n7",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5442,
+  "ocr_out_tokens": 375,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-16 11:46:58",
+  "zh_in_tokens": 614,
+  "zh_out_tokens": 396,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}
