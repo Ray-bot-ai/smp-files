@@ -12,7 +12,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-332/page/n0_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 3000-5-37\n请参见第79号特藏盒。\n上海公共租界工部局警务处\n互见索引卡\n特别分部登记室\n档案编号 D. 815-J-D\n主题：\n\n| 详情 | 部门 | 档案编号 |\n| :--- | :--- | :--- |\n| 已移交至第79号特藏盒。 | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| 指示见背面 | | |",
+   "zh_src": "7ded2c29056a8b93"
   }
  ],
  "pages_done": 1,
@@ -23,6 +25,11 @@
   "ocr_in_tokens": 2689,
   "ocr_out_tokens": 164,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-16 23:31:37"
- }
+  "ocr_at": "2026-08-16 23:31:37",
+  "zh_in_tokens": 396,
+  "zh_out_tokens": 166,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

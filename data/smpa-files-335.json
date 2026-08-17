@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-335",
+ "title": "Files On Noulens Associates - Address Of J.C. Bosustow",
+ "series": "D Files",
+ "nara_file_no": "3340",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-335",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D 3412\nD 3414\nD 3418",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-335/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "D 3412\nD 3414\nD 3418",
+   "zh_src": "0ebf93b2dcec48c7"
+  },
+  {
+   "n": 1,
+   "en": "MEMORANDUM.\nFROM\nJ. C. BOSUSTOW\nSTOCK, SHARE AND GENERAL BROKER\n49 NANKING ROAD\nROOM 26c\nTELEPHONE NOS. { 10288\n               { 16033    March 19th, 193 2\n\nTo\nR.C.Alers, Esquire.\nPolice Force.\nS.M.C.\n\n（印：SHANGHAI MUNICIPAL COUNCIL\nC. & S. REGISTRY\nS. D. 3418.\n24. 3. 32.）\n\nDear Mr.Alers\n\nWill you kindly note that my address is now\nas under:-\n\nc/o Messrs Crompton & Dangoor\n107 Central Arcade\nTel.Nos. 19637 & 18021\n\nYours faithfully\n（签名）\n\n（批： filed ）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-335/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "备忘录。\n发件人\nJ. C. BOSUSTOW\n股票、证券及一般经纪人\n南京路 49 号\n26c 室\n电话号码 { 10288\n               { 16033    1932 年 3 月 19 日\n\n致\nR.C.Alers 先生。\n警务处。\n上海公共租界工部局。\n\n（印章：上海公共租界工部局\n文书档案登记处\nS. D. 3418.\n32. 3. 24.）\n\n尊敬的 Alers 先生：\n\n敬请知悉，本人现住址如下：\n\n转交 Crompton & Dangoor 公司\n中央商场 107 号\n电话号码 19637 及 18021\n\n此致\n敬礼\n（签名）\n\n（批注：已归档）",
+   "zh_src": "ed628f8b5559ba74"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-335/Address%20Of%20J.C.%20Bosustow%203340.pdf>\n\n---\n~ \n\n\n° \n‘ \n.Y \n. \n. \n. \n> \n. \n‘\\ \n3 \n\n\n. \n. \n- > \nL \n& \nS \nws \n° \nas - \n1. \n- \n. 1% \nC25. \niT. . - \n} . \n& « \nee \"4 ss . \n- \n\n\n~~ \n\n\nAE ona { \n\n\nSS ae os == SE ; j \n\n\nee RS eS Ser \nMEMORANDUM. CSEANON! PUMEIPAL PG] \nT ; ' C.& &S . REGISIing © \n\n: p. DILL. \n\n\nee R.Gabters_,Baiuegs \n\n\n__Polleg, Foree™| apace ES \n\n\nS.M.C. \n\n\n49 NANKING ROAD \nRoom 26c \n\n\nDear Mr.Alers \nWill. you kindly note that my address is now \na \n\n\n\\ \n\n\nas under:- = \nc/o iwessrs Crompton & Dangoor \n\n\nIO’ Central Arcade \nTel.Nos.%9637 & I80ZI \n\n\nL \nYours faithfully \n\n\ni he: ~ \new _ Sere » \n\n\na",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5420,
+  "ocr_out_tokens": 226,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-17 06:40:12",
+  "zh_in_tokens": 465,
+  "zh_out_tokens": 238,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}
