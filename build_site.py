@@ -19,7 +19,7 @@ from collections import defaultdict
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
 OUT = os.path.join(HERE, "docs", "data")
-SHARDS = 64
+SHARDS = 512
 
 from glyphnorm import NORM, GROUPS, normalize   # 见该模块：两源并查集合并
 
@@ -180,7 +180,9 @@ def build_titleidx(items):
 def build_docs_and_index():
     os.makedirs(os.path.join(OUT, "doc"), exist_ok=True)
     os.makedirs(os.path.join(OUT, "idx"), exist_ok=True)
-    inv = defaultdict(list)          # token -> [[doc, page], ...]
+    # token -> {doc: [pages]}。原来是 [[doc,page],…]，每页都重复存一遍 doc 号，
+    # 而同一卷宗往往连中几十页——按卷宗归并后索引体积实测砍掉约 48%。
+    inv = defaultdict(dict)
     ndoc = npage = nbad = 0
     manual = load_manual_flags()
     for f in sorted(glob.glob(os.path.join(DATA, "*.json"))):
@@ -207,7 +209,7 @@ def build_docs_and_index():
                 continue
             npage += 1
             for tok in tokens(en + "\n" + zh):
-                inv[tok].append([short, q["n"]])
+                inv[tok].setdefault(short, []).append(q["n"])
         json.dump({"i": short, "t": d.get("title", ""), "s": d.get("series", ""),
                    "p": d.get("pages", 0), "ia": d.get("ia_url", ""),
                    "ia_ocr": (d.get("ia_ocr") or "")[:20000],
@@ -224,7 +226,8 @@ def build_docs_and_index():
     kept = 0
     for tok, posts in inv.items():
         is_cjk1 = len(tok) == 1 and "\u3400" <= tok <= "\u9fff"
-        if not is_cjk1 and len(posts) > cutoff:
+        # 停用词裁切按「命中页数」算，与旧格式口径一致（旧格式一条 posting 就是一页）
+        if not is_cjk1 and sum(len(v) for v in posts.values()) > cutoff:
             continue
         shards[shard_of(tok)][tok] = posts
         kept += 1

@@ -1,6 +1,6 @@
 /* 全文检索：中文走「归一化 bigram」，与 build_site.py 的分词必须完全一致。
    变体表在 variants.min.json（字符 → 归一字形），由构建脚本从简繁异体通搜插件的数据生成。 */
-const SHARDS = 64;
+const SHARDS = 512;
 let NORM = null, shardCache = {}, catalog = null;
 
 async function loadNorm() {
@@ -82,7 +82,11 @@ async function pageSet(q) {
   for (const t of toks) {
     const posts = loaded[shardIdx[t]][t];
     if (!posts) return new Set();
-    const set = new Set(posts.map(p => p[0] + '#' + p[1]));
+    // postings 是 {doc: [pages]}（按卷宗归并，省掉重复的 doc 号）。
+    // 这一段与 build_site.py 写索引处是一对，改一边必须改另一边——
+    // 两边不一致会「永远零命中且不报任何错」，本项目踩过。
+    const set = new Set();
+    for (const d in posts) for (const pg of posts[d]) set.add(d + '#' + pg);
     inter = inter ? new Set([...inter].filter(x => set.has(x))) : set;
     if (!inter.size) return new Set();
   }
