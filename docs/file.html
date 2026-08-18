@@ -76,6 +76,8 @@ function hl(s){
         ${p.bad ? `<div class="badnote"><b>⚠ 这一页的转录不可用。</b>${esc(p.bad)}
           <span class="en">This page's transcription is not usable. The text below is kept
           for transparency only — do not cite it; read the scan on the left instead.</span></div>` : ''}
+        ${p.guess && !p.bad ? `<div class="guessnote"><b>⚠ 本页影像较差，转录含较多推测。</b>
+          ${esc(p.guess).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')}</div>` : ''}
         <div class="txt${p.bad ? ' faded' : ''}">${p.en ? hl(p.en) : '<span class="muted">（本页无文字或未转录 · no text / not transcribed）</span>'}</div>
       </div>
       <div>

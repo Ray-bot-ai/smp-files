@@ -116,6 +116,13 @@ h1.pt .zh{display:block;font-size:.62em;color:var(--muted);margin-top:.25rem}
 .badnote b{color:var(--stamp)}
 .badnote .en{display:block;margin-top:.4rem;color:var(--muted);font-size:.94em}
 .pane .txt.faded{opacity:.5}
+
+/* 影像差、转录含推测：比「不可用」轻一级的提示。
+   用铜色而非印章红——它不是「这页不能用」，而是「这页要多留个心眼」。 */
+.guessnote{background:rgba(154,123,70,.09);border:1px solid rgba(154,123,70,.35);
+  border-left:3px solid var(--brass);padding:.65rem .85rem;margin-bottom:.8rem;
+  font-size:.83rem;line-height:1.7;overflow-wrap:anywhere}
+.guessnote b{color:#7a5f33}
 .spin{color:var(--muted);font-size:.9rem;padding:2rem 0}
 
 footer.ft{background:var(--ink);color:#6b7381;padding:2.2rem 0;font-size:.82rem;margin-top:4rem}
