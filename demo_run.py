@@ -121,12 +121,19 @@ def manifest_map():
     return by
 
 
-def call(messages, max_tokens=8000, deadline=240, base=None, key=None, model=None):
+def call(messages, max_tokens=8000, deadline=600, base=None, key=None, model=None):
     """deadline：整体墙钟上限（秒）。
 
     踩过：只设 urlopen(timeout=600) 是 **socket 超时**——只要服务端每 600 秒内
     还吐出一个字节就永不触发。实测翻译卡在一次请求上 2.5 小时，连接开着、
     CPU 只用了 3 秒，整条流水线静默停摆。必须另加整体墙钟上限。
+
+    又踩（2026-08-16）：墙钟守卫超时后，`with ThreadPoolExecutor` 退出时
+    shutdown(wait=True) **死等卡死线程**——慢速流式响应下 socket 永不超时，
+    重试循环永远走不到下一步，翻译阶段整体卡死 75 分钟。现在两层超时叠加：
+    ① socket 超时 min(deadline,300) 秒；② 墙钟 deadline 秒（默认 600）。
+    2026-08-18 再修：socket 90 秒太短，把正常的大块翻译全掐断了。
+    线程池退出改为 shutdown(wait=False)——不等待卡死线程，最多泄漏 90 秒。
 
     base/key/model：留给备用端点用（内容审查拒稿时换一家重试），不传就走百炼。
     """
@@ -138,20 +145,25 @@ def call(messages, max_tokens=8000, deadline=240, base=None, key=None, model=Non
                                           "Content-Type": "application/json"})
     def _once():
         try:
-            return json.loads(urllib.request.urlopen(req, timeout=deadline, context=CTX).read())
+            # socket 读超时：非流式请求要等服务端把整段算完才发第一个字节，
+            # 大块翻译常要 100–300 秒。设 90 秒必然把正常请求掐断——
+            # 实见报错全是 "The read operation timed out"，而短请求 3 秒就回。
+            # 卡死线程由外层 shutdown(wait=False) 兜底，这里不必靠短超时保护。
+            return json.loads(urllib.request.urlopen(
+                req, timeout=min(deadline, 300), context=CTX).read())
         except urllib.error.HTTPError as e:
             return json.loads(e.read() or b'{"error":{"message":"empty"}}')
         except Exception as e:
             return {"error": {"message": f"{type(e).__name__}: {e}"}}
 
     for attempt in range(3):
-        with cf.ThreadPoolExecutor(1) as ex:
-            fut = ex.submit(_once)
-            try:
-                d = fut.result(timeout=deadline)
-            except cf.TimeoutError:
-                d = {"error": {"message": f"wall-clock timeout {deadline}s"}}
-                ex.shutdown(wait=False, cancel_futures=True)
+        ex = cf.ThreadPoolExecutor(1)
+        fut = ex.submit(_once)
+        try:
+            d = fut.result(timeout=deadline)
+        except cf.TimeoutError:
+            d = {"error": {"message": f"wall-clock timeout {deadline}s"}}
+        ex.shutdown(wait=False, cancel_futures=True)   # 见 docstring：绝不等卡死线程
         # 百炼内容审查返回 HTTP 200，错误藏在 body 的 error 字段里，必须按这个判
         if not d.get("error"):
             return d, None
@@ -168,7 +180,7 @@ def _blocked(err):
     return bool(err) and ("DataInspection" in err or "data_inspection" in err.lower())
 
 
-def call_fb(messages, max_tokens=8000, deadline=240):
+def call_fb(messages, max_tokens=8000, deadline=600):
     """主端点调用；被内容审查拦下就换备用端点重来。
 
     翻译一样需要这条退路：百炼的 **Output** 审查会拦掉整块译文
@@ -383,12 +395,15 @@ def _fill_missing_zh(path, doc, missing):
         q = by.get(n)
         if q is None or q.get("zh_tries", 0) >= MAX_ZH_TRIES:
             continue
-        q["zh_tries"] = q.get("zh_tries", 0) + 1
         d, err, via = call_fb([{"role": "user", "content":
                                 TRANS_PROMPT + "\n\n---\n\n⟦p%d⟧\n%s" % (n, q["en"])}],
                               max_tokens=16000)
         if err:
-            continue                    # 接口/网络错误是暂时的，留着下次再试
+            # 接口/网络错误**不计入重试次数**：tries 是用来限制「模型给了输出但没法用」
+            # 的页，不该被超时消耗掉。踩过：22 页因超时把 tries 烧到上限，
+            # 之后既算作缺口（没有终态标记）、又被跳过（次数已满），永远补不上。
+            continue
+        q["zh_tries"] = q.get("zh_tries", 0) + 1
         if via == "fallback":
             q["zh_via"] = via
         z = d["choices"][0]["message"]["content"]
@@ -446,6 +461,19 @@ def _translate_one(iid):
         if is_chinese(q["en"]):
             native_zh.add(q["n"])           # 原文即中文，不进翻译流程
             continue
+        # 单页本身就超长的，切成多段，每段都带同一个 ⟦p⟧ 标记，回填时按序拼接。
+        # 实测全库 13 页超过 12,000 字（最长一页 42,090 字），整页塞进一个请求
+        # 必然超时——而超时是「一个字都拿不到」，不是「拿到一半」。
+        body = q["en"]
+        parts_txt = ([body] if len(body) <= CHUNK_CHARS
+                     else [body[i:i + CHUNK_CHARS] for i in range(0, len(body), CHUNK_CHARS)])
+        for part in parts_txt:
+            seg = f"⟦p{q['n']}⟧\n{part}"
+            if cur and cur_len + len(seg) > CHUNK_CHARS:
+                chunks.append("\n\n".join(cur)); cur, cur_len = [], 0
+            cur.append(seg); cur_len += len(seg)
+        continue
+        # （下面两行对普通页不再执行，保留结构以便对照）
         seg = f"⟦p{q['n']}⟧\n{q['en']}"
         if cur and cur_len + len(seg) > CHUNK_CHARS:
             chunks.append("\n\n".join(cur)); cur, cur_len = [], 0
@@ -503,7 +531,10 @@ def _translate_one(iid):
             seg = parts[i + 1].strip()
             if degenerate(seg, None):     # 单页级再兜一道
                 seg = re.sub(r"(.)\1{29,}", r"\1\1\1…", seg)
-            zh_pages[int(parts[i])] = seg
+            pn = int(parts[i])
+            # 超长页会被切成多段、每段都带同一个页码标记，所以这里必须**追加**。
+            # 覆盖的话，一页只会留下最后一段译文，前面的全部丢掉且不报错。
+            zh_pages[pn] = (zh_pages[pn] + "\n" + seg) if pn in zh_pages else seg
     err = f"{bad} 块失败" if bad else None
     if bad and not zh_pages:
         print(f"{iid}: 翻译全失败"); return
