@@ -217,7 +217,7 @@
   },
   {
    "n": 25,
-   "en": "Page 17.\n32, 8, and 1 large brownish circular □□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□\ncircular.\nI am, Sir,\nYour obedient servant,\nJoseph Hews\nC. D. I.\nD. C. I.",
+   "en": "Page 17.\n\n22, 8, and 1 large brownish circular **〔此处转录不清〕** 1 medium sized\ncircular.\n\nI am, Sir,\nYour obedient servant,\nJoseph Hewes\nC. D. I.\n\nD. C. I.",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-2061/page/n25_w2400.jpg",
    "zh": "",
@@ -291,7 +291,7 @@
   },
   {
    "n": 35,
-   "en": "□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□\n\n□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□......\n\n□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□......",
+   "en": "〔此处转录不清〕\n\nParagraph 456 :- sent Jobe pell.\nIn the Tele\nof. The\nbeen\n( ) ed them not to come\npoliceman speaking to\nthe central district along the\nI reported the matter by telephone to Leusa\npolice station. I saw nothing further as I remained in the\nsection.\n\nJune 12th 1919 I received a message that a\nnumber of students were coming into the settlement from\nthe French concession by way of\nTroop Sgt. Reek had already\nI saw the trooper were having a\none pony fell to the ground and\n\n〔此处转录不清〕",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-2061/page/n35_w2400.jpg",
    "zh": ""
@@ -478,10 +478,10 @@
   "ocr_out_tokens": 22382,
   "reasoning_tokens": 2941,
   "ocr_at": "2026-08-12 12:30:55",
-  "zh_in_tokens": 32120,
-  "zh_out_tokens": 78762,
+  "zh_in_tokens": 32659,
+  "zh_out_tokens": 78848,
   "zh_chunks": 7
  },
  "native_zh_pages": 0,
- "zh_pages": 58
+ "zh_pages": 60
 }

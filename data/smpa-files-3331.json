@@ -981,7 +981,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3331/page/n96_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "此係屬實之據合將原契粘連呈請\n查核施行\n\n一、查該業戶前因乏資周转將此業出典與〔此处转录不清〕\n\n一、茲據該業戶〔此处转录不清〕 ____ \n\n一、查該業戶〔此处转录不清〕 ____",
+   "zh_tries": 1,
+   "zh_src": "0c45a73ee0254781"
   },
   {
    "n": 97,
@@ -1144,10 +1146,10 @@
   "ocr_out_tokens": 37551,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-17 00:21:45",
-  "zh_in_tokens": 39741,
-  "zh_out_tokens": 30028,
+  "zh_in_tokens": 40043,
+  "zh_out_tokens": 30104,
   "zh_chunks": 11
  },
  "native_zh_pages": 6,
- "zh_pages": 105
+ "zh_pages": 106
 }

@@ -204,7 +204,7 @@
   },
   {
    "n": 28,
-   "en": "FM.\nG. POM 37\nSHANGHAI MUNICIPAL POLICE.\nMiscellaneous No. 631/37.\nHongkew Station,\nREPORT\nDate August 10, 1937.\nSubject State of Hongkew District - 24 hours ending 8 a.m. 10/8/37.\nMade by D. S. I. Black, Forwarded by\nSir,\nDuring the 24 hours ending 8 a.m. 10/8/37, approximately\n700 □□□ crossed the □□□□□□ from China's territory North\nof □□□ Road. Their destination being □□□□□□ South of the\nSoochow Creek □□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□\nNone of the refugees from Chapei took up residence in\nany hotel or lodging house in the District.\nAbout 50 residents of Hongkew District removed to\npoints South of the Soochow Creek, this includes the staffs of\n5 men's hairdresser shops and 1 jeweller's shop.\nD. S. I. Black\nD. D. O. \"C\".",
+   "en": "FM.\nG. FORM 37\n\nSHANGHAI MUNICIPAL POLICE.\nMiscellaneous No. 631/37.\n\nREPORT\nHongkew Station,\nDate August 10, 1937.\n\nSubject State of Hongkew District - 24 hours ending 8 a.m. 10/8/37.\n\nMade by D. S. I. Black, Forwarded by____________________\n\nSir,\n\nDuring the 24 hours ending 8 a.m. 10/8/37, approximately\n700 refugees crossed the boundary from Chinese territory North\nof Soochow Road, their destination being District South of the\nSoochow Creek. During the evening\nof 9/8/37 a number of these refugees entered the District\nbut they only remained on the periphery and later returned to their\nhomes.\n\nNone of the refugees from Chapei took up residence in\nany hotel or private house in the District.\n\nAbout 50 residents of Hongkew District removed to\npoints South of the Soochow Creek, this includes the staffs of\n5 men's hairdressers, 1 leather shop and 1 jewellery shop.\n\n〔此处转录不清〕\n\nD. S. I.\n\nD. D. O. \"C\".",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-3446/page/n28_w2400.jpg",
    "zh": ""
@@ -821,10 +821,10 @@
   "ocr_out_tokens": 36099,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-11 23:54:38",
-  "zh_in_tokens": 47929,
-  "zh_out_tokens": 80680,
+  "zh_in_tokens": 48425,
+  "zh_out_tokens": 80915,
   "zh_chunks": 11
  },
  "native_zh_pages": 0,
- "zh_pages": 114
+ "zh_pages": 115
 }

@@ -132,7 +132,7 @@
   },
   {
    "n": 12,
-   "en": "D.6597\nSHANGHAI MUNICIPAL POLICE\nS. D. REGISTRY.\nNo. D 6597\nDate 21 / 3 / 35\n\nMarch 21, 1935. Morning translation\n\n\"ASAHI\" AEROPLANE EXPECTED IN SHANGHAI ON MARCH 22\n\nThe \"ASAHI\" aeroplane now visiting\nNanking is expected at the Lunghwa Aerodrome in Shanghai\nbetween 1 and 2 p.m. March 22. Those who wish to\nwelcome the arrival of the plane at the aerodome are\nrequested to apply for admission tickets at the Japanese\nCosular Police.\n\nJapanese Cosul-General to entertain aviators\n□□□□□□□□ □□□□□□□□\n□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□\n\nMr. Ishii, Japanese Consul-\nGeneral, will give a tea party in honour of the two\nJapanese aviators at his residence on Seymour Road at 4 p.m.\nMarch 22.",
+   "en": "D.6597\nSHANGHAI MUNICIPAL POLICE\nS. B. REGISTRY.\nNo. D 6597\nDate 21 / 3 / 35\n\nMarch 21, 1935. Morning translation\n\n\"ASAHI\" AEROPLANE EXPECTED IN SHANGHAI ON MARCH 22\n\nThe \"ASAHI\" aeroplane now visiting\nNanking is expected at the Lunghwa Aerodrome in Shanghai\nbetween 1 and 2 p.m. March 22. Those who wish to\nwelcome the arrival of the plane at the aerodome are\nrequested to apply for admission tickets at the Japanese\nCosular Police.\n\nJapanese Cosul-General to entertain aviators\n\n**〔此处转录不清〕**\n\nMr. Ishii, Japanese Consul-\nGeneral, will give a tea party in honour of the two\nJapanese aviators at his residence on Seymour Road at 4 p.m.\nMarch 22.",
    "error": null,
    "tries": 2,
    "image_url": "https://archive.org/download/smpa-files-1672/page/n12_w2400.jpg",
@@ -182,10 +182,10 @@
   "ocr_out_tokens": 6765,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-15 04:45:56",
-  "zh_in_tokens": 8181,
-  "zh_out_tokens": 5256,
+  "zh_in_tokens": 8625,
+  "zh_out_tokens": 5430,
   "zh_chunks": 2
  },
  "native_zh_pages": 0,
- "zh_pages": 15
+ "zh_pages": 16
 }

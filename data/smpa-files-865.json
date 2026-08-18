@@ -57,7 +57,7 @@
   },
   {
    "n": 7,
-   "en": "Extract from French Intelligence Report\n7-3-4-33\n\n□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ of J. Ponoff-Terry, permitting him to travel abroad.\n\nD.S. Tcheremchovsky.\nJRK 44",
+   "en": "Extract from French Intelligence Report\n7 3 - 4 - 33\n\n〔此处转录不清〕\n\nD.S. Tcheremchovsky.\nJRK 44",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-865/page/n7_w2400.jpg",
    "zh": ""
@@ -86,10 +86,10 @@
   "ocr_out_tokens": 3605,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-12 01:53:56",
-  "zh_in_tokens": 11516,
-  "zh_out_tokens": 51380,
+  "zh_in_tokens": 11799,
+  "zh_out_tokens": 51441,
   "zh_chunks": 1
  },
  "native_zh_pages": 0,
- "zh_pages": 9
+ "zh_pages": 10
 }

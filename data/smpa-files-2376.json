@@ -96,14 +96,12 @@
   },
   {
    "n": 8,
-   "en": "C. I. D.\nFile No. 854\nSUBJECT:\n□□□ □□□ □□\n□□□ □ □□\n□□□ □ □□\nSent to\n2/7/1918.",
+   "en": "C. I. D.\nFile No. 854\nSUBJECT:\n〔此处转录不清〕\nSent to ____\n2/7/1918.",
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-2376/page/n8_w2400.jpg",
    "via": "dashscope",
-   "zh": "刑事调查处\n档案编号：854\n事由：\n□□□ □□□ □□\n□□□ □ □□\n□□□ □ □□\n发送至\n1918年7月2日。",
-   "zh_tries": 1,
-   "zh_src": "bc68bebb3408fd80"
+   "zh": ""
   },
   {
    "n": 9,
@@ -352,7 +350,7 @@
   },
   {
    "n": 32,
-   "en": "C. I. D.\nI. O. REG\nNo. 854\nDate 11/1/2\n\nJanuary 1°, 7.\n\nSir Everard D. □ Fraser, K.C.I.E.,\nH.B.M. Consul-General,\n□□□ai.\n\nMy dear Sir Everard, Confidential.\n\nCaptain Garrett received a verbal\nrequest to have a man named Irak Nath Das watched,\nand the following is the result during the last\nfive days. He has certainly appears to be a\nsuspicious character :-\n\n\"□□□□ □□ □□, who lives at No. 11\n□□rd Road, has been under observation\nfrom Jan. 1. to Jan. 5 inclusive.\n\n\"On Jan. 1 he visited the G.P.O. at 9.30\na.m., and from there went to the □□□□□\nStation, □□□□ □□i. From he returned he a visit\nto □□□□ □□i. In the afternoon he again\nvisited the G.P.O. and from there went\nto □□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□\n\n\"On Jan. 2 at 9 a.m. he went to Park Street,\nto □□□□□□, and to the Telegraph Station. From\nthere he tried to purchase a ticket and from there he\nreturned to a. In the evening he again went\nto Gouranga's restaurant staying about an hour\nwhen he left with two other Indians whom he",
+   "en": "C. I. D.\nI. O. REG\nNo. 854\nDate 11/1/2\n\nJanuary 1°, 7.\n\nSir Everard B. [illegible], I.C.S.,\n[illegible] Consul-General,\n[illegible].\n\nMy dear Sir Everard, Confidential.\n\nCaptain Garrett received a verbal\nreport to have a man named [illegible] watched,\nand the following is the result during the last\nfive days. He certainly appears to be a\nsuspicious character :-\n\n\" [illegible] who lives at [illegible]\n[illegible] observation\n[illegible] inclusive.\n\n\" [illegible] the [illegible]\n[illegible] and he then went to the [illegible]\n[illegible] returned he [illegible]\n[illegible] afternoon [illegible]\n[illegible] went\nto [illegible] from there to\n[illegible] returning [illegible] calling\n[illegible] did not again\n[illegible].\n\n\" On [illegible] he went to [illegible],\n[illegible] and to the [illegible] station.\n[illegible] and from there he\nreturned he [illegible] evening he went\nto [illegible] restaurant staying about an hour\nwhen he left with two other Indians whom he\n\n（左侧手写批注：）\nCRI\nM\nIS",
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-2376/page/n32_w2400.jpg",
@@ -413,10 +411,10 @@
   "ocr_out_tokens": 10278,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-15 23:18:52",
-  "zh_in_tokens": 16375,
-  "zh_out_tokens": 9476,
+  "zh_in_tokens": 16935,
+  "zh_out_tokens": 9775,
   "zh_chunks": 3
  },
  "native_zh_pages": 0,
- "zh_pages": 36
+ "zh_pages": 37
 }

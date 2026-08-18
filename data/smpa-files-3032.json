@@ -253,7 +253,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3032/page/n24_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "(001)\n大东电报公司\n大东澳亚中国电报有限公司。\n在英国注册\n电报挂号：\n“EASTERN”\n上海站。\n爱德华七世路4号\n电话号码：\n899。\n以下电报经大东电报局于\n〔此处转录不清〕LY\n〔此处转录不清〕OFFS\n由\n〔此处转录不清〕 - 〔此处转录不清〕 .\n收到。\n不出示本单，概不受理关于此电报之查询。\n大东电报公司",
+   "zh_tries": 1,
+   "zh_src": "90d6519f3d389097"
   },
   {
    "n": 25,
@@ -505,10 +507,10 @@
   "ocr_out_tokens": 13304,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-16 06:39:17",
-  "zh_in_tokens": 20737,
-  "zh_out_tokens": 15774,
+  "zh_in_tokens": 21111,
+  "zh_out_tokens": 15903,
   "zh_chunks": 4
  },
  "native_zh_pages": 1,
- "zh_pages": 47
+ "zh_pages": 48
 }

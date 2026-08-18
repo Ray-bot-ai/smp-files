@@ -112,7 +112,9 @@
    "image_url": "https://archive.org/download/smpa-files-1688/page/n9_w2400.jpg",
    "tries": 1,
    "via": "dashscope",
-   "zh": ""
+   "zh": "副本\n\n东浦棉花运销协进会致工部局之信函译文\n（會協銷運花棉東浦）\n\n〔此处转录不清〕\n\n（签署）上海棉花运销协进会\n主席 余元森\n中央委员会委员 董恩载 等\n\n注：旗帜及证书各三份样本\n\n（注：于1937年10月14日上午收到以进行翻译。）\n\n（印章：上海公共租界工部局 / 1937年10月14日）\n（签名：中文）",
+   "zh_tries": 1,
+   "zh_src": "136655adaeda2007"
   },
   {
    "n": 10,
@@ -164,10 +166,10 @@
   "ocr_out_tokens": 4240,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-15 15:10:56",
-  "zh_in_tokens": 6042,
-  "zh_out_tokens": 3150,
+  "zh_in_tokens": 6412,
+  "zh_out_tokens": 3278,
   "zh_chunks": 2
  },
  "native_zh_pages": 0,
- "zh_pages": 13
+ "zh_pages": 14
 }
