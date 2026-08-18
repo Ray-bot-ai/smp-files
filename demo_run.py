@@ -355,6 +355,27 @@ def _fp(text):
     return hashlib.sha256((text or "").strip().encode()).hexdigest()[:16]
 
 
+_ABANDONED = None
+
+
+def abandoned():
+    """人工在工作台上判「放弃处理」的页（unusable_pages.json）。
+
+    为什么流水线也要认这份名单：那些注定失败的页每轮都要重走一遍完整的退化链
+    ——拆半重试、逐页单译、最后仍留空——实见单件为此空烧 900 秒。
+    人已经看过原图判定不可用了，就不该再让机器反复试。
+    站点那边同样读这份名单，标注「不可用」但内容照旧保留。
+    """
+    global _ABANDONED
+    if _ABANDONED is None:
+        p = os.path.join(HERE, "unusable_pages.json")
+        try:
+            _ABANDONED = {(r["ia_id"], r["n"]) for r in json.load(open(p, encoding="utf-8"))}
+        except Exception:
+            _ABANDONED = set()
+    return _ABANDONED
+
+
 def _missing_zh(doc):
     """需要（重新）翻译的页。两种：
 
@@ -370,10 +391,13 @@ def _missing_zh(doc):
        视为「与当前英文一致」，不重译——否则会把全库白译一遍。
     """
     out = []
+    ab = abandoned()
     for q in doc.get("page_data", []):
         en = (q.get("en") or "").strip()
         if not en or is_chinese(en):
             continue
+        if (doc.get("ia_id"), q["n"]) in ab:
+            continue        # 人工已判放弃，不再当缺口反复重试
         if unusable(en):
             continue        # 满页 □ 的残破页，没有值得翻译的内容，翻了也只会退化
         if q.get("zh_status") and not (q.get("zh") or "").strip():

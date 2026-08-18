@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>人工复核工作台 · 上海工部局警务处档案</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Archivo:wght@600&family=Noto+Serif+SC:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/app.css">
+<style>
+.wb{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;align-items:start}
+.wb .im{position:sticky;top:5.5rem}
+.wb img{width:100%;border:1px solid var(--rule);background:#fff;filter:grayscale(1) contrast(1.05)}
+.wb .txt{white-space:pre-wrap;font-size:.9rem;line-height:1.72;overflow-wrap:anywhere;
+  border:1px solid var(--rule);background:#fff;padding:.9rem 1rem;max-height:36rem;overflow:auto}
+.wb .txt.zh{font-family:var(--cjk);font-size:.86rem;margin-top:.8rem}
+.wb h4{margin:0 0 .5rem;font-family:var(--label);font-size:.62rem;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--muted)}
+.why{background:rgba(143,47,34,.07);border:1px solid rgba(143,47,34,.3);
+  border-left:3px solid var(--stamp);padding:.6rem .9rem;margin-bottom:.9rem;font-size:.88rem}
+.acts{display:flex;gap:.7rem;flex-wrap:wrap;align-items:center;margin:1.2rem 0;
+  padding:.9rem 1rem;background:var(--card);border:1px solid var(--rule);
+  position:sticky;bottom:0;z-index:20}
+.acts button{font-family:var(--label);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;
+  padding:.6rem 1.1rem;border:1px solid var(--rule);background:#fff;cursor:pointer;color:var(--ink)}
+.acts .keep{border-color:#4a7a44;color:#2f5a2b}
+.acts .drop{border-color:var(--stamp);color:var(--stamp)}
+.acts button:hover{background:var(--paper-2)}
+.acts .n{margin-left:auto;font-size:.84rem;color:var(--muted)}
+.done{display:inline-block;white-space:nowrap;font-family:var(--label);font-size:.62rem;
+  letter-spacing:.12em;padding:.15rem .5rem;border:1px solid var(--rule);margin-left:.4rem}
+.done.k{border-color:#4a7a44;color:#2f5a2b}
+.done.d{border-color:var(--stamp);color:var(--stamp);background:rgba(143,47,34,.07)}
+#out{width:100%;height:12rem;font-family:ui-monospace,Menlo,monospace;font-size:.7rem;
+  margin-top:1rem;border:1px solid var(--rule);padding:.7rem;display:none;background:#fff}
+@media(max-width:900px){.wb{grid-template-columns:1fr}.wb .im{position:static}}
+</style>
+</head>
+<body>
+<header class="bar"><div class="in">
+  <a class="brand" href="index.html"><b>Shanghai Municipal Police Files</b><span>1894–1949</span></a>
+  <nav>
+    <a href="search.html">检索 Search</a>
+    <a href="assist.html">联想 AI search</a>
+    <a href="browse.html">目录 Catalogue</a>
+    <a href="quality.html">质量 Quality</a>
+  </nav>
+</div></header>
+
+<div class="wrap" style="max-width:78rem">
+  <h1 class="pt">人工复核工作台<span class="zh">原图对转录，逐页判合格或放弃</span></h1>
+  <div class="note">
+    左边原件影像，右边本站转录与译文。<b>对着看，判一下这一页的转录能不能用。</b>
+    判「放弃」的页会写进 <code>unusable_pages.json</code>——站点上照实标注「不可用」（内容仍保留），
+    流水线也不再为它反复重试。
+    <span class="zh" style="display:block;margin-top:.4rem;color:var(--muted)">
+      快捷键：<b>J</b>=合格 · <b>F</b>=放弃 · <b>←/→</b>=上一页/下一页。
+      进度存在你自己浏览器里，随时可以关掉再回来。</span>
+  </div>
+
+  <div class="acts">
+    <button id="prev">← 上一页</button>
+    <button class="keep" id="keep">J · 合格</button>
+    <button class="drop" id="drop">F · 放弃</button>
+    <button id="next">下一页 →</button>
+    <button id="export">导出 JSON</button>
+    <span class="n" id="stat">载入中…</span>
+  </div>
+
+  <div id="why"></div>
+  <div class="wb">
+    <div class="im">
+      <h4>原件影像 · Scan</h4>
+      <img id="img" alt="">
+      <p style="font-size:.8rem;color:var(--muted);margin-top:.5rem">
+        <a id="ialink" href="#" target="_blank" rel="noopener">在 Internet Archive 看全图 ↗</a>
+        · <a id="filelink" href="#" target="_blank" rel="noopener">看整件 ↗</a>
+      </p>
+    </div>
+    <div>
+      <h4>本站转录 · Transcription</h4>
+      <div class="txt" id="en"></div>
+      <h4 style="margin-top:1rem">中文译文 · Translation</h4>
+      <div class="txt zh" id="zh"></div>
+    </div>
+  </div>
+  <textarea id="out" readonly></textarea>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const KEY = 'smp-workbench';
+let Q = [], i = 0, docCache = {};
+let marks = JSON.parse(localStorage.getItem(KEY) || '{}');   // "doc#n" -> 'keep' | 'drop'
+const save = () => localStorage.setItem(KEY, JSON.stringify(marks));
+const esc = s => (s||'').replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+
+async function getDoc(id) {
+  if (!(id in docCache)) docCache[id] = fetch(`data/doc/${id}.json`).then(r => r.json());
+  return docCache[id];
+}
+
+async function show() {
+  if (!Q.length) return;
+  i = Math.max(0, Math.min(i, Q.length - 1));
+  const it = Q[i], k = it.d + '#' + it.n, iid = 'smpa-files-' + it.d;
+  const st = marks[k];
+  $('#why').innerHTML = `<div class="why"><b>待复核原因：</b>${esc(it.why)}
+    ${it.box ? ` · 转录里有 ${it.box} 个 □` : ''} · 转录 ${it.len} 字
+    ${st ? ` <span class="done ${st==='drop'?'d':'k'}">${st==='drop'?'已放弃':'已判合格'}</span>` : ''}</div>`;
+  $('#img').src = `https://archive.org/download/${iid}/page/n${it.n}_w800.jpg`;
+  $('#ialink').href = `https://archive.org/details/${iid}`;
+  $('#filelink').href = `file.html?id=${it.d}&p=${it.n}`;
+  $('#en').textContent = '载入中…'; $('#zh').textContent = '';
+  const done = Object.keys(marks).length, drop = Object.values(marks).filter(v=>v==='drop').length;
+  $('#stat').textContent = `第 ${i+1} / ${Q.length} 页 · 已判 ${done} · 其中放弃 ${drop}`;
+  try {
+    const d = await getDoc(it.d);
+    const pg = (d.pages || []).find(p => p.n === it.n) || {};
+    $('#en').textContent = pg.en || '（无转录）';
+    $('#zh').textContent = pg.zh || (pg.note ? '（' + pg.note + '）' : '（无译文）');
+  } catch { $('#en').textContent = '（读不到该卷宗数据）'; }
+}
+
+function mark(v) {
+  const it = Q[i]; if (!it) return;
+  marks[it.d + '#' + it.n] = v; save();
+  i++; show();
+}
+
+$('#keep').onclick = () => mark('keep');
+$('#drop').onclick = () => mark('drop');
+$('#next').onclick = () => { i++; show(); };
+$('#prev').onclick = () => { i--; show(); };
+addEventListener('keydown', e => {
+  if (e.target.tagName === 'TEXTAREA') return;
+  const k = e.key.toLowerCase();
+  if (k === 'j') mark('keep');
+  else if (k === 'f') mark('drop');
+  else if (e.key === 'ArrowRight') { i++; show(); }
+  else if (e.key === 'ArrowLeft') { i--; show(); }
+});
+
+$('#export').onclick = () => {
+  const out = Object.entries(marks).filter(([,v]) => v === 'drop').map(([k]) => {
+    const [d, n] = k.split('#');
+    return { ia_id: 'smpa-files-' + d, n: +n,
+             reason: '人工对照原件影像复核后判定：本页转录不可用，已放弃处理。' };
+  });
+  $('#out').style.display = 'block';
+  $('#out').value = JSON.stringify(out, null, 2);
+  $('#out').select();
+};
+
+fetch('data/review.json').then(r => r.json()).then(d => {
+  Q = d.items || [];
+  // 已判过的排到后面，优先看没判的
+  Q.sort((a,b) => (marks[a.d+'#'+a.n]?1:0) - (marks[b.d+'#'+b.n]?1:0));
+  show();
+}).catch(() => { $('#stat').textContent = '载入 review.json 失败——先跑一次 make_review.py'; });
+</script>
+</body>
+</html>
