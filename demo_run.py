@@ -349,6 +349,35 @@ def unusable(en):
     return bool(en) and en.count("□") / len(en) >= BOX_RATIO
 
 
+def clean_for_translation(en):
+    """把转录里的噪声折叠成一句「〔此处转录不清〕」，只把**真内容**送去翻译。
+
+    为什么：一页里成百上千个 □、点线、`/6/6/6` 这类东西，
+    ① 白占输入 token；② 让译文模型跟着一起循环、触发退化；
+    ③ 把真正可读的段落淹掉。折叠之后，剩下的正文照常能译——
+    实见一页 1,604 字里有 753 个 □，但正文明明白白写着
+    「Hongkew Police Station, December 31st 1939, Male Chinese suspect arrested…」。
+    """
+    if not en:
+        return en
+    s = re.sub(r"□(?:\s*□)+", "〔此处转录不清〕", en)          # 连续 □（含空格分隔）
+    s = re.sub(r"[.\u00b7\u2026](?:\s*[.\u00b7\u2026]){3,}", " ____ ", s)  # 表单点线
+    s = re.sub(r"(?:/\s*\d){4,}", " 〔此处转录不清〕", s)       # 15/6/6/6/6…
+    s = re.sub(r"([^\s\u4e00-\u9fff])\1{9,}", r"\1\1\1", s)  # 其他长重复串
+    s = re.sub(r"(〔此处转录不清〕\s*){2,}", "〔此处转录不清〕", s)  # 相邻的合并
+    # 折叠会把「同一段 □ 的不同行」塌成一模一样的行，看上去像模型在重复，
+    # 会误触发退化检测。所以连续重复的整行只留一遍。
+    out, prev = [], None
+    for ln in s.split("\n"):
+        k = ln.strip()
+        if k and k == prev:
+            continue
+        prev = k
+        out.append(ln)
+    s = "\n".join(out)
+    return re.sub(r"\n{3,}", "\n\n", s).strip()
+
+
 def _fp(text):
     """英文转录的指纹。译文是照着某一版英文译出来的，
     存下当时那一版的指纹，日后就能判断译文有没有过期。"""
@@ -398,7 +427,10 @@ def _missing_zh(doc):
             continue
         if (doc.get("ia_id"), q["n"]) in ab:
             continue        # 人工已判放弃，不再当缺口反复重试
-        if unusable(en):
+        # 注意：这里**不**再按「□ 太多」排除。大量 □ 不等于没有可用内容——
+        # 实见 47% 是 □ 的页，正文仍清楚写着案由、地点、日期。
+        # 站点照旧标注该页不可信（那是给读者的提示），但译文该出还是要出。
+        if False:
             continue        # 满页 □ 的残破页，没有值得翻译的内容，翻了也只会退化
         if q.get("zh_status") and not (q.get("zh") or "").strip():
             # 已经判定为「译不出来」的终态（退化/模型无输出）。同一页再译一遍
@@ -420,7 +452,8 @@ def _fill_missing_zh(path, doc, missing):
         if q is None or q.get("zh_tries", 0) >= MAX_ZH_TRIES:
             continue
         d, err, via = call_fb([{"role": "user", "content":
-                                TRANS_PROMPT + "\n\n---\n\n⟦p%d⟧\n%s" % (n, q["en"])}],
+                                TRANS_PROMPT + "\n\n---\n\n⟦p%d⟧\n%s"
+                                % (n, clean_for_translation(q["en"]))}],
                               max_tokens=16000)
         if err:
             # 接口/网络错误**不计入重试次数**：tries 是用来限制「模型给了输出但没法用」
@@ -488,7 +521,7 @@ def _translate_one(iid):
         # 单页本身就超长的，切成多段，每段都带同一个 ⟦p⟧ 标记，回填时按序拼接。
         # 实测全库 13 页超过 12,000 字（最长一页 42,090 字），整页塞进一个请求
         # 必然超时——而超时是「一个字都拿不到」，不是「拿到一半」。
-        body = q["en"]
+        body = clean_for_translation(q["en"])   # 噪声折叠后再切块
         parts_txt = ([body] if len(body) <= CHUNK_CHARS
                      else [body[i:i + CHUNK_CHARS] for i in range(0, len(body), CHUNK_CHARS)])
         for part in parts_txt:
