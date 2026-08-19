@@ -186,7 +186,9 @@
    "en": "**〔此处转录不清〕**\n\nI do not know where he lives but his description is as\nfollows: Age 36, 5'6\" in height, fair complexion, long face,\nslimly built, sometimes wears long gown, sometimes short jacket,\nlong hair.\n\nSigned: Yua Joi Cheong.",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-577/page/n25_w2400.jpg",
-   "zh": ""
+   "zh": "**〔此处转录不清〕**\n\n我不知道他住在哪里，但他的体貌特征如下：年龄36岁，身高5英尺6英寸，肤色白皙，长脸，身材瘦削，有时穿长袍，有时穿短夹克，留长发。\n\n签名：Yua Joi Cheong（音译）。",
+   "zh_tries": 1,
+   "zh_src": "7ace84364e8dc311"
   },
   {
    "n": 26,
@@ -219,8 +221,8 @@
   "ocr_out_tokens": 11127,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-12 01:11:22",
-  "zh_in_tokens": 20363,
-  "zh_out_tokens": 56484,
+  "zh_in_tokens": 20668,
+  "zh_out_tokens": 56557,
   "zh_chunks": 4
  },
  "native_zh_pages": 0,

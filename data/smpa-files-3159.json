@@ -63,7 +63,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3159/page/n5_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "(2) 〔此处转录不清〕\n关于战时\n对可疑人员的\n由轮船？及每艘/\n安排需要配备\n何种人员？\nEC\n3/4",
+   "zh_tries": 1,
+   "zh_src": "d525d7a33e6b7fe0"
   }
  ],
  "pages_done": 6,
@@ -75,8 +77,8 @@
   "ocr_out_tokens": 1803,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-16 08:28:20",
-  "zh_in_tokens": 2069,
-  "zh_out_tokens": 1519,
+  "zh_in_tokens": 2346,
+  "zh_out_tokens": 1565,
   "zh_chunks": 1
  },
  "native_zh_pages": 0,

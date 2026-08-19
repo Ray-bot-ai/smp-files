@@ -220,9 +220,11 @@
    "en": "Page 17.\n\n22, 8, and 1 large brownish circular **〔此处转录不清〕** 1 medium sized\ncircular.\n\nI am, Sir,\nYour obedient servant,\nJoseph Hewes\nC. D. I.\n\nD. C. I.",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-2061/page/n25_w2400.jpg",
-   "zh": "",
+   "zh": "第17页。\n\n22枚、8枚及1枚大型褐色的圆形**〔此处转录不清〕**，以及1枚中型圆形。\n\n先生，\n您忠实的仆人，\n约瑟夫·休斯 (Joseph Hewes)\n刑事调查主任 (C. D. I.)\n\n副刑事调查主任 (D. C. I.)",
    "tries": 1,
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh_tries": 1,
+   "zh_src": "864b6e68b812c5be"
   },
   {
    "n": 26,
@@ -294,7 +296,9 @@
    "en": "〔此处转录不清〕\n\nParagraph 456 :- sent Jobe pell.\nIn the Tele\nof. The\nbeen\n( ) ed them not to come\npoliceman speaking to\nthe central district along the\nI reported the matter by telephone to Leusa\npolice station. I saw nothing further as I remained in the\nsection.\n\nJune 12th 1919 I received a message that a\nnumber of students were coming into the settlement from\nthe French concession by way of\nTroop Sgt. Reek had already\nI saw the trooper were having a\none pony fell to the ground and\n\n〔此处转录不清〕",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-2061/page/n35_w2400.jpg",
-   "zh": ""
+   "zh": "〔此处转录不清〕\n\n第456段：——派遣 Jobe Pell（音译）。\n在电报\n的。\n已经\n（ ）他们不要来\n一名警察正在与\n中央区沿\n我通过电话向 Leusa（音译）\n警察局报告了此事。由于我留在该\n区域，未再看到其他情况。\n\n1919年6月12日，我收到消息，称有\n一批学生正从\n法租界经由\n进入租界。\n骑兵中士 Reek 已经\n我看到骑警正在\n一匹小马倒在地上，并且\n\n〔此处转录不清〕",
+   "zh_tries": 1,
+   "zh_src": "01696b1063b1ef73"
   },
   {
    "n": 36,
@@ -478,8 +482,8 @@
   "ocr_out_tokens": 22382,
   "reasoning_tokens": 2941,
   "ocr_at": "2026-08-12 12:30:55",
-  "zh_in_tokens": 32659,
-  "zh_out_tokens": 78848,
+  "zh_in_tokens": 33330,
+  "zh_out_tokens": 79075,
   "zh_chunks": 7
  },
  "native_zh_pages": 0,

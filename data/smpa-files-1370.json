@@ -46,7 +46,9 @@
    "en": "Fm. L.D.I.\nRevised, 5-31.\nG. 100 m. 10-12\n\nExtract of Proceedings in S. S. D. Court for ____ ____ 19    F. I. R. No. ____    Stn. No. ____\nReg. No. ____ / ____    Stn. ____    Procurator ____    Transf ____    Judge ____\n\n**〔此处转录不清〕**\n\nDecision\n**〔此处转录不清〕**\n\nS2,\nFor attention please\n[签名]\n\nD.S. James,    9:12:32.\nPlease find an [此处转录不清]\nthis can stand in print.\nJSH 9/12\n\n（批：copy）\n\nSender. Wuya.\nPlease check can papers and file to\nor c. 813. - any errors please on appeal?\ntyping date 14/12    R.W. YORKE.\nSept. 9/12\n\nM² Fan\ncheck case papers please.\nH.R. 10/12\nS.2.\nFor attention please J.P.G. 10.12.32.",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-1370/page/n5_w2400.jpg",
-   "zh": ""
+   "zh": "来自：L.D.I.（督察长办公室）\n修订日期：5月31日。\nG. 100 m. 10-12\n\n____ ____ 19    年上海特区地方法院诉讼记录摘录    F. I. R. 编号 ____    警局编号 ____\n登记编号 ____ / ____    警局 ____    检察官 ____    移交 ____    法官 ____\n\n**〔此处转录不清〕**\n\n裁决\n**〔此处转录不清〕**\n\nS2，\n请予关注\n[签名]\n\nD.S. James，    9:12:32。\n请查找一份 [此处转录不清]\n此件可付印。\nJSH 9/12\n\n（批注：副本）\n\n发件人：Wuya。\n请核对案卷并归档至\n或 c. 813。- 如有错误，请在上诉时指出？\n打字日期 14/12    R.W. YORKE。\n9月 9/12\n\nM² Fan\n请核对案卷。\nH.R. 10/12\nS.2.\n请予关注 J.P.G. 10.12.32。",
+   "zh_tries": 1,
+   "zh_src": "ab6aee985b463441"
   },
   {
    "n": 6,
@@ -204,7 +206,9 @@
    "en": "M 352\n〔此处转录不清〕\nnd Branch Branch\n〔此处转录不清〕\nbetween the re-elected\nthree in the 2nd Branch I have asked for the\nmeeting of the Branch to be held on June 11,\nand King Street.\nThe questions which were to ask the problem were\nput down at the last meeting branches.\n\nA. D. J. Watt.\n\nCopy for Officer i/c Special Branch.\n\nH. R.\n21/10\n\nReg. Please attach file\nD. S. Moore.\nas indicated. 21:10:32.\nHBR 21/10",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-1370/page/n27_w2400.jpg",
-   "zh": ""
+   "zh": "M 352\n〔此处转录不清〕\n第二分处 分处\n〔此处转录不清〕\n在第二分处重新当选的三人之间，我已要求于6月11日召开分处会议，\n地点在金街（King Street）。\n拟在会上提出的问题已在上次各分处会议上记录在案。\n\nA. D. J. Watt.\n\n抄送特别分处负责人。\n\nH. R.\n10月21日\n\n登记。请按指示附卷\nD. S. Moore.\n如上所示。21:10:32。\nHBR 10月21日",
+   "zh_tries": 1,
+   "zh_src": "6739626fb6abd0cc"
   },
   {
    "n": 28,
@@ -274,8 +278,8 @@
   "ocr_out_tokens": 12970,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-12 12:31:33",
-  "zh_in_tokens": 33760,
-  "zh_out_tokens": 107435,
+  "zh_in_tokens": 34634,
+  "zh_out_tokens": 107856,
   "zh_chunks": 4
  },
  "native_zh_pages": 2,

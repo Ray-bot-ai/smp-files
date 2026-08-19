@@ -53,7 +53,9 @@
    "image_url": "https://archive.org/download/smpa-files-2/page/n4_w2400.jpg",
    "tries": 1,
    "via": "dashscope",
-   "zh": ""
+   "zh": "〔此处转录不清〕\n13.\nG. Tcheremshansky\n〔此处转录不清〕\nJ.B.K. 16/9\n（印：1932年9月6日 上午6:09 收讫 S.G）\n712",
+   "zh_tries": 1,
+   "zh_src": "82c890bf04492fd6"
   },
   {
    "n": 5,
@@ -115,8 +117,8 @@
   "ocr_out_tokens": 2821,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-15 16:54:30",
-  "zh_in_tokens": 9617,
-  "zh_out_tokens": 50416,
+  "zh_in_tokens": 9908,
+  "zh_out_tokens": 50487,
   "zh_chunks": 1
  },
  "native_zh_pages": 0,

@@ -73,7 +73,9 @@
    "image_url": "https://archive.org/download/smpa-files-2125/page/n6_w2400.jpg",
    "tries": 1,
    "via": "fallback",
-   "zh": ""
+   "zh": "**〔此处转录不清〕**\n34N\n**〔此处转录不清〕**\nco",
+   "zh_tries": 1,
+   "zh_src": "9de6cb36657c336d"
   },
   {
    "n": 7,
@@ -535,8 +537,8 @@
   "ocr_out_tokens": 12808,
   "reasoning_tokens": 1771,
   "ocr_at": "2026-08-15 17:36:36",
-  "zh_in_tokens": 12340,
-  "zh_out_tokens": 10755,
+  "zh_in_tokens": 12594,
+  "zh_out_tokens": 10783,
   "zh_chunks": 4
  },
  "native_zh_pages": 0,

@@ -109,7 +109,9 @@
    "en": "P.P.L.S. 12-4\nT.H. 180-12-31\n\nReport sent with **〔此处转录不清〕** pamphlets, handbills or newspapers to Special Branch.\n\n| | |\n| :--- | :--- |\n| Where found **〔此处转录不清〕** | Time found **〔此处转录不清〕** Date **〔此处转录不清〕** |\n| Character of place where found, (industrial, residential, respectable or doubtful neighbourhood). | **〔此处转录不清〕** |\n| Near School, Factory, Military Camp, Mill etc. | **〔此处转录不清〕** |\n| How distributed? (If known). | **〔此处转录不清〕** (Japane se) |\n| Nature of Document. (Communist or Anti-Government etc). | **〔此处转录不清〕** |\n| Arrests or not, if so how many? | **〔此处转录不清〕** |\n| Class of man arrested? (Student, coolie, mill worker etc.) | **〔此处转录不清〕** |\n| Charged under what Section of C.C. Code? | **〔此处转录不清〕** |\n\nDate 11-12-34.\n\nSigned D.S. **〔此处转录不清〕** Taylor\nfor C. I. etc. i/c. **〔此处转录不清〕** Station.",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-685/page/n14_w2400.jpg",
-   "zh": ""
+   "zh": "P.P.L.S. 12-4\nT.H. 180-12-31\n\n随报告将**〔此处转录不清〕**小册子、传单或报纸送交特别处。\n\n| | |\n| :--- | :--- |\n| 发现地点 **〔此处转录不清〕** | 发现时间 **〔此处转录不清〕** 日期 **〔此处转录不清〕** |\n| 发现地点的性质（工业区、住宅区、体面街区或可疑街区）。 | **〔此处转录不清〕** |\n| 靠近学校、工厂、军营、纱厂等。 | **〔此处转录不清〕** |\n| 分发方式？（如已知）。 | **〔此处转录不清〕** (Japanese) |\n| 文件性质。（共产主义或反政府等）。 | **〔此处转录不清〕** |\n| 是否逮捕，如是，人数多少？ | **〔此处转录不清〕** |\n| 被捕者身份类别？（学生、苦力、纱厂工人等。） | **〔此处转录不清〕** |\n| 依据《中华民国刑法》哪一条款指控？ | **〔此处转录不清〕** |\n\n日期 1934年12月11日。\n\n签名 D.S. **〔此处转录不清〕** Taylor\n代 C. I. 等 i/c. **〔此处转录不清〕** 巡捕房。",
+   "zh_tries": 1,
+   "zh_src": "1758c786776b6ad5"
   },
   {
    "n": 15,
@@ -223,8 +225,8 @@
   "ocr_out_tokens": 6020,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-12 01:10:43",
-  "zh_in_tokens": 20033,
-  "zh_out_tokens": 99986,
+  "zh_in_tokens": 20568,
+  "zh_out_tokens": 100302,
   "zh_chunks": 2
  },
  "native_zh_pages": 2,

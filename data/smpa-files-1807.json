@@ -343,7 +343,9 @@
    "image_url": "https://archive.org/download/smpa-files-1807/page/n33_w2400.jpg",
    "tries": 1,
    "via": "dashscope",
-   "zh": ""
+   "zh": "档案编号 353/39。\nV2.\n\n〔此处转录不清〕\n称 **〔此处转录不清〕** 经讯问后获释。\n**〔此处转录不清〕** 该处所，\n他们 **〔此处转录不清〕** 经警告后已获释。**〔此处转录不清〕** 仍被拘留。\n\n（批注：副督察 / 21日）\n\n情报科 1/C组。\n（签名）\n“B”分区副助理总监。\n（签名）\n\n（签名）\nD. S. S.",
+   "zh_tries": 1,
+   "zh_src": "163b01e11c75bed5"
   },
   {
    "n": 34,
@@ -435,8 +437,8 @@
   "ocr_out_tokens": 16755,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-15 15:57:18",
-  "zh_in_tokens": 18654,
-  "zh_out_tokens": 14186,
+  "zh_in_tokens": 19014,
+  "zh_out_tokens": 14321,
   "zh_chunks": 7
  },
  "native_zh_pages": 0,

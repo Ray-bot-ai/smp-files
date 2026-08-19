@@ -923,7 +923,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3492/page/n91_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "〔此处转录不清〕\nP.A.\n无口供\n（印：上海工部局 1938年1月21日 特别B...）\n1938年1月20日\nS.S.\n〔此处转录不清〕",
+   "zh_tries": 1,
+   "zh_src": "06b5abc0f8d8aedf"
   },
   {
    "n": 92,
@@ -1385,8 +1387,8 @@
   "ocr_out_tokens": 53123,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-18 15:34:28",
-  "zh_in_tokens": 58281,
-  "zh_out_tokens": 43597,
+  "zh_in_tokens": 58569,
+  "zh_out_tokens": 43663,
   "zh_chunks": 18
  },
  "native_zh_pages": 0,

@@ -873,7 +873,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3315/page/n86_w2400.jpg",
    "via": "fallback",
-   "zh": ""
+   "zh": "**〔此处转录不清〕**",
+   "zh_tries": 1,
+   "zh_src": "98a0a56aabe917af"
   },
   {
    "n": 87,
@@ -1475,8 +1477,8 @@
   "ocr_out_tokens": 103913,
   "reasoning_tokens": 7677,
   "ocr_at": "2026-08-16 23:07:46",
-  "zh_in_tokens": 106884,
-  "zh_out_tokens": 70205,
+  "zh_in_tokens": 107125,
+  "zh_out_tokens": 70220,
   "zh_chunks": 42
  },
  "native_zh_pages": 0,

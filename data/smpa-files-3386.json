@@ -1148,8 +1148,10 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3386/page/n113_w2400.jpg",
    "via": "dashscope",
-   "zh": "",
-   "zh_partial": true
+   "zh": "表格第3号\nG. 32,000-1-30\n\n档案编号 **〔此处转录不清〕** 46\n\n上海公共租界工部局警务处。\n特别支部 - S1 巡捕房，\n报告\n日期：1937年10月15日。\n\n事由（全称）雷·科恩（Ray COHEN）——申请加入上海公共租界工部局警务处（特别队）。\n\n呈报人：D.S. 皮茨（Pitts）。转呈人：**〔此处转录不清〕**\n\n关于附上的伊拉克籍人士雷·科恩（Ray COHEN）先生申请加入上海公共租界工部局警务处（特别队）的申请书，本人谨报告如下：该申请人曾于1934年1月30日从位于布恩路（Boone Road）124号的一家寄宿公寓潜逃，遗留少量房费未付。1937年8月15日，他加入上海万国商团的美国籍连队，在入伍时自称是美国人。他目前尚未从该组织的编制中除名。除上述情况外，未发现其他对其不利的记录。\n\n达·皮茨（Da Pitts）\n副巡官（D. S.）\n\n特别支部副督察长（D.C.）。",
+   "zh_partial": true,
+   "zh_tries": 1,
+   "zh_src": "ab08ac0a0566bc55"
   },
   {
    "n": 114,
@@ -2406,7 +2408,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3386/page/n237_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "40M.1.40\n上海公共租界工部局警务处。    档案号___\n报告    日期：____，19__\n事由：___\n具报人 ___    转呈人 ___\n\n〔此处转录不清〕\n\n“spring”是上海警察职衔灯上的称谓。\n\n（签名） 12/2    （签名）\n\n... ( 特别股 )。",
+   "zh_tries": 1,
+   "zh_src": "469eda7627c9fc64"
   },
   {
    "n": 238,
@@ -2932,8 +2936,8 @@
   "ocr_out_tokens": 104270,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-17 22:06:36",
-  "zh_in_tokens": 119274,
-  "zh_out_tokens": 118080,
+  "zh_in_tokens": 120102,
+  "zh_out_tokens": 118478,
   "zh_chunks": 31
  },
  "native_zh_pages": 1,

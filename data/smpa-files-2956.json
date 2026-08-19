@@ -33,7 +33,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-2956/page/n2_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "中华民国十八年四月\n〔此处转录不清〕\n十三日",
+   "zh_tries": 1,
+   "zh_src": "eee07ec35f6dfc27"
   },
   {
    "n": 3,
@@ -95,8 +97,8 @@
   "ocr_out_tokens": 1678,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-16 05:19:21",
-  "zh_in_tokens": 5213,
-  "zh_out_tokens": 49109,
+  "zh_in_tokens": 5459,
+  "zh_out_tokens": 49130,
   "zh_chunks": 1
  },
  "native_zh_pages": 2,

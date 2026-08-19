@@ -53,7 +53,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1304/page/n4_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "華僑無線電廣告公司\n海外廣播公司\n運營\nXMHC 電台\n700 千週，500 瓦特\n愛文義路一七二九弄二十三號\n上海\n電話\n31388\n\n〔此处转录不清〕\n\n此致\n敬禮\n海外廣播公司\n赫伯特·E·梅 (Herbert E. May)\n總經理\n\n收悉\n第二封信\n來自\n（印：1937年11月28日）\n已辦 / DBR 11月29日\n\n唯一以英語、上海話及粵語廣播的電台",
+   "zh_tries": 1,
+   "zh_src": "a84f4d71a6ac6bd1"
   },
   {
    "n": 5,
@@ -325,8 +327,8 @@
   "ocr_out_tokens": 12928,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-14 22:54:28",
-  "zh_in_tokens": 14291,
-  "zh_out_tokens": 10142,
+  "zh_in_tokens": 14684,
+  "zh_out_tokens": 10288,
   "zh_chunks": 5
  },
  "native_zh_pages": 0,

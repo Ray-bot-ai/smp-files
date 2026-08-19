@@ -225,7 +225,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-236/page/n21_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "l\n表格 40\nG. 15M .1 36\n\n上海公共租界工部局警务处。    3\n\n警务调查报告。\n\n以下为 **〔此处转录不清〕** 的陈述，\n系 **〔此处转录不清〕** 籍人士，由 **〔此处转录不清〕**\n于 **〔此处转录不清〕** 在 **〔此处转录不清〕** 录取，并由 **〔此处转录不清〕** 翻译\n\n**〔此处转录不清〕**\n\n**〔此处转录不清〕**",
+   "zh_tries": 1,
+   "zh_src": "2e3c9fcdbf37782f"
   }
  ],
  "pages_done": 22,
@@ -237,8 +239,8 @@
   "ocr_out_tokens": 10957,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-15 22:50:58",
-  "zh_in_tokens": 14636,
-  "zh_out_tokens": 10908,
+  "zh_in_tokens": 14986,
+  "zh_out_tokens": 11033,
   "zh_chunks": 4
  },
  "native_zh_pages": 0,

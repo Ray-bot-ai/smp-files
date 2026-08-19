@@ -363,7 +363,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3415/page/n35_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "表格编号 3\n15 000\n\n上海公共租界工部局警务处。\n档案号：Misc.15/36\n1936年1月8日\n老闸捕房，\n报告\n日期：1936年1月8日。\n\n事由：关于附呈的特别支部报告。\n\n由侦探督察博迪（Boddy）呈报 转呈人：\n\n阁下，\n\n1936年1月8日上午10时，根据卑职指示，\n侦探警司史密斯（D.S. Smith）及中国侦探警司7号（C.D.S.7）走访了本辖区内两家煤炭公司，名单见附呈报告。经查实，位于**〔此处转录不清〕**路12/70号的宗福（Tsong Fu）**〔此处转录不清〕**正迁往狄思威路（Dixwell Road）805号**〔此处转录不清〕**；而位于**〔此处转录不清〕**路**〔此处转录不清〕**号的洪大岁（Hung Dah Sui）业主未受中国人**〔此处转录不清〕**的干扰，无需任何形式的警方保护。\n\n已指令**〔此处转录不清〕**处的中国便衣警员（C.P.U.s）对上述两处地点进行监视。\n\n此致\n敬礼，\n\n侦探督察\n\n（批注：归档 2/3）\n宗福煤炭公司（The Tsong Fu Coal Company）于\n1月10日将其办事处迁至狄思威路（Dixwell Road）805号。——嘉善路（Kashing Road）辖区。\n原始报告副本已通过\n第七区行动主管官（D.O.C. 1/C. 7）转交\n嘉善路辖区主管警官（Officer i/c Kashing Road / C. 7）\n36",
+   "zh_tries": 1,
+   "zh_src": "267f88bd82fc848a"
   },
   {
    "n": 36,
@@ -1015,8 +1017,8 @@
   "ocr_out_tokens": 40135,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-18 00:19:40",
-  "zh_in_tokens": 44065,
-  "zh_out_tokens": 31371,
+  "zh_in_tokens": 44657,
+  "zh_out_tokens": 31782,
   "zh_chunks": 14
  },
  "native_zh_pages": 0,

@@ -363,7 +363,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3341/page/n35_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "**〔此处转录不清〕**",
+   "zh_tries": 1,
+   "zh_src": "98a0a56aabe917af"
   },
   {
    "n": 36,
@@ -1815,8 +1817,8 @@
   "ocr_out_tokens": 59900,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-17 06:27:32",
-  "zh_in_tokens": 64655,
-  "zh_out_tokens": 48894,
+  "zh_in_tokens": 64896,
+  "zh_out_tokens": 48909,
   "zh_chunks": 20
  },
  "native_zh_pages": 6,

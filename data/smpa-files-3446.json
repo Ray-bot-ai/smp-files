@@ -207,7 +207,9 @@
    "en": "FM.\nG. FORM 37\n\nSHANGHAI MUNICIPAL POLICE.\nMiscellaneous No. 631/37.\n\nREPORT\nHongkew Station,\nDate August 10, 1937.\n\nSubject State of Hongkew District - 24 hours ending 8 a.m. 10/8/37.\n\nMade by D. S. I. Black, Forwarded by____________________\n\nSir,\n\nDuring the 24 hours ending 8 a.m. 10/8/37, approximately\n700 refugees crossed the boundary from Chinese territory North\nof Soochow Road, their destination being District South of the\nSoochow Creek. During the evening\nof 9/8/37 a number of these refugees entered the District\nbut they only remained on the periphery and later returned to their\nhomes.\n\nNone of the refugees from Chapei took up residence in\nany hotel or private house in the District.\n\nAbout 50 residents of Hongkew District removed to\npoints South of the Soochow Creek, this includes the staffs of\n5 men's hairdressers, 1 leather shop and 1 jewellery shop.\n\n〔此处转录不清〕\n\nD. S. I.\n\nD. D. O. \"C\".",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-3446/page/n28_w2400.jpg",
-   "zh": ""
+   "zh": "发件人。\nG. 表格 37\n\n上海公共租界工部局警务处。\n杂项编号 631/37。\n\n报告\n虹口巡捕房，\n日期：1937年8月10日。\n\n事由：虹口区状况——截至1937年8月10日上午8时的24小时内。\n\n呈报人：副督察长布莱克（D. S. I. Black），转呈人：___\n\n先生：\n\n在截至1937年8月10日上午8时的24小时内，约有\n700名难民从苏州路以北的中国领土越过边界，其目的地为苏州河以南地区。在1937年8月9日晚间，\n其中部分难民进入本区，\n但他们仅停留在边缘地带，随后便返回家中。\n\n来自闸北的难民中，无人在本区的任何旅馆或私人住宅内居住。\n\n虹口区约有50名居民迁往苏州河以南各地点，其中包括\n5家男子理发店、1家皮革店和1家珠宝店的职员。\n\n〔此处转录不清〕\n\n副督察长\n\n“C”区副警务总监。",
+   "zh_tries": 1,
+   "zh_src": "0bc6157148dfdfdc"
   },
   {
    "n": 29,
@@ -821,8 +823,8 @@
   "ocr_out_tokens": 36099,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-11 23:54:38",
-  "zh_in_tokens": 48425,
-  "zh_out_tokens": 80915,
+  "zh_in_tokens": 48942,
+  "zh_out_tokens": 81180,
   "zh_chunks": 11
  },
  "native_zh_pages": 0,

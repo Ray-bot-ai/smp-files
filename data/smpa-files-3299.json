@@ -344,7 +344,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3299/page/n33_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "FIR.2501/40 (S)\n（第八名被告）\n\n吴伏思 (Moo Yeh S)，31岁，\n宁波                                中央捕房 342 张沃清 (Chang Wo Ching)\n老闸捕房        1940年11月30日            翻译      职员施云沛 (Sih Yun Pei)。\n                                      ////////\n\n我此前是法租界霞飞路732号叶记洗衣店 (Ye Fi Laundry) 的店主。因房屋租赁纠纷，我于1940年6月15日以12,000.00美元的价格出售了上述店铺。此后，我在法租界拉利路 (Route Lallier) 311号开设了文玲洗衣店 (Wen Ling Laundry)。\n\n我每日收到来自愚园路85号的信件，我也代为转发航空邮件。\n\n约在 ____ 时，我结识了池星祖 (Zee Sing Tseu)，并且由于我经常前往南市思源赌窟 (Si Yuan Gambling Den)，我还结识了池炳宗 (Zee Bing Tsong)，别名曾宗金 (Tseng Tsung Jin)，即本案第一名被告。\n\n1940年11月16日下午6时许，我在福州路行走时遇见我的朋友徐永元 (Hsu Yung Yuen)，我便向他打听池星祖（未被逮捕）的下落，因为我希望由后者为我弄一张进入日军占领区的通行证。至 ____ 时，徐称池星祖当晚将在福州路维乐里 (Wei Loh Lee) 的星星书寓 (Sing Song House) 设宴招待。\n\n于是，同日晚上7时30分许，我前往上述书寓，意在面见池星祖，但抵达后即被警员逮捕。\n\n以上陈述属实。\n\n签名并画押：\n吴伏思。",
+   "zh_tries": 1,
+   "zh_src": "1494c27958edfc47"
   },
   {
    "n": 34,
@@ -682,8 +684,8 @@
   "ocr_out_tokens": 23118,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-16 14:41:48",
-  "zh_in_tokens": 26035,
-  "zh_out_tokens": 18938,
+  "zh_in_tokens": 26712,
+  "zh_out_tokens": 19357,
   "zh_chunks": 7
  },
  "native_zh_pages": 0,

@@ -33,7 +33,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3043/page/n2_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "〔此处转录不清〕\n\n前银行囚犯进一步离境。\n\n另有七名前银行囚犯今日离开上海，前往中东铁路区。他们的车票由“Fraternax”兄弟会（Fraternax Fraternity）提供。在西伯利亚各省，由该兄弟会负责照管的男子仅余十一人。\n\n霍瓦特将军获安娜斯塔西娅·尼古拉耶芙娜女大公致谢。\n\n霍瓦特将军收到安娜斯塔西娅·尼古拉耶芙娜女大公的感谢信。安娜斯塔西娅系已故米哈伊尔·尼古拉耶维奇大公之妻。该信致远东全体俄国人，以回复向她表达的慰问之情；她在信中还希望，通过全体俄国人民的共同努力，俄国不久将获得自由。\n\n（左侧手写批注：充足 / J.P.）",
+   "zh_tries": 1,
+   "zh_src": "439446fba8826f90"
   }
  ],
  "pages_done": 3,
@@ -45,8 +47,8 @@
   "ocr_out_tokens": 1532,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-16 06:43:32",
-  "zh_in_tokens": 1781,
-  "zh_out_tokens": 1286,
+  "zh_in_tokens": 2196,
+  "zh_out_tokens": 1465,
   "zh_chunks": 1
  },
  "native_zh_pages": 0,

@@ -83,7 +83,9 @@
    "tries": 2,
    "image_url": "https://archive.org/download/smpa-files-1682/page/n7_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "____ 19    年小沙渡路巡捕房法庭诉讼记录摘录     FIR 编号：7/35    警局编号：78/6-35\n登记号：6/73043/6    鲍罗（BOWROW）巡捕房    检察官：____，周    法官：____\n\n页 ____。\n\n诉讼程序…… xxoxt: y Run for the . .d.\n警长 Un .. of the  ____  发送 h  ____ \n他 .. f .. t  ____ P. 用于处理被指控者 ____  ed\n.. u  ____  是一份 re .. ed，于 1 .12. 4 在 .. u  ____ \n这是 ____ 和一本 b .. ，其中包含 ____ 秘密书写 .. a .. t  ____  d t .. v .. hed，在书写时 ap ____  b ..\no  ____  d i .. tructions 供 ____ unists 在 ____ essed\n.. v  ____ 地点使用。.. r 此后，这 4 名被告被 ____ 至 .. n\n.. w .. nt ____",
+   "zh_tries": 1,
+   "zh_src": "b6c60075bb1d932c"
   }
  ],
  "pages_done": 8,
@@ -95,8 +97,8 @@
   "ocr_out_tokens": 3745,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-15 04:53:41",
-  "zh_in_tokens": 12183,
-  "zh_out_tokens": 50533,
+  "zh_in_tokens": 12674,
+  "zh_out_tokens": 50787,
   "zh_chunks": 1
  },
  "native_zh_pages": 0,

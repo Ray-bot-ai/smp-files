@@ -1244,7 +1244,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3372/page/n122_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "5月23日下午，警司 [上海公共租界工部局警务处 北区 ____ 5422 (0) 日期……] 在副巡官 Danemanis 的协助下，讯问了四名目前居住在上海、有意在东区组建具有政治性质协会的欧洲移民。以下是关于这些组织的情报。接受讯问者均为各协会的主席。\n\nD8157-F74 (1) 该协会名为“Theodor Herzl Allgemeine Zionist”（西奥多·赫茨尔一般锡安主义协会），主席为 Koritschoner 博士，地址为威赛路（Wayside Road）315/14号，会员600人，会费每月30分。该协会于10月13日申请注册，称其宗旨是在推动锡安主义运动的背景下，促进文化和社会事业。该协会于1939年10月14日获发注册证书 F. 24 号，并于1940年3月24日获准在百老汇大戏院（Broadway Theatre）举行音乐会，期间未见任何政治性内容。\n\nF4402 (2) Juedische Gemeinde（犹太社区），地址为东熙华德路（East Seward Road）805号，主席为 Leopold Steinhard 先生，会员1500人。会费每月50分。该拟议协会的宗旨是为犹太难民提供宗教服务并促进其文化发展，且已获难民委员会认可。该协会曾三次向警方申请并获准举行活动——第一次于1939年5月24日在百老汇电影院（Broadway Cinema）举行，内容为文化与宗教讲座；第二次于1939年8月27日在同一地点举行，亦为宗教性质；第三次于1939年12月3日在同一地点举行，同样属宗教性质。该协会未予注册。\n\n(3) Israelitische Union（以色列联盟），无固定总部地址，但主席 Eugen Gumpert 现居住于东余杭路（East Yuhang Road）943/27号，目前以其住所作为办公地点。声称有会员300人，每人每月缴纳会费30分。\n\n该协会或联盟的宗旨是为犹太难民安排就业，并登记愿意加入该联盟的人员。该组织也具有宗教背景",
+   "zh_tries": 1,
+   "zh_src": "31d46885cf19c543"
   },
   {
    "n": 123,
@@ -1289,8 +1291,8 @@
   "ocr_out_tokens": 47582,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-17 07:26:21",
-  "zh_in_tokens": 60238,
-  "zh_out_tokens": 46791,
+  "zh_in_tokens": 60970,
+  "zh_out_tokens": 47312,
   "zh_chunks": 14
  },
  "native_zh_pages": 1,

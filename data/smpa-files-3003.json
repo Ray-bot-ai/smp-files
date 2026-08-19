@@ -123,7 +123,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3003/page/n11_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "〔此处转录不清〕",
+   "zh_tries": 1,
+   "zh_src": "16db8d71a4b69de9"
   },
   {
    "n": 12,
@@ -617,8 +619,8 @@
   "ocr_out_tokens": 17762,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-16 05:54:29",
-  "zh_in_tokens": 20676,
-  "zh_out_tokens": 15032,
+  "zh_in_tokens": 20915,
+  "zh_out_tokens": 15045,
   "zh_chunks": 6
  },
  "native_zh_pages": 4,

@@ -137,7 +137,9 @@
    "tries": 2,
    "image_url": "https://archive.org/download/smpa-files-1672/page/n12_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "D.6597\n上海公共租界工部局警务处\n特别分部登记处。\n编号 D 6597\n日期 35年3月21日\n\n1935年3月21日。晨间译件\n\n“朝日”号飞机预计于3月22日抵沪\n\n目前正在南京访问的“朝日”号飞机，预计将于3月22日下午1时至2时之间抵达上海龙华机场。凡欲前往机场欢迎该机抵达者，请向日本领事馆警察申请入场券。\n\n日本总领事将宴请飞行员\n\n**〔此处转录不清〕**\n\n日本总领事石井先生将于3月22日下午4时，在其西摩路寓所举行茶话会，以招待两名日本飞行员。",
+   "zh_tries": 1,
+   "zh_src": "2431daa7c5bc9f9c"
   },
   {
    "n": 13,
@@ -182,8 +184,8 @@
   "ocr_out_tokens": 6765,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-15 04:45:56",
-  "zh_in_tokens": 8625,
-  "zh_out_tokens": 5430,
+  "zh_in_tokens": 9071,
+  "zh_out_tokens": 5607,
   "zh_chunks": 2
  },
  "native_zh_pages": 0,

@@ -13,7 +13,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1382/page/n0_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "表格第2号\nG. 21,500-1-31\n\n上海公共租界工部局警务处。\n报告\n\nR 13\n档案编号 7/31\n上海公共租界工部局警务处\n中央巡捕房分局\n编号 S. B. D. 2588/31\n日期 31 - 3 - 31/31。\n\n事由（详述） 关于本月22日《每日情报报告》第7段。\n\n呈报人：侦探督察长霍尔（Hall）。转呈人：A. 奥德怀尔（O'Dwyer），总督察。\n\n敬启者，\n\n在1931年3月22日下午，具名者侦探督察长霍尔巡视了第170区，特别是劳合路（Louza Street）。\n\n我未见到任何骚乱迹象，但窗户等处张贴了有关朝鲜人集会的告示。\n\n沿街的店铺似乎全部关闭，但经仔细查看，发现大多数商人保持相当安静，而一些据称已关闭的店铺，即在南京路和北京路上的店铺，却开着门，在装有百叶窗的店内秘密进行交易。\n\n500 A\n情报\nR. 霍尔\n\n簿册\n\nOc (S)\nSI,\n情报\n\n注册科 请归档 J.P.S.\nAR 24/4 24:7:31。",
+   "zh_tries": 1,
+   "zh_src": "9504d8d9a5739a58"
   },
   {
    "n": 1,
@@ -95,8 +97,8 @@
   "ocr_out_tokens": 2671,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-15 00:21:08",
-  "zh_in_tokens": 8711,
-  "zh_out_tokens": 49666,
+  "zh_in_tokens": 9267,
+  "zh_out_tokens": 49983,
   "zh_chunks": 1
  },
  "native_zh_pages": 0,

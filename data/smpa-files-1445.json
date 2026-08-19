@@ -53,7 +53,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1445/page/n4_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "他们不能借用那\n**〔此处转录不清〕**\n父亲，洪三庆（音译）\n**〔此处转录不清〕**\nth ... 与先施公司\n**〔此处转录不清〕**",
+   "zh_tries": 1,
+   "zh_src": "5ed50fa661533fff"
   },
   {
    "n": 5,
@@ -275,8 +277,8 @@
   "ocr_out_tokens": 10007,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-15 01:34:39",
-  "zh_in_tokens": 11104,
-  "zh_out_tokens": 8537,
+  "zh_in_tokens": 11380,
+  "zh_out_tokens": 8590,
   "zh_chunks": 4
  },
  "native_zh_pages": 0,

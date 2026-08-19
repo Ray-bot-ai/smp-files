@@ -25,7 +25,9 @@
    "en": "No. 2\n30\n\nSHANGHAI MUNICIPAL POLICE.\n\nREPORT\n\nFile No.\nSHANGHAI\nS.C. & I. Station.\nNo. S. B. D. 2407\nDate ____ 1, 7 1951.\n____ 22 - 5 - 31.\n\nSubject (in full) .I. ____ , Jol. ____ .\n\nMade by O.S. Prokofiev. Forwarded by ____ 1089.\n\nSir,\n\n〔此处转录不清〕\n\nx See\nD 195\n\nA. Prokofiev\n\nReg. Please file. Copies have\nbeen detached for the usual\nauthorities.\n\nJ.W.H.\n22:5:'51.",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-2822/page/n2_w2400.jpg",
-   "zh": ""
+   "zh": "第 2 号\n30\n\n上海公共租界工部局警务处。\n\n报告\n\n档案编号\n上海\nS.C. & I. 巡捕房。\n编号 S. B. D. 2407\n日期 ____ 1, 7 1951。\n____ 31 - 5 - 22。\n\n主题（全称）.I. ____ , Jol. ____ 。\n\n由 O.S. Prokofiev 编制。经由 ____ 1089 转呈。\n\n先生，\n\n〔此处转录不清〕\n\nx 参见\nD 195\n\nA. Prokofiev\n\n登记。请归档。副本已按惯例分送各主管当局。\n\nJ.W.H.\n1951年5月22日。",
+   "zh_tries": 1,
+   "zh_src": "2cf667a1ba651728"
   },
   {
    "n": 3,
@@ -44,8 +46,8 @@
   "ocr_out_tokens": 932,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-12 02:47:20",
-  "zh_in_tokens": 4624,
-  "zh_out_tokens": 48623,
+  "zh_in_tokens": 5026,
+  "zh_out_tokens": 48803,
   "zh_chunks": 1
  },
  "native_zh_pages": 0,

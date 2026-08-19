@@ -113,7 +113,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1327/page/n10_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "U. DCM 1-39\n上海公共租界工部局警务处。\n档案号 ____\n报告\n日期：1940年11月16日。\n主题 **〔此处转录不清〕**\n制作人：J.S.I. Raklaevsky 转呈人：J.L. Crawford。\n\n兹就上海义勇队指挥官 J.W. Hornby 上校所附来函，关于两名上海义勇队队员 M. Sokoloff 和 M. Rubinsky 的下落一事，经查，二人现居地址如下：\nM. Sokoloff - 贝加尔路（Baikal Road）旁120弄21号\nM. Rubinsky - 福元路（Fu Yuen Road）旁1315弄6号。\n\nJ.S.I.\n1940年\nJ.C.（特务股与刑事股）。",
+   "zh_tries": 1,
+   "zh_src": "8742445bd6c78220"
   }
  ],
  "pages_done": 11,
@@ -125,8 +127,8 @@
   "ocr_out_tokens": 2221,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-14 23:09:06",
-  "zh_in_tokens": 8210,
-  "zh_out_tokens": 49729,
+  "zh_in_tokens": 8638,
+  "zh_out_tokens": 49929,
   "zh_chunks": 1
  },
  "native_zh_pages": 0,

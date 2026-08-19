@@ -591,8 +591,10 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3482/page/n57_w2400.jpg",
    "via": "dashscope",
-   "zh": "",
-   "zh_partial": true
+   "zh": "冯将军\n据报\n被捕\n\n《东京日日新闻》称\n有人策划\n发动政变\n\n东京，5月10日电。——据《时事新报》驻香港记者报道，在其军阀生涯中起伏不定、曾在基督教与共产主义两极之间摇摆的冯玉祥将军，目前已被逮捕。\n\n冯玉祥将军\n\n报道声称，这位“基督将军”因被指控策划发动政变，已被蒋介石将军的“秘密警察”逮捕。\n该记者承认此消息尚未经任何证实，并称……\n〔此处转录不清〕\nS.2.",
+   "zh_partial": true,
+   "zh_tries": 1,
+   "zh_src": "d98aafec8d96dd02"
   },
   {
    "n": 58,
@@ -766,8 +768,8 @@
   "ocr_out_tokens": 22823,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-18 14:44:08",
-  "zh_in_tokens": 26521,
-  "zh_out_tokens": 40560,
+  "zh_in_tokens": 26933,
+  "zh_out_tokens": 40690,
   "zh_chunks": 8
  },
  "native_zh_pages": 2,

@@ -3234,7 +3234,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3287/page/n322_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "F./201\nT.H. 1000 8-31.\n(13)\n地点 - B-D 2331\n\n刑事与特别股登记处\n\n档案编号 10 5492/12\n\n事由：\n〔此处转录不清〕\n\n发送至\n姓名 | 日期\n| 1921年10月11日。",
+   "zh_tries": 1,
+   "zh_src": "db4eadb83b0e4829"
   },
   {
    "n": 323,
@@ -3243,7 +3245,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3287/page/n323_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "F. 201\nT.H. 1000-6-31.\n\n（批：14）\n\n刑事与特别处登记室\n\n档案编号 5492/14\n\n事由：\n〔此处转录不清〕\n等。\n\n发送至\n\n| 姓名 | 日期 |\n| :--- | :--- |\n| | 1931年9月10日 |\n| | |",
+   "zh_tries": 1,
+   "zh_src": "d5034226aae187cb"
   },
   {
    "n": 324,
@@ -3696,8 +3700,8 @@
   "ocr_out_tokens": 194657,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-16 14:08:10",
-  "zh_in_tokens": 217844,
-  "zh_out_tokens": 143642,
+  "zh_in_tokens": 218501,
+  "zh_out_tokens": 143842,
   "zh_chunks": 84
  },
  "native_zh_pages": 0,

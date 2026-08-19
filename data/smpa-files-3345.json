@@ -537,7 +537,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3345/page/n52_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "9\n\n**〔此处转录不清〕**\n\n1. **〔此处转录不清〕** 警司。\n2. **〔此处转录不清〕** 10rual dail **〔此处转录不清〕** peclou **〔此处转录不清〕**\n   1 o'cilt. Double y for u **〔此处转录不清〕** work **〔此处转录不清〕** ge.\n3. 增加 y **〔此处转录不清〕** coraine 如下，**〔此处转录不清〕**\n   - 月薪低于 20 元者，每月增加 6 元。\n   月薪为 **〔此处转录不清〕** 者，增加 4 元。\n4. **〔此处转录不清〕** 解雇工人于 **〔此处转录不清〕** 和 **〔此处转录不清〕** ipolay\n   **〔此处转录不清〕** 应予以复职。\n5. 或 **〔此处转录不清〕** 工时不应超过 10 小时，**〔此处转录不清〕** 童工\n   的工作时间不应超过\n   8 小时。用餐时停工一小时。\n6. 遇生育或结婚时，给予两个月全薪假期。\n7. 工厂内不得驻扎军队。\n8. 释放因参与抗日运动而被捕的工人。\n9. 管理层承认工会。\n\nLi n Fui Ziang (林辉祥（音译）) 金波 28岁。\nFoo Loong Poh (傅龙波（音译）) \" 28岁\nFrank Zac Koong (弗兰克·扎克·孔（音译）) \" 24岁。\nLi Ah Ng (李阿五（音译）) 上海 22岁。\nLoo Zai Dien (卢再典（音译）) Bureh（原文不清） 33岁。\nZac Koh Hou (扎克·寇厚（音译）) 宁波 23岁。\nTai Ah Hyl (戴阿希尔（音译）) 金波 25岁。",
+   "zh_tries": 1,
+   "zh_src": "e50f9b510c25a244"
   },
   {
    "n": 53,
@@ -778,8 +780,8 @@
   "ocr_out_tokens": 23835,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-17 06:33:29",
-  "zh_in_tokens": 28402,
-  "zh_out_tokens": 21336,
+  "zh_in_tokens": 29062,
+  "zh_out_tokens": 21802,
   "zh_chunks": 8
  },
  "native_zh_pages": 0,

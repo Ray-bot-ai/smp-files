@@ -13,7 +13,9 @@
    "image_url": "https://archive.org/download/smpa-files-173/page/n0_w2400.jpg",
    "tries": 1,
    "via": "dashscope",
-   "zh": ""
+   "zh": "第 301 页\nT.H. 1680-4-30。\n参见 10. 8760/94 及 95\n刑事侦缉处登记室\n档案编号 D 706。\n主题：\n〔此处转录不清〕\n发送至\n姓名 日期\n____ 30 年 6 月 6 日。",
+   "zh_tries": 1,
+   "zh_src": "049280a22ad63c74"
   }
  ],
  "pages_done": 1,
@@ -25,8 +27,8 @@
   "ocr_out_tokens": 112,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-15 15:30:02",
-  "zh_in_tokens": 344,
-  "zh_out_tokens": 121,
+  "zh_in_tokens": 663,
+  "zh_out_tokens": 216,
   "zh_chunks": 1
  },
  "native_zh_pages": 0,

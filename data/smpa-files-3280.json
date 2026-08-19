@@ -3490,8 +3490,10 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3280/page/n346_w2400.jpg",
    "via": "dashscope",
-   "zh": "",
-   "zh_partial": true
+   "zh": "**〔此处转录不清〕**\n\n费用总计 “ ”\n___\n\n此数字汇总了截至1947年4月1日收容的室内妇女等人员的总数，其中因损失或遣送至FSC（福建保安委员会/福建绥靖委员会）而离所者共计81人。有1人被转至大巴窑医院（Toa Payoh Hospital），表格已送达；另有6人被转至宏林区（Hong Lim District）的陈笃生医院（Tan Tock Seng Hospital）。",
+   "zh_partial": true,
+   "zh_tries": 1,
+   "zh_src": "57a5280363c57a00"
   },
   {
    "n": 347,
@@ -8355,8 +8357,8 @@
   "ocr_out_tokens": 280102,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-16 12:44:20",
-  "zh_in_tokens": 321108,
-  "zh_out_tokens": 275318,
+  "zh_in_tokens": 321445,
+  "zh_out_tokens": 275435,
   "zh_chunks": 79
  },
  "native_zh_pages": 0,

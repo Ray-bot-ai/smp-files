@@ -193,7 +193,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1317/page/n18_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "附录“A”\n\n〔此处转录不清〕\n\n控制清单第1号。\n\n| 姓名 | 数量 | 价格 | 备注 |\n| :--- | :--- | :--- | :--- |\n| （字迹不清） | 1 | $10 - | 已付 |\n| 同上 | 1 | $10 - | 已付 |\n| C.Y. Woo | 1 | $ 5- | 已付 |\n| （字迹不清） | 1 | $ 2- | 已付 |\n| 同上 | 1 | $ 2- | 已付 |",
+   "zh_tries": 1,
+   "zh_src": "08a10b745127bfa7"
   },
   {
    "n": 19,
@@ -265,8 +267,8 @@
   "ocr_out_tokens": 8540,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-14 23:05:51",
-  "zh_in_tokens": 9389,
-  "zh_out_tokens": 6972,
+  "zh_in_tokens": 9747,
+  "zh_out_tokens": 7115,
   "zh_chunks": 3
  },
  "native_zh_pages": 0,

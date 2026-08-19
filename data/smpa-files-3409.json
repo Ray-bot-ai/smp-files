@@ -436,7 +436,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3409/page/n41_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "F. 22 F\nSOM-8-35\n\n上海公共租界工部局警务处\n罪案日志。\n\n上海公共租界工部局警务处\n特别分部登记处\nC. D. 7051\n日期 1935年11月20日\n\n罪案登记号：—〔此处转录不清〕\n“D”分区。\n〔此处转录不清〕警察局。\n〔此处转录不清〕1935年。\n\n日志编号：—〔此处转录不清〕\n罪行性质：—〔此处转录不清〕\n\n| 每日调查开始及结束时间 | 〔此处转录不清〕 | 每日调查过程中走访的地点 | 〔此处转录不清〕 |\n| :--- | :--- | :--- | :--- |\n\n调查记录。\n\n〔此处转录不清〕\n\n1. R.\n1935年11月19日\n〔签名〕\n\n高级警探 i/ 〔此处转录不清〕\n“D”分区副主管。\n（特别分部）侦探长\n\n〔签名〕\nD. S. 12.",
+   "zh_tries": 1,
+   "zh_src": "8f75f0384f29b8a2"
   },
   {
    "n": 42,
@@ -1368,8 +1370,8 @@
   "ocr_out_tokens": 51474,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-17 23:45:13",
-  "zh_in_tokens": 58593,
-  "zh_out_tokens": 42347,
+  "zh_in_tokens": 59080,
+  "zh_out_tokens": 42598,
   "zh_chunks": 16
  },
  "native_zh_pages": 1,

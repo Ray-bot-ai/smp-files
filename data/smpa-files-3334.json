@@ -53,7 +53,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3334/page/n4_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "**〔此处转录不清〕**",
+   "zh_tries": 1,
+   "zh_src": "98a0a56aabe917af"
   },
   {
    "n": 5,
@@ -1805,8 +1807,8 @@
   "ocr_out_tokens": 89756,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-17 00:33:47",
-  "zh_in_tokens": 98479,
-  "zh_out_tokens": 62788,
+  "zh_in_tokens": 98719,
+  "zh_out_tokens": 62802,
   "zh_chunks": 34
  },
  "native_zh_pages": 1,

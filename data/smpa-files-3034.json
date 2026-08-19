@@ -224,7 +224,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3034/page/n21_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "14797\n\n〔此处转录不清〕\n\n向皇室。\n\n禁运令也出现在陆军和\n海军事务中，并且关于满洲已发布多项\n长期禁令。编辑们发现，石油和通讯\n是难以处理的敏感话题，而银行倒闭的\n新闻则以防引发金融恐慌为由遭到\n压制。通常不允许提及警方对共产主义者的\n搜捕行动，直到相关人员被正式\n起诉为止，而这可能要在逮捕后\n两三年才会发生。\n\n〔此处转录不清〕\n\n以影响\n外交问题上的\n政策，它们更有效地在\n\n〔此处转录不清〕",
+   "zh_tries": 1,
+   "zh_src": "5de39f2214464cec"
   },
   {
    "n": 22,
@@ -567,7 +569,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3034/page/n55_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "1931年5月19日情报报告摘录。\n---\n\n新闻检查员\n〔此处转录不清〕\n\n《申报》及其他本地报纸刊登如下报道：——\n鉴于已收到大北电报公司、大西电报公司及太平洋电报公司的复函，表示赞同交通部的命令，国际电报局于昨日派遣新闻检查官员进驻上述各公司办事处执行职务。\n\nD1. 罗斯（Ross）。\n请予调查并具报。\nHR. 19/5。",
+   "zh_tries": 1,
+   "zh_src": "6a756534ca344621"
   },
   {
    "n": 56,
@@ -648,7 +652,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3034/page/n63_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "（批：参阅\n已取消\n1941年5月19日。）\n\n**〔此处转录不清〕**\n\n《新闻报》及其他本地报纸刊登如下报道：——\n在收到大北、大东及太平洋电报公司回复，表示赞同交通部命令后，国际电报局于昨日派遣审查官员进驻上述各公司办事处执行职务。",
+   "zh_tries": 1,
+   "zh_src": "f1c73af611df635f"
   }
  ],
  "pages_done": 64,
@@ -660,8 +666,8 @@
   "ocr_out_tokens": 33959,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-16 06:40:43",
-  "zh_in_tokens": 42169,
-  "zh_out_tokens": 27000,
+  "zh_in_tokens": 43258,
+  "zh_out_tokens": 27337,
   "zh_chunks": 14
  },
  "native_zh_pages": 0,

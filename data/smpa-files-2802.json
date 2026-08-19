@@ -13,7 +13,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-2802/page/n0_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "第 201 页\nT.H. 1000-6-31。\n〔此处转录不清〕\n刑事与特别处登记室\n档案编号 D 3126\n事由：\n〔此处转录不清〕\n发送至\n| 姓名 | 日期 |\n| :--- | :--- |\n| | 1931 年 9 月 17 日 |\n| | |",
+   "zh_tries": 1,
+   "zh_src": "1bd119dd9406a262"
   }
  ],
  "pages_done": 1,
@@ -25,8 +27,8 @@
   "ocr_out_tokens": 114,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-16 03:23:15",
-  "zh_in_tokens": 346,
-  "zh_out_tokens": 121,
+  "zh_in_tokens": 672,
+  "zh_out_tokens": 223,
   "zh_chunks": 1
  },
  "native_zh_pages": 0,

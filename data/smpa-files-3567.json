@@ -1215,9 +1215,11 @@
    "en": "A. A letter to the teaching staff\nin the Kiangsu Province\n---------\nThe province of Kiangsu has long enjoyed\na good name in the field of education. This is\nundoubtedly due to the endeavours of all teachers in\nthis province. Following the outbreak of August 13\nhostilities, a number of them have departed for the South-\nWest with the result that schools had to be closed.\nHowever as the situation has gradually improved, teachers\nproceeded to Shanghai and reopened schools under the\nprotection of the neutrality of the foreign settlements,\nwith a view to enabling the students to continue their studies\nand on the other hand earning a living for themselves.\nThere have been splendid achievements\nboth spiritually and materially in the course of the\ndevelopment of the education scheme of the Kiangsu\nProvince during the past ten years under the guidance\nof Mr. Chow (Fu-hai) but the recent suspension of classes\nin this province was the direct result of the current\nhostilities for which the national government is to\nblame because she fought without first estimating her\nown strength.\nIt appears strange that you, being members\nof the intelligentsia, have opposed the \"Peace Movement\"\nwhich has been sponsored by Mr. Wang Ching Wei and\nplaced your confidence in foreign assistance.\nAt the present stage of hostilities, over\nten provinces have been lost and some one million soldiers\nkilled. The people become poorer and poorer while the\ngovernment's finances are exhausted; presenting an",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-3567/page/n172_w2400.jpg",
-   "zh": "",
+   "zh": "A. 致江苏省教职员的一封信\n---------\n江苏省在教育领域久享盛誉。这无疑归功于本省全体教师的努力。自“八·一三”战事爆发以来，部分教师已随校迁往西南，导致学校被迫关闭。然而，随着局势逐渐好转，教师们来到上海，在外国租界中立的庇护下重新开学，一方面使学生能够继续学业，另一方面也以此谋生。\n在过去十年间，江苏省的教育方案在周（佛海）先生的指导下取得了精神与物质方面的卓越成就，但本省近期停课的直接原因乃是当前的战事，对此国民政府难辞其咎，因其未先估量自身实力便贸然作战。\n令人诧异的是，你们身为知识界成员，竟反对汪精卫先生所倡导的“和平运动”，转而寄望于外国的援助。\n在目前战事阶段，已有十余个省份沦陷，约有一百万士兵阵亡。民众日益贫困，而政府财政已告枯竭；呈现出一种",
    "tries": 1,
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh_tries": 1,
+   "zh_src": "9309fc5cfb5e9f00"
   },
   {
    "n": 173,
@@ -1453,8 +1455,8 @@
   "ocr_out_tokens": 66966,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-12 12:29:22",
-  "zh_in_tokens": 72792,
-  "zh_out_tokens": 52224,
+  "zh_in_tokens": 73346,
+  "zh_out_tokens": 52439,
   "zh_chunks": 23
  },
  "native_zh_pages": 0,

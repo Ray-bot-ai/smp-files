@@ -93,7 +93,9 @@
    "image_url": "https://archive.org/download/smpa-files-1875/page/n8_w2400.jpg",
    "tries": 1,
    "via": "dashscope",
-   "zh": ""
+   "zh": "I.M.\nG. 90M 1-39\n\n上海公共租界工部局警务处。    档案号 ____\n第1科，____ 巡捕房。\n报告\n日期：193__年____月____日。\n\n事由：搜查静安寺路974号处所。\n\n制作人：D.J. McKeown    转呈人：副巡官 G. Crawford\n\n10月21日上午，就上述事项问询了法国巡捕 M. Jobez。\n他表示，建议由上海公共租界工部局警务处（S.M.P.）搜查该处所，并指出正确的程序如下：\n\n负责监视任务的两名警员应面见法国高等法院法官，并提供证据，证明据其所知，该处所内正在进行赌博活动。\n在上海公共租界工部局警务处指定的时间和日期，在签发必要搜查令后，上海公共租界工部局警务处即可搜查该处所；若发现赌博正在进行中，则应通知法官，以便进行视察。\n\n〔此处转录不清〕\n副巡官\n\n特别支部侦探长",
+   "zh_tries": 1,
+   "zh_src": "90297de709b67a50"
   },
   {
    "n": 9,
@@ -135,8 +137,8 @@
   "ocr_out_tokens": 3445,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-15 16:17:35",
-  "zh_in_tokens": 11339,
-  "zh_out_tokens": 51084,
+  "zh_in_tokens": 11818,
+  "zh_out_tokens": 51334,
   "zh_chunks": 1
  },
  "native_zh_pages": 0,

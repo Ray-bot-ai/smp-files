@@ -113,7 +113,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1462/page/n10_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "〔此处转录不清〕\n\n致我的约翰 经过 而你 我的 你\n已让作为 . . 的你是 ____ \n\n〔此处转录不清〕",
+   "zh_tries": 1,
+   "zh_src": "07eeae01a2eb322e"
   },
   {
    "n": 11,
@@ -165,8 +167,8 @@
   "ocr_out_tokens": 3037,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-15 01:42:23",
-  "zh_in_tokens": 11163,
-  "zh_out_tokens": 35052,
+  "zh_in_tokens": 11430,
+  "zh_out_tokens": 35093,
   "zh_chunks": 1
  },
  "native_zh_pages": 0,

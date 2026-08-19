@@ -347,8 +347,10 @@
    "en": "FM. L.D.1.\nREVISED. 9.31.\nG. 100 M. 8.34\n5 copies.\nCon with 6/.21118-20\nPolitical Section 5/11\nExtract of Proceedings in S. S. D. Court for 13/5/35. 19    F. I. R. No.    Stn. No. A 6104.\nReg. No. 6/21501    Stn. Yulih Rd.    Procurator    Judge\n\nSheet No.. 2.\n\nAccused    4/ Chang Tse Ling (    ) age 21. Student.\n\nAppl.\n**〔此处转录不清〕**\nof the\nin an unnumbered hut\nin the rear of 477 Holung Road, at 10.15 a.m. 15/5/35\nas there is reasonably cause to suspect him to be an\nactive member of the Chinese Communist party.\nS.M.C.\n\nProceedings\nMr. K : Kum appeared for the S.M.C.\nMr. Wong Zung Loong appeared for the accused.\n\nMr. Kum :- This accused is suspected being a member of\ncommunist. At 9.50 p.m. on 13/5/35 C.P.C.1464 on duty on Baikal Rd,\nwhere he arrested the 1st accused when he wrote communistic slogans\non walls with three others. Later the 1st accused led detectives\nto 477 Holung Road where the 2nd and 3rd accused were arrested.\nAll of them are detained in custody now. During the period of\nremand, detectives visited the above mentioned address, on entering\nthe premises, this accused (4th) was running inside the hut. A\nquantity of papers suspected as communistic literature seized in the\nhut. This accused is a teacher of that school and also admitted\nbeing concerned with the 1st 2nd & 3rd accused wrote slogans on the\nevening of 13th May 1935. He further stated that two weeks ago, the\n1st 2nd & 3rd accused and himself wrote slogans on a wall at the\nback of the Sacred Heart Hospital. Police visited the stated place\nand found the slogans which read ' Support the Red Army , 'Support\nthe Soviet Red Army ' etc. This accused is willing to give up\nthe communistic party.\n\nAccused (4th) :- I joined the communistic party in 1930. I\nacted as a secretary. On 13/5/35, 1st 2nd & 3rd accused and myself\nwrote slogans on a wall on Baikal Road. I do not remember when I\nwrote the slogans on the wall of the Sacred Heart Hospital. This\nbook is mine (produced by Mr. Kum). Now I am willing to give up\nthe communistic activities..\n\nDong Pan (representative of Shanghai P.S. Bureau):-",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-3393/page/n48_w2400.jpg",
-   "zh": "",
-   "zh_partial": true
+   "zh": "FM. L.D.1.\n修订版。9.31。\nG. 100 M. 8.34\n5 份副本。\n与 6/.21118-20 合并\n政治科 5/11\n1935年5月13日上海特区法院诉讼记录摘录。19    F. I. R. 编号    警局编号 A 6104。\n登记编号 6/21501    育麟路警局    检察官    法官\n\n页码 2。\n\n被告    4/ 张子陵（音译）年龄 21岁。学生。\n\n申请人\n**〔此处转录不清〕**\n的\n在霍龙路 477 号后方一间无门牌号的棚屋内，于 1935年5月15日上午 10:15\n因为有合理理由怀疑其为\n中国共产党活跃成员。\n工部局。\n\n诉讼程序\n金先生（Mr. K : Kum）代表工部局出庭。\n黄宗龙先生（Mr. Wong Zung Loong）代表被告出庭。\n\n金先生：- 该被告被怀疑为共产党成员。1935年5月13日晚上 9:50，警员 C.P.C.1464 在贝加尔路（Baikal Rd）执勤时，逮捕了正在与其他三人一起在墙上书写共产主义标语的第一被告。随后，第一被告带领侦探前往霍龙路 477 号，在那里逮捕了第二和第三被告。目前他们均被拘留羁押。在还押候审期间，侦探走访了上述地址，进入该处所时，发现本被告（第四被告）正跑进棚屋。在棚屋内查获了大量疑似共产主义文献的纸张。该被告是该校教师，并承认曾参与第一、第二及第三被告于 1935年5月13日晚书写标语的活动。他进一步陈述，两周前，第一、第二、第三被告及他本人在圣心医院后方的墙上书写了标语。警方前往所述地点，发现了写有“支持红军”、“支持苏联红军”等内容的标语。该被告表示愿意退出共产党。\n\n被告（第四被告）：- 我于 1930 年加入共产党。我担任秘书职务。1935年5月13日，第一、第二、第三被告及我本人在贝加尔路的一堵墙上书写了标语。我不记得何时在圣心医院的墙上书写了标语。这本书是我的（由金先生出示）。现在我愿意放弃共产主义活动。\n\n董潘（Dong Pan，上海警察局代表）：-",
+   "zh_partial": true,
+   "zh_tries": 1,
+   "zh_src": "98cd4978eee8e595"
   },
   {
    "n": 49,
@@ -607,8 +609,8 @@
   "ocr_out_tokens": 31093,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-12 00:04:48",
-  "zh_in_tokens": 44780,
-  "zh_out_tokens": 107096,
+  "zh_in_tokens": 45689,
+  "zh_out_tokens": 107680,
   "zh_chunks": 9
  },
  "native_zh_pages": 0,

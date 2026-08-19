@@ -11,7 +11,9 @@
    "en": "Form No. 2\nG. 25,000-1-32\n\nSHANGHAI MUNICIPAL POLICE.\nREPORT\n\n（印：SHANGHAI MUNICIPAL POLICE / C. & S. B. REGISTRY. / Special Branch S.B. Station: / No. D 3550. / Date April 23, 19 / Date 23/4/32）\n\nSubject (in full) Assistance to French Police.\n\nMade by _______________ Forwarded by D.S.I. by ent.\n\n〔此处转录不清〕\n\nD.S.I.\n\nS.I.,\nPlease pass file to the French Police who promised to give more definite information in a day or two.\n（签名）\n23.4.32",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-492/page/n0_w2400.jpg",
-   "zh": ""
+   "zh": "表格第2号\nG. 25,000-1-32\n\n上海公共租界工部局警务处。\n报告\n\n（印章：上海公共租界工部局警务处 / 刑事与特别股登记处 / 特别股 S.B. 分局：/ 编号 D 3550。/ 日期 19 年 4 月 23 日 / 日期 32年4月23日）\n\n事由（全称） 协助法国巡捕。\n\n由 ___ 制作 经录入由副督察长转发。\n\n〔此处转录不清〕\n\n副督察长。\n\n督察长，\n请将卷宗转交法国巡捕房，其曾承诺在一两天内提供更确切的情报。\n（签名）\n32年4月23日",
+   "zh_tries": 1,
+   "zh_src": "9033016fd3e909bf"
   },
   {
    "n": 1,
@@ -37,8 +39,8 @@
   "ocr_out_tokens": 1420,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-12 03:06:52",
-  "zh_in_tokens": 10113,
-  "zh_out_tokens": 36999,
+  "zh_in_tokens": 10511,
+  "zh_out_tokens": 37184,
   "zh_chunks": 1
  },
  "native_zh_pages": 0,
