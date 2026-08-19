@@ -23,6 +23,7 @@ import json
 import os
 import shutil
 import sys
+import time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import demo_run as D
@@ -58,14 +59,36 @@ def targets():
     return sorted(out)
 
 
-def fetch_chunk(chunk, workers=24):
-    """把这一批的影像拉全。返回成功页数。"""
+# archive.org 会限流。并发拉高时前几百页很快，持续几小时后开始大面积超时——
+# 实见连跑 16 小时后成功率掉到 0/182，而单线程 curl 仍能取到（只是慢到 5–8 秒一张）。
+# 所以并发要克制，且失败后要退让重试，而不是当场判这一页取不到。
+DL_WORKERS = 8
+
+
+def ts():
+    return time.strftime("%H:%M:%S")
+
+
+def fetch_chunk(chunk, workers=DL_WORKERS, rounds=3):
+    """把这一批的影像拉全。失败的退让后重试若干轮。返回 (成功页数, 总页数)。"""
     jobs = [(iid, n) for iid, pages in chunk for n in range(pages)]
-    ok = 0
-    with cf.ThreadPoolExecutor(workers) as ex:
-        for p, _cached in ex.map(lambda a: download(*a), jobs):
-            if p:
-                ok += 1
+    print(f"    {ts()} ↓开始取图 {len(jobs)} 页（后台）", flush=True)
+    todo, ok = jobs, 0
+    for r in range(rounds):
+        got = []
+        with cf.ThreadPoolExecutor(workers) as ex:
+            for job, (p, _cached) in zip(todo, ex.map(lambda a: download(*a), todo)):
+                (got if p else []).append(job)
+                if p:
+                    ok += 1
+        todo = [j for j in todo if j not in set(got)]
+        if not todo:
+            break
+        if r < rounds - 1:
+            wait = 30 * (r + 1)
+            print(f"    取图还差 {len(todo)} 页，等 {wait}s 再试（archive.org 限流）", flush=True)
+            time.sleep(wait)
+    print(f"    {ts()} ↓取图结束 {ok}/{len(jobs)}", flush=True)
     return ok, len(jobs)
 
 
@@ -176,9 +199,22 @@ def repair(ocr_workers=12):
     print(f"可修复的失败页：{npg} 页，分布在 {len(todo)} 件")
     if not npg:
         return
+    # 用与主流程同一套取图逻辑：并发克制 + 失败退让重试。
+    # 这里正是补限流受害页的，再用高并发只会重蹈覆辙。
     jobs = [(iid, n) for iid, ns in todo.items() for n in ns]
-    with cf.ThreadPoolExecutor(16) as ex:
-        got = sum(1 for p_, _ in ex.map(lambda a: download(*a), jobs) if p_)
+    todo_jobs, got = jobs, 0
+    for r in range(4):
+        okj = []
+        with cf.ThreadPoolExecutor(DL_WORKERS) as ex:
+            for job, (p_, _c) in zip(todo_jobs, ex.map(lambda a: download(*a), todo_jobs)):
+                if p_:
+                    okj.append(job); got += 1
+        todo_jobs = [j for j in todo_jobs if j not in set(okj)]
+        print(f"  取图第 {r+1} 轮：累计 {got}/{len(jobs)}，还差 {len(todo_jobs)}", flush=True)
+        if not todo_jobs:
+            break
+        if r < 3:
+            time.sleep(30 * (r + 1))
     print(f"重新取图 {got}/{len(jobs)}")
     D.DEMO = sorted(todo)
     D.run_ocr(workers=ocr_workers)
@@ -195,19 +231,41 @@ def main(chunk_size, keep, ocr_workers, max_chunks=0):
     todo = targets()
     print(f"待处理 {len(todo)} 件 / {sum(p for _, p in todo):,} 页")
     qual = load_qual()
-    nchunk = 0
-    for i in range(0, len(todo), chunk_size):
-        if max_chunks and nchunk >= max_chunks:
-            print(f"\n已达 --max-chunks {max_chunks}，停在这里（其余未动）")
-            break
-        nchunk += 1
-        chunk = todo[i:i + chunk_size]
-        tag = f"[{i // chunk_size + 1}/{(len(todo) + chunk_size - 1) // chunk_size}]"
-        print(f"\n{tag} {len(chunk)} 件 / {sum(p for _, p in chunk):,} 页")
+    chunks = [todo[i:i + chunk_size] for i in range(0, len(todo), chunk_size)]
+    if max_chunks:
+        chunks = chunks[:max_chunks]
+        print(f"（只跑前 {max_chunks} 批）")
 
-        ok, tot = fetch_chunk(chunk)
+    # 取图与转录/翻译**并行**：取图打的是 archive.org，转录翻译打的是百炼，
+    # 两边是完全独立的资源，串行等于各自空等一半时间。
+    # 所以在处理第 N 批的同时，后台把第 N+1 批的影像先取回来。
+    # 只预取一批，不再多——预取太多会同时占盘，也会把 archive.org 压出限流。
+    prefetch = cf.ThreadPoolExecutor(1, thread_name_prefix="prefetch")
+    fut = prefetch.submit(fetch_chunk, chunks[0]) if chunks else None
+
+    for ci, chunk in enumerate(chunks):
+        tag = f"[{ci + 1}/{len(chunks)}]"
+        print(f"\n{tag} {ts()} {len(chunk)} 件 / {sum(p for _, p in chunk):,} 页")
+
+        ok, tot = fut.result()
+        # 本批图已到手，立刻让下一批开始下载，与下面的转录/翻译同时进行
+        fut = (prefetch.submit(fetch_chunk, chunks[ci + 1])
+               if ci + 1 < len(chunks) else None)
         print(f"{tag} 取图 {ok}/{tot}")
+        # 整批几乎全取不到 = archive.org 在限流，不是这些页本身有问题。
+        # 这时**必须停机**：继续跑只会把一批批页面标成「取图失败」并当作完成，
+        # 而 tries 一旦记满就不再重试——实见这样连烧 20 批、3,425 页。
+        if tot and ok / tot < 0.5:
+            print(f"\n{tag} ⚠ 取图成功率仅 {ok}/{tot}（{ok/tot*100:.0f}%），"
+                  f"判定为 archive.org 限流而非页面问题。**停机**，不再往下跑。\n"
+                  f"   等一段时间后重跑即可（已完成的会自动跳过）；\n"
+                  f"   之前被误标为取图失败的页，用 --repair 补回来。")
+            if fut:
+                fut.cancel()
+            prefetch.shutdown(wait=False, cancel_futures=True)
+            return
 
+        print(f"    {ts()} ▶开始转录", flush=True)
         D.DEMO = [iid for iid, _ in chunk]
         D.run_ocr(workers=ocr_workers)
 
@@ -222,6 +280,7 @@ def main(chunk_size, keep, ocr_workers, max_chunks=0):
             D.DEMO = sorted({iid for iid, _ in miss})
             D.run_ocr(workers=ocr_workers)
 
+        print(f"    {ts()} ▶开始翻译", flush=True)
         D.DEMO = [iid for iid, _ in chunk]
         D.run_translate()
 
@@ -238,6 +297,7 @@ def main(chunk_size, keep, ocr_workers, max_chunks=0):
             print(f"{tag} 已验证 {len(done)}/{len(chunk)} 件，删影像释放 {freed/2**30:.2f} GB")
         if stuck:
             print(f"{tag} ⚠ 未通过验证、影像保留：{stuck}")
+    prefetch.shutdown(wait=True)
     print("\n全部批次结束")
     D.stat()
 
