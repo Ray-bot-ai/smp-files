@@ -137,8 +137,22 @@ def call(messages, max_tokens=8000, deadline=600, base=None, key=None, model=Non
 
     base/key/model：留给备用端点用（内容审查拒稿时换一家重试），不传就走百炼。
     """
-    body = {"model": model or MODEL, "enable_thinking": False, "temperature": 0,
+    # 关思考的参数各家不一样。主端点(qwen) 用 enable_thinking:false，已验证有效
+    # （全库 2,956 件无备用端点页的，reasoning 全部为 0）。
+    body = {"model": model or MODEL, "temperature": 0,
             "max_tokens": max_tokens, "messages": messages}
+    if base and base != BASE:
+        # 备用端点（link3.top / gemini-3-flash-preview）**关不掉思考**。
+        # 实测八种写法全部无效，reasoning 恒在 190 左右：
+        #   enable_thinking:false / reasoning_effort:none|low / thinking:{type:disabled}
+        #   / thinking_budget:0 / generationConfig.thinkingConfig / extra_body.google.*
+        # 不是参数写错，是这个端点没提供开关。所以不塞无用参数假装修好了——
+        # 改为**限制它的使用量**：它只在主端点被内容审查拒稿时才用，
+        # 全库 81,026 页里只走了 108 页（0.13%），代价可控且有记录。
+        # 若哪天备用端点用量明显上升，要先回来看这条。
+        pass
+    else:
+        body["enable_thinking"] = False                         # 百炼 qwen
     req = urllib.request.Request(f"{base or BASE}/chat/completions",
                                  data=json.dumps(body).encode(),
                                  headers={"Authorization": f"Bearer {key or KEY}",
