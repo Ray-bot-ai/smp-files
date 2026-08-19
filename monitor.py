@@ -29,9 +29,20 @@ LOG = "/tmp/smp-run.log"
 
 
 def procs():
+    """真正在写 data/ 的流水线进程。
+
+    **必须排掉只读调用**：`run_chunked.py --stat` 只是查进度、不写任何东西，
+    但命令行长得跟跑批一模一样。不排掉的话，人在旁边查一次进度，监控就会报
+    「⛔ 有 2 个 run_chunked 同时在跑，需杀掉多余的」——而这是本工具最凶的一条
+    警告，照着做会把真在跑的批杀掉。实见 08-19 误报一次。
+    （`--repair` 不排：它确实会写 data/，与跑批并行确实是冲突。）
+    """
     out = subprocess.run(["ps", "-eo", "pid,ppid,etime,command"],
                          capture_output=True, text=True).stdout.splitlines()
-    keep = [l for l in out if re.search(r"(run_chunked|fill_zh)\.py", l) and "grep" not in l]
+    keep = [l for l in out
+            if re.search(r"(run_chunked|fill_zh)\.py", l)
+            and "grep" not in l
+            and "--stat" not in l]
     return keep
 
 
