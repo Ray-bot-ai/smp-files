@@ -11,3 +11,4 @@ corpus_v1.json
 *.docx
 imgqual.json
 images_rotated/
+对比_*.html
