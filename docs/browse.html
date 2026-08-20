@@ -34,11 +34,22 @@
   <p class="hint">
     <label style="font-family:var(--label);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;cursor:pointer">
       <input type="checkbox" id="onlydone"> 只看已转录 · transcribed only</label>
+    &nbsp;&nbsp;年份 years
+    <input id="y1" type="number" placeholder="1894" style="width:5.2rem">–<input id="y2" type="number" placeholder="1949" style="width:5.2rem">
+    <button id="yclear" style="border:1px solid var(--rule);background:var(--card);
+      font:400 .82rem var(--serif);padding:.15rem .5rem;border-radius:2px;cursor:pointer">清除</button>
     &nbsp;&nbsp;<span id="count" class="muted"></span>
   </p>
+  <div class="beta" id="ynote" style="display:none"><b>关于年份：</b>年份是从转录正文里抽出来的
+    （题名里的年份权重更高），<b>是线索不是事实</b>——实测约 85% 与题名年份完全吻合、88% 相差不超过一年，
+    数字恰恰是机器转录最容易出错的一类。另有 <b id="nun">—</b> 件没有年份标签，
+    <b>一旦按年份筛选就会被整体排除</b>。要确定某件的年代，请打开原件影像核对。
+    <span class="en">Years are extracted from the transcribed text — a finding aid, not a fact.
+    Files without a year tag are excluded whenever a year filter is applied.</span></div>
 
   <table class="tbl">
     <thead><tr><th style="width:2rem"></th><th>标题 Title</th>
+      <th style="width:7rem">年份 Years</th>
       <th style="width:5rem">系列</th><th style="width:5rem" class="num">页数</th></tr></thead>
     <tbody id="rows"></tbody>
   </table>
@@ -50,7 +61,7 @@
   <span>扫描：Virtual Shanghai / bnAsie via Internet Archive</span>
 </div></footer>
 
-<script src="assets/search.js?v=7"></script>
+<script src="assets/search.js?v=8"></script>
 <script>
 const $ = s => document.querySelector(s);
 let ITEMS = [], shown = 0, cur = [];
@@ -62,16 +73,38 @@ function render(reset) {
   $('#rows').insertAdjacentHTML('beforeend', slice.map(x => `
     <tr><td>${x.d ? '<span class="done" title="已转录 transcribed"></span>' : '<span class="todo" title="未转录 not yet"></span>'}</td>
       <td>${x.d ? `<a href="file.html?id=${x.i}">${x.t}</a>` : x.t}</td>
+      <td class="muted" title="${x.y ? '抽自转录正文，仅作线索：' + x.y.join(', ') : '无年份标签'}">${yrLabel(x)}</td>
       <td class="muted">${x.s || '—'}</td>
       <td class="num">${x.p}</td></tr>`).join(''));
   shown += slice.length;
   $('#more').textContent = shown < cur.length ? `显示 showing ${shown} / ${cur.length}，向下滚动继续 scroll for more…` : `共 ${cur.length} 件 files`;
 }
 
+function yrLabel(x) {
+  if (!x.y || !x.y.length) return '<span style="opacity:.4">—</span>';
+  if (x.y.length === 1) return x.y[0];
+  const lo = x.y[0], hi = x.y[x.y.length - 1];
+  return lo === hi ? lo : `${lo}–${hi}`;
+}
+
 function apply() {
   const q = $('#q').value.trim().toLowerCase();
   const only = $('#onlydone').checked;
-  cur = ITEMS.filter(x => (!only || x.d) && (!q || x.t.toLowerCase().includes(q)));
+  const y1 = parseInt($('#y1').value, 10), y2 = parseInt($('#y2').value, 10);
+  const useY = !Number.isNaN(y1) || !Number.isNaN(y2);
+  const lo = Number.isNaN(y1) ? -Infinity : y1, hi = Number.isNaN(y2) ? Infinity : y2;
+  let excluded = 0;
+  cur = ITEMS.filter(x => {
+    if (only && !x.d) return false;
+    if (q && !x.t.toLowerCase().includes(q)) return false;
+    if (!useY) return true;
+    // 没有年份标签的件，一旦筛年份就必然被排除——这一点必须显式告诉用户，
+    // 否则「筛完只剩这些」会被当成「这一年只有这些」。
+    if (!x.y || !x.y.length) { excluded++; return false; }
+    return x.y.some(y => y >= lo && y <= hi);
+  });
+  $('#ynote').style.display = useY ? '' : 'none';
+  $('#nun').textContent = excluded.toLocaleString();
   $('#count').textContent = `${cur.length.toLocaleString()} 件 files / ${cur.reduce((a,b)=>a+b.p,0).toLocaleString()} 页 pages`;
   render(true);
 }
@@ -90,6 +123,9 @@ function apply() {
   });
   $('#q').addEventListener('input', apply);
   $('#onlydone').addEventListener('change', apply);
+  $('#y1').addEventListener('input', apply);
+  $('#y2').addEventListener('input', apply);
+  $('#yclear').addEventListener('click', () => { $('#y1').value = ''; $('#y2').value = ''; apply(); });
 })();
 </script>
 </body>

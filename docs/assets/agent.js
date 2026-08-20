@@ -101,6 +101,13 @@ const SYS_PROMPT = `你是上海公共租界工部局警务处档案（Shanghai 
 - \`## 判断\` —— 从这些档案里能看出什么、有什么局限、还能往哪里查。
 - 若命中很少，直接说明并给出建议的替代检索词，不要硬凑。
 
+关于**年份标签**：检索结果里的 \`years\` 是从转录正文抽出来的（题名里的年份权重更高），
+实测约 85% 与题名年份完全吻合、88% 相差不超过一年。**它是线索，不是事实。**
+- 可以用 year / year_from / year_to 收窄范围，也可以在结果里参考年份排时序；
+- **不可**据此断言「某件属于某年」，也不可说「某年只有这几件」——
+  约 8% 的卷宗没有年份标签，一旦筛年份就会被整体排除；
+- 在给用户的总结里凡是提到年份，都要注明这是从 OCR 抽的、需回原件核对。
+
 注意：本站转录由大模型生成，**人名、数字、日期不可靠**。你在总结里引用具体人名或数字时，
 必须提醒用户回原件影像核对。`;
 
@@ -110,7 +117,12 @@ const TOOL_DEF = [{
     name: "search_archive",
     description:
       "在已转录的工部局警务处档案全文中做**布尔检索**，三个条件都在同一页上判定。" +
-      "返回：total_pages/total_files 命中总量；files 全部命中卷宗；samples 若干件的原文摘录。",
+      "返回：total_pages/total_files 命中总量；files 全部命中卷宗；samples 若干件的原文摘录。" +
+      "结果里的 years 是**从 OCR 正文抽出的年份标签**（题名里的年份权重更高）——" +
+      "实测约 85% 与题名年份完全吻合、88% 相差不超过一年，**是线索不是事实**，" +
+      "不可据以断言某件属于某年，要确定日期须回原件影像。" +
+      "可用 year / year_from / year_to 缩小范围；但**约 8% 的卷宗没有年份标签，一筛就会被排除**，" +
+      "所以年份筛选适合用来收窄，不适合用来断言「某年只有这些」。",
     parameters: {
       type: "object",
       properties: {
@@ -123,7 +135,10 @@ const TOOL_DEF = [{
                  "因此匹配不到 \"private school\"。所以务必同时放入裸词（school / worker / mill）。" },
         none: { type: "array", items: { type: "string" },
                 description: "NOT：出现任一项就排除该页。用来滤掉已知的干扰义。" },
-        limit: { type: "integer", description: "返回多少条摘录。证据不够就调大，没有硬上限。" }
+        limit: { type: "integer", description: "返回多少条摘录。证据不够就调大，没有硬上限。" },
+        year: { type: "integer", description: "只要这一年的卷宗。" },
+        year_from: { type: "integer", description: "年份下限（含）。与 year_to 合用表示区间。" },
+        year_to: { type: "integer", description: "年份上限（含）。" }
       }
     }
   }
@@ -168,8 +183,52 @@ async function catMeta(id) {
 /* 工具实现：调用本站已有的检索索引。
    返回 {res, all}：res 给模型（摘录限量），all 给界面（命中卷宗一件不漏）。
    题名取自 catalog.json，所以列全部不需要逐件 fetch 详情。 */
+/* 模型经常**把整包参数塞进某一个字段**，而不是平铺在顶层。实见一次调用变成
+     {"query": {"any":[...15个同义词...], "all":["wireless"], "limit":20}}
+   下面 A() 遇到对象会 JSON.stringify，于是整包 JSON 被当成一个检索词，
+   界面上显示成 `+{"any":[...],"all":["wireless"],"limit":20}`，**零命中且不报错**。
+   「宽进」本来是为了容错，这里却把一次结构写歪、本可救回的调用变成了垃圾查询。
+
+   所以先做一次「拆包」：任何位置上出现的、看起来就是本工具参数的对象/JSON 字符串，
+   一律摊平合并到顶层，而不是硬转成字符串。 */
+const ARG_KEYS = ["query", "all", "any", "none", "limit", "year", "year_from", "year_to"];
+
+function looksLikeArgs(o) {
+  return o && typeof o === "object" && !Array.isArray(o) &&
+         Object.keys(o).some(k => ARG_KEYS.includes(k));
+}
+
+function unwrapArgs(args, depth = 0) {
+  if (typeof args === "string") {                 // 双重编码：整包又被 JSON 串了一遍
+    try { args = JSON.parse(args); } catch { return { query: args }; }
+  }
+  if (!args || typeof args !== "object" || Array.isArray(args)) return {};
+  if (depth > 3) return args;
+  const out = {};
+  for (const [k, v] of Object.entries(args)) {
+    let val = v;
+    if (typeof val === "string") {
+      const t = val.trim();
+      if (t.startsWith("{") && t.endsWith("}")) {  // 字段值是 JSON 字符串
+        try { const o = JSON.parse(t); if (looksLikeArgs(o)) val = o; } catch {}
+      }
+    }
+    if (looksLikeArgs(val)) {                      // 嵌套了一整包参数 → 摊平
+      const inner = unwrapArgs(val, depth + 1);
+      for (const [ik, iv] of Object.entries(inner)) {
+        if (out[ik] === undefined) out[ik] = iv;
+        else if (Array.isArray(out[ik]) || Array.isArray(iv))
+          out[ik] = [].concat(out[ik], iv);
+      }
+      continue;
+    }
+    if (out[k] === undefined) out[k] = val;
+  }
+  return out;
+}
+
 async function toolSearch(args) {
-  args = (args && typeof args === "object") ? args : {};
+  args = unwrapArgs(args);
   const wantSamples = Number(args.limit) > 0 ? Number(args.limit) : CAP.samples;  // 0 = 不限
   /* 参数一律按「可能是任何形状」处理。模型经常不照签名传：
      query 给成数组、all 给成字符串、数字当字符串……
@@ -208,6 +267,29 @@ async function toolSearch(args) {
     const r = await search(qs[0]);
     hits = r.hits; toks = r.toks; label = qs[0];
   }
+  /* 年份筛选。年份标签**来自 OCR，是线索不是事实**（数字正是模型最易错的一类），
+     所以这里只用来缩小范围，且必须把「筛掉了多少、多少件没有年份标签」如实回给模型，
+     否则它会把「筛完只剩 3 件」当成「这个年份只有 3 件」。 */
+  const yFrom = Number(args.year_from) || Number(args.year) || 0;
+  const yTo = Number(args.year_to) || Number(args.year) || 0;
+  let yInfo = null;
+  if (yFrom || yTo) {
+    const lo = yFrom || -Infinity, hi = yTo || Infinity;
+    const before = hits.length;
+    let untagged = 0;
+    const kept = [];
+    for (const h of hits) {
+      const m = await catMeta(h.doc);
+      const ys = m.y || [];
+      if (!ys.length) { untagged++; continue; }
+      if (ys.some(y => y >= lo && y <= hi)) kept.push(h);
+    }
+    hits = kept;
+    yInfo = { applied: `${yFrom || "…"}–${yTo || "…"}`, files_before: before,
+              files_after: hits.length, files_without_year_tag_excluded: untagged,
+              caveat: "年份标签来自 OCR，可能有误，只作线索；被排除的件不等于与该年无关。" };
+  }
+
   const nPages = hits.reduce((a, h) => a + h.pages.length, 0);
 
   // 摘要高亮用哪个词：布尔检索时 query 可能为空，取条件里第一个实词
@@ -219,7 +301,8 @@ async function toolSearch(args) {
     const m = await catMeta(h.doc);
     allFiles.push({
       file: m.t || h.doc, doc_id: h.doc, series: m.s || "",
-      pages_matched: h.pages.length, first_page: h.pages[0] + 1
+      pages_matched: h.pages.length, first_page: h.pages[0] + 1,
+      ...(m.y ? { years: m.y, year_main: m.ym } : {})
     });
   }
 
@@ -231,10 +314,12 @@ async function toolSearch(args) {
     const n = h.pages[0];
     const pg = byN[n] || {};
     const src = hasMatch(pg.en, hlq) ? pg.en : (pg.zh || pg.en);
+    const cm = await catMeta(h.doc);
     samples.push({
       file: d.t, doc_id: h.doc, series: d.s,
       pages_matched: h.pages.length,
       first_page: n + 1,
+      ...(cm.y ? { years: cm.y } : {}),
       excerpt: (snippet(src, hlq, 260) || "").replace(/<\/?mark>/g, "")
     });
   }
@@ -244,8 +329,10 @@ async function toolSearch(args) {
     samples,
     // 名单比摘录便宜得多，所以模型能看到的卷宗数远多于摘录数
     files: (CAP.files > 0 ? allFiles.slice(0, CAP.files) : allFiles)
-             .map(f => ({ file: f.file, pages_matched: f.pages_matched }))
+             .map(f => ({ file: f.file, pages_matched: f.pages_matched,
+                          ...(f.years ? { years: f.years } : {}) }))
   };
+  if (yInfo) res.year_filter = yInfo;
   if (CAP.files > 0 && allFiles.length > CAP.files) {
     res.files_note = `命中 ${allFiles.length} 件，此处只列前 ${CAP.files} 件（按命中页数降序）。`;
   }

@@ -35,6 +35,14 @@
     <input id="q" placeholder="Russian ｜ mill | factory -communist ｜ school mill" autofocus>
     <button id="go">Search</button>
   </div>
+  <p class="hint" style="margin-bottom:.7rem">
+    <b>年份 Years ·</b>
+    <input id="y1" type="number" placeholder="1894" style="width:5.4rem">–<input id="y2" type="number" placeholder="1949" style="width:5.4rem">
+    <button id="yclear" style="border:1px solid var(--rule);background:var(--card);
+      font:400 .82rem var(--serif);padding:.15rem .55rem;border-radius:2px;cursor:pointer">清除</button>
+    <span class="muted">留空 = 不限。可只填一头。年份<b>是线索不是事实</b>，说明见下。
+      Leave blank for no limit; a year filter is a finding aid, not a fact.</span>
+  </p>
   <p class="hint">
     <b>AND / OR / NOT ·</b>
     空格 = 都要有 <span class="muted">(space = all of them)</span>；
@@ -79,7 +87,12 @@
       body search covers transcribed pages only; title search covers the whole catalogue.
     <br>⑥ 全部命中<b>无上限</b>展示 · all hits are displayed, no caps.
     <br>⑦ 结果<b>每页 50 件</b>分页呈现，<b>只是分页、不是上限</b>——所有命中都在，翻页即可，件数与页数都写在分页器上。为避免全库规模下卡死，摘要只为当前页这 50 件载入。<span class="muted">Results are paginated at 50 files per page — pagination, not a cap; snippets load for the current page only.</span>
-    <br>⑧ 单件命中超过 43 页时，其余页码<b>默认收起</b>（点开仍全部列出）。<span class="muted">Per-file page lists collapse beyond ~43 hits; all remain listed when expanded.</span>
+    <br>⑧ <b>年份筛选</b>：年份抽自转录正文（题名年份权重更高），约 <b>91.7%</b> 的卷宗有标签。
+      留出题名做独立参照实测：约 <b>85%</b> 完全吻合、<b>88%</b> 相差不超过一年。
+      <b>是线索不是事实</b>；<b>没有标签的卷宗一旦启用年份筛选就会被整体排除</b>，筛选后会明示排除了多少件。
+      <span class="muted">Years are extracted from the transcribed text; ~91.7% of files carry a tag.
+      A finding aid, not a fact — untagged files drop out whenever a year filter is on.</span>
+    <br>⑨ 单件命中超过 43 页时，其余页码<b>默认收起</b>（点开仍全部列出）。<span class="muted">Per-file page lists collapse beyond ~43 hits; all remain listed when expanded.</span>
   </p>
 
   <div id="meta" class="spin">正在载入索引…</div>
@@ -91,7 +104,7 @@
   <span class="zh">Machine-generated transcription — verify against the original scan before citing.</span>
 </div></footer>
 
-<script src="assets/search.js?v=7"></script>
+<script src="assets/search.js?v=8"></script>
 <script>
 const $ = s => document.querySelector(s);
 let CAT = null;
@@ -145,7 +158,8 @@ async function run() {
     parseAndSearch(q),
     titleSearch(parseQuery(q))
   ]);
-  const { toks, hits } = body;
+  const { toks } = body;
+  let { hits } = body;          // 年份筛选会重新赋值
   const ms = Math.round(performance.now() - t0);
   const thtml = titleHitHtml(q, tits);
   // 有词因「太常见」被跳过时必须明说。静默跳过 = 用户以为搜的是 A，实际搜的是 B。
@@ -176,8 +190,41 @@ async function run() {
     bindExamples($('#res'));
     return;
   }
+  /* 年份筛选。年份标签来自 OCR，只用来收窄范围。
+     **没有年份标签的件一筛就会整体消失**，这一点必须显式告诉用户，
+     否则「筛完只剩这些」会被误当成「这一年只有这些」——又一次静默限制。 */
+  const yf1 = parseInt($('#y1').value, 10), yf2 = parseInt($('#y2').value, 10);
+  const useY = !Number.isNaN(yf1) || !Number.isNaN(yf2);
+  let yHtml = '';
+  if (useY) {
+    const lo = Number.isNaN(yf1) ? -Infinity : yf1, hi = Number.isNaN(yf2) ? Infinity : yf2;
+    const byId2 = new Map(CAT.items.map(x => [x.i, x]));
+    const before = hits.length;
+    let noTag = 0;
+    hits = hits.filter(h => {
+      const ci = byId2.get(h.doc);
+      const ys = ci && ci.y;
+      if (!ys || !ys.length) { noTag++; return false; }
+      return ys.some(y => y >= lo && y <= hi);
+    });
+    yHtml = `<div class="beta"><b>已按年份筛选</b>
+      ${Number.isNaN(yf1) ? '…' : yf1}–${Number.isNaN(yf2) ? '…' : yf2}：
+      命中从 <b>${fmt(before)}</b> 件收窄到 <b>${fmt(hits.length)}</b> 件，
+      其中 <b>${fmt(noTag)}</b> 件因<b>没有年份标签</b>被排除（不代表与该年无关）。
+      年份是从转录正文抽出的，实测约 85% 与题名年份完全吻合、88% 相差不超过一年，
+      <b>只作线索，要确定年代请看原件影像</b>。
+      <span class="en">Year filter applied; files without a year tag are excluded.
+      Years are OCR-derived — a finding aid, not a fact.</span></div>`;
+    if (!hits.length) {
+      $('#res').innerHTML = skipHtml + yHtml +
+        `<p class="spin">这个年份区间内没有命中。去掉年份限制再试，或放宽区间。</p>` + thtml;
+      bindExamples($('#res'));
+      return;
+    }
+  }
+
   const npages = hits.reduce((a, h) => a + h.pages.length, 0);
-  let html = skipHtml + `<p class="hint">正文命中 <b>${fmt(npages)}</b> 页 pages，分布在 <b>${hits.length}</b> 件卷宗 files（${ms} ms）</p>`;
+  let html = skipHtml + yHtml + `<p class="hint">正文命中 <b>${fmt(npages)}</b> 页 pages，分布在 <b>${hits.length}</b> 件卷宗 files（${ms} ms）</p>`;
   if (tits.length) {
     html += `<p class="hint">另有 <b>${fmt(tits.length)}</b> 件卷宗的<b>标题</b>命中（见下方「标题命中」区，含未转录卷宗）</p>`;
   }
@@ -238,7 +285,8 @@ async function run() {
           : `<div class="morepg">其余 <b>${fmt(rest.length)}</b> 页命中，全部可点：${rest.map(pglink).join(' ')}</div>`);
       rowsHtml += `<div class="it" data-k="${k}">
         <div class="ti"><a href="file.html?id=${h.doc}&q=${encodeURIComponent(q)}">${esc2(ci.t || h.doc)}</a></div>
-        <div class="mt">${ci.s ? esc2(ci.s) + ' 系列 series · ' : ''}${ci.p ?? '?'} 页 pages · 命中 ${fmt(h.pages.length)} 页 matched</div>
+        <div class="mt">${ci.s ? esc2(ci.s) + ' 系列 series · ' : ''}${ci.p ?? '?'} 页 pages · 命中 ${fmt(h.pages.length)} 页 matched${
+          ci.y && ci.y.length ? ` · <span title="抽自转录正文，仅作线索：${ci.y.join(', ')}">年份 ${ci.y.length > 1 ? ci.y[0] + '–' + ci.y[ci.y.length - 1] : ci.y[0]}</span>` : ''}</div>
         ${first3.map(n => `<span class="snk" data-k="${k}" data-n="${n}">${pglink(n)}</span>`).join('')}
         ${restHtml}</div>`;
     });
@@ -298,6 +346,8 @@ async function run() {
 
 $('#go').onclick = run;
 $('#q').addEventListener('keydown', e => { if (e.key === 'Enter') run(); });
+for (const id of ['y1', 'y2']) $('#' + id).addEventListener('change', () => { if ($('#q').value.trim()) run(); });
+$('#yclear').onclick = () => { $('#y1').value = ''; $('#y2').value = ''; if ($('#q').value.trim()) run(); };
 function bindExamples(root) {
   (root || document).querySelectorAll('code[data-q]').forEach(c =>
     c.onclick = () => { $('#q').value = c.dataset.q; run(); });

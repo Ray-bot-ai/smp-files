@@ -183,21 +183,32 @@ def build_catalog():
         if r["ia_id"] not in seen or (seen[r["ia_id"]].get("error") and not r.get("error")):
             seen[r["ia_id"]] = r
     done = {os.path.basename(f)[:-5] for f in glob.glob(os.path.join(DATA, "*.json"))}
+    # 年份标签（extract_years.py 生成）。**是线索不是事实**：年份多数来自 OCR，
+    # 而数字正是模型最容易错的一类。放进 catalog 是为了让目录页和检索页
+    # 不必逐件 fetch 就能筛年份。
+    ypath = os.path.join(HERE, "years.json")
+    years = json.load(open(ypath, encoding="utf-8")) if os.path.exists(ypath) else {}
     items = []
     for r in seen.values():
         if r.get("error") or not r.get("pages"):
             continue
-        items.append({"i": r["ia_id"].replace("smpa-files-", ""),   # 省体积
+        short = r["ia_id"].replace("smpa-files-", "")
+        yr = years.get(short)
+        items.append({"i": short,   # 省体积
                       "t": r.get("title", ""), "s": r.get("series", ""),
                       "n": r.get("nara_file_no", ""), "p": r["pages"],
-                      "d": 1 if r["ia_id"] in done else 0})
+                      "d": 1 if r["ia_id"] in done else 0,
+                      **({"y": yr["y"], "ym": yr["m"]} if yr else {})})
     items.sort(key=lambda x: x["t"])
     os.makedirs(OUT, exist_ok=True)
+    yrs = sorted({y for x in items for y in x.get("y", [])})
     json.dump({"items": items,
                "total_files": len(items),
                "total_pages": sum(x["p"] for x in items),
                "done_files": sum(x["d"] for x in items),
-               "done_pages": sum(x["p"] for x in items if x["d"])},
+               "done_pages": sum(x["p"] for x in items if x["d"]),
+               "years_range": [yrs[0], yrs[-1]] if yrs else [],
+               "years_tagged": sum(1 for x in items if x.get("y"))},
               open(os.path.join(OUT, "catalog.json"), "w", encoding="utf-8"),
               ensure_ascii=False, separators=(",", ":"))
     return len(items), sum(x["p"] for x in items)
@@ -396,7 +407,9 @@ def build_progress(nd, npg, nbad):
 
 if __name__ == "__main__":
     nf, np_ = build_catalog()
-    print(f"目录：{nf:,} 件 / {np_:,} 页 → docs/data/catalog.json")
+    _c = json.load(open(os.path.join(OUT, "catalog.json"), encoding="utf-8"))
+    print(f"目录：{nf:,} 件 / {np_:,} 页 → docs/data/catalog.json"
+          f"（年份标签 {_c.get('years_tagged', 0):,} 件，范围 {_c.get('years_range')}）")
     ntoks_t = build_titleidx(json.load(open(os.path.join(OUT, "catalog.json"),
                                             encoding="utf-8"))["items"])
     print(f"标题索引：{ntoks_t:,} token → docs/data/titleidx.json（覆盖全库标题，含未转录）")
