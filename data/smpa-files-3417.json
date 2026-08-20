@@ -96,7 +96,8 @@
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-3417/page/n12_w2400.jpg",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 13,
@@ -573,7 +574,8 @@
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-3417/page/n80_w2400.jpg",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 81,

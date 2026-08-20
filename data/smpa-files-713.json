@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-713",
+ "title": "Construction Company, Rolling Stock And Works",
+ "series": "D Files",
+ "nara_file_no": "3607",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-713",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D4176/1 3RD DISTRICT WATER AND ELECTRI\n12-1-40 -CITY WORKERS' UNION",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-713/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "D4176/1 第三区水电\n1940年1月12日 - 市总工会",
+   "zh_src": "4b7376e2124958e0"
+  },
+  {
+   "n": 1,
+   "en": "F. 201 A\nG 1000-5-37\n\nSHANGHAI MUNICIPAL POLICE\n\nCROSS-REFERENCE SLIP\n\nSp. Br. Registry. OFFICE\n\nFILE NO. D.4176/1\n\nSUBJECT:\nSPECIAL BRANCH REPORTS\n\n3rd District Water and Electricity Workers' Union\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Confidential Drawer | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-713/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201 A\nG 1000-5-37\n\n上海公共租界工部局警务处\n\n交叉参考单\n\n特别处登记室\n\n档案编号 D.4176/1\n\n主题：\n特别处报告\n\n第三区水电工人联合会\n\n| 详情 | 办公室 | 档案编号 |\n| :--- | :--- | :--- |\n| 保密抽屉 | | |\n| | | |\n\n指示见背面",
+   "zh_src": "e32054997022af54"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-713/Construction%20Company%2C%20Rolling%20Stock%20And%20Works%203607.pdf>\n\n---\nor \\ \n\n\nG 3000-58-37 \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \n\n\nPe. Bre. Registry... CPPECE \n\n\nSUBJECT: \nS-ECIAL BRANCH REPORTS \n\n\n3rd District Water and Electricity Workers' Union \n\n\nPARTICULARS OFFICE | FILE NO. \n\n\nConfidential Drawer \n\n\nINSTRUCTIONS SEE OVER |",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5799,
+  "ocr_out_tokens": 189,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 15:18:35",
+  "zh_in_tokens": 388,
+  "zh_out_tokens": 143,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

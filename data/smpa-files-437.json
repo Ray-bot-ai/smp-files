@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-437",
+ "title": "Arrest Of N.I. Osipoff, Russian On Board Of S.S. Darien Maru At D.K.K. Wharf Yangtszepoo Road On 71232",
+ "series": "D Files",
+ "nara_file_no": "3825",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-437",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Form No. 3\nG. 25,000-I-82\n\nSHANGHAI MUNICIPAL POLICE.\n\nREPORT\n\nMisc File No. 194\nayside Station,\nDate December 7th 1932\n\nSubject (in full) Arrest of male Russian on board S.S. Dairen Maru at D.K.K.\nwharf Yangtszepoo road on 7/12/32.\n\nMade by J.D.C. Yokoyama Forwarded by 〔此处转录不清〕\n\nSir,\nOn 7/12/32, the Japanese Consular Police received\na telegram from the Japanese police at Dairen requesting the\ndetention of a male Russian travelling on board the S.S. Dairen\nMaru, for misappropriation of $750.00 at Dairen.\nOn the arrival of the above boat at the Dairen Kisen Kaisha\nwharf, Yangtszepoo road at 3.10 p.m. on 7/12/32, Japanese\nConsular Officials boarded the ship and there detained a Russian\nnamed Nicolas Ileetch Osipoff, age 52 years, shopmaster, Dairen.\nThe above man is meantime detained on the above ship,\npending return by it to Dairen.\n\nI am, Sir,\nYour obedient Servant,\n〔签名〕\nJ.D.C. / 181\n\nRW Sans Dot 1/c\nOfficer 91C\nSpecial Branch.\nD.D.O. \"DM\"\n\nS2, Please note and pass\nW.May. W.Pole. 〔签名〕\nJ.H.R 8/12 Noted:atch. 8:12:32.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-437/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "表格第3号\nG. 25,000-I-82\n\n上海公共租界工部局警务处。\n\n报告\n\n杂项档案编号 194\n杨树浦巡捕房，\n日期 1932年12月7日\n\n事由（全称）：1932年12月7日在杨树浦路大连汽船会社码头“大连丸”轮上逮捕一名俄国男子。\n\n呈报人：J.D.C. 横山 转呈人：〔此处转录不清〕\n\n阁下：\n1932年12月7日，日本领事警察收到来自大连日本警方的一封电报，要求拘留一名乘坐“大连丸”轮的俄国男子，该男子在大连侵吞公款750.00美元。\n1932年12月7日下午3时10分，上述船只抵达杨树浦路大连汽船会社（Dairen Kisen Kaisha）码头时，日本领事官员登船，并在船上拘留了一名名为尼古拉斯·伊里奇·奥西波夫（Nicolas Ileetch Osipoff）的俄国人，年龄52岁，职业为店主，来自大连。\n上述男子目前被拘留在该船上，等待该船返回大连。\n\n此致，\n阁下之恭顺仆人，\n〔签名〕\nJ.D.C. / 181\n\nRW Sans Dot 1/c\n警员 91C\n特别支部。\n副督察长 “DM”\n\nS2，请知悉并转交\nW.May. W.Pole. 〔签名〕\nJ.H.R 12月8日 注：附件。8:12:32。",
+   "zh_src": "f1f7069812ebd953"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-437/Arrest%20Of%20N.I.%20Osipoff%2C%20Russian%20On%20Board%20Of%20S.S.%20Darien%20Maru%20At%20D.K.K.%20Wharf%20Yangtszepoo%20Road%20On%2071232%203825.pdf>\n\n---\n_Form No. 3. Shne He No.../ Le \nfz \n\n\nG. I \n— SHANGHAI ‘MUNICIPAL POLICE. \ncf * es 7, 4 \nsetts ay nStation \nREPORT ae \n\" Doite acento: ZLhblGe \nSubject (in full).......srprest..of..male..Russian-on-board-5.S..-Dainen-idanw..at--DeKeK we \nwharf Yangtszepoo houd on LAS |, a ne \n\n\nelect cnecigeca img atta eames ere ee \non 7/12 fse2, the Japanese Consulor Police received ———___- \n_a telegram from tha Japanese rolice ut _Dairen requesting the —— \n___detention of a male nussian travelling on. board the-3.5.-Dairen— > \nj‘iarn, for misappropriation of $750.00 at Duiren, \nCO the urrivyil of the above bout at the Duiren Kisen Kaisha \n_. sihurf, Yangiszepoo ioad ut 3.10 pm. on -7/12/32,Japanese——-——-— \nnamed Nicolas Tleetch Osipoff, age 52 yeurs, shopmuaster,Dairan, — \n—ihe above man—is—neantimedetuined—on the _abeve ship,—_— \n___ pending return by it to Dairen, = : — \nI -an, Sir, ot \n22 _Your_obedient Servant, —.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2910,
+  "ocr_out_tokens": 387,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-19 23:44:48",
+  "zh_in_tokens": 619,
+  "zh_out_tokens": 375,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

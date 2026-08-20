@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-427",
+ "title": "Arrest Of A Hawker In Possession Of Indecent Picture Albums",
+ "series": "D Files",
+ "nara_file_no": "498",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-427",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "FM 2\nG. 40.000-1.35\n\nSHANGHAI MUNICIPAL POLICE.\nFile No. 7111\nSpecial Branch S. 5. xxxxxxx\nREPORT\nDate October 31, 19 35.\n\nSubject Arrest of an hawker in possession of indecent picture albums.\n\nMade by and Forwarded by D.S.I. Moore.\n\nSir,\n\nAt 4.45 p.m. October 30 C.D.C. 281, attached to S. 5,\narrested an hawker named Li Ching Lin (李慶林), native of\nShanghai, aged 46, at the corner of Fokien and Foochow Roads\nin possession of three small albums, each containing eight\nindecent pictures.\n\nThe accused was taken to Louza Station and charged\nunder Article 235 of the Chinese Criminal Code. He was\narraigned before the 1st Special District Court on October 31\nwhen he was sentenced to a fine of $150 or 150 days\nimprisonment, and the indecent pictures ordered to be\nconfiscated.\n\nAccused had seven previous convictions for this\nclass of offence.\n\n〔此处有手写签名〕\nD. S. I.\n\nD. C. (Special Branch).\n\n〔此处有手写批注：d.c. (crime) / Information / JMc / 31 Oct 1935〕\n\n（印：DEPUTY COMMISSIONER / CRIME BRANCH / 1 NOV 1935）\n\nFile\nJMc\n1 NOV. 1935",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-427/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "FM 2\nG. 40.000-1.35\n\n上海公共租界工部局警务处。\n档案编号 7111\n特别处 S. 5. xxxxxxx\n报告\n日期：1935年10月31日。\n\n事由：逮捕一名持有淫秽画册的小贩。\n\n由 D.S.I. 穆尔（Moore）撰写并呈报。\n\n敬启者，\n\n10月30日下午4时45分，配属于特别处S. 5的华籍侦探警长（C.D.C.）281号，在福建路与福州路转角处，逮捕了一名名为李庆林（Li Ching Lin）的小贩。该犯系上海人，现年46岁，被捕时持有三本小画册，每本内含八张淫秽图片。\n\n被告被带往老闸捕房，并依据《中华民国刑法》第235条被控告。他于10月31日在第一特区法院受审，被判处罚金150元，或监禁150天，其持有的淫秽图片被下令没收。\n\n被告此前曾因同类罪行被定罪七次。\n\n〔此处有手写签名〕\nD. S. I.\n\n副督察长（特别处）。\n\n〔此处有手写批注：d.c. (crime) / Information / JMc / 1935年10月31日〕\n\n（印：副总监 / 刑事处 / 1935年11月1日）\n\n归档\nJMc\n1935年11月1日",
+   "zh_src": "10ce4c35c434c22c"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-427/Arrest%20Of%20A%20Hawker%20In%20Possession%20Of%20Indecent%20Picture%20Albums%20498.pdf>\n\n---\nFM 2 fs \nG. 40,000.1.35 File No... \n\n\nSHANGHAI MUNICIPAL POLICE. ee \nSpecial Braucn.do 6. xsmlaax 9” \nREPORT \n\n\nDate.. iOctover 31>» 19 356. \n\n\nSubject... AYYest of tn hawxer in possession of indecent picture albumse \n\n\nMade Bf. ANG ccs. Forstarded by....... Ds8+T+ Moores \n\n\nSir, \n\n\nAt 4.45 pem. October 30 C.D.C. 21, attached to Se Sy \n\n\n__arrested an hawxer named Li Ching Lin (42 th), native of \n\n\nShanghai, aged 46, at the corner of Pokien and Foociow kKoads \n\n\n_in possession of three small albums, each containing eight \n\n\nindecent pictures. \n\n\nThe accused was taken to Louza Station and charged 4 \n\n\n__under Article 235 of the Chinese Criminal Codes He was \n\n\n-arraiznued before the lst Speciul District Court on October 31 \n\n\nwhen he was sentenced to a fine of $150 or 150 days \n\n\nimprisonment, and the indecent pictures ordered to be \n\n\n_ confiscated. \n\n\nERSTE BS \n\n\nerga tie \nwas a 1h aes \n\n\n_Accused had seven previous convictions for this \n\n\nClass of offence.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2922,
+  "ocr_out_tokens": 367,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-19 23:41:21",
+  "zh_in_tokens": 599,
+  "zh_out_tokens": 364,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

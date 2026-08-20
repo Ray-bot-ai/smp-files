@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-3710",
+ "title": "Letter Nov 13 1935 re political meetings, anniversaries etc",
+ "series": "D Files",
+ "nara_file_no": "1473",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-3710",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "COPY\n\nNovember 13, 1935.\n\nConfidential.\n\nDeputy Commissioner (Divisions)\nDeputy Commissioner (Crime)\nDeputy Commissioner (Special Branch).\n\nPolitical meetings, anniversaries, etc.\n\nReference the above. The City Government have\nrequested the Secretary-General to make every effort\nto suppress all such meetings and celebrations which\nmight in any way lead to an aggravation of Sino-Japanese\nrelations. They say that they will back any action we\ntake with this object in view and the Secretary-General\nrequests that no such meeting or celebration be permitted\nwithin Settlement limits which can in any conceivable way\naggravate our present difficulties.\n\nPlease arrange accordingly.\n\n(sd.) K. M. Bourne\nActing Commissioner of Police.\n\nS. 1, 2, 3, 4, 5 & C.S. 6.\n\nPlease instruct your staff to report as early as\npossible any information coming to their attention about\nplans to arrange meetings or other activities which may\nhave the effect mentioned.\n\nDeputy Commissioner (Sp.Br.)\n\nNovember 13, 1935.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3710/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "副本\n\n1935年11月13日。\n\n机密。\n\n副总巡（分区）\n副总巡（刑事）\n副总巡（特别处）。\n\n政治集会、纪念日等。\n\n关于上述事项。市政府已要求秘书长竭尽全力取缔所有可能导致中日关系恶化的此类集会和庆祝活动。他们表示，将支持我们为此目的采取的任何行动，秘书长请求不得在租界范围内允许任何可能以任何可设想的方式加剧我们当前困难的此类集会或庆祝活动。\n\n请据此安排。\n\n（签名）K. M. Bourne\n代理警务处处长。\n\nS. 1, 2, 3, 4, 5 及 C.S. 6。\n\n请指示你们的人员，尽早报告他们所获悉的关于计划举行可能产生上述影响的集会或其他活动的任何信息。\n\n副总巡（特别处）\n\n1935年11月13日。",
+   "zh_src": "edd1e32cdd2e0c39"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-3710/D7090%20Letter%20Nov%2013%201935%20re%20political%20meetings%2C%20anniversaries%20etc%201473%20-%20Shanghai%20Municipal%20Police%20File.pdf>\n\n---\nt \n$ \ni \n\n\nTOVErGwY Duy LOSSs \n\n\nDeouty \n\n\none \nfe \na» f x \nDepirt y mee Voris &) \nLent y er (Seueiel “anch) y \n\n\nPolitical .eetings, anniversaries, etc. \n\n\nReference the above. The Vit tovernnent heve \nrequ sted the iecretarvetenernl te make every effort \n\n\n) \n\n\nto suppress oll such meetines an8 celetrutious shied. \n\n\nin any way lead to an assravation of 2ino-\"avanese \nreietions. They say thet trey will back any ection we \ntake with tnis object in view and tie vecretaryetenerel \nrecuests that no such rneeting or celesretion ve -eritted \nwithin settle ent limits which can in any conceiva.le way \nayrravate our nresent difficulties, \n\nPlease arran:'e accordinely. \n\n\n(sd) Khe u. Bourne \nActing Commissioner of Police. \n\n\nSel, 2, 3, 4, 5 & C.S. 6. \n\n\nPlease instruct your staff to report as early as \npossible any inforration coming to their attention about \nplans to arrange meetings or other activities which may \n\n\nhave the effect mentioned. \n\n\nDeputy Commissioner (Sp.Br.) \n\n\nhovguper 13, 1935, \n\n\na ee \n\n\neer aserree",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2939,
+  "ocr_out_tokens": 243,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-19 19:06:32",
+  "zh_in_tokens": 475,
+  "zh_out_tokens": 196,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-976",
+ "title": "John Mckinley, British - Arrested In Kobe In Connection With Ammunition Shipment",
+ "series": "D Files",
+ "nara_file_no": "2127",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-976",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "863\nSHANGHAI MUNICIPAL POLICE\nC. & B. REGISTRY\nMay 6, 1933\nMr. D HISH\nI 15 p33\n\nTHE CHINA WEEKLY REVIEW\n\nBritish Subject Arrested in Kobe in Connection\nwith Ammunition Shipment\n\nRecent papers from Japan state that a British subject\nJohn McKinley, was arrested by the Kobe water police\nApril 27 as he was about to leave for Shanghai. It is\nalleged that the man arrested is the \"mysterious for-\neigner\" sought for in connection with a transhipment\nof ammunition from a Dutch steamer to a Japanese\nsteamer bound for China. The paper also alleges that\nMr. McKinley is involved in the sale of a certain steamer,\nand that he was handed Yen 23,000 as an advance on\nthe purchase price of Yen 100,000. The Shanghai police\nhave no record of a man of this name.\n\nJ. C. (bane)\ndefamation.\nJ. McEwen\n\nO. i/c Sp. Br.\nMAY 6 1933\n\n（印：DEPUTY COMMISSIONER : MAY 8 1933 (CRIME BRANCH)）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-976/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "863\n上海公共租界工部局警务处\n刑事与保安科登记处\n1933年5月6日\n\n致 D HISH 先生\nI 15 p33\n\n《密勒氏评论报》\n\n英国侨民因涉及弹药装运案在神户被捕\n\n日本近日报刊称，英国侨民约翰·麦金莱（John McKinley）于4月27日在准备前往上海时，被神户水上警察逮捕。据称，该被捕男子即为因涉及将一批弹药从一艘荷兰轮船转运至一艘驶往中国的日本轮船一案而遭通缉的“神秘外国人”。该报还称，麦金莱先生卷入某艘轮船的买卖交易，并作为10万日元购船款的预付款，收取了2.3万日元。上海警方并无此姓名人员的记录。\n\nJ. C. (bane)\n诽谤。\nJ. McEwen\n\n特别科科长\n1933年5月6日\n\n（印：副总监：1933年5月8日（刑事科））",
+   "zh_src": "f81283d6856855b9"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-976/John%20Mckinley%2C%20British%20-%20Arrested%20In%20Kobe%20In%20Connection%20With%20Ammunition%20Shipment%202127.pdf>\n\n---\ne \nn MONISIPAL Part 2 \nl Sages . i \n\n\n? * : . i, \n37 es ee ss \nee, : NR ee PSHE || \nLp EF pad \nEee] } \n‘ 5 2 f \n. \n\n\nBritish Subject Arrested in Kobe in Connection \nwith Ammunition Shipment \n‘Recent 88 Japan state that a British eubject \n\n\n8 A the Kobe \nwas about to leave for Shanghal. It is \nthat, the man is the “mysterious for- \n\npr ge t for in connection with a \nof ammunition from , eteamer to Japanese \nfor paper also that \nMr. ‘McKinley is involved in the sale of a er, \nand that he was han en 23,000 as an on \nthe purchase price of Yen 100,000. The Shanghai police \n\nve no of a man of this name \nay",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2903,
+  "ocr_out_tokens": 281,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 18:08:23",
+  "zh_in_tokens": 513,
+  "zh_out_tokens": 242,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

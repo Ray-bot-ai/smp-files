@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-768",
+ "title": "Drug Case In Basle, Switzerland",
+ "series": "D Files",
+ "nara_file_no": "2925",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-768",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "P 201\nT.M. 2000-7-83\n8.417\nC 5/3\nCENTRAL REGISTRY\nFILE No. D2954\nSUBJECT:\nDrug case in\nBasle, Switzerland\nSENT TO\nNAME DATE\nCrime Registry\nE 417",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-768/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "P 201\nT.M. 2000-7-83\n8.417\nC 5/3\n中央登记处\n档案号 D2954\n事由：\n瑞士巴塞尔毒品案\n发送至\n姓名 日期\n犯罪登记处\nE 417",
+   "zh_src": "623a0bd4f372e6b4"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-768/Drug%20Case%20In%20Basle%2C%20Switzerland%202925.pdf>\n\n---\nFILE No. /> YS Sh \n\n\nSUBJECT:",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2880,
+  "ocr_out_tokens": 74,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 15:54:20",
+  "zh_in_tokens": 306,
+  "zh_out_tokens": 75,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

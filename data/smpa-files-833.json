@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-833",
+ "title": "Farkas E. Complaint By J.S. Isaacs Re Transferred To Crime Regy",
+ "series": "D Files",
+ "nara_file_no": "2534",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-833",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D 4126 FARKAS E, COMPLAINT BY J S ISAACK RE - TRANSFERRED\nTO CRIME REGY.\nD 4127 REGULATIONS GOVERNING SUPERVISION\n11 5 27 OF DRAMATIC BODIES\nD 4128 D.C. (DIVISIONS) MEMO RE SERVICE OF\n17 10 32 WATCHMEN (ARMED) DURING DISPUTE\nBETWEEN LANDLORDS AND TENANTS",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-833/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "D 4126 法尔卡斯（Farkas）E.，J.S.艾萨克斯（Isaacks）投诉案 - 已移交至犯罪登记处。\nD 4127 关于戏剧团体监管的规章\n1927年5月11日\nD 4128 分区副巡官备忘录，关于在房东与租户纠纷期间武装更夫的服务事宜\n1932年10月17日",
+   "zh_src": "a8c596e5008ccd9d"
+  },
+  {
+   "n": 1,
+   "en": "F 201 A\nG 2000-1-34\n\nD. 4126\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSpl. Branch Registry OFFICE\n\nFILE NO D. 4126.\n\nSUBJECT:\nFarkas E. complaint by J.S. Isaacs re\n17-10-32.\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Transferred to | Crime Regy | E. 628 |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-833/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F 201 A\nG 2000-1-34\n\nD. 4126\n\n上海公共租界工部局警务处\n交叉参考单\n特别分部登记室\n\n档案编号 D. 4126。\n\n主题：\n法尔卡斯（Farkas）E.，J.S.艾萨克斯（Isaacs）投诉案\n1932年10月17日。\n\n| 详情 | 部门 | 档案编号 |\n| :--- | :--- | :--- |\n| 移交至 | 犯罪登记处 | E. 628 |\n\n指示见背面",
+   "zh_src": "4a8ae8374cecc042"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-833/Farkas%20E.%20Complaint%20By%20J.S.%20Isaacs%20Re%20Transferred%20To%20Crime%20Regy%202534.pdf>\n\n---\n‘ \n\n\nty \na \n© \n\n\n- PA \n' \n\n\n¢ \n\n\nTure \n' \n\n\nAN \n\n\ni ce - \nALATIIHS TICE PNING Sup: \n\n\nAe VISION \n% \nDRA WHATS Bodits \n\n\nh \n\n\nVAT \nKET \n\n\ntek [Divi SONS | \n\n\naa a \n\n\ni MEAD Re JiRvece oF \n‘ailile mee REL) Gueing Alspare \nWEEL LANALIEAS BRA *TENA ®TS \n\n\n7p \n\n\nAAS f, LIHMOLAIMT BY JS (EMACC RE \n/ ‘ - \n\n\nTRAWIFE REA \n\n\ntT; LRIME , \n\n\na) \n\n\n“£4 \n- \n\n\naS \noy \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \n\n\nGE tana re \n\n\nFILE NO a url, \n\n\nSUBJECT: \n\n\nFikas a. Compleat oF nee Ht. \n\n\nfhe sees, \n\n\n~ PARTICULARS ; . OFFICE hKILE NO. \n\n\nINSERUCTIONS SEF OVER \n\n\n« \neee ae",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5844,
+  "ocr_out_tokens": 245,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 16:22:20",
+  "zh_in_tokens": 483,
+  "zh_out_tokens": 260,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

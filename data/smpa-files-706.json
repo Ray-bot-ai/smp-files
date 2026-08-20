@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-706",
+ "title": "Confidential Drawer",
+ "series": "D Files",
+ "nara_file_no": "2796",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-706",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201 A\nG. 2000-5-38\n\n（印：CONFIDENTIAL DRAWER）\n\nSHANGHAI MUNICIPAL POLICE\n\nCROSS-REFERENCE SLIP\n\nSp. Br. Registry ____ OFFICE\n\nFILE NO. ____ D 9067\n\nSUBJECT:\n\nCONFIDENTIAL\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| CONFIDENTIAL DRAWER | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| INSTRUCTIONS SEE OVER | | |",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-706/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 2000-5-38\n\n（印：机密卷宗）\n\n上海公共租界工部局警务处\n\n交叉参考单\n\n特别分部登记室 ____ 办公室\n\n档案编号 ____ D 9067\n\n事由：\n\n机密\n\n| 详情 | 办公室 | 档案编号 |\n| :--- | :--- | :--- |\n| 机密卷宗 | | |\n| | | |\n| 指令见背面 | | |",
+   "zh_src": "37a92a78cc637877"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-706/Confidential%20Drawer%202796.pdf>\n\n---\nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \n\n\nSpe Bre. .Registry......... OFFICE \n\n\nFILE NO.....D..9967.__._...... \n\n\nSUBJECT: \n\n\nCONFIDBENTIAL \n\n\nPARTICULARS OFFICE FILE NO. \n\n\nCONFIDENTIAL DRAWER",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2903,
+  "ocr_out_tokens": 161,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 15:11:49",
+  "zh_in_tokens": 353,
+  "zh_out_tokens": 118,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

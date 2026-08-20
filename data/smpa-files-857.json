@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-857",
+ "title": "Fung Ho Weekly - Undesirable Articles",
+ "series": "D Files",
+ "nara_file_no": "2294",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-857",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201 A\nG. 2000-6-39\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSp. Br. Registry OFFICE\nFILE NO. D. 8077\nSUBJECT:\nFung Ho - Weekly -\nUndesirable Articles\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Transferred to Registration file | Sp. Br. Regy | D. 8149 - C. 10. |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-857/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 2000-6-39\n\n上海公共租界工部局警务处\n互见索引卡\n特别处登记室\n档案编号 D. 8077\n事由：\n《凤报》周刊——\n不良文章\n\n| 详情 | 部门 | 档案编号 |\n| :--- | :--- | :--- |\n| 转至登记档案 | 特别处登记室 | D. 8149 - C. 10. |\n\n指示见背面",
+   "zh_src": "5c3ec4e7dacebd35"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-857/Fung%20Ho%20Weekly%20-%20Undesirable%20Articles%202294.pdf>\n\n---\n\\ \n\n\n| | SHANGHAI MUNICIPAL POLICE \n7, \n\n\nCROSS-REFERENCE SLIP \n\n\nFILE NO... 3’ wep \n\n\nSUBJECT: \n\n\nFeng fa Ub \nUndervrsth ticles \n\n\nPARTICULARS | OFFICE | FILE NO.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2898,
+  "ocr_out_tokens": 129,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 16:45:59",
+  "zh_in_tokens": 361,
+  "zh_out_tokens": 126,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

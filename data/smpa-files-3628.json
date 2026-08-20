@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-3628",
+ "title": "The Rajah of Sarawak travelling incognito",
+ "series": "D Files",
+ "nara_file_no": "1712",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-3628",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D-164",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3628/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "D-164",
+   "zh_src": "f65fef6f4676ba1c"
+  },
+  {
+   "n": 1,
+   "en": "SHANGHAI MUNICIPAL POLICE\nC. I. D. REGISTRY\nFile No. P. O. D. 144\nDate 15. 4. 29\n\n(C.I.D.) Office Notes\nApril, 15, 1929\n\nA/D.C.I.\n\nThe Rajah of Sarawak travelling incognito as Mr.\nC.V.Brooke accompanied by his Secretary Mr. G.T.N. MacBryan\nand Mr. and Mrs. J.S.W.Bean left Shanghai for Yokohama in the\n\" President Lincoln \" on April 12. The latter vessel is due at\nYokohama at 2p.m. April 15.\n\nThe Japanese Consular Authorities have been informed\nof the above.\n\nH. Robertson\nD.I.\n\n〔此处转录不清〕\n15. 4. 29\n\n〔此处转录不清〕\n15/4",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3628/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "上海公共租界工部局警务处\n刑事侦缉处档案室\n档案编号：P. O. D. 144\n日期：1929年4月15日\n\n（刑事侦缉处）办公笔记\n1929年4月15日\n\n致助理刑事侦缉处长\n\n砂拉越拉者（Rajah of Sarawak）化名 C.V. Brooke 先生，在其秘书 G.T.N. MacBryan 先生以及 J.S.W. Bean 夫妇的陪同下，于4月12日乘坐“林肯总统号”（President Lincoln）轮离开上海前往横滨。该轮预计于4月15日下午2时抵达横滨。\n\n日本领事当局已获知上述情况。\n\nH. Robertson\n侦缉督察\n\n〔此处转录不清〕\n1929年4月15日\n\n〔此处转录不清〕\n1929年4月15日",
+   "zh_src": "4002de3ddee7a253"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-3628/D164%20The%20Rajah%20of%20Sarawak%20travelling%20incognito%201712%20-%20Shanghai%20Municipal%20Police%20File.pdf>\n\n---\nRAMOHAL MUNICIPAL POLICE \nC. |. D. REGISTRY \n\n\nWo. D..LEE... \n\n\n(C.1.D.) Office Notes \n\n\nAPs Cals \n\nThe Rajeh of Serva treavellins incocnite -s lire \n1 O.VeProoke cecormmenie?l bw his Secretory Mr. GTi. lacBryan \n(end lr. and Irs. J.S.%.%eon left Shanchei for Yokohana in “the \n>\" President lincoln \" on April 12. The 1-tter vessel is jue *t \nYotohrmm «t 2... Anril 15. \n\nIhe Jarsnese Tonsnilicr “vthorities heve ben informed \n\n\nie) \n\n\nie » BO.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5825,
+  "ocr_out_tokens": 208,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-19 18:11:46",
+  "zh_in_tokens": 447,
+  "zh_out_tokens": 224,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

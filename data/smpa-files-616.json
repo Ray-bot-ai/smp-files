@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-616",
+ "title": "Cinema Film Entitled Msrole",
+ "series": "D Files",
+ "nara_file_no": "1755",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-616",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201\nT.H. 10964-29.\n〔此处转录不清〕 S.B.\nCENTRAL REGISTRY\nFILE No. W 3521\nSUBJECT:\nCinema - Film entitled\n\" Mamba \"\n\nSENT TO\nNAME | DATE\nTransferred to |\nA. 6591. |\n| 19 4 32\n〔此处转录不清〕\n6. O. d. Prince",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-616/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201\nT.H. 10964-29.\n〔此处转录不清〕 S.B.\n中央登记处\n档案号 W 3521\n事由：\n电影院 - 名为\n《曼巴》（Mamba）的影片\n\n发送至\n姓名 | 日期\n转交至 |\nA. 6591. |\n| 1932年4月19日\n〔此处转录不清〕\n6. O. d. Prince",
+   "zh_src": "1030d87fd642a48a"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-616/Cinema%20Film%20Entitled%20Msrole%201755.pdf>\n\n---\nGo \n_ REGISTRY \n\n\nFILE No.@27w- \nSUBJECT: | \n\n\nHe wis _ oo Lode. la te #b \nrl flr re ‘ei cl",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2880,
+  "ocr_out_tokens": 106,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 01:47:15",
+  "zh_in_tokens": 338,
+  "zh_out_tokens": 117,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

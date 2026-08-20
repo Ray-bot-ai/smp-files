@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-972",
+ "title": "Japanese Officials Dinner Held At Zoh Yu Restaurant",
+ "series": "D Files",
+ "nara_file_no": "3359",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-972",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "FORM NO. 3\nG. 658-1-39\n\nSHANGHAI MUNICIPAL POLICE.\nFile No. ____\nC. S. 6, Special Branch. 9151\nREPORT\nDate April 22, 1939 39\n\nSubject (in full) Japanese Officials Dinner Held at Zoh Yu Restaurant\n(蜀川菜館 ) 235/7 Kwangse Road.\n\nMade by D. S. Vischenko Forwarded by Inspector 3 Copy\n\nIn compliance with instructions contained\nin the attached memo., the undersigned accompanied by\nWaung Pei Yuen\nC.D.C. 107 was on observation duty between 6.30 p.m.\nand 9 p.m. April 21, 1939, at the Zoh Yu Restaurant\n(蜀川菜館 ) 235/7 Kwangse Road, where a party\nof about 10 Japanese Consular Officials had a dinner\nparty between the aforementioned hours. At the same\ntime another Japanese party of about eight persons\nreported to consist of members of the Japanese Banking\nAssociation also had a dinner there.\n\nNo untoward incident took place.\n\nV. Mischenko.\nD. S.\n\nFILE\nJ.B.\nP. A. to D. C. (Sp. Br.)\n22/4.\nD. C. (Special Branch).",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-972/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "表格编号 3\nG. 658-1-39\n\n上海公共租界工部局警务处。\n档案号 ____\nC. S. 6，特别处。 9151\n报告\n日期 1939年4月22日 39\n\n主题（全称） 日本官员在蜀川菜馆（Zoh Yu Restaurant）举行的晚宴\n地址：广西路235/7号。\n\n呈报人 D. S. Vischenko 经由警司转呈 副本 3\n\n遵照附函备忘录中的指示，下述签署人会同\nWaung Pei Yuen\nC.D.C. 107 于1939年4月21日下午6时30分至晚上9时，\n在广西路235/7号的蜀川菜馆（Zoh Yu Restaurant）执行观察任务，\n在此期间，约有10名日本领事馆官员在该处举行晚宴。\n同时，另一批约八人的日本团体，据称由日本银行公会成员组成，\n也在该处用餐。\n\n未发生任何意外事件。\n\nV. Mischenko.\nD. S.\n\n归档\nJ.B.\n助理处长（特别处）致 副处长\n4月22日。\n副处长（特别处）。",
+   "zh_src": "a39bc36d3be4842f"
+  },
+  {
+   "n": 1,
+   "en": "MEMO 21/5\n6.30 p.m.\nTo Japanese\nOfficials\nDo Sui?\n235 Kwangse\nRd\nBetween Hangkow\n& Foochow Rd.\nD. C. (Divisions).",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-972/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "备忘录 5月21日\n下午6时30分\n致 日本\n官员\nDo Sui?（音译）\n广西路235号\n位于汉口路与福州路之间。\n副处长（各分区）。",
+   "zh_src": "b3fe367931af065a"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-972/Japanese%20Officials%20Dinner%20Held%20At%20Zoh%20Yu%20Restaurant%203359.pdf>\n\n---\nMUNICIPAL POLICE. ‘ es ee \nS.8.6,Special Branzn. ar aa \nped peciai Amntne | rn \n\n\nREPORT nae as \n: 2eZG 08 \"a \nSubject (in Fall ocx PPoneet.. Cifinials Dinner Bere Bh SOM Ve, BGO Le RG cia: ccvncssnaciber sane \nSZ ge at fz \n. (DARN) AAV) 238/79 Kwangee Rode \n; BS Ye \nMade by..D+3- Vischenke ow... Forwarded by....YN8Pegtor. on : Li See eee \n\n\nIn compliance with instructions contained \n\n\nin the attached :nemo., the undersigned accompanied by \nWaung Pei Yuen \n\n7.D.C. 107 was on observation cuty \n\nand 9 Bem. April 21, 1959, at the Zoh Yu Restaurant \n\n\nés . = , jE Sr] \n(FD PRM) Pa } 255/7 Kwangse Rond, where a party \n\n\nbetween 6.50 p.m. \n\n\nof about 10 Jasaness: Consular Officials nhac a ainner \n\n\nparty between the aforementioned hours. At the eame \n\n\ntime another Jaosnese party of about ei-sht yversons \n\n\nating \n\n\nreported to consist 27 members of the Javanese Banking \n\n\nAssociation algo haa a dcinner there. \n\n\nNo untoward incieent took place. \n\n\nn.C. (Special Branch). \n\n\nD. C. (Divisions~",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5828,
+  "ocr_out_tokens": 369,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 18:06:35",
+  "zh_in_tokens": 604,
+  "zh_out_tokens": 346,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

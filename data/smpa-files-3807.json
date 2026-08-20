@@ -1,0 +1,55 @@
+{
+ "ia_id": "smpa-files-3807",
+ "title": "D8269",
+ "series": "D Files",
+ "nara_file_no": "2694",
+ "pages": 3,
+ "ia_url": "https://archive.org/details/smpa-files-3807",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D-8269",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3807/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "D-8269",
+   "zh_src": "11b6a722def83a0d"
+  },
+  {
+   "n": 1,
+   "en": "July    22,    38.\n\nSir Herbert Phillips,\n    K.C.M.G., O.B.E.,\n        H.B.M. Consul-General,\n            British Consulate-General,\n                S h a n g h a i .\n\nSir,\n\n    I have the honour to acknowledge receipt of\nyour letter dated July 20, 1938 and in reply have\nto inform you that the matter is receiving atten-\ntion.\n\n                I have the honour to be,\n                        Sir,\n                Your obedient servant,\n\n                Sd: K. M. Bourne.\n\n                Commissioner of Police.\n\nYBP/",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3807/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "1938年7月22日。\n\n赫伯特·菲利普斯爵士，\nK.C.M.G.，O.B.E.，\n英国驻上海总领事，\n英国驻上海总领事馆，\n上海。\n\n先生：\n\n谨此确认收到阁下1938年7月20日的来函，并回复告知，此事正在处理中。\n\n谨致\n敬礼\n\n顺颂\n时祺\n\n您的恭顺仆人，\n\n签名：K. M. 伯恩\n\n警务处处长\n\nYBP/",
+   "zh_src": "a875f972f0b6357e"
+  },
+  {
+   "n": 2,
+   "en": "BRITISH CONSULATE-GENERAL 8629\nP.O. BOX 259. SHANGHAI.\n23 / 7 38\nJuly 20th 1938.\n\nSir,\n    I have the honour to transmit herein\ncopies of self-explanatory correspondence\nwhich has passed between His Excellency the\nGovernor of Hongkong and this Consulate-General\nregarding a forged Lithuanian document of\nidentity and to request that I may be furnished\nwith a report concerning Mr. Aaron Haikin.\n\n            I have the honour to be,\n                Sir,\n        Your obedient servant,\n\n            Herbert Phillips\n\n            Consul-General.\n\nThe Commissioner of Police,\n    Shanghai Municipal Council,\n        SHANGHAI.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3807/page/n2_w2400.jpg",
+   "via": "dashscope",
+   "zh": "英国驻上海总领事馆 8629\n上海邮政信箱259号\n1938年7月23日\n1938年7月20日\n\n先生：\n\n谨随函附上香港总督阁下与本总领事馆之间就一份伪造的立陶宛身份证明文件往来的说明性信函副本，并恳请提供关于亚伦·海金（Aaron Haikin）先生的报告。\n\n谨致\n敬礼\n\n顺颂\n时祺\n\n您的恭顺仆人，\n\n赫伯特·菲利普斯\n\n总领事\n\n致：\n警务处处长，\n上海工部局，\n上海。",
+   "zh_src": "ec55e80519ddd8d2"
+  }
+ ],
+ "pages_done": 3,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-3807/D8269%202694%20-%20Shanghai%20Municipal%20Police%20File.pdf>\n\n---\nSir Herbert Phillips, \nKeCeaMeGes OeBekes \nHeBeM. Consul-General, \nBritish Consulate-Gensral, \nShanghai. \n\n\nSir, \n\nZI have the honour to acknowledges receipt of \nyour letter dated July 20, i938 and in reply have \nto inform you that the matter is receiving atten- \ntion. \n\ni have the honour to be, \nSir, \nYour obedient servant, \n\n\nSd: bk. oi. Bourne. \n\n\nCommiss3 oner of Police. \n\n\n\\ \n\n\n8 BRITISH CORSHLATE HERES OS \n\n\nP.0.80X 259. SHAN HAL. \nANS ya 3 \n\n\nJuly 20th 1938.° \n\n\nSir, \n\nI have the honour to transmit herein \ncopies of self-explanatory correspondence \nwhich has passed between His Excellency the \n\n\nGovernor of Hongkong and this Consulate-General \nregarding a forged Lithuanian document of \nidentity and to request that I may be furnished \n\n\nwith a report concerning lir.- Aaron Haikin. \n\n\nT have the honour to bes \nSLs \n\n\nYour obedient servant, \n\n\nConsul-General. \n\n\nThe Commissioner of Police, \nShanghai Municipal Council; \nSHANGHAT.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 8750,
+  "ocr_out_tokens": 315,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-19 21:44:14",
+  "zh_in_tokens": 561,
+  "zh_out_tokens": 274,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 3
+}

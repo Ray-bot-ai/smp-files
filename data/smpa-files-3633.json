@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-3633",
+ "title": "Newspaper clipping, China and the International Labour Organization",
+ "series": "D Files",
+ "nara_file_no": "3262",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-3633",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D-1209",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3633/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "D-1209",
+   "zh_src": "b51328866b6a349f"
+  },
+  {
+   "n": 1,
+   "en": "SHANGHAI MUNICIPAL POLICE\nC. I. D. REGISTER\nNo. I. O. D. 1209\nDate 29 . 4 . 30\n\nTHE SHANGHAI TIMES, WEDNESDAY, APRIL 23, 1930.\n\nThe Pan-Pacific Association will\nmeet to-day at 12.15 o'clock in\nthe Assembly Room of the Cathay\nHotel to hear Mr. Thomas Kuo,\nDelegate to the International\nLabour Conference in Geneva and\nhead of the Labour Department of\nthe Ministry of Industry, Com-\nmerce and Labour, on the subject\n\"China and the International\nLabour Organisation.\" Mr. S. U.\nZau, Vice-Minister of Industry,\nCommerce and Labour, will pre-\nside. Members are asked to make\nreservations before Friday morn-\ning by addressing Miss A. Viola\nSmith, 8 Canton Road, P. O. Box\n605, or telephone 60614.\n\n(CrS 13)\nInformation\nWho 23 4/30\n\nJR\nReg. Please file\n23.4.'30",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3633/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "上海公共租界工部局警务处\n刑事侦缉处登记簿\n编号 I. O. D. 1209\n日期 30年4月29日\n\n《字林西报》，1930年4月23日，星期三。\n\n泛太平洋协会将于今日中午12时15分在华懋饭店会议厅举行集会，听取实业部劳工局局长、出席日内瓦国际劳工大会代表郭先生（Thomas Kuo）就“中国与国际劳工组织”这一主题发表演讲。实业部次长赵先生（S. U. Zau）将担任主席。请会员于周五上午前向广东路8号、邮政信箱605号的A. Viola Smith小姐预订，或致电60614。\n\n(CrS 13)\n情报\n对象 23 4/30\n\nJR\n登记。请归档\n30.4.23",
+   "zh_src": "0c81dafdd3bcbb67"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-3633/D1209%20Newspaper%20clipping%2C%20China%20and%20the%20International%20Labour%20Organization%203262%20-%20Shanghai%20Municipal%20Police%20File.pdf>\n\n---\nSAANGHA! MURISIPAL PA: | \nC. |. D. REGISTF. \n\n\nNo “— D. Lae",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5825,
+  "ocr_out_tokens": 267,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-19 18:13:05",
+  "zh_in_tokens": 506,
+  "zh_out_tokens": 221,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

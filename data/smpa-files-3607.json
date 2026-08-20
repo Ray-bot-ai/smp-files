@@ -12,7 +12,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3607/page/n0_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "《大陆报》，1936年4月3日，星期五\n\n香港税收\n丑闻曝光\n\n企图贿赂\n该部门\n华籍职员\n\n一名外国人、八名中国人被控\n\n香港，4月2日电——据今日在此披露，被认为是有势力的走私集团为逃避殖民地的鸦片法律，企图贿赂税务部门全体华籍职员。\n\n这一揭露由刑事情报处助理主任蒂姆·墨菲（Tim Murphy）先生在警司公堂作出，当时有八人（一名外国人和七名中国人）被控违反鸦片法律。\n\n案件已押后至星期六审理，以待警方进一步调查。\n\n涉案外国人自称阿尔伯特·兰德尔（Albert Randall）。其国籍不详。——路透社\n\n（批：Ricardo 1936年4月3日 Kinfucian 0.5.6.）\n（批：例如 6 / d.R）\n（右上角手写注记：7343 3 11 36）",
+   "zh_src": "56c7793cb076d602"
   }
  ],
  "pages_done": 1,
@@ -23,6 +25,11 @@
   "ocr_in_tokens": 2898,
   "ocr_out_tokens": 272,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-19 13:23:34"
- }
+  "ocr_at": "2026-08-19 13:23:34",
+  "zh_in_tokens": 504,
+  "zh_out_tokens": 216,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
 }

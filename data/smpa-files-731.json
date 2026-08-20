@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-731",
+ "title": "D.S. Golder - Fitness For Presentation To Sub-Inspector By Supt. Robertson",
+ "series": "D Files",
+ "nara_file_no": "3288",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-731",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201\nT.H. 1000-12-31.\n\nFILE No. 8/5544\n\nC. & S. B. REGISTRY\n\nSUBJECT:\nD.N. Golden - Fitness for\npromotion to Sub. Inspector\nby Supt. Robertson    16.4.32\n\nSENT TO\nNAME                DATE\nO fr. J.H.          16  4  32\nNo trace.\nJ.C. Divisions (5)",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-731/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201\nT.H. 1000-12-31。\n\n档案编号 8/5544\n\n刑事与特别处登记处\n\n事由：\nD.N. Golden（音译）——是否适合\n晋升为副督察\n由罗伯逊警司推荐    1932年4月16日\n\n发送至\n姓名                日期\nO fr. J.H.          16  4  32\n无踪迹。\nJ.C. 各分区 (5)",
+   "zh_src": "1c617fe012ad27ca"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-731/D.S.%20Golder%20-%20Fitness%20For%20Presentation%20To%20Sub-Inspector%20By%20Supt.%20Robertson%203288.pdf>\n\n---\n¢ : ; - : : ak Stet : : e \n\n\nF, 201 ; sa \na FILE Na, St eee \n\n\nCc. & S. B. REGISTRY \nSUBJECT: ” 5 \n\n\nox! for OD 62m Rif bteS ee. | \nZo QAfeta HY Qe VL a a.m oe ee os \"es \nA ape LeLe ? FO LEE Je ; \n\n\nZant TO . a‘ = \nDATE \n\n\nae \n\n\n- ZC ieee ma \ntal Se Ree eee 0 \n. \n’ \nPea te ear \nre \n: \n: \n; a wn \n» \n‘",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2954,
+  "ocr_out_tokens": 115,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 15:33:40",
+  "zh_in_tokens": 347,
+  "zh_out_tokens": 125,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -274,7 +274,8 @@
    "image_url": "https://archive.org/download/smpa-files-230/page/n26_w2400.jpg",
    "via": "dashscope",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 27,
@@ -284,7 +285,8 @@
    "image_url": "https://archive.org/download/smpa-files-230/page/n27_w2400.jpg",
    "via": "dashscope",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 28,
@@ -294,7 +296,8 @@
    "image_url": "https://archive.org/download/smpa-files-230/page/n28_w2400.jpg",
    "via": "dashscope",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 29,
@@ -344,7 +347,8 @@
    "image_url": "https://archive.org/download/smpa-files-230/page/n33_w2400.jpg",
    "via": "fallback",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 34,

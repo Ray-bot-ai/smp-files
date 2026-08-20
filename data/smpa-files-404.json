@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-404",
+ "title": "Application For [?] Allowance By D.S.T. Duncen",
+ "series": "D Files",
+ "nara_file_no": "1756",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-404",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F 201\nT.H. 2000-7-35\n\nCENTRAL REGISTRY\n\nFILE No. **〔此处转录不清〕**\n\nSUBJECT:\n\nF. 201\nT.H. 1000-12-31.\n\nFILE No. **〔此处转录不清〕**\n\nC. & S. B. REGISTRY\n\nSUBJECT:\n**〔此处转录不清〕**\n\n| NAME | SENT TO | DATE |\n| :--- | :--- | :--- |\n| **〔此处转录不清〕** | **〔此处转录不清〕** | **〔此处转录不清〕** |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-404/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F 201\nT.H. 2000-7-35\n\n中央登记处\n\n档案号 **〔此处转录不清〕**\n\n事由：\n\nF. 201\nT.H. 1000-12-31.\n\n档案号 **〔此处转录不清〕**\n\n刑事与特别股登记处\n\n事由：\n**〔此处转录不清〕**\n\n| 姓名 | 发送至 | 日期 |\n| :--- | :--- | :--- |\n| **〔此处转录不清〕** | **〔此处转录不清〕** | **〔此处转录不清〕** |\n| | | |",
+   "zh_src": "e1e1c1f5efbb2666"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-404/Application%20For%20%5B%3F%5D%20Allowance%20By%20D.S.T.%20Duncen%201756.pdf>\n\n---\nCENTRAL REGISTRY \nFILE No. ~~. \nSUBJECT: \n\n\nEF. 201 \nices FILE No. 2-2 700 \nC. & S. B. REGISTRY \nSUBJECT: \n\n\n- é 7 » we - . ‘ \nee KLE. eo a ae oe ae Pe gl ad BE ~ GP OS Porn \ni. . : : \n\n\nce ee \noad \nf \n\n\nsad ‘age Vz &2 OO me se",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2896,
+  "ocr_out_tokens": 187,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-19 23:30:54",
+  "zh_in_tokens": 379,
+  "zh_out_tokens": 147,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

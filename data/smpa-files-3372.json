@@ -313,8 +313,10 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3372/page/n30_w2400.jpg",
    "via": "dashscope",
-   "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh": "文四七八號\n致 廳長\n處置手續 相成度\n調查報告 〃\n再調查報告 〃\n閱後歸還 〃\n推薦 〃\n參考 占\n昭和十八年 一月二十八日\n刑事特高課第三科長 山口平次郎（印）\n警視總監 渡正監 閣下\n關於舉辦講演會許可申請之事項\n會名：利奧米特協會（Leomit Association，音譯）中歐系（青年救濟部）\n事務所：堀之內（Horinouchi，音譯）山路七七一弄 號 電話 五一七四四\n會長：納特拉伊茨克（Natraitzky，音譯）\n日期時間：昭和十八年 一月二十八日 下午八時開會\n地點：華德路一三八弄 號 難民收容所內\n當日負責人：納特拉伊茨克（Natraitzky，音譯）\n出席人數：約五十名\n講演者：尤姆森·伯格曼（Yumson Bergeman，音譯），東歐系猶太人，霞飛路六八四―六\n宗旨：為紀念已故馬克斯·諾爾道（Max Nordau，錫安主義領導人）逝世二十週年，就其人物及運動史進行講演，以期振奮在滬猶太青年的民族意識。\n意見：認為予以許可並無妨礙。（主管收訖）\n通達管轄\n署名：匯山署\n長課 決裁\n（印：審查）",
+   "zh_note": "原文即中文，无需翻译",
+   "zh_tries": 1,
+   "zh_src": "a284a54cfde4def4"
   },
   {
    "n": 31,
@@ -1291,10 +1293,10 @@
   "ocr_out_tokens": 47582,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-17 07:26:21",
-  "zh_in_tokens": 60970,
-  "zh_out_tokens": 47312,
+  "zh_in_tokens": 61530,
+  "zh_out_tokens": 47663,
   "zh_chunks": 14
  },
  "native_zh_pages": 1,
- "zh_pages": 125
+ "zh_pages": 126
 }

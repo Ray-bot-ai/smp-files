@@ -26,7 +26,8 @@
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-3142/page/n2_w2400.jpg",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 3,
@@ -55,14 +56,16 @@
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-3142/page/n6_w2400.jpg",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 7,
    "en": "而宜予以邀蘇榆楊泰賜食為公使寺衛據此除行令並甘均悉秉科管令\n行軍以械嗣一順歲有錫見鎮使部兼元辦即印知照清摺存此令即發並分\n行外行行抄發的指專為諭一照放百料手給歸案充辦毋稍\n疏忽定與切交可因除玉後並力行八台行抄發前摺言即該院長遵照密函\n所屬一應協照在此令計發明摺一件並附本此相證明原摺閱晒\n貝浮份長官照理局同氏致\n明摺一件\n中 民 十八年五月廿六日\n（印：徐簽一）\n上海租界臨時法院用箋",
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-3142/page/n7_w2400.jpg",
-   "zh": ""
+   "zh": "",
+   "zh_status": "native_zh"
   },
   {
    "n": 8,
@@ -70,7 +73,8 @@
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-3142/page/n8_w2400.jpg",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 9,
@@ -78,7 +82,8 @@
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-3142/page/n9_w2400.jpg",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 10,
@@ -86,7 +91,8 @@
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-3142/page/n10_w2400.jpg",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   }
  ],
  "pages_done": 11,

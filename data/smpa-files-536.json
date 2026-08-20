@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-536",
+ "title": "C & S. B. Registery Re Heinrich Hoffman",
+ "series": "D Files",
+ "nara_file_no": "3096",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-536",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D 4004  HENRICH HOFFMAN\n25 4. 32  SENT TO CONFIDENTIAL DRAWER\n\nD 4015  LOUIS PUTHOD IMPORTATION\n        AND SALE OF FIREARMS AMMUNITION\n        ANTOINE PUTHOD\n\nD 4016  ALLEGED BORROWING OF MONEY BY\n3 4 32  C. FENTON\n        LIANG ZUNG YAO, WONG CHU KIANG\n        TANG NEO SONGNE, LIANG WING SE\n        YUE WING YONG KIT, MRS PEARCE\n        MRS THOMPSON",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-536/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "D 4004 海因里希·霍夫曼 (HENRICH HOFFMAN)\n1932年4月25日  送交机密档案柜\n\nD 4015 路易·普托德 (LOUIS PUTHOD) 进口\n        及出售枪支弹药\n        安托万·普托德 (ANTOINE PUTHOD)\n\nD 4016 涉嫌借款案\n1932年4月3日  C. 芬顿 (C. FENTON)\n        梁宗耀 (LIANG ZUNG YAO)、黄楚江 (WONG CHU KIANG)\n        唐纽松 (TANG NEO SONGNE)、梁荣士 (LIANG WING SE)\n        叶永杰 (YUE WING YONG KIT)、皮尔斯夫人 (MRS PEARCE)\n        汤普森夫人 (MRS THOMPSON)",
+   "zh_src": "0c634edca6c561a2"
+  },
+  {
+   "n": 1,
+   "en": "F. 201\nT.H. 1000-3-29.\nSee → CONFIDENTIAL\nC. v S. B.    DRAWER\nCENTRAL REGISTRY\n\nFILE No. D 4004\n\nSUBJECT:\n\nre Heinrich Hoffman\n\nSENT TO\nNAME                DATE\nConfidential        Drawer\n                    26. 7. 35",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-536/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201\nT.H. 1000-3-29。\n见 → 机密\nC. v S. B.    档案柜\n中央登记处\n\n档案编号 D 4004\n\n事由：\n\n关于海因里希·霍夫曼 (Heinrich Hoffman)\n\n送交\n姓名                日期\n机密        档案柜\n                    1935年7月26日",
+   "zh_src": "b7f1db565036fa14"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-536/C%20%26amp%3B%20S.%20B.%20Registery%20Re%20Heinrich%20Hoffman%203096.pdf>\n\n---\nKay \n\n\nSb a? aT 19 (ontideniia L oeawe \n\n\n= \n- \n\n\n\\ \n\n\niS. , \n- D6 asi oo pS 7k as a \n~ , iid rae f a a oe > it \nBi i ee H Sass) 4S b we. 3] \n7 7 i \n; a oo = rd , \n: 1 5 , ss rs ¥ 3 \nKivi d = rane = plate fs aad \n~ heat — . Pe \nbyt eg se Siveee Ar Palel tele ec tee \nry \n- = \nDy a a \nAnts nek v tw \nt \n~ ad Fn O- \n34 2 Ie , a . . \na “ oH te EA Sq ae a Le aA bar \n— ’ \nPe Ee ee . \n” PR sg \ner ¢ \n5 -! Ce \nZe a ae \n' Weds x ae ; \n(PCE £LGRS MPs is a ae ' \nr dle oe aes a a Pe ew: nS o? \nse pier are c fps a & \n. A 3 r 2 ; ‘ \n—j. 4 , ‘ meet hi Bes He 4 ra fag wedi. \n‘ ej / . ee . > \nYF jf : an ed / es PELR - \nY / cee , ha ofr G \n— s ¥ = \nLow i & \nifbe me) \n‘ \n‘ \n. \n« \n4 \n[a \n\n\n5. \nT.H. 1000-3-29. \n\n\nCS. 2... \n\n\n=? CONFIDINTIAL \nDRAWER \n\n\n| \n\n\nCENTRAL REGISTRY \nFILE No. 6. \nSUBJECT: \n\n\nle Hen, ie. rw a It a. \n\n\nSENT TO . \n\n\nNAME \n\n\nCanfedintes ie \n\n\nDATE \n\n\nOK . tinea",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5796,
+  "ocr_out_tokens": 234,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 00:59:12",
+  "zh_in_tokens": 473,
+  "zh_out_tokens": 321,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

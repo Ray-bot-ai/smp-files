@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-46",
+ "title": "Arrival Of Italian Ambassador To China On 12-4-37",
+ "series": "",
+ "nara_file_no": "3314",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-46",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D-7865\nD-7866\nD-7867\nD-7868\nD-7869",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-46/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "D-7865\nD-7866\nD-7867\nD-7868\nD-7869",
+   "zh_src": "e00a6532d2f0c200"
+  },
+  {
+   "n": 1,
+   "en": "SHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSpecial Br. Reg. OFFICE\nFILE NO. D. 7864\nSUBJECT:\nArrival of Italian Ambassador to China\non 12-4-37.\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Transferred to :- | C.R. | F. 2626 |\n| | （签名） | |\n| | Central Registrar | |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-46/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "上海公共租界工部局警务处\n交叉参考单\n特别支部 登记室\n档案编号 D. 7864\n事由：\n意大利驻华大使于1937年4月12日抵达。\n\n| 详情 | 部门 | 档案编号 |\n| :--- | :--- | :--- |\n| 转至：- | 中央登记处 | F. 2626 |\n| | （签名） | |\n| | 中央登记官 | |\n\n指示见背面",
+   "zh_src": "bac4a0880f67ccc7"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-46/Arrival%20Of%20Italian%20Ambassador%20To%20China%20On%2012-4-37%203314.pdf>\n\n---\nlD-wres \n—D-7F6 6 \n\n\n— D-767 \n7 D-H OF \nD-7667 \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \nSpecial. Br... .Rag.......OFFICE \n\n\nSUBJECT: \n\n\nArrival of Italian Ambassador to China \non 12-4-37, \n\n\nFILE NO. \n\n\nPARTICULARS \n\n\nTransferred to :- \n\n\n| - OFFICE \n\n\nF. 2626 \n\n\nINSTRUCTIONS SEE OVER \n\n\nnn aneweerans seaenannarerenenseonnseereweww ete etan ee sen ene nnnenaen en cnenacensncees se enenescceececess scscceen lags,",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5783,
+  "ocr_out_tokens": 154,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 00:14:17",
+  "zh_in_tokens": 393,
+  "zh_out_tokens": 163,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

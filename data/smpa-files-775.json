@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-775",
+ "title": "Economy Estimates 1934 - New Furniture, Etc",
+ "series": "D Files",
+ "nara_file_no": "1556",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-775",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "SHANGHAI MUNICIPAL POLICE\nC. & S. B. REGISTRY.\nNo. D 5663\nDate 31 / 2 / 34\n\nJanuary 26, 34.\n\nQuartermaster.\n\nEconomy\nEstimates 1934 - New Furniture etc.\n\nWith reference to the above the following procedure\nwill be observed:\n\n1. When requisitions are forwarded you will obtain a\nspecial report from the concerned as to the real\nnecessity for the particular issue.\n\n2. You will then submit the requisitions to H.Q., for\napproval together with the explanatory reports.\n\nIt should be noted that all the H.Q., and other\noffices in the Administration Building and Divisional\nHeadquarters will be moved to the new Central Police\nStation where all new furniture will be provided, so that\nnew furniture for these offices during 1934 will only be\napproved in cases where it cannot be done without.\n\n〔此处有手写签名〕\nP.A.\nto Commissioner of Police.\n\n〔左下角有手写批注，字迹潦草难以辨认〕",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-775/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "上海公共租界工部局警务处\n中央与特别班登记处。\n编号 D 5663\n日期 34年2月31日\n\n34年1月26日。\n\n军需官。\n\n节约\n1934年度预算——新家具等。\n\n关于上述事项，将遵循以下程序：\n\n1. 当请购单呈送时，你须向相关人员获取一份特别报告，说明该项配发的实际必要性。\n\n2. 随后，你将请购单连同解释性报告一并提交总部，以待批准。\n\n需注意，行政大楼及各区总部的所有总部办公室和其他办公室将迁至新的中央巡捕房，届时将提供所有新家具，因此，1934年期间，这些办公室的新家具仅在非此不可的情况下方予批准。\n\n〔此处有手写签名〕\n助理专员\n致警务处处长。\n\n〔左下角有手写批注，字迹潦草难以辨认〕",
+   "zh_src": "b3b00b7595081b4c"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-775/Economy%20Estimates%201934%20-%20New%20Furniture%2C%20Etc%201556.pdf>\n\n---\nJanuary 26, oa. \n\n\nQuartermaster. \n\n\n> \n\n\nF.cononiy \nFstimates 1934 - New Furniture etc. \n\n\nTith reference to the atove the folloving procedure \nvill te obvservea: \nLa “hen requisitions are forwarded you will obtain a \nspecial report from tne concerned as to the FyealL \nneceéstity for tie particular ierue._ \nYou vill then submit the requisitions to H.q.,for \napproval together vwitn the explanatory reports. \nTt shoulc be notea tnet all the H.q., arid other \noftices i: the Acministratiorn bBuilcing and Divisional \nHeaaguarters vill Le moveu to the nev Centrai Folice \nStation where ail nev furniture wiil ve ,rovidaea, so tnat \n\n\nnew furniture for tnese ofiicees during 1934 vill only be \n\n\napproved ir cares where it cannot te daone without. \n\n\n3 P.a. \nto Commissioner of Folice. \n: ee | \nPS Grae <a _ ei od \nFam + er \n™ ° Pal a oy ole af \n= pny \nPe el oo cy ~ \n- > \n— ee fhe. \nMRO Ot - \na ~",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2922,
+  "ocr_out_tokens": 243,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 15:55:05",
+  "zh_in_tokens": 475,
+  "zh_out_tokens": 212,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

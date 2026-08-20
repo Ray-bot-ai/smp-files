@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-3720",
+ "title": "D7327",
+ "series": "D Files",
+ "nara_file_no": "783",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-3720",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D-7327\nD-7329\nD-7331",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3720/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "D-7327\nD-7329\nD-7331",
+   "zh_src": "a31cb5c25b184c18"
+  },
+  {
+   "n": 1,
+   "en": "THE NORTH-CHINA DAILY NEWS, SATURDAY,\n（印：No. S. B. L. 7327 / MARCH 21, 1936）\n\nROUND THE WORLD\nON A BICYCLE\nMr. I. Tass Leaving Shanghai\non Sunday\n\nMany travellers come to Shanghai.\nTourists come by boat but there is the\nadventurer, who journeying by car,\nquaint craft, or foot is drawn to\nan electric light. Though many an\nadventurer has passed through, few\nhave started from this city. There are\nexceptions of course and such is Mr.\nI. Tass, a Jewish journalist and an\nactive member of the Shanghai Jewish\nRecreation Club, who is leaving\non Sunday.\nIt is his intention to cycle round the\nworld visiting strange countries and\nseeing their cities. He has set himself\nan arduous task and the first part of\nhis route will be to Java via Hong-\nkong, Canton, Macao, Ludjao, Hanoi,\nSiam, and Bangkok. He has a fluent\nknowledge of English, German, Italian,\nand Russian and this should prove of\nconsiderable assistance to him on his\njourney.\n\n（手写签名）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3720/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "《字林西报》，星期六，\n（印：编号 S. B. L. 7327 / 1936年3月21日）\n\n环球骑行\n塔斯先生将于周日离沪\n\n许多旅行者来到上海。\n游客乘船而来，但也有冒险家，\n他们驾车、乘坐奇特的船只或步行，\n被电灯所吸引。虽然许多冒险家\n途经此地，但从此地出发者寥寥。\n当然也有例外，塔斯（I. Tass）先生\n便是其中之一。他是一位犹太记者，\n也是上海犹太娱乐俱乐部的活跃成员，\n将于周日启程。\n\n他计划骑自行车环游世界，走访\n陌生的国度，参观那里的城市。\n他为自己设定了一项艰巨的任务，\n其路线的第一段将是经香港、广州、\n澳门、Ludjao（音译）、河内、暹罗\n和曼谷前往爪哇。他能流利地使用\n英语、德语、意大利语和俄语，这\n将在他的旅程中给予他极大的帮助。\n\n（手写签名）",
+   "zh_src": "fca0b983679e0dd7"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-3720/D7327%20783%20-%20Shanghai%20Municipal%20Police%20File.pdf>\n\n---\na ROT et Ee et \n\n\nQOL OA LN RTE TE Ra eee \n\n\nN \nb \nN \n\n\nON \nsy \nY) \nIN \n\\ \nN) \n\n\nRQ \nR \n\n\n- wet meso Bede Et ATA Ob atte tne \n\n\n. \n—_ \n\n\n‘THE NORTH-CHINA DAILY NEWS, SATURDAY, \n\n\nROUND THE WORLD \nON A BICYCLE \n\n\nS ving Shanghai \non Sunday \n\n\nMany travellers come to Shanghai. \nTourists come by boat but there is the \nadventurer, who journeying by car, \nquaint craft, or foot is drawn to \nan electric light. Though many un \nadventurer has passed through, few \nhave started from this city. There are \ne.ceptions of course and such is Mr. \na Jewish journalist and an \nmber of the Shanghai Jewish \nRecreation Club, who is leaving \non Sunday. \n\nIt is his intention to cycle round the \nworld visiting strange countries and \nseeing their cities. He has set himself \nun arduous task and the first part of \nhis route will be to Java via Hong- \nkong, Canton, Macao, Ludjao, Hanoi, \nSiam, and Bangkok. He has a fluent \nknowledge of English, German, Italian, \nand Russian and this should prove of \nconsiderable assistance to him on his! \nJourney.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5806,
+  "ocr_out_tokens": 295,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-19 19:23:11",
+  "zh_in_tokens": 534,
+  "zh_out_tokens": 258,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

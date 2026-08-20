@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-954",
+ "title": "James Dolan",
+ "series": "D Files",
+ "nara_file_no": "1539",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-954",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "201 A\nG.20041-34\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSpecial Branch Registry.\nOFFICE\n\nFILE NO. S. 4739.\n\nSUBJECT:\nJames Dolan. re.\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Transferred to | Cr. Registry | E. 256. |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | Oct. 30 / 1933 | |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-954/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "201 A\nG.20041-34\n\n上海公共租界工部局警务处\n互见索引卡\n特务科登记室\n办公室\n\n档案编号 S. 4739。\n\n事由：\n关于 James Dolan。\n\n| 详情 | 部门 | 档案编号 |\n| :--- | :--- | :--- |\n| 转至 | 刑事登记室 | E. 256。 |\n| | | |\n| | 1933年10月30日 | |\n\n指示见背面",
+   "zh_src": "49ab0c0b5b34cfc2"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-954/James%20Dolan%201539.pdf>\n\n---\nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \n\n\nGpreat Bremck (piety. \n\n\nSUBJECT: \n\n\nPARTICULARS i OFFICE | FILE NO. \n\n\n& eee. \n\n\ny",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2922,
+  "ocr_out_tokens": 164,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 17:43:41",
+  "zh_in_tokens": 361,
+  "zh_out_tokens": 133,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

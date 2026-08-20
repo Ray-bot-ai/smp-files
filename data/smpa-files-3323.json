@@ -404,7 +404,8 @@
    "image_url": "https://archive.org/download/smpa-files-3323/page/n39_w2400.jpg",
    "via": "dashscope",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 40,
@@ -734,7 +735,8 @@
    "image_url": "https://archive.org/download/smpa-files-3323/page/n72_w2400.jpg",
    "via": "dashscope",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   }
  ],
  "pages_done": 73,

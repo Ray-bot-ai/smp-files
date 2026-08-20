@@ -23,8 +23,10 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3309/page/n1_w2400.jpg",
    "via": "dashscope",
-   "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh": "特别信箱第11号\n昭和十八年七月二十七日。\n下午二时\n于青森地方裁判所本厅第二法庭\n鉴于右述丹尼斯霍尔协会已将本案从该黑\n监狱提出，\n故传达应将本案提交给上诉人雪娜凯特（音译）思考\n（印章：…）\n\n吉佐伯了\n唤醒君眠\n请求说明\n十七日初夜时分",
+   "zh_note": "原文即中文，无需翻译",
+   "zh_tries": 1,
+   "zh_src": "baa2901332e62246"
   },
   {
    "n": 2,
@@ -1536,10 +1538,10 @@
   "ocr_out_tokens": 48569,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-16 22:52:11",
-  "zh_in_tokens": 55074,
-  "zh_out_tokens": 61339,
+  "zh_in_tokens": 55425,
+  "zh_out_tokens": 61433,
   "zh_chunks": 15
  },
  "native_zh_pages": 1,
- "zh_pages": 150
+ "zh_pages": 151
 }

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-463",
+ "title": "Arrival Of M.O. Koteneff In Shanghai",
+ "series": "D Files",
+ "nara_file_no": "3505",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-463",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "P. 22 F\nG. 60M-1-35\n\nSHANGHAI MUNICIPAL POLICE.    S. B. REGI ____\n                                D ____ 4708\n\nCONFIDENTIAL.    CRIME DIARY.    \"C\"\n                                Division.\nCRIME REGISTER No:— Misc.251/35    Hongkew    Police Station.\n                                3/5/35\n                                            19\nDiary Number:—                Nature of Offence:—\n\n| Time at which investigation begun and concluded each day | Places visited in course of investigation each day |\n| :--- | :--- |\n| | |\n\nRECORD OF INVESTIGATION.\n\nArrival of M.O.Koteneff.\n------------------------\n\nOn 2/5/35 information was received by the undersigned\nthat Mr. Osvald Koteneff, a Soviet Agent formerly connect-\ned with U.S.S.R., had arrived at Shanghai on 24/4/35. He\nis at present staying in Room No.247, Astor House Hotel\nand is frequently visited by Mr. Borisoff. The latter\nis also believed to be a Soviet Agent as he often uses\nm/cars of the Soviet Consulate.\n\nMr. O.Koteneff is maintaining telegraphic communica-\ntion with Moscow addressing his telegrams as follows:\n'Rudy, Moskow, Soljank Odin Kvart.151\".\n\nMajority of telegrams have been sent in code. A copy\nof a telegram sent on 2/5/35 was obtained by the under-\nsigned and is attached hereto.\n\nSen. Det. [Signature] c.        [Signature]\n                                D.S.\n\nD.D.O.\"C\" Division.\n\nFile\n[Signature]\n4 MAY 1935",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-463/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "P. 22 F\nG. 60M-1-35\n\n上海公共租界工部局警务处。 S. B. 登记 ____\n                                D ____ 4708\n\n机密。 犯罪日记。 “C”\n                                分区。\n犯罪登记号：— 杂项 251/35    虹口    巡捕房。\n                                1935年5月3日\n                                            19\n日记编号：—                罪行性质：—\n\n| 每日开始及结束调查的时间 | 每日调查过程中走访的地点 |\n| :--- | :--- |\n| | |\n\n调查记录。\n\nM.O. Koteneff 抵达。\n---\n\n1935年5月2日，签署人收到情报称，前与苏联有关联的苏联特工 Osvald Koteneff 先生已于1935年4月24日抵达上海。他目前住在礼查饭店（Astor House Hotel）247号房间，Borisoff 先生经常拜访他。后者也被认为是苏联特工，因为他经常使用苏联领事馆的机动车。\n\nO. Koteneff 先生正与莫斯科保持电报通信，其电报地址如下：\n“Rudy, Moskow, Soljank Odin Kvart.151”。\n\n大多数电报均以密码发送。签署人获取了一份1935年5月2日发出的电报副本，并附于此。\n\n高级侦探 [签名] c.        [签名]\n                                D.S.\n\n“C”分区副总监。\n\n归档\n[签名]\n1935年5月4日",
+   "zh_src": "e5409c07303e63a9"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-463/Arrival%20Of%20M.O.%20Koteneff%20In%20Shanghai%203505.pdf>\n\n---\nGS, 6Om.1-38 \n\n\nS&S B. BEGi. \n\n\nSHANGHAI MUNICIPAL POLICE. )_< ° =a \n\n\nCONFIDENTIAL. CRIME DIARY. hie. iia \nCRIME REGISTER No:— ™480.251/35 COM ...--.-.-Police Station. \nDiary Number :— Nature of Offence :— \nTime at which Pion 9 \ninvestigation begun course of \nand concluded each day investigation \neach day \n\n\nRECORD OF INVESTIGATION. \n\n\nArrival of M. OO Va aE Ss \n\n\nOn 2/5/35 information was received by the undersigned \nthat Mr. Osvald Koteneff, a Soviet Agent formerly connect- - \n\n\n—— peeaene \npo ener ae SEAT TS chime 5 \n\n\nea with C.E-R., had arrived at Shanghai on 24/4/35. He \nis at present staying in Room No.247, Astor House Hotel \nand is frequently visited by Mr. Borisoff. The latter \nis also believed to be a Soviet Agent as he often uses \nm/oars of the Soviet Consulate. \n\nMr. O.Koteneff is maintaining telegraphic communica- \ntion with Moscow addressing his telegrams as follows: \n\n‘Rudy, Moskow, Soljank Odin Kvart.151\". \n\nMajority of telegrams have been sent in code. <A copy \nof a telegram sent on 2/5/35 was obtained by the under- \nsigned and is attached hereto. \n\n\nnite D.D.0.\"C* Division. \n\n\n7 rr wnt Qs -* \n\n\n. \n\n\nseiiidieeeeeteerettemtteneaneett oman ete eae",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2939,
+  "ocr_out_tokens": 404,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 00:15:04",
+  "zh_in_tokens": 635,
+  "zh_out_tokens": 368,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

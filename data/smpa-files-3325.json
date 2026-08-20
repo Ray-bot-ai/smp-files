@@ -673,8 +673,10 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3325/page/n66_w2400.jpg",
    "via": "dashscope",
-   "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh": "昭和十四年三月二十七日\n上海新闻检查所\n上海公共租界工部局\n警务总监\n（印：卢之印）\n\n伯恩少佐 台鉴\n\n关于请求阻止《红报》复刊一事\n\n本月二十二日曾致函，请求贵方下令停止《红报》发行，承蒙贵方迅速采取处置措施，不胜感激。然而，据获情报称，该报正计划以英国或美国籍名义复刊。为此，若该报向贵方提交复刊申请，恳请贵方予以阻止。特此奉告。",
+   "zh_note": "原文即中文，无需翻译",
+   "zh_tries": 1,
+   "zh_src": "55ca9b6c9cd3db8b"
   },
   {
    "n": 67,
@@ -2265,10 +2267,10 @@
   "ocr_out_tokens": 85944,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-16 23:57:25",
-  "zh_in_tokens": 96430,
-  "zh_out_tokens": 72096,
+  "zh_in_tokens": 96809,
+  "zh_out_tokens": 72227,
   "zh_chunks": 30
  },
  "native_zh_pages": 1,
- "zh_pages": 223
+ "zh_pages": 224
 }

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-956",
+ "title": "James Irby",
+ "series": "D Files",
+ "nara_file_no": "2798",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-956",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201 A\nG. 2000-5-36\n\nCONFIDENTIAL\nDRAWER\n\nSHANGHAI MUNICIPAL POLICE\n\nCROSS-REFERENCE SLIP\n\nSp. Br. Registry....OFFICE\n\nFILE NO. D 9066\n\nSUBJECT:\n\nJAMES IRBY\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| TRANSFERRED TO | | D 8984(C) |\n| （印：CONFIDENTIAL DRAWER） | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| INSTRUCTIONS SEE OVER | | |",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-956/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 2000-5-36\n\n机密\n档案柜\n\n上海公共租界工部局警务处\n\n交叉参考单\n\n特别分部登记室 ____ 办公室\n\n档案编号 D 9066\n\n事由：\n\nJAMES IRBY（音译）\n\n| 详情 | 办公室 | 档案编号 |\n| :--- | :--- | :--- |\n| 转至 | | D 8984(C) |\n| （印：机密档案柜） | | |\n| | | |\n| 指示见背面 | | |",
+   "zh_src": "d1b3860df6ebe7e0"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-956/James%20Irby%202798.pdf>\n\n---\ncrore em at r \n\n\non ee \n‘ \nL \n' on ey — \nF. 200A ee \n@ 2000-35-36 \n\n\nSHANGHAI MUNICIPAL \n\n\nCONDIDEria ee \nDRAWER \n\n\nCROSS-REFERENCE SLIP \n\n\nFILE NO......D..9966 \n\n\nSe ital \n\n\nSUBJECT: \n\n\nJAMES IRBY \n\n\nPARTICULARS \n\n\nSee SED LO \n\n\nfe eee e eee eee en ete ee tee e neces eres eeeeesswene ropase-s valigay = = = on a an een ne ene ee ene nn tee e nner eeneenee \n\n\nCONFIDENT.AL \n\n\nOFFICE FILE NO. \n\n\nD 8984(c) \n\n\nbyrne =",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2922,
+  "ocr_out_tokens": 179,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 17:44:10",
+  "zh_in_tokens": 371,
+  "zh_out_tokens": 140,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

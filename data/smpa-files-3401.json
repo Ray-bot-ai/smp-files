@@ -1613,8 +1613,10 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3401/page/n160_w2400.jpg",
    "via": "dashscope",
-   "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh": "昭和十三年十二月六日\n上海无线电监督处处长 浅野\n致\n工部局\n警务处 台鉴\n\n关于天蟾电台广播许可事宜\n\n鉴于对下列电台的检查结果认定为合格，兹以本日为准准予其广播，特此知照。\n\n一、名称：天蟾广播电台\n一、负责人：F. W. Wettengel（德国人）\n一、地点：上海福州路701号\n一、呼号：XQHG\n一、频率：1300 K.C.\n一、功率：100瓦特\n\n此致\n\n上海无线电监督处公函\n第19871号\n（印章：…）",
+   "zh_note": "原文即中文，无需翻译",
+   "zh_tries": 1,
+   "zh_src": "95762fc75853d186"
   },
   {
    "n": 161,
@@ -2096,10 +2098,10 @@
   "ocr_out_tokens": 66167,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-17 23:22:38",
-  "zh_in_tokens": 72468,
-  "zh_out_tokens": 55777,
+  "zh_in_tokens": 72872,
+  "zh_out_tokens": 55934,
   "zh_chunks": 21
  },
  "native_zh_pages": 1,
- "zh_pages": 207
+ "zh_pages": 208
 }

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-872",
+ "title": "Geo. Fung Murder Case Eng. For H.K. Police",
+ "series": "D Files",
+ "nara_file_no": "2196",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-872",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F 201\nT.H. 1000-8-32\n\nS.B. no. 3.2\nCross B.\n\nCENTRAL REGISTRY\n\nFILE No. 4035803\n\nSUBJECT:\nGeo. Jung __________\nEng. for H.K. Police\n\nSENT TO\nNAME | DATE\n---|---\nSec |\nSPECIAL | SOCK",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-872/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F 201\nT.H. 1000-8-32\n\nS.B. 第 3.2 号\nCross B.\n\n中央登记处\n\n档案编号 4035803\n\n事由：\nGeo. Jung ___\n香港警务处工程师\n\n发送至\n姓名 | 日期\n---|---\n秘书 |\n特别 | SOCK",
+   "zh_src": "5a83c6ea960630ce"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-872/Geo.%20Fung%20Murder%20Case%20Eng.%20For%20H.K.%20Police%202196.pdf>\n\n---\nhe \n\n\noe ai ore \na He, Pel, 3 ; \nCENTRAL REGISTRY \nFILE No. Li . 5 A a Ps i \nSUBJECT: \n“J #7) i - | \nL/e “chs & {7 = ra rake ' \n\n\n—- ‘ DATE",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2903,
+  "ocr_out_tokens": 88,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 16:54:14",
+  "zh_in_tokens": 319,
+  "zh_out_tokens": 88,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

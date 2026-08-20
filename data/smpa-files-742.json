@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-742",
+ "title": "Deportation Of Kim Jin Tai, Alias Kim Toh, Alias Kim Shoi, Korean Radical Suspect",
+ "series": "D Files",
+ "nara_file_no": "1250",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-742",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Form No. 3\nG. 25,000-1-34\n\nSHANGHAI MUNICIPAL POLICE.\nS. 2. Special Branch **〔此处转录不清〕**\nREPORT\nDate. February 7, 1935.\n\nSubject (in full) Arrest of Kim Toh (金湯) alias Kim Sho Yi (金鐘意),\nKorean radical suspect, by the Japanese Consular Police.\nMade by J.D.C. Kamashita Forwarded by **〔此处转录不清〕**\n\nKim Toh alias Kim Sho Yi, age 38, unemployed, residing\nNo. 5 Tuh Ung Li (德興里), Huang Pang Road (橫浜路), Chapei\nwas arrested by the Japanese Consular Police on the Customs\nJetty at 10.00 a.m. on February 5, 1935 and is being detained\nat the Consulate pending investigation.\nA further report will be submitted as soon as enquiries\nhave been completed by the Consular Police.\n\nJ. D. C. Kamashita\nJ. D. C.\n\nDeputy Commissioner, Special Branch.\n\nS2,\nFurther report please in\ndue course.\n**〔此处转录不清〕**\nDC Kamashita.\nSMB 8/2.\nFeb 1935",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-742/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "表格第3号\nG. 25,000-1-34\n\n上海公共租界工部局警务处。\nS. 2. 特别处 **〔此处转录不清〕**\n报告\n日期：1935年2月7日。\n\n事由（全称）：日本领事馆警察逮捕朝鲜激进分子嫌疑人金湯（Kim Toh），又名金鐘意（Kim Sho Yi）。\n呈报人：J.D.C. Kamashita 转呈人：**〔此处转录不清〕**\n\n金湯，又名金鐘意，38岁，无业，居住于闸北横浜路德興里5号，于1935年2月5日上午10时在海关码头被日本领事馆警察逮捕，目前正被拘留于领事馆内以待调查。\n待领事馆警察完成问询后，将提交进一步报告。\n\nJ. D. C. Kamashita\nJ. D. C.\n\n特别处副督察长。\n\nS2，\n请在适当时候提交进一步报告。\n**〔此处转录不清〕**\n副督察长 Kamashita。\nSMB 8/2.\n1935年2月",
+   "zh_src": "541de4d5e84dee81"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-742/Deportation%20Of%20Kim%20Jin%20Tai%2C%20Alias%20Kim%20Toh%2C%20Alias%20Kim%20Shoi%2C%20Korean%20Radical%20Suspect%201250.pdf>\n\n---\nForm No. \n‘eae \n7 SHANGHAI MUNICIPAL POLICE. \n\nS. 2. Special Bra,.ch \nREPORT \n\n\no \n\n\nDare. ¥erilery 74.19 383\" \nSubject (in full) Arrest of Kim Toh (@ (% ).alias Kim Sho yi(}4e 2 ),.. \n. Korean. radical suspect, by the Japanese Consylar on \n\n\nMade by... J.D eCe..Kamashita _. Porsarded by... q IS ed ; A“ (Ges \n\n\nKim Téh alias Kim Sho Yi, age 38, unemployed, residing \n\n\nap 2 F sy ; , \nNo. 5 Tuh Ung Lil j&% “7 W ), Huang Pang Hond( 4% it BO), Chapei \n\n\nwas arrested by the Japenese Sonsular Police on tne Customs \n\n\nJetty 2% 19.99 a.m. on February 5, 1935 and is being detained \n\n\nat tne Tonsulate vending investigation. \n\n\n___-_—siCidAsfurther report will be submitted as soon as enquiries \n\n\nc have been completed by the Consuler Police. _ \n\n\nDeouty Commissioner, Special Branch.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2954,
+  "ocr_out_tokens": 294,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 15:36:32",
+  "zh_in_tokens": 526,
+  "zh_out_tokens": 266,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -1,0 +1,55 @@
+{
+ "ia_id": "smpa-files-509",
+ "title": "B. Von Selivanovsky, Russian",
+ "series": "D Files",
+ "nara_file_no": "3154",
+ "pages": 3,
+ "ia_url": "https://archive.org/details/smpa-files-509",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D 9419",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-509/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "D 9419",
+   "zh_src": "3164db5dcfb88c5f"
+  },
+  {
+   "n": 1,
+   "en": "FORM NO. 3\nG. 40M-1-38\n\nSHANGHAI MUNICIPAL POLICE.    File No............\n                                C. S. S, Special Branch Station 9419\n            REPORT              Date September 6. 1939\n\nSubject (in full) ....Re Attached Advertisement....................................................\n\nMade by ....Bnd............................Forwarded by....D.S.I. Wittinsky................................\n\n        With reference to the attached advertisement,\nwhich appeared in the Shanghai Jewish Chronicle on the 5-9-39,\nenquiries elicited that it was inserted by one named B. von\nSelivanovsky, Russian, residing at Passage 135 Lane 6, Avenue\nHaig, who intends to open a coal briquette factory.\n\n                                                O. Wittinsky\n                                                D. S. I.\n\nD.C. (Special Branch).",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-509/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "表格编号 3\nG. 40M-1-38\n\n上海公共租界工部局警务处。    档案号 ____ \n                                中央巡捕房，特别分站 9419\n            报告              日期 1939年9月6日\n\n事由（全称）  ____ 关于所附广告 ____ \n\n呈报人  ____ Bnd ____ 转呈人 ____ 副督察长 Wittinsky ____ \n\n        关于所附于1939年9月5日刊登在《上海犹太纪事报》上的广告，\n经查询获悉，该广告由一名名为 B. von Selivanovsky 的俄国人刊登，\n此人居住在海格路6弄135号通道，拟开设一家煤球厂。\n\n                                                O. Wittinsky\n                                                副督察长\n\n分区警官（特别部门）。",
+   "zh_src": "aa1a7f898b65b1fb"
+  },
+  {
+   "n": 2,
+   "en": "SHANGHAI JEWISH CHRONICLE - September 5, 1939\n\nGesucht wird\nKAPITAL BIS $ 15000\nEventuell Teilzahlung\nGewinn mehr als 35 % Erfolg ist verbuergt\nCommissionaere verboten\nBriefliche Antwort Chiffre 722\n\nCapital up to $15,000 wanted\nEventual part-payment\nWin more than 35% Success guaranteed\nCommission agents not welcome\n\nWritten reply cipher (box) 722\n\nEng. please.\nRudy. 5/9.\n\nO. Littmann\n6.8.1.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-509/page/n2_w2400.jpg",
+   "via": "dashscope",
+   "zh": "《上海犹太纪事报》 - 1939年9月5日\n\nGesucht wird\nKAPITAL BIS $ 15000\nEventuell Teilzahlung\nGewinn mehr als 35 % Erfolg ist verbuergt\nCommissionaere verboten\nBriefliche Antwort Chiffre 722\n\n征求资本高达15,000美元\n可分期付款\n利润超过35%，成功有保证\n谢绝中介\n书面回复请寄信箱722号\n\n英文请译。\nRudy. 9月5日。\n\nO. Littmann\n6.8.1.",
+   "zh_src": "01b3af4e274db5ae"
+  }
+ ],
+ "pages_done": 3,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-509/B.%20Von%20Selivanovsky%2C%20Russian%203154.pdf>\n\n---\nD AY \n\n\nan \n» \n\n\nFORM _NO. 3. File No.......---- \naii cd SHANGHAI MUNICIPAL POLICE. \n\n\nWith reference to the suttached acvertisement, \n\n\nwhich apoé€ared in the 3nangnai Jewisa Chronicle on tne 5-939, \nenquiries elicited that it was inserted by one named 3B. von \nSelivanoveky, Rassian, residirzg at Passage 135 Lane 6, Avenue \n\n\nHaiz, who intends to dpen a cval briquette factory. \n\n\nohn \n\n\n5S. \n\n\nD.2.(Sseciai Branch). \n\n\nSHANGHAI JEWISH CHRONICLE = September 5, 1939 \n\n\nGesucht wird , \nEventuell Teilzahlung \nGewinn mehr als 35 ‘: Erfolg ist verbuergt \n' Commissionaere verbeten \nBriefliche Antwort Ciuffre 722 \n\n\nae ae oe \n\n\nCapital uo to $15,000 wanted \nEventual part-payment \nWin more than 35% Success guaranteed \n\n\nCommission agents not welccme \n\n\nWritten reply cipher (box) 722",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 8701,
+  "ocr_out_tokens": 339,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 00:44:46",
+  "zh_in_tokens": 584,
+  "zh_out_tokens": 350,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 3
+}

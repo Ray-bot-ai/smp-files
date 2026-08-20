@@ -502,7 +502,8 @@
    "tries": 1,
    "via": "dashscope",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 49,

@@ -63,7 +63,9 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-2490/page/n5_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "入下二八\n在坪立之\nンハ一八\n七〇〇〇人\nシ\n（印：〔此处转录不清〕）",
+   "zh_tries": 1,
+   "zh_src": "0eb9a7b484b2557e"
   },
   {
    "n": 6,
@@ -125,8 +127,8 @@
   "ocr_out_tokens": 3860,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-16 00:33:36",
-  "zh_in_tokens": 4386,
-  "zh_out_tokens": 3513,
+  "zh_in_tokens": 4654,
+  "zh_out_tokens": 3555,
   "zh_chunks": 2
  },
  "native_zh_pages": 0,

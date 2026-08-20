@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-725",
+ "title": "Cross Reference Slip Re T.V. Vlachos, Greek",
+ "series": "D Files",
+ "nara_file_no": "3151",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-725",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201 A\nG. 3000-2-35\n\n**〔此处转录不清〕**\n\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\n\nSpecial Branch Office\nFILE NO. D 7632\n\nSUBJECT:\n**〔此处转录不清〕**\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| | E. 127 | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-725/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 3000-2-35\n\n**〔此处转录不清〕**\n\n上海公共租界工部局警务处\n互见索引卡\n\n政治部办公室\n档案号 D 7632\n\n事由：\n**〔此处转录不清〕**\n\n| 详情 | 办公室 | 档案号 |\n| :--- | :--- | :--- |\n| | E. 127 | |\n| | | |\n\n指示见背面",
+   "zh_src": "8f9e7f16a5d34d8d"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-725/Cross%20Reference%20Slip%20Re%20T.V.%20Vlachos%2C%20Greek%203151.pdf>\n\n---\nF201 eS A Sate \nG. 3000-2.39 | PIV IY \n\n\neee tee \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\n» CROSS-REFERENCE SLIP \n\n\ncd he ge ake Ieee / OF FICE \n\n\nFILE No... © 743 2 \n\n\nSUBJECT: \n\n\n‘ rf if ¢ \" ‘ peg \n‘ 7 fy Tf <3¢ £ ‘ ‘ \nJ t , = 7 . Ps : \n\n\nPARTICULARS | OFFICE | FILE NO. \n\n\nPGE LOL LSS ELBE AEN RES GONE Te \n\n\nINSTRUCTIONS SEE GVER \n\n\n\\ : ! : : \ni ie A ee ean ta \n\nH ‘ ‘ \n— ; : \n\n: : ; ‘ \n\nH ‘ : \n\n. ' ‘ e \n<i, \n* . — SA ET UR A - .",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2939,
+  "ocr_out_tokens": 154,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 15:31:24",
+  "zh_in_tokens": 346,
+  "zh_out_tokens": 117,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

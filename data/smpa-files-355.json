@@ -12,7 +12,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-355/page/n0_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "D-8193",
+   "zh_src": "fdff9ebe9a39c435"
   },
   {
    "n": 1,
@@ -20,7 +22,9 @@
    "error": null,
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-355/page/n1_w2400.jpg",
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh": "机密\n上海公共租界工部局警务处。 档案号 ____\nS.2 特别分站\n报告\n日期：1937年11月16日。\n关于一名法租界华籍巡捕涉嫌出售毛瑟手枪之事。\n由 ________ 具报，经谭绍良警司转呈。\n\n今日上午11时许，前上海外交公署特派员许沅（Yuen）先生之次子许铁庸先生来到警察总局，主动作出如下陈述：\n“有一名驻卢家湾捕房的法租界华籍巡捕，编号530（确切号码我记不清了），来到我在斯坦尼斯拉斯·谢瓦利埃路171号的寓所，提出以每支70元的价格向我出售四支毛瑟手枪，并在寓所内出示了其中一支手枪，枪身带有警察局印记。\n“该巡捕称，其他法租界巡捕也搞到了机枪。如果我不想要，他会去找顾四（Koo Sz）先生试试，顾四是戏院老板兼人力车行东主，曾因涉及董嘉邦谋杀案而被捕。”\n许先生在罗斯总督察面前复述了上述陈述。\n\n谭绍良\n警司。\n\nD. C. (特别处)\nDC (C-)\n请予查办\nM. Tolez. 隐去姓名\n\n（印：上海公共租界工部局警务处 1937年11月17日 特别处）\n1937年11月17日    副警务处长（特别处）",
+   "zh_src": "15458f931dca7218"
   }
  ],
  "pages_done": 2,
@@ -31,6 +35,11 @@
   "ocr_in_tokens": 5854,
   "ocr_out_tokens": 394,
   "reasoning_tokens": 0,
-  "ocr_at": "2026-08-19 06:11:20"
- }
+  "ocr_at": "2026-08-19 06:11:20",
+  "zh_in_tokens": 633,
+  "zh_out_tokens": 369,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
 }

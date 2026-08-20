@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-3600",
+ "title": "4397A",
+ "series": "",
+ "nara_file_no": "841",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-3600",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "4397A\n\nTHE CHINA PRESS, SATURDAY, FEBRUARY 12, 1922\n\nLight is shed by the interview\nwith Mr. K. S. Lee:\n\"When the seamen threatened to\nstrike,\" said, Mr. Lee, \"the\nowners thought they were not\nserious and were only taking\nadvantage of the China New\nYear Holidays.\nOne shipowner, at a meeting, is\nreported to have said that the\nseamen would be starving in a\nweek and they would be forced\nto resume their work anyhow.\nThen at the first meeting with\nthe Union leaders, the Secretary\nfor Chinese Affairs in the\nColony, Mr. Halifax, is report-\ned to have bluffed the men and\nstated that, that—the first\nmeeting—would be the final\none and that the men would be\ngiven no further chance—others\nwould be employed to take their\nplaces, if they did not return\nto work at once.\"\nCan one wonder that workmen\nstrike for better conditions,\nwhen on their own showing,\ntheir masters rely on the wea-\npons of starvation and denial?\nI am not surprised that the sea-\nmen are standing out for their\nterms. Like countless other or-\nganised bodies of workmen,\nthey decline to be bluffed.\nMuch has been said by the em-\nployers' side about the Canton\nGovernment, with the idea of\ndiscrediting that Government\nand belittling the efforts of the\nseamen to improve their condi-\ntion.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3600/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "4397A\n\n《字林西报》，1922年2月12日，星期六\n\n李（K. S. Lee）先生的谈话阐明了事态：\n\n“当海员威胁要罢工时，”李先生说，“船东们认为他们并非动真格，只不过是想利用中国新年假期占点便宜。\n\n据称，在一次会议上，一位船东曾说，海员们在一周内就会挨饿，无论如何都将迫使他们复工。\n\n接着，在与工会领导人的第一次会晤中，据称殖民地华民政务司哈利法克斯（Halifax）先生对工人们虚张声势，声称那——第一次会议——将是最后一次会议，如果工人们不立即复工，将不再给他们任何机会——并将雇用其他人来取代他们的职位。”\n\n既然雇主们自己表明依赖饥饿和拒绝谈判作为手段，人们怎能不奇怪工人为争取更好条件而罢工呢？\n\n我对海员们坚持其要求并不感到惊讶。像无数其他有组织的工人群体一样，他们拒绝被虚张声势所吓倒。\n\n雇主方面说了许多关于广东政府的话，其目的是败坏该政府的声誉，并贬低海员为改善自身条件所作的努力。",
+   "zh_src": "6dbc22a44916db5d"
+  },
+  {
+   "n": 1,
+   "en": "See C. R. File A 1212\n________",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3600/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "参见 C. R. 档案 A 1212\n________",
+   "zh_src": "f92de0dea0ba9647"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-3600/4397A%20841%20-%20Shanghai%20Municipal%20Police%20File.pdf>\n\n---\njghy is ghed by the ‘interview j \n*, With Mr. K. S. Lee: | \nen ithe Sedmen threatened to \n\n\nBetts \n\n\nsaid, Mr. Lee, “the \nthougi ley were not’ \nand y only taking \n_ Oe ;atre China New. \nner, at » meeting, } \nhave ‘said that * \n\n\nMithey would bp forcéa: \ntheir work anyhow.,' \nr j\\first meeting with \n: Meaders, the Secretary : \n\nmae . Chinése Affairs in the! \nry lony, Mr. Halifax, is. report- \nhave blulfed the men and \n\n\nthat, that—the first \nEagooting—wouta be the final \n> and that the men would be \ngiven no further ae a | \n.? would be employed to take their \ni’ Places, if they did not retura \n‘ to work at omce.\"’ \nCan one wonder that workmen \n+ strike for better conditions, \nwhen on their own showing. ; \ntheir masters rely on the weu- | \n‘pons of starvation and denial’ \n1 am mot surprised that the sea- \nmen are standing out for their | \nterms. Like countless other or-| \nganised. bodies of workmen, \nthey deciine to be bluffed. \nuch has been said by the em- \n4 Ployers' side about the Canton: \n\\° Government, with the idea of! \n(\" diserediting that Government \nan littling the efforts of tke, \nfamen to improve their condi; \ntio: \n\n\nLee \n\n\n(J \ni KR. Fhe A Ia \n\n\n—",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5799,
+  "ocr_out_tokens": 357,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-19 13:17:17",
+  "zh_in_tokens": 596,
+  "zh_out_tokens": 281,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

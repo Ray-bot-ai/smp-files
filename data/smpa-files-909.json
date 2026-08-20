@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-909",
+ "title": "Importers Of Arms And Ammunition",
+ "series": "D Files",
+ "nara_file_no": "908",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-909",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Form No. 3\nG. 2483 J-32\n\nSHANGHAI MUNICIPAL POLICE.\nREPORT\nSpecial branch. Station.\nFile No. 41460\nDate February 3, 1933.\n\nSubject (in full) Importers of Arms and Ammunition.\n\nMade by ____ and ____ Forwarded by Superintendent Robertson.\n\nThe following is a list of firms who regularly\nimport arms and ammunition into Shanghai -\nJardine Engineering Corporation.\nCarl Nahmmachen, the representative of Bird\nAircraft Corporation.\nCarlowitz & Co.\nChina Airways, Fed. Inc. U.S.A.\nGlathe & Witt.\nL.E. Gale Co.\nKunst & Albers.\nHarvie, Cooke & Co.\nKee Yeh Handels Compagne.\nSiemens China Co.\nArnhold & Co.\n\n（左侧批注：See also I.O 8760/112）\n\n（签名）Jno Robertson\nSuperintendent.\n\n（签名）File M/g 3.2.33.\nOfficer i/c Special branch.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-909/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "表格第3号\nG. 2483 J-32\n\n上海公共租界工部局警务处。\n报告\n特别支部。分局。\n档案编号 41460\n日期 1933年2月3日。\n\n事由（全称）：武器及弹药进口商。\n\n由 ____ 和 ____ 编制，经警司罗伯逊（Robertson）转呈。\n\n以下为定期向上海进口武器及弹药的商行名单——\n怡和机器公司（Jardine Engineering Corporation）。\n卡尔·纳马亨（Carl Nahmmachen），伯德飞机公司（Bird Aircraft Corporation）代表。\n礼和洋行（Carlowitz & Co.）。\n中国航空公司（China Airways, Fed. Inc. U.S.A.）。\n格拉特与维特公司（Glathe & Witt）。\nL.E. Gale 公司。\n孔士洋行（Kunst & Albers）。\n哈维·库克公司（Harvie, Cooke & Co.）。\n基业贸易公司（Kee Yeh Handels Compagne）。\n西门子中国公司（Siemens China Co.）。\n爱立积洋行（Arnhold & Co.）。\n\n（左侧批注：另见 I.O 8760/112）\n\n（签名）Jno Robertson\n警司。\n\n（签名）档案管理员 1933年2月3日。\n特别支部主管警官。",
+   "zh_src": "8d54782c9c91104d"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-909/Importers%20Of%20Arms%20And%20Ammunition%20908.pdf>\n\n---\nte \n\na \n‘ \n] \n\n\n- A - A Rn \nFile..No.......... \n. G. Se. 3-32 ot oe \ni Z 2 SHANGHAI MUNICIPAL POLICE. P wile \n\n\nSpecial pranche __. >... Staion, \n: REPORT se elas \n\n\nSubject (in full)............PBROPbers of APIS ane AMAUME ETO Me ccc cece ce te ceeeeeeeeceseeeeeteeeseneeteeeeees \n\n\n____ The following 18 @ tist of firms who regularly \n\n\ni \ni | amenort arms ani ammunition into Shang: ai = . \nJardine _ngineerin,; Sorperation. ae _ \n\n\nCarl Nanarriachen, the renresentutive of pird \nee SUI ae Sf SD gc AEA Rr ane See ee ey NE SS \n\n\nf Pitesd 7% ___Aircraft Corvoratione ints a \n\n: é __Carlovitz & Co. OE RT OR TN ee ee \nChina Airways, Fed. inc. UeSeAe 2 \n; Glathe & Vitt. = oe en \n\nLois. Gale Coe6 se : ee = \n\n_ Kunst & Albers. ae ae \n\n| ____ Harvie, Cooxe & Cos ae oer RN err Cees \n____ Mee Yeh nNandels Compagne. | \n\n| ____Siemens:; China Co. Pe ares \n! sa eg i \n~ Superintendent. \n\n\n: hy Bi ete tee \n\n\n_ Officer ife Special Branch, \n\n\n.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2932,
+  "ocr_out_tokens": 246,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 17:17:02",
+  "zh_in_tokens": 478,
+  "zh_out_tokens": 317,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -119,7 +119,8 @@
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-1370/page/n15_w2400.jpg",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 16,
@@ -128,7 +129,8 @@
    "image_url": "https://archive.org/download/smpa-files-1370/page/n16_w2400.jpg",
    "zh": "",
    "tries": 1,
-   "via": "dashscope"
+   "via": "dashscope",
+   "zh_status": "native_zh"
   },
   {
    "n": 17,
@@ -136,7 +138,8 @@
    "error": null,
    "image_url": "https://archive.org/download/smpa-files-1370/page/n17_w2400.jpg",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 18,

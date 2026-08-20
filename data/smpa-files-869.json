@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-869",
+ "title": "General Labour Union 117 Foh Yen Road, Nankao",
+ "series": "D Files",
+ "nara_file_no": "1759",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-869",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201\nT.H. 1000-3-50)\n〔此处转录不清〕\nCENTRAL REGISTRY\nFILE No. 27 3523\nSUBJECT:\n〔此处转录不清〕\nSENT TO\nNAME DATE\n〔此处转录不清〕\nO.S. 29.8.3.\n5.5.32",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-869/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201\nT.H. 1000-3-50)\n〔此处转录不清〕\n中央登记处\n档案编号 27 3523\n事由：\n〔此处转录不清〕\n发送至\n姓名 日期\n〔此处转录不清〕\nO.S. 29.8.3.\n1932年5月5日",
+   "zh_src": "13843c33f16700cb"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-869/General%20Labour%20Union%20117%20Foh%20Yen%20Road%2C%20Nankao%201759.pdf>\n\n---\nREGISTRY \nFILE No. @ #22 ey \nSUBJECT: \nLei» x Pe ae ae # 7 ae \n\n\nee ee. \n“oe A’ Ape xo Pa \neen Ln. o \n\n\nSENT TO _ \nNAME DATE \n\n\nae! te WO Bin",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2939,
+  "ocr_out_tokens": 86,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 16:51:56",
+  "zh_in_tokens": 318,
+  "zh_out_tokens": 92,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

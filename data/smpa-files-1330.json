@@ -133,7 +133,8 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1330/page/n12_w2400.jpg",
    "via": "dashscope",
-   "zh": ""
+   "zh": "",
+   "zh_status": "native_zh"
   }
  ],
  "pages_done": 13,

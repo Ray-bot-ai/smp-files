@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-534",
+ "title": "Bubbling Well Temple Re Movement To Eject Abbott To Win Of",
+ "series": "D Files",
+ "nara_file_no": "2803",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-534",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "8-5674\n8-5675\n8-5678",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-534/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "8-5674\n8-5675\n8-5678",
+   "zh_src": "d96fecd32ea34ac5"
+  },
+  {
+   "n": 1,
+   "en": "See G.R. a. 1611\nFILE No. D. 56.73\nC. & S. B. REGISTRY\nSUBJECT :\nBubbling Well Temple -\nre Movement to eject Abbot\nTo View of.\n\n| NAME | SENT TO | DATE |\n| :--- | :--- | :--- |\n| File transferred to | | |\n| Central Registry | | 2.6.41 |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-534/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "参见 G.R. a. 1611\n档案编号 D. 56.73\n中央登记处（C. & S. B. REGISTRY）\n事由：\n静安寺——\n关于驱逐住持之动议\n供阅。\n\n| 姓名 | 发送至 | 日期 |\n| :--- | :--- | :--- |\n| 档案已转至 | | |\n| 中央登记处 | | 1941年6月2日 |\n| | | |",
+   "zh_src": "a805c9e8ec92e5bc"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-534/Bubbling%20Well%20Temple%20Re%20Movement%20To%20Eject%20Abbott%20To%20Win%20Of%202803.pdf>\n\n---\nB-S67F \nS-S6 7S. \nS-S67% \n\n\nea ee ee \n: FILE No. \nREGISTRY J s0* 0 3 \n\n\nPa “S \naw \n\n\nkcal ee",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5841,
+  "ocr_out_tokens": 155,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 00:57:49",
+  "zh_in_tokens": 364,
+  "zh_out_tokens": 148,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

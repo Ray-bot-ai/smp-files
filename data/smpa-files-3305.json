@@ -33,8 +33,10 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3305/page/n2_w2400.jpg",
    "via": "dashscope",
-   "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh": "大山警部神\n草拟布告，接获摘要\n巴亚猫加入人参\n归还121（印：当）",
+   "zh_note": "原文即中文，无需翻译",
+   "zh_tries": 1,
+   "zh_src": "a54cccbd17cc5ed1"
   },
   {
    "n": 3,
@@ -976,10 +978,10 @@
   "ocr_out_tokens": 31228,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-16 22:44:26",
-  "zh_in_tokens": 34193,
-  "zh_out_tokens": 28367,
+  "zh_in_tokens": 34458,
+  "zh_out_tokens": 28403,
   "zh_chunks": 10
  },
  "native_zh_pages": 1,
- "zh_pages": 95
+ "zh_pages": 96
 }

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-3878",
+ "title": "D9948-2C",
+ "series": "D Files",
+ "nara_file_no": "1655",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-3878",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "(Special Branch) Office Notes\n\nSHANGHAI MUNICIPAL POLICE\nDate ____ 20 ____\nNo. S. B. D ____\n〔此处转录不清：圆形印章，可见“20 AUG”字样〕\n\nI reference above. This resolution\nlooks rather inadequate when the\nnature of Li Phihi's work is taken\ninto consideration. I suggest he be\ngiven protection by Chinese Police,\npreferably plain clothes.\n\nThos. Ralston\nD C (SB)\n\n〔此处转录不清：椭圆形印章，内容为“SHANGHAI MUNICIPAL POLICE COMMISSIONER'S OFFICE 2C AUG. 1933”〕\n\nD C (Sp Br)\nEvery precaution.\nI think C & (DSI y/c) should be\ninformed & it suspects be\nwatched on. Li Phil must take no chances\n\n〔此处转录不清：签名及“Commissioner of Police”字样〕\n\nDC (W)\nSec\n—",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3878/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "（特别处）办公笔记\n\n上海公共租界工部局警务处\n日期 ____ 20 ____\n编号 S. B. D ____\n〔此处转录不清：圆形印章，可见“20 AUG”字样〕\n\n关于上述事项。考虑到李斐希（Li Phihi）工作的性质，这一决议显得颇为不足。我建议由中国警察为其提供保护，最好由便衣警察执行。\n\n托马斯·罗尔斯顿（Thos. Ralston）\n特别处副督察长（D C (SB)）\n\n〔此处转录不清：椭圆形印章，内容为“SHANGHAI MUNICIPAL POLICE COMMISSIONER'S OFFICE 2C AUG. 1933”〕\n\n特别处副督察长（D C (Sp Br)）\n采取一切预防措施。\n我认为应通知刑事侦缉处及（DSI y/c），并对嫌疑人进行监视。李菲尔（Li Phil）绝不能冒险行事\n\n〔此处转录不清：签名及“Commissioner of Police”字样〕\n\n西区副督察长（DC (W)）\n秘书\n—",
+   "zh_src": "b276d5c03402b08b"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-3878/D9948-2C%201655%20-%20Shanghai%20Municipal%20Police%20File.pdf>\n\n---\nAE ee oy \n\n\n. 8. \n\n\n(Special Branch) Office Notes \n\n\n—————— ae \nal \n4 Ma \n~~ wir F \n\n\n- \n\n\nYY wate gw om esl! ae BR \nts “a \n- en oe a nthi pean & tata avec ; 1 \ntrite ne +t fe Pabst cout be As fades ux \n\n\nEw tape So gle, gelia ee fs GY an. cot Ks rhe. \n\n\no™\" \n\n\nal , \n4 : : Bien re ie, a \nPet wt, fa ae tie bien. Le i ee * thee HS EO EO, \n\n\nSiANGHA? MUNICIPAL POLICE \n\n\nBAN BML ee \n\n\npowers ener een scum whie k biareks Ftd:",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2910,
+  "ocr_out_tokens": 208,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-19 22:52:47",
+  "zh_in_tokens": 440,
+  "zh_out_tokens": 234,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

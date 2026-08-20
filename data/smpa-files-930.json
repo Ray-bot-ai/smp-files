@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-930",
+ "title": "Instruction Memo 10-33 To DDOS And All Senior Detectives",
+ "series": "D Files",
+ "nara_file_no": "1135",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-930",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "SHANGHAI MUNICIPAL POLICE\nC. & S. B. REGISTRY.\nNo. D 4758\nDate 12 / 4 / 33\n\nInstruction.\nMemo. No. 10/33.\n\nHeadquarters, Crime Branch,\nApril 11, 1933.\n\nD.D.O.s. &\nAll Senior Detectives.\n\nRape & Indecent Assault &\nSodomy Cases.\n\nIt is always advisable in any of the above cases to have\nfresh stains on bedding and clothing examined as soon as possible\nby a Doctor. By microscopic examination he can immediately\ndiscover the presence of live spermatozoa. This is good evidence\nthat an act of emission has recently taken place and will support\nother evidence o' the criminal act it is desired to prove.\n\n〔此处为手写签名〕\nD. C. (Crime).",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-930/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "上海公共租界工部局警务处\n刑事与特别股登记处。\n编号 D 4758\n日期 1933年4月12日\n\n指令。\n备忘录第 10/33 号。\n\n总部，刑事科，\n1933年4月11日。\n\n副督察及\n所有高级探员。\n\n强奸、猥亵侵犯及\n鸡奸案件。\n\n在处理上述任何案件时，均宜尽快请医生对床单和衣物上的新鲜污渍进行检查。通过显微镜检查，医生可以立即发现活精子的存在。这是近期发生过射精行为的良好证据，并将支持旨在证明的犯罪行为的其他证据。\n\n〔此处为手写签名〕\nD. C.（刑事科）。",
+   "zh_src": "255be96908ad8648"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-930/Instruction%20Memo%2010-33%20To%20DDOS%20And%20All%20Senior%20Detectives%201135.pdf>\n\n---\nC. & S. B, REGISTRY. \n\n\nwm. DATS. ik \nbw dee} I oe \n\n\n: : sf | O [Fierenant SHANGHAY MUNIGIPAL POLIZE ial \n{ \n\n\nH Instruction. \nMemo. No. 10/55. : \nHeadquurters » Crime Branch, \n\n\nApril 11, 1933. \n\n\nDoD. 0.50 & i \n\n\nB11 Senior Detectives. \n\n\nRape & Indecent Assault & \nSodomy Cases. \n\n\nIt is always advisable in any of the above cases to have \n\n\nfresh stains on bedding ana clothing examined as s00n as possible \n\n\nby a Doctor. By microscopic examination he can immediately \nresence of Live spermatozoa. This is goca evidence \n\n\ndiscover the p \nently taken place and will support \n\n\nthat an act of emission has rec \n\n\nother evidence c’ the criminal act it is desired to provee \n\n\nD. co. (Crime). \n\n\na eer er eT \n: SS SPAS fe Mba ge a To A hale \n\n\noii",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2940,
+  "ocr_out_tokens": 195,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 17:35:04",
+  "zh_in_tokens": 427,
+  "zh_out_tokens": 169,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

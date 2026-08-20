@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-605",
+ "title": "Chinese National Government Award Medals To Members Of SMP",
+ "series": "D Files",
+ "nara_file_no": "1234",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-605",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F. 201 A\nG 3000135\n\nSee C.5411\n\nSHANGHAI MUNICIPAL POLICE\n\nCROSS-REFERENCE SLIP\n\nSPECIAL BRANCH REGISTRY\nOFFICE\n\nFILE NO. D.6354.\n\nSUBJECT:\n\nChinese National Government award medals to members\nof S.M.P.\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Transferred to | Central Registry | C.5411 |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-605/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201 A\nG 3000135\n\n参见 C.5411\n\n上海公共租界工部局警务处\n\n互见索引卡\n\n特务科档案室\n\n档案号 D.6354。\n\n事由：\n\n中国国民政府向上海公共租界警务处成员颁发勋章\n\n| 详情 | 部门 | 档案号 |\n| :--- | :--- | :--- |\n| 转至 | 中央档案室 | C.5411 |\n\n指示见背面",
+   "zh_src": "6cc994a76dd47e9a"
+  },
+  {
+   "n": 1,
+   "en": "FM. 1\nMemorandum.\nPOLICE FORCE\nMUNICIPAL COUNCIL.\nShanghai\nTo P.A. & C.P.\n〔此处转录不清〕\nVerbally\n（印：OFFICE OF COMMISSIONER OF POLICE 16 JAN）\nMr Nichol\ninformed by phone\nL. Inspector - Damm\nNo Police record.\nH PA 16 JAN",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-605/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "FM. 1\n备忘录。\n警察部队\n工部局。\n上海\n致警务助理处长及总巡官\n〔此处转录不清〕\n口头传达\n（印：警务总监办公室 1月16日）\n尼科尔先生\n电话告知\n督察 - 达姆 (Damm)\n无警务记录。\nH PA 1月16日",
+   "zh_src": "b4726837903431b8"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-605/Chinese%20National%20Government%20Award%20Medals%20To%20Members%20Of%20SMP%201234.pdf>\n\n---\nSee C.5411 \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \n\n\na aid \n\n\nSPECTAL BRANCH RUGISTRY \n\n\nFILE NO. D,6354. \n\n\nSUBJECT: \n\n\nChinese National Government award medals to members \n\n\nof S.M.P. \n\n\nPARTICULARS OFFICE FILE NO. \n\n\na \n\n\n: Transferred to Central Registry C.5411 \n\n\nFm. 1 \n\n\nMemorandum. \n\n\nPOLICF FORCE \n\n\nMUNICIPAL COUNCIL. \n\n\nShanghay : =. “bos \nTo PL As Cr \nmn \n\n\nf \n. rE \ns - - \nZ f ‘ \n: \nPI _¢ Ride \nr \nhea _ L ’ , z \n= f= \n- x Aas 7 fhe a 9 Se fete ome le Cx \nj, i F \na oe e \n\n\nNo \n\n\nNZS \\tee..",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5840,
+  "ocr_out_tokens": 214,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 01:27:08",
+  "zh_in_tokens": 453,
+  "zh_out_tokens": 213,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

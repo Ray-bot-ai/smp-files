@@ -62,8 +62,10 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1431/page/n5_w2400.jpg",
    "via": "dashscope",
-   "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh": "十月二十八日上午十一时左右，日本人冈岛与日华归（音译）一同乘坐租借的汽车，沿通明路回家途中，在通明路与朱家嘴路转角处，被正在执勤的中国巡捕第1319号和第2784号拦停。车夫被告知，因道路施工，本路段目前禁止通行，须改变方向。在此过程中，冈岛下车，将路上的两个防栅和青灯移至路边，并指示司机朝其指定的方向行驶。巡捕对冈岛的行为提出抗议，冈岛随即抓住巡捕的手枪并将其夺下，在被捕时试图挣脱以获得自由。",
+   "zh_note": "原文即中文，无需翻译",
+   "zh_tries": 1,
+   "zh_src": "2dc494bd8b66b126"
   },
   {
    "n": 6,
@@ -72,8 +74,10 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-1431/page/n6_w2400.jpg",
    "via": "dashscope",
-   "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh": "途中，其驾驶汽车离开现场。为处理该事件，周岛（音译）前往汉璧礼路巡捕房附近，调查结束后即获准回家。巡捕认为关于山角（音译）与周岛（音译）之间所拟称之事实完全不存在。",
+   "zh_note": "原文即中文，无需翻译",
+   "zh_tries": 1,
+   "zh_src": "b1546065a8235f1e"
   },
   {
    "n": 7,
@@ -205,10 +209,10 @@
   "ocr_out_tokens": 6102,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-15 01:09:35",
-  "zh_in_tokens": 6394,
-  "zh_out_tokens": 4874,
+  "zh_in_tokens": 7141,
+  "zh_out_tokens": 5086,
   "zh_chunks": 2
  },
  "native_zh_pages": 2,
- "zh_pages": 17
+ "zh_pages": 18
 }

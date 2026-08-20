@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-495",
+ "title": "Assistance To Japanese Gendarmerie Re Alleged Dubious Transaction Re Wood Oil",
+ "series": "D Files",
+ "nara_file_no": "201",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-495",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D-8299",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-495/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "D-8299",
+   "zh_src": "0abaf05ab6266038"
+  },
+  {
+   "n": 1,
+   "en": "D. C. (Special Branch). 8249/40R\n\nC.1.Misc.27/42\nHeadquarters\nCrime Branch\nJanuary 28th\n42.\n1\n\nAssistance to Japanese Gendarmerie HQ.\n\nAt 11.50 a.m. 28-1-42 Sub Lieut. Shibuya\ncommunicated with Crime Branch Headquarters requesting\nassistance to arrest a male Chinese named Young (黄)\non Nanyang Road, whom it was alleged was concerned in\nAnti-Japanese activities, he being a member of the\n\"Blue Shirt\" Radio Transmission Section.\n\nB/well Station having been informed, the\ndesired assistance was rendered by D.I. Crichton,\nDet. Sameshima, and C.D.S. 40 , and as a result of\na visit to Room B13, of the Ai Kuo Girls Middle School,\nsituated at Lane 209, House 10, Nanyang Road, the\nwanted man:-\n\nYoung Dah Ying (黄達英) alias Au Kwen (鰲官)\nage 38, native of Xiangying, W/Teacher\nwas taken into custody.\n\nA search of his room resulted in the seizure of\nseven miscellaneous papers and one Japanese pass.\n\nAt the request of Sub Lieut. Shibuya the\narrested person along with the seizures were loaned to\nGendarmerie Headquarters for a period of one week\nagainst the usual receipt (attached).\n\nJohn Crichton",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-495/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "D. C.（特别处）. 8249/40R\n\nC.1.Misc.27/42\n总部\n罪案组\n1月28日\n42年\n1\n\n协助日本宪兵队总部。\n\n1942年1月28日上午11时50分，涩谷少尉与罪案组总部联络，请求协助逮捕一名居住在南阳路的华籍男子杨（黄），据称其参与反日活动，系“蓝衣社”无线电发射组成员。\n\n在通知百老汇路捕房后，由督察克里奇顿（Crichton）、警探鲛岛（Sameshima）及华人侦探第40号提供了所需协助，结果在位于南阳路10弄209号的爱国女中B13室进行搜查后，将下述通缉犯：\n\n杨达英（Young Dah Ying），别名鳌官（Au Kwen），38岁，江苏乡营人，职业教师\n予以拘捕。\n\n对其房间进行搜查后，查获杂项文件七份及日本通行证一张。\n\n应涩谷少尉之要求，被捕人连同查获物品一并借予宪兵队总部，为期一周，并按惯例出具收据（附后）。\n\n约翰·克里奇顿",
+   "zh_src": "8913fa962f4b6b18"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-495/Assistance%20To%20Japanese%20Gendarmerie%20Re%20Alleged%20Dubious%20Transaction%20Re%20Wood%20Oil%20201.pdf>\n\n---\nwit \n\n\na, \nD. C. (Special Branch). . P2822 fs-oRs \n\\ os ; \n\n\nHee dquarters \n\n\nCole ttiseel?/4E Cri oe 3ranch \nJenuary 28th 42-6 \n1 \n\n\nAssistance to Japrnese gendarmerie HsQe \n\n\nAt LLeSO Geme 2HeL-42 “wh Fieute chibuya \ncommunicated wi th Crime Branch Hesad.uarters reouerntinog \ndicowitsanks nee to srrc-st nan male Ghinerze nascec cvaung Fe) \n6m ‘woyang Road, whom it wus wzlleged wre carnearned in \nantieJanranese activitiem, he heing a santer of the \n\"Bue Shirt\" Redio Transmittion sectio:.. \n\nB/well station hav’ ng been informed, the \ndesired as:ic tance was rendered by Dele Crirhtong \nDeSe Snreshimsa,g and C-DeBe 40 >» and as a result of \na visit to Room 313, of the Ai xuo Giris ‘“diddle School, \nBSitueted zt Lace 209, ticute 10, Nanyang Road, the \nWenitec metre \n\n\nce \n\n\nYWeunge Doh vine re ‘) slias Au Kwen( 2 ‘F ) \nage $8, nstive of uiangyings, ¢/tercher \n\n\nwarn taken into custody. \n~ A Search of his room repulted in the set qure. of \nseven miscellaneous papers and one Jnpanese pesn. ‘ \nAt the request of sub Lieute Ghitwya the \narrested perso: along -ith the seizures were loaned to \nGendarmerie Headquarters for a period of one week \n\n\nagainst the usual receipt (attached).",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5818,
+  "ocr_out_tokens": 343,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 00:27:40",
+  "zh_in_tokens": 582,
+  "zh_out_tokens": 298,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-3750",
+ "title": "D7511",
+ "series": "D Files",
+ "nara_file_no": "1564",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-3750",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D-7511",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3750/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "D-7511",
+   "zh_src": "7ecf2d1b43448f97"
+  },
+  {
+   "n": 1,
+   "en": "SHANGHAI MUNICIPAL POLICE\nS. D. REGISTRY\nNo. S. B. D. 7571\nDate 26 8 36\n\nTHE NORTH CHINA DAILY NEWS, TUESDAY, AUGUST 25, 1936\n\nWith the approval of local authori-\nties, a new monthly magazine will\ncome into circulation soon. It is\n\"aviator,\" a magazine of art and\nculture, which will be published in\nthree languages: English, Russian\nand Chinese. The aim is to popular-\nise aviation, complete explanation of\ntechnical achievements, the latest re-\ncords, etc. The magazine will also\nhave a general sport section. Sixty\nper cent. of the nett profits will be\nplaced to the benefit of the Chinese\nNational Aviation Association, and\n30 per cent. to the Russian Aero-Club\nof Russian pilots, invalids of the\nGreat War. The editor of the\nmagazine is Colonel Hoodiakoff, ex-\nmilitary-pilot. The magazine will be\nissued once a month at the dates of\ndrawing of Chinese National State\nLottery. The offices of \"The Aviator\"\nare situated at 708 Avenue Joffre,\nApartment 7.\n\n* See also S. 5813\n\nv. v.\ne R\n\n〔此处转录不清〕",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3750/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "上海公共租界工部局警务处\n特别分部登记处\n编号 S. B. D. 7571\n日期 1936年8月26日\n\n《字林西报》，1936年8月25日，星期二\n\n经地方当局批准，一份新的月刊即将发行。该刊名为《飞行家》（\"aviator\"），是一份艺术与文化杂志，将以英文、俄文和中文三种语言出版。其宗旨是普及航空知识，详尽阐释技术成就、最新纪录等。该杂志还将设有综合体育栏目。净利润的百分之六十将用于资助中国航空建设协会，百分之三十将用于资助俄国飞行员及第一次世界大战伤残军人组成的俄国航空俱乐部。该杂志主编为胡迪亚科夫上校（Colonel Hoodiakoff），前军用飞行员。该杂志将于每月中国国营彩票开奖之日发行。《飞行家》杂志社办公地址位于霞飞路708号7室。\n\n* 另见 S. 5813\n\nv. v.\ne R\n\n〔此处转录不清〕",
+   "zh_src": "195242a7b579af27"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-3750/D7511%201564%20-%20Shanghai%20Municipal%20Police%20File.pdf>\n\n---\nwe \n\n\nOMI OAL EINES YO en rE se \n\n\nSP gene see \n\n\nSAJE Teeter \n\n\npe \nTHE *: \n\n\n= io i. \n‘hee alto J 58/3 issued once 2 month at the dates ‘of \n\n\nNortHtnNa DAILY NEWS, ‘TUESDAY, AD \n\n\nWirn the approval of Jocal authori \nties, a mew monthly” t wi \ncome sinto circulation soon. It. \n“aviator.” a -magazine of art an \nculture, which will be published \nthree languages: 7 {f \n\n\nGreat War. The oditor of the \n\n\nMagazine is %olonel Hoodiakoff, ex- \nmiftary-p: e will be \n\n\ndrawing of Chinese National State \n\n\nLottery. The offices'of“The Aviator” \n+ 2re situated at 708 Avenue Jomre, \n\n\nsot ata 2 \n\n\nages \n\n\nAd, oli: fetes \n\n\n“Nes,",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5832,
+  "ocr_out_tokens": 308,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-19 19:33:21",
+  "zh_in_tokens": 547,
+  "zh_out_tokens": 250,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-947",
+ "title": "J. Sanchez Re Gambling",
+ "series": "D Files",
+ "nara_file_no": "1501",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-947",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "S. 4783\nSHANGHAI MUNICIPAL POLICE\nCROSS-REFERENCE SLIP\nSpecial Br. Regy OFFICE\nFILE NO. S. 4783\nSUBJECT:\nJ. Sanchez, re gambling\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Transferred to | Crime Registry. | G.F. 50 |\n\nINSTRUCTIONS SEE OVER",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-947/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "S. 4783\n上海公共租界工部局警务处\n交叉参考单\n特别处登记室\n档案编号 S. 4783\n事由：\nJ. Sanchez，涉赌博\n\n| 详情 | 部门 | 档案编号 |\n| :--- | :--- | :--- |\n| 转至 | 犯罪记录室。 | G.F. 50 |\n\n指示见背面",
+   "zh_src": "a42ef9d9d3246f94"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-947/J.%20Sanchez%20Re%20Gambling%201501.pdf>\n\n---\nTe eee \noe \n\n\nSHANGHAI MUNICIPAL POLICE \n\n\nCROSS-REFERENCE SLIP \n\n\nSUBJECT: \n\n\neat aay \n\n\nPARTICULARS | OFFICE \n\n\n| Ge",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2922,
+  "ocr_out_tokens": 98,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 17:41:29",
+  "zh_in_tokens": 330,
+  "zh_out_tokens": 99,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-968",
+ "title": "Japanese Military Office - 1036 Sing Ming Road, Chapei",
+ "series": "D Files",
+ "nara_file_no": "1750",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-968",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Form No. 2\nG. 25,000-I-32\n\nSHANGHAI MUNICIPAL POLICE.\n\nREPORT\n\n（印：SHANGHAI MUNICIPAL POLICE / FILE & REGISTRY. / No. D 5518. / S. J. Section. / Date 22 / 4 / 32）\nDate April 18, 1932.\n\nSubject (in full) Japanese military Office, 1036 Sing ming Road, Chapei.\n\nMade by D. S. Golder Forwarded by Thos Robertson, Supt\n\nThe Japanese military Authorities are maintaining\nan office at 1036 Sing ming Road for the purpose of issuing\npasses to bonafide ex-residents of the Chapei area. These\npasses are gratis and when issued entitle the holder to re-\nmove his or her property from the devastated area.\n\nThe office has been opened about one month and is\nin charge of a Japanese military officer by name Too Tsu Siao\nTso (土屋小作). No Chinese are employed except an inter-\npreter, whilst the office appears to have no connection with\n（批：Hongkew District Citizens）\nthe Shanghai Maintenance Association\n\n（签名：D. S. Golder）\nD. S.\n\nOfficer i/c Special Branch.\n\n（批：File / M.S. / 18:4:32）",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-968/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "表格第2号\nG. 25,000-I-32\n\n上海公共租界工部局警务处。\n\n报告\n\n（印：上海公共租界工部局警务处 / 档案与登记室。/ 编号 D 5518。/ S. J. 科。/ 日期 32年4月22日）\n日期：1932年4月18日。\n\n事由（全称）：闸北星明路1036号日本军方办事处。\n\n呈报人：D. S. Golder 转呈人：总监 Thos Robertson\n\n日本军方当局在星明路1036号设有一处办事处，旨在向确系原闸北地区居民的民众签发通行证。此类通行证免费发放，持证人凭此获准将其财产从受灾区域运出。\n\n该办事处开设约一个月，由一名名为 Too Tsu Siao Tso（土屋小作）的日本军官负责。除一名译员外，未雇佣任何华人，且该办事处似乎与\n（批注：虹口区市民）\n上海维持会并无关联\n\n（签名：D. S. Golder）\nD. S.\n\n特别处主管警官。\n\n（批注：归档 / M.S. / 32年4月18日 18:40）",
+   "zh_src": "70c7931cec6f4050"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-968/Japanese%20Military%20Office%20-%201036%20Sing%20Ming%20Road%2C%20Chapei%201750.pdf>\n\n---\nigual MURIUIPAL POLE |i, \neen ee S SPUBNBECISTRY. i \n' SHANGHAI MUNICIPAL POLICE. 2 2 FICE ji \n\n\nREPORT rt Aa \n\n\nSubject (in full) vapanese military office, 1036 Sing ming Road, vhapei. \n\n\n_the Japanese military authorities are mainteining \n\n\nan office at 1056 sing ming Koad for the purpose of issuing \n\n\n___passes to bonafide ex-residents of the Uhapei area. «shese \n... aeses ate gratis and when iesued entities the holder to re~ \n\n\n__mMove his or her property from the devasteted area. \n\n\nise \n\n\n_the office has been opened about one month and is \n\n\nin charge of a Japanese military officer*‘by name too su Siao__ \n\n\nas \nuso (+47. wo Uhinese are employed except an inter- \n\n\n_.preter, whilst the office appears to have no connection with _ \n\n\nOren Citic: \nShe Shanghai, maintenance Association \n\n\n= x PN TSE \n‘ \n= 7 pena Anas s ve tae ea nS ec ark de 1 \n: ee as} tga ey \n\n\nv . ---——--— ——.. \n» ~ \né <3 caw - a — zs aS scar eee aR \nsets",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2910,
+  "ocr_out_tokens": 311,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 18:04:34",
+  "zh_in_tokens": 543,
+  "zh_out_tokens": 300,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

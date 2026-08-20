@@ -12,3 +12,8 @@ corpus_v1.json
 imgqual.json
 images_rotated/
 对比_*.html
+
+# 本地审查工作台与导出产物（不入库）
+/review28/
+/review_zh/
+/export_pdf/

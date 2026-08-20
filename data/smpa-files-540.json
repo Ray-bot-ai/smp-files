@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-540",
+ "title": "C. & S.B. Registery Page Re Dr. Heinrich Benda Eng From Shai Len Chamber Of Commerce",
+ "series": "D Files",
+ "nara_file_no": "3113",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-540",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Form 201\nT.H. 1000-5-32.\n\nFILE No. D 3861\n\nC. & S. B. REGISTRY\n\nSUBJECT :\nRe Dr. Heinrich Benda\nurg. from Shanghai Chamber of Commerce\n\nSENT TO\n\nNAME            DATE\nØ 52            19-7-32",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-540/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "表格 201\nT.H. 1000-5-32。\n\n档案编号 D 3861\n\n刑事与特别股登记处\n\n事由：\n关于海因里希·本达博士（Dr. Heinrich Benda）\n紧急，来自上海总商会\n\n发送至\n\n姓名            日期\nØ 52            19-7-32",
+   "zh_src": "0201b74145865e2e"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-540/C.%20%26amp%3B%20S.B.%20Registery%20Page%20Re%20Dr.%20Heinrich%20Benda%20Eng%20From%20Shai%20Len%20Chamber%20Of%20Commerce%203113.pdf>\n\n---\n‘ \n\n\n‘ \n\n\n4 \n\n\nTeta hate an eee ee ry \nat ee) cer £810 ay 8 \n\n\nTH. 1000-65-32, \n\n\nFILE nie Dak LES a OL \n\n\nC.& S. B. REGISTRY \nSUBJECT: _ : \n\n\n~ \n\n\nve >} \na e 3 Pe 4 \nZ . \nCABS ? BOG \n\n\nsee a ee \n| = \n= -————_-+ ——r— ee — \nSes ae So ese \niia \neen Ee \nic \n. < \n. \ngs ees Sa \n“ Someone \na \n% F \na ene \neee \nET \n4 a initiate \neS eee —s amie ns i \n‘ \n. \n. \nJ \n. \n. \n. \nbd \ns \n~ v \nb . \n+ \n- ‘i a \nwv ~ . \nSee eerie sae oe ee - — Soe 2 ae rs ee — \n’ “é \n; “2? ‘ ‘ \n~ ae e ¥ Ve ra \n- se 3 ‘ \naa Pe » \n= . \nee . \n. ‘. R",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2880,
+  "ocr_out_tokens": 81,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 00:59:35",
+  "zh_in_tokens": 313,
+  "zh_out_tokens": 91,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

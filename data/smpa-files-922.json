@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-922",
+ "title": "Inquiries In Connection With Claude Fitzroy Lloyd, Room 247 Sassoon House",
+ "series": "D Files",
+ "nara_file_no": "902",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-922",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F 201\nT.H. 1000-8-82.\n〔此处转录不清〕\nREGISTRY\nFILE No. 04463\nSUBJECT:\nClaude F. Klayel\n\nSENT TO\nNAME | DATE\n---|---\n | \n | \n | \n | \n（印：CONFIDENTIAL DRAWER）\n | \n | \n | \n | \n | \n |",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-922/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F 201\nT.H. 1000-8-82.\n〔此处转录不清〕\n登记处\n档案编号 04463\n事由：\n克劳德·F·克莱耶尔 (Claude F. Klayel)\n\n发送至\n姓名 | 日期\n---|---\n | \n（印：机密抽屉）\n |",
+   "zh_src": "604afbf5af8d89a7"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-922/Inquiries%20In%20Connection%20With%20Claude%20Fitzroy%20Lloyd%2C%20Room%20247%20Sassoon%20House%20902.pdf>\n\n---\nes \n“tie REGISTRY\" \n\n\nFILE No. <7 add 5 \nSUBJECT: \n\n\na \n\n\n- ~~ a : \ntty fi / Le an | \nCA ( hee Bs ” ro tf tp! ¢ a = « f \n- AL t - wa wa “Sees \n\n\n| SENT TO \nNAME , DATE",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2903,
+  "ocr_out_tokens": 92,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 17:33:03",
+  "zh_in_tokens": 308,
+  "zh_out_tokens": 88,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

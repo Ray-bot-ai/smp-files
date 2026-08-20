@@ -564,7 +564,8 @@
    "image_url": "https://archive.org/download/smpa-files-3396/page/n55_w2400.jpg",
    "via": "dashscope",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 56,
@@ -1595,7 +1596,8 @@
    "image_url": "https://archive.org/download/smpa-files-3396/page/n157_w2400.jpg",
    "via": "dashscope",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 158,
@@ -1645,7 +1647,8 @@
    "image_url": "https://archive.org/download/smpa-files-3396/page/n162_w2400.jpg",
    "via": "dashscope",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 163,
@@ -2145,7 +2148,8 @@
    "image_url": "https://archive.org/download/smpa-files-3396/page/n212_w2400.jpg",
    "via": "dashscope",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 213,
@@ -2394,8 +2398,10 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3396/page/n237_w2400.jpg",
    "via": "dashscope",
-   "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh": "第 頁\n昭和十四年十一月十八日\n廣播無線電監督處長 淺野一\n工\n部\n警察局 鈞啟\n關於華盛電台關閉命令事宜\n查本埠直線路二五號\n華盛廣播電台\n頻率 九八〇K・C\n呼號 XQMW\n上述電台因違反本處命令，已令其自本月十六日起關閉，\n特此知照。\n廣播無線電監督處公函\n電話 一九八七一\n（印：廣播無線電監督處長之印）\n（印章：上海公共租界警務處副總監）",
+   "zh_note": "原文即中文，无需翻译",
+   "zh_tries": 1,
+   "zh_src": "769b19f4d99e8229"
   },
   {
    "n": 238,
@@ -2484,8 +2490,10 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3396/page/n246_w2400.jpg",
    "via": "dashscope",
-   "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh": "昭和十四年一月二十六日\n广播无线电监督处处长 浅野 一\n（印：广播无线电监督处长之印）\n\n工部局\n警务处 台鉴\n\n关于雷通电台广播许可事宜\n\n兹于今日按如下内容准予广播许可，特此知照。\n\n一、名称：雷通广播电台\n一、负责人：宫原贞治\n一、地点：上海斜桥弄十五号楼上\n一、呼号：XHHR\n一、频率：840 k.c.\n一、功率：1000瓦特\n\n以上\n\n广播无线电监督处公函\n电话：19871",
+   "zh_note": "原文即中文，无需翻译",
+   "zh_tries": 1,
+   "zh_src": "f98e72d98261b345"
   },
   {
    "n": 247,
@@ -2524,8 +2532,10 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3396/page/n250_w2400.jpg",
    "via": "dashscope",
-   "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh": "特别政治官员\n上海\n\n第 页\n\n昭和十四年三月七日\n广播无线电监督处处长 浅野\n（印：广播无线电监督处 浅野之印）\n\n工部局\n警察部 台鉴\n\n关于华盛电台广播许可事宜\n\n兹通知，已于今日按如下内容准予广播许可，请知悉\n\n一 名称 华盛广播电台\n一 负责人 宫胁寅治\n一 地点 直隶路二十五号三楼\n一 呼号 X Q M W\n一 频率 九八〇 K.C.\n一 电力 一〇〇瓦特\n\n广播无线电监督处公函\n一九三七·一·八",
+   "zh_note": "原文即中文，无需翻译",
+   "zh_tries": 1,
+   "zh_src": "f20f0ac8d7c5aa51"
   },
   {
    "n": 251,
@@ -2614,8 +2624,10 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3396/page/n259_w2400.jpg",
    "via": "dashscope",
-   "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh": "第 頁\n一地點 上海南京路西二三號\n一呼號 XQMS\n一周率 一二二〇k.c.\n一電力 一〇瓦特\n據報，東方電台為規避本處制裁，已在中文報紙刊登廣告，聲稱已將該電台轉讓給原設立的英商麥達洋行。然而，本處決心不論國籍為何，均將逐步對所有非法電台一律實施制裁。鑒於此，對於東方電台，除通過沒收其特種無線電設備的裁判程序使其徹底消亡外，別無他法，故將採取堅決徹底的行動。特此知照。\n以上\n廣播無線電監督處公箋\n電話 一九八七一",
+   "zh_note": "原文即中文，无需翻译",
+   "zh_tries": 1,
+   "zh_src": "76c84571a3326bb6"
   },
   {
    "n": 260,
@@ -2975,7 +2987,8 @@
    "image_url": "https://archive.org/download/smpa-files-3396/page/n295_w2400.jpg",
    "via": "dashscope",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 296,
@@ -2985,7 +2998,8 @@
    "image_url": "https://archive.org/download/smpa-files-3396/page/n296_w2400.jpg",
    "via": "dashscope",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 297,
@@ -2995,7 +3009,8 @@
    "image_url": "https://archive.org/download/smpa-files-3396/page/n297_w2400.jpg",
    "via": "dashscope",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 298,
@@ -3005,7 +3020,8 @@
    "image_url": "https://archive.org/download/smpa-files-3396/page/n298_w2400.jpg",
    "via": "dashscope",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 299,
@@ -3015,7 +3031,8 @@
    "image_url": "https://archive.org/download/smpa-files-3396/page/n299_w2400.jpg",
    "via": "dashscope",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 300,
@@ -3025,7 +3042,8 @@
    "image_url": "https://archive.org/download/smpa-files-3396/page/n300_w2400.jpg",
    "via": "dashscope",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 301,
@@ -3035,7 +3053,8 @@
    "image_url": "https://archive.org/download/smpa-files-3396/page/n301_w2400.jpg",
    "via": "dashscope",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 302,
@@ -3045,7 +3064,8 @@
    "image_url": "https://archive.org/download/smpa-files-3396/page/n302_w2400.jpg",
    "via": "dashscope",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 303,
@@ -3095,7 +3115,8 @@
    "image_url": "https://archive.org/download/smpa-files-3396/page/n307_w2400.jpg",
    "via": "dashscope",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 308,
@@ -3105,7 +3126,8 @@
    "image_url": "https://archive.org/download/smpa-files-3396/page/n308_w2400.jpg",
    "via": "dashscope",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 309,
@@ -3247,10 +3269,10 @@
   "ocr_out_tokens": 99302,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-17 22:48:05",
-  "zh_in_tokens": 107914,
-  "zh_out_tokens": 94517,
+  "zh_in_tokens": 109562,
+  "zh_out_tokens": 95134,
   "zh_chunks": 33
  },
  "native_zh_pages": 18,
- "zh_pages": 304
+ "zh_pages": 308
 }

@@ -124,7 +124,8 @@
    "image_url": "https://archive.org/download/smpa-files-34/page/n11_w2400.jpg",
    "via": "dashscope",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 12,
@@ -174,7 +175,8 @@
    "image_url": "https://archive.org/download/smpa-files-34/page/n16_w2400.jpg",
    "via": "dashscope",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 17,
@@ -533,8 +535,10 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-34/page/n52_w2400.jpg",
    "via": "dashscope",
-   "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh": "中央捕房警务处第153号。\n上海公共租界工部局警务处\n特别分部登记处\n编号：S. B. D 81124/49\n日期\n档案\n昭和十七年四月九日\n主任\n（印章）\n摘要\n关于申请刊物《Pascal》发行许可事宜\n刊名“Peisa”（音译），意为犹太人的耶稣复活节\n申请人：Elkale（音译），住址：蒲石路370弄10号\n发行日期：4月20日，仅限一期\n发行数量：12份，每份售价5元\n内容：这是一本在犹太信徒之间分发、用于庆祝复活节的小册子\n意见\n认为予以许可并无不妥\n恳请裁决\n备注……附英文报告书一份\n经办人\n（印章：……）\n（印章）",
+   "zh_note": "原文即中文，无需翻译",
+   "zh_tries": 1,
+   "zh_src": "e1224e6f7994b0c4"
   }
  ],
  "pages_done": 53,
@@ -546,10 +550,10 @@
   "ocr_out_tokens": 25318,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-17 23:03:22",
-  "zh_in_tokens": 26652,
-  "zh_out_tokens": 18135,
+  "zh_in_tokens": 27089,
+  "zh_out_tokens": 18330,
   "zh_chunks": 8
  },
  "native_zh_pages": 3,
- "zh_pages": 50
+ "zh_pages": 51
 }

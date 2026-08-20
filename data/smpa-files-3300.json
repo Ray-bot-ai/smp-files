@@ -53,8 +53,10 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3300/page/n4_w2400.jpg",
    "via": "dashscope",
-   "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh": "公共租界工部局警务处\n警官身份证明书\n编号第二十四号\n姓名 徐泽新\n本身份证明书除本人外，任何人不得携带或使用。\n无职权而使用本身份证明书者，将受处分。\n携带本身份证明书的警官，即使未着制服，亦可行使其职权；但遇有要求时，须出示此证。\n一上",
+   "zh_note": "原文即中文，无需翻译",
+   "zh_tries": 1,
+   "zh_src": "5b659ff5ae32ef9f"
   },
   {
    "n": 5,
@@ -84,7 +86,8 @@
    "image_url": "https://archive.org/download/smpa-files-3300/page/n7_w2400.jpg",
    "via": "dashscope",
    "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh_note": "原文即中文，无需翻译",
+   "zh_status": "native_zh"
   },
   {
    "n": 8,
@@ -2574,10 +2577,10 @@
   "ocr_out_tokens": 91106,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-16 22:35:20",
-  "zh_in_tokens": 121746,
-  "zh_out_tokens": 77234,
+  "zh_in_tokens": 122111,
+  "zh_out_tokens": 77322,
   "zh_chunks": 10
  },
  "native_zh_pages": 2,
- "zh_pages": 242
+ "zh_pages": 243
 }

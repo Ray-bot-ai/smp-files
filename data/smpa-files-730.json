@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-730",
+ "title": "D.C. Divisions Memo Re Service Of Watchmen Armed",
+ "series": "D Files",
+ "nara_file_no": "3088",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-730",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "SHANGHAI MUNICIPAL POLICE\nC. & S. B. REGISTRY.\nNo. D 4128\n21.9.32 Date 17/10/32\n\nD. C. (Divisions).\n\nPlease see attached correspondence.\n\nIn this case the proprietors of the property endeavoured\nto obtain regular policemen, undoubtedly to enforce their\nobject. They were informed that the Police could only interfere\nin the case of an imminent breach of the peace. Failing to get\npolicemen they have succeeded in getting the next best thing -\narmed Police Watchmen.\n\nIn similar cases in future it would be well if watchman\n(armed) are not supplied till the matter has been referred to\nyou for decision. It is not advisable that the Police should\nbe involved in disputes between landlords and tenants, except\nto prevent an imminent breach of the peace.\n\nWill you please arrange accordingly re supply of watchmen\n(armed).\n\n(Signed) F.W. Gerrard.\nC. P.\n\n------\n\nD. C. (Crime).\nOfficer i/c Special Branch.\nDivisional Officers & Chief Inspectors etc.,\ni/c Districts.\nA. C. (Sikhs).\nA. C. (Chinese).\n\nFor information. Services of Watchmen (Armed)\nto be refused in all such cases in future.\n\n（印：DEPUTY COMMISSIONER CRIME BRANCH SEP 22 1932 KmB）\n\nW. O. Springfeld\nDeputy Commissioner (Divisions).",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-730/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "上海公共租界工部局警务处\n刑事与特别科登记处。\n编号 D 4128\n日期 1932年9月21日 1932年10月17日\n\n分区副总巡官：\n\n请参见所附函件。\n\n在本案中，该物业的业主试图调派正规警员，无疑是为了强行达成其目的。已告知他们，警方仅在即将发生破坏和平行为的情况下方可介入。由于未能获得警员，他们已成功获得了次优之选——武装警备员（Watchmen）。\n\n今后在类似案件中，最好在事项呈报给您裁决之前，不予派遣武装警备员。除为防止即将发生的破坏和平行为外，警方不宜卷入房东与租客之间的纠纷。\n\n请就此安排武装警备员的派遣事宜。\n\n（签名）F.W. Gerrard。\n警务处处长。\n\n------\n\n分区副总巡官（刑事）。\n特别科科长。\n各分区警官及总督察等，\n各区负责人。\n助理处长（锡克人）。\n助理处长（华人）。\n\n供知悉。今后在所有此类案件中，均拒绝提供武装警备员服务。\n\n（印章：刑事处副警务处处长 1932年9月22日 KmB）\n\nW. O. Springfeld\n分区副总巡官。",
+   "zh_src": "c1bf3401ea3e7f52"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-730/D.C.%20Divisions%20Memo%20Re%20Service%20Of%20Watchmen%20Armed%203088.pdf>\n\n---\n- \n\n\n. \n\n\nAy SHANGHAL KustIPaL raure \n, #F | C&S. B. REGISTRY. \n\n\nD. C. (Divisions). \n\n\nPlease see attached corres>ondence,. \nIn this case the proprieters of the proverty endeavoured \nvo obtain regular policemen, undoubtedly to enforce their \nOb jcet.. vhey were informed that the Police coulda only interfcre \nin the case of an imminent breach of the peace. Failing to get \npolicemen they have succeeded in getting the next best thing - \narmed Police ‘latchmen. \nIn similar cases in future it vould be well if watchman \n(armed) are not supplicd till the mattcor has bcen referred to \n~ you for decision, It is not advisable that the Police should \nbe involved in disputcs between landlords and tenants, except \nto prevent an imminent breach of the peace. \n\n\nw \n\n\nWill yoy please arrange accordingly re sypply of watchmen \n\n\n(armed), \n\n\n(Signed) ~ FAY. Gerrard. \n‘ Cy. Pe \n\n\n. \n\n\nD.C. poms ‘ \n\nOfficer i/e Special Branch. \n\nDivisional Officers & Chief Inspectors etc., \n: i/e Districts, \n\nAw C. (Sikhs). \n\n\nAe C. (Chinesc). . \n\n\nFor informatione Services of Watchmen (Armed) \n\n\nto be rcsfused in all such cases in future. S \n\n\n| Ayo Spm pat \n\n\nDeputy Commissioner (Divisions). \n\n\nsae oC ee ee | \n\n\nees ree ee ee ee latina nittne Pee aici de OIE. 1 \n\n\n€",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2903,
+  "ocr_out_tokens": 340,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 15:33:30",
+  "zh_in_tokens": 572,
+  "zh_out_tokens": 289,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

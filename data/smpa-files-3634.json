@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-3634",
+ "title": "Arms Seized by Local Customs 1930.5.8",
+ "series": "D Files",
+ "nara_file_no": "1430",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-3634",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "1.0. D. 1255.\n\nMay 8, 30.\n\nArms Seized by Local Customs.\n\nThe following arms were seized by the local\nCustoms authorities during April 1930:-\nApril 10th, s.s. \"Tjibadak\" (J.C.J.L.).\n83 Mauser automatics 7.65.\n7 Automatic pistols 7.65.\n69 Magazines.\n8910 rounds of ammunition for automatic pistols.\nApril 20th, s.s. \"Hotel Maru\" (D.K.K.).\n5 Automatic pistols 7.65.\n5 Magazines.\n375 rounds of ammunition.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-3634/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "1.0. D. 1255。\n\n1930年5月8日。\n\n当地海关查获的武器。\n\n以下武器系当地海关当局于1930年4月期间查获：-\n4月10日，“Tjibadak”号轮船（J.C.J.L.）。\n83支7.65毫米毛瑟自动手枪。\n7支7.65毫米自动手枪。\n69个弹匣。\n8910发自动手枪子弹。\n4月20日，“Hotel Maru”号轮船（D.K.K.）。\n5支7.65毫米自动手枪。\n5个弹匣。\n375发子弹。",
+   "zh_src": "36cf1151e5213083"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-3634/D1255%20Arms%20Seized%20by%20Local%20Customs%201930.5.8%201430%20-%20Shanghai%20Municipal%20Police%20File.pdf>\n\n---\nrl \n\n\n. May 8» \nArms Seized by Local Customs. \n\n\nThe following arms were seized by the local \nCustoms authorities durins Aprii 19303— \nApril 10th, sewe “Tjibadak” (J.C.T.Le)e \n83 Mauser automatics 7.656 \n7 Automatic pistols 7.65. \n69 Magazines. ; \n8910 rommds of ammmition for automatic pistolse \nApril 20thy seme \"HoteN Maru\" (D.K.K.). \n5 Automatic vistols 7.65. \n5 Magazines. ; \n375 rounds of ammmition.",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2877,
+  "ocr_out_tokens": 158,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-19 18:13:13",
+  "zh_in_tokens": 390,
+  "zh_out_tokens": 162,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

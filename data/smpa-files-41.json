@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-41",
+ "title": "Arrest Of Indecent Picture Sellers",
+ "series": "",
+ "nara_file_no": "2528",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-41",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "Fm. 2\nG. 35m-11-32\n\nSHANGHAI MUNICIPAL POLICE.\nSpecial Branch\nREPORT\n\nSHANGHAI MUNICIPAL POLICE\nFile S/B. R. CL. Y.\nNo. D. 5789\nS. 5.\nDate 9 / 4 / 34\nDate April 9, 1934.\n\nSubject (in full) Arrest of Indecent Picture Sellers.\n\nMade by and Forwarded by D.S. McKeown.\n\nAt 7 p.m. April 8 C.D.S. 96 arrested two indecent\npicture sellers named Tseu Hai Veng (周海文) and Chiang\nYeu Zung (姜有存) at the corner of Hopei and Foochow Roads\nand seized 250 copies of indecent pictures. The accused\nwere arraigned before the First Shanghai Special District\nCourt on the morning of April.9. They were sentenced to\n30 days imprisonment.\n\nJ M Brown\nD. S.\n\nOfficer i/c Special Branch.\n\n15\nCDS 96 seems\nto be picking up\n- Rest them at it.\nPress to FILE\nHR\nnoted\nJMB SS.",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-41/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "发自 2\nG. 35m-11-32\n\n上海公共租界工部局警务处。\n特别科\n报告\n\n上海公共租界工部局警务处\n档案号 S/B. R. CL. Y.\n编号 D. 5789\nS. 5.\n日期 34年4月9日\n日期 1934年4月9日。\n\n事由（全称）逮捕贩卖淫秽图片者。\n\n由警佐麦基文（D.S. McKeown）撰写并呈报。\n\n4月8日晚7时，便衣警探第96号在河北路与福州路转角处逮捕了两名贩卖淫秽图片的男子，分别名为周海文（Tseu Hai Veng）和姜有存（Chiang Yeu Zung），并查获淫秽图片250张。被告于4月9日上午在上海第一特区地方法院受审。二人被判处监禁30天。\n\nJ M Brown\n警佐\n\n特别科科长。\n\n15\n便衣警探第96号似乎\n抓人很勤快\n——让他继续干。\n归档\nHR\n已阅\nJMB SS.",
+   "zh_src": "0275e848be602c8f"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-41/Arrest%20Of%20Indecent%20Picture%20Sellers%202528.pdf>\n\n---\nFm. 2 \n\n\n\"Gr 35m-11-32 Bite NB. \n\n\n, Pepin \n\n\nR;-GI_i-y¥. \n\n\nSHANGHAI MUNICIPAL POLICE.\" \n\n\nih lade ; spas Special Branch \n‘REPORT \n\n\n~ Subject (in full)... _.- #©rest ef Indecent Picture Sellerpe 02 \n\n\nForwarded by... ... DS. McKCOWNs oe ieee ee \n\n\nMade Bf... BA eee ee \nAt 7 peme April 8 C.D.S- 96 arrested two indecent pee Seal \n\n\npicture sellers named Tseu Hai Veng ae 1@ XX ) and Chiang \n\n\nand seized 250 copies of indecent pictures. \n\n\n__ were arraigned before the First Shanghai Special District ; \nThey were sentenced to } \n\n\nfhe accused \n\n\nCourt on the morning of April.9. \n\n\n30 days imprisonment. \n\n\n+ emer Lane = MAN BY a ee ne \nNII ton iy AEA pL tO arssy 2 Fas fie \n\n\nee",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2932,
+  "ocr_out_tokens": 275,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-19 23:33:46",
+  "zh_in_tokens": 507,
+  "zh_out_tokens": 270,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}

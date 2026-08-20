@@ -1,0 +1,45 @@
+{
+ "ia_id": "smpa-files-96",
+ "title": "Central European Jews",
+ "series": "",
+ "nara_file_no": "2108",
+ "pages": 2,
+ "ia_url": "https://archive.org/details/smpa-files-96",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "D-5422-E",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-96/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "D-5422-E",
+   "zh_src": "3ba170074c5e0ea0"
+  },
+  {
+   "n": 1,
+   "en": "F. 201 A\nG. 2000-5-38\n\nSee Special B〔此处转录不清〕.15        D. 5422E\n\nSHANGHAI MUNICIPAL POLICE\n\nCROSS-REFERENCE SLIP\n\nSpecial Branch Registry OFFICE\n\nFILE NO. D. 5422E\n\nSUBJECT:\n\nCentral European Jews\n\n| PARTICULARS | OFFICE | FILE NO. |\n| :--- | :--- | :--- |\n| Transferred to | ~~Special Box~~ | ~~No. 115~~ |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| | | |\n| INSTRUCTIONS SEE OVER | | |",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-96/page/n1_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F. 201 A\nG. 2000-5-38\n\n参见特别处〔此处转录不清〕.15        D. 5422E\n\n上海公共租界工部局警务处\n\n交叉参考单\n\n特别处档案室\n\n档案号 D. 5422E\n\n主题：\n\n中欧犹太人\n\n| 详情 | 部门 | 档案号 |\n| :--- | :--- | :--- |\n| 转至 | ~~特别盒~~ | ~~第 115 号~~ |\n| | | |\n| 指示见背面 | | |",
+   "zh_src": "62a6f55a435fb136"
+  }
+ ],
+ "pages_done": 2,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-96/Central%20European%20Jews%202108.pdf>\n\n---\nWSF2e ~E \n\n\nSee Special Be LAS D. 54228 \n\n\nFL. 201A \nG. 2000-5-38 \n\n\nSHANGHAI MUNICIPAL POLICE \nCROSS-REFERENCE SLIP \n\n\nSpecial sranch Kegistry OFFICE \nFILE NO... De 54228 \n\n\nSUBJECT: \n\n\nCentral KHuropean Jews \n\n\nPARTICULARS OFFICE VILE NO. \n\n\neS pitas ek \n\n\nSurana, \n\n\n” DERE LEE LLC. dom ae",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 5802,
+  "ocr_out_tokens": 183,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 17:47:58",
+  "zh_in_tokens": 387,
+  "zh_out_tokens": 157,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 2
+}

@@ -93,9 +93,9 @@
    "image_url": "https://archive.org/download/smpa-files-1851/page/n8_w2400.jpg",
    "tries": 1,
    "via": "dashscope",
-   "zh": "",
-   "zh_tries": 1,
-   "zh_status": "字符重复循环"
+   "zh": "• **〔此处转录不清〕**\n\n范永增（FAN YUNG TSENG） 科长\n姚祖祥（YAO TSU SHEN） 科长\n陳筱敏（CHEN HSIAO MIN） 科长\n\nH. 地方行政机构。\n\n朱玉軫（CHU YO TSAI） 浦东南区行政长官\n朱瑞（CHU JUI） 浦东北区行政长官\n沈世景（SUN SHIH CHING） 南市行政区行政长官\n張品泉（CHANG PIN CHUAN） 闸北行政区行政长官\n李業東（LI YEH TUNG） 上海西区行政长官\n嚴岡如（YEN KANG JU） 宝山行政区行政长官\n唐鐵英（TANG TI YING） 周沙（Chowsha，音译）行政区行政长官\n梅笠揚（MEI LI YANG） 南汇（Nanhwei，音译）行政区行政长官\n朱仲賢（CHU CHUN YI） 北桥（Peikiao，音译）行政区行政长官\n黃稚卿（HUANG JU CHING） 崇明（Tsungming，音译）行政区行政长官",
+   "zh_tries": 2,
+   "zh_src": "4eb6d140faa49dd6"
   },
   {
    "n": 9,
@@ -127,10 +127,10 @@
   "ocr_out_tokens": 3326,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-15 16:11:57",
-  "zh_in_tokens": 11201,
-  "zh_out_tokens": 66481,
+  "zh_in_tokens": 11720,
+  "zh_out_tokens": 66743,
   "zh_chunks": 1
  },
  "native_zh_pages": 0,
- "zh_pages": 10
+ "zh_pages": 11
 }

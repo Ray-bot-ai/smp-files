@@ -2913,8 +2913,10 @@
    "tries": 1,
    "image_url": "https://archive.org/download/smpa-files-3386/page/n287_w2400.jpg",
    "via": "dashscope",
-   "zh": "",
-   "zh_note": "原文即中文，无需翻译"
+   "zh": "总\n昭和十七年（1942年）四月十一日 特高第一科 主任 山田\n摘要\n关于稻垣人（Kotobuki，即“寿”）新聘巡警一事\n姓名：稻垣\n籍贯：甲府\n大正四年（1915年）四月七日\n上述名为稻垣的新聘巡警，自愿接受调查。其在室町三丁目3番地302号经营寄宿寓所，寄食于其弟芝之处，且据观察，认为可从落合方面增补美勇巡警。\n事件概要\n经调查上述人员之现状以及作为新队员招募是否适宜，认为并无须保留（或：无不良记录/无存疑之处）。\n备注：附英文报告书一份",
+   "zh_note": "原文即中文，无需翻译",
+   "zh_tries": 1,
+   "zh_src": "5effb51069d5fffa"
   },
   {
    "n": 288,
@@ -2936,10 +2938,10 @@
   "ocr_out_tokens": 104270,
   "reasoning_tokens": 0,
   "ocr_at": "2026-08-17 22:06:36",
-  "zh_in_tokens": 120102,
-  "zh_out_tokens": 118478,
+  "zh_in_tokens": 120518,
+  "zh_out_tokens": 118655,
   "zh_chunks": 31
  },
  "native_zh_pages": 1,
- "zh_pages": 288
+ "zh_pages": 289
 }

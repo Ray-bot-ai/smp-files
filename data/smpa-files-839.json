@@ -1,0 +1,35 @@
+{
+ "ia_id": "smpa-files-839",
+ "title": "Foreign Press Report Of Presence In Western District Of 200 Chinese Troops",
+ "series": "D Files",
+ "nara_file_no": "1701",
+ "pages": 1,
+ "ia_url": "https://archive.org/details/smpa-files-839",
+ "page_data": [
+  {
+   "n": 0,
+   "en": "F 201\nT.H. 2000-7-33\nC & S B\nCENTRAL REGISTRY\nFILE No. 3513\nSUBJECT:\n\nF. 201\nT.H. 1000-12-31.\nFILE No. W. 3513\nC. & S. B. REGISTRY\nSUBJECT:\nForeign Perm. Rebate of Revenue\nin Western District of 200\nChinese Troops\nSENT TO\nNAME | DATE\nO/f. I.W. | 16. 4. 32.\n(1) | \" \" \"\nNo more",
+   "error": null,
+   "tries": 1,
+   "image_url": "https://archive.org/download/smpa-files-839/page/n0_w2400.jpg",
+   "via": "dashscope",
+   "zh": "F 201\nT.H. 2000-7-33\nC & S B\n中央登记处\n档案编号 3513\n事由：\n\nF. 201\nT.H. 1000-12-31.\n档案编号 W. 3513\nC. & S. B. 登记处\n事由：\n关于西区200名中国军队的外国永久退税\n发送至\n姓名 | 日期\nI.W. 办公室 | 32年4月16日\n(1) | \" \" \"\n无更多",
+   "zh_src": "0410eef5ad9c7098"
+  }
+ ],
+ "pages_done": 1,
+ "ia_ocr": "> ⚠️ 本文为缩微胶卷翻拍打字稿的 OCR 结果，**错误率高，尤其是数字与日期**（已知 `May 50`=May 30、`SCO`=300）。仅供检索定位，**引用前必须打开原 PDF 核对**。\n\n原件 PDF：<https://archive.org/download/smpa-files-839/Foreign%20Press%20Report%20Of%20Presence%20In%20Western%20District%20Of%20200%20Chinese%20Troops%201701.pdf>\n\n---\nratte A \nNERAL REGISTRY ~ \n: me \nFILE No. 27.2 / 2 \n. SUBJECT: \n\n\nFILE No... \nCc. & S. B~ REGISTRY \n\n\n| - SUBJECT: ; \nOB Pn Le Lt tT. P \n\n\nsa Wepre tv = Or tre a es Loe \n4 \n\n\nLae OE \n\n\nNAME \n\n\npane ae a a re \n\n\nOIE",
+ "meta": {
+  "model": "qwen3.7-plus",
+  "mode": "realtime",
+  "ocr_in_tokens": 2896,
+  "ocr_out_tokens": 149,
+  "reasoning_tokens": 0,
+  "ocr_at": "2026-08-20 16:23:34",
+  "zh_in_tokens": 381,
+  "zh_out_tokens": 140,
+  "zh_chunks": 1
+ },
+ "native_zh_pages": 0,
+ "zh_pages": 1
+}
