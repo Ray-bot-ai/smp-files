@@ -69,6 +69,15 @@
       <b>读回命中的内容、从中发现新词、再检索</b>——迭代数轮——最后判断哪些真正相关并汇总。
       过程中的思考实时展示。</span></p>
 
+  <div class="beta"><b>⚠ 功能测试中 · Beta.</b>
+    AI 联想检索仍在调整：检索策略、轮数与判定标准都可能变化，
+    模型也可能漏掉相关卷宗或把不相关的判为相关。
+    <b>它给出的每一条都要回原件核对</b>，不要直接当结论用；
+    需要确定性的结果请用<a href="search.html">全文检索</a>。
+    <span class="en">This AI agent is still being tuned — its search strategy and relevance
+    judgements may change, and it can both miss relevant files and over-select irrelevant ones.
+    Verify every result against the original; use plain full-text search when you need certainty.</span></div>
+
   <details class="kbox" id="cfg" open>
     <summary>Your API key 你的 API 密钥</summary>
     <div class="row">
@@ -148,7 +157,7 @@
   <span class="zh">转录由大模型生成，引用前请核对原件影像</span>
 </div></footer>
 
-<script src="assets/search.js?v=5"></script>
+<script src="assets/search.js?v=7"></script>
 <script src="assets/agent.js?v=4"></script>
 <script>
 const $ = s => document.querySelector(s);

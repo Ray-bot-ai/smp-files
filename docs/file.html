@@ -37,7 +37,7 @@
   <span>扫描：Virtual Shanghai / bnAsie via Internet Archive</span>
 </div></footer>
 
-<script src="assets/search.js?v=5"></script>
+<script src="assets/search.js?v=7"></script>
 <script>
 const $ = s => document.querySelector(s);
 const P = new URLSearchParams(location.search);
@@ -64,7 +64,19 @@ function hl(s){
       <a href="${d.ia}" target="_blank" rel="noopener">在 Internet Archive 查看原件 · View original on IA ↗</a>
       ${Q ? ` · 检索词 query「${esc(Q)}」已高亮 highlighted` : ''}</p>`;
   const iid = 'smpa-files-' + ID;
-  $('#pages').innerHTML = d.pages.map(p => `
+
+  // 长卷宗必须分页：全库最大一件 1,284 页，一次渲染就是 1,284 个 section
+  // （每个含影像、转录、译文三栏），滚动和查找都会卡死。
+  // 每屏 25 页，**不是上限**——所有页都在，翻页即可，页码写在分页器上。
+  // 带 ?p=N 进来时（从检索结果点某一页），自动翻到含该页的那一屏再滚过去。
+  const PER = 25;
+  const nScreen = Math.ceil(d.pages.length / PER) || 1;
+  let screen = JUMP !== null
+    ? Math.min(nScreen - 1, Math.floor(d.pages.findIndex(x => x.n === +JUMP) / PER) || 0)
+    : 0;
+  if (screen < 0) screen = 0;
+
+  const paneHtml = p => `
     <section class="pane" id="p${p.n}">
       <div>
         <h4>原件影像 · Scan &nbsp;p${p.n + 1}</h4>
@@ -100,8 +112,56 @@ function hl(s){
                text to keep. Confirmed by retry, not an omission.）</span>`
                   : '<span class="muted">（未译 · not translated）</span>')}</div>
       </div>
-    </section>`).join('');
-  if (d.ia_ocr) {
+    </section>`;
+
+  function pagerHtml() {
+    if (nScreen <= 1) return '';
+    const a = screen * PER + 1, b = Math.min((screen + 1) * PER, d.pages.length);
+    let h = `<div class="pager"><span class="pinfo">显示第 ${a}–${b} 页，共 <b>${d.pages.length}</b> 页 ·
+      第 ${screen + 1}/${nScreen} 屏</span>
+      <button data-go="${screen - 1}" ${screen === 0 ? 'disabled' : ''}>← 上一屏</button>`;
+    const show = new Set([0, nScreen - 1]);
+    for (let k = screen - 2; k <= screen + 2; k++) if (k >= 0 && k < nScreen) show.add(k);
+    const ks = [...show].sort((x, y) => x - y);
+    let prev = -1;
+    for (const k of ks) {
+      if (prev >= 0 && k > prev + 1) h += `<span class="gap">…</span>`;
+      h += `<button data-go="${k}" ${k === screen ? 'aria-current="true"' : ''}>${k * PER + 1}–${Math.min((k + 1) * PER, d.pages.length)}</button>`;
+      prev = k;
+    }
+    h += `<button data-go="${screen + 1}" ${screen >= nScreen - 1 ? 'disabled' : ''}>下一屏 →</button>`;
+    h += `<span class="pgjump">跳至第 <input type="number" min="1" max="${d.pages.length}" id="pgin"> 页</span>`;
+    return h + `</div>`;
+  }
+
+  function bindPager(root) {
+    root.querySelectorAll('button[data-go]').forEach(b =>
+      b.onclick = () => draw(+b.dataset.go, true));
+    const inp = root.querySelector('#pgin');
+    if (inp) inp.addEventListener('keydown', e => {
+      if (e.key !== 'Enter') return;
+      const v = parseInt(inp.value, 10);
+      if (!(v >= 1 && v <= d.pages.length)) return;
+      const idx = v - 1;
+      draw(Math.floor(idx / PER), false);
+      document.getElementById('p' + d.pages[idx].n)?.scrollIntoView({behavior:'smooth'});
+    });
+  }
+
+  function draw(sc, toTop) {
+    screen = Math.max(0, Math.min(sc, nScreen - 1));
+    const slice = d.pages.slice(screen * PER, (screen + 1) * PER);
+    $('#pages').innerHTML =
+      (nScreen > 1 ? `<div id="pgtop">${pagerHtml()}</div>` : '') +
+      slice.map(paneHtml).join('') +
+      (nScreen > 1 ? `<div id="pgbot">${pagerHtml()}</div>` : '');
+    if (nScreen > 1) { bindPager(document.getElementById('pgtop')); bindPager(document.getElementById('pgbot')); }
+    // 旧 OCR 对照只在最后一屏出现，否则每屏都重复一遍
+    if (d.ia_ocr && screen === nScreen - 1) appendOldOcr();
+    if (toTop) window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function appendOldOcr() {
     $('#pages').insertAdjacentHTML('beforeend', `
       <section class="pane" style="grid-template-columns:1fr">
         <div><h4>对照：原有 OCR（Virtual Shanghai / bnAsie，ABBYY FineReader） · Existing machine OCR</h4>
@@ -110,6 +170,8 @@ function hl(s){
           这是重做之前的状态，由 Virtual Shanghai / bnAsie 项目用 ABBYY FineReader 制作。保留它是为了交叉比对——两份不一致处，正是需要人工核对原件的地方。<br>The pre-existing OCR, produced by the Virtual Shanghai / bnAsie project with ABBYY FineReader, kept for cross-checking: where the two disagree is where a human should look.</p>
         </div></section>`);
   }
+
+  draw(screen, false);
   if (JUMP !== null) document.getElementById('p' + JUMP)?.scrollIntoView({behavior:'smooth'});
 })();
 </script>

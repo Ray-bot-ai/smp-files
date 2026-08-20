@@ -255,18 +255,31 @@ def build_docs_and_index():
     cutoff = max(20, int(npage * 0.4))
     shards = defaultdict(dict)
     kept = 0
+    # 被裁掉的 token 必须**记下来发给前端**。
+    # 原因：前端遇到「索引里没有这个 token」时按「零命中」处理，于是
+    # 一个完全正常的查询会**静默返回空**。这批档案尤其致命——每页都印着
+    # 「上海公共租界工部局警务处 / SHANGHAI MUNICIPAL POLICE」抬头，
+    # 于是 上海/租界/工部/警务/police/shanghai/municipal 全部越过 40% 阈值被裁，
+    # 搜「法租界」「公共租界」「上海」一律零结果且不给任何解释。
+    # 有了这份名单，前端就能把它当停用词**跳过**（而不是判零），并在页面上明说跳过了哪些。
+    stop = {}
     for tok, posts in inv.items():
         is_cjk1 = len(tok) == 1 and "\u3400" <= tok <= "\u9fff"
         # 停用词裁切按「命中页数」算，与旧格式口径一致（旧格式一条 posting 就是一页）
-        if not is_cjk1 and sum(len(v) for v in posts.values()) > cutoff:
+        npg_tok = sum(len(v) for v in posts.values())
+        if not is_cjk1 and npg_tok > cutoff:
+            stop[tok] = npg_tok
             continue
         shards[shard_of(tok)][tok] = posts
         kept += 1
+    json.dump({"cutoff": cutoff, "pages": npage, "tokens": stop},
+              open(os.path.join(OUT, "stop.json"), "w", encoding="utf-8"),
+              ensure_ascii=False, separators=(",", ":"))
     for s in range(SHARDS):
         json.dump(shards.get(s, {}),
                   open(os.path.join(OUT, "idx", f"{s}.json"), "w", encoding="utf-8"),
                   ensure_ascii=False, separators=(",", ":"))
-    return ndoc, npage, len(inv), kept, nbad
+    return ndoc, npage, len(inv), kept, nbad, len(stop)
 
 
 def build_variants_min():
@@ -361,11 +374,12 @@ if __name__ == "__main__":
     ntoks_t = build_titleidx(json.load(open(os.path.join(OUT, "catalog.json"),
                                             encoding="utf-8"))["items"])
     print(f"标题索引：{ntoks_t:,} token → docs/data/titleidx.json（覆盖全库标题，含未转录）")
-    nd, npg, ntok, kept, nbad = build_docs_and_index()
+    nd, npg, ntok, kept, nbad, nstop = build_docs_and_index()
     idx_mb = sum(os.path.getsize(p) for p in glob.glob(os.path.join(OUT, "idx", "*.json"))) / 2**20
     doc_mb = sum(os.path.getsize(p) for p in glob.glob(os.path.join(OUT, "doc", "*.json"))) / 2**20
     print(f"全文：{nd} 件 / {npg:,} 页；token {ntok:,}（保留 {kept:,}，去掉高频停用）")
     print(f"标记为不可用的页：{nbad}（内容保留，只加说明）")
+    print(f"高频停用词 {nstop} 个 → docs/data/stop.json（前端据此跳过而非判零命中）")
     print(f"索引 {idx_mb:.2f} MB / {SHARDS} 片（均 {idx_mb*1024/SHARDS:.0f} KB）；正文 {doc_mb:.2f} MB")
     if SKIPPED:
         print(f"⚠ 跳过 {len(SKIPPED)} 个读不了的文件（多半是跑批正在写）：{SKIPPED[:5]}")

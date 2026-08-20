@@ -10,6 +10,24 @@ async function loadNorm() {
   for (const g of groups) for (const c of g) NORM[c] = g[0];
   return NORM;
 }
+/* 高频停用词表。build_site.py 把出现在 >40% 页面上的 token 裁出索引以控体积，
+   前端若把「索引里没有」一律当成零命中，正常查询就会**静默返回空**——
+   这批档案每页都印着「上海公共租界工部局警务处 / SHANGHAI MUNICIPAL POLICE」抬头，
+   于是 上海/租界/工部/警务/police/shanghai/municipal 全被裁掉，
+   搜「法租界」「公共租界」直接零结果且不给解释。实测抓出。
+   有了这份名单就能区分两种「索引里没有」：
+     · 在名单里 = 高频停用词 → **跳过这一项**，用其余词判定，并在页面上明说
+     · 不在名单里 = 这个词全库真的没有 → 零命中（正确） */
+let STOP = null;
+async function loadStop() {
+  if (STOP) return STOP;
+  try { STOP = await (await fetch('data/stop.json')).json(); }
+  catch { STOP = { cutoff: 0, pages: 0, tokens: {} }; }
+  return STOP;
+}
+// 本轮检索里因高频而被跳过的词，供页面提示用
+let SKIPPED = [];
+
 async function loadCatalog() {
   if (!catalog) catalog = await (await fetch('data/catalog.json')).json();
   return catalog;
@@ -71,6 +89,7 @@ async function verifyPages(term, pages) {
 
 async function pageSet(q) {
   await loadNorm();
+  await loadStop();
   const toks = tokenize(q);
   if (!toks.length) return new Set();
   const shardIdx = {};
@@ -81,6 +100,11 @@ async function pageSet(q) {
   let inter = null;
   for (const t of toks) {
     const posts = loaded[shardIdx[t]][t];
+    // 高频停用词：跳过这一项而不是判零命中（见 STOP 处注释）
+    if (!posts && STOP.tokens && (t in STOP.tokens)) {
+      if (!SKIPPED.some(x => x.t === t)) SKIPPED.push({ t, n: STOP.tokens[t] });
+      continue;
+    }
     if (!posts) return new Set();
     // postings 是 {doc: [pages]}（按卷宗归并，省掉重复的 doc 号）。
     // 这一段与 build_site.py 写索引处是一对，改一边必须改另一边——
@@ -90,6 +114,10 @@ async function pageSet(q) {
     inter = inter ? new Set([...inter].filter(x => set.has(x))) : set;
     if (!inter.size) return new Set();
   }
+  // 全部词都是高频停用词时 inter 仍是 null（比如只搜「police」）。
+  // 这时无法用索引筛选，返回空集，由页面明确告诉用户「这个词太常见，
+  // 请加一个别的词一起搜」——而不是假装没命中。
+  if (!inter) return new Set();
   return needsVerify(q) ? verifyPages(q, inter) : inter;
 }
 
@@ -112,20 +140,42 @@ function groupByDoc(pages) {
    例如「(受过教育 或 当过教师) 且 (工厂 或 学徒)」。
    只有 AND 的话，模型只能把同义词一个个单独搜、再靠脑子拼，
    既漏得多又容易把「相邻但不相干」的东西混进结果。 */
+/* 整项都是高频停用词吗？（如「police」这一项）
+
+   必须单独判：布尔检索是**逐项**调 pageSet 的，而这样一项的 pageSet 是空集，
+   拿空集去做 AND 会把整条查询清零——实测搜「police opium」得 0 件，
+   而把同一串当单项搜是 878 件。用户看到的就是「加了个词反而没结果」。
+   所以这类项要**整项跳过、不参与布尔运算**，并记进 SKIPPED 让页面明说。 */
+async function allStop(term) {
+  await loadStop();
+  const ts = tokenize(term);
+  if (!ts.length || !STOP.tokens) return false;
+  if (!ts.every(t => t in STOP.tokens)) return false;
+  for (const t of ts) if (!SKIPPED.some(x => x.t === t)) SKIPPED.push({ t, n: STOP.tokens[t] });
+  return true;
+}
+
 async function searchBool({ all = [], any = [], none = [] }) {
   let cur = null;
   for (const t of all) {
+    if (await allStop(t)) continue;          // 整项高频：不参与 AND
     const s = await pageSet(t);
     cur = cur ? new Set([...cur].filter(x => s.has(x))) : s;
     if (!cur.size) return { hits: [], used: { all, any, none } };
   }
   if (any.length) {
     const u = new Set();
-    for (const t of any) for (const x of await pageSet(t)) u.add(x);
-    cur = cur ? new Set([...cur].filter(x => u.has(x))) : u;
+    let usable = 0;
+    for (const t of any) {
+      if (await allStop(t)) continue;        // OR 里的高频项等于「全部命中」，跳过
+      usable++;
+      for (const x of await pageSet(t)) u.add(x);
+    }
+    if (usable) cur = cur ? new Set([...cur].filter(x => u.has(x))) : u;
   }
   if (!cur) return { hits: [], used: { all, any, none } };
   for (const t of none) {
+    if (await allStop(t)) continue;          // NOT 里的高频项会排除掉全库，跳过
     const s = await pageSet(t);
     cur = new Set([...cur].filter(x => !s.has(x)));
   }

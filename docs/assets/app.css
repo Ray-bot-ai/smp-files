@@ -146,3 +146,29 @@ footer.ft .in{max-width:78rem;margin:0 auto;padding:0 1.4rem;
   background:#fff6dd;border-left:3px solid #d9a21b;
   font-size:.85rem;line-height:1.9}
 .res .morepg .pg{margin-right:.15rem}
+/* ── 功能测试中横幅 ─────────────────────────────────────────
+   检索与 AI 联想两页仍在调整，明确告诉用户，别让人以为是成品。 */
+.beta{background:rgba(154,123,70,.12);border:1px solid rgba(154,123,70,.4);
+  border-left:3px solid var(--brass);padding:.7rem 1rem;margin:0 0 1.4rem;
+  font-size:.88rem;line-height:1.7;color:var(--body)}
+.beta b{color:#7a5f33}
+.beta .en{color:var(--muted);font-size:.94em}
+
+/* ── 分页器 ────────────────────────────────────────────────
+   全部命中仍然都能拿到，只是分页呈现——不是上限。
+   这一点必须在页面上写明（本项目的检索设计原则：任何内部限制都要明示）。 */
+.pager{display:flex;flex-wrap:wrap;gap:.35rem;align-items:center;
+  margin:1.6rem 0;padding-top:1.2rem;border-top:1px solid var(--rule)}
+.pager button{border:1px solid var(--rule);background:var(--card);color:var(--body);
+  font:400 .88rem var(--serif);padding:.35rem .7rem;border-radius:2px;cursor:pointer}
+.pager button:hover:not(:disabled){border-color:var(--stamp);color:var(--stamp)}
+.pager button[aria-current="true"]{background:var(--stamp);color:#fff;border-color:var(--stamp)}
+.pager button:disabled{opacity:.35;cursor:default}
+.pager .pinfo{font-size:.85rem;color:var(--muted);margin-right:.5rem}
+.pager .gap{color:var(--muted);padding:0 .2rem}
+.pgjump{font-size:.85rem;color:var(--muted);margin-left:.4rem}
+.pgjump input{width:4.2rem;border:1px solid var(--rule);background:#fff;
+  padding:.28rem .4rem;font:400 .88rem var(--serif);border-radius:2px}
+
+/* 单件命中页很多时，把其余页码折进 details——仍然全部列出，只是默认收起 */
+.morepg details summary{cursor:pointer;color:var(--stamp)}

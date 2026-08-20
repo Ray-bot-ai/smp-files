@@ -25,6 +25,12 @@
   <p class="sub">Search the re-transcribed English text and its Chinese translation together.
     <span class="zh">英文转录与中文译文一并检索。</span></p>
 
+  <div class="beta"><b>⚠ 功能测试中 · Beta.</b>
+    检索功能仍在调整，命中数、排序与呈现方式都可能变化；遇到很慢或结果可疑，请以
+    <a href="browse.html">目录</a>与原件 PDF 为准。
+    <span class="en">This search is still being tuned — hit counts, ranking and presentation may change.
+    If it is slow or a result looks wrong, fall back to the catalogue and the original PDF.</span></div>
+
   <div class="searchbox">
     <input id="q" placeholder="Russian ｜ mill | factory -communist ｜ school mill" autofocus>
     <button id="go">Search</button>
@@ -60,13 +66,20 @@
     <br>① 英文按<b>整词</b>匹配、不分大小写 · English matched as whole words, case-insensitive.
     <br>② 中文按<b>归一化二字滑窗</b>（简繁异体互搜）；三字以上词组会<b>逐页核对原文</b> ·
       Chinese matched by normalized overlapping bigrams; phrases of 3+ chars are verified against page text.
-    <br>③ <b>停用词 Stop words</b>：出现在 40% 以上已转录页面的英文词<b>不建索引</b>
-      （如 the / of / a / to），单独搜这类词结果为空 ·
-      English words occurring on &gt;40% of transcribed pages are not indexed (e.g. the / of / a / to); searching one alone returns nothing.
+    <br>③ <b>停用词 Stop words</b>：出现在 40% 以上页面的词<b>不建索引</b>，共 35 个。
+      这批档案每页都印着「上海公共租界工部局警务处 / Shanghai Municipal Police」抬头，
+      所以 <code>上海</code> <code>租界</code> <code>工部</code> <code>警务</code>
+      <code>police</code> <code>shanghai</code> <code>municipal</code> 以及 the/of/a/to 都在其中。
+      查询里出现这类词时<b>自动跳过该项、用其余词判定，并在结果上方明确列出跳过了什么</b>；
+      整条查询只有停用词时结果为空，请再加一个别的词。
+      <span class="muted">The 35 tokens on &gt;40% of pages are not indexed — including the letterhead words.
+      Such terms are skipped (and listed above the results) rather than silently returning nothing.</span>
     <br>④ 中文<b>单字</b>全部建索引，可单独检索 · all single Chinese characters are indexed and searchable alone.
     <br>⑤ 正文检索仅覆盖<b>已转录</b>部分；标题检索覆盖<b>全库</b>（含未转录卷宗） ·
       body search covers transcribed pages only; title search covers the whole catalogue.
     <br>⑥ 全部命中<b>无上限</b>展示 · all hits are displayed, no caps.
+    <br>⑦ 结果<b>每页 50 件</b>分页呈现，<b>只是分页、不是上限</b>——所有命中都在，翻页即可，件数与页数都写在分页器上。为避免全库规模下卡死，摘要只为当前页这 50 件载入。<span class="muted">Results are paginated at 50 files per page — pagination, not a cap; snippets load for the current page only.</span>
+    <br>⑧ 单件命中超过 43 页时，其余页码<b>默认收起</b>（点开仍全部列出）。<span class="muted">Per-file page lists collapse beyond ~43 hits; all remain listed when expanded.</span>
   </p>
 
   <div id="meta" class="spin">正在载入索引…</div>
@@ -78,7 +91,7 @@
   <span class="zh">Machine-generated transcription — verify against the original scan before citing.</span>
 </div></footer>
 
-<script src="assets/search.js?v=5"></script>
+<script src="assets/search.js?v=7"></script>
 <script>
 const $ = s => document.querySelector(s);
 let CAT = null;
@@ -126,6 +139,7 @@ async function run() {
   history.replaceState(null, '', '?q=' + encodeURIComponent(q));
   $('#res').innerHTML = '<p class="spin">检索中…</p>';
   const t0 = performance.now();
+  SKIPPED = [];                     // 本轮的高频停用词记录，清空重记
   // 正文与标题同时查：标题索引单文件，几乎不增加等待
   const [body, tits] = await Promise.all([
     parseAndSearch(q),
@@ -134,84 +148,161 @@ async function run() {
   const { toks, hits } = body;
   const ms = Math.round(performance.now() - t0);
   const thtml = titleHitHtml(q, tits);
+  // 有词因「太常见」被跳过时必须明说。静默跳过 = 用户以为搜的是 A，实际搜的是 B。
+  // 整条查询是不是**全部**由高频词构成？两种情况措辞不同：
+  // 还有别的词 → 「已跳过，结果由其余词决定」
+  // 一个别的词都没有 → 不能说「由其余词决定」（根本没有其余词），
+  //   要直说「无法筛选，请再加一个词」。否则用户看到「已跳过」却是零结果，更糊涂。
+  const allSkipped = SKIPPED.length > 0 && toks.every(t => SKIPPED.some(x => x.t === t));
+  const skipList = SKIPPED.map(x => `<code>${esc2(x.t)}</code>（出现在 ${fmt(x.n)} 页）`).join('、');
+  const skipHtml = !SKIPPED.length ? '' : (allSkipped
+    ? `<div class="beta"><b>这条查询没法筛选。</b>${skipList}
+       ${SKIPPED.length > 1 ? '这几项' : '这一项'}出现得太普遍——这批档案<b>每一页</b>都印着
+       「上海公共租界工部局警务处 / Shanghai Municipal Police」抬头——等于全库都命中，
+       用它检索没有意义。<b>请再加一个具体的词</b>，例如
+       <code data-q="police opium">police opium</code>、<code data-q="租界 罢工">租界 罢工</code>。
+       <span class="en">Every page carries this letterhead, so this term alone cannot narrow anything.
+       Add a more specific word.</span></div>`
+    : `<div class="beta"><b>提示：</b>其中 ${skipList}
+       ${SKIPPED.length > 1 ? '这几项' : '这一项'}出现得太普遍——这批档案每页都印着
+       「上海公共租界工部局警务处 / Shanghai Municipal Police」抬头——用它筛选没有意义，
+       <b>已跳过</b>，结果由其余词决定。
+       <span class="en">Skipped as too common to filter on; results are determined by your other terms.</span></div>`);
   if (!hits.length) {
-    $('#res').innerHTML = `<p class="spin">正文未命中 No matches in transcribed text. 查询已切分为 tokenised as：${toks.map(t=>'<code>'+t+'</code>').join(' ')}
+    $('#res').innerHTML = skipHtml + `<p class="spin">正文未命中 No matches in transcribed text. 查询已切分为 tokenised as：${toks.map(t=>'<code>'+t+'</code>').join(' ')}
       <br>目前仅 ${fmt(CAT.done_pages)} 页已转录，全库 ${fmt(CAT.total_pages)} 页仍在处理中。
       <br>Only ${fmt(CAT.done_pages)} of ${fmt(CAT.total_pages)} pages have been transcribed so far.</p>` +
       thtml;
+    bindExamples($('#res'));
     return;
   }
   const npages = hits.reduce((a, h) => a + h.pages.length, 0);
-  let html = `<p class="hint">正文命中 <b>${fmt(npages)}</b> 页 pages，分布在 <b>${hits.length}</b> 件卷宗 files（${ms} ms）</p>`;
+  let html = skipHtml + `<p class="hint">正文命中 <b>${fmt(npages)}</b> 页 pages，分布在 <b>${hits.length}</b> 件卷宗 files（${ms} ms）</p>`;
   if (tits.length) {
     html += `<p class="hint">另有 <b>${fmt(tits.length)}</b> 件卷宗的<b>标题</b>命中（见下方「标题命中」区，含未转录卷宗）</p>`;
   }
 
-  // 全部命中都显示，**任何地方都不设上限**（设计原则：对用户来说拿到结果
-  // 比等待更重要；上限会让检索系统变得不可用）。为性能分两步：
-  // ① 行骨架同步渲染：标题/系列/页数直接取目录（CAT，全在内存），
-  //    命中页链接立即可点，**不需要等正文 JSON**；
-  // ② 前 3 页的摘要等正文到了再回填；第 4 页起的其余命中页放进醒目条
-  //    （morepg），**全部链接直接列出**，不管有多少页。
-  const seq = ++RUN;                       // 防串台：期间又搜了一次就停止渲染旧结果
-  const byId = new Map(CAT.items.map(x => [x.i, x]));
-  let rowsHtml = '';
-  hits.forEach((h, idx) => {
-    const ci = byId.get(h.doc) || {};
-    const pglink = n => `<a class="pg" href="file.html?id=${h.doc}&p=${n}&q=${encodeURIComponent(q)}">p${n + 1}</a>`;
-    const first3 = h.pages.slice(0, 3);
-    const rest = h.pages.slice(3);
-    rowsHtml += `<div class="it" data-idx="${idx}">
-      <div class="ti"><a href="file.html?id=${h.doc}&q=${encodeURIComponent(q)}">${esc2(ci.t || h.doc)}</a></div>
-      <div class="mt">${ci.s ? esc2(ci.s) + ' 系列 series · ' : ''}${ci.p ?? '?'} 页 pages · 命中 ${h.pages.length} 页 matched</div>
-      ${first3.map(n => `<span class="snk" data-idx="${idx}" data-n="${n}">${pglink(n)}</span>`).join('')}
-      ${rest.length ? `<div class="morepg">其余 <b>${fmt(rest.length)}</b> 页命中，全部可点：${rest.map(pglink).join(' ')}</div>` : ''}
-    </div>`;
-  });
-  $('#res').innerHTML = html +
-    `<div id="list">${rowsHtml}</div><p class="spin" id="more">载入摘要… 0/${hits.length}</p>`;
-  const list = $('#list'), more = $('#more');
+  // 全部命中都能拿到，**不设任何上限**（设计原则：对用户来说拿到结果比等待更重要）。
+  // 但「全部一次渲染」在全库 92,769 页上会卡死：摘要回填是**每件一次 JSON 请求**，
+  // 搜「法租界」命中 1,245 件就是 1,245 次请求串行等——这正是「检索有时非常慢」的来源。
+  // 所以改成分页：**每页 50 件，只给当前页这 50 件取正文**。
+  // 分页 ≠ 上限：所有命中都在，翻页即可，页数与总数都写在分页器上。
+  const PER = 50;
+  let curPage = 0;
+  const nPage = Math.ceil(hits.length / PER);
 
-  // 摘要回填：正文请求已在 getDoc 里并行发出，这里按顺序等并填入骨架。
-  for (let i = 0; i < hits.length; i++) {
-    const h = hits[i];
-    let d;
-    try { d = await getDoc(h.doc); } catch { more.textContent = `载入摘要… ${i + 1}/${hits.length}`; continue; }
-    if (seq !== RUN) return;               // 已经有新的检索了，丢弃这轮
-    const byN = Object.fromEntries(d.pages.map(p => [p.n, p]));
-    /* 多词查询必须**每个词各给一段上下文**。
-       以前只按第一个匹配到的位置截一段，于是搜「银行 巡捕」时只看到银行那一段，
-       另一个词在页面别处——结果明明是对的，看上去却像误命中。 */
-    const terms = queryTerms(q);
-    h.pages.slice(0, 3).forEach(n => {
-      const slot = list.querySelector(`.snk[data-idx="${i}"][data-n="${n}"]`);
-      if (!slot) return;
-      const p = byN[n] || {};
-      const tag = `<a class="pg" href="file.html?id=${h.doc}&p=${n}&q=${encodeURIComponent(q)}">p${n + 1}</a>`;
-      const segs = [];
-      for (const t of terms) {
-        const inEn = hasMatch(p.en, t), inZh = hasMatch(p.zh, t);
-        if (!inEn && !inZh) continue;
-        const lab = terms.length > 1 ? `<span class="tm">${esc2(t)}</span>` : '';
-        if (inEn) segs.push(`<div class="sn">${lab}${snippet(p.en, t, 170)}</div>`);
-        if (inZh) segs.push(`<div class="sn zh"${inEn ? ' style="margin-left:2.6rem"' : ''}>${
-          inEn ? '' : lab}${snippet(p.zh, t, 150)}</div>`);
-      }
-      if (!segs.length) segs.push(`<div class="sn">${snippet(p.en || p.zh, q)}</div>`);
-      slot.outerHTML = `<div class="sn">${tag}</div>` + segs.join('');
+  $('#res').innerHTML = html + `<div id="list"></div><div id="pager"></div>`;
+  const list = $('#list'), pager = $('#pager');
+
+  function pagerHtml() {
+    if (nPage <= 1) return '';
+    const a = curPage * PER + 1, b = Math.min((curPage + 1) * PER, hits.length);
+    let h = `<div class="pager"><span class="pinfo">第 ${a}–${b} 件，共 <b>${fmt(hits.length)}</b> 件 ·
+      第 ${curPage + 1}/${nPage} 页</span>
+      <button data-go="${curPage - 1}" ${curPage === 0 ? 'disabled' : ''}>← 上一页</button>`;
+    // 页码按钮：首尾各若干 + 当前附近，中间用省略号
+    const show = new Set([0, nPage - 1]);
+    for (let k = curPage - 2; k <= curPage + 2; k++) if (k >= 0 && k < nPage) show.add(k);
+    const ks = [...show].sort((x, y) => x - y);
+    let prev = -1;
+    for (const k of ks) {
+      if (prev >= 0 && k > prev + 1) h += `<span class="gap">…</span>`;
+      h += `<button data-go="${k}" ${k === curPage ? 'aria-current="true"' : ''}>${k + 1}</button>`;
+      prev = k;
+    }
+    h += `<button data-go="${curPage + 1}" ${curPage >= nPage - 1 ? 'disabled' : ''}>下一页 →</button>`;
+    h += `<span class="pgjump">跳至 <input type="number" min="1" max="${nPage}" id="pgin"> 页</span>`;
+    return h + `</div>`;
+  }
+
+  async function renderPage(pg) {
+    curPage = Math.max(0, Math.min(pg, nPage - 1));
+    const seq = ++RUN;                     // 防串台：期间又搜了一次就停止渲染
+    const byId = new Map(CAT.items.map(x => [x.i, x]));
+    const slice = hits.slice(curPage * PER, (curPage + 1) * PER);
+
+    // ① 骨架同步渲染：标题/系列/页数取自目录（全在内存），命中页链接立刻可点，
+    //    **不必等正文 JSON**。
+    let rowsHtml = '';
+    slice.forEach((h, k) => {
+      const ci = byId.get(h.doc) || {};
+      const pglink = n => `<a class="pg" href="file.html?id=${h.doc}&p=${n}&q=${encodeURIComponent(q)}">p${n + 1}</a>`;
+      const first3 = h.pages.slice(0, 3);
+      const rest = h.pages.slice(3);
+      // 单件命中几百页时，把其余页码折进 details——**仍然全部列出**，只是默认收起，
+      // 否则光是 DOM 节点就能把页面拖垮。
+      const restHtml = !rest.length ? '' :
+        (rest.length > 40
+          ? `<div class="morepg"><details><summary>其余 <b>${fmt(rest.length)}</b> 页命中（点开全部列出）</summary>
+               <div style="margin-top:.5rem">${rest.map(pglink).join(' ')}</div></details></div>`
+          : `<div class="morepg">其余 <b>${fmt(rest.length)}</b> 页命中，全部可点：${rest.map(pglink).join(' ')}</div>`);
+      rowsHtml += `<div class="it" data-k="${k}">
+        <div class="ti"><a href="file.html?id=${h.doc}&q=${encodeURIComponent(q)}">${esc2(ci.t || h.doc)}</a></div>
+        <div class="mt">${ci.s ? esc2(ci.s) + ' 系列 series · ' : ''}${ci.p ?? '?'} 页 pages · 命中 ${fmt(h.pages.length)} 页 matched</div>
+        ${first3.map(n => `<span class="snk" data-k="${k}" data-n="${n}">${pglink(n)}</span>`).join('')}
+        ${restHtml}</div>`;
     });
-    more.textContent = `载入摘要… ${i + 1}/${hits.length}`;
+    list.innerHTML = rowsHtml + `<p class="spin" id="more">载入摘要… 0/${slice.length}</p>`;
+    pager.innerHTML = pagerHtml();
+    bindPager();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    // ② 摘要回填：**只取当前页这 50 件**的正文。并发发起、按序填入。
+    const more = document.getElementById('more');
+    let done = 0;
+    await Promise.all(slice.map(async (h, k) => {
+      let d;
+      try { d = await getDoc(h.doc); } catch { done++; return; }
+      if (seq !== RUN) return;
+      const byN = Object.fromEntries(d.pages.map(x => [x.n, x]));
+      /* 多词查询必须**每个词各给一段上下文**。
+         以前只按第一个匹配位置截一段，于是搜「银行 巡捕」时只看到银行那一段，
+         另一个词在页面别处——结果明明是对的，看上去却像误命中。 */
+      const terms = queryTerms(q);
+      h.pages.slice(0, 3).forEach(n => {
+        const slot = list.querySelector(`.snk[data-k="${k}"][data-n="${n}"]`);
+        if (!slot) return;
+        const pg = byN[n] || {};
+        const tag = `<a class="pg" href="file.html?id=${h.doc}&p=${n}&q=${encodeURIComponent(q)}">p${n + 1}</a>`;
+        const segs = [];
+        for (const t of terms) {
+          const inEn = hasMatch(pg.en, t), inZh = hasMatch(pg.zh, t);
+          if (!inEn && !inZh) continue;
+          const lab = terms.length > 1 ? `<span class="tm">${esc2(t)}</span>` : '';
+          if (inEn) segs.push(`<div class="sn">${lab}${snippet(pg.en, t, 170)}</div>`);
+          if (inZh) segs.push(`<div class="sn zh"${inEn ? ' style="margin-left:2.6rem"' : ''}>${
+            inEn ? '' : lab}${snippet(pg.zh, t, 150)}</div>`);
+        }
+        if (!segs.length) segs.push(`<div class="sn">${snippet(pg.en || pg.zh, q)}</div>`);
+        slot.outerHTML = `<div class="sn">${tag}</div>` + segs.join('');
+      });
+      done++;
+      if (more) more.textContent = `载入摘要… ${done}/${slice.length}`;
+    }));
+    if (seq === RUN) document.getElementById('more')?.remove();
   }
-  if (seq === RUN) {
-    more.remove();
-    if (thtml) $('#res').insertAdjacentHTML('beforeend', thtml);
+
+  function bindPager() {
+    pager.querySelectorAll('button[data-go]').forEach(b =>
+      b.onclick = () => renderPage(+b.dataset.go));
+    const inp = document.getElementById('pgin');
+    if (inp) inp.addEventListener('keydown', e => {
+      if (e.key === 'Enter') { const v = parseInt(inp.value, 10); if (v >= 1) renderPage(v - 1); }
+    });
   }
+
+  await renderPage(0);
+  if (thtml) $('#res').insertAdjacentHTML('beforeend', thtml);
+  bindExamples($('#res'));
 }
 
 $('#go').onclick = run;
 $('#q').addEventListener('keydown', e => { if (e.key === 'Enter') run(); });
-document.querySelectorAll('.hint code').forEach(c =>
-  c.onclick = () => { $('#q').value = c.dataset.q; run(); });
+function bindExamples(root) {
+  (root || document).querySelectorAll('code[data-q]').forEach(c =>
+    c.onclick = () => { $('#q').value = c.dataset.q; run(); });
+}
+bindExamples();
 boot();
 </script>
 </body>
