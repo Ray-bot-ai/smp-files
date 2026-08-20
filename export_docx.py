@@ -51,8 +51,18 @@ GRAY = RGBColor(0x80, 0x80, 0x80)
 # ── 判据：跟 demo_run.py 保持同一套，免得两边对同一页有不同结论 ──────────
 
 def is_chinese(text):
+    """这一页本身就是中文原件吗？
+
+    **必须与 demo_run.is_chinese 保持一致**。这里另存一份，是为了让本脚本
+    不依赖 common.py 的 API key——导出 Word 不该要密钥。改一边就要改另一边。
+
+    含假名即非中文：日文公文汉字密集，只看汉字占比会被判成中文，
+    于是日文页在这里被标成「（原件即中文，未经翻译）」——把日文说成中文。
+    demo_run 那边 2026-08-20 已修，这一份当时漏了（同一判据存两处的典型代价）。"""
     t = re.sub(r"\s", "", text or "")
     if len(t) < 30:
+        return False
+    if re.search(r"[぀-ヿㇰ-ㇿ]", text or ""):
         return False
     return sum(1 for c in t if "一" <= c <= "鿿") / len(t) > 0.5
 
