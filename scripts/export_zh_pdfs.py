@@ -100,28 +100,28 @@ def header_footer(canvas, doc):
     canvas.restoreState()
 
 total_pages_written = 0
-vol_no = 0
-vol_files = []
-for i in range(0, len(files), VOL_SIZE):
-    vol_no += 1
-    chunk = files[i:i + VOL_SIZE]
-    lo = re.search(r"(\d+)", os.path.basename(chunk[0][1])).group(1)
-    hi = re.search(r"(\d+)", os.path.basename(chunk[-1][1])).group(1)
-    out_pdf = os.path.join(OUT, f"卷{vol_no:02d}_smpa-files-{lo}-{hi}.pdf")
+part_no = 0
+
+# 按页数切分：每份 ≤ 4500 页（≈7.5MB，打开不卡）
+def flush_part(cur_files, lo, hi):
+    global part_no, total_pages_written
+    part_no += 1
+    out_pdf = os.path.join(OUT, f"smpa-files-{lo}-{hi}.pdf")
+    if os.path.exists(out_pdf) and "--limit" not in sys.argv:
+        print(f"[{part_no}] {os.path.basename(out_pdf)} 已存在，跳过")
+        return
     doc = BaseDocTemplate(out_pdf, pagesize=A4,
                           leftMargin=18 * mm, rightMargin=18 * mm,
                           topMargin=20 * mm, bottomMargin=16 * mm,
-                          title=f"SMP 中文合卷 {vol_no}")
+                          title=f"SMP 中文合册 {lo}-{hi}")
     frame = Frame(doc.leftMargin, doc.bottomMargin, doc.width, doc.height, id="f")
     doc.addPageTemplates([PageTemplate(id="p", frames=[frame], onPage=header_footer)])
-
-    story = []
-    doc.page_title = f"卷 {vol_no}｜smpa-files-{lo} 至 {hi}"
-    story.append(Paragraph(f"卷 {vol_no}｜档案 smpa-files-{lo} 至 {hi}", TITLE_STYLE))
-    story.append(Paragraph("说明：正文为中文译本；原文即中文的页直接录原文；无译文的页以〔本页无译文〕标出。", MARK_STYLE))
-    story.append(Spacer(1, 8))
-
-    for idx, path in chunk:
+    doc.page_title = f"档案 smpa-files-{lo} 至 {hi}"
+    story = [Paragraph(f"档案 smpa-files-{lo} 至 {hi}", TITLE_STYLE),
+             Paragraph("说明：正文为中文译本；原文即中文的页直接录原文；"
+                       "无译文的页以〔本页无译文〕标出。", MARK_STYLE),
+             Spacer(1, 8)]
+    for idx, path in cur_files:
         iid = os.path.basename(path)[:-5]
         try:
             d = json.load(open(path, encoding="utf-8"))
@@ -129,10 +129,12 @@ for i in range(0, len(files), VOL_SIZE):
             continue
         title = d.get("title") or ""
         n_pages = len(d.get("page_data", []))
-        story.append(Paragraph(f"—— {esc(iid)}｜{esc(title)}｜共 {n_pages} 页 ——", TITLE_STYLE))
+        story.append(Paragraph(f"—— {esc(iid)}｜{esc(title)}｜共 {n_pages} 页 ——",
+                               TITLE_STYLE))
         for q in sorted(d.get("page_data", []), key=lambda x: x.get("n", 0)):
             text, missing = page_text(q)
-            story.append(Paragraph(f"{esc(iid)}｜第 {q.get('n', 0) + 1} 页", HEADER_STYLE))
+            story.append(Paragraph(f"{esc(iid)}｜第 {q.get('n', 0) + 1} 页",
+                                   HEADER_STYLE))
             if missing:
                 story.append(Paragraph("〔本页无译文〕", MARK_STYLE))
             else:
@@ -142,9 +144,27 @@ for i in range(0, len(files), VOL_SIZE):
                         story.append(Paragraph(esc(para), STYLE))
             story.append(Spacer(1, 4))
         total_pages_written += n_pages
-
     doc.build(story)
-    print(f"卷{vol_no:02d}: {len(chunk)} 件 → {out_pdf} "
-          f"({os.path.getsize(out_pdf) / 1e6:.1f} MB)")
+    print(f"[{part_no}] {os.path.basename(out_pdf)}：{len(cur_files)} 件 / "
+          f"{os.path.getsize(out_pdf) / 1e6:.1f} MB")
 
-print(f"完成：{vol_no} 卷，{len(files)} 件 / {total_pages_written:,} 页")
+cur, cur_pages = [], 0
+for iid_int, path in files:
+    try:
+        d = json.load(open(path, encoding="utf-8"))
+    except Exception:
+        continue
+    np_ = len(d.get("page_data", []))
+    if cur and cur_pages + np_ > 4500:
+        lo = re.search(r"smpa-files-(\d+)", os.path.basename(cur[0][1])).group(1)
+        hi = re.search(r"smpa-files-(\d+)", os.path.basename(cur[-1][1])).group(1)
+        flush_part(cur, lo, hi)
+        cur, cur_pages = [], 0
+    cur.append((iid_int, path))
+    cur_pages += np_
+if cur:
+    lo = re.search(r"smpa-files-(\d+)", os.path.basename(cur[0][1])).group(1)
+    hi = re.search(r"smpa-files-(\d+)", os.path.basename(cur[-1][1])).group(1)
+    flush_part(cur, lo, hi)
+
+print(f"完成：{part_no} 份，{len(files)} 件 / {total_pages_written:,} 页")

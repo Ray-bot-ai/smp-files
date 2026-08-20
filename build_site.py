@@ -39,6 +39,24 @@ WORD = re.compile(r"[a-z][a-z'\-]{1,}")
 BOX_RATIO = 0.30
 
 
+BLOCKED_FILE = os.path.join(HERE, "blocked_pages.json")
+
+
+def load_blocked():
+    """被百炼内容审查拒过的页：线上不发正文，只给「请查阅原件」+ 原件链接。
+
+    为什么不是直接删：这些页的转录**本地仍然保留**（data/*.json 与 Obsidian 库都是原版），
+    只是不在公开站点上呈现。史料一页都不能少，但没必要把审查判定为不当的内容公开发布。
+
+    为什么写进 build_site 而不是手改 docs/data：手改会被下一次重建**静默覆盖**。
+    凡是要长期生效的处理，必须在生成环节做。
+    """
+    if not os.path.exists(BLOCKED_FILE):
+        return {}
+    return {(r["ia_id"], r["n"]): r.get("reason", "")
+            for r in json.load(open(BLOCKED_FILE, encoding="utf-8"))}
+
+
 def load_manual_flags():
     p = os.path.join(HERE, "unusable_pages.json")
     if not os.path.exists(p):
@@ -213,8 +231,9 @@ def build_docs_and_index():
     # token -> {doc: [pages]}。原来是 [[doc,page],…]，每页都重复存一遍 doc 号，
     # 而同一卷宗往往连中几十页——按卷宗归并后索引体积实测砍掉约 48%。
     inv = defaultdict(dict)
-    ndoc = npage = nbad = 0
+    ndoc = npage = nbad = nredact = 0
     manual = load_manual_flags()
+    blocked = load_blocked()
     for f in sorted(glob.glob(os.path.join(DATA, "*.json"))):
         d = load_doc(f)
         if d is None:
@@ -224,6 +243,13 @@ def build_docs_and_index():
         for q in d.get("page_data", []):
             en = (q.get("en") or "").strip()
             zh = (q.get("zh") or "").strip()
+            blk = blocked.get((d["ia_id"], q["n"]))
+            if blk is not None:
+                # 正文不外发，且**一并排除出检索索引**——只清正文不清索引的话，
+                # 搜某个特征词仍会命中这一页（页面却空着），既怪异又等于变相泄露。
+                nredact += 1
+                pages.append({"n": q["n"], "en": "", "zh": "", "blocked": blk or True})
+                continue
             bad = damage_flag(d["ia_id"], q["n"], en, manual)
             if bad:
                 nbad += 1
@@ -279,7 +305,7 @@ def build_docs_and_index():
         json.dump(shards.get(s, {}),
                   open(os.path.join(OUT, "idx", f"{s}.json"), "w", encoding="utf-8"),
                   ensure_ascii=False, separators=(",", ":"))
-    return ndoc, npage, len(inv), kept, nbad, len(stop)
+    return ndoc, npage, len(inv), kept, nbad, len(stop), nredact
 
 
 def build_variants_min():
@@ -374,12 +400,14 @@ if __name__ == "__main__":
     ntoks_t = build_titleidx(json.load(open(os.path.join(OUT, "catalog.json"),
                                             encoding="utf-8"))["items"])
     print(f"标题索引：{ntoks_t:,} token → docs/data/titleidx.json（覆盖全库标题，含未转录）")
-    nd, npg, ntok, kept, nbad, nstop = build_docs_and_index()
+    nd, npg, ntok, kept, nbad, nstop, nredact = build_docs_and_index()
     idx_mb = sum(os.path.getsize(p) for p in glob.glob(os.path.join(OUT, "idx", "*.json"))) / 2**20
     doc_mb = sum(os.path.getsize(p) for p in glob.glob(os.path.join(OUT, "doc", "*.json"))) / 2**20
     print(f"全文：{nd} 件 / {npg:,} 页；token {ntok:,}（保留 {kept:,}，去掉高频停用）")
     print(f"标记为不可用的页：{nbad}（内容保留，只加说明）")
     print(f"高频停用词 {nstop} 个 → docs/data/stop.json（前端据此跳过而非判零命中）")
+    print(f"内容审查拒稿页 {nredact} 页：线上不发正文、不进索引，只给原件链接"
+          f"（本地 data/ 与 Obsidian 库仍是原版）")
     print(f"索引 {idx_mb:.2f} MB / {SHARDS} 片（均 {idx_mb*1024/SHARDS:.0f} KB）；正文 {doc_mb:.2f} MB")
     if SKIPPED:
         print(f"⚠ 跳过 {len(SKIPPED)} 个读不了的文件（多半是跑批正在写）：{SKIPPED[:5]}")

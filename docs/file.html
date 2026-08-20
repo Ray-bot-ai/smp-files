@@ -84,16 +84,29 @@ function hl(s){
           <img loading="lazy" src="https://archive.org/download/${iid}/page/n${p.n}_w800.jpg" alt="page ${p.n + 1}"></a>
       </div>
       <div>
-        <h4>本站转录 · Transcription${p.bad ? ' <span class="badtag">不可用 unusable</span>' : ''}</h4>
+        <h4>本站转录 · Transcription${p.blocked ? ' <span class="badtag">未公开 withheld</span>' : p.bad ? ' <span class="badtag">不可用 unusable</span>' : ''}</h4>
+        ${p.blocked ? `<div class="badnote"><b>⚠ 这一页的转录未在本站公开。</b>
+          转录时被内容审查判定为不当内容。本站因此不发布这一页的文字，
+          <b>请直接查阅原件影像</b>——原件是公有领域的美国政府档案，未经任何删改。
+          <div style="margin-top:.5rem">
+            <a href="https://archive.org/download/${iid}/page/n${p.n}_w2400.jpg" target="_blank" rel="noopener">↗ 打开本页原件影像（Internet Archive）</a>
+            &nbsp;·&nbsp;
+            <a href="${d.ia}" target="_blank" rel="noopener">↗ 本卷宗全部原件</a>
+          </div>
+          <span class="en">This page's transcription is not published here: it was flagged by the
+          transcription provider's content filter. Please consult the original scan, linked above —
+          a US government record in the public domain, unaltered.</span></div>` : ''}
         ${p.bad ? `<div class="badnote"><b>⚠ 这一页的转录不可用。</b>${esc(p.bad)}
           <span class="en">This page's transcription is not usable. The text below is kept
           for transparency only — do not cite it; read the scan on the left instead.</span></div>` : ''}
         ${p.guess && !p.bad ? `<div class="guessnote"><b>⚠ 本页影像较差，转录含较多推测。</b>
           ${esc(p.guess).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')}</div>` : ''}
-        <div class="txt${p.bad ? ' faded' : ''}">${p.en ? hl(p.en) : '<span class="muted">（本页无文字或未转录 · no text / not transcribed）</span>'}</div>
+        <div class="txt${p.bad ? ' faded' : ''}">${p.blocked ? '' : p.en ? hl(p.en) : '<span class="muted">（本页无文字或未转录 · no text / not transcribed）</span>'}</div>
       </div>
       <div>
-        <h4>中文译文 · Translation${p.bad ? ' <span class="badtag">不可用 unusable</span>' : ''}</h4>
+        <h4>中文译文 · Translation${p.blocked ? ' <span class="badtag">未公开 withheld</span>' : p.bad ? ' <span class="badtag">不可用 unusable</span>' : ''}</h4>
+        ${p.blocked ? `<div class="badnote">同上，本页译文未在本站公开，请查阅原件影像。
+          <span class="en">Likewise withheld; please consult the original scan.</span></div>` : ''}
         ${p.bad && p.zh ? `<div class="badnote">译文是照上面那份不可用的转录译出来的，
           因此同样不可用。<span class="en">Translated from the unusable transcription,
           therefore equally unusable.</span></div>` : ''}
@@ -102,7 +115,7 @@ function hl(s){
           重复段已折叠。缺的内容请看左侧原件与转录。
           <span class="en">Partial translation: the model began repeating itself. Only the
           readable portion before that point is kept; the repetition is collapsed.</span></div>` : ''}
-        <div class="txt zh${p.bad ? ' faded' : ''}">${p.zh ? hl(p.zh) :
+        <div class="txt zh${p.bad ? ' faded' : ''}">${p.blocked ? '' : p.zh ? hl(p.zh) :
           (p.note ? `<span class="muted">（${p.note} · original is already in Chinese, see transcription）</span>`
            : p.zhbad === 'native_zh' ? `<span class="muted">（原件本身就是中文，左侧转录即原文，无需翻译
                · original is already in Chinese, see transcription）</span>`
