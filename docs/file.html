@@ -92,6 +92,8 @@ function hl(s){
           readable portion before that point is kept; the repetition is collapsed.</span></div>` : ''}
         <div class="txt zh${p.bad ? ' faded' : ''}">${p.zh ? hl(p.zh) :
           (p.note ? `<span class="muted">（${p.note} · original is already in Chinese, see transcription）</span>`
+           : p.zhbad === 'native_zh' ? `<span class="muted">（原件本身就是中文，左侧转录即原文，无需翻译
+               · original is already in Chinese, see transcription）</span>`
            : p.zhbad ? `<span class="muted">（本页译不出来：${esc(p.zhbad)}。模型输出反复退化成无意义的重复，
                可读内容不足以保留。已重试并确认，非遗漏——请看左侧原件与转录。<br>Could not be translated:
                the model's output degenerates into meaningless repetition, with too little readable
