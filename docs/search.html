@@ -17,6 +17,7 @@
     <a href="browse.html">目录 Catalogue</a>
     <a href="quality.html">质量 Quality</a>
     <a href="index.html">关于 About</a>
+    <a href="https://ray-bot-ai.github.io" target="_blank" rel="noopener">网站制作者 Site author</a>
   </nav>
 </div></header>
 
@@ -40,9 +41,11 @@
     <input id="y1" type="number" placeholder="1894" style="width:5.4rem">–<input id="y2" type="number" placeholder="1949" style="width:5.4rem">
     <button id="yclear" style="border:1px solid var(--rule);background:var(--card);
       font:400 .82rem var(--serif);padding:.15rem .55rem;border-radius:2px;cursor:pointer">清除</button>
-    <span class="muted">留空 = 不限。可只填一头。年份<b>是线索不是事实</b>，说明见下。
-      Leave blank for no limit; a year filter is a finding aid, not a fact.</span>
+    <span class="muted">留空 = 不限 · Leave blank for no limit</span>
   </p>
+
+  <details class="rules">
+    <summary>检索语法与内部设置（点击展开）<span class="en">Search syntax &amp; internal settings — click to expand</span></summary>
   <p class="hint">
     <b>AND / OR / NOT ·</b>
     空格 = 都要有 <span class="muted">(space = all of them)</span>；
@@ -94,6 +97,10 @@
       A finding aid, not a fact — untagged files drop out whenever a year filter is on.</span>
     <br>⑨ 单件命中超过 43 页时，其余页码<b>默认收起</b>（点开仍全部列出）。<span class="muted">Per-file page lists collapse beyond ~43 hits; all remain listed when expanded.</span>
   </p>
+  </details>
+
+  <p class="scrolltip"><span class="arrow">↓</span> 检索结果显示在本页下方，请下滑查看
+    <span class="en">Results appear further down this page — please scroll down</span></p>
 
   <div id="meta" class="spin">正在载入索引…</div>
   <div id="res" class="res"></div>

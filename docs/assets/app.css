@@ -172,3 +172,23 @@ footer.ft .in{max-width:78rem;margin:0 auto;padding:0 1.4rem;
 
 /* 单件命中页很多时，把其余页码折进 details——仍然全部列出，只是默认收起 */
 .morepg details summary{cursor:pointer;color:var(--stamp)}
+
+/* 检索规则默认收起：规则说明很长，挤在搜索框和结果之间会把结果推到屏幕外，
+   用户以为「没搜到」。折叠起来，要看再点。控件（年份输入框）不收，仍然直接可用。 */
+.rules{border:1px solid var(--rule);background:var(--card);margin:.8rem 0 1rem;
+  padding:.55rem .9rem;font-size:.9rem}
+.rules summary{cursor:pointer;font-weight:500;color:var(--stamp);list-style:none}
+.rules summary::-webkit-details-marker{display:none}
+.rules summary::before{content:"▸ ";font-weight:700}
+.rules[open] summary::before{content:"▾ "}
+.rules summary .en{color:var(--muted);font-weight:400;margin-left:.4rem}
+.rules .hint{margin:.8rem 0 .2rem}
+
+/* 「下滑查看结果」——必须一眼看见，否则等于不存在。
+   字号、颜色、边框都刻意做大做重，不是小灰字。 */
+.scrolltip{display:block;margin:1rem 0;padding:.75rem 1rem;
+  background:rgba(143,47,34,.08);border:2px solid var(--stamp);border-radius:3px;
+  font-size:1.12rem;font-weight:600;color:var(--stamp);text-align:center;line-height:1.5}
+.scrolltip .en{display:block;font-size:.95rem;font-weight:500;color:var(--body);margin-top:.2rem}
+@keyframes nudge{0%,100%{transform:translateY(0)}50%{transform:translateY(4px)}}
+.scrolltip .arrow{display:inline-block;animation:nudge 1.4s ease-in-out infinite}
