@@ -102,6 +102,12 @@
   <p class="scrolltip"><span class="arrow">↓</span> 检索结果显示在本页下方，请下滑查看
     <span class="en">Results appear further down this page — please scroll down</span></p>
 
+  <div id="toast" class="toast" role="status" aria-live="polite">
+    <b>↓ 检索结果在下方，请下滑查看</b>
+    <span class="en">Results are below — please scroll down</span>
+    <span class="x" id="toastx">点击关闭 · dismiss</span>
+  </div>
+
   <div id="meta" class="spin">正在载入索引…</div>
   <div id="res" class="res"></div>
 </div>
@@ -128,6 +134,36 @@ async function boot() {
   if (u) { $('#q').value = u; run(); }
 }
 
+
+/* 结果渲染完就弹一次；用户一滚动（或点关闭、或 8 秒后）即收起。
+   只在「本轮检索的第一屏」弹——翻页时用户已经在结果区里了，再弹就是打扰。 */
+let toastTimer = null;
+function showScrollToast() {
+  const t = document.getElementById('toast');
+  if (!t) return;
+  t.classList.add('on');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(hideScrollToast, 8000);
+  /* 不能直接监听 scroll 就收起：渲染时我们自己调了 scrollTo(top:0)，
+     那本身会触发 scroll，弹窗会在出现的同一瞬间被自己关掉——
+     第一次检索看着正常（当时已在顶部、没有滚动），第二次就再也不弹了。
+     所以既要等程序滚动结束再挂监听，也要求用户**真的往下滚了**才算数。 */
+  setTimeout(() => {
+    const base = scrollY;
+    const onScroll = () => {
+      if (scrollY > base + 60) { removeEventListener('scroll', onScroll); hideScrollToast(); }
+    };
+    addEventListener('scroll', onScroll, { passive: true });
+  }, 900);
+}
+function hideScrollToast() {
+  const t = document.getElementById('toast');
+  if (t) t.classList.remove('on');
+  clearTimeout(toastTimer);
+}
+document.addEventListener('click', e => {
+  if (e.target && e.target.id === 'toastx') hideScrollToast();
+});
 
 const esc2 = x => String(x).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 /* 查询里用户实际要求的词（不含被排除的），用于逐词给上下文 */
@@ -301,6 +337,7 @@ async function run() {
     pager.innerHTML = pagerHtml();
     bindPager();
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    if (pg === 0) showScrollToast();
 
     // ② 摘要回填：**只取当前页这 50 件**的正文。并发发起、按序填入。
     const more = document.getElementById('more');

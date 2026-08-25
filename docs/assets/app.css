@@ -192,3 +192,21 @@ footer.ft .in{max-width:78rem;margin:0 auto;padding:0 1.4rem;
 .scrolltip .en{display:block;font-size:.95rem;font-weight:500;color:var(--body);margin-top:.2rem}
 @keyframes nudge{0%,100%{transform:translateY(0)}50%{transform:translateY(4px)}}
 .scrolltip .arrow{display:inline-block;animation:nudge 1.4s ease-in-out infinite}
+
+/* 结果出来时的弹窗提醒：渲染后页面会滚回顶部，结果其实在下方，
+   用户很容易以为「什么都没有」。静态提示条会被当成页面装饰看过去，
+   所以再补一个有出现动作的浮层——动作才抓得住注意力。
+   一滚动就消失：用户既然已经开始下滑，提醒就完成使命了，不该继续挡着。 */
+.toast{position:fixed;left:50%;bottom:2.2rem;transform:translateX(-50%) translateY(1.2rem);
+  z-index:60;max-width:min(92vw,34rem);padding:1rem 1.4rem;
+  background:var(--ink);color:var(--paper);border:2px solid var(--stamp-lit);
+  border-radius:4px;box-shadow:0 8px 28px rgba(0,0,0,.28);
+  text-align:center;line-height:1.55;opacity:0;pointer-events:none;
+  transition:opacity .28s ease,transform .28s ease}
+.toast.on{opacity:1;transform:translateX(-50%) translateY(0);pointer-events:auto}
+.toast b{display:block;font-size:1.16rem;font-weight:600;color:#fff}
+.toast .en{display:block;font-size:1rem;color:#d9cfc0;margin-top:.25rem}
+.toast .x{display:block;font-family:var(--label);font-size:.62rem;letter-spacing:.16em;
+  text-transform:uppercase;color:#9aa1ac;margin-top:.6rem;cursor:pointer}
+.toast .x:hover{color:var(--stamp-lit)}
+@media(prefers-reduced-motion:reduce){.toast{transition:none}}
