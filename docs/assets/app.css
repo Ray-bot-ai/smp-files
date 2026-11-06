@@ -97,6 +97,7 @@ h1.pt .zh{display:block;font-size:.62em;color:var(--muted);margin-top:.25rem}
   overflow-wrap:anywhere;word-break:break-word;min-width:0}
 /* 中文没有空格，一行 782 字不会自动折行——必须强制断。踩过：中共传单原件那页把整栏撑破。 */
 .pane>div{min-width:0}
+.pane.pane2{grid-template-columns:1fr 1fr}
 .pane .txt.zh{font-size:.86rem}
 .pane img{border:1px solid var(--rule);background:#fff;filter:grayscale(1) contrast(1.05)}
 .pane .oldocr{font-family:ui-monospace,Menlo,monospace;font-size:.72rem;line-height:1.75;
@@ -130,7 +131,7 @@ footer.ft .in{max-width:78rem;margin:0 auto;padding:0 1.4rem;
   display:flex;flex-wrap:wrap;gap:.8rem 2rem;justify-content:space-between}
 
 @media(max-width:900px){
-  .pane{grid-template-columns:1fr}
+  .pane,.pane.pane2{grid-template-columns:1fr}
   .stats{grid-template-columns:repeat(2,1fr)}
   .stats div{border-left:0;border-top:1px solid var(--rule)}
   .stats div:nth-child(-n+2){border-top:0}

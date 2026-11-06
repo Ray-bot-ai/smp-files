@@ -15,7 +15,6 @@
     <a href="search.html">检索 Search</a>
     <a href="assist.html">联想 AI search</a>
     <a href="browse.html">目录 Catalogue</a>
-    <a href="quality.html">质量 Quality</a>
     <a href="index.html">关于 About</a>
     <a href="https://ray-bot-ai.github.io" target="_blank" rel="noopener">网站制作者 Site author</a>
   </nav>
@@ -24,11 +23,11 @@
 <div class="wrap">
   <div id="head"><p class="spin">载入中…</p></div>
   <div class="note">
-    每页并列：<b>原件影像</b>（点击可在 Internet Archive 看全图）、<b>本站转录</b>、<b>中文译文</b>。
-    转录由大模型生成，<b>数字、日期、人名、地址最不可靠</b>——引用前请核对左侧原件。
+    每页并列：<b>本站转录</b>、<b>中文译文</b>。
+    转录由大模型生成，<b>数字、日期、人名、地址最不可靠</b>——引用前请核对原件影像。
     <span class="zh" style="display:block;margin-top:.4rem;color:var(--muted)">
-      Each page shows the original scan, this edition's transcription, and a Chinese translation.
-      Machine-generated; verify against the scan before citing.</span>
+      Each page shows this edition's transcription and a Chinese translation.
+      Machine-generated; verify against the original scan before citing.</span>
   </div>
   <div id="pages"></div>
 </div>
@@ -61,13 +60,11 @@ function hl(s){
   const d = await getDoc(ID);
   $('#head').innerHTML = `
     <h1 class="pt">${esc(d.t)}</h1>
-    <p class="sub">${d.s ? d.s + ' 系列 series · ' : ''}${d.p} 页 pages ·
-      <a href="${d.ia}" target="_blank" rel="noopener">在 Internet Archive 查看原件 · View original on IA ↗</a>
+    <p class="sub">${d.s ? d.s + ' 系列 series · ' : ''}${d.p} 页 pages
       ${Q ? ` · 检索词 query「${esc(Q)}」已高亮 highlighted` : ''}</p>`;
-  const iid = 'smpa-files-' + ID;
 
   // 长卷宗必须分页：全库最大一件 1,284 页，一次渲染就是 1,284 个 section
-  // （每个含影像、转录、译文三栏），滚动和查找都会卡死。
+  // （每个含转录、译文两栏），滚动和查找都会卡死。
   // 每屏 25 页，**不是上限**——所有页都在，翻页即可，页码写在分页器上。
   // 带 ?p=N 进来时（从检索结果点某一页），自动翻到含该页的那一屏再滚过去。
   const PER = 25;
@@ -78,14 +75,9 @@ function hl(s){
   if (screen < 0) screen = 0;
 
   const paneHtml = p => `
-    <section class="pane" id="p${p.n}">
+    <section class="pane pane2" id="p${p.n}">
       <div>
-        <h4>原件影像 · Scan &nbsp;p${p.n + 1}</h4>
-        <a href="${d.ia}" target="_blank" rel="noopener">
-          <img loading="lazy" src="https://archive.org/download/${iid}/page/n${p.n}_w800.jpg" alt="page ${p.n + 1}"></a>
-      </div>
-      <div>
-        <h4>本站转录 · Transcription${p.bad ? ' <span class="badtag">不可用 unusable</span>' : ''}</h4>
+        <h4>p${p.n + 1} &nbsp;本站转录 · Transcription${p.bad ? ' <span class="badtag">不可用 unusable</span>' : ''}</h4>
         ${p.bad ? `<div class="badnote"><b>⚠ 这一页的转录不可用。</b>${esc(p.bad)}
           <span class="en">This page's transcription is not usable. The text below is kept
           for transparency only — do not cite it; read the scan on the left instead.</span></div>` : ''}
@@ -157,19 +149,7 @@ function hl(s){
       slice.map(paneHtml).join('') +
       (nScreen > 1 ? `<div id="pgbot">${pagerHtml()}</div>` : '');
     if (nScreen > 1) { bindPager(document.getElementById('pgtop')); bindPager(document.getElementById('pgbot')); }
-    // 旧 OCR 对照只在最后一屏出现，否则每屏都重复一遍
-    if (d.ia_ocr && screen === nScreen - 1) appendOldOcr();
     if (toTop) window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-
-  function appendOldOcr() {
-    $('#pages').insertAdjacentHTML('beforeend', `
-      <section class="pane" style="grid-template-columns:1fr">
-        <div><h4>对照：原有 OCR（Virtual Shanghai / bnAsie，ABBYY FineReader） · Existing machine OCR</h4>
-        <div class="oldocr">${esc(d.ia_ocr.slice(0, 6000))}</div>
-        <p class="muted" style="font-size:.84rem;margin-top:.6rem">
-          这是重做之前的状态，由 Virtual Shanghai / bnAsie 项目用 ABBYY FineReader 制作。保留它是为了交叉比对——两份不一致处，正是需要人工核对原件的地方。<br>The pre-existing OCR, produced by the Virtual Shanghai / bnAsie project with ABBYY FineReader, kept for cross-checking: where the two disagree is where a human should look.</p>
-        </div></section>`);
   }
 
   draw(screen, false);

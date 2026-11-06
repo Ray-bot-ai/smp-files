@@ -253,8 +253,9 @@ def build_docs_and_index():
             for tok in tokens(en + "\n" + zh):
                 inv[tok].setdefault(short, []).append(q["n"])
         json.dump({"i": short, "t": d.get("title", ""), "s": d.get("series", ""),
-                   "p": d.get("pages", 0), "ia": d.get("ia_url", ""),
-                   "ia_ocr": (d.get("ia_ocr") or "")[:20000],
+                   "p": d.get("pages", 0),
+                   # 2026-11：站点不再展示原有 OCR 对照、也不再链 IA 影像，
+                   # 所以 ia_ocr / ia_url 不再导出到站点数据。
                    "pages": pages},
                   open(os.path.join(OUT, "doc", f"{short}.json"), "w", encoding="utf-8"),
                   ensure_ascii=False, separators=(",", ":"))
@@ -399,9 +400,7 @@ if __name__ == "__main__":
         print("  它们这次不会进索引，下次重建会自动带上。")
     ng, gb = build_variants_min()
     print(f"字形表：{ng:,} 组 / {gb/1024:.0f} KB → docs/data/variants.min.json")
-    nt, scored = build_triage()
-    print(f"人工扫图队列：{nt:,} 页 → docs/data/triage.json"
-          f"（{'按成像指标排序' if scored else '按 □ 比例排序，缺 imgqual.json'}）")
+    # triage.html 已从站点撤下（2026-11），不再生成 triage.json。
     pr = build_progress(nd, npg, nbad)
     print(f"进度：{pr['files_done']}/{pr['files_total']:,} 件、"
           f"{pr['pages_done']:,}/{pr['pages_total']:,} 页、译文 {pr['zh_pages']:,} 页 "

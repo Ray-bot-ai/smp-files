@@ -15,7 +15,6 @@
     <a href="search.html" aria-current="page">检索 Search</a>
     <a href="assist.html">联想 AI search</a>
     <a href="browse.html">目录 Catalogue</a>
-    <a href="quality.html">质量 Quality</a>
     <a href="index.html">关于 About</a>
     <a href="https://ray-bot-ai.github.io" target="_blank" rel="noopener">网站制作者 Site author</a>
   </nav>
@@ -173,7 +172,7 @@ function queryTerms(raw) {
 }
 
 /* 标题命中区：与正文命中并列显示。含未转录卷宗（d=0）——没有正文可看，
-   给出 IA 原件链接；已转录的链到站内逐页阅读。全部显示，不设上限。 */
+   只显示标题；已转录的链到站内逐页阅读。全部显示，不设上限。 */
 function titleHitHtml(q, tits) {
   if (!tits.length) return '';
   const rows = tits.map(x => {
@@ -182,7 +181,7 @@ function titleHitHtml(q, tits) {
       (x.d ? '<b>已转录</b>' : '<span class="muted">未转录</span>');
     const link = x.d
       ? `<a href="file.html?id=${x.i}&q=${encodeURIComponent(q)}">${esc}</a>`
-      : `${esc} &nbsp;<a class="ia" href="https://archive.org/details/smpa-files-${x.i}" target="_blank" rel="noopener">IA 原件 ↗</a>`;
+      : esc;
     return `<div class="it"><div class="ti">${link}</div><div class="mt">${meta}</div></div>`;
   }).join('');
   return `<h2 class="sech">标题命中 Title matches<span class="muted"> · 覆盖全库（含未转录卷宗）</span></h2>` +
