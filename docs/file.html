@@ -67,14 +67,28 @@ function hl(s){
     nearby: '（据说明册附录 A 前后条目推定 · inferred from adjacent entries）',
     range: '（据说明册卷次总表推定 · inferred from the roll list）'
   };
-  const rollHtml = !rf ? '' : `<br><span class="roll">
-      ${rf.no.length ? `SMP 卷宗号 file no. ${rf.no.map(esc).join('、')} · ` : ''}缩微胶卷 microfilm NARA M1750
-      ${rf.r.map(n => {
+  // 实测定位（m=located，pos=[[卷, 起始帧], …]）链到卷内那一帧；只有卷号的链到整卷。
+  // IA 上只有整本 PDF 的卷（rolls[n].pdf）链到 PDF 页码（帧号 + 1）。
+  const frameLink = (n, f, cont) => {
+    const m = R.rolls[n] || {};
+    if (!m.ia) return `Roll ${n}（Internet Archive 上缺此卷 · not on IA）`;
+    const url = m.pdf ? `https://archive.org/download/${m.ia}/${encodeURIComponent(m.pdf)}#page=${f + 1}`
+                      : `https://archive.org/details/${m.ia}/page/n${f}/mode/2up`;
+    const lab = cont ? `Roll ${n}（续 · continued）` : m.pdf ? `Roll ${n} PDF 第 ${f + 1} 页起` : `Roll ${n} 第 ${f} 帧起`;
+    return `<a href="${url}" target="_blank" rel="noopener">${lab} ↗</a>`;
+  };
+  const rollLinks = !rf ? '' : rf.pos
+    ? rf.pos.map(([n, f]) => frameLink(n, f, (rf.cont || []).includes(n))).join('、')
+    : rf.r.map(n => {
         const ia = R.rolls[n] && R.rolls[n].ia;
         return ia ? `<a href="https://archive.org/details/${ia}" target="_blank" rel="noopener">Roll ${n} ↗</a>`
                   : `Roll ${n}（Internet Archive 上缺此卷 · not on IA）`;
-      }).join('、')}${rf.r.length > 1 ? '（跨卷 · spans rolls）' : ''}${HOW[rf.m] || ''}
-      ${rf.r.some(n => R.rolls[n] && R.rolls[n].ia) ? '<span class="rollnote">链接打开的是整卷胶卷，需在卷内翻到本卷宗 · links open the whole roll</span>' : ''}</span>`;
+      }).join('、') + (rf.r.length > 1 ? '（跨卷 · spans rolls）' : '') + (HOW[rf.m] || '');
+  const rollHtml = !rf ? '' : `<br><span class="roll">
+      ${rf.no.length ? `SMP 卷宗号 file no. ${rf.no.map(esc).join('、')} · ` : ''}缩微胶卷 microfilm NARA M1750 ${rollLinks}
+      <span class="rollnote">${rf.pos
+        ? '据本站转录与胶卷影像逐帧比对定位 · located by matching this transcription against the roll frames'
+        : rf.r.some(n => R.rolls[n] && R.rolls[n].ia) ? '链接打开的是整卷胶卷，需在卷内翻到本卷宗 · links open the whole roll' : ''}</span></span>`;
   $('#head').innerHTML = `
     <h1 class="pt">${esc(d.t)}</h1>
     <p class="sub">${d.s ? d.s + ' 系列 series · ' : ''}${d.p} 页 pages

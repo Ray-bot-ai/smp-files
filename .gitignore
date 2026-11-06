@@ -17,3 +17,8 @@ images_rotated/
 /review28/
 /review_zh/
 /export_pdf/
+
+# 沿卷定位的帧缓存（识别文字可重建，不入库）
+/.roll_frames/
+/roll_walk/page_index.pkl
+/roll_walk/*.log

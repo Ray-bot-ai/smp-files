@@ -188,6 +188,28 @@ def decide(nums, A, summary):
     return rolls, meth, res
 
 
+PDF_ONLY = {6: "RG263_M1750-6.pdf", 12: "RG263_M1750-12.pdf", 44: "SMPA Roll 44.pdf", 45: "SMPA Roll 45.pdf"}
+
+
+def load_located():
+    """{file_id: [(roll, start_frame, how, conf), ...]}；优先读合并后的 roll_walk/final.json。"""
+    wd = os.path.join(HERE, "roll_walk")
+    fin = os.path.join(wd, "final.json")
+    src = {}
+    if os.path.exists(fin):
+        src = {r: v["placed"] for r, v in json.load(open(fin, encoding="utf-8")).items()}
+    else:
+        import glob
+        for f in glob.glob(os.path.join(wd, "[0-9]*.json")):
+            d = json.load(open(f, encoding="utf-8"))
+            src[str(d["roll"])] = d["placed"]
+    out = collections.defaultdict(list)
+    for r, placed in src.items():
+        for i, v in placed.items():
+            out[i].append((int(r), v["start"], v.get("how", "vision"), v.get("conf", 1)))
+    return out
+
+
 def main():
     report = sys.argv[sys.argv.index("--report") + 1] if "--report" in sys.argv else None
     A, summary = load_appx(), load_summary()
@@ -224,7 +246,26 @@ def main():
                     "res": [(f"{k[0]}-{k[1]}", rs, m, pg) for k, rs, m, pg in res], "rolls": rolls, "meth": meth})
         if rolls:
             files[it["i"]] = {"no": [f"{'I.O.' if s == 'IO' else s}-{f}" for s, f in nums], "r": rolls, "m": meth}
+        elif nums:
+            files[it["i"]] = {"no": [f"{'I.O.' if s == 'IO' else s}-{f}" for s, f in nums], "r": [], "m": "none"}
+    # ---- 沿卷实测定位（tools/locate_frames.py + tools/fill_gaps.py）优先于附录 A 推出的卷号 ----
+    located = load_located()
+    nloc = ndiff = 0
+    for i, ps in located.items():
+        ps.sort(key=lambda x: (x[1] < 0, x[0]))            # 起点 ≥0 的卷在前；负起点 = 从前一卷续入
+        prev = files.get(i, {})
+        if prev.get("r") and not set(prev["r"]) & {r for r, *_ in ps}:
+            ndiff += 1
+        files[i] = {"no": prev.get("no", []), "r": sorted({r for r, *_ in ps}), "m": "located",
+                    "pos": [[r, max(st, 0)] for r, st, *_ in ps],
+                    **({"cont": sorted(r for r, st, *_ in ps if st < 0)} if any(st < 0 for _, st, *_ in ps) else {}),
+                    **({"single": 1} if all(c <= 1 for *_, c in ps) else {})}
+        nloc += 1
+    files = {i: v for i, v in files.items() if v["r"]}
     meta = {str(r): {"ia": ROLL_IA[r] if r in ROLL_ON_IA else None} for r in range(1, 68)}
+    for r, name in PDF_ONLY.items():                       # IA 上只有整本 PDF 的卷：链接指向 PDF 页码
+        meta[str(r)]["pdf"] = name
+    print(f"沿卷实测定位：{nloc:,} 件（其中与附录 A 推出的卷号不同、以实测为准：{ndiff}）")
     json.dump({"rolls": meta, "files": files}, open(OUT, "w", encoding="utf-8"),
               ensure_ascii=False, separators=(",", ":"))
     n = len(cat)

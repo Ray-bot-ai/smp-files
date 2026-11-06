@@ -1,0 +1,372 @@
+{
+ "1": {
+  "ia": "smpa-1-3",
+  "frames": 1270,
+  "book": "RG263_M1750-1",
+  "page_images": true
+ },
+ "2": {
+  "ia": "smpa-2",
+  "frames": 1341,
+  "book": "RG263_M1750-2",
+  "page_images": true
+ },
+ "3": {
+  "ia": "smpa-3",
+  "frames": 1342,
+  "book": "RG263_M1750-3",
+  "page_images": true
+ },
+ "4": {
+  "ia": "smpa-4",
+  "frames": 1290,
+  "book": "RG263_M1750-4",
+  "page_images": true
+ },
+ "5": {
+  "ia": "smpa-5",
+  "frames": 1374,
+  "book": "RG263_M1750-5",
+  "page_images": true
+ },
+ "6": {
+  "ia": "smpa-6",
+  "frames": 1700,
+  "book": null,
+  "page_images": false,
+  "pdf": "RG263_M1750-6.pdf"
+ },
+ "7": {
+  "ia": "smpa-7",
+  "frames": 1435,
+  "book": "RG263_M1750-7",
+  "page_images": true
+ },
+ "8": {
+  "ia": "smpa-8",
+  "frames": 1618,
+  "book": "RG263_M1750-8",
+  "page_images": true
+ },
+ "9": {
+  "ia": "smpa-9",
+  "frames": 1398,
+  "book": "RG263_M1750-9",
+  "page_images": true
+ },
+ "10": {
+  "ia": "smpa-10",
+  "frames": 1382,
+  "book": "RG263_M1750-10",
+  "page_images": true
+ },
+ "11": {
+  "ia": "smpa-11",
+  "frames": 1430,
+  "book": "RG263_M1750-11",
+  "page_images": true
+ },
+ "12": {
+  "ia": "smpa-12",
+  "frames": 1450,
+  "book": null,
+  "page_images": false,
+  "pdf": "RG263_M1750-12.pdf"
+ },
+ "13": {
+  "ia": "smpa-13",
+  "frames": 1475,
+  "book": "RG263_M1750-13",
+  "page_images": true
+ },
+ "14": {
+  "ia": "smpa-14",
+  "frames": 1584,
+  "book": "RG263_M1750-14",
+  "page_images": true
+ },
+ "15": {
+  "ia": "smpa-15",
+  "frames": 1389,
+  "book": "RG263_M1750-15",
+  "page_images": true
+ },
+ "16": {
+  "ia": "smpa-16",
+  "frames": 1370,
+  "book": "RG263_M1750-16",
+  "page_images": true
+ },
+ "17": {
+  "ia": "smpa-17",
+  "frames": 1374,
+  "book": "RG263_M1750-17",
+  "page_images": true
+ },
+ "18": {
+  "ia": "smpa-18",
+  "frames": 1441,
+  "book": "RG263_M1750-18",
+  "page_images": true
+ },
+ "19": {
+  "ia": "smpa-19",
+  "frames": 1394,
+  "book": "RG263_M1750-19",
+  "page_images": true
+ },
+ "20": {
+  "ia": "smpa-20",
+  "frames": 1401,
+  "book": "MF1750-20",
+  "page_images": true
+ },
+ "21": {
+  "ia": "smpa-21",
+  "frames": 1363,
+  "book": "MF1750-21",
+  "page_images": true
+ },
+ "22": {
+  "ia": "smpa-22",
+  "frames": 1397,
+  "book": "SMPA Roll 22",
+  "page_images": true
+ },
+ "23": {
+  "ia": "smpa-23",
+  "frames": 1394,
+  "book": "SMPA Roll 23",
+  "page_images": true
+ },
+ "24": {
+  "ia": "smpa-24",
+  "frames": 1419,
+  "book": "SMPA Roll 24",
+  "page_images": true
+ },
+ "25": {
+  "ia": "smpa-25",
+  "frames": 1378,
+  "book": "SMPA Roll 25",
+  "page_images": true
+ },
+ "26": {
+  "ia": "smpa-26",
+  "frames": 1732,
+  "book": "SMPA Roll 26",
+  "page_images": true
+ },
+ "27": {
+  "ia": "smpa-27",
+  "frames": 1370,
+  "book": "SMPA Roll 27",
+  "page_images": true
+ },
+ "28": {
+  "ia": "smpa-28",
+  "frames": 1429,
+  "book": "SMPA Roll 28",
+  "page_images": true
+ },
+ "30": {
+  "ia": "smpa-30",
+  "frames": 1485,
+  "book": "SMPA Roll 30",
+  "page_images": true
+ },
+ "31": {
+  "ia": "smpa-31",
+  "frames": 1446,
+  "book": "SMPA Roll 31",
+  "page_images": true
+ },
+ "32": {
+  "ia": "smpa-32",
+  "frames": 1456,
+  "book": "SMPA Roll 32",
+  "page_images": true
+ },
+ "33": {
+  "ia": "smpa-33",
+  "frames": 1445,
+  "book": "SMPA Roll 33",
+  "page_images": true
+ },
+ "34": {
+  "ia": "smpa-34",
+  "frames": 1481,
+  "book": "SMPA Roll 34",
+  "page_images": true
+ },
+ "35": {
+  "ia": "smpa-35",
+  "frames": 1463,
+  "book": "SMPA Roll 35",
+  "page_images": true
+ },
+ "36": {
+  "ia": "smpa-36",
+  "frames": 1526,
+  "book": "SMPA Roll 36",
+  "page_images": true
+ },
+ "37": {
+  "ia": "smpa-37",
+  "frames": 1422,
+  "book": "SMPA Roll 37",
+  "page_images": true
+ },
+ "38": {
+  "ia": "smpa-38",
+  "frames": 1434,
+  "book": "SMPA Roll 38",
+  "page_images": true
+ },
+ "40": {
+  "ia": "smpa-40",
+  "frames": 1458,
+  "book": "SMPA Roll 40",
+  "page_images": true
+ },
+ "41": {
+  "ia": "smpa-41",
+  "frames": 1475,
+  "book": "SMPA Roll 41",
+  "page_images": true
+ },
+ "42": {
+  "ia": "smpa-42",
+  "frames": 1473,
+  "book": "SMPA Roll 42",
+  "page_images": true
+ },
+ "43": {
+  "ia": "smpa-43",
+  "frames": 1472,
+  "book": "SMPA Roll 43",
+  "page_images": true
+ },
+ "44": {
+  "ia": "smpa-44",
+  "frames": 1459,
+  "book": null,
+  "page_images": false,
+  "pdf": "SMPA Roll 44.pdf"
+ },
+ "45": {
+  "ia": "smpa-45",
+  "frames": 1419,
+  "book": null,
+  "page_images": false,
+  "pdf": "SMPA Roll 45.pdf"
+ },
+ "46": {
+  "ia": "smpa-46",
+  "frames": 1559,
+  "book": "SMPA Roll 46",
+  "page_images": true
+ },
+ "47": {
+  "ia": "smpa-47",
+  "frames": 1455,
+  "book": "SMPA Roll 47",
+  "page_images": true
+ },
+ "48": {
+  "ia": "smpa-48",
+  "frames": 1484,
+  "book": "SMPA Roll 48",
+  "page_images": true
+ },
+ "49": {
+  "ia": "smpa-49",
+  "frames": 1432,
+  "book": "SMPA Roll 49",
+  "page_images": true
+ },
+ "50": {
+  "ia": "smpa-50",
+  "frames": 1453,
+  "book": "SMPA Roll 50",
+  "page_images": true
+ },
+ "51": {
+  "ia": "smpa-51",
+  "frames": 1476,
+  "book": "SMPA Roll 51",
+  "page_images": true
+ },
+ "52": {
+  "ia": "smpa-52",
+  "frames": 1477,
+  "book": "SMPA Roll 52",
+  "page_images": true
+ },
+ "53": {
+  "ia": "smpa-53",
+  "frames": 1366,
+  "book": "SMPA Roll 53",
+  "page_images": true
+ },
+ "54": {
+  "ia": "smpa-54",
+  "frames": null,
+  "book": null,
+  "page_images": false
+ },
+ "55": {
+  "ia": "smpa-55",
+  "frames": 1380,
+  "book": "SMPA Roll 55",
+  "page_images": true
+ },
+ "56": {
+  "ia": "smpa-56",
+  "frames": 1359,
+  "book": "SMPA Roll 56",
+  "page_images": true
+ },
+ "57": {
+  "ia": "smpa-57",
+  "frames": 1363,
+  "book": "SMPA Roll 57",
+  "page_images": true
+ },
+ "58": {
+  "ia": "smpa-58",
+  "frames": 1373,
+  "book": "SMPA Roll 58",
+  "page_images": true
+ },
+ "59": {
+  "ia": "smpa-59",
+  "frames": 1459,
+  "book": "SMPA Roll 59",
+  "page_images": true
+ },
+ "60": {
+  "ia": "smpa-60",
+  "frames": 1375,
+  "book": "SMPA Roll 60",
+  "page_images": true
+ },
+ "61": {
+  "ia": "smpa-61",
+  "frames": 1359,
+  "book": "SMPA Roll 61",
+  "page_images": true
+ },
+ "62": {
+  "ia": "smpa-62",
+  "frames": 1358,
+  "book": "SMPA Roll 62",
+  "page_images": true
+ },
+ "63": {
+  "ia": "smpa-63",
+  "frames": 1383,
+  "book": "SMPA Roll 63",
+  "page_images": true
+ }
+}
