@@ -154,7 +154,38 @@ data/*.json       ★ 核心产物，一件一个：每页 en/zh/error/tries/ima
 unusable_pages.json 人工判定放弃的页（站点标注、流水线跳过，两头都认这一份）
 docs/             GitHub Pages 站点（已上线）
 images/           页面影像（.gitignore，跑完即删）
+build_roll_map.py 卷宗 → 所在缩微胶卷（M1750 roll）对照 → docs/data/rolls.json
+tools/build_appendix_a.py  从 MinerU 结果重建说明册附录 A → m1750_appendix_a.tsv
+m1750_appendix_a.tsv  NARA 说明册附录 A（逐件 Box/Roll/File，3,708 行）
+m1750_rolls.tsv   说明册卷次总表（67 卷各自的号码起讫，用户整理）
+ref/m1750_pamphlet/   说明册的 MinerU 解析结果与页码对照（重建附录 A 用）
 ```
+
+## 卷宗所在胶卷（roll）
+
+卷宗页标题下写着这件卷宗的 SMP 号和所在的 M1750 roll，链到 Internet Archive 上的整卷胶卷
+（`smpa-N`，Roll 1 是 `smpa-1-3`；IA 上缺 29、39、64–67 卷）。重新生成：
+
+```bash
+python3 tools/build_appendix_a.py      # 只在改了附录 A 的解析时才需要
+.venv/bin/python build_roll_map.py      # 每次站点数据更新后跑
+```
+
+**怎么来的（2026-11-06）**
+- 依据是 NARA 说明册附录 A 的逐件表。**IA 给这本说明册配的 OCR 不能用**（大量漏 roll 号），
+  所以剥掉原文字层、把跨页切成单页，用 MinerU 重做；原图逐行核对 8 页、两次独立识别 290 行全同，
+  漏行的 1 页（单页 42）照原图补。
+- **汇总表的号码区间不能单独拿来推**：D-755/1131/1190 实际在 Roll 3，D-4810 起在 Roll 15，
+  带 (C) 的卷宗另摄在 Roll 59（D）和 Roll 60（N）。附录 A 本身**没有列 D-7734–8102**（Roll 33–40），
+  只有这一段退回汇总表。
+- 每件卷宗「自己的号」取自本站转录：先看封面标签页，再看登记章（取出现页数最多的），最后看 IA 标题。
+- 结果分三级，页面上照实标明：exact（附录 A 精确命中）/ nearby（附录 A 前后条目同卷，推定）/
+  range（附录 A 空当，按汇总表推定）。跨 4 卷以上、或查不到的，不显示。
+
+**现状与局限**：3,866 件中 2,840 件给出 roll（exact 2,395 / nearby 280 / range 165），1,026 件不给。
+随机抽读 25 件全对；已知残余错误来源是本站转录本身把号码数字认错——例如 754 号卷宗是 1932 年的报告，
+登记章却读作 D-9563（D-95xx 是 1940 年前后的号，疑为 D-3563，此为推断、未核原件）——规则查不出来。
+链接只到整卷，不到卷内页码。
 
 ---
 

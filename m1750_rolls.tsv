@@ -1,0 +1,77 @@
+# M1750 各卷（roll）所含卷宗号范围。
+# 来源：NARA 微缩出版物说明册 Records of the Shanghai Municipal Police 1894-1949,
+# Microfilm Pamphlet Describing M1750（Internet Archive:
+# records-of-the-shanghai-municipal-police-1894-1949-microfilm-pamphlet），用户整理。
+# 第 2、3 列是说明册原文；第 4–7 列是 build_roll_map.py 用的整数区间（含两端），
+# 已按下面「校订」处理说明册的明显笔误（只改了确证是笔误的两处）：
+#   Roll 4/5  「D-179 1/6」读作 D-1791/6
+#   Roll 45   「D-8624(C)」读作 D-8264(C)（Roll 46 接着就是 D-8264(2)）
+#   Roll 59   原文「D-8986 thru D-9944(C)」不改：附录 A 显示 Roll 59 收的是带 (C) 的卷宗，与 Roll 53–58 并行，不是笔误
+roll	file_numbers_and_dates	ia_id	from_series	from_no	to_series	to_no
+1	D-1 thru D-106 1929	smpa-1-3	D	1	D	106
+2	D-107 thru D-655 1929	smpa-2	D	107	D	655
+3	D-655 1929 (continued)	smpa-3	D	655	D	655
+4	D-1192 1930 thru D-179 1/6 1935	smpa-4	D	1192	D	1791
+5	D-179 1/6 1935 (continued) thru D-2325 1931	smpa-5	D	1791	D	2325
+6	D-2330 1937 thru D-2878 1931	smpa-6	D	2330	D	2878
+7	D-2879 1931 thru D-3176-A 1932	smpa-7	D	2879	D	3176
+8	D-3176-A 1932 (continued) thru D-3307 1932	smpa-8	D	3176	D	3307
+9	D-3307 1932 (continued) thru D-3390 1932	smpa-9	D	3307	D	3390
+10	D-3406 1932 thru D-3522 1932	smpa-10	D	3406	D	3522
+11	D-3525 1932 thru D-3914 1932	smpa-11	D	3525	D	3914
+12	D-3922 1932 thru D-4176 Pt. 1 1933	smpa-12	D	3922	D	4176
+13	D-4201 1934 thru D-4606 1935	smpa-13	D	4201	D	4606
+14	D-4611 1934 thru D-4801 1933	smpa-14	D	4611	D	4801
+15	D-4891 1940 thru D-5023 1940	smpa-15	D	4891	D	5023
+16	D-5023 (continued) thru D-5310 No. 2 1933	smpa-16	D	5023	D	5310
+17	D-5310 No. 3 1933 thru D-5422(2)-10 1939-41	smpa-17	D	5310	D	5422
+18	D-5422(C)-10 thru D-5501 1934	smpa-18	D	5422	D	5501
+19	D-5502 1934 thru D-5703 1935	smpa-19	D	5502	D	5703
+20	D-5703 1935 (continued) thru D-5836 1934	smpa-20	D	5703	D	5836
+21	D-5838 1942 thru D-6225 1936	smpa-21	D	5838	D	6225
+22	D-6225 1936 (continued) thru D-6593 1936	smpa-22	D	6225	D	6593
+23	D-6593 1936 (continued) thru D-6813 1935-39	smpa-23	D	6593	D	6813
+24	D-6813 1935-1940 (continued)	smpa-24	D	6813	D	6813
+25	D-6813 1938-1940 (continued) thru D-7042 1941	smpa-25	D	6813	D	7042
+26	D-7042 1941 (continued) thru D-7073 1935	smpa-26	D	7042	D	7073
+27	D-7074 1935 thru D-7138 1937	smpa-27	D	7074	D	7138
+28	D-7139 1935 thru D-7478	smpa-28	D	7139	D	7478
+29	D-7478 (continued) thru D-7538 1936		D	7478	D	7538
+30	D-7538 1936 (continued) thru D-7580 1935-41	smpa-30	D	7538	D	7580
+31	D-7612 1935-41 thru D-7675 1936	smpa-31	D	7612	D	7675
+32	D-7675 1936 (continued) thru D-7834 1941	smpa-32	D	7675	D	7834
+33	D-7835 1937 thru D-7994 1937	smpa-33	D	7835	D	7994
+34	D-7994 1937 (continued) thru D-8039A 1937	smpa-34	D	7994	D	8039
+35	D-8039A 1937 (continued) thru D-8039A/30 1937-40	smpa-35	D	8039	D	8039
+36	D-8039A/32 1937-41 thru D-8030A/41(C)-O 1940	smpa-36	D	8039	D	8039
+37	D-8039A/41(C)-O 1941 thru D-8039A/5(2) 1937-41	smpa-37	D	8039	D	8039
+38	D-8039/5(3) 1940-41 thru D-8039A/5(0)-1 1937-41	smpa-38	D	8039	D	8039
+39	D-8039A/5(0)-1 1937-41 (continued) thru 8039A/5(0)-5 Part 2		D	8039	D	8039
+40	D-8039A-5(0)-5 Part 2 1940-41 thru D-8089	smpa-40	D	8039	D	8089
+41	D-8090 thru D-8149-C505 1940	smpa-41	D	8090	D	8149
+42	D-8149 C505 (continued) thru D-8149-F 1943	smpa-42	D	8149	D	8149
+43	D-8149-F 1943 (continued) thru D-8155-D 1939	smpa-43	D	8149	D	8155
+44	D-8155-D 1939 (continued) thru D-8200A 1939	smpa-44	D	8155	D	8200
+45	D-8200 1939-40 thru D-8624(C) 1933-1937	smpa-45	D	8200	D	8264
+46	D-8264(2) 1933-37 (continued) thru D-8264(7) 1939	smpa-46	D	8264	D	8264
+47	D-8264(7) 1939 (continued) thru D-8298 1938	smpa-47	D	8264	D	8298
+48	D-8298 1938 (continued) thru D-8299 1939	smpa-48	D	8298	D	8299
+49	D-8299 1935 (continued) thru D-8371 1938	smpa-49	D	8299	D	8371
+50	D-8372 1942 thru D-8590 1938	smpa-50	D	8372	D	8590
+51	D-8587 1938 thru D-8707 1938	smpa-51	D	8587	D	8707
+52	D-8707 1938 (continued) thru D-8839 1938	smpa-52	D	8707	D	8839
+53	D-8843 1938 thru D-8984(C) 1940	smpa-53	D	8843	D	8984
+54	D-8985(C) 1939 thru D-9128 1941	smpa-54	D	8985	D	9128
+55	D-9128 1941 (continued) thru D-9209	smpa-55	D	9128	D	9209
+56	D-9210 1939 thru D-9357 1939	smpa-56	D	9210	D	9357
+57	D-9357 1939 (continued) thru D-9411/14(C) 1940	smpa-57	D	9357	D	9411
+58	D-9411/17(C) thru D-9646 1940	smpa-58	D	9411	D	9646
+59	D-8986 1941 thru D-9944(C) 1940	smpa-59	D	8986	D	9944
+60	D-9946 1940 thru N-362 1940	smpa-60	D	9946	N	362
+61	N-363 1940 thru N-1104 1942	smpa-61	N	363	N	1104
+62	N-1232 1941 thru U-4 1944	smpa-62	N	1232	U	4
+63	U-352 1944 thru IO 861 IO 864 1917	smpa-63	U	352	IO	864
+64	IO 922 1935 thru IO 4989 1923		IO	922	IO	4989
+65	IO 5044 - 5195 1923 thru IO 6696-6701 1925		IO	5044	IO	6701
+66	IO 6716-6722 1925 thru IO 9199 1928-29		IO	6716	IO	9199
+67	IO 9199 1928-29 (continued) thru CID 10381 1925		IO	9199	CID	10381

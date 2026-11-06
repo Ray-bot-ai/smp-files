@@ -58,10 +58,27 @@ function hl(s){
   if (!ID) { $('#head').innerHTML = '<p class="spin">缺少 id 参数</p>'; return; }
   await loadNorm();
   const d = await getDoc(ID);
+  // 所在缩微胶卷：rolls.json 由 build_roll_map.py 据 NARA M1750 说明册附录 A 生成。
+  // 查不到的卷宗不显示这一行（宁缺毋滥）；推定得来的照实标明。
+  const R = await fetch('data/rolls.json').then(r => r.ok ? r.json() : null).catch(() => null);
+  const rf = R && R.files[ID];
+  const HOW = {
+    exact: '',
+    nearby: '（据说明册附录 A 前后条目推定 · inferred from adjacent entries）',
+    range: '（据说明册卷次总表推定 · inferred from the roll list）'
+  };
+  const rollHtml = !rf ? '' : `<br><span class="roll">
+      ${rf.no.length ? `SMP 卷宗号 file no. ${rf.no.map(esc).join('、')} · ` : ''}缩微胶卷 microfilm NARA M1750
+      ${rf.r.map(n => {
+        const ia = R.rolls[n] && R.rolls[n].ia;
+        return ia ? `<a href="https://archive.org/details/${ia}" target="_blank" rel="noopener">Roll ${n} ↗</a>`
+                  : `Roll ${n}（Internet Archive 上缺此卷 · not on IA）`;
+      }).join('、')}${rf.r.length > 1 ? '（跨卷 · spans rolls）' : ''}${HOW[rf.m] || ''}
+      ${rf.r.some(n => R.rolls[n] && R.rolls[n].ia) ? '<span class="rollnote">链接打开的是整卷胶卷，需在卷内翻到本卷宗 · links open the whole roll</span>' : ''}</span>`;
   $('#head').innerHTML = `
     <h1 class="pt">${esc(d.t)}</h1>
     <p class="sub">${d.s ? d.s + ' 系列 series · ' : ''}${d.p} 页 pages
-      ${Q ? ` · 检索词 query「${esc(Q)}」已高亮 highlighted` : ''}</p>`;
+      ${Q ? ` · 检索词 query「${esc(Q)}」已高亮 highlighted` : ''}${rollHtml}</p>`;
 
   // 长卷宗必须分页：全库最大一件 1,284 页，一次渲染就是 1,284 个 section
   // （每个含转录、译文两栏），滚动和查找都会卡死。

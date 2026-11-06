@@ -37,6 +37,8 @@ header.bar{background:var(--ink);color:var(--paper);position:sticky;top:0;z-inde
 h1.pt{font-weight:400;font-size:clamp(1.6rem,4vw,2.4rem);margin:.2rem 0 .3rem;color:var(--ink)}
 h1.pt .zh{display:block;font-size:.62em;color:var(--muted);margin-top:.25rem}
 .sub{color:var(--muted);font-size:.95rem;margin:0 0 2rem}
+.sub .roll{display:inline-block;margin-top:.45rem;line-height:1.6}
+.sub .rollnote{display:block;font-size:.8rem;opacity:.8}
 
 /* 统计条 */
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(8rem,1fr));

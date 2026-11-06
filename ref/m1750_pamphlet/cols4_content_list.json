@@ -1,0 +1,56 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/ef5a13f99c6c18a0399d419b30d2dc986a6c836ffcb7a760656734507718348f.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Box</td><td>Roll</td><td>File</td></tr><tr><td>2</td><td>1</td><td>95</td></tr><tr><td>2</td><td>1</td><td>96</td></tr><tr><td>2</td><td>1</td><td>97</td></tr><tr><td></td><td>1</td><td>97</td></tr><tr><td>2</td><td></td><td>98</td></tr><tr><td></td><td>1</td><td>98</td></tr><tr><td>2</td><td>1</td><td>99</td></tr><tr><td>2</td><td>1</td><td>101</td></tr><tr><td>2</td><td></td><td>102</td></tr><tr><td>2</td><td>1</td><td>103</td></tr><tr><td>2</td><td>1</td><td>104</td></tr><tr><td></td><td>1</td><td>106</td></tr><tr><td>2</td><td></td><td>106</td></tr><tr><td>2</td><td>2</td><td>107</td></tr><tr><td>2</td><td>2</td><td>108</td></tr><tr><td></td><td>2</td><td>109</td></tr><tr><td></td><td>2</td><td>110</td></tr><tr><td>2</td><td></td><td>110</td></tr><tr><td>2</td><td>2</td><td>111</td></tr></table>",
+        "bbox": [
+            0,
+            6,
+            1000,
+            1000
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/2e08e81fe2ebdae5eea4fae98c27f29ae4a60b05ff05c4ccdd127eff87d8c007.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Box</td><td>Roll</td><td>File</td><td>Fold</td></tr><tr><td></td><td></td><td></td><td>9</td></tr><tr><td></td><td></td><td></td><td>S</td></tr><tr><td></td><td>6</td><td>2714</td><td>Rep</td></tr><tr><td>22</td><td>6</td><td>2754</td><td>Rep</td></tr><tr><td></td><td></td><td></td><td>G</td></tr><tr><td></td><td></td><td></td><td>I</td></tr><tr><td></td><td></td><td></td><td>V</td></tr><tr><td></td><td></td><td></td><td>Cop</td></tr><tr><td></td><td></td><td></td><td>I</td></tr><tr><td></td><td></td><td></td><td>J</td></tr><tr><td></td><td></td><td></td><td>J</td></tr><tr><td></td><td></td><td></td><td>Exe</td></tr><tr><td></td><td></td><td></td><td>a</td></tr><tr><td></td><td></td><td></td><td>Rai</td></tr><tr><td></td><td></td><td></td><td>I</td></tr><tr><td></td><td></td><td></td><td>Sha</td></tr><tr><td></td><td></td><td></td><td>Lis</td></tr><tr><td></td><td></td><td></td><td>r</td></tr><tr><td>22</td><td>6</td><td>2755</td><td>Zur</td></tr><tr><td>22</td><td>6</td><td>2756</td><td>Rep</td></tr><tr><td>22</td><td>6</td><td>2760</td><td>Ar</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>22</td><td>6</td><td>2762</td><td>Let</td></tr><tr><td>22</td><td></td><td>2764</td><td>Ne</td></tr><tr><td></td><td>6</td><td>2764</td><td>Re</td></tr><tr><td>22</td><td></td><td>2801</td><td>Va</td></tr><tr><td>22</td><td>6</td><td>2851</td><td>Cr</td></tr><tr><td>22</td><td>6</td><td>2852</td><td>Ne</td></tr><tr><td>Box</td><td>Roll</td><td>File</td><td>Folders</td></tr><tr><td>22</td><td>6</td><td>2871</td><td>Mem</td></tr><tr><td></td><td></td><td></td><td>Sa</td></tr><tr><td></td><td></td><td></td><td>Trans</td></tr><tr><td></td><td></td><td></td><td>Pe</td></tr><tr><td></td><td></td><td></td><td>Trans</td></tr><tr><td></td><td></td><td></td><td>B</td></tr><tr><td></td><td></td><td></td><td>Trans</td></tr><tr><td></td><td></td><td></td><td>S</td></tr><tr><td></td><td></td><td></td><td>Trans</td></tr><tr><td></td><td></td><td></td><td>fr</td></tr><tr><td></td><td></td><td></td><td>D</td></tr><tr><td></td><td></td><td></td><td>c</td></tr><tr><td></td><td></td><td></td><td>Tran</td></tr><tr><td></td><td></td><td></td><td>S</td></tr><tr><td></td><td></td><td></td><td>Trans</td></tr><tr><td></td><td></td><td></td><td>a</td></tr><tr><td></td><td></td><td></td><td>Let</td></tr><tr><td></td><td></td><td></td><td>I</td></tr><tr><td></td><td></td><td></td><td>Ack</td></tr><tr><td></td><td></td><td></td><td>G</td></tr><tr><td></td><td></td><td></td><td>Tran</td></tr><tr><td></td><td></td><td></td><td>fr</td></tr><tr><td></td><td></td><td></td><td>I</td></tr><tr><td></td><td></td><td></td><td>G</td></tr><tr><td></td><td></td><td></td><td>Let</td></tr><tr><td></td><td></td><td></td><td>L</td></tr><tr><td></td><td></td><td></td><td>Let</td></tr><tr><td></td><td></td><td></td><td>L</td></tr><tr><td></td><td></td><td></td><td>L</td></tr><tr><td></td><td></td><td></td><td>L</td></tr><tr><td></td><td></td><td></td><td>L</td></tr><tr><td></td><td></td><td></td><td>L</td></tr><tr><td></td><td></td><td></td><td>L</td></tr><tr><td></td><td></td><td></td><td>L</td></tr><tr><td></td><td></td><td></td><td>L</td></tr><tr><td></td><td></td><td></td><td>L</td></tr><tr><td></td><td></td><td></td><td>L</td></tr><tr><td></td><td></td><td></td><td>L</td></tr><tr><td></td><td></td><td></td><td>L</td></tr><tr><td></td><td></td><td></td><td>L</td></tr><tr><td></td><td></td><td></td><td>L</td></tr><tr><td></td><td></td><td></td><td>L</td></tr><tr><td>Box</td><td>Roll</td><td>File</td><td>Fold</td></tr><tr><td>22</td><td>7</td><td>2898</td><td>Rep</td></tr><tr><td>22</td><td>7</td><td>2899</td><td>Me</td></tr><tr><td>23</td><td></td><td>2919</td><td>Ant</td></tr><tr><td>23</td><td></td><td>2934</td><td>Ext</td></tr><tr><td>23</td><td>7</td><td>2952</td><td>Fo</td></tr><tr><td>23</td><td>7</td><td>2953</td><td>Me</td></tr><tr><td>23</td><td>7</td><td>2954</td><td>Dr</td></tr><tr><td>23</td><td>7</td><td>2955</td><td>Re</td></tr><tr><td>23</td><td>7</td><td>2956</td><td>Re</td></tr><tr><td>23</td><td>7</td><td>2960</td><td>Ca</td></tr><tr><td>23</td><td>7</td><td>2961</td><td>Re</td></tr><tr><td>23</td><td>7</td><td>2962</td><td>Si</td></tr><tr><td>23</td><td>7</td><td>3002</td><td>R</td></tr><tr><td>23</td><td>7</td><td>3009</td><td>R</td></tr><tr><td>23</td><td></td><td>3010</td><td>R</td></tr><tr><td>23</td><td>7</td><td>3011</td><td>R</td></tr><tr><td>23</td><td>7</td><td>3013</td><td>R</td></tr><tr><td></td><td>7</td><td>3017</td><td>G</td></tr><tr><td>23</td><td>7</td><td>3018</td><td>R</td></tr><tr><td>23</td><td>7</td><td>3019</td><td>R</td></tr><tr><td></td><td>7</td><td>3019B</td><td>L</td></tr><tr><td>23</td><td>7</td><td>3032</td><td>C</td></tr><tr><td>23</td><td>7</td><td>3053</td><td>F</td></tr></table>",
+        "bbox": [
+            76,
+            126,
+            1000,
+            998
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "",
+        "table_caption": [],
+        "table_footnote": [],
+        "bbox": [
+            71,
+            129,
+            1000,
+            1000
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "",
+        "table_caption": [],
+        "table_footnote": [],
+        "bbox": [
+            85,
+            132,
+            1000,
+            998
+        ],
+        "page_idx": 3
+    }
+]
