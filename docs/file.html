@@ -23,14 +23,12 @@
 <div class="wrap">
   <div id="head"><p class="spin">载入中…</p></div>
   <div class="note">
-    每页并列：<b>原件影像</b>、<b>本站转录</b>、<b>中文译文</b>。影像取自 Internet Archive：
-    在 M1750 缩微胶卷里定位到的页显示<b>胶卷扫描的对应帧</b>，其余页显示单件扫描；图下注明出处，点击看大图。
+    每页并列：<b>原件影像</b>（取自 Internet Archive 上的单件扫描，点击看大图）、<b>本站转录</b>、<b>中文译文</b>。
     转录由大模型生成，<b>数字、日期、人名、地址最不可靠</b>——引用前请核对左侧原件。
     <span class="zh" style="display:block;margin-top:.4rem;color:var(--muted)">
-      Each page shows the original scan, this edition's transcription, and a Chinese translation.
-      Scans come from Internet Archive: the matching frame of the M1750 microfilm roll where the page
-      has been located on the roll, otherwise the single-file scan. Machine-generated; verify against
-      the scan before citing.</span>
+      Each page shows the original scan (the single-file scan on Internet Archive; click to enlarge),
+      this edition's transcription, and a Chinese translation.
+      Machine-generated; verify against the scan before citing.</span>
   </div>
   <div id="pages"></div>
 </div>
@@ -111,11 +109,14 @@ function hl(s){
   // 每页影像：rolls.json 的 pf = [[卷, 起始帧, 首页, 末页], …]，第 n 页 = 该卷第「起始帧 + n」帧。
   // build_roll_map.py 只给胶卷上首尾相接的卷宗（别的会中途错开一帧，见该处说明）。
   // 没有 pf 的卷宗用 IA 单件第 n 页。roll 帧载入失败时自动换成单件。
+  // 2026-11-07 起暂时全部用单件（USE_ROLL_FRAMES = false）；要恢复胶卷帧，改成 true 即可。
+  const USE_ROLL_FRAMES = false;
   const single = n => ({
     src: `https://archive.org/download/smpa-files-${ID}/page/n${n}_w800.jpg`,
     href: `https://archive.org/details/smpa-files-${ID}/page/n${n}/mode/2up`,
     cap: `IA 单件 single-file scan · 第 ${n + 1} 页`});
   const scanOf = n => {
+    if (!USE_ROLL_FRAMES) return single(n);
     const seg = rf && rf.pf && rf.pf.find(([, , a, b]) => a <= n && n <= b);
     const m = seg && R.rolls[seg[0]];
     if (!m || !m.ia || m.pdf) return single(n);
