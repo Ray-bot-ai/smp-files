@@ -210,6 +210,53 @@ def load_located():
     return out
 
 
+def page_frames():
+    """{file_id: [[roll, start, k0, k1], ...]}：单件第 k 页（k0 ≤ k ≤ k1）= 该卷第 start + k 帧。
+
+    两边的起点都已实测确认，页与帧按「起始帧 + 页序」对应，不逐页识别。
+    但只在**首尾相接**的卷宗上用：同卷下一件实测起点正好 = 本件起点 + 页数
+    （卷内最后一件则是正好到卷尾）。其余一律不给，网页改用 IA 单件影像。
+
+    依据（2026-11-07 抽 50 件、94 帧，本机 Vision 识别对照）：
+    - 首尾相接的约 35 件全部对上；仅 2656 号一例「单件重复扫了一页、又缺胶卷上一页」，
+      两相抵消、首尾仍相接，中间错配一页。
+    - 下一件起点多出几帧的（695 件），约三成是那几帧夹在本件中间，从夹入处起整页错开一帧
+      （7、312、2801 号）；从数据上分不出是哪些件，故不用。
+    - 重叠的（单件页数多于胶卷帧数）、跨卷续接的同理：3278 号第 4 卷第 2 帧起就错一页
+      （单件第 1、2 页重复），续到第 5 卷时第 0 帧是片头。
+    IA 上只有整本 PDF 的卷没有逐页图，不给。
+    同一件在两卷都首尾相接（IA 上第 51/52 卷大段重复）时取识别把握高的那卷。
+    """
+    fin = json.load(open(os.path.join(HERE, "roll_walk", "final.json"), encoding="utf-8"))
+    cand = collections.defaultdict(list)
+    for r, R in fin.items():
+        if int(r) in PDF_ONLY:
+            continue
+        starts = sorted(v["start"] for v in R["placed"].values())
+        for i, v in R["placed"].items():
+            st, n = v["start"], v["pages"]
+            nxt = next((s for s in starts if s > st), R["frames"])
+            if st < 0 or nxt != st + n:
+                continue
+            prio = (-v.get("conf", 1), -v.get("score", 0), int(r))
+            cand[i].append((prio, int(r), st, 0, n - 1))
+    out = {}
+    for i, cs in cand.items():
+        page = {}                                          # 页 → (roll, start)，先到先得
+        for _, r, st, k0, k1 in sorted(cs):
+            for k in range(k0, k1 + 1):
+                page.setdefault(k, (r, st))
+        segs = []
+        for k in sorted(page):
+            r, st = page[k]
+            if segs and segs[-1][0] == r and segs[-1][1] == st and segs[-1][3] == k - 1:
+                segs[-1][3] = k
+            else:
+                segs.append([r, st, k, k])
+        out[i] = segs
+    return out
+
+
 def main():
     report = sys.argv[sys.argv.index("--report") + 1] if "--report" in sys.argv else None
     A, summary = load_appx(), load_summary()
@@ -261,6 +308,12 @@ def main():
                     **({"cont": sorted(r for r, st, *_ in ps if st < 0)} if any(st < 0 for _, st, *_ in ps) else {}),
                     **({"single": 1} if all(c <= 1 for *_, c in ps) else {})}
         nloc += 1
+    pf = page_frames()
+    for i, segs in pf.items():
+        files[i]["pf"] = segs
+    npg = {it["i"]: it["p"] for it in cat}
+    nroll = sum(len({k for _, _, k0, k1 in segs for k in range(k0, k1 + 1)}) for segs in pf.values())
+    print(f"影像取 roll 帧的页：{nroll:,} / 全库 {sum(npg.values()):,} 页；其余页用 IA 单件影像")
     files = {i: v for i, v in files.items() if v["r"]}
     meta = {str(r): {"ia": ROLL_IA[r] if r in ROLL_ON_IA else None} for r in range(1, 68)}
     for r, name in PDF_ONLY.items():                       # IA 上只有整本 PDF 的卷：链接指向 PDF 页码

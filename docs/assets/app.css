@@ -102,6 +102,7 @@ h1.pt .zh{display:block;font-size:.62em;color:var(--muted);margin-top:.25rem}
 .pane.pane2{grid-template-columns:1fr 1fr}
 .pane .txt.zh{font-size:.86rem}
 .pane img{border:1px solid var(--rule);background:#fff;filter:grayscale(1) contrast(1.05)}
+.pane .scap{margin:.4rem 0 0;font-size:.74rem;line-height:1.45;color:var(--muted)}
 .pane .oldocr{font-family:ui-monospace,Menlo,monospace;font-size:.72rem;line-height:1.75;
   color:#8b8478;white-space:pre-wrap;max-height:30rem;overflow:auto}
 
